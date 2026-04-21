@@ -1,0 +1,38 @@
+{
+  "current_full_recognize_markers_ms": {
+    "mean": 13937.979,
+    "vals": [
+      13821.128,
+      14054.831
+    ]
+  },
+  "current_fortress_only_ms": {
+    "mean": 274.755,
+    "vals": [
+      293.18,
+      283.4,
+      275.842,
+      273.139,
+      248.215
+    ]
+  },
+  "current_great_church_only_ms": {
+    "mean": 7614.475,
+    "vals": [
+      7640.147,
+      7588.803
+    ]
+  },
+  "new_fortress_model_ms": {
+    "mean": 0.579,
+    "median": 0.5074
+  },
+  "new_great_church_model_ms": {
+    "mean": 1.8808,
+    "median": 0.6519
+  },
+  "hybrid_blend_only_ms": {
+    "mean": 0.013614,
+    "median": 0.0109
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\palace_status_cnn.pt",
+  "class_names": [
+    "Status_Fire",
+    "Status_Magic"
+  ],
+  "model_meta": {
+    "best_epoch": 6,
+    "best_val_accuracy": 1.0,
+    "train_samples": 202,
+    "val_samples": 51
+  },
+  "count": 5,
+  "results": [
+    {
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\Screenshots\\Screenshot (133).png",
+      "crop_method": "fallback",
+      "panel_shape": [
+        748,
+        748
+      ],
+      "asym_shape": [
+        1191,
+        1176
+      ],
+      "palace_center_cv": {
+        "x": 329,
+        "y": 251
+      },
+      "panel_crop_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_palace_model_on_screens_133_137\\Screenshot_133.png__panel_crop.png",
+      "asym_crop_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_palace_model_on_screens_133_137\\Screenshot_133.png__asym_further_crop_1191x1176.png",
+      "palace_crop_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_palace_model_on_screens_133_137\\Screenshot_133.png__palace_crop_200.png",
+      "predicted_label": "Status_Magic",
+      "confidence": 0.653203010559082,
+      "ranking": [
+        {
+          "label": "Status_Magic",
+          "probability": 0.653203010559082
+        },
+        {
+          "label": "Status_Fire",
+          "probability": 0.34679698944091797
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\Screenshots\\Screenshot (134).png",
+      "crop_method": "fallback",
+      "panel_shape": [
+        748,
+        748
+      ],
+      "asym_shape": [
+        1191,
+        1176
+      ],
+      "palace_center_cv": {
+        "x": 329,
+        "y": 251
+      },
+      "panel_crop_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_palace_model_on_screens_133_137\\Screenshot_134.png__panel_crop.png",
+      "asym_crop_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_palace_model_on_screens_133_137\\Screenshot_134.png__asym_further_crop_1191x1176.png",
+      "palace_crop_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_palace_model_on_screens_133_137\\Screenshot_134.png__palace_crop_200.png",
+      "predicted_label": "Status_Magic",
+      "confidence": 0.653203010559082,
+      "ranking": [
+        {
+          "label": "Status_Magic",
+          "probability": 0.653203010559082
+        },
+        {
+          "label": "Status_Fire",
+          "probability": 0.34679698944091797
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\Screenshots\\Screenshot (135).png",
+      "crop_method": "fallback",
+      "panel_shape": [
+        746,
+        746
+      ],
+      "asym_shape": [
+        1191,
+        1176
+      ],
+      "palace_center_cv": {
+        "x": 329,
+        "y": 251
+      },
+      "panel_crop_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_palace_model_on_screens_133_137\\Screenshot_135.png__panel_crop.png",
+      "asym_crop_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_palace_model_on_screens_133_137\\Screenshot_135.png__asym_further_crop_1191x1176.png",
+      "palace_crop_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_palace_model_on_screens_133_137\\Screenshot_135.png__palace_crop_200.png",
+      "predicted_label": "Status_Magic",
+      "confidence": 0.6531104445457458,
+      "ranking": [
+        {
+          "label": "Status_Magic",
+          "probability": 0.6531104445457458
+        },
+        {
+          "label": "Status_Fire",
+          "probability": 0.34688955545425415
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\Screenshots\\Screenshot (136).png",
+      "crop_method": "fallback",
+      "panel_shape": [
+        746,
+        746
+      ],
+      "asym_shape": [
+        1191,
+        1176
+      ],
+      "palace_center_cv": {
+        "x": 329,
+        "y": 251
+      },
+      "panel_crop_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_palace_model_on_screens_133_137\\Screenshot_136.png__panel_crop.png",
+      "asym_crop_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_palace_model_on_screens_133_137\\Screenshot_136.png__asym_further_crop_1191x1176.png",
+      "palace_crop_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_palace_model_on_screens_133_137\\Screenshot_136.png__palace_crop_200.png",
+      "predicted_label": "Status_Magic",
+      "confidence": 0.6531104445457458,
+      "ranking": [
+        {
+          "label": "Status_Magic",
+          "probability": 0.6531104445457458
+        },
+        {
+          "label": "Status_Fire",
+          "probability": 0.34688955545425415
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\Screenshots\\Screenshot (137).png",
+      "crop_method": "fallback",
+      "panel_shape": [
+        746,
+        746
+      ],
+      "asym_shape": [
+        1191,
+        1176
+      ],
+      "palace_center_cv": {
+        "x": 329,
+        "y": 251
+      },
+      "panel_crop_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_palace_model_on_screens_133_137\\Screenshot_137.png__panel_crop.png",
+      "asym_crop_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_palace_model_on_screens_133_137\\Screenshot_137.png__asym_further_crop_1191x1176.png",
+      "palace_crop_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_palace_model_on_screens_133_137\\Screenshot_137.png__palace_crop_200.png",
+      "predicted_label": "Status_Fire",
+      "confidence": 0.5886059999465942,
+      "ranking": [
+        {
+          "label": "Status_Fire",
+          "probability": 0.5886059999465942
+        },
+        {
+          "label": "Status_Magic",
+          "probability": 0.41139402985572815
+        }
+      ]
+    }
+  ]
+}

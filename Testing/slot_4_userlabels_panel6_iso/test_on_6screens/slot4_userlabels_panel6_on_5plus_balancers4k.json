@@ -1,0 +1,137 @@
+{
+  "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_userlabels_panel6_iso\\slot4_status_cnn_userlabels_panel6_iso.pt",
+  "class_names": [
+    "Church",
+    "empty",
+    "Sorcerer_s_Rise"
+  ],
+  "image_size": 200,
+  "meta": {
+    "best_epoch": 19,
+    "best_val_accuracy": 0.6583333333333333,
+    "train_samples": 7200,
+    "val_samples": 1800
+  },
+  "results": [
+    {
+      "input": "Screenshot (133).png",
+      "predicted_label": "Church",
+      "confidence": 0.4765572249889374,
+      "ranking": [
+        {
+          "label": "Church",
+          "probability": 0.4765572249889374
+        },
+        {
+          "label": "empty",
+          "probability": 0.3026192784309387
+        },
+        {
+          "label": "Sorcerer_s_Rise",
+          "probability": 0.2208234965801239
+        }
+      ],
+      "patch200_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_userlabels_panel6_iso\\test_on_6screens\\Screenshot_133_slot4_patch200.png"
+    },
+    {
+      "input": "Screenshot (134).png",
+      "predicted_label": "Church",
+      "confidence": 0.586020827293396,
+      "ranking": [
+        {
+          "label": "Church",
+          "probability": 0.586020827293396
+        },
+        {
+          "label": "empty",
+          "probability": 0.25739917159080505
+        },
+        {
+          "label": "Sorcerer_s_Rise",
+          "probability": 0.15658001601696014
+        }
+      ],
+      "patch200_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_userlabels_panel6_iso\\test_on_6screens\\Screenshot_134_slot4_patch200.png"
+    },
+    {
+      "input": "Screenshot (135).png",
+      "predicted_label": "Church",
+      "confidence": 0.5920599699020386,
+      "ranking": [
+        {
+          "label": "Church",
+          "probability": 0.5920599699020386
+        },
+        {
+          "label": "empty",
+          "probability": 0.24089327454566956
+        },
+        {
+          "label": "Sorcerer_s_Rise",
+          "probability": 0.16704672574996948
+        }
+      ],
+      "patch200_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_userlabels_panel6_iso\\test_on_6screens\\Screenshot_135_slot4_patch200.png"
+    },
+    {
+      "input": "Screenshot (136).png",
+      "predicted_label": "Church",
+      "confidence": 0.5921311378479004,
+      "ranking": [
+        {
+          "label": "Church",
+          "probability": 0.5921311378479004
+        },
+        {
+          "label": "empty",
+          "probability": 0.24087882041931152
+        },
+        {
+          "label": "Sorcerer_s_Rise",
+          "probability": 0.1669900119304657
+        }
+      ],
+      "patch200_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_userlabels_panel6_iso\\test_on_6screens\\Screenshot_136_slot4_patch200.png"
+    },
+    {
+      "input": "Screenshot (137).png",
+      "predicted_label": "Church",
+      "confidence": 0.5887925028800964,
+      "ranking": [
+        {
+          "label": "Church",
+          "probability": 0.5887925028800964
+        },
+        {
+          "label": "empty",
+          "probability": 0.23616981506347656
+        },
+        {
+          "label": "Sorcerer_s_Rise",
+          "probability": 0.17503765225410461
+        }
+      ],
+      "patch200_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_userlabels_panel6_iso\\test_on_6screens\\Screenshot_137_slot4_patch200.png"
+    },
+    {
+      "input": "Balancers_4K.png",
+      "predicted_label": "empty",
+      "confidence": 0.415276437997818,
+      "ranking": [
+        {
+          "label": "empty",
+          "probability": 0.415276437997818
+        },
+        {
+          "label": "Church",
+          "probability": 0.38337013125419617
+        },
+        {
+          "label": "Sorcerer_s_Rise",
+          "probability": 0.20135349035263062
+        }
+      ],
+      "patch200_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_userlabels_panel6_iso\\test_on_6screens\\Balancers_4K_slot4_patch200.png"
+    }
+  ]
+}

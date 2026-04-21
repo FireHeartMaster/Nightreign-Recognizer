@@ -1,0 +1,43 @@
+{
+  "run_id": "20260417_184508",
+  "monitor_index": 1,
+  "capture_shape": [
+    3840,
+    2160
+  ],
+  "crop_method": "blue_ring",
+  "crop_box": {
+    "x0": 2178,
+    "y0": 334,
+    "x1": 3657,
+    "y1": 1814
+  },
+  "panel_shape": [
+    1479,
+    1480
+  ],
+  "further_shape": [
+    1024,
+    1024
+  ],
+  "prediction": {
+    "label": "Mountaintop",
+    "unknown": false,
+    "decided_label": "Mountaintop",
+    "confidence": 0.23370708525180817,
+    "margin_top1_top2": 0.04262666404247284
+  },
+  "timings_sec": {
+    "capture_monitor1": 0.21326079999562353,
+    "panel_crop": 2.5779889998957515,
+    "further_crop_normalize": 0.002890300005674362,
+    "infer_v2": 0.031926600029692054,
+    "total": 3.368785599945113
+  },
+  "artifacts": {
+    "full_screenshot": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\tmp_monitor1_v2_infer_test\\run_20260417_184508\\monitor1_full_screenshot.png",
+    "panel_crop": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\tmp_monitor1_v2_infer_test\\run_20260417_184508\\monitor1_panel_crop.png",
+    "further_crop_1024": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\tmp_monitor1_v2_infer_test\\run_20260417_184508\\monitor1_further_crop_1024.png",
+    "infer_result_json": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\tmp_monitor1_v2_infer_test\\run_20260417_184508\\infer_result.json"
+  }
+}

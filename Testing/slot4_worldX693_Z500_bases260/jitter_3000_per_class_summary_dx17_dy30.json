@@ -1,0 +1,46 @@
+{
+  "note": "3000 jitters per class; affine + reflected borders; output 200x200; dx<=17 dy<=30",
+  "base_dir": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot4_worldX693_Z500_bases260",
+  "target_per_class": 3000,
+  "output_size": 200,
+  "max_dx": 17,
+  "max_dy": 30,
+  "classes": {
+    "Church": {
+      "output_dir": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot4_worldX693_Z500_bases260\\Church",
+      "generated": 3000,
+      "sources": [
+        "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot4_worldX693_Z500_bases260\\Church_1.png",
+        "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot4_worldX693_Z500_bases260\\Church_2.png",
+        "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot4_worldX693_Z500_bases260\\Church_3.png"
+      ],
+      "per_source_counts": {
+        "Church_1": 1000,
+        "Church_2": 1000,
+        "Church_3": 1000
+      }
+    },
+    "empty": {
+      "output_dir": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot4_worldX693_Z500_bases260\\empty",
+      "generated": 3000,
+      "sources": [
+        "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot4_worldX693_Z500_bases260\\empty_1.png",
+        "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot4_worldX693_Z500_bases260\\empty_2.png"
+      ],
+      "per_source_counts": {
+        "empty_1": 1500,
+        "empty_2": 1500
+      }
+    },
+    "Sorcerer_s_Rise": {
+      "output_dir": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot4_worldX693_Z500_bases260\\Sorcerer_s_Rise",
+      "generated": 3000,
+      "sources": [
+        "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot4_worldX693_Z500_bases260\\Sorcerer_s_Rise.png"
+      ],
+      "per_source_counts": {
+        "Sorcerer_s_Rise": 3000
+      }
+    }
+  }
+}

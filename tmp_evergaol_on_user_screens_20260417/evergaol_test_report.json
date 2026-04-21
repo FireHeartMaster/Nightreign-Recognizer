@@ -1,0 +1,781 @@
+{
+  "generated_at": "2026-04-17 17:05:55",
+  "count": 5,
+  "results": [
+    {
+      "file": "C:\\Users\\eduar\\Downloads\\Balancers_1080.png",
+      "input_shape": [
+        1915,
+        1075
+      ],
+      "crop_method": "blue_ring",
+      "crop_box": {
+        "x0": 1036,
+        "y0": 165,
+        "x1": 1879,
+        "y1": 1008
+      },
+      "panel_shape": [
+        843,
+        843
+      ],
+      "further_crop_shape": [
+        1024,
+        1024
+      ],
+      "timing_ms_total": 939.4411999965087,
+      "detections": [
+        {
+          "evergaol_id": 1,
+          "world_x": 2.6,
+          "world_z": 793.03,
+          "expected_x_norm": 0.168359375,
+          "expected_y_norm": 0.31703776041666665,
+          "score": 0.6886976003646851,
+          "gray_score": 0.8285905718803406,
+          "edge_score": 0.42889636754989624,
+          "scale": 0.55,
+          "x_norm": 0.19140625,
+          "y_norm": 0.28759765625,
+          "present_prob": 0.6106448406146633,
+          "method": "hybrid",
+          "ai_present_prob": 0.14055071771144867,
+          "template_present_prob": 0.8637724452548557
+        },
+        {
+          "evergaol_id": 2,
+          "world_x": 276.65,
+          "world_z": 309.65,
+          "expected_x_norm": 0.34677734374999997,
+          "expected_y_norm": 0.6317382812500001,
+          "score": 0.7059056311845779,
+          "gray_score": 0.8459064364433289,
+          "edge_score": 0.4459041357040405,
+          "scale": 0.55,
+          "x_norm": 0.3525390625,
+          "y_norm": 0.61572265625,
+          "present_prob": 0.6943107831809257,
+          "method": "hybrid",
+          "ai_present_prob": 0.3085789978504181,
+          "template_present_prob": 0.9020125137435065
+        },
+        {
+          "evergaol_id": 3,
+          "world_x": 428.37,
+          "world_z": 693.18,
+          "expected_x_norm": 0.44555338541666667,
+          "expected_y_norm": 0.38204427083333337,
+          "score": 0.6889937639236451,
+          "gray_score": 0.8144365549087524,
+          "edge_score": 0.4560285806655884,
+          "scale": 0.55,
+          "x_norm": 0.400390625,
+          "y_norm": 0.38525390625,
+          "present_prob": 0.6421481204529605,
+          "method": "hybrid",
+          "ai_present_prob": 0.22933782637119293,
+          "template_present_prob": 0.8644305864969891
+        },
+        {
+          "evergaol_id": 4,
+          "world_x": 483.79,
+          "world_z": 978.09,
+          "expected_x_norm": 0.48163411458333333,
+          "expected_y_norm": 0.1965559895833332,
+          "score": 0.6920325070619583,
+          "gray_score": 0.8154496550559998,
+          "edge_score": 0.46282923221588135,
+          "scale": 0.55,
+          "x_norm": 0.4970703125,
+          "y_norm": 0.17919921875,
+          "present_prob": 0.908994957473543,
+          "method": "hybrid",
+          "ai_present_prob": 0.9792165160179138,
+          "template_present_prob": 0.871183349026574
+        },
+        {
+          "evergaol_id": 5,
+          "world_x": 697.3,
+          "world_z": 101.45,
+          "expected_x_norm": 0.6206380208333333,
+          "expected_y_norm": 0.76728515625,
+          "score": 0.7087146446108817,
+          "gray_score": 0.8329274654388428,
+          "edge_score": 0.4780336916446686,
+          "scale": 0.55,
+          "x_norm": 0.6513671875,
+          "y_norm": 0.77001953125,
+          "present_prob": 0.937704843448268,
+          "method": "hybrid",
+          "ai_present_prob": 0.9923978447914124,
+          "template_present_prob": 0.9082547658019594
+        },
+        {
+          "evergaol_id": 6,
+          "world_x": 713.22,
+          "world_z": 722.15,
+          "expected_x_norm": 0.6310026041666666,
+          "expected_y_norm": 0.36318359375,
+          "score": 0.7058054760098458,
+          "gray_score": 0.8293441534042358,
+          "edge_score": 0.4763765037059784,
+          "scale": 0.55,
+          "x_norm": 0.619140625,
+          "y_norm": 0.40869140625,
+          "present_prob": 0.9151906472113398,
+          "method": "hybrid",
+          "ai_present_prob": 0.9400776624679565,
+          "template_present_prob": 0.9017899466885462
+        },
+        {
+          "evergaol_id": 7,
+          "world_x": 957.87,
+          "world_z": 530.38,
+          "expected_x_norm": 0.7902799479166666,
+          "expected_y_norm": 0.48803385416666667,
+          "score": 0.688117316365242,
+          "gray_score": 0.8459711670875549,
+          "edge_score": 0.3949601650238037,
+          "scale": 0.55,
+          "x_norm": 0.8203125,
+          "y_norm": 0.49267578125,
+          "present_prob": 0.682714649538199,
+          "method": "hybrid",
+          "ai_present_prob": 0.3488592803478241,
+          "template_present_prob": 0.8624829252560933
+        }
+      ],
+      "limveld_prior": 0.26475379577279096,
+      "artifacts": {
+        "panel_crop": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_evergaol_on_user_screens_20260417\\Balancers_1080_panel_crop.png",
+        "further_crop_1024": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_evergaol_on_user_screens_20260417\\Balancers_1080_further_crop_1024.png",
+        "evergaol_debug": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_evergaol_on_user_screens_20260417\\Balancers_1080_evergaol_debug.png"
+      },
+      "summary": {
+        "points": 7,
+        "present_prob_ge_0_5": 7,
+        "mean_present_prob": 0.7702441202742714
+      }
+    },
+    {
+      "file": "C:\\Users\\eduar\\Downloads\\Balancers_4K.png",
+      "input_shape": [
+        3838,
+        2158
+      ],
+      "crop_method": "gray_hough",
+      "crop_box": {
+        "x0": 2174,
+        "y0": 344,
+        "x1": 3664,
+        "y1": 1834
+      },
+      "panel_shape": [
+        1490,
+        1490
+      ],
+      "further_crop_shape": [
+        1024,
+        1024
+      ],
+      "timing_ms_total": 1595.2899999683723,
+      "detections": [
+        {
+          "evergaol_id": 1,
+          "world_x": 2.6,
+          "world_z": 793.03,
+          "expected_x_norm": 0.168359375,
+          "expected_y_norm": 0.31703776041666665,
+          "score": 0.7021976873278618,
+          "gray_score": 0.8311048746109009,
+          "edge_score": 0.4627986252307892,
+          "scale": 0.55,
+          "x_norm": 0.205078125,
+          "y_norm": 0.31689453125,
+          "present_prob": 0.6316344445778265,
+          "method": "hybrid",
+          "ai_present_prob": 0.144806370139122,
+          "template_present_prob": 0.8937726385063596
+        },
+        {
+          "evergaol_id": 2,
+          "world_x": 276.65,
+          "world_z": 309.65,
+          "expected_x_norm": 0.34677734374999997,
+          "expected_y_norm": 0.6317382812500001,
+          "score": 0.6933065474033355,
+          "gray_score": 0.8485541343688965,
+          "edge_score": 0.4049896001815796,
+          "scale": 0.55,
+          "x_norm": 0.3916015625,
+          "y_norm": 0.65283203125,
+          "present_prob": 0.5683765640944733,
+          "method": "hybrid",
+          "ai_present_prob": 0.000763162097427994,
+          "template_present_prob": 0.8740145497851901
+        },
+        {
+          "evergaol_id": 3,
+          "world_x": 428.37,
+          "world_z": 693.18,
+          "expected_x_norm": 0.44555338541666667,
+          "expected_y_norm": 0.38204427083333337,
+          "score": Infinity,
+          "gray_score": 0.8388222455978394,
+          "edge_score": Infinity,
+          "scale": 0.55,
+          "x_norm": 0.4013671875,
+          "y_norm": 0.36083984375,
+          "present_prob": 0.6505469389783685,
+          "method": "hybrid",
+          "ai_present_prob": 0.0015626827953383327,
+          "template_present_prob": 1.0
+        },
+        {
+          "evergaol_id": 4,
+          "world_x": 483.79,
+          "world_z": 978.09,
+          "expected_x_norm": 0.48163411458333333,
+          "expected_y_norm": 0.1965559895833332,
+          "score": Infinity,
+          "gray_score": 0.8336008191108704,
+          "edge_score": Infinity,
+          "scale": 0.55,
+          "x_norm": 0.4384765625,
+          "y_norm": 0.16357421875,
+          "present_prob": 0.6500680149300024,
+          "method": "hybrid",
+          "ai_present_prob": 0.00019432837143540382,
+          "template_present_prob": 1.0
+        },
+        {
+          "evergaol_id": 5,
+          "world_x": 697.3,
+          "world_z": 101.45,
+          "expected_x_norm": 0.6206380208333333,
+          "expected_y_norm": 0.76728515625,
+          "score": 0.6966571912169457,
+          "gray_score": 0.8545838594436646,
+          "edge_score": 0.40336480736732483,
+          "scale": 0.55,
+          "x_norm": 0.5830078125,
+          "y_norm": 0.72314453125,
+          "present_prob": 0.5729667578371139,
+          "method": "hybrid",
+          "ai_present_prob": 4.9947528168559074e-05,
+          "template_present_prob": 0.881460424926546
+        },
+        {
+          "evergaol_id": 6,
+          "world_x": 713.22,
+          "world_z": 722.15,
+          "expected_x_norm": 0.6310026041666666,
+          "expected_y_norm": 0.36318359375,
+          "score": 0.7096484482288361,
+          "gray_score": 0.8385445475578308,
+          "edge_score": 0.47026997804641724,
+          "scale": 0.55,
+          "x_norm": 0.5859375,
+          "y_norm": 0.38037109375,
+          "present_prob": 0.5919409093362953,
+          "method": "hybrid",
+          "ai_present_prob": 0.0006470974767580628,
+          "template_present_prob": 0.9103298849529691
+        },
+        {
+          "evergaol_id": 7,
+          "world_x": 957.87,
+          "world_z": 530.38,
+          "expected_x_norm": 0.7902799479166666,
+          "expected_y_norm": 0.48803385416666667,
+          "score": 0.709307087957859,
+          "gray_score": 0.8365124464035034,
+          "edge_score": 0.47306856513023376,
+          "scale": 0.55,
+          "x_norm": 0.8056640625,
+          "y_norm": 0.44384765625,
+          "present_prob": 0.5918313698138162,
+          "method": "hybrid",
+          "ai_present_prob": 0.0017429158324375749,
+          "template_present_prob": 0.90957130657302
+        }
+      ],
+      "limveld_prior": 0.16266284996111066,
+      "artifacts": {
+        "panel_crop": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_evergaol_on_user_screens_20260417\\Balancers_4K_panel_crop.png",
+        "further_crop_1024": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_evergaol_on_user_screens_20260417\\Balancers_4K_further_crop_1024.png",
+        "evergaol_debug": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_evergaol_on_user_screens_20260417\\Balancers_4K_evergaol_debug.png"
+      },
+      "summary": {
+        "points": 7,
+        "present_prob_ge_0_5": 7,
+        "mean_present_prob": 0.6081949999382709
+      }
+    },
+    {
+      "file": "C:\\Users\\eduar\\Downloads\\Darkdrift_Knight_Rotted_Woods_1080.png",
+      "input_shape": [
+        1915,
+        1077
+      ],
+      "crop_method": "blue_ring",
+      "crop_box": {
+        "x0": 1081,
+        "y0": 165,
+        "x1": 1829,
+        "y1": 913
+      },
+      "panel_shape": [
+        748,
+        748
+      ],
+      "further_crop_shape": [
+        1024,
+        1024
+      ],
+      "timing_ms_total": 757.7292999485508,
+      "detections": [
+        {
+          "evergaol_id": 1,
+          "world_x": 2.6,
+          "world_z": 793.03,
+          "expected_x_norm": 0.168359375,
+          "expected_y_norm": 0.31703776041666665,
+          "score": 0.7060852721333504,
+          "gray_score": 0.835192084312439,
+          "edge_score": 0.46631547808647156,
+          "scale": 0.55,
+          "x_norm": 0.1552734375,
+          "y_norm": 0.35986328125,
+          "present_prob": 0.6619906533095572,
+          "method": "hybrid",
+          "ai_present_prob": 0.21549439430236816,
+          "template_present_prob": 0.9024117158518897
+        },
+        {
+          "evergaol_id": 2,
+          "world_x": 276.65,
+          "world_z": 309.65,
+          "expected_x_norm": 0.34677734374999997,
+          "expected_y_norm": 0.6317382812500001,
+          "score": 0.6805666998028755,
+          "gray_score": 0.8236790895462036,
+          "edge_score": 0.41478654742240906,
+          "scale": 0.55,
+          "x_norm": 0.3916015625,
+          "y_norm": 0.66064453125,
+          "present_prob": 0.6880796247058446,
+          "method": "hybrid",
+          "ai_present_prob": 0.39534905552864075,
+          "template_present_prob": 0.8457037773397235
+        },
+        {
+          "evergaol_id": 3,
+          "world_x": 428.37,
+          "world_z": 693.18,
+          "expected_x_norm": 0.44555338541666667,
+          "expected_y_norm": 0.38204427083333337,
+          "score": 0.6878421634435653,
+          "gray_score": 0.8217906355857849,
+          "edge_score": 0.43908071517944336,
+          "scale": 0.55,
+          "x_norm": 0.4033203125,
+          "y_norm": 0.41455078125,
+          "present_prob": 0.7146881283985242,
+          "method": "hybrid",
+          "ai_present_prob": 0.4413476288318634,
+          "template_present_prob": 0.861871474319034
+        },
+        {
+          "evergaol_id": 4,
+          "world_x": 483.79,
+          "world_z": 978.09,
+          "expected_x_norm": 0.48163411458333333,
+          "expected_y_norm": 0.1965559895833332,
+          "score": 0.6794524803757668,
+          "gray_score": 0.806702733039856,
+          "edge_score": 0.44313058257102966,
+          "scale": 0.55,
+          "x_norm": 0.498046875,
+          "y_norm": 0.23876953125,
+          "present_prob": 0.7692244167129199,
+          "method": "hybrid",
+          "ai_present_prob": 0.6317896842956543,
+          "template_present_prob": 0.8432277341683706
+        },
+        {
+          "evergaol_id": 5,
+          "world_x": 697.3,
+          "world_z": 101.45,
+          "expected_x_norm": 0.6206380208333333,
+          "expected_y_norm": 0.76728515625,
+          "score": 0.683102598786354,
+          "gray_score": 0.8385932445526123,
+          "edge_score": 0.39433425664901733,
+          "scale": 0.55,
+          "x_norm": 0.60546875,
+          "y_norm": 0.72314453125,
+          "present_prob": 0.5587479520330412,
+          "method": "hybrid",
+          "ai_present_prob": 0.01536437589675188,
+          "template_present_prob": 0.8513391084141201
+        },
+        {
+          "evergaol_id": 6,
+          "world_x": 713.22,
+          "world_z": 722.15,
+          "expected_x_norm": 0.6310026041666666,
+          "expected_y_norm": 0.36318359375,
+          "score": 0.6977701961994172,
+          "gray_score": 0.82960444688797,
+          "edge_score": 0.4529351592063904,
+          "scale": 0.55,
+          "x_norm": 0.6201171875,
+          "y_norm": 0.35595703125,
+          "present_prob": 0.6837797645065521,
+          "method": "hybrid",
+          "ai_present_prob": 0.3120651841163635,
+          "template_present_prob": 0.8839337693320382
+        },
+        {
+          "evergaol_id": 7,
+          "world_x": 957.87,
+          "world_z": 530.38,
+          "expected_x_norm": 0.7902799479166666,
+          "expected_y_norm": 0.48803385416666667,
+          "score": 0.7152455270290375,
+          "gray_score": 0.8400405645370483,
+          "edge_score": 0.48348331451416016,
+          "scale": 0.55,
+          "x_norm": 0.767578125,
+          "y_norm": 0.50048828125,
+          "present_prob": 0.6394514149675767,
+          "method": "hybrid",
+          "ai_present_prob": 0.11329234391450882,
+          "template_present_prob": 0.9227678378423056
+        }
+      ],
+      "limveld_prior": 0.20393657591706144,
+      "artifacts": {
+        "panel_crop": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_evergaol_on_user_screens_20260417\\Darkdrift_Knight_Rotted_Woods_1080_panel_crop.png",
+        "further_crop_1024": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_evergaol_on_user_screens_20260417\\Darkdrift_Knight_Rotted_Woods_1080_further_crop_1024.png",
+        "evergaol_debug": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_evergaol_on_user_screens_20260417\\Darkdrift_Knight_Rotted_Woods_1080_evergaol_debug.png"
+      },
+      "summary": {
+        "points": 7,
+        "present_prob_ge_0_5": 7,
+        "mean_present_prob": 0.6737088506620024
+      }
+    },
+    {
+      "file": "C:\\Users\\eduar\\Downloads\\Dreglord_1080.png",
+      "input_shape": [
+        1915,
+        1078
+      ],
+      "crop_method": "blue_ring",
+      "crop_box": {
+        "x0": 1083,
+        "y0": 167,
+        "x1": 1831,
+        "y1": 915
+      },
+      "panel_shape": [
+        748,
+        748
+      ],
+      "further_crop_shape": [
+        1024,
+        1024
+      ],
+      "timing_ms_total": 837.8909000894055,
+      "detections": [
+        {
+          "evergaol_id": 1,
+          "world_x": 2.6,
+          "world_z": 793.03,
+          "expected_x_norm": 0.168359375,
+          "expected_y_norm": 0.31703776041666665,
+          "score": 0.7023507252335548,
+          "gray_score": 0.8351141214370728,
+          "edge_score": 0.45579013228416443,
+          "scale": 0.55,
+          "x_norm": 0.1513671875,
+          "y_norm": 0.35791015625,
+          "present_prob": 0.7333571184012624,
+          "method": "hybrid",
+          "ai_present_prob": 0.434810996055603,
+          "template_present_prob": 0.8941127227412329
+        },
+        {
+          "evergaol_id": 2,
+          "world_x": 276.65,
+          "world_z": 309.65,
+          "expected_x_norm": 0.34677734374999997,
+          "expected_y_norm": 0.6317382812500001,
+          "score": 0.6860377877950669,
+          "gray_score": 0.8236579895019531,
+          "edge_score": 0.4304574131965637,
+          "scale": 0.55,
+          "x_norm": 0.3876953125,
+          "y_norm": 0.65869140625,
+          "present_prob": 0.6206522652672397,
+          "method": "hybrid",
+          "ai_present_prob": 0.18012036383152008,
+          "template_present_prob": 0.8578617506557041
+        },
+        {
+          "evergaol_id": 3,
+          "world_x": 428.37,
+          "world_z": 693.18,
+          "expected_x_norm": 0.44555338541666667,
+          "expected_y_norm": 0.38204427083333337,
+          "score": 0.6863212555646897,
+          "gray_score": 0.8206309676170349,
+          "edge_score": 0.4368889331817627,
+          "scale": 0.55,
+          "x_norm": 0.4228515625,
+          "y_norm": 0.37646484375,
+          "present_prob": 0.7647356877724331,
+          "method": "hybrid",
+          "ai_present_prob": 0.5906174182891846,
+          "template_present_prob": 0.8584916790326438
+        },
+        {
+          "evergaol_id": 4,
+          "world_x": 483.79,
+          "world_z": 978.09,
+          "expected_x_norm": 0.48163411458333333,
+          "expected_y_norm": 0.1965559895833332,
+          "score": 0.6788093239068985,
+          "gray_score": 0.8086103796958923,
+          "edge_score": 0.4377502202987671,
+          "scale": 0.55,
+          "x_norm": 0.494140625,
+          "y_norm": 0.23681640625,
+          "present_prob": 0.6911740821268824,
+          "method": "hybrid",
+          "ai_present_prob": 0.4114430248737335,
+          "template_present_prob": 0.8417984975708857
+        },
+        {
+          "evergaol_id": 5,
+          "world_x": 697.3,
+          "world_z": 101.45,
+          "expected_x_norm": 0.6206380208333333,
+          "expected_y_norm": 0.76728515625,
+          "score": 0.7009125337004661,
+          "gray_score": 0.8346996307373047,
+          "edge_score": 0.45245078206062317,
+          "scale": 0.55,
+          "x_norm": 0.609375,
+          "y_norm": 0.72900390625,
+          "present_prob": 0.9112155286802186,
+          "method": "hybrid",
+          "ai_present_prob": 0.9489132761955261,
+          "template_present_prob": 0.8909167415565914
+        },
+        {
+          "evergaol_id": 6,
+          "world_x": 713.22,
+          "world_z": 722.15,
+          "expected_x_norm": 0.6310026041666666,
+          "expected_y_norm": 0.36318359375,
+          "score": 0.6866168633103371,
+          "gray_score": 0.8295862674713135,
+          "edge_score": 0.42110225558280945,
+          "scale": 0.55,
+          "x_norm": 0.6162109375,
+          "y_norm": 0.35400390625,
+          "present_prob": 0.8467987032400237,
+          "method": "hybrid",
+          "ai_present_prob": 0.8238632082939148,
+          "template_present_prob": 0.8591485851340824
+        },
+        {
+          "evergaol_id": 7,
+          "world_x": 957.87,
+          "world_z": 530.38,
+          "expected_x_norm": 0.7902799479166666,
+          "expected_y_norm": 0.48803385416666667,
+          "score": 0.7117669641971589,
+          "gray_score": 0.8392910361289978,
+          "edge_score": 0.4749365448951721,
+          "scale": 0.55,
+          "x_norm": 0.763671875,
+          "y_norm": 0.49755859375,
+          "present_prob": 0.7839261545075311,
+          "method": "hybrid",
+          "ai_present_prob": 0.5404332876205444,
+          "template_present_prob": 0.9150376982159086
+        }
+      ],
+      "limveld_prior": 0.2611673585996032,
+      "artifacts": {
+        "panel_crop": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_evergaol_on_user_screens_20260417\\Dreglord_1080_panel_crop.png",
+        "further_crop_1024": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_evergaol_on_user_screens_20260417\\Dreglord_1080_further_crop_1024.png",
+        "evergaol_debug": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_evergaol_on_user_screens_20260417\\Dreglord_1080_evergaol_debug.png"
+      },
+      "summary": {
+        "points": 7,
+        "present_prob_ge_0_5": 7,
+        "mean_present_prob": 0.7645513628565129
+      }
+    },
+    {
+      "file": "C:\\Users\\eduar\\Downloads\\Gaping_4K.png",
+      "input_shape": [
+        3832,
+        2155
+      ],
+      "crop_method": "blue_ring",
+      "crop_box": {
+        "x0": 2167,
+        "y0": 331,
+        "x1": 3654,
+        "y1": 1817
+      },
+      "panel_shape": [
+        1487,
+        1486
+      ],
+      "further_crop_shape": [
+        1024,
+        1024
+      ],
+      "timing_ms_total": 2619.2491999827325,
+      "detections": [
+        {
+          "evergaol_id": 1,
+          "world_x": 2.6,
+          "world_z": 793.03,
+          "expected_x_norm": 0.168359375,
+          "expected_y_norm": 0.31703776041666665,
+          "score": 0.7048140108585358,
+          "gray_score": 0.835019052028656,
+          "edge_score": 0.4630046486854553,
+          "scale": 0.55,
+          "x_norm": 0.1513671875,
+          "y_norm": 0.36181640625,
+          "present_prob": 0.7436306905415323,
+          "method": "hybrid",
+          "ai_present_prob": 0.4539981186389923,
+          "template_present_prob": 0.8995866907967462
+        },
+        {
+          "evergaol_id": 2,
+          "world_x": 276.65,
+          "world_z": 309.65,
+          "expected_x_norm": 0.34677734374999997,
+          "expected_y_norm": 0.6317382812500001,
+          "score": 0.6875787854194642,
+          "gray_score": 0.8248610496520996,
+          "edge_score": 0.43262600898742676,
+          "scale": 0.55,
+          "x_norm": 0.3896484375,
+          "y_norm": 0.66650390625,
+          "present_prob": 0.6985649474793011,
+          "method": "hybrid",
+          "ai_present_prob": 0.3963683545589447,
+          "template_present_prob": 0.8612861898210314
+        },
+        {
+          "evergaol_id": 3,
+          "world_x": 428.37,
+          "world_z": 693.18,
+          "expected_x_norm": 0.44555338541666667,
+          "expected_y_norm": 0.38204427083333337,
+          "score": 0.6895341515541077,
+          "gray_score": 0.8229929804801941,
+          "edge_score": 0.44168204069137573,
+          "scale": 0.55,
+          "x_norm": 0.4013671875,
+          "y_norm": 0.41845703125,
+          "present_prob": 0.7268345612618659,
+          "method": "hybrid",
+          "ai_present_prob": 0.4690689146518707,
+          "template_present_prob": 0.865631447898017
+        },
+        {
+          "evergaol_id": 4,
+          "world_x": 483.79,
+          "world_z": 978.09,
+          "expected_x_norm": 0.48163411458333333,
+          "expected_y_norm": 0.1965559895833332,
+          "score": 0.679651765525341,
+          "gray_score": 0.825735330581665,
+          "edge_score": 0.408353716135025,
+          "scale": 0.75,
+          "x_norm": 0.46923828125,
+          "y_norm": 0.17529296875,
+          "present_prob": 0.7381677639153269,
+          "method": "hybrid",
+          "ai_present_prob": 0.542233943939209,
+          "template_present_prob": 0.8436705900563134
+        },
+        {
+          "evergaol_id": 5,
+          "world_x": 697.3,
+          "world_z": 101.45,
+          "expected_x_norm": 0.6206380208333333,
+          "expected_y_norm": 0.76728515625,
+          "score": 0.7053410366177559,
+          "gray_score": 0.8262152671813965,
+          "edge_score": 0.48086032271385193,
+          "scale": 0.55,
+          "x_norm": 0.6025390625,
+          "y_norm": 0.76416015625,
+          "present_prob": 0.8222277705868085,
+          "method": "hybrid",
+          "ai_present_prob": 0.6763861775398254,
+          "template_present_prob": 0.9007578591505687
+        },
+        {
+          "evergaol_id": 6,
+          "world_x": 713.22,
+          "world_z": 722.15,
+          "expected_x_norm": 0.6310026041666666,
+          "expected_y_norm": 0.36318359375,
+          "score": 0.7027085080742836,
+          "gray_score": 0.8272061944007874,
+          "edge_score": 0.4714985191822052,
+          "scale": 0.55,
+          "x_norm": 0.619140625,
+          "y_norm": 0.35888671875,
+          "present_prob": 0.810996195839511,
+          "method": "hybrid",
+          "ai_present_prob": 0.6551603674888611,
+          "template_present_prob": 0.8949077957206303
+        },
+        {
+          "evergaol_id": 7,
+          "world_x": 957.87,
+          "world_z": 530.38,
+          "expected_x_norm": 0.7902799479166666,
+          "expected_y_norm": 0.48803385416666667,
+          "score": 0.7005393400788307,
+          "gray_score": 0.8351185321807861,
+          "edge_score": 0.4506065547466278,
+          "scale": 0.55,
+          "x_norm": 0.7705078125,
+          "y_norm": 0.49755859375,
+          "present_prob": 0.7696505048208765,
+          "method": "hybrid",
+          "ai_present_prob": 0.5459819436073303,
+          "template_present_prob": 0.8900874223974015
+        }
+      ],
+      "limveld_prior": 0.25740651910006995,
+      "artifacts": {
+        "panel_crop": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_evergaol_on_user_screens_20260417\\Gaping_4K_panel_crop.png",
+        "further_crop_1024": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_evergaol_on_user_screens_20260417\\Gaping_4K_further_crop_1024.png",
+        "evergaol_debug": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_evergaol_on_user_screens_20260417\\Gaping_4K_evergaol_debug.png"
+      },
+      "summary": {
+        "points": 7,
+        "present_prob_ge_0_5": 7,
+        "mean_present_prob": 0.7585817763493174
+      }
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "source_root": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\baseline_260_per_original",
+  "targets": [
+    "slot_2",
+    "slot_3",
+    "slot_4",
+    "slot_5",
+    "slot_6",
+    "slot_7",
+    "palace",
+    "fortress"
+  ],
+  "copied_count": 64,
+  "skipped_count": 0,
+  "error_count": 0,
+  "copied": [
+    {
+      "target": "slot_2",
+      "file": "Balancers_4K_further_crop_asym_1191x1176__slot_2__baseline260.png"
+    },
+    {
+      "target": "slot_2",
+      "file": "pattern_1115_asym_further_crop__slot_2__baseline260.png"
+    },
+    {
+      "target": "slot_2",
+      "file": "pattern_1119_asym_further_crop__slot_2__baseline260.png"
+    },
+    {
+      "target": "slot_2",
+      "file": "pattern_1120_asym_further_crop__slot_2__baseline260.png"
+    },
+    {
+      "target": "slot_2",
+      "file": "pattern_1128_asym_further_crop__slot_2__baseline260.png"
+    },
+    {
+      "target": "slot_2",
+      "file": "pattern_1175_asym_further_crop__slot_2__baseline260.png"
+    },
+    {
+      "target": "slot_2",
+      "file": "pattern_1181_asym_further_crop__slot_2__baseline260.png"
+    },
+    {
+      "target": "slot_2",
+      "file": "pattern_1185_asym_further_crop__slot_2__baseline260.png"
+    },
+    {
+      "target": "slot_3",
+      "file": "Balancers_4K_further_crop_asym_1191x1176__slot_3__baseline260.png"
+    },
+    {
+      "target": "slot_3",
+      "file": "pattern_1115_asym_further_crop__slot_3__baseline260.png"
+    },
+    {
+      "target": "slot_3",
+      "file": "pattern_1119_asym_further_crop__slot_3__baseline260.png"
+    },
+    {
+      "target": "slot_3",
+      "file": "pattern_1120_asym_further_crop__slot_3__baseline260.png"
+    },
+    {
+      "target": "slot_3",
+      "file": "pattern_1128_asym_further_crop__slot_3__baseline260.png"
+    },
+    {
+      "target": "slot_3",
+      "file": "pattern_1175_asym_further_crop__slot_3__baseline260.png"
+    },
+    {
+      "target": "slot_3",
+      "file": "pattern_1181_asym_further_crop__slot_3__baseline260.png"
+    },
+    {
+      "target": "slot_3",
+      "file": "pattern_1185_asym_further_crop__slot_3__baseline260.png"
+    },
+    {
+      "target": "slot_4",
+      "file": "Balancers_4K_further_crop_asym_1191x1176__slot_4__baseline260.png"
+    },
+    {
+      "target": "slot_4",
+      "file": "pattern_1115_asym_further_crop__slot_4__baseline260.png"
+    },
+    {
+      "target": "slot_4",
+      "file": "pattern_1119_asym_further_crop__slot_4__baseline260.png"
+    },
+    {
+      "target": "slot_4",
+      "file": "pattern_1120_asym_further_crop__slot_4__baseline260.png"
+    },
+    {
+      "target": "slot_4",
+      "file": "pattern_1128_asym_further_crop__slot_4__baseline260.png"
+    },
+    {
+      "target": "slot_4",
+      "file": "pattern_1175_asym_further_crop__slot_4__baseline260.png"
+    },
+    {
+      "target": "slot_4",
+      "file": "pattern_1181_asym_further_crop__slot_4__baseline260.png"
+    },
+    {
+      "target": "slot_4",
+      "file": "pattern_1185_asym_further_crop__slot_4__baseline260.png"
+    },
+    {
+      "target": "slot_5",
+      "file": "Balancers_4K_further_crop_asym_1191x1176__slot_5__baseline260.png"
+    },
+    {
+      "target": "slot_5",
+      "file": "pattern_1115_asym_further_crop__slot_5__baseline260.png"
+    },
+    {
+      "target": "slot_5",
+      "file": "pattern_1119_asym_further_crop__slot_5__baseline260.png"
+    },
+    {
+      "target": "slot_5",
+      "file": "pattern_1120_asym_further_crop__slot_5__baseline260.png"
+    },
+    {
+      "target": "slot_5",
+      "file": "pattern_1128_asym_further_crop__slot_5__baseline260.png"
+    },
+    {
+      "target": "slot_5",
+      "file": "pattern_1175_asym_further_crop__slot_5__baseline260.png"
+    },
+    {
+      "target": "slot_5",
+      "file": "pattern_1181_asym_further_crop__slot_5__baseline260.png"
+    },
+    {
+      "target": "slot_5",
+      "file": "pattern_1185_asym_further_crop__slot_5__baseline260.png"
+    },
+    {
+      "target": "slot_6",
+      "file": "Balancers_4K_further_crop_asym_1191x1176__slot_6__baseline260.png"
+    },
+    {
+      "target": "slot_6",
+      "file": "pattern_1115_asym_further_crop__slot_6__baseline260.png"
+    },
+    {
+      "target": "slot_6",
+      "file": "pattern_1119_asym_further_crop__slot_6__baseline260.png"
+    },
+    {
+      "target": "slot_6",
+      "file": "pattern_1120_asym_further_crop__slot_6__baseline260.png"
+    },
+    {
+      "target": "slot_6",
+      "file": "pattern_1128_asym_further_crop__slot_6__baseline260.png"
+    },
+    {
+      "target": "slot_6",
+      "file": "pattern_1175_asym_further_crop__slot_6__baseline260.png"
+    },
+    {
+      "target": "slot_6",
+      "file": "pattern_1181_asym_further_crop__slot_6__baseline260.png"
+    },
+    {
+      "target": "slot_6",
+      "file": "pattern_1185_asym_further_crop__slot_6__baseline260.png"
+    },
+    {
+      "target": "slot_7",
+      "file": "Balancers_4K_further_crop_asym_1191x1176__slot_7__baseline260.png"
+    },
+    {
+      "target": "slot_7",
+      "file": "pattern_1115_asym_further_crop__slot_7__baseline260.png"
+    },
+    {
+      "target": "slot_7",
+      "file": "pattern_1119_asym_further_crop__slot_7__baseline260.png"
+    },
+    {
+      "target": "slot_7",
+      "file": "pattern_1120_asym_further_crop__slot_7__baseline260.png"
+    },
+    {
+      "target": "slot_7",
+      "file": "pattern_1128_asym_further_crop__slot_7__baseline260.png"
+    },
+    {
+      "target": "slot_7",
+      "file": "pattern_1175_asym_further_crop__slot_7__baseline260.png"
+    },
+    {
+      "target": "slot_7",
+      "file": "pattern_1181_asym_further_crop__slot_7__baseline260.png"
+    },
+    {
+      "target": "slot_7",
+      "file": "pattern_1185_asym_further_crop__slot_7__baseline260.png"
+    },
+    {
+      "target": "palace",
+      "file": "Balancers_4K_further_crop_asym_1191x1176__palace__baseline260.png"
+    },
+    {
+      "target": "palace",
+      "file": "pattern_1115_asym_further_crop__palace__baseline260.png"
+    },
+    {
+      "target": "palace",
+      "file": "pattern_1119_asym_further_crop__palace__baseline260.png"
+    },
+    {
+      "target": "palace",
+      "file": "pattern_1120_asym_further_crop__palace__baseline260.png"
+    },
+    {
+      "target": "palace",
+      "file": "pattern_1128_asym_further_crop__palace__baseline260.png"
+    },
+    {
+      "target": "palace",
+      "file": "pattern_1175_asym_further_crop__palace__baseline260.png"
+    },
+    {
+      "target": "palace",
+      "file": "pattern_1181_asym_further_crop__palace__baseline260.png"
+    },
+    {
+      "target": "palace",
+      "file": "pattern_1185_asym_further_crop__palace__baseline260.png"
+    },
+    {
+      "target": "fortress",
+      "file": "Balancers_4K_further_crop_asym_1191x1176__fortress__baseline260.png"
+    },
+    {
+      "target": "fortress",
+      "file": "pattern_1115_asym_further_crop__fortress__baseline260.png"
+    },
+    {
+      "target": "fortress",
+      "file": "pattern_1119_asym_further_crop__fortress__baseline260.png"
+    },
+    {
+      "target": "fortress",
+      "file": "pattern_1120_asym_further_crop__fortress__baseline260.png"
+    },
+    {
+      "target": "fortress",
+      "file": "pattern_1128_asym_further_crop__fortress__baseline260.png"
+    },
+    {
+      "target": "fortress",
+      "file": "pattern_1175_asym_further_crop__fortress__baseline260.png"
+    },
+    {
+      "target": "fortress",
+      "file": "pattern_1181_asym_further_crop__fortress__baseline260.png"
+    },
+    {
+      "target": "fortress",
+      "file": "pattern_1185_asym_further_crop__fortress__baseline260.png"
+    }
+  ],
+  "skipped": [],
+  "errors": []
+}

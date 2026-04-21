@@ -1,0 +1,216 @@
+import argparse
+import json
+import sys
+from pathlib import Path
+from typing import Dict, List, Tuple
+
+import cv2
+import numpy as np
+import torch
+
+
+def _load_modules(repo_root: Path):
+    sys.path.insert(0, str(repo_root))
+    import recognize_nightreign_map_proto_v12_debugplus_radiusscale_fix as rec  # type: ignore
+
+    sys.path.insert(0, str(repo_root / "Testing" / "slot_2"))
+    import layout_classifier_lib as lib  # type: ignore
+
+    return rec, lib
+
+
+def _slot2_crop_from_panel(
+    panel_bgr: np.ndarray,
+    dx_px: int,
+    dy_px: int,
+) -> Tuple[np.ndarray, Dict[str, int]]:
+    # Fixed slot-2 center in panel-normalized coordinates.
+    slot2_center_x_norm = 0.82890625
+    slot2_center_y_norm = 0.38046875
+    model_side_ref = 260.0
+    panel_ref = 1536.0
+
+    ph, pw = panel_bgr.shape[:2]
+    native_side = max(8, int(round((model_side_ref / panel_ref) * pw)))
+    cx = int(round(slot2_center_x_norm * pw)) + int(dx_px)
+    cy = int(round(slot2_center_y_norm * ph)) + int(dy_px)
+
+    x0 = int(round(cx - native_side / 2.0))
+    y0 = int(round(cy - native_side / 2.0))
+    x0 = max(0, min(pw - native_side, x0))
+    y0 = max(0, min(ph - native_side, y0))
+    x1 = x0 + native_side
+    y1 = y0 + native_side
+
+    crop = panel_bgr[y0:y1, x0:x1]
+    return crop, {"x": x0, "y": y0, "size": native_side, "dx": int(dx_px), "dy": int(dy_px)}
+
+
+def _predict_on_crop(
+    crop_bgr: np.ndarray,
+    model: torch.nn.Module,
+    class_names: List[str],
+    image_size: int,
+    device: torch.device,
+    lib,
+) -> Dict[str, object]:
+    model_input = cv2.resize(crop_bgr, (image_size, image_size), interpolation=cv2.INTER_AREA)
+    x = lib.preprocess_bgr_200(model_input, image_size=image_size).unsqueeze(0).to(device)
+    with torch.no_grad():
+        logits = model(x).squeeze(0).cpu()
+        probs = torch.softmax(logits, dim=0).numpy()
+
+    ranking = sorted(
+        [{"label": class_names[i], "probability": float(probs[i])} for i in range(len(class_names))],
+        key=lambda item: item["probability"],
+        reverse=True,
+    )
+    return {
+        "predicted_label": ranking[0]["label"],
+        "confidence": float(ranking[0]["probability"]),
+        "ranking": ranking,
+        "model_input": model_input,
+    }
+
+
+def run(
+    input_path: Path,
+    output_dir: Path,
+    model_path: Path,
+    dx_px: int,
+    dy_px: int,
+    save_artifacts: bool,
+) -> Dict[str, object]:
+    repo_root = Path(__file__).resolve().parents[2]
+    rec, lib = _load_modules(repo_root)
+
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    model, class_names, image_size, meta = lib.load_checkpoint(model_path, device)
+
+    if input_path.is_dir():
+        images = sorted(
+            [p for p in input_path.iterdir() if p.suffix.lower() in {".png", ".jpg", ".jpeg", ".bmp", ".webp"}]
+        )
+    else:
+        images = [input_path]
+
+    output_dir.mkdir(parents=True, exist_ok=True)
+    results = []
+    for image_path in images:
+        full = cv2.imread(str(image_path), cv2.IMREAD_COLOR)
+        if full is None:
+            continue
+
+        circle, method = rec.detect_map_circle(full)
+        if method == "blue_hough":
+            panel_box = rec.clip_box(rec.estimate_panel_box(circle, panel_scale=1.0), full.shape[1], full.shape[0])
+        else:
+            panel_box = rec.refine_panel_box(full, circle)
+
+        panel = full[panel_box.y0:panel_box.y1, panel_box.x0:panel_box.x1]
+        slot_crop, slot_rect = _slot2_crop_from_panel(panel, dx_px=dx_px, dy_px=dy_px)
+        pred = _predict_on_crop(slot_crop, model, class_names, image_size, device, lib)
+
+        row = {
+            "input_image": str(image_path),
+            "panel_crop_box": {
+                "x0": int(panel_box.x0),
+                "y0": int(panel_box.y0),
+                "x1": int(panel_box.x1),
+                "y1": int(panel_box.y1),
+            },
+            "panel_shape": {"w": int(panel.shape[1]), "h": int(panel.shape[0])},
+            "slot2_crop_rect": slot_rect,
+            "predicted_label": str(pred["predicted_label"]),
+            "confidence": float(pred["confidence"]),
+            "ranking": list(pred["ranking"]),
+        }
+
+        if save_artifacts:
+            stem = image_path.stem
+            panel_path = output_dir / f"{stem}__panel_crop.png"
+            slot_native_path = output_dir / f"{stem}__slot2_native_{slot_rect['size']}.png"
+            model_input_path = output_dir / f"{stem}__slot2_input_{image_size}.png"
+            overlay_path = output_dir / f"{stem}__panel_with_slot2_box.png"
+            cv2.imwrite(str(panel_path), panel)
+            cv2.imwrite(str(slot_native_path), slot_crop)
+            cv2.imwrite(str(model_input_path), pred["model_input"])
+
+            overlay = panel.copy()
+            x0 = slot_rect["x"]
+            y0 = slot_rect["y"]
+            sz = slot_rect["size"]
+            cv2.rectangle(overlay, (x0, y0), (x0 + sz - 1, y0 + sz - 1), (90, 220, 120), 2)
+            cv2.putText(
+                overlay,
+                f"slot2 {row['predicted_label']} {row['confidence']:.4f}",
+                (max(8, x0 - 4), max(20, y0 - 8)),
+                cv2.FONT_HERSHEY_SIMPLEX,
+                0.5,
+                (90, 220, 120),
+                1,
+                cv2.LINE_AA,
+            )
+            cv2.imwrite(str(overlay_path), overlay)
+
+            row["panel_path"] = str(panel_path)
+            row["slot2_native_crop"] = str(slot_native_path)
+            row["model_input_path"] = str(model_input_path)
+            row["slot2_overlay"] = str(overlay_path)
+
+        results.append(row)
+
+    return {
+        "mode": "slot2_status_from_full_screens",
+        "model_path": str(model_path),
+        "model_meta": dict(meta or {}),
+        "class_names": list(class_names),
+        "dx_px": int(dx_px),
+        "dy_px": int(dy_px),
+        "results": results,
+    }
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Infer slot-2 status (Sleep vs Lightning) from full screenshots.")
+    parser.add_argument("--input", required=True, help="Input screenshot file or folder.")
+    parser.add_argument(
+        "--output-dir",
+        default=str(Path(__file__).resolve().parent / "test_on_Test_Screenshots"),
+        help="Where to save report and optional artifacts.",
+    )
+    parser.add_argument(
+        "--model",
+        default=str(Path(__file__).resolve().parent / "slot2_status_cnn_offset50_v1.pt"),
+        help="Slot-2 model checkpoint.",
+    )
+    parser.add_argument("--dx", type=int, default=50, help="X offset in panel pixels.")
+    parser.add_argument("--dy", type=int, default=0, help="Y offset in panel pixels.")
+    parser.add_argument("--no-artifacts", action="store_true", help="Do not save panel/crop/overlay images.")
+    args = parser.parse_args()
+
+    input_path = Path(args.input).resolve()
+    output_dir = Path(args.output_dir).resolve()
+    model_path = Path(args.model).resolve()
+
+    report = run(
+        input_path=input_path,
+        output_dir=output_dir,
+        model_path=model_path,
+        dx_px=int(args.dx),
+        dy_px=int(args.dy),
+        save_artifacts=not bool(args.no_artifacts),
+    )
+
+    output_dir.mkdir(parents=True, exist_ok=True)
+    report_path = output_dir / "slot2_status_report.json"
+    report_path.write_text(json.dumps(report, indent=2), encoding="utf-8")
+
+    for row in report["results"]:
+        name = Path(row["input_image"]).name
+        print(f"{name}\t{row['predicted_label']}\t{float(row['confidence']):.4f}")
+    print(f"REPORT\t{report_path}")
+
+
+if __name__ == "__main__":
+    main()

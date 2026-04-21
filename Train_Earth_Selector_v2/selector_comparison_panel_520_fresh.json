@@ -1,0 +1,115 @@
+{
+  "dataset": "tmp_earth_train_sources (panel crops, 520 images)",
+  "pipeline_selector": {
+    "count": 520,
+    "correct": 520,
+    "accuracy": 1.0,
+    "mean_infer_ms": 6.218640579698751,
+    "per_earth": {
+      "Limveld": {
+        "count": 240,
+        "correct": 240,
+        "accuracy": 1.0,
+        "mean_infer_ms": 6.297691669897176
+      },
+      "Mountaintop": {
+        "count": 50,
+        "correct": 50,
+        "accuracy": 1.0,
+        "mean_infer_ms": 6.839641998521984
+      },
+      "The Crater": {
+        "count": 50,
+        "correct": 50,
+        "accuracy": 1.0,
+        "mean_infer_ms": 6.948574006091803
+      },
+      "Rotted Woods": {
+        "count": 50,
+        "correct": 50,
+        "accuracy": 1.0,
+        "mean_infer_ms": 6.4406400034204125
+      },
+      "Noklateo": {
+        "count": 50,
+        "correct": 50,
+        "accuracy": 1.0,
+        "mean_infer_ms": 6.499449994880706
+      },
+      "Great Hollow": {
+        "count": 80,
+        "correct": 80,
+        "accuracy": 1.0,
+        "mean_infer_ms": 4.822897506528534
+      }
+    },
+    "wall_time_s": 31.25767950003501
+  },
+  "new_selector_v2": {
+    "count": 520,
+    "correct": 130,
+    "accuracy": 0.25,
+    "mean_infer_ms": 61.41302057658322,
+    "unknown_count": 390,
+    "unknown_rate": 0.75,
+    "decided_count": 130,
+    "decided_accuracy": 1.0,
+    "per_earth": {
+      "Limveld": {
+        "count": 240,
+        "correct": 0,
+        "accuracy": 0.0,
+        "mean_infer_ms": 63.406394164000325,
+        "unknown_count": 240,
+        "unknown_rate": 1.0
+      },
+      "Mountaintop": {
+        "count": 50,
+        "correct": 50,
+        "accuracy": 1.0,
+        "mean_infer_ms": 63.25801600702107,
+        "unknown_count": 0,
+        "unknown_rate": 0.0
+      },
+      "The Crater": {
+        "count": 50,
+        "correct": 0,
+        "accuracy": 0.0,
+        "mean_infer_ms": 62.90670800488442,
+        "unknown_count": 50,
+        "unknown_rate": 1.0
+      },
+      "Rotted Woods": {
+        "count": 50,
+        "correct": 0,
+        "accuracy": 0.0,
+        "mean_infer_ms": 65.39484199136496,
+        "unknown_count": 50,
+        "unknown_rate": 1.0
+      },
+      "Noklateo": {
+        "count": 50,
+        "correct": 0,
+        "accuracy": 0.0,
+        "mean_infer_ms": 64.31707799900323,
+        "unknown_count": 50,
+        "unknown_rate": 1.0
+      },
+      "Great Hollow": {
+        "count": 80,
+        "correct": 80,
+        "accuracy": 1.0,
+        "mean_infer_ms": 49.04254875436891,
+        "unknown_count": 0,
+        "unknown_rate": 0.0
+      }
+    },
+    "wall_time_s": 31.941070599947125
+  },
+  "timing_comparison": {
+    "pipeline_mean_infer_ms": 6.218640579698751,
+    "new_selector_mean_infer_ms": 61.41302057658322,
+    "pipeline_wall_time_s": 31.25767950003501,
+    "new_selector_wall_time_s": 31.941070599947125
+  }
+}

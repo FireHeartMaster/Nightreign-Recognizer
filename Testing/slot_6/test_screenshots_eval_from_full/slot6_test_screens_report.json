@@ -1,0 +1,302 @@
+{
+  "mode": "slot6_status_on_full_screens_via_gh_asym",
+  "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\slot6_status_cnn.pt",
+  "class_names": [
+    "Ruins_Bleed",
+    "Ruins_Poison"
+  ],
+  "model_meta": {
+    "best_epoch": 12,
+    "best_val_accuracy": 1.0,
+    "train_samples": 196,
+    "val_samples": 49
+  },
+  "gh_asym": {
+    "input_size": 1536,
+    "crop": {
+      "left": 175,
+      "right": 170,
+      "top": 180,
+      "bottom": 180
+    }
+  },
+  "slot6_spec": {
+    "center_norm": [
+      0.12090680100755667,
+      0.6215986394557823
+    ],
+    "crop_size": 200
+  },
+  "results": [
+    {
+      "input_image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots\\Screenshot (150).png",
+      "predicted_label": "Ruins_Poison",
+      "confidence": 0.9412510395050049,
+      "ranking": [
+        {
+          "label": "Ruins_Poison",
+          "probability": 0.9412510395050049
+        },
+        {
+          "label": "Ruins_Bleed",
+          "probability": 0.05874898284673691
+        }
+      ],
+      "panel_crop_box": {
+        "x0": 2175,
+        "y0": 344,
+        "x1": 3665,
+        "y1": 1834
+      },
+      "slot6_center_asym_px": {
+        "x": 144,
+        "y": 731
+      },
+      "slot6_crop_size": 200,
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\test_screenshots_eval_from_full\\Screenshot (150)__panel_crop.png",
+      "gh_asym_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\test_screenshots_eval_from_full\\Screenshot (150)__gh_asym.png",
+      "slot6_patch_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\test_screenshots_eval_from_full\\Screenshot (150)__slot6_patch_200.png",
+      "slot6_overlay_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\test_screenshots_eval_from_full\\Screenshot (150)__gh_asym_slot6_box.png"
+    },
+    {
+      "input_image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots\\Screenshot (151).png",
+      "predicted_label": "Ruins_Poison",
+      "confidence": 0.941371738910675,
+      "ranking": [
+        {
+          "label": "Ruins_Poison",
+          "probability": 0.941371738910675
+        },
+        {
+          "label": "Ruins_Bleed",
+          "probability": 0.05862823873758316
+        }
+      ],
+      "panel_crop_box": {
+        "x0": 2175,
+        "y0": 344,
+        "x1": 3665,
+        "y1": 1834
+      },
+      "slot6_center_asym_px": {
+        "x": 144,
+        "y": 731
+      },
+      "slot6_crop_size": 200,
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\test_screenshots_eval_from_full\\Screenshot (151)__panel_crop.png",
+      "gh_asym_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\test_screenshots_eval_from_full\\Screenshot (151)__gh_asym.png",
+      "slot6_patch_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\test_screenshots_eval_from_full\\Screenshot (151)__slot6_patch_200.png",
+      "slot6_overlay_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\test_screenshots_eval_from_full\\Screenshot (151)__gh_asym_slot6_box.png"
+    },
+    {
+      "input_image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots\\Screenshot (152).png",
+      "predicted_label": "Ruins_Poison",
+      "confidence": 0.9413926005363464,
+      "ranking": [
+        {
+          "label": "Ruins_Poison",
+          "probability": 0.9413926005363464
+        },
+        {
+          "label": "Ruins_Bleed",
+          "probability": 0.05860745906829834
+        }
+      ],
+      "panel_crop_box": {
+        "x0": 2175,
+        "y0": 344,
+        "x1": 3665,
+        "y1": 1834
+      },
+      "slot6_center_asym_px": {
+        "x": 144,
+        "y": 731
+      },
+      "slot6_crop_size": 200,
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\test_screenshots_eval_from_full\\Screenshot (152)__panel_crop.png",
+      "gh_asym_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\test_screenshots_eval_from_full\\Screenshot (152)__gh_asym.png",
+      "slot6_patch_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\test_screenshots_eval_from_full\\Screenshot (152)__slot6_patch_200.png",
+      "slot6_overlay_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\test_screenshots_eval_from_full\\Screenshot (152)__gh_asym_slot6_box.png"
+    },
+    {
+      "input_image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots\\Screenshot (153).png",
+      "predicted_label": "Ruins_Poison",
+      "confidence": 0.9381399154663086,
+      "ranking": [
+        {
+          "label": "Ruins_Poison",
+          "probability": 0.9381399154663086
+        },
+        {
+          "label": "Ruins_Bleed",
+          "probability": 0.061860088258981705
+        }
+      ],
+      "panel_crop_box": {
+        "x0": 2174,
+        "y0": 344,
+        "x1": 3664,
+        "y1": 1834
+      },
+      "slot6_center_asym_px": {
+        "x": 144,
+        "y": 731
+      },
+      "slot6_crop_size": 200,
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\test_screenshots_eval_from_full\\Screenshot (153)__panel_crop.png",
+      "gh_asym_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\test_screenshots_eval_from_full\\Screenshot (153)__gh_asym.png",
+      "slot6_patch_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\test_screenshots_eval_from_full\\Screenshot (153)__slot6_patch_200.png",
+      "slot6_overlay_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\test_screenshots_eval_from_full\\Screenshot (153)__gh_asym_slot6_box.png"
+    },
+    {
+      "input_image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots\\Screenshot (154).png",
+      "predicted_label": "Ruins_Poison",
+      "confidence": 0.9413893818855286,
+      "ranking": [
+        {
+          "label": "Ruins_Poison",
+          "probability": 0.9413893818855286
+        },
+        {
+          "label": "Ruins_Bleed",
+          "probability": 0.058610569685697556
+        }
+      ],
+      "panel_crop_box": {
+        "x0": 2175,
+        "y0": 344,
+        "x1": 3665,
+        "y1": 1834
+      },
+      "slot6_center_asym_px": {
+        "x": 144,
+        "y": 731
+      },
+      "slot6_crop_size": 200,
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\test_screenshots_eval_from_full\\Screenshot (154)__panel_crop.png",
+      "gh_asym_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\test_screenshots_eval_from_full\\Screenshot (154)__gh_asym.png",
+      "slot6_patch_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\test_screenshots_eval_from_full\\Screenshot (154)__slot6_patch_200.png",
+      "slot6_overlay_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\test_screenshots_eval_from_full\\Screenshot (154)__gh_asym_slot6_box.png"
+    },
+    {
+      "input_image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots\\Screenshot (155).png",
+      "predicted_label": "Ruins_Poison",
+      "confidence": 0.938041627407074,
+      "ranking": [
+        {
+          "label": "Ruins_Poison",
+          "probability": 0.938041627407074
+        },
+        {
+          "label": "Ruins_Bleed",
+          "probability": 0.06195835769176483
+        }
+      ],
+      "panel_crop_box": {
+        "x0": 2174,
+        "y0": 344,
+        "x1": 3664,
+        "y1": 1834
+      },
+      "slot6_center_asym_px": {
+        "x": 144,
+        "y": 731
+      },
+      "slot6_crop_size": 200,
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\test_screenshots_eval_from_full\\Screenshot (155)__panel_crop.png",
+      "gh_asym_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\test_screenshots_eval_from_full\\Screenshot (155)__gh_asym.png",
+      "slot6_patch_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\test_screenshots_eval_from_full\\Screenshot (155)__slot6_patch_200.png",
+      "slot6_overlay_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\test_screenshots_eval_from_full\\Screenshot (155)__gh_asym_slot6_box.png"
+    },
+    {
+      "input_image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots\\Screenshot (156).png",
+      "predicted_label": "Ruins_Poison",
+      "confidence": 0.938181459903717,
+      "ranking": [
+        {
+          "label": "Ruins_Poison",
+          "probability": 0.938181459903717
+        },
+        {
+          "label": "Ruins_Bleed",
+          "probability": 0.06181853637099266
+        }
+      ],
+      "panel_crop_box": {
+        "x0": 2174,
+        "y0": 344,
+        "x1": 3664,
+        "y1": 1834
+      },
+      "slot6_center_asym_px": {
+        "x": 144,
+        "y": 731
+      },
+      "slot6_crop_size": 200,
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\test_screenshots_eval_from_full\\Screenshot (156)__panel_crop.png",
+      "gh_asym_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\test_screenshots_eval_from_full\\Screenshot (156)__gh_asym.png",
+      "slot6_patch_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\test_screenshots_eval_from_full\\Screenshot (156)__slot6_patch_200.png",
+      "slot6_overlay_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\test_screenshots_eval_from_full\\Screenshot (156)__gh_asym_slot6_box.png"
+    },
+    {
+      "input_image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots\\Screenshot (157).png",
+      "predicted_label": "Ruins_Poison",
+      "confidence": 0.9414064884185791,
+      "ranking": [
+        {
+          "label": "Ruins_Poison",
+          "probability": 0.9414064884185791
+        },
+        {
+          "label": "Ruins_Bleed",
+          "probability": 0.058593496680259705
+        }
+      ],
+      "panel_crop_box": {
+        "x0": 2175,
+        "y0": 344,
+        "x1": 3665,
+        "y1": 1834
+      },
+      "slot6_center_asym_px": {
+        "x": 144,
+        "y": 731
+      },
+      "slot6_crop_size": 200,
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\test_screenshots_eval_from_full\\Screenshot (157)__panel_crop.png",
+      "gh_asym_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\test_screenshots_eval_from_full\\Screenshot (157)__gh_asym.png",
+      "slot6_patch_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\test_screenshots_eval_from_full\\Screenshot (157)__slot6_patch_200.png",
+      "slot6_overlay_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\test_screenshots_eval_from_full\\Screenshot (157)__gh_asym_slot6_box.png"
+    },
+    {
+      "input_image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots\\Screenshot (158).png",
+      "predicted_label": "Ruins_Bleed",
+      "confidence": 0.9635202884674072,
+      "ranking": [
+        {
+          "label": "Ruins_Bleed",
+          "probability": 0.9635202884674072
+        },
+        {
+          "label": "Ruins_Poison",
+          "probability": 0.036479704082012177
+        }
+      ],
+      "panel_crop_box": {
+        "x0": 2174,
+        "y0": 344,
+        "x1": 3664,
+        "y1": 1834
+      },
+      "slot6_center_asym_px": {
+        "x": 144,
+        "y": 731
+      },
+      "slot6_crop_size": 200,
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\test_screenshots_eval_from_full\\Screenshot (158)__panel_crop.png",
+      "gh_asym_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\test_screenshots_eval_from_full\\Screenshot (158)__gh_asym.png",
+      "slot6_patch_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\test_screenshots_eval_from_full\\Screenshot (158)__slot6_patch_200.png",
+      "slot6_overlay_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\test_screenshots_eval_from_full\\Screenshot (158)__gh_asym_slot6_box.png"
+    }
+  ]
+}

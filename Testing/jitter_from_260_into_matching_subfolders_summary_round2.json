@@ -1,0 +1,178 @@
+{
+  "additional_per_source": 50,
+  "crop_size": [
+    200,
+    200
+  ],
+  "jitter_range": [
+    -30,
+    30
+  ],
+  "sources": [
+    {
+      "source": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2\\Great_Church_Lightning.png",
+      "target_subfolder": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2\\Great_Church_Lightning",
+      "created_additional": 50,
+      "source_shape": [
+        260,
+        260
+      ]
+    },
+    {
+      "source": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2\\Great_Church_Sleep.png",
+      "target_subfolder": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2\\Great_Church_Sleep",
+      "created_additional": 50,
+      "source_shape": [
+        260,
+        260
+      ]
+    },
+    {
+      "source": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_3\\Church.png",
+      "target_subfolder": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_3\\Church",
+      "created_additional": 50,
+      "source_shape": [
+        260,
+        260
+      ]
+    },
+    {
+      "source": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4\\Church.png",
+      "target_subfolder": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4\\Church",
+      "created_additional": 50,
+      "source_shape": [
+        260,
+        260
+      ]
+    },
+    {
+      "source": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4\\empty.png",
+      "target_subfolder": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4\\empty",
+      "created_additional": 50,
+      "source_shape": [
+        260,
+        260
+      ]
+    },
+    {
+      "source": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4\\Sorcerer_s_Rise.png",
+      "target_subfolder": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4\\Sorcerer_s_Rise",
+      "created_additional": 50,
+      "source_shape": [
+        260,
+        260
+      ]
+    },
+    {
+      "source": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5\\Church.png",
+      "target_subfolder": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5\\Church",
+      "created_additional": 50,
+      "source_shape": [
+        260,
+        260
+      ]
+    },
+    {
+      "source": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5\\empty.png",
+      "target_subfolder": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5\\empty",
+      "created_additional": 50,
+      "source_shape": [
+        260,
+        260
+      ]
+    },
+    {
+      "source": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5\\Sorcerer_s_Rise.png",
+      "target_subfolder": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5\\Sorcerer_s_Rise",
+      "created_additional": 50,
+      "source_shape": [
+        260,
+        260
+      ]
+    },
+    {
+      "source": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\Ruins_Bleed.png",
+      "target_subfolder": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\Ruins_Bleed",
+      "created_additional": 50,
+      "source_shape": [
+        260,
+        260
+      ]
+    },
+    {
+      "source": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\Ruins_Poison.png",
+      "target_subfolder": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\Ruins_Poison",
+      "created_additional": 50,
+      "source_shape": [
+        260,
+        260
+      ]
+    },
+    {
+      "source": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7\\Church.png",
+      "target_subfolder": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7\\Church",
+      "created_additional": 50,
+      "source_shape": [
+        260,
+        260
+      ]
+    },
+    {
+      "source": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7\\empty.png",
+      "target_subfolder": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7\\empty",
+      "created_additional": 50,
+      "source_shape": [
+        260,
+        260
+      ]
+    },
+    {
+      "source": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7\\Sorcerer_s_Rise.png",
+      "target_subfolder": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7\\Sorcerer_s_Rise",
+      "created_additional": 50,
+      "source_shape": [
+        260,
+        260
+      ]
+    },
+    {
+      "source": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\Status_Fire.png",
+      "target_subfolder": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\Status_Fire",
+      "created_additional": 50,
+      "source_shape": [
+        260,
+        260
+      ]
+    },
+    {
+      "source": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\Status_Magic.png",
+      "target_subfolder": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\Status_Magic",
+      "created_additional": 50,
+      "source_shape": [
+        260,
+        260
+      ]
+    },
+    {
+      "source": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress\\Status_Holy.png",
+      "target_subfolder": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress\\Status_Holy",
+      "created_additional": 50,
+      "source_shape": [
+        260,
+        260
+      ]
+    },
+    {
+      "source": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress\\Status_Rot.png",
+      "target_subfolder": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress\\Status_Rot",
+      "created_additional": 50,
+      "source_shape": [
+        260,
+        260
+      ]
+    }
+  ],
+  "created_count": 900,
+  "error_count": 0,
+  "errors": []
+}

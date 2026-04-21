@@ -1,0 +1,156 @@
+{
+  "note": "Slot 4 crops from user-provided world coordinate",
+  "world_frame": {
+    "bottom_left": [
+      -256,
+      -256
+    ],
+    "center": [
+      512,
+      512
+    ],
+    "top_right": [
+      1280,
+      1280
+    ]
+  },
+  "slot4_world": {
+    "X": 693.145,
+    "Z": 500.042
+  },
+  "crop_size": 260,
+  "items": [
+    {
+      "layout_id": 1115,
+      "source": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop\\1115_panel_crop.png",
+      "output": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot4_worldX693_Z500_bases260\\1115_slot4_worldX693_Z500_panel260.png",
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "world_point": {
+        "X": 693.145,
+        "Z": 500.042
+      },
+      "center_px": {
+        "x": 921,
+        "y": 757
+      },
+      "crop_rect": {
+        "x0": 791,
+        "y0": 627,
+        "size": 260
+      }
+    },
+    {
+      "layout_id": 1119,
+      "source": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop\\1119_panel_crop.png",
+      "output": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot4_worldX693_Z500_bases260\\1119_slot4_worldX693_Z500_panel260.png",
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "world_point": {
+        "X": 693.145,
+        "Z": 500.042
+      },
+      "center_px": {
+        "x": 921,
+        "y": 757
+      },
+      "crop_rect": {
+        "x0": 791,
+        "y0": 627,
+        "size": 260
+      }
+    },
+    {
+      "layout_id": 1120,
+      "source": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop\\1120_panel_crop.png",
+      "output": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot4_worldX693_Z500_bases260\\1120_slot4_worldX693_Z500_panel260.png",
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "world_point": {
+        "X": 693.145,
+        "Z": 500.042
+      },
+      "center_px": {
+        "x": 921,
+        "y": 757
+      },
+      "crop_rect": {
+        "x0": 791,
+        "y0": 627,
+        "size": 260
+      }
+    },
+    {
+      "layout_id": 1128,
+      "source": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop\\1128_panel_crop.png",
+      "output": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot4_worldX693_Z500_bases260\\1128_slot4_worldX693_Z500_panel260.png",
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "world_point": {
+        "X": 693.145,
+        "Z": 500.042
+      },
+      "center_px": {
+        "x": 921,
+        "y": 757
+      },
+      "crop_rect": {
+        "x0": 791,
+        "y0": 627,
+        "size": 260
+      }
+    },
+    {
+      "layout_id": 1175,
+      "source": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop\\1175_panel_crop.png",
+      "output": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot4_worldX693_Z500_bases260\\1175_slot4_worldX693_Z500_panel260.png",
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "world_point": {
+        "X": 693.145,
+        "Z": 500.042
+      },
+      "center_px": {
+        "x": 921,
+        "y": 757
+      },
+      "crop_rect": {
+        "x0": 791,
+        "y0": 627,
+        "size": 260
+      }
+    },
+    {
+      "layout_id": 1185,
+      "source": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop\\1185_panel_crop.png",
+      "output": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot4_worldX693_Z500_bases260\\1185_slot4_worldX693_Z500_panel260.png",
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "world_point": {
+        "X": 693.145,
+        "Z": 500.042
+      },
+      "center_px": {
+        "x": 921,
+        "y": 757
+      },
+      "crop_rect": {
+        "x0": 791,
+        "y0": 627,
+        "size": 260
+      }
+    }
+  ]
+}

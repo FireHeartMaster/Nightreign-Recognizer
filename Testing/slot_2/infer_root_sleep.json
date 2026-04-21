@@ -1,0 +1,27 @@
+{
+  "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2\\Great_Church_Sleep.png",
+  "predicted_label": "Great_Church_Sleep",
+  "confidence": 0.5792192816734314,
+  "ranking": [
+    {
+      "label": "Great_Church_Sleep",
+      "probability": 0.5792192816734314
+    },
+    {
+      "label": "Great_Church_Lightning",
+      "probability": 0.4207807183265686
+    }
+  ],
+  "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2\\slot2_status_cnn.pt",
+  "class_names": [
+    "Great_Church_Lightning",
+    "Great_Church_Sleep"
+  ],
+  "image_size": 200,
+  "meta": {
+    "best_epoch": 23,
+    "best_val_accuracy": 0.975,
+    "train_samples": 160,
+    "val_samples": 40
+  }
+}

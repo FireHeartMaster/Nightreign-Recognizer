@@ -1,0 +1,55 @@
+Shifting Earth: The Crater
+Source folder: tmp_the_crater_both_crops_L256_R256_T256_B256/further_crop_1024
+Total images in this zip: 50
+
+Files:
+0001. pattern_0025_further_crop_1024.png | Shifting Earth=The Crater
+0002. pattern_0026_further_crop_1024.png | Shifting Earth=The Crater
+0003. pattern_0027_further_crop_1024.png | Shifting Earth=The Crater
+0004. pattern_0028_further_crop_1024.png | Shifting Earth=The Crater
+0005. pattern_0029_further_crop_1024.png | Shifting Earth=The Crater
+0006. pattern_0065_further_crop_1024.png | Shifting Earth=The Crater
+0007. pattern_0066_further_crop_1024.png | Shifting Earth=The Crater
+0008. pattern_0067_further_crop_1024.png | Shifting Earth=The Crater
+0009. pattern_0068_further_crop_1024.png | Shifting Earth=The Crater
+0010. pattern_0069_further_crop_1024.png | Shifting Earth=The Crater
+0011. pattern_0105_further_crop_1024.png | Shifting Earth=The Crater
+0012. pattern_0106_further_crop_1024.png | Shifting Earth=The Crater
+0013. pattern_0107_further_crop_1024.png | Shifting Earth=The Crater
+0014. pattern_0108_further_crop_1024.png | Shifting Earth=The Crater
+0015. pattern_0109_further_crop_1024.png | Shifting Earth=The Crater
+0016. pattern_0145_further_crop_1024.png | Shifting Earth=The Crater
+0017. pattern_0146_further_crop_1024.png | Shifting Earth=The Crater
+0018. pattern_0147_further_crop_1024.png | Shifting Earth=The Crater
+0019. pattern_0148_further_crop_1024.png | Shifting Earth=The Crater
+0020. pattern_0149_further_crop_1024.png | Shifting Earth=The Crater
+0021. pattern_0185_further_crop_1024.png | Shifting Earth=The Crater
+0022. pattern_0186_further_crop_1024.png | Shifting Earth=The Crater
+0023. pattern_0187_further_crop_1024.png | Shifting Earth=The Crater
+0024. pattern_0188_further_crop_1024.png | Shifting Earth=The Crater
+0025. pattern_0189_further_crop_1024.png | Shifting Earth=The Crater
+0026. pattern_0225_further_crop_1024.png | Shifting Earth=The Crater
+0027. pattern_0226_further_crop_1024.png | Shifting Earth=The Crater
+0028. pattern_0227_further_crop_1024.png | Shifting Earth=The Crater
+0029. pattern_0228_further_crop_1024.png | Shifting Earth=The Crater
+0030. pattern_0229_further_crop_1024.png | Shifting Earth=The Crater
+0031. pattern_0265_further_crop_1024.png | Shifting Earth=The Crater
+0032. pattern_0266_further_crop_1024.png | Shifting Earth=The Crater
+0033. pattern_0267_further_crop_1024.png | Shifting Earth=The Crater
+0034. pattern_0268_further_crop_1024.png | Shifting Earth=The Crater
+0035. pattern_0269_further_crop_1024.png | Shifting Earth=The Crater
+0036. pattern_0305_further_crop_1024.png | Shifting Earth=The Crater
+0037. pattern_0306_further_crop_1024.png | Shifting Earth=The Crater
+0038. pattern_0307_further_crop_1024.png | Shifting Earth=The Crater
+0039. pattern_0308_further_crop_1024.png | Shifting Earth=The Crater
+0040. pattern_0309_further_crop_1024.png | Shifting Earth=The Crater
+0041. pattern_1105_further_crop_1024.png | Shifting Earth=The Crater
+0042. pattern_1106_further_crop_1024.png | Shifting Earth=The Crater
+0043. pattern_1107_further_crop_1024.png | Shifting Earth=The Crater
+0044. pattern_1108_further_crop_1024.png | Shifting Earth=The Crater
+0045. pattern_1109_further_crop_1024.png | Shifting Earth=The Crater
+0046. pattern_1165_further_crop_1024.png | Shifting Earth=The Crater
+0047. pattern_1166_further_crop_1024.png | Shifting Earth=The Crater
+0048. pattern_1167_further_crop_1024.png | Shifting Earth=The Crater
+0049. pattern_1168_further_crop_1024.png | Shifting Earth=The Crater
+0050. pattern_1169_further_crop_1024.png | Shifting Earth=The Crater

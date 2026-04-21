@@ -1,0 +1,48 @@
+[
+  {
+    "panel": "tmp_gc_model_test_on_shared\\query_panel.png",
+    "icon_recognizer_ruins": {
+      "label": "Bleed",
+      "score": 0.5397,
+      "runner_up": "Poison",
+      "runner_up_score": 0.4384,
+      "margin": 0.1013,
+      "confidence": "medium",
+      "box": {
+        "x": 359,
+        "y": 617,
+        "w": 22,
+        "h": 22
+      }
+    },
+    "ruins_model": {
+      "pred": "Poison",
+      "poison_prob": 0.7646353244781494,
+      "bleed_prob": 0.23536469042301178,
+      "margin": 0.5292706340551376
+    }
+  },
+  {
+    "panel": "tmp_test_new_screenshot_081032_gc\\query_panel.png",
+    "icon_recognizer_ruins": {
+      "label": "Bleed",
+      "score": 0.5335,
+      "runner_up": "Poison",
+      "runner_up_score": 0.4214,
+      "margin": 0.1122,
+      "confidence": "medium",
+      "box": {
+        "x": 364,
+        "y": 622,
+        "w": 22,
+        "h": 22
+      }
+    },
+    "ruins_model": {
+      "pred": "Poison",
+      "poison_prob": 0.7935065031051636,
+      "bleed_prob": 0.20649346709251404,
+      "margin": 0.5870130360126495
+    }
+  }
+]

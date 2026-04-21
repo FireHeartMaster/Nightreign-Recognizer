@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "source_kind": "pattern",
+      "source_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop\\1115_panel_crop.png",
+      "label": "Sorcerer_s_Rise",
+      "base260_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5_plus_real_heavy\\rebuild_260_jitters3000_per_base\\bases260\\Sorcerer_s_Rise\\pattern_1115_panel_crop__slot5_asym260.png"
+    },
+    {
+      "source_kind": "pattern",
+      "source_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop\\1119_panel_crop.png",
+      "label": "Sorcerer_s_Rise",
+      "base260_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5_plus_real_heavy\\rebuild_260_jitters3000_per_base\\bases260\\Sorcerer_s_Rise\\pattern_1119_panel_crop__slot5_asym260.png"
+    },
+    {
+      "source_kind": "pattern",
+      "source_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop\\1120_panel_crop.png",
+      "label": "empty",
+      "base260_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5_plus_real_heavy\\rebuild_260_jitters3000_per_base\\bases260\\empty\\pattern_1120_panel_crop__slot5_asym260.png"
+    },
+    {
+      "source_kind": "pattern",
+      "source_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop\\1128_panel_crop.png",
+      "label": "Church",
+      "base260_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5_plus_real_heavy\\rebuild_260_jitters3000_per_base\\bases260\\Church\\pattern_1128_panel_crop__slot5_asym260.png"
+    },
+    {
+      "source_kind": "pattern",
+      "source_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop\\1175_panel_crop.png",
+      "label": "Church",
+      "base260_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5_plus_real_heavy\\rebuild_260_jitters3000_per_base\\bases260\\Church\\pattern_1175_panel_crop__slot5_asym260.png"
+    },
+    {
+      "source_kind": "pattern",
+      "source_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop\\1181_panel_crop.png",
+      "label": "Sorcerer_s_Rise",
+      "base260_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5_plus_real_heavy\\rebuild_260_jitters3000_per_base\\bases260\\Sorcerer_s_Rise\\pattern_1181_panel_crop__slot5_asym260.png"
+    },
+    {
+      "source_kind": "pattern",
+      "source_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop\\1185_panel_crop.png",
+      "label": "Sorcerer_s_Rise",
+      "base260_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5_plus_real_heavy\\rebuild_260_jitters3000_per_base\\bases260\\Sorcerer_s_Rise\\pattern_1185_panel_crop__slot5_asym260.png"
+    },
+    {
+      "source_kind": "real",
+      "source_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\Screenshot_133_panel_crop_for_fortress_test.png",
+      "label": "Church",
+      "base260_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5_plus_real_heavy\\rebuild_260_jitters3000_per_base\\bases260\\Church\\real_Screenshot_133_panel_crop_for_fortress_test__slot5_asym260.png"
+    },
+    {
+      "source_kind": "real",
+      "source_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\Screenshot_134_panel_crop_for_fortress_test.png",
+      "label": "empty",
+      "base260_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5_plus_real_heavy\\rebuild_260_jitters3000_per_base\\bases260\\empty\\real_Screenshot_134_panel_crop_for_fortress_test__slot5_asym260.png"
+    },
+    {
+      "source_kind": "real",
+      "source_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\Screenshot_135_panel_crop_for_fortress_test.png",
+      "label": "empty",
+      "base260_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5_plus_real_heavy\\rebuild_260_jitters3000_per_base\\bases260\\empty\\real_Screenshot_135_panel_crop_for_fortress_test__slot5_asym260.png"
+    },
+    {
+      "source_kind": "real",
+      "source_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\Screenshot_136_panel_crop_for_fortress_test.png",
+      "label": "Sorcerer_s_Rise",
+      "base260_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5_plus_real_heavy\\rebuild_260_jitters3000_per_base\\bases260\\Sorcerer_s_Rise\\real_Screenshot_136_panel_crop_for_fortress_test__slot5_asym260.png"
+    },
+    {
+      "source_kind": "real",
+      "source_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\Screenshot_137_panel_crop_for_fortress_test.png",
+      "label": "Church",
+      "base260_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5_plus_real_heavy\\rebuild_260_jitters3000_per_base\\bases260\\Church\\real_Screenshot_137_panel_crop_for_fortress_test__slot5_asym260.png"
+    }
+  ]
+}

@@ -1,0 +1,342 @@
+{
+  "mode": "slot4_occupied_empty_from_full_screens",
+  "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\slot4_occupied_empty_from_panel_fixed_v1.pt",
+  "model_meta": {
+    "best_epoch": 3,
+    "best_val_accuracy": 1.0,
+    "train_samples": 4800,
+    "val_samples": 1200
+  },
+  "class_names": [
+    "empty",
+    "occupied"
+  ],
+  "dx_px": 50,
+  "dy_px": -50,
+  "results": [
+    {
+      "input_image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots\\Screenshot (150).png",
+      "panel_crop_box": {
+        "x0": 2175,
+        "y0": 344,
+        "x1": 3665,
+        "y1": 1834
+      },
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "slot4_crop_rect": {
+        "x": 976,
+        "y": 702,
+        "size": 252,
+        "dx": 50,
+        "dy": -50
+      },
+      "predicted_label": "occupied",
+      "confidence": 0.6964438557624817,
+      "ranking": [
+        {
+          "label": "occupied",
+          "probability": 0.6964438557624817
+        },
+        {
+          "label": "empty",
+          "probability": 0.3035561442375183
+        }
+      ],
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\test_screenshots_eval_patched\\Screenshot (150)__panel_crop.png",
+      "slot4_native_crop": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\test_screenshots_eval_patched\\Screenshot (150)__slot4_native_252.png",
+      "model_input_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\test_screenshots_eval_patched\\Screenshot (150)__slot4_input_200.png",
+      "slot4_overlay": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\test_screenshots_eval_patched\\Screenshot (150)__panel_with_slot4_box.png"
+    },
+    {
+      "input_image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots\\Screenshot (151).png",
+      "panel_crop_box": {
+        "x0": 2175,
+        "y0": 344,
+        "x1": 3665,
+        "y1": 1834
+      },
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "slot4_crop_rect": {
+        "x": 976,
+        "y": 702,
+        "size": 252,
+        "dx": 50,
+        "dy": -50
+      },
+      "predicted_label": "empty",
+      "confidence": 0.999517560005188,
+      "ranking": [
+        {
+          "label": "empty",
+          "probability": 0.999517560005188
+        },
+        {
+          "label": "occupied",
+          "probability": 0.00048246674123220146
+        }
+      ],
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\test_screenshots_eval_patched\\Screenshot (151)__panel_crop.png",
+      "slot4_native_crop": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\test_screenshots_eval_patched\\Screenshot (151)__slot4_native_252.png",
+      "model_input_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\test_screenshots_eval_patched\\Screenshot (151)__slot4_input_200.png",
+      "slot4_overlay": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\test_screenshots_eval_patched\\Screenshot (151)__panel_with_slot4_box.png"
+    },
+    {
+      "input_image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots\\Screenshot (152).png",
+      "panel_crop_box": {
+        "x0": 2175,
+        "y0": 344,
+        "x1": 3665,
+        "y1": 1834
+      },
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "slot4_crop_rect": {
+        "x": 976,
+        "y": 702,
+        "size": 252,
+        "dx": 50,
+        "dy": -50
+      },
+      "predicted_label": "occupied",
+      "confidence": 0.6964473724365234,
+      "ranking": [
+        {
+          "label": "occupied",
+          "probability": 0.6964473724365234
+        },
+        {
+          "label": "empty",
+          "probability": 0.30355262756347656
+        }
+      ],
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\test_screenshots_eval_patched\\Screenshot (152)__panel_crop.png",
+      "slot4_native_crop": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\test_screenshots_eval_patched\\Screenshot (152)__slot4_native_252.png",
+      "model_input_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\test_screenshots_eval_patched\\Screenshot (152)__slot4_input_200.png",
+      "slot4_overlay": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\test_screenshots_eval_patched\\Screenshot (152)__panel_with_slot4_box.png"
+    },
+    {
+      "input_image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots\\Screenshot (153).png",
+      "panel_crop_box": {
+        "x0": 2174,
+        "y0": 344,
+        "x1": 3664,
+        "y1": 1834
+      },
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "slot4_crop_rect": {
+        "x": 976,
+        "y": 702,
+        "size": 252,
+        "dx": 50,
+        "dy": -50
+      },
+      "predicted_label": "occupied",
+      "confidence": 0.5083094239234924,
+      "ranking": [
+        {
+          "label": "occupied",
+          "probability": 0.5083094239234924
+        },
+        {
+          "label": "empty",
+          "probability": 0.4916905164718628
+        }
+      ],
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\test_screenshots_eval_patched\\Screenshot (153)__panel_crop.png",
+      "slot4_native_crop": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\test_screenshots_eval_patched\\Screenshot (153)__slot4_native_252.png",
+      "model_input_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\test_screenshots_eval_patched\\Screenshot (153)__slot4_input_200.png",
+      "slot4_overlay": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\test_screenshots_eval_patched\\Screenshot (153)__panel_with_slot4_box.png"
+    },
+    {
+      "input_image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots\\Screenshot (154).png",
+      "panel_crop_box": {
+        "x0": 2175,
+        "y0": 344,
+        "x1": 3665,
+        "y1": 1834
+      },
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "slot4_crop_rect": {
+        "x": 976,
+        "y": 702,
+        "size": 252,
+        "dx": 50,
+        "dy": -50
+      },
+      "predicted_label": "occupied",
+      "confidence": 0.6964753866195679,
+      "ranking": [
+        {
+          "label": "occupied",
+          "probability": 0.6964753866195679
+        },
+        {
+          "label": "empty",
+          "probability": 0.30352461338043213
+        }
+      ],
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\test_screenshots_eval_patched\\Screenshot (154)__panel_crop.png",
+      "slot4_native_crop": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\test_screenshots_eval_patched\\Screenshot (154)__slot4_native_252.png",
+      "model_input_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\test_screenshots_eval_patched\\Screenshot (154)__slot4_input_200.png",
+      "slot4_overlay": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\test_screenshots_eval_patched\\Screenshot (154)__panel_with_slot4_box.png"
+    },
+    {
+      "input_image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots\\Screenshot (155).png",
+      "panel_crop_box": {
+        "x0": 2174,
+        "y0": 344,
+        "x1": 3664,
+        "y1": 1834
+      },
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "slot4_crop_rect": {
+        "x": 976,
+        "y": 702,
+        "size": 252,
+        "dx": 50,
+        "dy": -50
+      },
+      "predicted_label": "empty",
+      "confidence": 0.9997718930244446,
+      "ranking": [
+        {
+          "label": "empty",
+          "probability": 0.9997718930244446
+        },
+        {
+          "label": "occupied",
+          "probability": 0.0002281483612023294
+        }
+      ],
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\test_screenshots_eval_patched\\Screenshot (155)__panel_crop.png",
+      "slot4_native_crop": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\test_screenshots_eval_patched\\Screenshot (155)__slot4_native_252.png",
+      "model_input_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\test_screenshots_eval_patched\\Screenshot (155)__slot4_input_200.png",
+      "slot4_overlay": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\test_screenshots_eval_patched\\Screenshot (155)__panel_with_slot4_box.png"
+    },
+    {
+      "input_image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots\\Screenshot (156).png",
+      "panel_crop_box": {
+        "x0": 2174,
+        "y0": 344,
+        "x1": 3664,
+        "y1": 1834
+      },
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "slot4_crop_rect": {
+        "x": 976,
+        "y": 702,
+        "size": 252,
+        "dx": 50,
+        "dy": -50
+      },
+      "predicted_label": "occupied",
+      "confidence": 0.5083203911781311,
+      "ranking": [
+        {
+          "label": "occupied",
+          "probability": 0.5083203911781311
+        },
+        {
+          "label": "empty",
+          "probability": 0.4916795790195465
+        }
+      ],
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\test_screenshots_eval_patched\\Screenshot (156)__panel_crop.png",
+      "slot4_native_crop": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\test_screenshots_eval_patched\\Screenshot (156)__slot4_native_252.png",
+      "model_input_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\test_screenshots_eval_patched\\Screenshot (156)__slot4_input_200.png",
+      "slot4_overlay": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\test_screenshots_eval_patched\\Screenshot (156)__panel_with_slot4_box.png"
+    },
+    {
+      "input_image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots\\Screenshot (157).png",
+      "panel_crop_box": {
+        "x0": 2175,
+        "y0": 344,
+        "x1": 3665,
+        "y1": 1834
+      },
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "slot4_crop_rect": {
+        "x": 976,
+        "y": 702,
+        "size": 252,
+        "dx": 50,
+        "dy": -50
+      },
+      "predicted_label": "occupied",
+      "confidence": 0.696452796459198,
+      "ranking": [
+        {
+          "label": "occupied",
+          "probability": 0.696452796459198
+        },
+        {
+          "label": "empty",
+          "probability": 0.3035471737384796
+        }
+      ],
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\test_screenshots_eval_patched\\Screenshot (157)__panel_crop.png",
+      "slot4_native_crop": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\test_screenshots_eval_patched\\Screenshot (157)__slot4_native_252.png",
+      "model_input_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\test_screenshots_eval_patched\\Screenshot (157)__slot4_input_200.png",
+      "slot4_overlay": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\test_screenshots_eval_patched\\Screenshot (157)__panel_with_slot4_box.png"
+    },
+    {
+      "input_image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots\\Screenshot (158).png",
+      "panel_crop_box": {
+        "x0": 2174,
+        "y0": 344,
+        "x1": 3664,
+        "y1": 1834
+      },
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "slot4_crop_rect": {
+        "x": 976,
+        "y": 702,
+        "size": 252,
+        "dx": 50,
+        "dy": -50
+      },
+      "predicted_label": "occupied",
+      "confidence": 0.508293867111206,
+      "ranking": [
+        {
+          "label": "occupied",
+          "probability": 0.508293867111206
+        },
+        {
+          "label": "empty",
+          "probability": 0.49170613288879395
+        }
+      ],
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\test_screenshots_eval_patched\\Screenshot (158)__panel_crop.png",
+      "slot4_native_crop": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\test_screenshots_eval_patched\\Screenshot (158)__slot4_native_252.png",
+      "model_input_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\test_screenshots_eval_patched\\Screenshot (158)__slot4_input_200.png",
+      "slot4_overlay": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\test_screenshots_eval_patched\\Screenshot (158)__panel_with_slot4_box.png"
+    }
+  ]
+}

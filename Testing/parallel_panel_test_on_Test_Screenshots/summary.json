@@ -1,0 +1,168 @@
+{
+  "input_dir": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots",
+  "count": 9,
+  "results": [
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots\\Screenshot (150).png",
+      "panel": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\parallel_panel_test_on_Test_Screenshots\\Screenshot (150)__panel.png",
+      "panel_box": {
+        "x0": 2175,
+        "y0": 344,
+        "x1": 3665,
+        "y1": 1834
+      },
+      "slot2": "Great_Church_Lightning",
+      "slot4": "Church",
+      "slot5": "Sorcerers_Rise",
+      "slot6": "Ruins_Poison",
+      "slot7": "Church",
+      "palace": "Status_Fire",
+      "fortress": "Status_Holy",
+      "report": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\parallel_panel_test_on_Test_Screenshots\\Screenshot (150)__parallel_report.json"
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots\\Screenshot (151).png",
+      "panel": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\parallel_panel_test_on_Test_Screenshots\\Screenshot (151)__panel.png",
+      "panel_box": {
+        "x0": 2175,
+        "y0": 344,
+        "x1": 3665,
+        "y1": 1834
+      },
+      "slot2": "Great_Church_Sleep",
+      "slot4": "empty",
+      "slot5": "Church",
+      "slot6": "Ruins_Poison",
+      "slot7": "Sorcerers_Rise",
+      "palace": "Status_Magic",
+      "fortress": "Status_Rot",
+      "report": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\parallel_panel_test_on_Test_Screenshots\\Screenshot (151)__parallel_report.json"
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots\\Screenshot (152).png",
+      "panel": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\parallel_panel_test_on_Test_Screenshots\\Screenshot (152)__panel.png",
+      "panel_box": {
+        "x0": 2175,
+        "y0": 344,
+        "x1": 3665,
+        "y1": 1834
+      },
+      "slot2": "Great_Church_Lightning",
+      "slot4": "Church",
+      "slot5": "empty",
+      "slot6": "Ruins_Poison",
+      "slot7": "Church",
+      "palace": "Status_Fire",
+      "fortress": "Status_Holy",
+      "report": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\parallel_panel_test_on_Test_Screenshots\\Screenshot (152)__parallel_report.json"
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots\\Screenshot (153).png",
+      "panel": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\parallel_panel_test_on_Test_Screenshots\\Screenshot (153)__panel.png",
+      "panel_box": {
+        "x0": 2174,
+        "y0": 344,
+        "x1": 3664,
+        "y1": 1834
+      },
+      "slot2": "Great_Church_Lightning",
+      "slot4": "Church",
+      "slot5": "empty",
+      "slot6": "Ruins_Poison",
+      "slot7": "Sorcerers_Rise",
+      "palace": "Status_Fire",
+      "fortress": "Status_Rot",
+      "report": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\parallel_panel_test_on_Test_Screenshots\\Screenshot (153)__parallel_report.json"
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots\\Screenshot (154).png",
+      "panel": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\parallel_panel_test_on_Test_Screenshots\\Screenshot (154)__panel.png",
+      "panel_box": {
+        "x0": 2175,
+        "y0": 344,
+        "x1": 3665,
+        "y1": 1834
+      },
+      "slot2": "Great_Church_Sleep",
+      "slot4": "Church",
+      "slot5": "empty",
+      "slot6": "Ruins_Poison",
+      "slot7": "Church",
+      "palace": "Status_Magic",
+      "fortress": "Status_Rot",
+      "report": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\parallel_panel_test_on_Test_Screenshots\\Screenshot (154)__parallel_report.json"
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots\\Screenshot (155).png",
+      "panel": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\parallel_panel_test_on_Test_Screenshots\\Screenshot (155)__panel.png",
+      "panel_box": {
+        "x0": 2174,
+        "y0": 344,
+        "x1": 3664,
+        "y1": 1834
+      },
+      "slot2": "Great_Church_Lightning",
+      "slot4": "empty",
+      "slot5": "Sorcerers_Rise",
+      "slot6": "Ruins_Poison",
+      "slot7": "Church",
+      "palace": "Status_Magic",
+      "fortress": "Status_Holy",
+      "report": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\parallel_panel_test_on_Test_Screenshots\\Screenshot (155)__parallel_report.json"
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots\\Screenshot (156).png",
+      "panel": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\parallel_panel_test_on_Test_Screenshots\\Screenshot (156)__panel.png",
+      "panel_box": {
+        "x0": 2174,
+        "y0": 344,
+        "x1": 3664,
+        "y1": 1834
+      },
+      "slot2": "Great_Church_Lightning",
+      "slot4": "Church",
+      "slot5": "empty",
+      "slot6": "Ruins_Poison",
+      "slot7": "Sorcerers_Rise",
+      "palace": "Status_Magic",
+      "fortress": "Status_Holy",
+      "report": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\parallel_panel_test_on_Test_Screenshots\\Screenshot (156)__parallel_report.json"
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots\\Screenshot (157).png",
+      "panel": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\parallel_panel_test_on_Test_Screenshots\\Screenshot (157)__panel.png",
+      "panel_box": {
+        "x0": 2175,
+        "y0": 344,
+        "x1": 3665,
+        "y1": 1834
+      },
+      "slot2": "Great_Church_Lightning",
+      "slot4": "Church",
+      "slot5": "Sorcerers_Rise",
+      "slot6": "Ruins_Poison",
+      "slot7": "Church",
+      "palace": "Status_Magic",
+      "fortress": "Status_Rot",
+      "report": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\parallel_panel_test_on_Test_Screenshots\\Screenshot (157)__parallel_report.json"
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots\\Screenshot (158).png",
+      "panel": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\parallel_panel_test_on_Test_Screenshots\\Screenshot (158)__panel.png",
+      "panel_box": {
+        "x0": 2174,
+        "y0": 344,
+        "x1": 3664,
+        "y1": 1834
+      },
+      "slot2": "Great_Church_Lightning",
+      "slot4": "Church",
+      "slot5": "Sorcerers_Rise",
+      "slot6": "Ruins_Bleed",
+      "slot7": "Church",
+      "palace": "Status_Fire",
+      "fortress": "Status_Rot",
+      "report": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\parallel_panel_test_on_Test_Screenshots\\Screenshot (158)__parallel_report.json"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "root": "Testing\\slot_2",
+    "sources": 2,
+    "created": 2000
+  },
+  {
+    "root": "Testing\\slot_4",
+    "sources": 3,
+    "created": 3000
+  },
+  {
+    "root": "Testing\\slot_5",
+    "sources": 3,
+    "created": 3000
+  },
+  {
+    "root": "Testing\\slot_6",
+    "sources": 2,
+    "created": 2000
+  },
+  {
+    "root": "Testing\\slot_7",
+    "sources": 3,
+    "created": 3000
+  },
+  {
+    "root": "Testing\\palace",
+    "sources": 2,
+    "created": 2000
+  },
+  {
+    "root": "Testing\\fortress",
+    "sources": 2,
+    "created": 2000
+  }
+]

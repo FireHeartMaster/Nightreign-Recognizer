@@ -1,0 +1,70 @@
+{
+  "count": 10,
+  "icon_margin": {
+    "mean": 0.041499999999999995,
+    "min": 0.0375,
+    "max": 0.0455
+  },
+  "hybrid_margin": {
+    "mean": 0.2513472889448092,
+    "min": 0.2110355832555766,
+    "max": 0.2916589946340417
+  },
+  "delta_hybrid_minus_icon": {
+    "mean": 0.20984728894480914,
+    "min": 0.17353558325557658,
+    "max": 0.24615899463404173
+  },
+  "rows": [
+    {
+      "patternId": 1005,
+      "icon_margin": 0.0455,
+      "hybrid_margin": 0.2916589946340417
+    },
+    {
+      "patternId": 1006,
+      "icon_margin": 0.0455,
+      "hybrid_margin": 0.2916589946340417
+    },
+    {
+      "patternId": 1007,
+      "icon_margin": 0.0375,
+      "hybrid_margin": 0.2110355832555766
+    },
+    {
+      "patternId": 1008,
+      "icon_margin": 0.0455,
+      "hybrid_margin": 0.2916589946340417
+    },
+    {
+      "patternId": 1009,
+      "icon_margin": 0.0375,
+      "hybrid_margin": 0.2110355832555766
+    },
+    {
+      "patternId": 1015,
+      "icon_margin": 0.0455,
+      "hybrid_margin": 0.2916589946340417
+    },
+    {
+      "patternId": 1016,
+      "icon_margin": 0.0455,
+      "hybrid_margin": 0.2916589946340417
+    },
+    {
+      "patternId": 1017,
+      "icon_margin": 0.0375,
+      "hybrid_margin": 0.2110355832555766
+    },
+    {
+      "patternId": 1018,
+      "icon_margin": 0.0375,
+      "hybrid_margin": 0.2110355832555766
+    },
+    {
+      "patternId": 1019,
+      "icon_margin": 0.0375,
+      "hybrid_margin": 0.2110355832555766
+    }
+  ]
+}

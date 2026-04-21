@@ -1,0 +1,32 @@
+[
+  {
+    "layout": 1005,
+    "target": "Lightning",
+    "file": "tmp_gc_status_mix6\\layout_1005_Lightning.png"
+  },
+  {
+    "layout": 1006,
+    "target": "Lightning",
+    "file": "tmp_gc_status_mix6\\layout_1006_Lightning.png"
+  },
+  {
+    "layout": 1007,
+    "target": "Lightning",
+    "file": "tmp_gc_status_mix6\\layout_1007_Lightning.png"
+  },
+  {
+    "layout": 1008,
+    "target": "Sleep",
+    "file": "tmp_gc_status_mix6\\layout_1008_Sleep.png"
+  },
+  {
+    "layout": 1009,
+    "target": "Sleep",
+    "file": "tmp_gc_status_mix6\\layout_1009_Sleep.png"
+  },
+  {
+    "layout": 1015,
+    "target": "Sleep",
+    "file": "tmp_gc_status_mix6\\layout_1015_Sleep.png"
+  }
+]

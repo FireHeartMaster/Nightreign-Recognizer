@@ -1,0 +1,257 @@
+{
+  "count": 2,
+  "reports": [
+    {
+      "image": "C:\\Users\\eduar\\Downloads\\Balancers_1080.png",
+      "used_v2_default": true,
+      "top_earth": "Rotted Woods",
+      "top_layout": 1,
+      "earth_ranking_top3": [
+        {
+          "name": "Rotted Woods",
+          "score": 0.1974330097436905,
+          "details": {
+            "source": "earth_selector_v2",
+            "ai_prob": 0.1974330097436905,
+            "unknown": true,
+            "confidence": 0.1974330097436905,
+            "margin_top1_top2": 0.008176028728485107
+          }
+        },
+        {
+          "name": "Limveld",
+          "score": 0.18925698101520538,
+          "details": {
+            "source": "earth_selector_v2",
+            "ai_prob": 0.18925698101520538,
+            "unknown": true,
+            "confidence": 0.1974330097436905,
+            "margin_top1_top2": 0.008176028728485107
+          }
+        },
+        {
+          "name": "Mountaintop",
+          "score": 0.18560846149921417,
+          "details": {
+            "source": "earth_selector_v2",
+            "ai_prob": 0.18560846149921417,
+            "unknown": true,
+            "confidence": 0.1974330097436905,
+            "margin_top1_top2": 0.008176028728485107
+          }
+        }
+      ],
+      "earth_cascade_top3": [
+        {
+          "name": "Limveld",
+          "score": 0.5608207530485025,
+          "details": {
+            "base_score": 0.18925698101520538,
+            "geometry_prior": 0.0018734403129201382,
+            "lost_slot_prior": 0.0,
+            "hard_constraint_prior": 0.0,
+            "evergaol_prior": 0.23879710108635238,
+            "great_hollow_status_support": 0.0,
+            "raw_details": {
+              "source": "earth_selector_v2",
+              "ai_prob": 0.18925698101520538,
+              "unknown": true,
+              "confidence": 0.1974330097436905,
+              "margin_top1_top2": 0.008176028728485107
+            }
+          }
+        },
+        {
+          "name": "Rotted Woods",
+          "score": 0.4872207046923821,
+          "details": {
+            "base_score": 0.1974330097436905,
+            "geometry_prior": 0.0,
+            "lost_slot_prior": -0.0037012125896136415,
+            "hard_constraint_prior": 0.0,
+            "evergaol_prior": 0.18179709593240548,
+            "great_hollow_status_support": 0.0,
+            "raw_details": {
+              "source": "earth_selector_v2",
+              "ai_prob": 0.1974330097436905,
+              "unknown": true,
+              "confidence": 0.1974330097436905,
+              "margin_top1_top2": 0.008176028728485107
+            }
+          }
+        },
+        {
+          "name": "Noklateo",
+          "score": 0.44579344598833015,
+          "details": {
+            "base_score": 0.17903494834899902,
+            "geometry_prior": 0.0,
+            "lost_slot_prior": -0.021027513703985052,
+            "hard_constraint_prior": 0.0,
+            "evergaol_prior": 0.1854717807796009,
+            "great_hollow_status_support": 0.0,
+            "raw_details": {
+              "source": "earth_selector_v2",
+              "ai_prob": 0.17903494834899902,
+              "unknown": true,
+              "confidence": 0.1974330097436905,
+              "margin_top1_top2": 0.008176028728485107
+            }
+          }
+        }
+      ],
+      "timings": {
+        "capture_screenshot_or_use_pre_captured": 0.000817399937659502,
+        "panel_crop_preview_initial": 0.023112300084903836,
+        "preview_callback": 0.0,
+        "detect_map_circle_main": 0.020147599978372455,
+        "panel_crop_first_pass": 1.6600009985268116e-05,
+        "panel_further_crop_normalize": 0.0019389999797567725,
+        "earth_selector_ranking": 0.8983009000075981,
+        "slot_observation_classification_total": 0.49504629988223314,
+        "geometry_prior_computation": 2.9799994081258774e-05,
+        "lost_slot_prior_computation": 0.0008189999498426914,
+        "hard_constraint_prior_computation": 9.600003249943256e-05,
+        "evergaol_prior_detection": 0.43936209997627884,
+        "status_icon_detection": 9.804104199982248,
+        "dual_shot_second_status_detection": 0.0,
+        "earth_cascade_ranking": 4.5199994929134846e-05,
+        "layout_classifier_inference": 0.10309820005204529,
+        "layout_identification_scoring": 0.007415100000798702,
+        "layout_sort_and_select": 4.130008164793253e-05,
+        "debug_annotation_rendering": 0.20337470003869385,
+        "display_path_resolution": 0.09223820001352578,
+        "total_run": 12.49791329994332
+      },
+      "ai_model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\slot_ai_test_output_dlc_no_text_nobalance\\slot_patch_model_v1.pt",
+      "report_path": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_smoke_test_v2_default\\Balancers_1080_smoke_report.json",
+      "log_path": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_smoke_test_v2_default\\Balancers_1080_smoke_logs.txt"
+    },
+    {
+      "image": "C:\\Users\\eduar\\Downloads\\Dreglord_1080.png",
+      "used_v2_default": true,
+      "top_earth": "Limveld",
+      "top_layout": 1152,
+      "earth_ranking_top3": [
+        {
+          "name": "Limveld",
+          "score": 0.20903900265693665,
+          "details": {
+            "source": "earth_selector_v2",
+            "ai_prob": 0.20903900265693665,
+            "unknown": true,
+            "confidence": 0.20903900265693665,
+            "margin_top1_top2": 0.017509058117866516
+          }
+        },
+        {
+          "name": "Rotted Woods",
+          "score": 0.19152994453907013,
+          "details": {
+            "source": "earth_selector_v2",
+            "ai_prob": 0.19152994453907013,
+            "unknown": true,
+            "confidence": 0.20903900265693665,
+            "margin_top1_top2": 0.017509058117866516
+          }
+        },
+        {
+          "name": "Noklateo",
+          "score": 0.190301313996315,
+          "details": {
+            "source": "earth_selector_v2",
+            "ai_prob": 0.190301313996315,
+            "unknown": true,
+            "confidence": 0.20903900265693665,
+            "margin_top1_top2": 0.017509058117866516
+          }
+        }
+      ],
+      "earth_cascade_top3": [
+        {
+          "name": "Limveld",
+          "score": 0.9225709663972841,
+          "details": {
+            "base_score": 0.20903900265693665,
+            "geometry_prior": 0.20894013872748474,
+            "lost_slot_prior": 0.0,
+            "hard_constraint_prior": 0.0,
+            "evergaol_prior": 0.33506079581379894,
+            "great_hollow_status_support": 0.0,
+            "raw_details": {
+              "source": "earth_selector_v2",
+              "ai_prob": 0.20903900265693665,
+              "unknown": true,
+              "confidence": 0.20903900265693665,
+              "margin_top1_top2": 0.017509058117866516
+            }
+          }
+        },
+        {
+          "name": "Noklateo",
+          "score": 0.13097987809961553,
+          "details": {
+            "base_score": 0.190301313996315,
+            "geometry_prior": 0.0241806238409481,
+            "lost_slot_prior": -0.33251420652594466,
+            "hard_constraint_prior": 0.0,
+            "evergaol_prior": 0.23541984486911033,
+            "great_hollow_status_support": 0.0,
+            "raw_details": {
+              "source": "earth_selector_v2",
+              "ai_prob": 0.190301313996315,
+              "unknown": true,
+              "confidence": 0.20903900265693665,
+              "margin_top1_top2": 0.017509058117866516
+            }
+          }
+        },
+        {
+          "name": "Rotted Woods",
+          "score": -0.06656648305804375,
+          "details": {
+            "base_score": 0.19152994453907013,
+            "geometry_prior": 0.19010455118404934,
+            "lost_slot_prior": -0.5840415421392295,
+            "hard_constraint_prior": 0.0,
+            "evergaol_prior": 0.21657230886816975,
+            "great_hollow_status_support": 0.0,
+            "raw_details": {
+              "source": "earth_selector_v2",
+              "ai_prob": 0.19152994453907013,
+              "unknown": true,
+              "confidence": 0.20903900265693665,
+              "margin_top1_top2": 0.017509058117866516
+            }
+          }
+        }
+      ],
+      "timings": {
+        "capture_screenshot_or_use_pre_captured": 0.0008084999863058329,
+        "panel_crop_preview_initial": 0.025410200003534555,
+        "preview_callback": 0.0,
+        "detect_map_circle_main": 0.031133799930103123,
+        "panel_crop_first_pass": 1.6400008462369442e-05,
+        "panel_further_crop_normalize": 0.0017993999645113945,
+        "earth_selector_ranking": 0.004873399971984327,
+        "slot_observation_classification_total": 0.19991319999098778,
+        "geometry_prior_computation": 1.2299977242946625e-05,
+        "lost_slot_prior_computation": 0.00045759999193251133,
+        "hard_constraint_prior_computation": 7.609999738633633e-05,
+        "evergaol_prior_detection": 0.3491114000789821,
+        "status_icon_detection": 8.866183999925852,
+        "dual_shot_second_status_detection": 0.0,
+        "earth_cascade_ranking": 3.599992487579584e-05,
+        "layout_classifier_inference": 0.07282080000732094,
+        "layout_identification_scoring": 0.011861299979500473,
+        "layout_sort_and_select": 3.7400051951408386e-05,
+        "debug_annotation_rendering": 0.25864260003436357,
+        "display_path_resolution": 0.09376580000389367,
+        "total_run": 10.163417299976572
+      },
+      "ai_model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\slot_ai_test_output_dlc_no_text_nobalance\\slot_patch_model_v1.pt",
+      "report_path": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_smoke_test_v2_default\\Dreglord_1080_smoke_report.json",
+      "log_path": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_smoke_test_v2_default\\Dreglord_1080_smoke_logs.txt"
+    }
+  ]
+}

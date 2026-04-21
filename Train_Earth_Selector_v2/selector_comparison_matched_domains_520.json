@@ -1,0 +1,154 @@
+{
+  "pipeline_selector_on_panel_crops": {
+    "count": 520,
+    "correct": 520,
+    "accuracy": 1.0,
+    "unknown_count": 0,
+    "unknown_rate": 0.0,
+    "decided_count": 520,
+    "decided_accuracy": 1.0,
+    "mean_latency_ms": 6.9140119216172025,
+    "per_earth": {
+      "Limveld": {
+        "count": 240,
+        "correct": 240,
+        "accuracy": 1.0,
+        "unknown_count": 0,
+        "unknown_rate": 0.0,
+        "decided_count": 240,
+        "decided_accuracy": 1.0,
+        "mean_latency_ms": 7.327530832359723
+      },
+      "Mountaintop": {
+        "count": 50,
+        "correct": 50,
+        "accuracy": 1.0,
+        "unknown_count": 0,
+        "unknown_rate": 0.0,
+        "decided_count": 50,
+        "decided_accuracy": 1.0,
+        "mean_latency_ms": 6.538133996073157
+      },
+      "The Crater": {
+        "count": 50,
+        "correct": 50,
+        "accuracy": 1.0,
+        "unknown_count": 0,
+        "unknown_rate": 0.0,
+        "decided_count": 50,
+        "decided_accuracy": 1.0,
+        "mean_latency_ms": 6.642166008241475
+      },
+      "Rotted Woods": {
+        "count": 50,
+        "correct": 50,
+        "accuracy": 1.0,
+        "unknown_count": 0,
+        "unknown_rate": 0.0,
+        "decided_count": 50,
+        "decided_accuracy": 1.0,
+        "mean_latency_ms": 7.304706007707864
+      },
+      "Noklateo": {
+        "count": 50,
+        "correct": 50,
+        "accuracy": 1.0,
+        "unknown_count": 0,
+        "unknown_rate": 0.0,
+        "decided_count": 50,
+        "decided_accuracy": 1.0,
+        "mean_latency_ms": 7.62037998996675
+      },
+      "Great Hollow": {
+        "count": 80,
+        "correct": 80,
+        "accuracy": 1.0,
+        "unknown_count": 0,
+        "unknown_rate": 0.0,
+        "decided_count": 80,
+        "decided_accuracy": 1.0,
+        "mean_latency_ms": 5.39261874218937
+      }
+    },
+    "wall_time_s": 33.30975439993199
+  },
+  "v2_selector_on_further_crops": {
+    "count": 520,
+    "correct": 520,
+    "accuracy": 1.0,
+    "unknown_count": 91,
+    "unknown_rate": 0.175,
+    "decided_count": 429,
+    "decided_accuracy": 1.0,
+    "mean_latency_ms": 28.27489596428887,
+    "per_earth": {
+      "Limveld": {
+        "count": 240,
+        "correct": 240,
+        "accuracy": 1.0,
+        "unknown_count": 91,
+        "unknown_rate": 0.37916666666666665,
+        "decided_count": 149,
+        "decided_accuracy": 1.0,
+        "mean_latency_ms": 27.094315002129104
+      },
+      "Mountaintop": {
+        "count": 50,
+        "correct": 50,
+        "accuracy": 1.0,
+        "unknown_count": 0,
+        "unknown_rate": 0.0,
+        "decided_count": 50,
+        "decided_accuracy": 1.0,
+        "mean_latency_ms": 26.347189997322857
+      },
+      "The Crater": {
+        "count": 50,
+        "correct": 50,
+        "accuracy": 1.0,
+        "unknown_count": 0,
+        "unknown_rate": 0.0,
+        "decided_count": 50,
+        "decided_accuracy": 1.0,
+        "mean_latency_ms": 25.422388000879437
+      },
+      "Rotted Woods": {
+        "count": 50,
+        "correct": 50,
+        "accuracy": 1.0,
+        "unknown_count": 0,
+        "unknown_rate": 0.0,
+        "decided_count": 50,
+        "decided_accuracy": 1.0,
+        "mean_latency_ms": 28.649602006189525
+      },
+      "Noklateo": {
+        "count": 50,
+        "correct": 50,
+        "accuracy": 1.0,
+        "unknown_count": 0,
+        "unknown_rate": 0.0,
+        "decided_count": 50,
+        "decided_accuracy": 1.0,
+        "mean_latency_ms": 29.56378200557083
+      },
+      "Great Hollow": {
+        "count": 80,
+        "correct": 80,
+        "accuracy": 1.0,
+        "unknown_count": 0,
+        "unknown_rate": 0.0,
+        "decided_count": 80,
+        "decided_accuracy": 1.0,
+        "mean_latency_ms": 33.764527505263686
+      }
+    },
+    "wall_time_s": 14.710216399980709
+  },
+  "timing_comparison": {
+    "pipeline_mean_latency_ms": 6.9140119216172025,
+    "v2_mean_latency_ms": 28.27489596428887,
+    "pipeline_wall_time_s": 33.30975439993199,
+    "v2_wall_time_s": 14.710216399980709
+  }
+}

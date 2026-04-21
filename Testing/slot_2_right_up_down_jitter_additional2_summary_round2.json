@@ -1,0 +1,112 @@
+{
+  "source_count": 7,
+  "created_count": 14,
+  "error_count": 0,
+  "output_dir": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2\\Great_Church",
+  "direction_rule": "right/up/down only; no left",
+  "variants_added": [
+    8,
+    9
+  ],
+  "created": [
+    {
+      "source": "pattern_1115_asym_further_crop.png",
+      "variant": 8,
+      "direction": "down",
+      "magnitude": 29,
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2\\Great_Church\\pattern_1115_asym_further_crop__slot_2__j8__down29.png"
+    },
+    {
+      "source": "pattern_1115_asym_further_crop.png",
+      "variant": 9,
+      "direction": "right",
+      "magnitude": 11,
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2\\Great_Church\\pattern_1115_asym_further_crop__slot_2__j9__right11.png"
+    },
+    {
+      "source": "pattern_1119_asym_further_crop.png",
+      "variant": 8,
+      "direction": "down",
+      "magnitude": 28,
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2\\Great_Church\\pattern_1119_asym_further_crop__slot_2__j8__down28.png"
+    },
+    {
+      "source": "pattern_1119_asym_further_crop.png",
+      "variant": 9,
+      "direction": "right",
+      "magnitude": 28,
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2\\Great_Church\\pattern_1119_asym_further_crop__slot_2__j9__right28.png"
+    },
+    {
+      "source": "pattern_1120_asym_further_crop.png",
+      "variant": 8,
+      "direction": "down",
+      "magnitude": 9,
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2\\Great_Church\\pattern_1120_asym_further_crop__slot_2__j8__down9.png"
+    },
+    {
+      "source": "pattern_1120_asym_further_crop.png",
+      "variant": 9,
+      "direction": "right",
+      "magnitude": 23,
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2\\Great_Church\\pattern_1120_asym_further_crop__slot_2__j9__right23.png"
+    },
+    {
+      "source": "pattern_1128_asym_further_crop.png",
+      "variant": 8,
+      "direction": "up",
+      "magnitude": 23,
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2\\Great_Church\\pattern_1128_asym_further_crop__slot_2__j8__up23.png"
+    },
+    {
+      "source": "pattern_1128_asym_further_crop.png",
+      "variant": 9,
+      "direction": "right",
+      "magnitude": 6,
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2\\Great_Church\\pattern_1128_asym_further_crop__slot_2__j9__right6.png"
+    },
+    {
+      "source": "pattern_1175_asym_further_crop.png",
+      "variant": 8,
+      "direction": "right",
+      "magnitude": 28,
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2\\Great_Church\\pattern_1175_asym_further_crop__slot_2__j8__right28.png"
+    },
+    {
+      "source": "pattern_1175_asym_further_crop.png",
+      "variant": 9,
+      "direction": "right",
+      "magnitude": 7,
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2\\Great_Church\\pattern_1175_asym_further_crop__slot_2__j9__right7.png"
+    },
+    {
+      "source": "pattern_1181_asym_further_crop.png",
+      "variant": 8,
+      "direction": "right",
+      "magnitude": 26,
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2\\Great_Church\\pattern_1181_asym_further_crop__slot_2__j8__right26.png"
+    },
+    {
+      "source": "pattern_1181_asym_further_crop.png",
+      "variant": 9,
+      "direction": "up",
+      "magnitude": 28,
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2\\Great_Church\\pattern_1181_asym_further_crop__slot_2__j9__up28.png"
+    },
+    {
+      "source": "pattern_1185_asym_further_crop.png",
+      "variant": 8,
+      "direction": "down",
+      "magnitude": 2,
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2\\Great_Church\\pattern_1185_asym_further_crop__slot_2__j8__down2.png"
+    },
+    {
+      "source": "pattern_1185_asym_further_crop.png",
+      "variant": 9,
+      "direction": "up",
+      "magnitude": 15,
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2\\Great_Church\\pattern_1185_asym_further_crop__slot_2__j9__up15.png"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,43 @@
+{
+  "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\palace_status_cnn.pt",
+  "data_dir": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace",
+  "class_names": [
+    "Status_Fire",
+    "Status_Magic"
+  ],
+  "image_size": 200,
+  "meta": {
+    "best_epoch": 6,
+    "best_val_accuracy": 1.0,
+    "train_samples": 202,
+    "val_samples": 51
+  },
+  "total": 253,
+  "correct": 253,
+  "accuracy": 1.0,
+  "class_metrics": [
+    {
+      "label": "Status_Fire",
+      "count": 128,
+      "correct": 128,
+      "accuracy": 1.0
+    },
+    {
+      "label": "Status_Magic",
+      "count": 125,
+      "correct": 125,
+      "accuracy": 1.0
+    }
+  ],
+  "confusion_matrix": [
+    [
+      128,
+      0
+    ],
+    [
+      0,
+      125
+    ]
+  ],
+  "failures": []
+}

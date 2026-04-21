@@ -1,0 +1,164 @@
+[
+  {
+    "input_full_screenshot": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\Screenshots\\Screenshot (133).png",
+    "slot5_crop_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\Screenshot_133_slot5_plus_real_heavy_crop_200_noholdout.png",
+    "predicted_label": "Church",
+    "confidence": 0.9998569488525391,
+    "ranking": [
+      {
+        "label": "Church",
+        "probability": 0.9998569488525391
+      },
+      {
+        "label": "Sorcerer_s_Rise",
+        "probability": 0.00013188811135478318
+      },
+      {
+        "label": "empty",
+        "probability": 1.1108556464023422e-05
+      }
+    ],
+    "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5_plus_real_heavy\\slot5_status_cnn_plus_real_heavy.pt",
+    "model_meta": {
+      "best_epoch": 5,
+      "best_val_accuracy": 1.0,
+      "train_samples": 7200,
+      "val_samples": 1800
+    }
+  },
+  {
+    "input_full_screenshot": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\Screenshots\\Screenshot (134).png",
+    "slot5_crop_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\Screenshot_134_slot5_plus_real_heavy_crop_200_noholdout.png",
+    "predicted_label": "empty",
+    "confidence": 0.9991845488548279,
+    "ranking": [
+      {
+        "label": "empty",
+        "probability": 0.9991845488548279
+      },
+      {
+        "label": "Sorcerer_s_Rise",
+        "probability": 0.0004686735919676721
+      },
+      {
+        "label": "Church",
+        "probability": 0.00034676026552915573
+      }
+    ],
+    "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5_plus_real_heavy\\slot5_status_cnn_plus_real_heavy.pt",
+    "model_meta": {
+      "best_epoch": 5,
+      "best_val_accuracy": 1.0,
+      "train_samples": 7200,
+      "val_samples": 1800
+    }
+  },
+  {
+    "input_full_screenshot": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\Screenshots\\Screenshot (135).png",
+    "slot5_crop_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\Screenshot_135_slot5_plus_real_heavy_crop_200_noholdout.png",
+    "predicted_label": "empty",
+    "confidence": 0.9991787075996399,
+    "ranking": [
+      {
+        "label": "empty",
+        "probability": 0.9991787075996399
+      },
+      {
+        "label": "Sorcerer_s_Rise",
+        "probability": 0.0004677956167142838
+      },
+      {
+        "label": "Church",
+        "probability": 0.0003534751886036247
+      }
+    ],
+    "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5_plus_real_heavy\\slot5_status_cnn_plus_real_heavy.pt",
+    "model_meta": {
+      "best_epoch": 5,
+      "best_val_accuracy": 1.0,
+      "train_samples": 7200,
+      "val_samples": 1800
+    }
+  },
+  {
+    "input_full_screenshot": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\Screenshots\\Screenshot (136).png",
+    "slot5_crop_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\Screenshot_136_slot5_plus_real_heavy_crop_200_noholdout.png",
+    "predicted_label": "Sorcerer_s_Rise",
+    "confidence": 0.999832272529602,
+    "ranking": [
+      {
+        "label": "Sorcerer_s_Rise",
+        "probability": 0.999832272529602
+      },
+      {
+        "label": "Church",
+        "probability": 0.00015220516070257872
+      },
+      {
+        "label": "empty",
+        "probability": 1.543512371426914e-05
+      }
+    ],
+    "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5_plus_real_heavy\\slot5_status_cnn_plus_real_heavy.pt",
+    "model_meta": {
+      "best_epoch": 5,
+      "best_val_accuracy": 1.0,
+      "train_samples": 7200,
+      "val_samples": 1800
+    }
+  },
+  {
+    "input_full_screenshot": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\Screenshots\\Screenshot (137).png",
+    "slot5_crop_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\Screenshot_137_slot5_plus_real_heavy_crop_200_noholdout.png",
+    "predicted_label": "Church",
+    "confidence": 0.9998076558113098,
+    "ranking": [
+      {
+        "label": "Church",
+        "probability": 0.9998076558113098
+      },
+      {
+        "label": "Sorcerer_s_Rise",
+        "probability": 0.00017257801664527506
+      },
+      {
+        "label": "empty",
+        "probability": 1.974800215975847e-05
+      }
+    ],
+    "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5_plus_real_heavy\\slot5_status_cnn_plus_real_heavy.pt",
+    "model_meta": {
+      "best_epoch": 5,
+      "best_val_accuracy": 1.0,
+      "train_samples": 7200,
+      "val_samples": 1800
+    }
+  },
+  {
+    "input_full_screenshot": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\Screenshots\\Balancers_4K.png",
+    "slot5_crop_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\Balancers_4K_slot5_plus_real_heavy_crop_200_noholdout.png",
+    "predicted_label": "Sorcerer_s_Rise",
+    "confidence": 0.9999985694885254,
+    "ranking": [
+      {
+        "label": "Sorcerer_s_Rise",
+        "probability": 0.9999985694885254
+      },
+      {
+        "label": "Church",
+        "probability": 1.3770646773991757e-06
+      },
+      {
+        "label": "empty",
+        "probability": 1.0307292086508824e-07
+      }
+    ],
+    "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5_plus_real_heavy\\slot5_status_cnn_plus_real_heavy.pt",
+    "model_meta": {
+      "best_epoch": 5,
+      "best_val_accuracy": 1.0,
+      "train_samples": 7200,
+      "val_samples": 1800
+    }
+  }
+]

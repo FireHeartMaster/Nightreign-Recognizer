@@ -1,0 +1,46 @@
+{
+  "input": "/mnt/data/rotted_woods_bundle/data/pattern_1172_further_crop_1024.png",
+  "best_patternId": 1172,
+  "top5": [
+    {
+      "patternId": 1172,
+      "score": 4.743171215057373,
+      "probability": 1.0,
+      "image_score": 1.000000238418579,
+      "slot_score": 1.0
+    },
+    {
+      "patternId": 1112,
+      "score": 1.3595162630081177,
+      "probability": 5.677334145338941e-13,
+      "image_score": 0.9972458481788635,
+      "slot_score": 0.9343174695968628
+    },
+    {
+      "patternId": 230,
+      "score": 1.3555564880371094,
+      "probability": 5.493044712666373e-13,
+      "image_score": 0.9970166683197021,
+      "slot_score": 0.9395631551742554
+    },
+    {
+      "patternId": 1174,
+      "score": 1.1681691408157349,
+      "probability": 1.1524856318844562e-13,
+      "image_score": 0.9967984557151794,
+      "slot_score": 0.9374726414680481
+    },
+    {
+      "patternId": 73,
+      "score": 0.9819133281707764,
+      "probability": 2.4409188998384193e-14,
+      "image_score": 0.9966204166412354,
+      "slot_score": 0.9344794750213623
+    }
+  ],
+  "margin": 3.383655071258545,
+  "confidence": 1.0,
+  "unknown": false,
+  "decided_patternId": 1172,
+  "latency_ms": 164.2527029998746
+}

@@ -1,0 +1,441 @@
+{
+  "summary": {
+    "count_total": 43,
+    "count_scored": 43,
+    "count_error": 0,
+    "accuracy_candidate_earth_vs_gt": 0.8837209302325582,
+    "total_wall_time_s": 471.37070139998104
+  },
+  "results": [
+    {
+      "index": 1,
+      "file": "Balancers_1080.png",
+      "true_earth": "Limveld",
+      "raw_top_earth": "Rotted Woods",
+      "candidate_earth": "Rotted Woods",
+      "top_layout": 72,
+      "correct": false,
+      "runtime_s": 10.581565100001171
+    },
+    {
+      "index": 2,
+      "file": "Balancers_4K.png",
+      "true_earth": "Great Hollow",
+      "raw_top_earth": "Great Hollow",
+      "candidate_earth": "Great Hollow",
+      "top_layout": 1121,
+      "correct": true,
+      "runtime_s": 17.859892399981618
+    },
+    {
+      "index": 3,
+      "file": "Darkdrift_Knight_Rotted_Woods_1080.png",
+      "true_earth": "Rotted Woods",
+      "raw_top_earth": "Rotted Woods",
+      "candidate_earth": "Rotted Woods",
+      "top_layout": 232,
+      "correct": true,
+      "runtime_s": 9.493415399920195
+    },
+    {
+      "index": 4,
+      "file": "Dreglord_1080.png",
+      "true_earth": "Limveld",
+      "raw_top_earth": "Limveld",
+      "candidate_earth": "Limveld",
+      "top_layout": 1152,
+      "correct": true,
+      "runtime_s": 9.424997300026007
+    },
+    {
+      "index": 5,
+      "file": "Gaping_4K.png",
+      "true_earth": "Limveld",
+      "raw_top_earth": "Limveld",
+      "candidate_earth": "Limveld",
+      "top_layout": 49,
+      "correct": true,
+      "runtime_s": 12.38256309996359
+    },
+    {
+      "index": 6,
+      "file": "Screenshot (111).png",
+      "true_earth": "Rotted Woods",
+      "raw_top_earth": "Rotted Woods",
+      "candidate_earth": "Rotted Woods",
+      "top_layout": 33,
+      "correct": true,
+      "runtime_s": 9.476838500006124
+    },
+    {
+      "index": 7,
+      "file": "Screenshot (112).png",
+      "true_earth": "Rotted Woods",
+      "raw_top_earth": "Rotted Woods",
+      "candidate_earth": "Rotted Woods",
+      "top_layout": 191,
+      "correct": true,
+      "runtime_s": 13.763746000011452
+    },
+    {
+      "index": 8,
+      "file": "Screenshot (113).png",
+      "true_earth": "Rotted Woods",
+      "raw_top_earth": "Rotted Woods",
+      "candidate_earth": "Rotted Woods",
+      "top_layout": 191,
+      "correct": true,
+      "runtime_s": 9.372642099973746
+    },
+    {
+      "index": 9,
+      "file": "Screenshot (114).png",
+      "true_earth": "Rotted Woods",
+      "raw_top_earth": "Rotted Woods",
+      "candidate_earth": "Rotted Woods",
+      "top_layout": 70,
+      "correct": true,
+      "runtime_s": 9.254376000026241
+    },
+    {
+      "index": 10,
+      "file": "Screenshot (115).png",
+      "true_earth": "Rotted Woods",
+      "raw_top_earth": "Rotted Woods",
+      "candidate_earth": "Rotted Woods",
+      "top_layout": 1172,
+      "correct": true,
+      "runtime_s": 9.535667499992996
+    },
+    {
+      "index": 11,
+      "file": "Screenshot (116).png",
+      "true_earth": "Rotted Woods",
+      "raw_top_earth": "Rotted Woods",
+      "candidate_earth": "Rotted Woods",
+      "top_layout": 234,
+      "correct": true,
+      "runtime_s": 9.522065700031817
+    },
+    {
+      "index": 12,
+      "file": "Screenshot (117).png",
+      "true_earth": "Noklateo",
+      "raw_top_earth": "Noklateo",
+      "candidate_earth": "Noklateo",
+      "top_layout": 1137,
+      "correct": true,
+      "runtime_s": 13.164821699960157
+    },
+    {
+      "index": 13,
+      "file": "Screenshot (118).png",
+      "true_earth": "Noklateo",
+      "raw_top_earth": "Noklateo",
+      "candidate_earth": "Noklateo",
+      "top_layout": 238,
+      "correct": true,
+      "runtime_s": 9.592289200052619
+    },
+    {
+      "index": 14,
+      "file": "Screenshot (119).png",
+      "true_earth": "Noklateo",
+      "raw_top_earth": "Rotted Woods",
+      "candidate_earth": "Rotted Woods",
+      "top_layout": 272,
+      "correct": false,
+      "runtime_s": 13.154757299926132
+    },
+    {
+      "index": 15,
+      "file": "Screenshot (120).png",
+      "true_earth": "Noklateo",
+      "raw_top_earth": "Noklateo",
+      "candidate_earth": "Noklateo",
+      "top_layout": 1196,
+      "correct": true,
+      "runtime_s": 9.340400199987926
+    },
+    {
+      "index": 16,
+      "file": "Screenshot (121).png",
+      "true_earth": "Noklateo",
+      "raw_top_earth": "Noklateo",
+      "candidate_earth": "Noklateo",
+      "top_layout": 198,
+      "correct": true,
+      "runtime_s": 9.38956889999099
+    },
+    {
+      "index": 17,
+      "file": "Screenshot (122).png",
+      "true_earth": "Noklateo",
+      "raw_top_earth": "Noklateo",
+      "candidate_earth": "Noklateo",
+      "top_layout": 1137,
+      "correct": true,
+      "runtime_s": 9.520535300020128
+    },
+    {
+      "index": 18,
+      "file": "Screenshot (123).png",
+      "true_earth": "Mountaintop",
+      "raw_top_earth": "Mountaintop",
+      "candidate_earth": "Mountaintop",
+      "top_layout": 21,
+      "correct": true,
+      "runtime_s": 9.425951999961399
+    },
+    {
+      "index": 19,
+      "file": "Screenshot (124).png",
+      "true_earth": "Mountaintop",
+      "raw_top_earth": "Mountaintop",
+      "candidate_earth": "Mountaintop",
+      "top_layout": 220,
+      "correct": true,
+      "runtime_s": 9.671626799972728
+    },
+    {
+      "index": 20,
+      "file": "Screenshot (125).png",
+      "true_earth": "Mountaintop",
+      "raw_top_earth": "Mountaintop",
+      "candidate_earth": "Mountaintop",
+      "top_layout": 1104,
+      "correct": true,
+      "runtime_s": 9.41230500000529
+    },
+    {
+      "index": 21,
+      "file": "Screenshot (126).png",
+      "true_earth": "Mountaintop",
+      "raw_top_earth": "Mountaintop",
+      "candidate_earth": "Mountaintop",
+      "top_layout": 1163,
+      "correct": true,
+      "runtime_s": 9.40895760001149
+    },
+    {
+      "index": 22,
+      "file": "Screenshot (127).png",
+      "true_earth": "Mountaintop",
+      "raw_top_earth": "Mountaintop",
+      "candidate_earth": "Mountaintop",
+      "top_layout": 181,
+      "correct": true,
+      "runtime_s": 9.450285199913196
+    },
+    {
+      "index": 23,
+      "file": "Screenshot (128).png",
+      "true_earth": "The Crater",
+      "raw_top_earth": "The Crater",
+      "candidate_earth": "The Crater",
+      "top_layout": 27,
+      "correct": true,
+      "runtime_s": 9.453732099966146
+    },
+    {
+      "index": 24,
+      "file": "Screenshot (129).png",
+      "true_earth": "The Crater",
+      "raw_top_earth": "The Crater",
+      "candidate_earth": "The Crater",
+      "top_layout": 228,
+      "correct": true,
+      "runtime_s": 9.406541799893603
+    },
+    {
+      "index": 25,
+      "file": "Screenshot (130).png",
+      "true_earth": "The Crater",
+      "raw_top_earth": "The Crater",
+      "candidate_earth": "The Crater",
+      "top_layout": 1109,
+      "correct": true,
+      "runtime_s": 9.48230449995026
+    },
+    {
+      "index": 26,
+      "file": "Screenshot (131).png",
+      "true_earth": "The Crater",
+      "raw_top_earth": "The Crater",
+      "candidate_earth": "The Crater",
+      "top_layout": 1169,
+      "correct": true,
+      "runtime_s": 9.504528200021014
+    },
+    {
+      "index": 27,
+      "file": "Screenshot (132).png",
+      "true_earth": "The Crater",
+      "raw_top_earth": "The Crater",
+      "candidate_earth": "The Crater",
+      "top_layout": 185,
+      "correct": true,
+      "runtime_s": 9.41170699999202
+    },
+    {
+      "index": 28,
+      "file": "Screenshot (133).png",
+      "true_earth": "Great Hollow",
+      "raw_top_earth": "Great Hollow",
+      "candidate_earth": "Great Hollow",
+      "top_layout": 1118,
+      "correct": true,
+      "runtime_s": 15.92444989993237
+    },
+    {
+      "index": 29,
+      "file": "Screenshot (134).png",
+      "true_earth": "Great Hollow",
+      "raw_top_earth": "Great Hollow",
+      "candidate_earth": "Great Hollow",
+      "top_layout": 1075,
+      "correct": true,
+      "runtime_s": 15.937557599972934
+    },
+    {
+      "index": 30,
+      "file": "Screenshot (135).png",
+      "true_earth": "Great Hollow",
+      "raw_top_earth": "Great Hollow",
+      "candidate_earth": "Great Hollow",
+      "top_layout": 1016,
+      "correct": true,
+      "runtime_s": 15.87563050002791
+    },
+    {
+      "index": 31,
+      "file": "Screenshot (136).png",
+      "true_earth": "Great Hollow",
+      "raw_top_earth": "Great Hollow",
+      "candidate_earth": "Great Hollow",
+      "top_layout": 1179,
+      "correct": true,
+      "runtime_s": 15.873087399988435
+    },
+    {
+      "index": 32,
+      "file": "Screenshot (137).png",
+      "true_earth": "Great Hollow",
+      "raw_top_earth": "Great Hollow",
+      "candidate_earth": "Great Hollow",
+      "top_layout": 1057,
+      "correct": true,
+      "runtime_s": 15.848243799991906
+    },
+    {
+      "index": 33,
+      "file": "Screenshot (138).png",
+      "true_earth": "Limveld",
+      "raw_top_earth": "Rotted Woods",
+      "candidate_earth": "Rotted Woods",
+      "top_layout": 70,
+      "correct": false,
+      "runtime_s": 9.543508099974133
+    },
+    {
+      "index": 34,
+      "file": "Screenshot (139).png",
+      "true_earth": "The Crater",
+      "raw_top_earth": "Rotted Woods",
+      "candidate_earth": "Rotted Woods",
+      "top_layout": 233,
+      "correct": false,
+      "runtime_s": 9.372888999991119
+    },
+    {
+      "index": 35,
+      "file": "Screenshot (140).png",
+      "true_earth": "Limveld",
+      "raw_top_earth": "Limveld",
+      "candidate_earth": "Limveld",
+      "top_layout": 82,
+      "correct": true,
+      "runtime_s": 9.3114673999371
+    },
+    {
+      "index": 36,
+      "file": "Screenshot (141).png",
+      "true_earth": "Limveld",
+      "raw_top_earth": "Rotted Woods",
+      "candidate_earth": "Rotted Woods",
+      "top_layout": 154,
+      "correct": false,
+      "runtime_s": 9.385106100002304
+    },
+    {
+      "index": 37,
+      "file": "Screenshot (142).png",
+      "true_earth": "Limveld",
+      "raw_top_earth": "Limveld",
+      "candidate_earth": "Limveld",
+      "top_layout": 175,
+      "correct": true,
+      "runtime_s": 9.451092700008303
+    },
+    {
+      "index": 38,
+      "file": "Screenshot (143).png",
+      "true_earth": "Limveld",
+      "raw_top_earth": "Limveld",
+      "candidate_earth": "Limveld",
+      "top_layout": 216,
+      "correct": true,
+      "runtime_s": 9.336808299995027
+    },
+    {
+      "index": 39,
+      "file": "Screenshot (144).png",
+      "true_earth": "Limveld",
+      "raw_top_earth": "Limveld",
+      "candidate_earth": "Limveld",
+      "top_layout": 248,
+      "correct": true,
+      "runtime_s": 9.301255799946375
+    },
+    {
+      "index": 40,
+      "file": "Screenshot (145).png",
+      "true_earth": "Noklateo",
+      "raw_top_earth": "Noklateo",
+      "candidate_earth": "Noklateo",
+      "top_layout": 196,
+      "correct": true,
+      "runtime_s": 13.115952900028788
+    },
+    {
+      "index": 41,
+      "file": "Screenshot (146).png",
+      "true_earth": "Limveld",
+      "raw_top_earth": "Limveld",
+      "candidate_earth": "Limveld",
+      "top_layout": 178,
+      "correct": true,
+      "runtime_s": 13.358558899955824
+    },
+    {
+      "index": 42,
+      "file": "Screenshot (147).png",
+      "true_earth": "Limveld",
+      "raw_top_earth": "Limveld",
+      "candidate_earth": "Limveld",
+      "top_layout": 1145,
+      "correct": true,
+      "runtime_s": 9.278643500059843
+    },
+    {
+      "index": 43,
+      "file": "Screenshot (148).png",
+      "true_earth": "Limveld",
+      "raw_top_earth": "Limveld",
+      "candidate_earth": "Limveld",
+      "top_layout": 284,
+      "correct": true,
+      "runtime_s": 9.372929300065152
+    }
+  ]
+}

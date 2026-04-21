@@ -1,0 +1,2349 @@
+{
+  "crop_method": "gray_hough_refined",
+  "crop_box": {
+    "x0": 1082,
+    "y0": 164,
+    "x1": 1839,
+    "y1": 921
+  },
+  "crop_refinement": {
+    "tried_candidates": 75,
+    "best_objective": 0.19326547779493877,
+    "best_top_score": 0.18027194030582905,
+    "best_margin": 0.043015032075345516,
+    "best_dx_frac": 0.0,
+    "best_dy_frac": -0.04,
+    "best_scale_factor": 0.97,
+    "initial_box": {
+      "x0": 1070,
+      "y0": 184,
+      "x1": 1850,
+      "y1": 964
+    },
+    "best_box": {
+      "x0": 1082,
+      "y0": 164,
+      "x1": 1839,
+      "y1": 921
+    }
+  },
+  "earth_ranking": [
+    {
+      "name": "Default",
+      "score": 0.18027194030582905,
+      "details": {
+        "low_corr": 0.07237347215414047,
+        "grad_corr": 0.5039673447608948
+      }
+    },
+    {
+      "name": "Rotted Woods",
+      "score": 0.13725690823048353,
+      "details": {
+        "low_corr": 0.03621203079819679,
+        "grad_corr": 0.44039154052734375
+      }
+    },
+    {
+      "name": "Mountaintop",
+      "score": 0.13713447377085686,
+      "details": {
+        "low_corr": 0.03445903956890106,
+        "grad_corr": 0.44516077637672424
+      }
+    },
+    {
+      "name": "Noklateo",
+      "score": 0.12673426419496536,
+      "details": {
+        "low_corr": 0.024795174598693848,
+        "grad_corr": 0.4325515329837799
+      }
+    },
+    {
+      "name": "Crater",
+      "score": 0.07299767713993788,
+      "details": {
+        "low_corr": -0.05216145142912865,
+        "grad_corr": 0.44847506284713745
+      }
+    }
+  ],
+  "candidate_earths": [
+    "Default"
+  ],
+  "observations_by_earth": {
+    "Default": {
+      "align": {
+        "dx_norm": 3.3144265143947305e-05,
+        "dy_norm": 0.05,
+        "align_response": 0.04798901389585808
+      },
+      "context_refinement": {
+        "promoted_unknowns": 9.0,
+        "considered_unknowns": 21.0
+      },
+      "slots": [
+        {
+          "slot_id": 1,
+          "slot_name": "slot_01",
+          "label": "unknown",
+          "best_score": 0.842258870601654,
+          "scores": {
+            "Fort": 0.8039267063140869,
+            "Great Church": 0.827908992767334,
+            "Main Encampment": 0.842258870601654,
+            "Ruins": 0.8339670896530151
+          },
+          "x_norm": 0.3665364583333333,
+          "y_norm": 0.220703125,
+          "expected_types": [
+            "Fort",
+            "Great Church",
+            "Main Encampment",
+            "Ruins"
+          ]
+        },
+        {
+          "slot_id": 2,
+          "slot_name": "slot_02",
+          "label": "unknown",
+          "best_score": 0.837891697883606,
+          "scores": {
+            "Fort": 0.8063304424285889,
+            "Great Church": 0.8291507959365845,
+            "Main Encampment": 0.837891697883606,
+            "Ruins": 0.7752165198326111
+          },
+          "x_norm": 0.7115885416666666,
+          "y_norm": 0.22200520833333334,
+          "expected_types": [
+            "Fort",
+            "Great Church",
+            "Main Encampment",
+            "Ruins"
+          ]
+        },
+        {
+          "slot_id": 3,
+          "slot_name": "slot_03",
+          "label": "Church",
+          "best_score": 0.7985163331031799,
+          "scores": {
+            "Church": 0.7985163331031799,
+            "Sorcerer's Rise": 0.7687644958496094
+          },
+          "x_norm": 0.5709635416666666,
+          "y_norm": 0.23111979166666666,
+          "expected_types": [
+            "Church",
+            "Sorcerer's Rise"
+          ]
+        },
+        {
+          "slot_id": 4,
+          "slot_name": "slot_04",
+          "label": "Ruins",
+          "best_score": 0.8167111873626709,
+          "scores": {
+            "Fort": 0.801695704460144,
+            "Great Church": 0.8481619358062744,
+            "Main Encampment": 0.8342738151550293,
+            "Ruins": 0.8167111873626709
+          },
+          "x_norm": 0.2708333333333333,
+          "y_norm": 0.3756510416666667,
+          "expected_types": [
+            "Fort",
+            "Great Church",
+            "Main Encampment",
+            "Ruins"
+          ]
+        },
+        {
+          "slot_id": 5,
+          "slot_name": "slot_05",
+          "label": "Fort",
+          "best_score": 0.8662676215171814,
+          "scores": {
+            "Fort": 0.8662676215171814,
+            "Great Church": 0.8330057859420776,
+            "Main Encampment": 0.8316537141799927,
+            "Ruins": 0.7731228470802307
+          },
+          "x_norm": 0.626953125,
+          "y_norm": 0.2962239583333333,
+          "expected_types": [
+            "Fort",
+            "Great Church",
+            "Main Encampment",
+            "Ruins"
+          ]
+        },
+        {
+          "slot_id": 6,
+          "slot_name": "slot_06",
+          "label": "unknown",
+          "best_score": 0.8353698253631592,
+          "scores": {
+            "Fort": 0.7999696135520935,
+            "Great Church": 0.8295976519584656,
+            "Main Encampment": 0.8353698253631592,
+            "Ruins": 0.7849171757698059
+          },
+          "x_norm": 0.4173177083333333,
+          "y_norm": 0.3111979166666667,
+          "expected_types": [
+            "Fort",
+            "Great Church",
+            "Main Encampment",
+            "Ruins"
+          ]
+        },
+        {
+          "slot_id": 7,
+          "slot_name": "slot_07",
+          "label": "Sorcerer's Rise",
+          "best_score": 0.8516424298286438,
+          "scores": {
+            "Church": 0.794762134552002,
+            "Sorcerer's Rise": 0.8516424298286438
+          },
+          "x_norm": 0.22526041666666666,
+          "y_norm": 0.3561197916666667,
+          "expected_types": [
+            "Church",
+            "Sorcerer's Rise"
+          ]
+        },
+        {
+          "slot_id": 8,
+          "slot_name": "slot_08",
+          "label": "unknown",
+          "best_score": 0.7975687980651855,
+          "scores": {
+            "Church": 0.7975687980651855,
+            "Sorcerer's Rise": 0.7706063389778137
+          },
+          "x_norm": 0.84765625,
+          "y_norm": 0.38671875,
+          "expected_types": [
+            "Church",
+            "Sorcerer's Rise"
+          ]
+        },
+        {
+          "slot_id": 9,
+          "slot_name": "slot_09",
+          "label": "Church",
+          "best_score": 0.7909165620803833,
+          "scores": {
+            "Church": 0.7909165620803833,
+            "Sorcerer's Rise": 0.7706063389778137
+          },
+          "x_norm": 0.71875,
+          "y_norm": 0.4837239583333333,
+          "expected_types": [
+            "Church",
+            "Sorcerer's Rise"
+          ]
+        },
+        {
+          "slot_id": 10,
+          "slot_name": "slot_10",
+          "label": "Church",
+          "best_score": 0.8210407495498657,
+          "scores": {
+            "Church": 0.8210407495498657,
+            "Sorcerer's Rise": 0.7721450328826904
+          },
+          "x_norm": 0.36328125,
+          "y_norm": 0.3997395833333333,
+          "expected_types": [
+            "Church",
+            "Sorcerer's Rise"
+          ]
+        },
+        {
+          "slot_id": 11,
+          "slot_name": "slot_11",
+          "label": "unknown",
+          "best_score": 0.851044237613678,
+          "scores": {
+            "Fort": 0.7990149259567261,
+            "Great Church": 0.8360562324523926,
+            "Main Encampment": 0.851044237613678,
+            "Ruins": 0.7895375490188599
+          },
+          "x_norm": 0.7311197916666666,
+          "y_norm": 0.48046875,
+          "expected_types": [
+            "Fort",
+            "Great Church",
+            "Main Encampment",
+            "Ruins"
+          ]
+        },
+        {
+          "slot_id": 12,
+          "slot_name": "slot_12",
+          "label": "Ruins",
+          "best_score": 0.7811188697814941,
+          "scores": {
+            "Fort": 0.7923672199249268,
+            "Great Church": 0.8300299048423767,
+            "Main Encampment": 0.8392326235771179,
+            "Ruins": 0.7811188697814941
+          },
+          "x_norm": 0.6315104166666666,
+          "y_norm": 0.529296875,
+          "expected_types": [
+            "Fort",
+            "Great Church",
+            "Main Encampment",
+            "Ruins"
+          ]
+        },
+        {
+          "slot_id": 13,
+          "slot_name": "slot_13",
+          "label": "unknown",
+          "best_score": 0.8575263023376465,
+          "scores": {
+            "Fort": 0.8299309611320496,
+            "Great Church": 0.8575263023376465,
+            "Main Encampment": 0.8361228108406067,
+            "Ruins": 0.7896856069564819
+          },
+          "x_norm": 0.32421875,
+          "y_norm": 0.546875,
+          "expected_types": [
+            "Fort",
+            "Great Church",
+            "Main Encampment",
+            "Ruins"
+          ]
+        },
+        {
+          "slot_id": 14,
+          "slot_name": "slot_14",
+          "label": "unknown",
+          "best_score": 0.8713733553886414,
+          "scores": {
+            "Fort": 0.7940462231636047,
+            "Great Church": 0.8713733553886414,
+            "Main Encampment": 0.8488987684249878,
+            "Ruins": 0.7794556021690369
+          },
+          "x_norm": 0.6608072916666666,
+          "y_norm": 0.4609375,
+          "expected_types": [
+            "Fort",
+            "Great Church",
+            "Main Encampment",
+            "Ruins"
+          ]
+        },
+        {
+          "slot_id": 15,
+          "slot_name": "slot_15",
+          "label": "unknown",
+          "best_score": 0.8575263619422913,
+          "scores": {
+            "Fort": 0.8100967407226562,
+            "Great Church": 0.8575263619422913,
+            "Main Encampment": 0.8434668183326721,
+            "Ruins": 0.8074684143066406
+          },
+          "x_norm": 0.32421875,
+          "y_norm": 0.546875,
+          "expected_types": [
+            "Fort",
+            "Great Church",
+            "Main Encampment",
+            "Ruins"
+          ]
+        },
+        {
+          "slot_id": 16,
+          "slot_name": "slot_16",
+          "label": "Church",
+          "best_score": 0.7970251441001892,
+          "scores": {
+            "Church": 0.7970251441001892,
+            "Sorcerer's Rise": 0.7669779062271118
+          },
+          "x_norm": 0.21158854166666666,
+          "y_norm": 0.685546875,
+          "expected_types": [
+            "Church",
+            "Sorcerer's Rise"
+          ]
+        },
+        {
+          "slot_id": 17,
+          "slot_name": "slot_17",
+          "label": "Sorcerer's Rise",
+          "best_score": 0.7731140851974487,
+          "scores": {
+            "Church": 0.7990859746932983,
+            "Sorcerer's Rise": 0.7731140851974487
+          },
+          "x_norm": 0.84765625,
+          "y_norm": 0.6438802083333334,
+          "expected_types": [
+            "Church",
+            "Sorcerer's Rise"
+          ]
+        },
+        {
+          "slot_id": 18,
+          "slot_name": "slot_18",
+          "label": "Main Encampment",
+          "best_score": 0.8435308337211609,
+          "scores": {
+            "Fort": 0.8595231771469116,
+            "Great Church": 0.8278478384017944,
+            "Main Encampment": 0.8435308337211609,
+            "Ruins": 0.7836872935295105
+          },
+          "x_norm": 0.609375,
+          "y_norm": 0.6803385416666666,
+          "expected_types": [
+            "Fort",
+            "Great Church",
+            "Main Encampment",
+            "Ruins"
+          ]
+        },
+        {
+          "slot_id": 19,
+          "slot_name": "slot_19",
+          "label": "unknown",
+          "best_score": 0.844046950340271,
+          "scores": {
+            "Fort": 0.8357154726982117,
+            "Great Church": 0.844046950340271,
+            "Main Encampment": 0.828433632850647,
+            "Ruins": 0.771050214767456
+          },
+          "x_norm": 0.7571614583333334,
+          "y_norm": 0.6985677083333334,
+          "expected_types": [
+            "Fort",
+            "Great Church",
+            "Main Encampment",
+            "Ruins"
+          ]
+        },
+        {
+          "slot_id": 20,
+          "slot_name": "slot_20",
+          "label": "Church",
+          "best_score": 0.7951504588127136,
+          "scores": {
+            "Church": 0.7951504588127136,
+            "Sorcerer's Rise": 0.7786529064178467
+          },
+          "x_norm": 0.5475260416666666,
+          "y_norm": 0.7180989583333334,
+          "expected_types": [
+            "Church",
+            "Sorcerer's Rise"
+          ]
+        },
+        {
+          "slot_id": 21,
+          "slot_name": "slot_21",
+          "label": "unknown",
+          "best_score": 0.8378645777702332,
+          "scores": {
+            "Fort": 0.7788240909576416,
+            "Great Church": 0.8275418281555176,
+            "Main Encampment": 0.8378645777702332,
+            "Ruins": 0.8074684143066406
+          },
+          "x_norm": 0.2786458333333333,
+          "y_norm": 0.6953125,
+          "expected_types": [
+            "Fort",
+            "Great Church",
+            "Main Encampment",
+            "Ruins"
+          ]
+        },
+        {
+          "slot_id": 22,
+          "slot_name": "slot_22",
+          "label": "unknown",
+          "best_score": 0.8351647853851318,
+          "scores": {
+            "Fort": 0.8030782341957092,
+            "Great Church": 0.8351647853851318,
+            "Main Encampment": 0.8281869888305664,
+            "Ruins": 0.7751175165176392
+          },
+          "x_norm": 0.6595052083333334,
+          "y_norm": 0.771484375,
+          "expected_types": [
+            "Fort",
+            "Great Church",
+            "Main Encampment",
+            "Ruins"
+          ]
+        },
+        {
+          "slot_id": 23,
+          "slot_name": "slot_23",
+          "label": "Sorcerer's Rise",
+          "best_score": 0.8371081352233887,
+          "scores": {
+            "Church": 0.7894959449768066,
+            "Sorcerer's Rise": 0.8371081352233887
+          },
+          "x_norm": 0.4544270833333333,
+          "y_norm": 0.689453125,
+          "expected_types": [
+            "Church",
+            "Sorcerer's Rise"
+          ]
+        },
+        {
+          "slot_id": 24,
+          "slot_name": "slot_24",
+          "label": "Church",
+          "best_score": 0.7886680364608765,
+          "scores": {
+            "Church": 0.7886680364608765,
+            "Sorcerer's Rise": 0.7553601861000061
+          },
+          "x_norm": 0.21875,
+          "y_norm": 0.83203125,
+          "expected_types": [
+            "Church",
+            "Sorcerer's Rise"
+          ]
+        },
+        {
+          "slot_id": 25,
+          "slot_name": "slot_25",
+          "label": "unknown",
+          "best_score": 0.8357154726982117,
+          "scores": {
+            "Fort": 0.8357154726982117,
+            "Great Church": 0.8323450088500977,
+            "Main Encampment": 0.8342728018760681,
+            "Ruins": 0.7857468128204346
+          },
+          "x_norm": 0.740234375,
+          "y_norm": 0.7291666666666666,
+          "expected_types": [
+            "Fort",
+            "Great Church",
+            "Main Encampment",
+            "Ruins"
+          ]
+        },
+        {
+          "slot_id": 26,
+          "slot_name": "slot_26",
+          "label": "Main Encampment",
+          "best_score": 0.830438494682312,
+          "scores": {
+            "Fort": 0.7956568002700806,
+            "Great Church": 0.8341549038887024,
+            "Main Encampment": 0.830438494682312,
+            "Ruins": 0.8149280548095703
+          },
+          "x_norm": 0.4069010416666667,
+          "y_norm": 0.8619791666666666,
+          "expected_types": [
+            "Fort",
+            "Great Church",
+            "Main Encampment",
+            "Ruins"
+          ]
+        },
+        {
+          "slot_id": 27,
+          "slot_name": "slot_27",
+          "label": "Church",
+          "best_score": 0.7898407578468323,
+          "scores": {
+            "Church": 0.7898407578468323,
+            "Sorcerer's Rise": 0.7499338984489441
+          },
+          "x_norm": 0.5625,
+          "y_norm": 0.7962239583333334,
+          "expected_types": [
+            "Church",
+            "Sorcerer's Rise"
+          ]
+        }
+      ]
+    }
+  },
+  "results": [
+    {
+      "layout_number": 285,
+      "shifting_earth": "Default",
+      "total_score": 15.366005061795287,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 16.140860634606433,
+        "hard_mismatch_weight": 0.0,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 204,
+      "shifting_earth": "Default",
+      "total_score": 14.11008433976742,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 16.147148478362663,
+        "hard_mismatch_weight": 1.6031579697893203,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 173,
+      "shifting_earth": "Default",
+      "total_score": 13.427927041169664,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 14.537740995463363,
+        "hard_mismatch_weight": 1.6031579697893203,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 58,
+      "shifting_earth": "Default",
+      "total_score": 10.870136997326844,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 12.821057822350062,
+        "hard_mismatch_weight": 4.805486327014444,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 249,
+      "shifting_earth": "Default",
+      "total_score": 10.256699916350929,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 12.930768426984322,
+        "hard_mismatch_weight": 3.2441934332369198,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 171,
+      "shifting_earth": "Default",
+      "total_score": 9.970675134090103,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 12.91115489592242,
+        "hard_mismatch_weight": 1.5562334575873868,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 17,
+      "shifting_earth": "Default",
+      "total_score": 9.103079017482209,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 11.43054330891104,
+        "hard_mismatch_weight": 1.5562334575873868,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 255,
+      "shifting_earth": "Default",
+      "total_score": 7.898951291386253,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 11.263435789427414,
+        "hard_mismatch_weight": 4.805486327014444,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 54,
+      "shifting_earth": "Default",
+      "total_score": 7.8934196621038035,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 12.78050027708797,
+        "hard_mismatch_weight": 3.3088439300978267,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 122,
+      "shifting_earth": "Default",
+      "total_score": 7.074198096568018,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 9.704456058862883,
+        "hard_mismatch_weight": 8.172678389673905,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 213,
+      "shifting_earth": "Default",
+      "total_score": 6.921124981310041,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 11.424107561151859,
+        "hard_mismatch_weight": 4.724203863606304,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 90,
+      "shifting_earth": "Default",
+      "total_score": 6.852103427629289,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 11.362255861159277,
+        "hard_mismatch_weight": 4.75799305693106,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 84,
+      "shifting_earth": "Default",
+      "total_score": 6.78288509846453,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 11.363386130114643,
+        "hard_mismatch_weight": 6.359189489013253,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 169,
+      "shifting_earth": "Default",
+      "total_score": 6.640413074328326,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 11.363961983933075,
+        "hard_mismatch_weight": 6.430511609161641,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 9,
+      "shifting_earth": "Default",
+      "total_score": 6.581839043326732,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 11.30695562277317,
+        "hard_mismatch_weight": 6.314224434053559,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 136,
+      "shifting_earth": "Default",
+      "total_score": 6.380084070769686,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 11.439760394598407,
+        "hard_mismatch_weight": 4.751555228706989,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 43,
+      "shifting_earth": "Default",
+      "total_score": 6.314412114631602,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 11.153272331618895,
+        "hard_mismatch_weight": 6.6103754254152856,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 289,
+      "shifting_earth": "Default",
+      "total_score": 5.945059012718491,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 9.756923669783948,
+        "hard_mismatch_weight": 8.047519866680512,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 179,
+      "shifting_earth": "Default",
+      "total_score": 5.8856431311873445,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 9.814204994143394,
+        "hard_mismatch_weight": 6.333270213228452,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 42,
+      "shifting_earth": "Default",
+      "total_score": 5.609764147555575,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 9.517386140495331,
+        "hard_mismatch_weight": 6.664308604187628,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 162,
+      "shifting_earth": "Default",
+      "total_score": 5.532530827933255,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 9.737879971073943,
+        "hard_mismatch_weight": 6.37019894297095,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 50,
+      "shifting_earth": "Default",
+      "total_score": 5.47455487271695,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 9.626495918168102,
+        "hard_mismatch_weight": 8.068237013662099,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 3,
+      "shifting_earth": "Default",
+      "total_score": 5.398374229826355,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 11.269715820714875,
+        "hard_mismatch_weight": 3.1892522644483705,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 140,
+      "shifting_earth": "Default",
+      "total_score": 5.3496853419918855,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 9.645575527939712,
+        "hard_mismatch_weight": 4.868210725367909,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 294,
+      "shifting_earth": "Default",
+      "total_score": 5.277628658864079,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 9.833021369453276,
+        "hard_mismatch_weight": 4.693342560070153,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 215,
+      "shifting_earth": "Default",
+      "total_score": 4.743234009281852,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 9.621795203420811,
+        "hard_mismatch_weight": 9.656021504854793,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 202,
+      "shifting_earth": "Default",
+      "total_score": 4.245850590735482,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 8.301236098671124,
+        "hard_mismatch_weight": 7.910946656083697,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 98,
+      "shifting_earth": "Default",
+      "total_score": 4.2356974639792115,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 9.672292241879555,
+        "hard_mismatch_weight": 9.592879894813024,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 293,
+      "shifting_earth": "Default",
+      "total_score": 4.145872355964893,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 8.111235250075827,
+        "hard_mismatch_weight": 6.423372407704839,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 132,
+      "shifting_earth": "Default",
+      "total_score": 4.104794153469215,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 9.59850283879816,
+        "hard_mismatch_weight": 9.851301569456089,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 257,
+      "shifting_earth": "Default",
+      "total_score": 4.0697968956548385,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 9.64171035039121,
+        "hard_mismatch_weight": 3.131039595811534,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 51,
+      "shifting_earth": "Default",
+      "total_score": 3.968145841857849,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 9.66972153517984,
+        "hard_mismatch_weight": 6.352226827645776,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 52,
+      "shifting_earth": "Default",
+      "total_score": 3.8683156274273127,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 9.481925579363883,
+        "hard_mismatch_weight": 4.854203958230338,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 220,
+      "shifting_earth": "Default",
+      "total_score": 3.8238119542257936,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 8.096181736365514,
+        "hard_mismatch_weight": 7.972740380076344,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 18,
+      "shifting_earth": "Default",
+      "total_score": 3.700510720735565,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 9.8308202980028,
+        "hard_mismatch_weight": 6.374967398278974,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 121,
+      "shifting_earth": "Default",
+      "total_score": 3.6357087492980598,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 9.707995269945535,
+        "hard_mismatch_weight": 6.5396575023480334,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 177,
+      "shifting_earth": "Default",
+      "total_score": 3.607835424920673,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 8.284295243009904,
+        "hard_mismatch_weight": 6.307788686294376,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 89,
+      "shifting_earth": "Default",
+      "total_score": 3.48122795050397,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 9.651712331585692,
+        "hard_mismatch_weight": 6.320293940724792,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 97,
+      "shifting_earth": "Default",
+      "total_score": 3.457974833350745,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 8.080473007383919,
+        "hard_mismatch_weight": 7.9134561280546745,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 286,
+      "shifting_earth": "Default",
+      "total_score": 3.390602756117693,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 8.052009823963349,
+        "hard_mismatch_weight": 8.068239094126985,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 241,
+      "shifting_earth": "Default",
+      "total_score": 3.2962687148574266,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 9.8308202980028,
+        "hard_mismatch_weight": 4.745485722035758,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 245,
+      "shifting_earth": "Default",
+      "total_score": 3.165888303972796,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 9.677934916865489,
+        "hard_mismatch_weight": 4.788483958449486,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 288,
+      "shifting_earth": "Default",
+      "total_score": 3.0215222153733565,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 9.623984365732236,
+        "hard_mismatch_weight": 6.365627317237322,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 299,
+      "shifting_earth": "Default",
+      "total_score": 3.020077841401061,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 9.687885211491652,
+        "hard_mismatch_weight": 4.751555228706989,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 290,
+      "shifting_earth": "Default",
+      "total_score": 2.9059169358695134,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 8.166879879411342,
+        "hard_mismatch_weight": 6.3547131984963094,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 100,
+      "shifting_earth": "Default",
+      "total_score": 2.8268819156614664,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 7.953411808430018,
+        "hard_mismatch_weight": 6.429908567067525,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 8,
+      "shifting_earth": "Default",
+      "total_score": 2.799443299741896,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 8.073605590695724,
+        "hard_mismatch_weight": 6.416506922488957,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 244,
+      "shifting_earth": "Default",
+      "total_score": 2.7418111687358837,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 7.995940262232301,
+        "hard_mismatch_weight": 6.52565281567535,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 20,
+      "shifting_earth": "Default",
+      "total_score": 2.737366590072388,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 9.581556021003436,
+        "hard_mismatch_weight": 6.43694943738571,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 41,
+      "shifting_earth": "Default",
+      "total_score": 2.5161510485688257,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 8.112752788188764,
+        "hard_mismatch_weight": 9.664204095426298,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 161,
+      "shifting_earth": "Default",
+      "total_score": 2.3827560795053335,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 7.892033966404419,
+        "hard_mismatch_weight": 6.4912864090931235,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 219,
+      "shifting_earth": "Default",
+      "total_score": 2.172974884162052,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 8.049057998281432,
+        "hard_mismatch_weight": 11.349053442462859,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 45,
+      "shifting_earth": "Default",
+      "total_score": 2.1258057756344386,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 7.91591628677477,
+        "hard_mismatch_weight": 4.782416532243142,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 6,
+      "shifting_earth": "Default",
+      "total_score": 2.0519195785248523,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 8.145794410876915,
+        "hard_mismatch_weight": 9.529590370347657,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 5,
+      "shifting_earth": "Default",
+      "total_score": 1.9912985108122718,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 8.29834076670401,
+        "hard_mismatch_weight": 7.831291002179004,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 207,
+      "shifting_earth": "Default",
+      "total_score": 1.612848895338751,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 7.957615552290179,
+        "hard_mismatch_weight": 4.874278151574254,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 208,
+      "shifting_earth": "Default",
+      "total_score": 1.5622627214421452,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 7.994175960479838,
+        "hard_mismatch_weight": 9.683439575599818,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 216,
+      "shifting_earth": "Default",
+      "total_score": 1.2655293831062095,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 7.950703866099126,
+        "hard_mismatch_weight": 8.015738616490072,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 252,
+      "shifting_earth": "Default",
+      "total_score": 1.1972318181361181,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 8.212973122861515,
+        "hard_mismatch_weight": 6.307788686294376,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 206,
+      "shifting_earth": "Default",
+      "total_score": 1.1627380488778145,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.488995274207147,
+        "hard_mismatch_weight": 8.11446572103707,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 94,
+      "shifting_earth": "Default",
+      "total_score": 1.0626520530180426,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.434711277666265,
+        "hard_mismatch_weight": 9.613599122259497,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 96,
+      "shifting_earth": "Default",
+      "total_score": 1.0558448896073978,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.50369797014892,
+        "hard_mismatch_weight": 7.876527398312179,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 139,
+      "shifting_earth": "Default",
+      "total_score": 1.0001053883986255,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 8.27785949525072,
+        "hard_mismatch_weight": 6.314224434053559,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 87,
+      "shifting_earth": "Default",
+      "total_score": 0.9745321536435358,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 8.05736566467211,
+        "hard_mismatch_weight": 6.464227413235541,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 246,
+      "shifting_earth": "Default",
+      "total_score": 0.9179712824325728,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.4499257098893725,
+        "hard_mismatch_weight": 11.244807221940828,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 300,
+      "shifting_earth": "Default",
+      "total_score": 0.8899476098591543,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 7.953944892497425,
+        "hard_mismatch_weight": 6.542961992889408,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 46,
+      "shifting_earth": "Default",
+      "total_score": 0.608229347617844,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.648377819007502,
+        "hard_mismatch_weight": 7.917382403842879,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 242,
+      "shifting_earth": "Default",
+      "total_score": 0.4713642973910325,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.555162711001235,
+        "hard_mismatch_weight": 7.914527711439508,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 210,
+      "shifting_earth": "Default",
+      "total_score": 0.4346922932534493,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 8.051687699479068,
+        "hard_mismatch_weight": 6.320293940724792,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 83,
+      "shifting_earth": "Default",
+      "total_score": 0.4264296848800066,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.507368831003796,
+        "hard_mismatch_weight": 7.876527398312179,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 176,
+      "shifting_earth": "Default",
+      "total_score": 0.3996969753155181,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 8.10191391218689,
+        "hard_mismatch_weight": 6.314226514518447,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 256,
+      "shifting_earth": "Default",
+      "total_score": 0.3320936511899943,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.743874452593256,
+        "hard_mismatch_weight": 9.475759092313295,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 292,
+      "shifting_earth": "Default",
+      "total_score": 0.11276638955380842,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 8.16291180662746,
+        "hard_mismatch_weight": 6.4815829958767885,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 168,
+      "shifting_earth": "Default",
+      "total_score": 0.055461016930093934,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.643696887671531,
+        "hard_mismatch_weight": 11.093389135078995,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 2,
+      "shifting_earth": "Default",
+      "total_score": -0.011267062478721931,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.476835159734344,
+        "hard_mismatch_weight": 9.735347595020475,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 82,
+      "shifting_earth": "Default",
+      "total_score": -0.039492343878881495,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.379166357212999,
+        "hard_mismatch_weight": 8.063297775946234,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 209,
+      "shifting_earth": "Default",
+      "total_score": -0.051559326522706825,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.500254737357793,
+        "hard_mismatch_weight": 9.674707122863449,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 81,
+      "shifting_earth": "Default",
+      "total_score": -0.12210727425284044,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.480842717094948,
+        "hard_mismatch_weight": 11.332420401445182,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 205,
+      "shifting_earth": "Default",
+      "total_score": -0.15597934897400872,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.394944266478722,
+        "hard_mismatch_weight": 6.355081520049147,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 170,
+      "shifting_earth": "Default",
+      "total_score": -0.38077235984255337,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.506235670601864,
+        "hard_mismatch_weight": 9.741417101691708,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 99,
+      "shifting_earth": "Default",
+      "total_score": -0.5003409212630223,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.5971298922030295,
+        "hard_mismatch_weight": 7.9134561280546745,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 217,
+      "shifting_earth": "Default",
+      "total_score": -0.5155576928583174,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.381405226503045,
+        "hard_mismatch_weight": 6.463859091682703,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 48,
+      "shifting_earth": "Default",
+      "total_score": -0.5245619590329227,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 7.9489469692110255,
+        "hard_mismatch_weight": 6.572646108696625,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 7,
+      "shifting_earth": "Default",
+      "total_score": -0.5402540690149706,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.391344719699697,
+        "hard_mismatch_weight": 6.355081520049147,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 243,
+      "shifting_earth": "Default",
+      "total_score": -0.567031523317316,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.558703077070907,
+        "hard_mismatch_weight": 6.268988037920385,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 133,
+      "shifting_earth": "Default",
+      "total_score": -0.5827559748228439,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.527443024347712,
+        "hard_mismatch_weight": 11.182337834277298,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 258,
+      "shifting_earth": "Default",
+      "total_score": -0.745332064331409,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.292574254071269,
+        "hard_mismatch_weight": 6.601174661526246,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 91,
+      "shifting_earth": "Default",
+      "total_score": -0.7568122307833788,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 4.873675109480137,
+        "hard_mismatch_weight": 11.267185525126296,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 55,
+      "shifting_earth": "Default",
+      "total_score": -0.8670786705226772,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.53255937705576,
+        "hard_mismatch_weight": 9.65562290856694,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 201,
+      "shifting_earth": "Default",
+      "total_score": -1.0138193277015588,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.268990118385272,
+        "hard_mismatch_weight": 6.590301232071369,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 135,
+      "shifting_earth": "Default",
+      "total_score": -1.053830785671198,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 8.227622843636757,
+        "hard_mismatch_weight": 6.320293940724792,
+        "unknown_weight": 16.77301830273352
+      }
+    },
+    {
+      "layout_number": 295,
+      "shifting_earth": "Default",
+      "total_score": -1.0624291642634112,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.347903413043237,
+        "hard_mismatch_weight": 11.332420401445182,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 19,
+      "shifting_earth": "Default",
+      "total_score": -1.1114458889607368,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 8.114934454193408,
+        "hard_mismatch_weight": 6.3572247509321755,
+        "unknown_weight": 16.815152480357682
+      }
+    },
+    {
+      "layout_number": 10,
+      "shifting_earth": "Default",
+      "total_score": -1.1300400361763472,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.469902578089119,
+        "hard_mismatch_weight": 9.67980338413781,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 49,
+      "shifting_earth": "Default",
+      "total_score": -1.1849984507604048,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.496620626360671,
+        "hard_mismatch_weight": 9.69156165926203,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 282,
+      "shifting_earth": "Default",
+      "total_score": -1.2452300566811967,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 4.8659725656484625,
+        "hard_mismatch_weight": 11.170960768337364,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 125,
+      "shifting_earth": "Default",
+      "total_score": -1.260250947667057,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 4.939588396286531,
+        "hard_mismatch_weight": 11.12319407661561,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 88,
+      "shifting_earth": "Default",
+      "total_score": -1.3026804336300681,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 4.950002213014477,
+        "hard_mismatch_weight": 11.253483414336364,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 174,
+      "shifting_earth": "Default",
+      "total_score": -1.3939240011364717,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 4.829043835905966,
+        "hard_mismatch_weight": 11.264226647068035,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 134,
+      "shifting_earth": "Default",
+      "total_score": -1.4288806858992524,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.457361928019658,
+        "hard_mismatch_weight": 9.677934916865489,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 59,
+      "shifting_earth": "Default",
+      "total_score": -1.4539326882580812,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.42645919096777,
+        "hard_mismatch_weight": 7.99281457342026,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 131,
+      "shifting_earth": "Default",
+      "total_score": -1.5614275166181413,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.316756810107027,
+        "hard_mismatch_weight": 8.106296216811982,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 250,
+      "shifting_earth": "Default",
+      "total_score": -1.573244559151037,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.372729238559529,
+        "hard_mismatch_weight": 9.691182530542632,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 218,
+      "shifting_earth": "Default",
+      "total_score": -1.5884564528150282,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 4.822974329234734,
+        "hard_mismatch_weight": 11.280841950927442,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 95,
+      "shifting_earth": "Default",
+      "total_score": -1.6775158980005784,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.5590716030757665,
+        "hard_mismatch_weight": 8.00218649016798,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 4,
+      "shifting_earth": "Default",
+      "total_score": -1.7007683582257171,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 4.891490003644143,
+        "hard_mismatch_weight": 9.625600944656872,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 60,
+      "shifting_earth": "Default",
+      "total_score": -1.7260699441271306,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.440277642991252,
+        "hard_mismatch_weight": 7.985245634506759,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 127,
+      "shifting_earth": "Default",
+      "total_score": -1.8049776752581101,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 4.852996293144801,
+        "hard_mismatch_weight": 9.619162911980782,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 248,
+      "shifting_earth": "Default",
+      "total_score": -1.857688671304281,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.262552290161201,
+        "hard_mismatch_weight": 9.782624772081865,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 172,
+      "shifting_earth": "Default",
+      "total_score": -1.889824989602747,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.565141109746998,
+        "hard_mismatch_weight": 7.981706423424107,
+        "unknown_weight": 18.449319054300396
+      }
+    },
+    {
+      "layout_number": 164,
+      "shifting_earth": "Default",
+      "total_score": -1.9396822495322785,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 4.862043893552508,
+        "hard_mismatch_weight": 9.741417101691708,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 137,
+      "shifting_earth": "Default",
+      "total_score": -1.9413908206461328,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.397780467458881,
+        "hard_mismatch_weight": 8.084743046130995,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 56,
+      "shifting_earth": "Default",
+      "total_score": -1.9422568792113386,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.586934679409424,
+        "hard_mismatch_weight": 9.612624672153212,
+        "unknown_weight": 16.8435252771886
+      }
+    },
+    {
+      "layout_number": 13,
+      "shifting_earth": "Default",
+      "total_score": -1.9430575577164648,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 4.784874610498349,
+        "hard_mismatch_weight": 11.242437844865044,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 53,
+      "shifting_earth": "Default",
+      "total_score": -1.9622889098356475,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 4.980622203546567,
+        "hard_mismatch_weight": 7.852733987446861,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 57,
+      "shifting_earth": "Default",
+      "total_score": -2.059813071490733,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.357611815637727,
+        "hard_mismatch_weight": 9.688010287310826,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 11,
+      "shifting_earth": "Default",
+      "total_score": -2.1884105564437,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 4.794650445500075,
+        "hard_mismatch_weight": 9.558419947755366,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 211,
+      "shifting_earth": "Default",
+      "total_score": -2.3830653407544817,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.351176067878544,
+        "hard_mismatch_weight": 8.159039944089173,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 254,
+      "shifting_earth": "Default",
+      "total_score": -2.463613135771635,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 4.7281301393945085,
+        "hard_mismatch_weight": 9.783248818968707,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 296,
+      "shifting_earth": "Default",
+      "total_score": -2.488042347399354,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.402794002973005,
+        "hard_mismatch_weight": 8.175980799750393,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 260,
+      "shifting_earth": "Default",
+      "total_score": -2.5989836419256855,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 4.809393859649935,
+        "hard_mismatch_weight": 6.465380665071162,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 251,
+      "shifting_earth": "Default",
+      "total_score": -2.6317062360120387,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 4.700251406367469,
+        "hard_mismatch_weight": 9.683900237881835,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 16,
+      "shifting_earth": "Default",
+      "total_score": -2.7166238776184377,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 4.9834261252255345,
+        "hard_mismatch_weight": 12.874004138257327,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 14,
+      "shifting_earth": "Default",
+      "total_score": -2.853224125515414,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 4.81686339295438,
+        "hard_mismatch_weight": 7.9992524016443305,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 12,
+      "shifting_earth": "Default",
+      "total_score": -2.8900885522294786,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 4.809998056731072,
+        "hard_mismatch_weight": 9.78307209770426,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 253,
+      "shifting_earth": "Default",
+      "total_score": -3.010986711381901,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 6.617910704389815,
+        "hard_mismatch_weight": 9.458242382833642,
+        "unknown_weight": 16.77301830273352
+      }
+    },
+    {
+      "layout_number": 124,
+      "shifting_earth": "Default",
+      "total_score": -3.058460313257302,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 4.83814804141932,
+        "hard_mismatch_weight": 12.955749697856964,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 92,
+      "shifting_earth": "Default",
+      "total_score": -3.147744730640979,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 4.888187593567656,
+        "hard_mismatch_weight": 11.31843137146588,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 166,
+      "shifting_earth": "Default",
+      "total_score": -3.2624967669353424,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 3.19822038826102,
+        "hard_mismatch_weight": 12.867568390498144,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 130,
+      "shifting_earth": "Default",
+      "total_score": -3.4137690486404617,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 4.830412627829907,
+        "hard_mismatch_weight": 12.875222135636768,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 283,
+      "shifting_earth": "Default",
+      "total_score": -3.5735862241540346,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 4.822974329234734,
+        "hard_mismatch_weight": 11.256748999328629,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 47,
+      "shifting_earth": "Default",
+      "total_score": -3.83920514288628,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 4.918716292925653,
+        "hard_mismatch_weight": 9.684744702318563,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 126,
+      "shifting_earth": "Default",
+      "total_score": -3.885414532472815,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 4.912104005077146,
+        "hard_mismatch_weight": 11.236207419681017,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 180,
+      "shifting_earth": "Default",
+      "total_score": -4.012919309144442,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 3.253764599143685,
+        "hard_mismatch_weight": 12.832098372959393,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 129,
+      "shifting_earth": "Default",
+      "total_score": -4.044859478275051,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 4.846558464920731,
+        "hard_mismatch_weight": 9.804336367968018,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 281,
+      "shifting_earth": "Default",
+      "total_score": -4.05832160956835,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 3.1917846405018366,
+        "hard_mismatch_weight": 11.294338419867065,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 123,
+      "shifting_earth": "Default",
+      "total_score": -4.067769037593453,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 3.195418751498959,
+        "hard_mismatch_weight": 12.84526431818575,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 167,
+      "shifting_earth": "Default",
+      "total_score": -4.1414703715435826,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 3.222573726704617,
+        "hard_mismatch_weight": 11.294517221596399,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 291,
+      "shifting_earth": "Default",
+      "total_score": -4.145097482462869,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 4.870741020956488,
+        "hard_mismatch_weight": 9.522683604515228,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 163,
+      "shifting_earth": "Default",
+      "total_score": -4.159983476567873,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 4.816065482937417,
+        "hard_mismatch_weight": 9.792959302028082,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 297,
+      "shifting_earth": "Default",
+      "total_score": -4.2432481893028475,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 3.2678101228377914,
+        "hard_mismatch_weight": 9.584904985499689,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 284,
+      "shifting_earth": "Default",
+      "total_score": -4.2939713301692,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 4.712756660797885,
+        "hard_mismatch_weight": 9.629767935269381,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 1,
+      "shifting_earth": "Default",
+      "total_score": -4.3548337978283405,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 3.317812258362496,
+        "hard_mismatch_weight": 11.187901623998584,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 85,
+      "shifting_earth": "Default",
+      "total_score": -4.4758611614919905,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 3.19709219977054,
+        "hard_mismatch_weight": 11.406368795473675,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 214,
+      "shifting_earth": "Default",
+      "total_score": -4.486005501728848,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 3.2211851513693546,
+        "hard_mismatch_weight": 9.697249956748976,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 259,
+      "shifting_earth": "Default",
+      "total_score": -4.514357451881401,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 3.2111966607646814,
+        "hard_mismatch_weight": 11.24344583488125,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 165,
+      "shifting_earth": "Default",
+      "total_score": -4.564782571615384,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 4.778807184292004,
+        "hard_mismatch_weight": 11.355120868669204,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 86,
+      "shifting_earth": "Default",
+      "total_score": -4.7048427829838255,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 3.19709219977054,
+        "hard_mismatch_weight": 11.406368795473675,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 93,
+      "shifting_earth": "Default",
+      "total_score": -4.710181165631938,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 3.118536421846006,
+        "hard_mismatch_weight": 11.44272167139774,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 287,
+      "shifting_earth": "Default",
+      "total_score": -5.117454787370886,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 3.243185443220713,
+        "hard_mismatch_weight": 9.458242382833642,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 212,
+      "shifting_earth": "Default",
+      "total_score": -5.140222472307841,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 3.118536421846006,
+        "hard_mismatch_weight": 11.481791235715514,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 178,
+      "shifting_earth": "Default",
+      "total_score": -5.207283894146657,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 3.253764599143685,
+        "hard_mismatch_weight": 14.575603157671349,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 138,
+      "shifting_earth": "Default",
+      "total_score": -5.645126330309249,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 3.124972169605189,
+        "hard_mismatch_weight": 13.118754326900177,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 203,
+      "shifting_earth": "Default",
+      "total_score": -5.655342098119115,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 3.2473288513845024,
+        "hard_mismatch_weight": 14.629805597152286,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 128,
+      "shifting_earth": "Default",
+      "total_score": -6.112838593697842,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 3.311977267780522,
+        "hard_mismatch_weight": 12.777366939405274,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 298,
+      "shifting_earth": "Default",
+      "total_score": -6.277037884998456,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 1.6294816762432176,
+        "hard_mismatch_weight": 14.460307571648066,
+        "unknown_weight": 20.05939138824832
+      }
+    },
+    {
+      "layout_number": 44,
+      "shifting_earth": "Default",
+      "total_score": -6.692735023816016,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 3.2987296541033784,
+        "hard_mismatch_weight": 11.187901623998584,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 247,
+      "shifting_earth": "Default",
+      "total_score": -8.144481403570014,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 1.6294816762432176,
+        "hard_mismatch_weight": 12.85271510833748,
+        "unknown_weight": 18.383090636681445
+      }
+    },
+    {
+      "layout_number": 175,
+      "shifting_earth": "Default",
+      "total_score": -8.455935980479138,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 4.806317595766205,
+        "hard_mismatch_weight": 9.808597894141194,
+        "unknown_weight": 15.159783517996004
+      }
+    },
+    {
+      "layout_number": 15,
+      "shifting_earth": "Default",
+      "total_score": -8.897929664471654,
+      "earth_score": 0.18027194030582905,
+      "details": {
+        "exact_match_weight": 1.6850258871258834,
+        "hard_mismatch_weight": 12.923998897839617,
+        "unknown_weight": 18.383090636681445
+      }
+    }
+  ],
+  "timing_seconds": 10.0457484999788
+}

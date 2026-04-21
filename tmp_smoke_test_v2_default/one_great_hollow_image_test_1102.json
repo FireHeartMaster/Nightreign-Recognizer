@@ -1,0 +1,52 @@
+{
+  "input_image": "tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\1102.png",
+  "primary_earth": "Mountaintop",
+  "earth_top3": [
+    {
+      "name": "Mountaintop",
+      "score": 0.20189040899276733,
+      "details": {
+        "source": "earth_selector_v2",
+        "ai_prob": 0.20189040899276733,
+        "unknown": true,
+        "confidence": 0.20189040899276733,
+        "margin_top1_top2": 0.01348373293876648
+      }
+    },
+    {
+      "name": "Limveld",
+      "score": 0.18840667605400085,
+      "details": {
+        "source": "earth_selector_v2",
+        "ai_prob": 0.18840667605400085,
+        "unknown": true,
+        "confidence": 0.20189040899276733,
+        "margin_top1_top2": 0.01348373293876648
+      }
+    },
+    {
+      "name": "Noklateo",
+      "score": 0.18290279805660248,
+      "details": {
+        "source": "earth_selector_v2",
+        "ai_prob": 0.18290279805660248,
+        "unknown": true,
+        "confidence": 0.20189040899276733,
+        "margin_top1_top2": 0.01348373293876648
+      }
+    }
+  ],
+  "great_hollow_layout_infer": null,
+  "top_layout_numbers": [
+    141,
+    1102,
+    104,
+    300,
+    221,
+    101,
+    142,
+    223,
+    60,
+    261
+  ]
+}

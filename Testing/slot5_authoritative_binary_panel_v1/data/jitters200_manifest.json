@@ -1,0 +1,28 @@
+{
+  "notes": "jitters rebuilt from scale-aware corrected bases",
+  "per_class_target": 3000,
+  "summary": {
+    "empty": {
+      "total_generated": 3000,
+      "per_base": {
+        "Screenshot_134_panel_crop_for_fortress_test__slot5_panel260.png": 1500,
+        "Screenshot_135_panel_crop_for_fortress_test__slot5_panel260.png": 1500
+      }
+    },
+    "occupied": {
+      "total_generated": 3000,
+      "per_base": {
+        "1115_panel_crop__slot5_panel260.png": 300,
+        "1119_panel_crop__slot5_panel260.png": 300,
+        "1120_panel_crop__slot5_panel260.png": 300,
+        "1128_panel_crop__slot5_panel260.png": 300,
+        "1175_panel_crop__slot5_panel260.png": 300,
+        "1185_panel_crop__slot5_panel260.png": 300,
+        "Balancers_4K_panel_crop_for_fortress_test__slot5_panel260.png": 300,
+        "Screenshot_133_panel_crop_for_fortress_test__slot5_panel260.png": 300,
+        "Screenshot_136_panel_crop_for_fortress_test__slot5_panel260.png": 300,
+        "Screenshot_137_panel_crop_for_fortress_test__slot5_panel260.png": 300
+      }
+    }
+  }
+}

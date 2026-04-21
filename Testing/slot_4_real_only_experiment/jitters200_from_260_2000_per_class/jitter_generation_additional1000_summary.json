@@ -1,0 +1,34 @@
+{
+  "base260_root": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_real_only_experiment\\bases260_from_panel",
+  "out_root": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_real_only_experiment\\jitters200_from_260_2000_per_class",
+  "added_per_class": 1000,
+  "seed": 20260435,
+  "translation_jitter_max": 30,
+  "classes": {
+    "Church": {
+      "added": 1000,
+      "per_base_added": {
+        "layout_1119_slot4_panel260.png": 334,
+        "layout_1120_slot4_panel260.png": 333,
+        "layout_1185_slot4_panel260.png": 333
+      },
+      "new_total": 3000
+    },
+    "empty": {
+      "added": 1000,
+      "per_base_added": {
+        "layout_1128_slot4_panel260.png": 334,
+        "layout_1175_slot4_panel260.png": 333,
+        "layout_1181_slot4_panel260.png": 333
+      },
+      "new_total": 3000
+    },
+    "Sorcerer_s_Rise": {
+      "added": 1000,
+      "per_base_added": {
+        "layout_1115_slot4_panel260.png": 1000
+      },
+      "new_total": 3000
+    }
+  }
+}

@@ -1,0 +1,40 @@
+[
+  {
+    "file": "C:\\Users\\eduar\\Downloads\\Captura de tela 2026-04-16 151126.png",
+    "crop_method": "gray_hough",
+    "panel_shape": [
+      1536,
+      1536
+    ],
+    "anchor_xy": [
+      622,
+      1063
+    ],
+    "crop_size": 28,
+    "prediction": "Frost",
+    "probs": {
+      "Frost": 0.5367676019668579,
+      "Holy": 0.4632323682308197
+    },
+    "crop_file": "tmp_gc_frost_holy_test_on_151x\\Captura de tela 2026-04-16 151126__gc_frost_holy_crop.png"
+  },
+  {
+    "file": "C:\\Users\\eduar\\Downloads\\Captura de tela 2026-04-16 151246.png",
+    "crop_method": "gray_hough",
+    "panel_shape": [
+      1536,
+      1536
+    ],
+    "anchor_xy": [
+      622,
+      1063
+    ],
+    "crop_size": 28,
+    "prediction": "Frost",
+    "probs": {
+      "Frost": 0.5370774865150452,
+      "Holy": 0.46292245388031006
+    },
+    "crop_file": "tmp_gc_frost_holy_test_on_151x\\Captura de tela 2026-04-16 151246__gc_frost_holy_crop.png"
+  }
+]

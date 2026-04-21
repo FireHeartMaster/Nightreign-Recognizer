@@ -1,0 +1,50 @@
+{
+  "input_full_screenshot": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\Screenshots\\Screenshot (133).png",
+  "panel_crop_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\Screenshot_133_panel_crop_for_fortress_test.png",
+  "panel_shape": [
+    748,
+    748
+  ],
+  "asym_shape": [
+    1191,
+    1176
+  ],
+  "slot5_anchor_reference": {
+    "x_asym_px_tl": 324,
+    "y_asym_px_tl": 629,
+    "crop_side": 200
+  },
+  "slot5_crop_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\Screenshot_133_slot5_plus_real_heavy_crop_200.png",
+  "slot5_crop_shape": [
+    200,
+    200
+  ],
+  "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5_plus_real_heavy\\slot5_status_cnn_plus_real_heavy.pt",
+  "class_names": [
+    "Church",
+    "empty",
+    "Sorcerer_s_Rise"
+  ],
+  "predicted_label": "Church",
+  "confidence": 0.9999275207519531,
+  "ranking": [
+    {
+      "label": "Church",
+      "probability": 0.9999275207519531
+    },
+    {
+      "label": "Sorcerer_s_Rise",
+      "probability": 6.052258686395362e-05
+    },
+    {
+      "label": "empty",
+      "probability": 1.1869636182382237e-05
+    }
+  ],
+  "model_meta": {
+    "best_epoch": 3,
+    "best_val_accuracy": 1.0,
+    "train_samples": 7200,
+    "val_samples": 1800
+  }
+}

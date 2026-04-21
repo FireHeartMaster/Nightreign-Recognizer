@@ -1,0 +1,42 @@
+[
+  {
+    "panel": "tmp_gc_model_test_on_shared\\query_panel.png",
+    "shape": [
+      1226,
+      1216
+    ],
+    "slot_id": 4,
+    "slot_name": "slot_04",
+    "slot_center_xy": [
+      395,
+      646
+    ],
+    "half": 91,
+    "pred": "empty",
+    "p_empty": 0.9999999999989999,
+    "p_church_like": 1.000088900582341e-12,
+    "margin": 0.9999999999979998,
+    "dist_empty": 3146.549072265625,
+    "dist_church_like": 3171.60986328125
+  },
+  {
+    "panel": "tmp_test_new_screenshot_081032_gc\\query_panel.png",
+    "shape": [
+      1226,
+      1216
+    ],
+    "slot_id": 4,
+    "slot_name": "slot_04",
+    "slot_center_xy": [
+      395,
+      646
+    ],
+    "half": 91,
+    "pred": "church_like",
+    "p_empty": 0.0,
+    "p_church_like": 1.0,
+    "margin": 1.0,
+    "dist_empty": 3018.200927734375,
+    "dist_church_like": 2963.62060546875
+  }
+]

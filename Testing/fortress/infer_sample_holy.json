@@ -1,0 +1,27 @@
+{
+  "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress\\Status_Holy\\pattern_1120_asym_further_crop__fortress__dx-20_dy+8.png",
+  "predicted_label": "Status_Rot",
+  "confidence": 0.5026618242263794,
+  "ranking": [
+    {
+      "label": "Status_Rot",
+      "probability": 0.5026618242263794
+    },
+    {
+      "label": "Status_Holy",
+      "probability": 0.4973381757736206
+    }
+  ],
+  "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress\\fortress_status_cnn.pt",
+  "class_names": [
+    "Status_Holy",
+    "Status_Rot"
+  ],
+  "image_size": 200,
+  "meta": {
+    "best_epoch": 1,
+    "best_val_accuracy": 0.52,
+    "train_samples": 203,
+    "val_samples": 50
+  }
+}

@@ -40,7 +40,12 @@ TOP_RESULTS_TO_LOG = 20
 THUMB_COUNT = 5
 
 CACHE_FILENAME = "nightreign_ref_cache_square_gui.npz"
-DISPLAY_SUBDIR = Path("all_images/with_text")
+DISPLAY_SUBDIRS = [
+    Path("renders/recognizer_with_text"),
+    Path("renders/recognizer_no_text"),
+    Path("renders/with_text"),
+    Path("all_images/with_text"),
+]
 LEGACY_CACHE_SUBDIR = Path("all_images/no_text")
 LOG_FILE_NAME = "recognition.log"
 SETTINGS_FILE_NAME = "nightreign_settings.json"
@@ -117,8 +122,27 @@ def log_file_path() -> Path:
     return runtime_dir() / LOG_FILE_NAME
 
 
-def display_dir() -> Path:
-    return resource_base_dir() / DISPLAY_SUBDIR
+def display_search_paths() -> List[Path]:
+    rb = resource_base_dir()
+    rd = runtime_dir()
+    candidates: List[Path] = []
+    seen = set()
+    for base in (rd, rb):
+        for subdir in DISPLAY_SUBDIRS:
+            path = base / subdir
+            key = str(path.resolve()) if path.exists() else str(path)
+            if key in seen:
+                continue
+            seen.add(key)
+            candidates.append(path)
+    return candidates
+
+
+def choose_existing_display_dir() -> Optional[Path]:
+    for path in display_search_paths():
+        if path.exists():
+            return path
+    return None
 
 
 def settings_file_path() -> Path:
@@ -1060,9 +1084,8 @@ def get_or_build_reference_cache(refs: Sequence[Tuple[int, Path]], cache_path: P
     return cache
 
 
-def resolve_display_paths(results: Sequence[RankedResult], ctx: RunContext) -> List[Path]:
+def resolve_display_paths(results: Sequence[RankedResult], ctx: RunContext, disp_dir: Path) -> List[Path]:
     paths: List[Path] = []
-    disp_dir = display_dir()
     for result in results[:THUMB_COUNT]:
         try:
             paths.append(find_image_by_number(disp_dir, result.number))
@@ -1074,9 +1097,12 @@ def resolve_display_paths(results: Sequence[RankedResult], ctx: RunContext) -> L
 def run_recognition(ctx: RunContext, monitor_index: int = 1, preview_callback: Optional[Callable[[np.ndarray], None]] = None) -> dict:
     total_start = time.perf_counter()
 
-    disp_dir = display_dir()
-    if not disp_dir.exists():
-        raise FileNotFoundError(f"Display directory not found: {disp_dir.resolve()}")
+    disp_dir = choose_existing_display_dir()
+    if disp_dir is None:
+        checked = "\n".join(f"- {p}" for p in display_search_paths())
+        raise FileNotFoundError(
+            "Display directory not found. Checked these locations:\n" + checked
+        )
 
     ctx.log(f"Display directory: {disp_dir.resolve()}")
     ctx.log(f"Log file: {log_file_path().resolve()}")
@@ -1169,7 +1195,7 @@ def run_recognition(ctx: RunContext, monitor_index: int = 1, preview_callback: O
     step_end(ctx, "Sort results", t)
 
     t = step_start(ctx, "Resolve top image paths")
-    top_paths = resolve_display_paths(results, ctx)
+    top_paths = resolve_display_paths(results, ctx, disp_dir)
     step_end(ctx, "Resolve top image paths", t)
 
     ctx.log(f"Crop box: x0={crop_box.x0}, y0={crop_box.y0}, x1={crop_box.x1}, y1={crop_box.y1}")
@@ -2444,9 +2470,12 @@ def score_layout_slotwise(slot_observations: Sequence[SlotObservation], layout_s
 def run_recognition(ctx: RunContext, monitor_index: int = 1, preview_callback: Optional[Callable[[np.ndarray], None]] = None) -> dict:
     total_start = time.perf_counter()
 
-    disp_dir = display_dir()
-    if not disp_dir.exists():
-        raise FileNotFoundError(f"Display directory not found: {disp_dir.resolve()}")
+    disp_dir = choose_existing_display_dir()
+    if disp_dir is None:
+        checked = "\n".join(f"- {p}" for p in display_search_paths())
+        raise FileNotFoundError(
+            "Display directory not found. Checked these locations:\n" + checked
+        )
 
     ctx.log(f"Display directory: {disp_dir.resolve()}")
     ctx.log(f"Log file: {log_file_path().resolve()}")
@@ -2551,7 +2580,7 @@ def run_recognition(ctx: RunContext, monitor_index: int = 1, preview_callback: O
         )
 
     t = step_start(ctx, "Resolve top image paths")
-    top_paths = resolve_display_paths(results, ctx)
+    top_paths = resolve_display_paths(results, ctx, disp_dir)
     step_end(ctx, "Resolve top image paths", t)
 
     ctx.log(f"Crop box: x0={crop_box.x0}, y0={crop_box.y0}, x1={crop_box.x1}, y1={crop_box.y1}")

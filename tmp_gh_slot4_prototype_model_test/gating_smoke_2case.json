@@ -1,0 +1,143 @@
+{
+  "package_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\nightreign_geom_proto_v4_slots.npz",
+  "cases": {
+    "empty_case": {
+      "layout_number": 1005,
+      "gt": "empty",
+      "image": "renders\\recognizer_no_text\\layout_1005.png"
+    },
+    "non_empty_case": {
+      "layout_number": 1008,
+      "gt": "Church",
+      "image": "renders\\recognizer_no_text\\layout_1008.png"
+    }
+  },
+  "threshold_results": {
+    "0.5": {
+      "empty_case": {
+        "layout_number": 1005,
+        "gt_slot4": "empty",
+        "pred_slot4": "empty",
+        "best_prob": 0.9999999999989999,
+        "margin": 0.9999999999980973,
+        "slot_classifier_mode": "prototype",
+        "slot_classifier_meta": {
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_gh_slot4_prototype_model_test\\gh_slot4_empty_vs_churchrise_prototype_model.pkl",
+          "p_empty": 0.9999999999989999,
+          "p_church_like": 1.000088900582341e-12,
+          "d_empty": 13.582428932189941,
+          "d_church_like": 207.87686157226562,
+          "gate_threshold": 0.5,
+          "p_non_empty": 1.000088900582341e-12,
+          "gate_decision": "empty"
+        }
+      },
+      "non_empty_case": {
+        "layout_number": 1008,
+        "gt_slot4": "Church",
+        "pred_slot4": "Church",
+        "best_prob": 0.9999311893767916,
+        "margin": 0.9998623787535832,
+        "slot_classifier_mode": "prototype",
+        "slot_classifier_meta": {
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_gh_slot4_prototype_model_test\\gh_slot4_empty_vs_churchrise_prototype_model.pkl",
+          "p_empty": 0.0,
+          "p_church_like": 1.0,
+          "d_empty": 429.48809814453125,
+          "d_church_like": 117.12596130371094,
+          "gate_threshold": 0.5,
+          "p_non_empty": 1.0,
+          "gate_decision": "non_empty",
+          "non_empty_best_label": "Church",
+          "non_empty_best_prob": 0.9999311893767916,
+          "non_empty_second_prob": 6.881062320837605e-05,
+          "non_empty_margin": 0.9998623787535832
+        }
+      }
+    },
+    "0.55": {
+      "empty_case": {
+        "layout_number": 1005,
+        "gt_slot4": "empty",
+        "pred_slot4": "empty",
+        "best_prob": 0.9999999999989999,
+        "margin": 0.9999999999980973,
+        "slot_classifier_mode": "prototype",
+        "slot_classifier_meta": {
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_gh_slot4_prototype_model_test\\gh_slot4_empty_vs_churchrise_prototype_model.pkl",
+          "p_empty": 0.9999999999989999,
+          "p_church_like": 1.000088900582341e-12,
+          "d_empty": 13.582428932189941,
+          "d_church_like": 207.87686157226562,
+          "gate_threshold": 0.55,
+          "p_non_empty": 1.000088900582341e-12,
+          "gate_decision": "empty"
+        }
+      },
+      "non_empty_case": {
+        "layout_number": 1008,
+        "gt_slot4": "Church",
+        "pred_slot4": "Church",
+        "best_prob": 0.9999311893767916,
+        "margin": 0.9998623787535832,
+        "slot_classifier_mode": "prototype",
+        "slot_classifier_meta": {
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_gh_slot4_prototype_model_test\\gh_slot4_empty_vs_churchrise_prototype_model.pkl",
+          "p_empty": 0.0,
+          "p_church_like": 1.0,
+          "d_empty": 429.48809814453125,
+          "d_church_like": 117.12596130371094,
+          "gate_threshold": 0.55,
+          "p_non_empty": 1.0,
+          "gate_decision": "non_empty",
+          "non_empty_best_label": "Church",
+          "non_empty_best_prob": 0.9999311893767916,
+          "non_empty_second_prob": 6.881062320837605e-05,
+          "non_empty_margin": 0.9998623787535832
+        }
+      }
+    },
+    "0.6": {
+      "empty_case": {
+        "layout_number": 1005,
+        "gt_slot4": "empty",
+        "pred_slot4": "empty",
+        "best_prob": 0.9999999999989999,
+        "margin": 0.9999999999980973,
+        "slot_classifier_mode": "prototype",
+        "slot_classifier_meta": {
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_gh_slot4_prototype_model_test\\gh_slot4_empty_vs_churchrise_prototype_model.pkl",
+          "p_empty": 0.9999999999989999,
+          "p_church_like": 1.000088900582341e-12,
+          "d_empty": 13.582428932189941,
+          "d_church_like": 207.87686157226562,
+          "gate_threshold": 0.6,
+          "p_non_empty": 1.000088900582341e-12,
+          "gate_decision": "empty"
+        }
+      },
+      "non_empty_case": {
+        "layout_number": 1008,
+        "gt_slot4": "Church",
+        "pred_slot4": "Church",
+        "best_prob": 0.9999311893767916,
+        "margin": 0.9998623787535832,
+        "slot_classifier_mode": "prototype",
+        "slot_classifier_meta": {
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_gh_slot4_prototype_model_test\\gh_slot4_empty_vs_churchrise_prototype_model.pkl",
+          "p_empty": 0.0,
+          "p_church_like": 1.0,
+          "d_empty": 429.48809814453125,
+          "d_church_like": 117.12596130371094,
+          "gate_threshold": 0.6,
+          "p_non_empty": 1.0,
+          "gate_decision": "non_empty",
+          "non_empty_best_label": "Church",
+          "non_empty_best_prob": 0.9999311893767916,
+          "non_empty_second_prob": 6.881062320837605e-05,
+          "non_empty_margin": 0.9998623787535832
+        }
+      }
+    }
+  }
+}

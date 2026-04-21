@@ -1,0 +1,86 @@
+[
+  {
+    "file": "C:\\Users\\eduar\\Downloads\\Captura de tela 2026-04-16 151126.png",
+    "crop_method": "gray_hough",
+    "panel_shape": [
+      1536,
+      1536
+    ],
+    "anchor_xy": [
+      756,
+      1263
+    ],
+    "crop_size": 42,
+    "prediction": "Holy",
+    "margin": 0.6046922438340576,
+    "model_probs": {
+      "Frost": 0.4632987678050995,
+      "Holy": 0.5367012023925781
+    },
+    "color_scores": {
+      "Frost": 0.8938529212625137,
+      "Holy": 0.9823022761242063
+    },
+    "color_probs": {
+      "Frost": 0.24868892992443553,
+      "Holy": 0.7513110700748131
+    },
+    "hybrid_probs": {
+      "Frost": 0.19765387808297116,
+      "Holy": 0.8023461219170288
+    },
+    "crop_file": "tmp_gc_frost_holy_hybrid_test_newbox_directpanel\\Captura de tela 2026-04-16 151126__gc_frost_holy_hybrid_crop.png",
+    "config": {
+      "alpha_model": 0.6,
+      "sharp_scale": 2.8,
+      "model_meta": {
+        "box_mode": "proportional_bl_1024",
+        "crop_size_1024": 28,
+        "x_bl_1024": 504.0,
+        "y_bl_1024": 182.0
+      }
+    }
+  },
+  {
+    "file": "C:\\Users\\eduar\\Downloads\\Captura de tela 2026-04-16 151246.png",
+    "crop_method": "gray_hough",
+    "panel_shape": [
+      1536,
+      1536
+    ],
+    "anchor_xy": [
+      756,
+      1263
+    ],
+    "crop_size": 42,
+    "prediction": "Frost",
+    "margin": 0.5028432757879064,
+    "model_probs": {
+      "Frost": 0.5418695211410522,
+      "Holy": 0.45813044905662537
+    },
+    "color_scores": {
+      "Frost": 0.9353229745386293,
+      "Holy": 0.8746698714317984
+    },
+    "color_probs": {
+      "Frost": 0.6809549397831195,
+      "Holy": 0.3190450602161994
+    },
+    "hybrid_probs": {
+      "Frost": 0.7514216378939532,
+      "Holy": 0.24857836210604678
+    },
+    "crop_file": "tmp_gc_frost_holy_hybrid_test_newbox_directpanel\\Captura de tela 2026-04-16 151246__gc_frost_holy_hybrid_crop.png",
+    "config": {
+      "alpha_model": 0.6,
+      "sharp_scale": 2.8,
+      "model_meta": {
+        "box_mode": "proportional_bl_1024",
+        "crop_size_1024": 28,
+        "x_bl_1024": 504.0,
+        "y_bl_1024": 182.0
+      }
+    }
+  }
+]

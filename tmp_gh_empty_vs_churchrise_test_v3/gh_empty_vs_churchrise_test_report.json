@@ -1,0 +1,82 @@
+{
+  "counts": {
+    "all": 240,
+    "train": 168,
+    "val": 36,
+    "test": 36,
+    "labels_all": {
+      "1": 181,
+      "0": 59
+    }
+  },
+  "slot_ids_included": [
+    3,
+    4,
+    6
+  ],
+  "config": {
+    "package": "nightreign_geom_proto_v4_slots.npz",
+    "images_dir": "renders\\recognizer_no_text",
+    "epochs": 20,
+    "batch_size": 96,
+    "lr": 0.0005,
+    "weight_decay": 0.0001,
+    "patch_size": 80,
+    "context_scale": 1.2,
+    "min_half_frac": 0.075,
+    "balance_sampler": true,
+    "seed": 12345
+  },
+  "train_metrics": {
+    "count": 168,
+    "accuracy": 0.4880952380952381,
+    "confusion_true_empty_pos_pred_empty_pos": [
+      [
+        82,
+        0
+      ],
+      [
+        86,
+        0
+      ]
+    ],
+    "mean_p_empty_when_true_empty": 0.5304895726645865,
+    "mean_p_empty_when_true_church_like": 0.531101910873901,
+    "empty_confidence_separation": -0.0006123382093145002
+  },
+  "val_metrics": {
+    "count": 36,
+    "accuracy": 0.2222222222222222,
+    "confusion_true_empty_pos_pred_empty_pos": [
+      [
+        8,
+        0
+      ],
+      [
+        28,
+        0
+      ]
+    ],
+    "mean_p_empty_when_true_empty": 0.531192235648632,
+    "mean_p_empty_when_true_church_like": 0.531471556850842,
+    "empty_confidence_separation": -0.00027932120220997003
+  },
+  "test_metrics": {
+    "count": 36,
+    "accuracy": 0.25,
+    "confusion_true_empty_pos_pred_empty_pos": [
+      [
+        9,
+        0
+      ],
+      [
+        27,
+        0
+      ]
+    ],
+    "mean_p_empty_when_true_empty": 0.5306150648328993,
+    "mean_p_empty_when_true_church_like": 0.5316469536887275,
+    "empty_confidence_separation": -0.001031888855828167
+  },
+  "model_path": "tmp_gh_empty_vs_churchrise_test_v3\\gh_empty_vs_churchrise_test_model.pt"
+}

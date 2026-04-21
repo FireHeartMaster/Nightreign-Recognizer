@@ -1,0 +1,167 @@
+{
+  "notes": "Fresh slot-2 status bases from panel crops using fixed slot geometry.",
+  "slot2_center_norm_top_left": {
+    "x_norm": 0.82890625,
+    "y_norm": 0.38046875
+  },
+  "slot2_center_offset_panel_px": {
+    "x": 50,
+    "y": 0
+  },
+  "base_size": 260,
+  "status_to_class": {
+    "Status_Lightning": "Great_Church_Lightning",
+    "Status_Sleep": "Great_Church_Sleep"
+  },
+  "kept_count": 7,
+  "skipped_count": 1,
+  "items": [
+    {
+      "pattern_id": 1115,
+      "class_name": "Great_Church_Lightning",
+      "status_type": "Status_Lightning",
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop\\1115_panel_crop.png",
+      "output_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260\\Great_Church_Lightning\\pattern_1115__slot2_panel260_fixed.png",
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "slot2_center_panel_px": {
+        "x": 1285,
+        "y": 567
+      },
+      "crop260_rect": {
+        "x0": 1155,
+        "y0": 437,
+        "size": 260
+      }
+    },
+    {
+      "pattern_id": 1119,
+      "class_name": "Great_Church_Lightning",
+      "status_type": "Status_Lightning",
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop\\1119_panel_crop.png",
+      "output_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260\\Great_Church_Lightning\\pattern_1119__slot2_panel260_fixed.png",
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "slot2_center_panel_px": {
+        "x": 1285,
+        "y": 567
+      },
+      "crop260_rect": {
+        "x0": 1155,
+        "y0": 437,
+        "size": 260
+      }
+    },
+    {
+      "pattern_id": 1120,
+      "class_name": "Great_Church_Sleep",
+      "status_type": "Status_Sleep",
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop\\1120_panel_crop.png",
+      "output_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260\\Great_Church_Sleep\\pattern_1120__slot2_panel260_fixed.png",
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "slot2_center_panel_px": {
+        "x": 1285,
+        "y": 567
+      },
+      "crop260_rect": {
+        "x0": 1155,
+        "y0": 437,
+        "size": 260
+      }
+    },
+    {
+      "pattern_id": 1128,
+      "class_name": "Great_Church_Lightning",
+      "status_type": "Status_Lightning",
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop\\1128_panel_crop.png",
+      "output_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260\\Great_Church_Lightning\\pattern_1128__slot2_panel260_fixed.png",
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "slot2_center_panel_px": {
+        "x": 1285,
+        "y": 567
+      },
+      "crop260_rect": {
+        "x0": 1155,
+        "y0": 437,
+        "size": 260
+      }
+    },
+    {
+      "pattern_id": 1175,
+      "class_name": "Great_Church_Sleep",
+      "status_type": "Status_Sleep",
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop\\1175_panel_crop.png",
+      "output_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260\\Great_Church_Sleep\\pattern_1175__slot2_panel260_fixed.png",
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "slot2_center_panel_px": {
+        "x": 1285,
+        "y": 567
+      },
+      "crop260_rect": {
+        "x0": 1155,
+        "y0": 437,
+        "size": 260
+      }
+    },
+    {
+      "pattern_id": 1181,
+      "class_name": "Great_Church_Sleep",
+      "status_type": "Status_Sleep",
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop\\1181_panel_crop.png",
+      "output_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260\\Great_Church_Sleep\\pattern_1181__slot2_panel260_fixed.png",
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "slot2_center_panel_px": {
+        "x": 1285,
+        "y": 567
+      },
+      "crop260_rect": {
+        "x0": 1155,
+        "y0": 437,
+        "size": 260
+      }
+    },
+    {
+      "pattern_id": 1185,
+      "class_name": "Great_Church_Lightning",
+      "status_type": "Status_Lightning",
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop\\1185_panel_crop.png",
+      "output_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260\\Great_Church_Lightning\\pattern_1185__slot2_panel260_fixed.png",
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "slot2_center_panel_px": {
+        "x": 1285,
+        "y": 567
+      },
+      "crop260_rect": {
+        "x0": 1155,
+        "y0": 437,
+        "size": 260
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "pattern_id": 1102,
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop\\1102_panel_crop.png",
+      "reason": "pattern_id_not_in_layout_json"
+    }
+  ]
+}

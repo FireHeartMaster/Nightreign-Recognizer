@@ -1,0 +1,15 @@
+Shifting Earth: Limveld
+Source folder: tmp_limveld_both_crops_L256_R256_T256_B256/further_crop_1024
+Total images in this zip: 10
+
+Files:
+01. pattern_0000_further_crop_1024.png | Shifting Earth=Limveld
+02. pattern_0001_further_crop_1024.png | Shifting Earth=Limveld
+03. pattern_0002_further_crop_1024.png | Shifting Earth=Limveld
+04. pattern_0003_further_crop_1024.png | Shifting Earth=Limveld
+05. pattern_0004_further_crop_1024.png | Shifting Earth=Limveld
+06. pattern_0005_further_crop_1024.png | Shifting Earth=Limveld
+07. pattern_0006_further_crop_1024.png | Shifting Earth=Limveld
+08. pattern_0007_further_crop_1024.png | Shifting Earth=Limveld
+09. pattern_0008_further_crop_1024.png | Shifting Earth=Limveld
+10. pattern_0009_further_crop_1024.png | Shifting Earth=Limveld

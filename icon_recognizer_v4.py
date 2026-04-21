@@ -1,6 +1,7 @@
 import argparse
 import json
 import math
+import os
 from pathlib import Path
 
 import cv2
@@ -9,14 +10,93 @@ import numpy as np
 BASE_REF_SIZE = 2048.0
 TOP_LEFT_XY_NORM = (635.0 / BASE_REF_SIZE, 538.0 / BASE_REF_SIZE)
 BOTTOM_RIGHT_XY_NORM = (1363.0 / BASE_REF_SIZE, 1400.0 / BASE_REF_SIZE)
+LEGACY_PANEL_SIZE = 1536.0
+LEGACY_BORDER_CROP_PX = 256.0
+CROPPED_PANEL_SIZE = LEGACY_PANEL_SIZE - (2.0 * LEGACY_BORDER_CROP_PX)
+AUTO_CROPPED_SIZE_TOL = 64.0
 
 CLASS_MAP = {
     "top_left": {"allowed": ["Fire", "Magic"], "xy_norm": TOP_LEFT_XY_NORM},
     "bottom_right": {"allowed": ["Rot", "Holy"], "xy_norm": BOTTOM_RIGHT_XY_NORM},
+    "ruins": {"allowed": ["Poison", "Bleed"], "xy_norm": None},
+    "great_church_top_right": {"allowed": ["Lightning", "Sleep"], "xy_norm": None},
 }
 
 REF1_LABELS = {"top_left": "Fire", "bottom_right": "Rot"}
 REF2_LABELS = {"top_left": "Magic", "bottom_right": "Holy"}
+RUINS_CANDIDATE_XY_NORMS = [
+    (0.207813, 0.592969),
+    (0.325000, 0.526563),
+    (0.334375, 0.823438),
+    (0.640625, 0.524219),
+]
+POISON_ICON_CANDIDATES = [
+    Path("POI_icons") / "Status_Poison.png",
+    Path(__file__).resolve().parent / "POI_icons" / "Status_Poison.png",
+]
+BLEED_ICON_CANDIDATES = [
+    Path("POI_icons") / "Status_Bleed.png",
+    Path(__file__).resolve().parent / "POI_icons" / "Status_Bleed.png",
+]
+GREAT_CHURCH_TOP_RIGHT_CENTER_XY_NORM = (0.89, 0.38)
+GREAT_CHURCH_CANDIDATE_XY_NORMS = [
+    # User-calibrated anchor (percent space: x=89%, y=62% from bottom => y=38% from top).
+    GREAT_CHURCH_TOP_RIGHT_CENTER_XY_NORM,
+    # Tight neighborhood for minor crop/align variance.
+    (0.86, 0.36),
+    (0.88, 0.37),
+    (0.90, 0.39),
+    (0.92, 0.40),
+    (0.94, 0.41),
+]
+LIGHTNING_ICON_CANDIDATES = [
+    Path("POI_icons") / "Status_Lightning.png",
+    Path(__file__).resolve().parent / "POI_icons" / "Status_Lightning.png",
+]
+SLEEP_ICON_CANDIDATES = [
+    Path("POI_icons") / "Status_Sleep.png",
+    Path(__file__).resolve().parent / "POI_icons" / "Status_Sleep.png",
+]
+
+
+def _env_float(name: str, default: float) -> float:
+    raw = os.getenv(name, "").strip()
+    if not raw:
+        return float(default)
+    try:
+        return float(raw)
+    except Exception:
+        return float(default)
+
+
+def get_legacy_crop_config():
+    left = _env_float("ICON_RECOGNIZER_LEGACY_CROP_LEFT", LEGACY_BORDER_CROP_PX)
+    right = _env_float("ICON_RECOGNIZER_LEGACY_CROP_RIGHT", LEGACY_BORDER_CROP_PX)
+    top = _env_float("ICON_RECOGNIZER_LEGACY_CROP_TOP", LEGACY_BORDER_CROP_PX)
+    bottom = _env_float("ICON_RECOGNIZER_LEGACY_CROP_BOTTOM", LEGACY_BORDER_CROP_PX)
+    crop_w = max(1.0, LEGACY_PANEL_SIZE - left - right)
+    crop_h = max(1.0, LEGACY_PANEL_SIZE - top - bottom)
+    return left, right, top, bottom, crop_w, crop_h
+
+
+def remap_norm_legacy_to_cropped(xy_norm):
+    left, _right, top, _bottom, crop_w, crop_h = get_legacy_crop_config()
+    x_legacy = float(xy_norm[0]) * LEGACY_PANEL_SIZE
+    y_legacy = float(xy_norm[1]) * LEGACY_PANEL_SIZE
+    x_crop = (x_legacy - left) / crop_w
+    y_crop = (y_legacy - top) / crop_h
+    return float(np.clip(x_crop, 0.0, 1.0)), float(np.clip(y_crop, 0.0, 1.0))
+
+
+def resolve_xy_norm_for_image(img: np.ndarray, xy_norm):
+    h, w = img.shape[:2]
+    _left, _right, _top, _bottom, crop_w, crop_h = get_legacy_crop_config()
+    if abs(float(w) - crop_w) <= AUTO_CROPPED_SIZE_TOL and abs(float(h) - crop_h) <= AUTO_CROPPED_SIZE_TOL:
+        return remap_norm_legacy_to_cropped(xy_norm)
+    if abs(float(min(h, w)) - CROPPED_PANEL_SIZE) <= AUTO_CROPPED_SIZE_TOL:
+        # Backward-compat with old square 1024 path.
+        return remap_norm_legacy_to_cropped(xy_norm)
+    return xy_norm
 
 
 def read_image(path: str) -> np.ndarray:
@@ -86,12 +166,28 @@ def align_image(reference: np.ndarray, query: np.ndarray):
 
 def get_scaled_params(img: np.ndarray, xy_norm):
     h, w = img.shape[:2]
-    x = int(round(xy_norm[0] * w))
-    y = int(round(xy_norm[1] * h))
+    xy = resolve_xy_norm_for_image(img, xy_norm)
+    x = int(round(xy[0] * w))
+    y = int(round(xy[1] * h))
     scale = min(h, w) / BASE_REF_SIZE
     crop_size = max(24, int(round(72 * scale)))
     search_pad = max(4, int(round(12 * scale)))
     return (x, y), crop_size, search_pad
+
+
+def get_ruins_top_left_params(img: np.ndarray, center_xy_norm):
+    (cx, cy), crop_size, search_pad = get_scaled_params(img, center_xy_norm)
+    x = int(round(cx - 0.5 * crop_size))
+    y = int(round(cy - 0.5 * crop_size))
+    return (x, y), crop_size, search_pad
+
+
+def ruins_status_subcrop(patch: np.ndarray) -> np.ndarray:
+    h, w = patch.shape[:2]
+    side = max(12, int(round(min(h, w) * 0.50)))
+    x0 = max(0, w - side)
+    y0 = max(0, h - side)
+    return patch[y0:y0 + side, x0:x0 + side]
 
 
 def crop_with_padding(img: np.ndarray, x: int, y: int, size: int) -> np.ndarray:
@@ -119,10 +215,122 @@ def extract_templates(ref1: np.ndarray, ref2: np.ndarray):
     meta = {}
     ref2 = resize_to_match(ref1, ref2)
     for pos, cfg in CLASS_MAP.items():
+        if pos in {"ruins", "great_church_top_right"}:
+            continue
         (x, y), crop_size, search_pad = get_scaled_params(ref1, cfg["xy_norm"])
         templates[pos][REF1_LABELS[pos]] = crop_with_padding(ref1, x, y, crop_size)
         templates[pos][REF2_LABELS[pos]] = crop_with_padding(ref2, x, y, crop_size)
         meta[pos] = {"x": x, "y": y, "crop_size": crop_size, "search_pad": search_pad}
+
+    # Ruins status templates are inferred from the two references.
+    # Choose the most likely Ruins anchor among known center candidates.
+    best_ruins = None
+    for ruins_xy in RUINS_CANDIDATE_XY_NORMS:
+        (rx, ry), rcrop, rpad = get_ruins_top_left_params(ref1, ruins_xy)
+        p = crop_with_padding(ref1, rx, ry, rcrop)
+        hsv = cv2.cvtColor(ruins_status_subcrop(p), cv2.COLOR_BGR2HSV)
+        sat_strength = float(hsv[..., 1].mean())
+        if best_ruins is None or sat_strength > best_ruins["sat_strength"]:
+            best_ruins = {
+                "xy": ruins_xy,
+                "x": rx,
+                "y": ry,
+                "crop_size": rcrop,
+                "search_pad": rpad,
+                "sat_strength": sat_strength,
+            }
+
+    x = int(best_ruins["x"])
+    y = int(best_ruins["y"])
+    crop_size = int(best_ruins["crop_size"])
+    search_pad = int(best_ruins["search_pad"])
+    ref1_patch = crop_with_padding(ref1, x, y, crop_size)
+    ref2_patch = crop_with_padding(ref2, x, y, crop_size)
+
+    def _load_first_existing(paths):
+        for p in paths:
+            if Path(p).exists():
+                img = cv2.imread(str(p), cv2.IMREAD_COLOR)
+                if img is not None:
+                    return img
+        return None
+
+    poison_icon = _load_first_existing(POISON_ICON_CANDIDATES)
+    bleed_icon = _load_first_existing(BLEED_ICON_CANDIDATES)
+    lightning_icon = _load_first_existing(LIGHTNING_ICON_CANDIDATES)
+    sleep_icon = _load_first_existing(SLEEP_ICON_CANDIDATES)
+
+    ruins_probe = ruins_status_subcrop(ref1_patch)
+    if poison_icon is not None and bleed_icon is not None:
+        poison_tpl = cv2.resize(poison_icon, (ruins_probe.shape[1], ruins_probe.shape[0]), interpolation=cv2.INTER_AREA)
+        bleed_tpl = cv2.resize(bleed_icon, (ruins_probe.shape[1], ruins_probe.shape[0]), interpolation=cv2.INTER_AREA)
+        templates["ruins"] = {
+            "Poison": poison_tpl,
+            "Bleed": bleed_tpl,
+        }
+    else:
+        # Fallback: if status icon files are missing, keep a two-template setup from refs.
+        templates["ruins"] = {
+            "Poison": ruins_status_subcrop(ref1_patch),
+            "Bleed": ruins_status_subcrop(ref2_patch),
+        }
+    meta["ruins"] = {
+        "x": int(x),
+        "y": int(y),
+        "crop_size": int(crop_size),
+        "search_pad": int(search_pad),
+        "candidate_xy_norms": [tuple(float(v) for v in xy) for xy in RUINS_CANDIDATE_XY_NORMS],
+        "reference_center_xy_norm": tuple(float(v) for v in best_ruins["xy"]),
+    }
+
+    # Great Church (top-right) status templates: Lightning vs Sleep.
+    # Use candidate-anchor probing (same robustness strategy as ruins).
+    best_gc = None
+    for gc_xy in GREAT_CHURCH_CANDIDATE_XY_NORMS:
+        (gx, gy), gcrop, gpad = get_ruins_top_left_params(ref1, gc_xy)
+        p = crop_with_padding(ref1, gx, gy, gcrop)
+        hsv = cv2.cvtColor(ruins_status_subcrop(p), cv2.COLOR_BGR2HSV)
+        sat_strength = float(hsv[..., 1].mean())
+        if best_gc is None or sat_strength > best_gc["sat_strength"]:
+            best_gc = {
+                "xy": gc_xy,
+                "x": gx,
+                "y": gy,
+                "crop_size": gcrop,
+                "search_pad": gpad,
+                "sat_strength": sat_strength,
+            }
+
+    gcx = int(best_gc["x"])
+    gcy = int(best_gc["y"])
+    gccrop = int(best_gc["crop_size"])
+    gcpad = int(best_gc["search_pad"])
+    gc_ref_patch = crop_with_padding(ref1, gcx, gcy, gccrop)
+    gc_probe = ruins_status_subcrop(gc_ref_patch)
+    if lightning_icon is not None and sleep_icon is not None:
+        lightning_tpl = cv2.resize(lightning_icon, (gc_probe.shape[1], gc_probe.shape[0]), interpolation=cv2.INTER_AREA)
+        sleep_tpl = cv2.resize(sleep_icon, (gc_probe.shape[1], gc_probe.shape[0]), interpolation=cv2.INTER_AREA)
+        templates["great_church_top_right"] = {
+            "Lightning": lightning_tpl,
+            "Sleep": sleep_tpl,
+        }
+    else:
+        gc_ref2_patch = crop_with_padding(ref2, gcx, gcy, gccrop)
+        templates["great_church_top_right"] = {
+            "Lightning": ruins_status_subcrop(gc_ref_patch),
+            "Sleep": ruins_status_subcrop(gc_ref2_patch),
+        }
+    meta["great_church_top_right"] = {
+        "x": int(gcx),
+        "y": int(gcy),
+        "crop_size": int(gccrop),
+        "search_pad": int(gcpad),
+        "candidate_xy_norms": [tuple(float(v) for v in xy) for xy in GREAT_CHURCH_CANDIDATE_XY_NORMS],
+        "center_xy_norm": {
+            "x_norm": float(best_gc["xy"][0]),
+            "y_norm": float(best_gc["xy"][1]),
+        },
+    }
     return templates, meta
 
 
@@ -269,22 +477,73 @@ def recognize_markers(reference1_path: str, reference2_path: str, query_path: st
     annotated_original = original_query.copy()
     ref_to_original = inverse_transform_to_original(H, original_query, resized_query)
 
-    output = {"top_left": {}, "bottom_right": {}}
-    for pos in ["top_left", "bottom_right"]:
+    output = {"top_left": {}, "bottom_right": {}, "ruins": {}, "great_church_top_right": {}}
+    for pos in ["top_left", "bottom_right", "ruins", "great_church_top_right"]:
         x, y = meta[pos]["x"], meta[pos]["y"]
         crop_size = meta[pos]["crop_size"]
         search_pad = meta[pos]["search_pad"]
-        search_size = crop_size + 2 * search_pad
-        search = crop_with_padding(aligned, x - search_pad, y - search_pad, search_size)
-
-        ranked, (w, h) = classify_in_search_window(search, templates[pos])
-        winner, winner_score, loc = ranked[0]
-        runner_up_score = ranked[1][1]
-        confidence_margin = winner_score - runner_up_score
-        dx, dy = loc
-        abs_x = x - search_pad + dx
-        abs_y = y - search_pad + dy
+        if pos in {"ruins", "great_church_top_right"}:
+            best = None
+            best_anchor = None
+            for xy in meta[pos].get("candidate_xy_norms", []):
+                (rx, ry), rcrop, rpad = get_ruins_top_left_params(aligned, xy)
+                rsize = rcrop + 2 * rpad
+                rsearch = crop_with_padding(aligned, rx - rpad, ry - rpad, rsize)
+                ranked, (w, h) = classify_in_search_window(rsearch, templates[pos])
+                winner, winner_score, loc = ranked[0]
+                runner_up_score = ranked[1][1]
+                confidence_margin = winner_score - runner_up_score
+                dx, dy = loc
+                abs_x = rx - rpad + dx
+                abs_y = ry - rpad + dy
+                candidate = {
+                    "ranked": ranked,
+                    "w": w,
+                    "h": h,
+                    "winner": winner,
+                    "winner_score": winner_score,
+                    "runner_up_score": runner_up_score,
+                    "confidence_margin": confidence_margin,
+                    "abs_x": abs_x,
+                    "abs_y": abs_y,
+                    "ref_x": rx,
+                    "ref_y": ry,
+                    "ref_crop_size": rcrop,
+                    "ref_search_pad": rpad,
+                }
+                if best is None or float(candidate["confidence_margin"]) > float(best["confidence_margin"]):
+                    best = candidate
+                    best_anchor = xy
+            ranked = best["ranked"]
+            w, h = int(best["w"]), int(best["h"])
+            winner = best["winner"]
+            winner_score = float(best["winner_score"])
+            runner_up_score = float(best["runner_up_score"])
+            confidence_margin = float(best["confidence_margin"])
+            abs_x = int(best["abs_x"])
+            abs_y = int(best["abs_y"])
+            x = int(best["ref_x"])
+            y = int(best["ref_y"])
+            crop_size = int(best["ref_crop_size"])
+            search_pad = int(best["ref_search_pad"])
+        else:
+            search_size = crop_size + 2 * search_pad
+            search = crop_with_padding(aligned, x - search_pad, y - search_pad, search_size)
+            ranked, (w, h) = classify_in_search_window(search, templates[pos])
+            winner, winner_score, loc = ranked[0]
+            runner_up_score = ranked[1][1]
+            confidence_margin = winner_score - runner_up_score
+            dx, dy = loc
+            abs_x = x - search_pad + dx
+            abs_y = y - search_pad + dy
         box = {"x": int(abs_x), "y": int(abs_y), "w": int(w), "h": int(h)}
+        if pos == "ruins":
+            # User-calibrated positional correction on current GH panel crop path.
+            box["x"] = int(box["x"] - 10)
+        if pos == "great_church_top_right":
+            # User-calibrated positional correction on current GH panel crop path.
+            box["x"] = int(box["x"] - 30)
+            box["y"] = int(box["y"] + 40)
         conf = confidence_flag(float(confidence_margin))
 
         output[pos] = {
@@ -298,6 +557,16 @@ def recognize_markers(reference1_path: str, reference2_path: str, query_path: st
             "reference_anchor": {"x": int(x), "y": int(y), "crop_size": int(crop_size), "search_pad": int(search_pad)},
             "ranked": [{"label": label, "score": round(float(score), 4), "dx": int(dx0), "dy": int(dy0)} for label, score, (dx0, dy0) in ranked],
         }
+        if pos in {"ruins", "great_church_top_right"}:
+            output[pos]["selected_candidate_xy_norm"] = {
+                "x_norm": float(best_anchor[0]),
+                "y_norm": float(best_anchor[1]),
+            }
+        if pos == "great_church_top_right":
+            output[pos]["center_xy_norm"] = {
+                "x_norm": float(meta[pos]["center_xy_norm"]["x_norm"]),
+                "y_norm": float(meta[pos]["center_xy_norm"]["y_norm"]),
+            }
 
         cv2.rectangle(debug_img, (abs_x, abs_y), (abs_x + w, abs_y + h), (0, 0, 255), 2)
         cv2.putText(debug_img, f"{pos}: {winner}", (abs_x, max(18, abs_y - 6)), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 0, 255), 2, cv2.LINE_AA)
@@ -346,6 +615,8 @@ def run_folder_mode(reference1: str, reference2: str, input_folder: str, output_
             annotated_path = str(Path(save_annotated) / img_path.relative_to(folder)) if save_annotated else None
             result = recognize_markers(reference1, reference2, str(img_path), save_debug=debug_dir, save_annotated=annotated_path)
             tl, br = result["top_left"], result["bottom_right"]
+            ru = result.get("ruins", {})
+            gc = result.get("great_church_top_right", {})
             row = {
                 "file": str(img_path.relative_to(folder)),
                 "top_left": tl["label"],
@@ -356,12 +627,25 @@ def run_folder_mode(reference1: str, reference2: str, input_folder: str, output_
                 "bottom_right_score": br["score"],
                 "bottom_right_margin": br["margin"],
                 "bottom_right_confidence": br["confidence"],
+                "ruins": ru.get("label", ""),
+                "ruins_score": ru.get("score", ""),
+                "ruins_margin": ru.get("margin", ""),
+                "ruins_confidence": ru.get("confidence", ""),
+                "great_church_top_right": gc.get("label", ""),
+                "great_church_top_right_score": gc.get("score", ""),
+                "great_church_top_right_margin": gc.get("margin", ""),
+                "great_church_top_right_confidence": gc.get("confidence", ""),
                 "status": "ok",
                 "error": "",
             }
             rows.append(row)
             detailed.append({"file": row["file"], "status": "ok", "result": result})
-            print(f"[OK] {row['file']} -> top_left={row['top_left']} ({row['top_left_confidence']}), bottom_right={row['bottom_right']} ({row['bottom_right_confidence']})")
+            print(
+                f"[OK] {row['file']} -> top_left={row['top_left']} ({row['top_left_confidence']}), "
+                f"bottom_right={row['bottom_right']} ({row['bottom_right_confidence']}), "
+                f"ruins={row['ruins']} ({row['ruins_confidence']}), "
+                f"great_church_top_right={row['great_church_top_right']} ({row['great_church_top_right_confidence']})"
+            )
         except Exception as exc:
             row = {
                 "file": str(img_path.relative_to(folder)),
@@ -373,6 +657,14 @@ def run_folder_mode(reference1: str, reference2: str, input_folder: str, output_
                 "bottom_right_score": "",
                 "bottom_right_margin": "",
                 "bottom_right_confidence": "",
+                "ruins": "",
+                "ruins_score": "",
+                "ruins_margin": "",
+                "ruins_confidence": "",
+                "great_church_top_right": "",
+                "great_church_top_right_score": "",
+                "great_church_top_right_margin": "",
+                "great_church_top_right_confidence": "",
                 "status": "error",
                 "error": str(exc),
             }
@@ -383,7 +675,30 @@ def run_folder_mode(reference1: str, reference2: str, input_folder: str, output_
     output_csv_path = Path(output_csv)
     output_csv_path.parent.mkdir(parents=True, exist_ok=True)
     with output_csv_path.open("w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=["file", "top_left", "top_left_score", "top_left_margin", "top_left_confidence", "bottom_right", "bottom_right_score", "bottom_right_margin", "bottom_right_confidence", "status", "error"])
+        writer = csv.DictWriter(
+            f,
+            fieldnames=[
+                "file",
+                "top_left",
+                "top_left_score",
+                "top_left_margin",
+                "top_left_confidence",
+                "bottom_right",
+                "bottom_right_score",
+                "bottom_right_margin",
+                "bottom_right_confidence",
+                "ruins",
+                "ruins_score",
+                "ruins_margin",
+                "ruins_confidence",
+                "great_church_top_right",
+                "great_church_top_right_score",
+                "great_church_top_right_margin",
+                "great_church_top_right_confidence",
+                "status",
+                "error",
+            ],
+        )
         writer.writeheader()
         writer.writerows(rows)
 

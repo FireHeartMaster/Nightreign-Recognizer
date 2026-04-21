@@ -1,0 +1,124 @@
+{
+  "image": "C:\\Users\\eduar\\Downloads\\Balancers_1080.png",
+  "used_v2_default": true,
+  "top_earth": "Rotted Woods",
+  "top_layout": 1,
+  "earth_ranking_top3": [
+    {
+      "name": "Rotted Woods",
+      "score": 0.1974330097436905,
+      "details": {
+        "source": "earth_selector_v2",
+        "ai_prob": 0.1974330097436905,
+        "unknown": true,
+        "confidence": 0.1974330097436905,
+        "margin_top1_top2": 0.008176028728485107
+      }
+    },
+    {
+      "name": "Limveld",
+      "score": 0.18925698101520538,
+      "details": {
+        "source": "earth_selector_v2",
+        "ai_prob": 0.18925698101520538,
+        "unknown": true,
+        "confidence": 0.1974330097436905,
+        "margin_top1_top2": 0.008176028728485107
+      }
+    },
+    {
+      "name": "Mountaintop",
+      "score": 0.18560846149921417,
+      "details": {
+        "source": "earth_selector_v2",
+        "ai_prob": 0.18560846149921417,
+        "unknown": true,
+        "confidence": 0.1974330097436905,
+        "margin_top1_top2": 0.008176028728485107
+      }
+    }
+  ],
+  "earth_cascade_top3": [
+    {
+      "name": "Limveld",
+      "score": 0.5608207530485025,
+      "details": {
+        "base_score": 0.18925698101520538,
+        "geometry_prior": 0.0018734403129201382,
+        "lost_slot_prior": 0.0,
+        "hard_constraint_prior": 0.0,
+        "evergaol_prior": 0.23879710108635238,
+        "great_hollow_status_support": 0.0,
+        "raw_details": {
+          "source": "earth_selector_v2",
+          "ai_prob": 0.18925698101520538,
+          "unknown": true,
+          "confidence": 0.1974330097436905,
+          "margin_top1_top2": 0.008176028728485107
+        }
+      }
+    },
+    {
+      "name": "Rotted Woods",
+      "score": 0.4872207046923821,
+      "details": {
+        "base_score": 0.1974330097436905,
+        "geometry_prior": 0.0,
+        "lost_slot_prior": -0.0037012125896136415,
+        "hard_constraint_prior": 0.0,
+        "evergaol_prior": 0.18179709593240548,
+        "great_hollow_status_support": 0.0,
+        "raw_details": {
+          "source": "earth_selector_v2",
+          "ai_prob": 0.1974330097436905,
+          "unknown": true,
+          "confidence": 0.1974330097436905,
+          "margin_top1_top2": 0.008176028728485107
+        }
+      }
+    },
+    {
+      "name": "Noklateo",
+      "score": 0.44579344598833015,
+      "details": {
+        "base_score": 0.17903494834899902,
+        "geometry_prior": 0.0,
+        "lost_slot_prior": -0.021027513703985052,
+        "hard_constraint_prior": 0.0,
+        "evergaol_prior": 0.1854717807796009,
+        "great_hollow_status_support": 0.0,
+        "raw_details": {
+          "source": "earth_selector_v2",
+          "ai_prob": 0.17903494834899902,
+          "unknown": true,
+          "confidence": 0.1974330097436905,
+          "margin_top1_top2": 0.008176028728485107
+        }
+      }
+    }
+  ],
+  "timings": {
+    "capture_screenshot_or_use_pre_captured": 0.000817399937659502,
+    "panel_crop_preview_initial": 0.023112300084903836,
+    "preview_callback": 0.0,
+    "detect_map_circle_main": 0.020147599978372455,
+    "panel_crop_first_pass": 1.6600009985268116e-05,
+    "panel_further_crop_normalize": 0.0019389999797567725,
+    "earth_selector_ranking": 0.8983009000075981,
+    "slot_observation_classification_total": 0.49504629988223314,
+    "geometry_prior_computation": 2.9799994081258774e-05,
+    "lost_slot_prior_computation": 0.0008189999498426914,
+    "hard_constraint_prior_computation": 9.600003249943256e-05,
+    "evergaol_prior_detection": 0.43936209997627884,
+    "status_icon_detection": 9.804104199982248,
+    "dual_shot_second_status_detection": 0.0,
+    "earth_cascade_ranking": 4.5199994929134846e-05,
+    "layout_classifier_inference": 0.10309820005204529,
+    "layout_identification_scoring": 0.007415100000798702,
+    "layout_sort_and_select": 4.130008164793253e-05,
+    "debug_annotation_rendering": 0.20337470003869385,
+    "display_path_resolution": 0.09223820001352578,
+    "total_run": 12.49791329994332
+  },
+  "ai_model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\slot_ai_test_output_dlc_no_text_nobalance\\slot_patch_model_v1.pt"
+}

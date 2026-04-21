@@ -1,0 +1,588 @@
+{
+  "total": 60,
+  "earth_correct": 60,
+  "layout_correct": 59,
+  "errors": 0,
+  "avg_seconds": 5.747,
+  "total_seconds": 346.13,
+  "by_earth": {
+    "Great Hollow": {
+      "count": 10,
+      "earth_correct": 10,
+      "layout_correct": 9,
+      "errors": 0
+    },
+    "Limveld": {
+      "count": 10,
+      "earth_correct": 10,
+      "layout_correct": 10,
+      "errors": 0
+    },
+    "Mountaintop": {
+      "count": 10,
+      "earth_correct": 10,
+      "layout_correct": 10,
+      "errors": 0
+    },
+    "Noklateo": {
+      "count": 10,
+      "earth_correct": 10,
+      "layout_correct": 10,
+      "errors": 0
+    },
+    "Rotted Woods": {
+      "count": 10,
+      "earth_correct": 10,
+      "layout_correct": 10,
+      "errors": 0
+    },
+    "The Crater": {
+      "count": 10,
+      "earth_correct": 10,
+      "layout_correct": 10,
+      "errors": 0
+    }
+  },
+  "rows": [
+    {
+      "expected_earth": "Great Hollow",
+      "expected_layout": 1005,
+      "pred_earth": "Great Hollow",
+      "pred_layout": 1005,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 4.187
+    },
+    {
+      "expected_earth": "Great Hollow",
+      "expected_layout": 1006,
+      "pred_earth": "Great Hollow",
+      "pred_layout": 1006,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 4.152
+    },
+    {
+      "expected_earth": "Great Hollow",
+      "expected_layout": 1007,
+      "pred_earth": "Great Hollow",
+      "pred_layout": 1007,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 4.23
+    },
+    {
+      "expected_earth": "Great Hollow",
+      "expected_layout": 1008,
+      "pred_earth": "Great Hollow",
+      "pred_layout": 1008,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 4.161
+    },
+    {
+      "expected_earth": "Great Hollow",
+      "expected_layout": 1009,
+      "pred_earth": "Great Hollow",
+      "pred_layout": 1009,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 4.139
+    },
+    {
+      "expected_earth": "Great Hollow",
+      "expected_layout": 1015,
+      "pred_earth": "Great Hollow",
+      "pred_layout": 1189,
+      "earth_ok": true,
+      "layout_ok": false,
+      "seconds": 4.223
+    },
+    {
+      "expected_earth": "Great Hollow",
+      "expected_layout": 1016,
+      "pred_earth": "Great Hollow",
+      "pred_layout": 1016,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 4.21
+    },
+    {
+      "expected_earth": "Great Hollow",
+      "expected_layout": 1017,
+      "pred_earth": "Great Hollow",
+      "pred_layout": 1017,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 4.693
+    },
+    {
+      "expected_earth": "Great Hollow",
+      "expected_layout": 1018,
+      "pred_earth": "Great Hollow",
+      "pred_layout": 1018,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 4.496
+    },
+    {
+      "expected_earth": "Great Hollow",
+      "expected_layout": 1019,
+      "pred_earth": "Great Hollow",
+      "pred_layout": 1019,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 4.519
+    },
+    {
+      "expected_earth": "Limveld",
+      "expected_layout": 0,
+      "pred_earth": "Limveld",
+      "pred_layout": 0,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 4.603
+    },
+    {
+      "expected_earth": "Limveld",
+      "expected_layout": 1,
+      "pred_earth": "Limveld",
+      "pred_layout": 1,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 4.731
+    },
+    {
+      "expected_earth": "Limveld",
+      "expected_layout": 2,
+      "pred_earth": "Limveld",
+      "pred_layout": 2,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 5.135
+    },
+    {
+      "expected_earth": "Limveld",
+      "expected_layout": 3,
+      "pred_earth": "Limveld",
+      "pred_layout": 3,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 6.753
+    },
+    {
+      "expected_earth": "Limveld",
+      "expected_layout": 4,
+      "pred_earth": "Limveld",
+      "pred_layout": 4,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 6.809
+    },
+    {
+      "expected_earth": "Limveld",
+      "expected_layout": 5,
+      "pred_earth": "Limveld",
+      "pred_layout": 5,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 4.753
+    },
+    {
+      "expected_earth": "Limveld",
+      "expected_layout": 6,
+      "pred_earth": "Limveld",
+      "pred_layout": 6,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 4.498
+    },
+    {
+      "expected_earth": "Limveld",
+      "expected_layout": 7,
+      "pred_earth": "Limveld",
+      "pred_layout": 7,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 4.525
+    },
+    {
+      "expected_earth": "Limveld",
+      "expected_layout": 8,
+      "pred_earth": "Limveld",
+      "pred_layout": 8,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 4.939
+    },
+    {
+      "expected_earth": "Limveld",
+      "expected_layout": 9,
+      "pred_earth": "Limveld",
+      "pred_layout": 9,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 4.887
+    },
+    {
+      "expected_earth": "Mountaintop",
+      "expected_layout": 20,
+      "pred_earth": "Mountaintop",
+      "pred_layout": 20,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 5.068
+    },
+    {
+      "expected_earth": "Mountaintop",
+      "expected_layout": 21,
+      "pred_earth": "Mountaintop",
+      "pred_layout": 21,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 5.287
+    },
+    {
+      "expected_earth": "Mountaintop",
+      "expected_layout": 22,
+      "pred_earth": "Mountaintop",
+      "pred_layout": 22,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 5.779
+    },
+    {
+      "expected_earth": "Mountaintop",
+      "expected_layout": 23,
+      "pred_earth": "Mountaintop",
+      "pred_layout": 23,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 5.296
+    },
+    {
+      "expected_earth": "Mountaintop",
+      "expected_layout": 24,
+      "pred_earth": "Mountaintop",
+      "pred_layout": 24,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 5.696
+    },
+    {
+      "expected_earth": "Mountaintop",
+      "expected_layout": 60,
+      "pred_earth": "Mountaintop",
+      "pred_layout": 60,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 7.388
+    },
+    {
+      "expected_earth": "Mountaintop",
+      "expected_layout": 61,
+      "pred_earth": "Mountaintop",
+      "pred_layout": 61,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 15.819
+    },
+    {
+      "expected_earth": "Mountaintop",
+      "expected_layout": 62,
+      "pred_earth": "Mountaintop",
+      "pred_layout": 62,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 5.579
+    },
+    {
+      "expected_earth": "Mountaintop",
+      "expected_layout": 63,
+      "pred_earth": "Mountaintop",
+      "pred_layout": 63,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 5.136
+    },
+    {
+      "expected_earth": "Mountaintop",
+      "expected_layout": 64,
+      "pred_earth": "Mountaintop",
+      "pred_layout": 64,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 5.505
+    },
+    {
+      "expected_earth": "Noklateo",
+      "expected_layout": 35,
+      "pred_earth": "Noklateo",
+      "pred_layout": 35,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 5.604
+    },
+    {
+      "expected_earth": "Noklateo",
+      "expected_layout": 36,
+      "pred_earth": "Noklateo",
+      "pred_layout": 36,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 5.768
+    },
+    {
+      "expected_earth": "Noklateo",
+      "expected_layout": 37,
+      "pred_earth": "Noklateo",
+      "pred_layout": 37,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 5.894
+    },
+    {
+      "expected_earth": "Noklateo",
+      "expected_layout": 38,
+      "pred_earth": "Noklateo",
+      "pred_layout": 38,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 5.948
+    },
+    {
+      "expected_earth": "Noklateo",
+      "expected_layout": 39,
+      "pred_earth": "Noklateo",
+      "pred_layout": 39,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 5.981
+    },
+    {
+      "expected_earth": "Noklateo",
+      "expected_layout": 75,
+      "pred_earth": "Noklateo",
+      "pred_layout": 75,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 5.866
+    },
+    {
+      "expected_earth": "Noklateo",
+      "expected_layout": 76,
+      "pred_earth": "Noklateo",
+      "pred_layout": 76,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 5.945
+    },
+    {
+      "expected_earth": "Noklateo",
+      "expected_layout": 77,
+      "pred_earth": "Noklateo",
+      "pred_layout": 77,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 5.78
+    },
+    {
+      "expected_earth": "Noklateo",
+      "expected_layout": 78,
+      "pred_earth": "Noklateo",
+      "pred_layout": 78,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 5.798
+    },
+    {
+      "expected_earth": "Noklateo",
+      "expected_layout": 79,
+      "pred_earth": "Noklateo",
+      "pred_layout": 79,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 6.075
+    },
+    {
+      "expected_earth": "Rotted Woods",
+      "expected_layout": 30,
+      "pred_earth": "Rotted Woods",
+      "pred_layout": 30,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 7.464
+    },
+    {
+      "expected_earth": "Rotted Woods",
+      "expected_layout": 31,
+      "pred_earth": "Rotted Woods",
+      "pred_layout": 31,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 7.801
+    },
+    {
+      "expected_earth": "Rotted Woods",
+      "expected_layout": 32,
+      "pred_earth": "Rotted Woods",
+      "pred_layout": 32,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 6.132
+    },
+    {
+      "expected_earth": "Rotted Woods",
+      "expected_layout": 33,
+      "pred_earth": "Rotted Woods",
+      "pred_layout": 33,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 5.8
+    },
+    {
+      "expected_earth": "Rotted Woods",
+      "expected_layout": 34,
+      "pred_earth": "Rotted Woods",
+      "pred_layout": 34,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 6.738
+    },
+    {
+      "expected_earth": "Rotted Woods",
+      "expected_layout": 70,
+      "pred_earth": "Rotted Woods",
+      "pred_layout": 70,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 5.911
+    },
+    {
+      "expected_earth": "Rotted Woods",
+      "expected_layout": 71,
+      "pred_earth": "Rotted Woods",
+      "pred_layout": 71,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 5.826
+    },
+    {
+      "expected_earth": "Rotted Woods",
+      "expected_layout": 72,
+      "pred_earth": "Rotted Woods",
+      "pred_layout": 72,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 5.609
+    },
+    {
+      "expected_earth": "Rotted Woods",
+      "expected_layout": 73,
+      "pred_earth": "Rotted Woods",
+      "pred_layout": 73,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 5.515
+    },
+    {
+      "expected_earth": "Rotted Woods",
+      "expected_layout": 74,
+      "pred_earth": "Rotted Woods",
+      "pred_layout": 74,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 6.797
+    },
+    {
+      "expected_earth": "The Crater",
+      "expected_layout": 25,
+      "pred_earth": "The Crater",
+      "pred_layout": 25,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 6.413
+    },
+    {
+      "expected_earth": "The Crater",
+      "expected_layout": 26,
+      "pred_earth": "The Crater",
+      "pred_layout": 26,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 6.506
+    },
+    {
+      "expected_earth": "The Crater",
+      "expected_layout": 27,
+      "pred_earth": "The Crater",
+      "pred_layout": 27,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 6.448
+    },
+    {
+      "expected_earth": "The Crater",
+      "expected_layout": 28,
+      "pred_earth": "The Crater",
+      "pred_layout": 28,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 6.063
+    },
+    {
+      "expected_earth": "The Crater",
+      "expected_layout": 29,
+      "pred_earth": "The Crater",
+      "pred_layout": 29,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 5.747
+    },
+    {
+      "expected_earth": "The Crater",
+      "expected_layout": 65,
+      "pred_earth": "The Crater",
+      "pred_layout": 65,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 6.037
+    },
+    {
+      "expected_earth": "The Crater",
+      "expected_layout": 66,
+      "pred_earth": "The Crater",
+      "pred_layout": 66,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 5.942
+    },
+    {
+      "expected_earth": "The Crater",
+      "expected_layout": 67,
+      "pred_earth": "The Crater",
+      "pred_layout": 67,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 6.161
+    },
+    {
+      "expected_earth": "The Crater",
+      "expected_layout": 68,
+      "pred_earth": "The Crater",
+      "pred_layout": 68,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 6.249
+    },
+    {
+      "expected_earth": "The Crater",
+      "expected_layout": 69,
+      "pred_earth": "The Crater",
+      "pred_layout": 69,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 5.836
+    }
+  ]
+}

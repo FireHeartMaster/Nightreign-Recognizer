@@ -1,0 +1,68 @@
+{
+  "dataset": "slot7_occupied_empty_from_panel_bases260",
+  "seed": 1707,
+  "base_size": 260,
+  "output_size": 200,
+  "per_class_target": 3000,
+  "augmentation": {
+    "rotation_deg": [
+      -8.0,
+      8.0
+    ],
+    "scale": [
+      0.92,
+      1.08
+    ],
+    "shear_x_deg": [
+      -6.0,
+      6.0
+    ],
+    "affine_translate_px": [
+      -18.0,
+      18.0
+    ],
+    "crop_center_offset_px": [
+      -30,
+      30
+    ],
+    "border_mode": "BORDER_REFLECT_101"
+  },
+  "classes": {
+    "occupied": {
+      "num_bases": 9,
+      "base_files": [
+        "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260\\separated_occupied_empty\\occupied\\1115_panel_crop__slot7_panel260_fixed.png",
+        "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260\\separated_occupied_empty\\occupied\\1119_panel_crop__slot7_panel260_fixed.png",
+        "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260\\separated_occupied_empty\\occupied\\1120_panel_crop__slot7_panel260_fixed.png",
+        "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260\\separated_occupied_empty\\occupied\\1128_panel_crop__slot7_panel260_fixed.png",
+        "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260\\separated_occupied_empty\\occupied\\1175_panel_crop__slot7_panel260_fixed.png",
+        "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260\\separated_occupied_empty\\occupied\\1181_panel_crop__slot7_panel260_fixed.png",
+        "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260\\separated_occupied_empty\\occupied\\1185_panel_crop__slot7_panel260_fixed.png",
+        "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260\\separated_occupied_empty\\occupied\\Church.png",
+        "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260\\separated_occupied_empty\\occupied\\Sorcerer_s_Rise.png"
+      ],
+      "allocation_per_base": {
+        "1115_panel_crop__slot7_panel260_fixed": 334,
+        "1119_panel_crop__slot7_panel260_fixed": 334,
+        "1120_panel_crop__slot7_panel260_fixed": 334,
+        "1128_panel_crop__slot7_panel260_fixed": 333,
+        "1175_panel_crop__slot7_panel260_fixed": 333,
+        "1181_panel_crop__slot7_panel260_fixed": 333,
+        "1185_panel_crop__slot7_panel260_fixed": 333,
+        "Church": 333,
+        "Sorcerer_s_Rise": 333
+      },
+      "generated": 3000
+    },
+    "empty": {
+      "num_bases": 1,
+      "base_files": [
+        "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260\\separated_occupied_empty\\empty\\empty.png"
+      ],
+      "allocation_per_base": {
+        "empty": 3000
+      },
+      "generated": 3000
+    }
+  }
+}

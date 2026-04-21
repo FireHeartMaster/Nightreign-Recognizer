@@ -91,18 +91,30 @@ GREAT_HOLLOW_PATTERNSET_STATUS_BY_FIELD = {
     "greatHollowEastFortMainModifier2": ("Fortress", "Status_Holy"),
     "greatHollowWestFortMainModifier1": ("Palace", "Status_Fire"),
     "greatHollowWestFortMainModifier2": ("Palace", "Status_Magic"),
+    # Great Hollow-specific status anchors beyond Palace/Fortress.
+    # Mapping convention follows modifier index 1->first allowed status, 2->second allowed status.
+    "greatHollowWestFortUnderModifier1": ("Ruins", "Status_Poison"),
+    "greatHollowWestFortUnderModifier2": ("Ruins", "Status_Bleed"),
+    "greatHollowWestFortLibraryModifier1": ("Great Church", "Status_Sleep"),
+    "greatHollowWestFortLibraryModifier2": ("Great Church", "Status_Lightning"),
 }
 GREAT_HOLLOW_SYNTHETIC_WORLD_POINTS = {
     "Fortress": (734.399, 267.268),
     "Palace": (278.752, 805.636),
+    "Ruins": (138.250, 392.670),
+    "Great Church": (933.460, 548.590),
 }
 GREAT_HOLLOW_CROP_BORDER = 128.0
+STATUS_RECOGNIZER_INPUT_SIZE = 1536
+STATUS_RECOGNIZER_BORDER_CROP_PX = 256
 GREAT_HOLLOW_STATUS_ICON_SOURCES = None
 GREAT_HOLLOW_FIXED_STATUS_TEMPLATE_CACHE = None
 GREAT_HOLLOW_LAYOUT_STATUS_CACHE = {}
 GREAT_HOLLOW_STATUS_ANCHOR_CACHE = None
 ICON_RECOGNIZER_V4_MODULE = None
 ICON_RECOGNIZER_V4_LOAD_ATTEMPTED = False
+_MAP_CLASSIFIER_CACHE: Optional[Dict[str, Any]] = None
+USE_GREAT_HOLLOW_STATUS_PRIOR = True
 EVERGAOL_MODEL_FILENAMES = [
     "evergaol_ai_test_output_no_text/evergaol_patch_model_v1.pt",
     "evergaol_ai_test_output/evergaol_patch_model_v1.pt",
@@ -386,7 +398,88 @@ def estimate_global_translation_compat(module, panel_bgr: np.ndarray, package, e
     return fn(panel_bgr, package, earth_name)
 
 
+def _normalize_earth_name(name: str) -> str:
+    return "".join(ch.lower() for ch in str(name) if ch.isalnum())
+
+
+def _load_map_classifier_bundle() -> Optional[Dict[str, Any]]:
+    global _MAP_CLASSIFIER_CACHE
+    if _MAP_CLASSIFIER_CACHE is not None:
+        return _MAP_CLASSIFIER_CACHE
+
+    script_candidates = [
+        Path.cwd() / "map_class_classifier.py",
+        Path(__file__).resolve().parent / "map_class_classifier.py",
+    ]
+    model_candidates = [
+        Path.cwd() / "map_class_model.pkl",
+        Path(__file__).resolve().parent / "map_class_model.pkl",
+    ]
+    script_path = next((p for p in script_candidates if p.exists()), None)
+    model_path = next((p for p in model_candidates if p.exists()), None)
+    if script_path is None or model_path is None:
+        _MAP_CLASSIFIER_CACHE = None
+        return None
+
+    spec = importlib.util.spec_from_file_location("nightreign_map_class_classifier_runtime", script_path)
+    if spec is None or spec.loader is None:
+        _MAP_CLASSIFIER_CACHE = None
+        return None
+
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    model = module.load_model(str(model_path))
+    _MAP_CLASSIFIER_CACHE = {
+        "module": module,
+        "model": model,
+        "script_path": script_path,
+        "model_path": model_path,
+    }
+    return _MAP_CLASSIFIER_CACHE
+
+
+def _classify_shifting_earth_map_classifier(
+    raw_panel_bgr: np.ndarray, package
+) -> Optional[List[Tuple[str, float, Dict[str, float]]]]:
+    bundle = _load_map_classifier_bundle()
+    if bundle is None:
+        return None
+
+    module = bundle["module"]
+    model = bundle["model"]
+    try:
+        descriptor = module.compute_descriptor(raw_panel_bgr)
+        result = module.classify_descriptor(model, descriptor)
+    except Exception:
+        return None
+
+    class_scores = result.get("class_scores", []) or []
+    by_class = {
+        _normalize_earth_name(item.get("label", "")): float(item.get("score", 0.0))
+        for item in class_scores
+    }
+    ranked: List[Tuple[str, float, Dict[str, float]]] = []
+    for earth_name in package.earth_names:
+        score = float(by_class.get(_normalize_earth_name(earth_name), 0.0))
+        ranked.append(
+            (
+                earth_name,
+                score,
+                {
+                    "source": "map_class_classifier",
+                    "neighbors": result.get("neighbors", []),
+                },
+            )
+        )
+    ranked.sort(key=lambda item: item[1], reverse=True)
+    return ranked
+
+
 def classify_shifting_earth_compat(module, raw_panel_bgr: np.ndarray, panel_bgr: np.ndarray, package):
+    map_rank = _classify_shifting_earth_map_classifier(raw_panel_bgr, package)
+    if map_rank:
+        return map_rank
+
     fn = getattr(module, "classify_shifting_earth_ai", None)
     if fn is not None:
         try:
@@ -658,12 +751,14 @@ def ai_classify_slots(
 SPECIAL_LAYOUT_COMPARISONS: Tuple[Tuple[int, int], ...] = (
     (101, 1089),
 )
+GREAT_HOLLOW_ICON_ONLY_SLOT_IDS = {2}
 
 
 def score_layout_ai(
     slots_out: Sequence[dict],
     layout_slot_labels: Sequence[str],
     earth_score: float,
+    earth_name: str = "",
     geometry_prior: float = 0.0,
     lost_slot_prior: float = 0.0,
     hard_constraint_prior: float = 0.0,
@@ -678,6 +773,22 @@ def score_layout_ai(
     hard_mismatch_weight = 0.0
     slot_details = []
     for slot_obs, expected in zip(slots_out, layout_slot_labels):
+        slot_id = int(slot_obs.get("slot_id", -1))
+        if str(earth_name) == "Great Hollow" and slot_id in GREAT_HOLLOW_ICON_ONLY_SLOT_IDS:
+            slot_details.append({
+                "slot_id": int(slot_id),
+                "slot_name": str(slot_obs["slot_name"]),
+                "expected": str(expected),
+                "observed": str(slot_obs.get("label", "unknown")),
+                "expected_prob": None,
+                "best_prob": float(slot_obs.get("best_prob", 0.0)),
+                "second_prob": float(slot_obs.get("second_prob", 0.0)),
+                "margin": float(slot_obs.get("margin", 0.0)),
+                "weight": 0.0,
+                "weighted_log_prob": 0.0,
+                "icon_only_slot": True,
+            })
+            continue
         probs = slot_obs["probs"]
         p = max(eps, float(probs.get(str(expected), eps)))
         weight = float(slot_obs.get("weight", 1.0))
@@ -691,7 +802,7 @@ def score_layout_ai(
         else:
             hard_mismatch_weight += weight
         slot_details.append({
-            "slot_id": int(slot_obs["slot_id"]),
+            "slot_id": int(slot_id),
             "slot_name": str(slot_obs["slot_name"]),
             "expected": str(expected),
             "observed": observed,
@@ -701,6 +812,7 @@ def score_layout_ai(
             "margin": float(slot_obs.get("margin", 0.0)),
             "weight": float(weight),
             "weighted_log_prob": float(weight * math.log(p)),
+            "icon_only_slot": False,
         })
     normalized = total / max(1.0, total_weight)
     total_score = (
@@ -1504,6 +1616,16 @@ def _resolve_first_existing_path(candidates: Sequence[Path]) -> Optional[Path]:
     return None
 
 
+def preprocess_panel_for_status_recognizer(panel_bgr: np.ndarray) -> np.ndarray:
+    resized = cv2.resize(
+        panel_bgr,
+        (STATUS_RECOGNIZER_INPUT_SIZE, STATUS_RECOGNIZER_INPUT_SIZE),
+        interpolation=cv2.INTER_CUBIC,
+    )
+    b = int(STATUS_RECOGNIZER_BORDER_CROP_PX)
+    return resized[b: STATUS_RECOGNIZER_INPUT_SIZE - b, b: STATUS_RECOGNIZER_INPUT_SIZE - b].copy()
+
+
 def detect_great_hollow_statuses(panel_bgr: np.ndarray, package, observations_by_earth: dict) -> dict:
     recognizer = _load_icon_recognizer_v4_module()
     if recognizer is None:
@@ -1519,10 +1641,16 @@ def detect_great_hollow_statuses(panel_bgr: np.ndarray, package, observations_by
         "Magic": "Status_Magic",
         "Rot": "Status_Rot",
         "Holy": "Status_Holy",
+        "Poison": "Status_Poison",
+        "Bleed": "Status_Bleed",
+        "Lightning": "Status_Lightning",
+        "Sleep": "Status_Sleep",
     }
     position_map = {
         "Palace": "top_left",
         "Fortress": "bottom_right",
+        "Ruins": "ruins",
+        "Great Church": "great_church_top_right",
     }
     confidence_to_present_prob = {
         "strong": 0.95,
@@ -1530,17 +1658,37 @@ def detect_great_hollow_statuses(panel_bgr: np.ndarray, package, observations_by
         "weak": 0.60,
     }
 
-    tmp_path = None
-    h, w = panel_bgr.shape[:2]
+    tmp_query_path = None
+    tmp_ref1_path = None
+    tmp_ref2_path = None
+    status_panel = preprocess_panel_for_status_recognizer(panel_bgr)
+    h, w = status_panel.shape[:2]
     try:
-        with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as tmp:
-            tmp_path = Path(tmp.name)
-        cv2.imwrite(str(tmp_path), panel_bgr)
-        raw_result = recognizer.recognize_markers(str(ref1), str(ref2), str(tmp_path))
+        ref1_img = cv2.imread(str(ref1), cv2.IMREAD_COLOR)
+        ref2_img = cv2.imread(str(ref2), cv2.IMREAD_COLOR)
+        if ref1_img is None or ref2_img is None:
+            return {}
+
+        ref1_status = preprocess_panel_for_status_recognizer(ref1_img)
+        ref2_status = preprocess_panel_for_status_recognizer(ref2_img)
+
+        with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as tmp_q:
+            tmp_query_path = Path(tmp_q.name)
+        with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as tmp_r1:
+            tmp_ref1_path = Path(tmp_r1.name)
+        with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as tmp_r2:
+            tmp_ref2_path = Path(tmp_r2.name)
+
+        cv2.imwrite(str(tmp_query_path), status_panel)
+        cv2.imwrite(str(tmp_ref1_path), ref1_status)
+        cv2.imwrite(str(tmp_ref2_path), ref2_status)
+        raw_result = recognizer.recognize_markers(str(tmp_ref1_path), str(tmp_ref2_path), str(tmp_query_path))
     except Exception:
         return {}
     finally:
-        if tmp_path is not None:
+        for tmp_path in (tmp_query_path, tmp_ref1_path, tmp_ref2_path):
+            if tmp_path is None:
+                continue
             try:
                 tmp_path.unlink()
             except Exception:
@@ -1925,7 +2073,9 @@ def main() -> int:
     lost_slot_priors = compute_lost_limveld_slot_priors(package, observations_by_earth)
     hard_constraint_priors = compute_hard_constraint_priors(package, observations_by_earth)
     evergaol_priors = compute_evergaol_priors(panel_bgr, observations_by_earth, device=device)
-    great_hollow_status_observations = detect_great_hollow_statuses(panel_bgr, package, observations_by_earth)
+    great_hollow_status_observations = {}
+    if USE_GREAT_HOLLOW_STATUS_PRIOR:
+        great_hollow_status_observations = detect_great_hollow_statuses(panel_bgr, package, observations_by_earth)
     for earth_name, info in geometry_priors.items():
         log(
             f"  geometry prior {earth_name}: slot_count={info['slot_count']} "
@@ -1943,11 +2093,12 @@ def main() -> int:
         log(f"  hard constraint prior {earth_name}: prior={prior:+.4f}")
     for earth_name, info in evergaol_priors.items():
         log(f"  evergaol prior {earth_name}: prior={float(info.get('evergaol_prior', 0.0)):+.4f}")
-    for anchor_type, info in great_hollow_status_observations.items():
-        log(
-            f"  Great Hollow status {anchor_type}: best={info.get('best_status', '?')} "
-            f"score={float(info.get('best_score', 0.0)):.4f} margin={float(info.get('margin', 0.0)):.4f}"
-        )
+    if USE_GREAT_HOLLOW_STATUS_PRIOR:
+        for anchor_type, info in great_hollow_status_observations.items():
+            log(
+                f"  Great Hollow status {anchor_type}: best={info.get('best_status', '?')} "
+                f"score={float(info.get('best_score', 0.0)):.4f} margin={float(info.get('margin', 0.0)):.4f}"
+            )
 
     earth_cascade_rank = rank_shifting_earths_cascade(
         earth_rank,
@@ -1980,7 +2131,7 @@ def main() -> int:
         for layout in package.layouts_by_earth[earth_name]:
             great_hollow_status_prior = 0.0
             great_hollow_status_details = {"great_hollow_status_prior": 0.0, "status_evidence": []}
-            if earth_name == "Great Hollow":
+            if USE_GREAT_HOLLOW_STATUS_PRIOR and earth_name == "Great Hollow":
                 great_hollow_status_prior, great_hollow_status_details = compute_great_hollow_status_prior(
                     layout,
                     great_hollow_status_observations,
@@ -1989,6 +2140,7 @@ def main() -> int:
                 slots_out,
                 layout["slot_labels"],
                 earth_score,
+                earth_name=earth_name,
                 geometry_prior=geometry_prior,
                 lost_slot_prior=lost_slot_prior,
                 hard_constraint_prior=hard_constraint_prior,

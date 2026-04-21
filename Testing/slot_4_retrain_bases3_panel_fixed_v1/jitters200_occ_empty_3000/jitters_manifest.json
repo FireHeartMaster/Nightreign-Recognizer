@@ -1,0 +1,73 @@
+{
+  "dataset": "slot4_occ_empty_jitters200_v1",
+  "source_bases": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_retrain_bases3_panel_fixed_v1\\bases260",
+  "output_dir": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_retrain_bases3_panel_fixed_v1\\jitters200_occ_empty_3000",
+  "base_size": 260,
+  "output_size": 200,
+  "target_per_class": 3000,
+  "counts": {
+    "occupied": 3000,
+    "empty": 3000
+  },
+  "allocations": [
+    {
+      "class": "occupied",
+      "base": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_retrain_bases3_panel_fixed_v1\\bases260\\Church\\1119_panel_crop__slot4_panel260_fixed.png",
+      "generated": 750
+    },
+    {
+      "class": "occupied",
+      "base": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_retrain_bases3_panel_fixed_v1\\bases260\\Church\\1120_panel_crop__slot4_panel260_fixed.png",
+      "generated": 750
+    },
+    {
+      "class": "occupied",
+      "base": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_retrain_bases3_panel_fixed_v1\\bases260\\Church\\1185_panel_crop__slot4_panel260_fixed.png",
+      "generated": 750
+    },
+    {
+      "class": "occupied",
+      "base": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_retrain_bases3_panel_fixed_v1\\bases260\\Sorcerer_s_Rise\\1115_panel_crop__slot4_panel260_fixed.png",
+      "generated": 750
+    },
+    {
+      "class": "empty",
+      "base": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_retrain_bases3_panel_fixed_v1\\bases260\\empty\\1128_panel_crop__slot4_panel260_fixed.png",
+      "generated": 1000
+    },
+    {
+      "class": "empty",
+      "base": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_retrain_bases3_panel_fixed_v1\\bases260\\empty\\1175_panel_crop__slot4_panel260_fixed.png",
+      "generated": 1000
+    },
+    {
+      "class": "empty",
+      "base": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_retrain_bases3_panel_fixed_v1\\bases260\\empty\\1181_panel_crop__slot4_panel260_fixed.png",
+      "generated": 1000
+    }
+  ],
+  "seed": 20260419,
+  "augment": {
+    "rotation_deg": [
+      -8.0,
+      8.0
+    ],
+    "scale": [
+      0.92,
+      1.08
+    ],
+    "shear_deg": [
+      -6.0,
+      6.0
+    ],
+    "translate_px": [
+      -18.0,
+      18.0
+    ],
+    "crop_jitter_px": [
+      -30,
+      30
+    ],
+    "border_mode": "BORDER_REFLECT_101"
+  }
+}

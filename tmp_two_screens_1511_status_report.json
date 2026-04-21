@@ -1,0 +1,268 @@
+[
+  {
+    "file": "C:\\Users\\eduar\\Downloads\\Captura de tela 2026-04-16 151126.png",
+    "crop_method": "gray_hough",
+    "crop_box": {
+      "x0": 1125,
+      "y0": 179,
+      "x1": 1851,
+      "y1": 905
+    },
+    "panel_shape": [
+      1536,
+      1536
+    ],
+    "earth_top1": "Great Hollow",
+    "great_hollow_status_observations": {
+      "Palace": {
+        "anchor_type": "Palace",
+        "expected_x_norm": 0.328125,
+        "expected_y_norm": 0.28046875,
+        "best_status": "Status_Magic",
+        "best_score": 0.5137065052986145,
+        "second_status": "Status_Fire",
+        "second_score": 0.4862935245037079,
+        "margin": 0.027412980794906616,
+        "present_prob": 0.6,
+        "x_norm": 0.23396381578947367,
+        "y_norm": 0.22797716150081565,
+        "method": "icon_recognizer_v4_gh_raw_alt:models",
+        "classifier_mode": "models",
+        "ranked": [
+          {
+            "status_type": "Status_Magic",
+            "score": 0.5137065052986145,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "status_type": "Status_Fire",
+            "score": 0.4862935245037079,
+            "dx": 0,
+            "dy": 0
+          }
+        ]
+      },
+      "Fortress": {
+        "anchor_type": "Fortress",
+        "expected_x_norm": 0.68359375,
+        "expected_y_norm": 0.7015625,
+        "best_status": "Status_Holy",
+        "best_score": 0.5069146156311035,
+        "second_status": "Status_Rot",
+        "second_score": 0.4930853843688965,
+        "margin": 0.013829231262207031,
+        "present_prob": 0.6,
+        "x_norm": 0.6821546052631579,
+        "y_norm": 0.7654975530179445,
+        "method": "icon_recognizer_v4_gh_raw_alt:models",
+        "classifier_mode": "models",
+        "ranked": [
+          {
+            "status_type": "Status_Holy",
+            "score": 0.5069146156311035,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "status_type": "Status_Rot",
+            "score": 0.4930853843688965,
+            "dx": 0,
+            "dy": 0
+          }
+        ]
+      },
+      "Ruins": {
+        "anchor_type": "Ruins",
+        "expected_x_norm": 0.0,
+        "expected_y_norm": 0.0,
+        "best_status": "Status_Poison",
+        "best_score": 0.8613206744194031,
+        "second_status": "Status_Bleed",
+        "second_score": 0.13867929577827454,
+        "margin": 0.7226413786411285,
+        "present_prob": 0.95,
+        "x_norm": 0.6299342105263158,
+        "y_norm": 0.532626427406199,
+        "method": "icon_recognizer_v4_gh_raw_alt:models",
+        "classifier_mode": "models",
+        "ranked": [
+          {
+            "status_type": "Status_Poison",
+            "score": 0.8613206744194031,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "status_type": "Status_Bleed",
+            "score": 0.13867929577827454,
+            "dx": 0,
+            "dy": 0
+          }
+        ]
+      },
+      "Great Church": {
+        "anchor_type": "Great Church",
+        "expected_x_norm": 0.0,
+        "expected_y_norm": 0.0,
+        "best_status": "Status_Sleep",
+        "best_score": 0.5636659860610962,
+        "second_status": "Status_Lightning",
+        "second_score": 0.4363339841365814,
+        "margin": 0.12733200192451477,
+        "present_prob": 0.8,
+        "x_norm": 0.9029605263157895,
+        "y_norm": 0.3703099510603589,
+        "method": "icon_recognizer_v4_gh_raw_alt:models",
+        "classifier_mode": "models",
+        "ranked": [
+          {
+            "status_type": "Status_Sleep",
+            "score": 0.5636659860610962,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "status_type": "Status_Lightning",
+            "score": 0.4363339841365814,
+            "dx": 0,
+            "dy": 0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "file": "C:\\Users\\eduar\\Downloads\\Captura de tela 2026-04-16 151246.png",
+    "crop_method": "gray_hough",
+    "crop_box": {
+      "x0": 1105,
+      "y0": 157,
+      "x1": 1873,
+      "y1": 925
+    },
+    "panel_shape": [
+      1536,
+      1536
+    ],
+    "earth_top1": "Great Hollow",
+    "great_hollow_status_observations": {
+      "Palace": {
+        "anchor_type": "Palace",
+        "expected_x_norm": 0.328125,
+        "expected_y_norm": 0.28046875,
+        "best_status": "Status_Magic",
+        "best_score": 0.5160594582557678,
+        "second_status": "Status_Fire",
+        "second_score": 0.4839405417442322,
+        "margin": 0.032118916511535645,
+        "present_prob": 0.6,
+        "x_norm": 0.23396381578947367,
+        "y_norm": 0.22797716150081565,
+        "method": "icon_recognizer_v4_gh_raw_alt:models",
+        "classifier_mode": "models",
+        "ranked": [
+          {
+            "status_type": "Status_Magic",
+            "score": 0.5160594582557678,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "status_type": "Status_Fire",
+            "score": 0.4839405417442322,
+            "dx": 0,
+            "dy": 0
+          }
+        ]
+      },
+      "Fortress": {
+        "anchor_type": "Fortress",
+        "expected_x_norm": 0.68359375,
+        "expected_y_norm": 0.7015625,
+        "best_status": "Status_Holy",
+        "best_score": 0.5105292201042175,
+        "second_status": "Status_Rot",
+        "second_score": 0.48947077989578247,
+        "margin": 0.02105844020843506,
+        "present_prob": 0.6,
+        "x_norm": 0.6821546052631579,
+        "y_norm": 0.7654975530179445,
+        "method": "icon_recognizer_v4_gh_raw_alt:models",
+        "classifier_mode": "models",
+        "ranked": [
+          {
+            "status_type": "Status_Holy",
+            "score": 0.5105292201042175,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "status_type": "Status_Rot",
+            "score": 0.48947077989578247,
+            "dx": 0,
+            "dy": 0
+          }
+        ]
+      },
+      "Ruins": {
+        "anchor_type": "Ruins",
+        "expected_x_norm": 0.0,
+        "expected_y_norm": 0.0,
+        "best_status": "Status_Poison",
+        "best_score": 0.7133124470710754,
+        "second_status": "Status_Bleed",
+        "second_score": 0.28668755292892456,
+        "margin": 0.4266248941421509,
+        "present_prob": 0.95,
+        "x_norm": 0.6299342105263158,
+        "y_norm": 0.532626427406199,
+        "method": "icon_recognizer_v4_gh_raw_alt:models",
+        "classifier_mode": "models",
+        "ranked": [
+          {
+            "status_type": "Status_Poison",
+            "score": 0.7133124470710754,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "status_type": "Status_Bleed",
+            "score": 0.28668755292892456,
+            "dx": 0,
+            "dy": 0
+          }
+        ]
+      },
+      "Great Church": {
+        "anchor_type": "Great Church",
+        "expected_x_norm": 0.0,
+        "expected_y_norm": 0.0,
+        "best_status": "Status_Sleep",
+        "best_score": 0.5862701535224915,
+        "second_status": "Status_Lightning",
+        "second_score": 0.41372978687286377,
+        "margin": 0.17254036664962769,
+        "present_prob": 0.8,
+        "x_norm": 0.9029605263157895,
+        "y_norm": 0.3703099510603589,
+        "method": "icon_recognizer_v4_gh_raw_alt:models",
+        "classifier_mode": "models",
+        "ranked": [
+          {
+            "status_type": "Status_Sleep",
+            "score": 0.5862701535224915,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "status_type": "Status_Lightning",
+            "score": 0.41372978687286377,
+            "dx": 0,
+            "dy": 0
+          }
+        ]
+      }
+    }
+  }
+]

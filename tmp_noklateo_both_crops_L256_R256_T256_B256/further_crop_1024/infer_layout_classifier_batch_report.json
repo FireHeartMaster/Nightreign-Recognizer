@@ -1,0 +1,865 @@
+{
+  "num_images_total": 50,
+  "num_ok": 50,
+  "num_errors": 0,
+  "top1_accuracy": 1.0,
+  "top3_accuracy": 1.0,
+  "top5_accuracy": 1.0,
+  "unknown_rate": 0.12,
+  "accuracy_on_decided": 1.0,
+  "misclassified_count": 0,
+  "misclassified": [],
+  "errors": [],
+  "rows": [
+    {
+      "file": "pattern_0035_further_crop_1024.png",
+      "truth": 35,
+      "status": "ok",
+      "best_patternId": 35,
+      "margin": 2.1858019828796387,
+      "confidence": 1.0,
+      "unknown": true,
+      "latency_ms": 66.76990003325045,
+      "top5": [
+        35,
+        239,
+        195,
+        317,
+        119
+      ]
+    },
+    {
+      "file": "pattern_0036_further_crop_1024.png",
+      "truth": 36,
+      "status": "ok",
+      "best_patternId": 36,
+      "margin": 2.3089396953582764,
+      "confidence": 1.0,
+      "unknown": true,
+      "latency_ms": 66.04750000406057,
+      "top5": [
+        36,
+        1137,
+        38,
+        117,
+        115
+      ]
+    },
+    {
+      "file": "pattern_0037_further_crop_1024.png",
+      "truth": 37,
+      "status": "ok",
+      "best_patternId": 37,
+      "margin": 2.9651038646698,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 66.57969998195767,
+      "top5": [
+        37,
+        76,
+        195,
+        1135,
+        196
+      ]
+    },
+    {
+      "file": "pattern_0038_further_crop_1024.png",
+      "truth": 38,
+      "status": "ok",
+      "best_patternId": 38,
+      "margin": 2.7531588077545166,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 68.47320008091629,
+      "top5": [
+        38,
+        36,
+        76,
+        237,
+        115
+      ]
+    },
+    {
+      "file": "pattern_0039_further_crop_1024.png",
+      "truth": 39,
+      "status": "ok",
+      "best_patternId": 39,
+      "margin": 3.269915819168091,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 66.8019000440836,
+      "top5": [
+        39,
+        1138,
+        238,
+        155,
+        158
+      ]
+    },
+    {
+      "file": "pattern_0075_further_crop_1024.png",
+      "truth": 75,
+      "status": "ok",
+      "best_patternId": 75,
+      "margin": 3.5310847759246826,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 66.5378998965025,
+      "top5": [
+        75,
+        118,
+        236,
+        158,
+        155
+      ]
+    },
+    {
+      "file": "pattern_0076_further_crop_1024.png",
+      "truth": 76,
+      "status": "ok",
+      "best_patternId": 76,
+      "margin": 2.9072413444519043,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 68.94939998164773,
+      "top5": [
+        76,
+        37,
+        278,
+        38,
+        1135
+      ]
+    },
+    {
+      "file": "pattern_0077_further_crop_1024.png",
+      "truth": 77,
+      "status": "ok",
+      "best_patternId": 77,
+      "margin": 3.6441268920898438,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 68.66079999599606,
+      "top5": [
+        77,
+        158,
+        118,
+        275,
+        117
+      ]
+    },
+    {
+      "file": "pattern_0078_further_crop_1024.png",
+      "truth": 78,
+      "status": "ok",
+      "best_patternId": 78,
+      "margin": 2.3826639652252197,
+      "confidence": 1.0,
+      "unknown": true,
+      "latency_ms": 68.18289996590465,
+      "top5": [
+        78,
+        156,
+        315,
+        235,
+        119
+      ]
+    },
+    {
+      "file": "pattern_0079_further_crop_1024.png",
+      "truth": 79,
+      "status": "ok",
+      "best_patternId": 79,
+      "margin": 2.782116413116455,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 67.05340009648353,
+      "top5": [
+        79,
+        278,
+        119,
+        315,
+        317
+      ]
+    },
+    {
+      "file": "pattern_0115_further_crop_1024.png",
+      "truth": 115,
+      "status": "ok",
+      "best_patternId": 115,
+      "margin": 2.516042947769165,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 67.469900008291,
+      "top5": [
+        115,
+        196,
+        317,
+        118,
+        79
+      ]
+    },
+    {
+      "file": "pattern_0116_further_crop_1024.png",
+      "truth": 116,
+      "status": "ok",
+      "best_patternId": 116,
+      "margin": 3.709913730621338,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 66.77290005609393,
+      "top5": [
+        116,
+        275,
+        155,
+        277,
+        36
+      ]
+    },
+    {
+      "file": "pattern_0117_further_crop_1024.png",
+      "truth": 117,
+      "status": "ok",
+      "best_patternId": 117,
+      "margin": 3.479943037033081,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 67.52480007708073,
+      "top5": [
+        117,
+        275,
+        36,
+        77,
+        277
+      ]
+    },
+    {
+      "file": "pattern_0118_further_crop_1024.png",
+      "truth": 118,
+      "status": "ok",
+      "best_patternId": 118,
+      "margin": 2.7288436889648438,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 67.23499996587634,
+      "top5": [
+        118,
+        237,
+        197,
+        319,
+        115
+      ]
+    },
+    {
+      "file": "pattern_0119_further_crop_1024.png",
+      "truth": 119,
+      "status": "ok",
+      "best_patternId": 119,
+      "margin": 3.102297782897949,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 67.20839999616146,
+      "top5": [
+        119,
+        79,
+        317,
+        315,
+        78
+      ]
+    },
+    {
+      "file": "pattern_0155_further_crop_1024.png",
+      "truth": 155,
+      "status": "ok",
+      "best_patternId": 155,
+      "margin": 2.526365280151367,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 68.54050001129508,
+      "top5": [
+        155,
+        237,
+        197,
+        1199,
+        316
+      ]
+    },
+    {
+      "file": "pattern_0156_further_crop_1024.png",
+      "truth": 156,
+      "status": "ok",
+      "best_patternId": 156,
+      "margin": 2.360358715057373,
+      "confidence": 1.0,
+      "unknown": true,
+      "latency_ms": 67.10069999098778,
+      "top5": [
+        156,
+        78,
+        235,
+        195,
+        119
+      ]
+    },
+    {
+      "file": "pattern_0157_further_crop_1024.png",
+      "truth": 157,
+      "status": "ok",
+      "best_patternId": 157,
+      "margin": 2.8403842449188232,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 67.03430006746203,
+      "top5": [
+        157,
+        319,
+        158,
+        159,
+        1136
+      ]
+    },
+    {
+      "file": "pattern_0158_further_crop_1024.png",
+      "truth": 158,
+      "status": "ok",
+      "best_patternId": 158,
+      "margin": 2.991429567337036,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 66.50309998076409,
+      "top5": [
+        158,
+        157,
+        159,
+        118,
+        78
+      ]
+    },
+    {
+      "file": "pattern_0159_further_crop_1024.png",
+      "truth": 159,
+      "status": "ok",
+      "best_patternId": 159,
+      "margin": 2.7041194438934326,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 67.10839993320405,
+      "top5": [
+        159,
+        238,
+        158,
+        157,
+        276
+      ]
+    },
+    {
+      "file": "pattern_0195_further_crop_1024.png",
+      "truth": 195,
+      "status": "ok",
+      "best_patternId": 195,
+      "margin": 3.270143985748291,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 67.29709997307509,
+      "top5": [
+        195,
+        35,
+        37,
+        317,
+        156
+      ]
+    },
+    {
+      "file": "pattern_0196_further_crop_1024.png",
+      "truth": 196,
+      "status": "ok",
+      "best_patternId": 196,
+      "margin": 2.7716574668884277,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 66.86609995085746,
+      "top5": [
+        196,
+        115,
+        278,
+        318,
+        118
+      ]
+    },
+    {
+      "file": "pattern_0197_further_crop_1024.png",
+      "truth": 197,
+      "status": "ok",
+      "best_patternId": 197,
+      "margin": 3.1745195388793945,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 69.08749998547137,
+      "top5": [
+        197,
+        316,
+        118,
+        155,
+        1199
+      ]
+    },
+    {
+      "file": "pattern_0198_further_crop_1024.png",
+      "truth": 198,
+      "status": "ok",
+      "best_patternId": 198,
+      "margin": 3.37918758392334,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 67.91879993397743,
+      "top5": [
+        198,
+        79,
+        317,
+        238,
+        277
+      ]
+    },
+    {
+      "file": "pattern_0199_further_crop_1024.png",
+      "truth": 199,
+      "status": "ok",
+      "best_patternId": 199,
+      "margin": 3.4492547512054443,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 67.25730001926422,
+      "top5": [
+        199,
+        237,
+        118,
+        197,
+        316
+      ]
+    },
+    {
+      "file": "pattern_0235_further_crop_1024.png",
+      "truth": 235,
+      "status": "ok",
+      "best_patternId": 235,
+      "margin": 3.1711678504943848,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 66.56459998339415,
+      "top5": [
+        235,
+        156,
+        78,
+        239,
+        79
+      ]
+    },
+    {
+      "file": "pattern_0236_further_crop_1024.png",
+      "truth": 236,
+      "status": "ok",
+      "best_patternId": 236,
+      "margin": 3.305903434753418,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 67.75370007380843,
+      "top5": [
+        236,
+        119,
+        118,
+        75,
+        1139
+      ]
+    },
+    {
+      "file": "pattern_0237_further_crop_1024.png",
+      "truth": 237,
+      "status": "ok",
+      "best_patternId": 237,
+      "margin": 2.6101505756378174,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 67.98960000742227,
+      "top5": [
+        237,
+        155,
+        118,
+        316,
+        199
+      ]
+    },
+    {
+      "file": "pattern_0238_further_crop_1024.png",
+      "truth": 238,
+      "status": "ok",
+      "best_patternId": 238,
+      "margin": 2.863994598388672,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 67.32260005082935,
+      "top5": [
+        238,
+        159,
+        39,
+        276,
+        198
+      ]
+    },
+    {
+      "file": "pattern_0239_further_crop_1024.png",
+      "truth": 239,
+      "status": "ok",
+      "best_patternId": 239,
+      "margin": 2.339189291000366,
+      "confidence": 1.0,
+      "unknown": true,
+      "latency_ms": 66.5517000015825,
+      "top5": [
+        239,
+        35,
+        235,
+        159,
+        79
+      ]
+    },
+    {
+      "file": "pattern_0275_further_crop_1024.png",
+      "truth": 275,
+      "status": "ok",
+      "best_patternId": 275,
+      "margin": 3.283365488052368,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 68.49840003997087,
+      "top5": [
+        275,
+        1199,
+        117,
+        279,
+        316
+      ]
+    },
+    {
+      "file": "pattern_0276_further_crop_1024.png",
+      "truth": 276,
+      "status": "ok",
+      "best_patternId": 276,
+      "margin": 3.2494454383850098,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 68.50309995934367,
+      "top5": [
+        276,
+        159,
+        238,
+        317,
+        198
+      ]
+    },
+    {
+      "file": "pattern_0277_further_crop_1024.png",
+      "truth": 277,
+      "status": "ok",
+      "best_patternId": 277,
+      "margin": 3.5215187072753906,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 67.17679998837411,
+      "top5": [
+        277,
+        119,
+        195,
+        198,
+        117
+      ]
+    },
+    {
+      "file": "pattern_0278_further_crop_1024.png",
+      "truth": 278,
+      "status": "ok",
+      "best_patternId": 278,
+      "margin": 2.637005567550659,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 70.16690005548298,
+      "top5": [
+        278,
+        79,
+        76,
+        196,
+        316
+      ]
+    },
+    {
+      "file": "pattern_0279_further_crop_1024.png",
+      "truth": 279,
+      "status": "ok",
+      "best_patternId": 279,
+      "margin": 3.5874197483062744,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 68.89090000186116,
+      "top5": [
+        279,
+        318,
+        275,
+        156,
+        235
+      ]
+    },
+    {
+      "file": "pattern_0315_further_crop_1024.png",
+      "truth": 315,
+      "status": "ok",
+      "best_patternId": 315,
+      "margin": 2.858003616333008,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 68.08140000794083,
+      "top5": [
+        315,
+        78,
+        79,
+        119,
+        115
+      ]
+    },
+    {
+      "file": "pattern_0316_further_crop_1024.png",
+      "truth": 316,
+      "status": "ok",
+      "best_patternId": 316,
+      "margin": 2.9676451683044434,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 70.6237000413239,
+      "top5": [
+        316,
+        197,
+        237,
+        278,
+        275
+      ]
+    },
+    {
+      "file": "pattern_0317_further_crop_1024.png",
+      "truth": 317,
+      "status": "ok",
+      "best_patternId": 317,
+      "margin": 2.960139751434326,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 67.71249999292195,
+      "top5": [
+        317,
+        119,
+        115,
+        79,
+        195
+      ]
+    },
+    {
+      "file": "pattern_0318_further_crop_1024.png",
+      "truth": 318,
+      "status": "ok",
+      "best_patternId": 318,
+      "margin": 3.246762275695801,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 68.02989996504039,
+      "top5": [
+        318,
+        196,
+        279,
+        1196,
+        157
+      ]
+    },
+    {
+      "file": "pattern_0319_further_crop_1024.png",
+      "truth": 319,
+      "status": "ok",
+      "best_patternId": 319,
+      "margin": 2.8831868171691895,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 68.01879999693483,
+      "top5": [
+        319,
+        157,
+        118,
+        115,
+        318
+      ]
+    },
+    {
+      "file": "pattern_1135_further_crop_1024.png",
+      "truth": 1135,
+      "status": "ok",
+      "best_patternId": 1135,
+      "margin": 3.2946529388427734,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 68.70980001986027,
+      "top5": [
+        1135,
+        76,
+        79,
+        37,
+        119
+      ]
+    },
+    {
+      "file": "pattern_1136_further_crop_1024.png",
+      "truth": 1136,
+      "status": "ok",
+      "best_patternId": 1136,
+      "margin": 3.316293239593506,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 70.00999990850687,
+      "top5": [
+        1136,
+        157,
+        158,
+        1197,
+        276
+      ]
+    },
+    {
+      "file": "pattern_1137_further_crop_1024.png",
+      "truth": 1137,
+      "status": "ok",
+      "best_patternId": 1137,
+      "margin": 2.3777318000793457,
+      "confidence": 1.0,
+      "unknown": true,
+      "latency_ms": 68.748899968341,
+      "top5": [
+        1137,
+        36,
+        38,
+        275,
+        1135
+      ]
+    },
+    {
+      "file": "pattern_1138_further_crop_1024.png",
+      "truth": 1138,
+      "status": "ok",
+      "best_patternId": 1138,
+      "margin": 3.277127265930176,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 68.58419999480247,
+      "top5": [
+        1138,
+        39,
+        158,
+        118,
+        1199
+      ]
+    },
+    {
+      "file": "pattern_1139_further_crop_1024.png",
+      "truth": 1139,
+      "status": "ok",
+      "best_patternId": 1139,
+      "margin": 3.941020965576172,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 68.17090010736138,
+      "top5": [
+        1139,
+        119,
+        236,
+        277,
+        118
+      ]
+    },
+    {
+      "file": "pattern_1195_further_crop_1024.png",
+      "truth": 1195,
+      "status": "ok",
+      "best_patternId": 1195,
+      "margin": 4.0379557609558105,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 66.34109991136938,
+      "top5": [
+        1195,
+        1198,
+        156,
+        198,
+        158
+      ]
+    },
+    {
+      "file": "pattern_1196_further_crop_1024.png",
+      "truth": 1196,
+      "status": "ok",
+      "best_patternId": 1196,
+      "margin": 4.391891002655029,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 66.77070003934205,
+      "top5": [
+        1196,
+        318,
+        1138,
+        275,
+        158
+      ]
+    },
+    {
+      "file": "pattern_1197_further_crop_1024.png",
+      "truth": 1197,
+      "status": "ok",
+      "best_patternId": 1197,
+      "margin": 3.928436279296875,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 66.58710003830492,
+      "top5": [
+        1197,
+        1136,
+        1198,
+        76,
+        1138
+      ]
+    },
+    {
+      "file": "pattern_1198_further_crop_1024.png",
+      "truth": 1198,
+      "status": "ok",
+      "best_patternId": 1198,
+      "margin": 3.872750997543335,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 66.76930002868176,
+      "top5": [
+        1198,
+        1195,
+        1197,
+        1199,
+        155
+      ]
+    },
+    {
+      "file": "pattern_1199_further_crop_1024.png",
+      "truth": 1199,
+      "status": "ok",
+      "best_patternId": 1199,
+      "margin": 3.0479469299316406,
+      "confidence": 1.0,
+      "unknown": false,
+      "latency_ms": 67.8360000019893,
+      "top5": [
+        1199,
+        275,
+        197,
+        155,
+        1138
+      ]
+    }
+  ]
+}

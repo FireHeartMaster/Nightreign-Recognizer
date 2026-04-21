@@ -1,0 +1,39 @@
+{
+  "task": "The Crater layout patternId classification from one image",
+  "model_config": {
+    "image_size": [
+      1024,
+      1024
+    ],
+    "slot_patch_size": 72,
+    "landmark_patch_size": 64,
+    "image_descriptor_resize": [
+      384,
+      384
+    ],
+    "earth": "The Crater",
+    "metadata_path": "/mnt/data/the_crater_layout_slots_further_crop_bl_strict.json"
+  },
+  "metadata_diagnostics": {
+    "image_w": 1024,
+    "image_h": 1024,
+    "layouts_count": 50,
+    "coord_sources": {
+      "px_bl": 1952
+    },
+    "out_of_bounds": []
+  },
+  "duplicate_report": {
+    "exact_duplicate_groups": [],
+    "duplicate_group_count": 0,
+    "total_images": 50,
+    "unique_hashes": 50
+  },
+  "calibration": {
+    "alpha": 0.6,
+    "temperature": 0.12,
+    "unknown_margin_threshold": 2.445284366607666,
+    "split_protocol": "deterministic augmentation queries with full gallery fixed; one template per patternId in dataset"
+  },
+  "note": "Model artifact built successfully. Use evaluate_layout_classifier.py to regenerate full evaluation on your machine."
+}

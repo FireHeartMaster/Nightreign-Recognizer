@@ -1,0 +1,37 @@
+{
+  "file": "C:\\Users\\eduar\\Downloads\\Captura de tela 2026-04-16 081032.png",
+  "earth_top1": "Great Hollow",
+  "icon_recognizer_gc": {
+    "label": "Lightning",
+    "score": 0.8845,
+    "runner_up": "Sleep",
+    "runner_up_score": 0.2699,
+    "margin": 0.6146,
+    "box": {
+      "x": 1082,
+      "y": 450,
+      "w": 22,
+      "h": 22
+    }
+  },
+  "model_gc": {
+    "pred": "Lightning",
+    "probs": {
+      "Sleep": 0.4604928538573292,
+      "Lightning": 0.5395071461426708
+    }
+  },
+  "hybrid_gc": {
+    "pred": "Lightning",
+    "probs": {
+      "Sleep": 0.13342533309967486,
+      "Lightning": 0.8665746669003251
+    },
+    "template_delta_light_minus_sleep": 0.6187857424453417,
+    "params": {
+      "a": 2.0,
+      "b": 1.0,
+      "temperature": 0.5
+    }
+  }
+}

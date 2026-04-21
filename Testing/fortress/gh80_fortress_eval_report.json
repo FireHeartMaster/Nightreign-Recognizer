@@ -1,0 +1,2110 @@
+{
+  "dataset": "Great Hollow canonical 80 further-crop asym images",
+  "image_count": 80,
+  "evaluated_count": 80,
+  "correct": 40,
+  "accuracy": 0.5,
+  "class_names": [
+    "Status_Holy",
+    "Status_Rot"
+  ],
+  "confusion": {
+    "Status_Holy": {
+      "Status_Holy": 0,
+      "Status_Rot": 40
+    },
+    "Status_Rot": {
+      "Status_Holy": 0,
+      "Status_Rot": 40
+    }
+  },
+  "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress\\fortress_status_cnn.pt",
+  "model_meta": {
+    "best_epoch": 5,
+    "best_val_accuracy": 1.0,
+    "train_samples": 203,
+    "val_samples": 50
+  },
+  "results": [
+    {
+      "patternId": 1005,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1005_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5360886454582214,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5360886454582214
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.46391138434410095
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1006,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1006_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5360886454582214,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5360886454582214
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.46391138434410095
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1007,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1007_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5593363046646118,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5593363046646118
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4406636953353882
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1008,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1008_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5360886454582214,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5360886454582214
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.46391138434410095
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1009,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1009_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5593363046646118,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5593363046646118
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4406636953353882
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1015,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1015_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5360886454582214,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5360886454582214
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.46391138434410095
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1016,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1016_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5360886454582214,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5360886454582214
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.46391138434410095
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1017,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1017_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5593363046646118,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5593363046646118
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4406636953353882
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1018,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1018_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5593363046646118,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5593363046646118
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4406636953353882
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1019,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1019_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5593363046646118,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5593363046646118
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4406636953353882
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1025,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1025_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5360886454582214,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5360886454582214
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.46391138434410095
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1026,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1026_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5523993372917175,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5523993372917175
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.44760069251060486
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1027,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1027_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5759808421134949,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5759808421134949
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4240191578865051
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1028,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1028_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5360886454582214,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5360886454582214
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.46391138434410095
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1029,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1029_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5593363046646118,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5593363046646118
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4406636953353882
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1035,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1035_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5360886454582214,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5360886454582214
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.46391138434410095
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1036,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1036_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5593363046646118,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5593363046646118
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4406636953353882
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1037,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1037_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5593363046646118,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5593363046646118
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4406636953353882
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1038,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1038_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5360886454582214,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5360886454582214
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.46391138434410095
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1039,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1039_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5593363046646118,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5593363046646118
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4406636953353882
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1045,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1045_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5360886454582214,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5360886454582214
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.46391138434410095
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1046,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1046_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5360886454582214,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5360886454582214
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.46391138434410095
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1047,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1047_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5593363046646118,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5593363046646118
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4406636953353882
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1048,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1048_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5593363046646118,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5593363046646118
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4406636953353882
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1049,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1049_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5360886454582214,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5360886454582214
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.46391138434410095
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1055,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1055_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5593363046646118,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5593363046646118
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4406636953353882
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1056,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1056_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5593363046646118,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5593363046646118
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4406636953353882
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1057,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1057_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5759808421134949,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5759808421134949
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4240191578865051
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1058,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1058_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5360886454582214,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5360886454582214
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.46391138434410095
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1059,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1059_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5360886454582214,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5360886454582214
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.46391138434410095
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1065,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1065_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5360886454582214,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5360886454582214
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.46391138434410095
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1066,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1066_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5360886454582214,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5360886454582214
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.46391138434410095
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1067,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1067_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5759808421134949,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5759808421134949
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4240191578865051
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1068,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1068_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5360886454582214,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5360886454582214
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.46391138434410095
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1069,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1069_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5593363046646118,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5593363046646118
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4406636953353882
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1075,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1075_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5360886454582214,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5360886454582214
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.46391138434410095
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1076,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1076_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5593363046646118,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5593363046646118
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4406636953353882
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1077,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1077_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5593363046646118,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5593363046646118
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4406636953353882
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1078,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1078_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5593363046646118,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5593363046646118
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4406636953353882
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1079,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1079_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5360886454582214,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5360886454582214
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.46391138434410095
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1115,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1115_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5593363046646118,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5593363046646118
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4406636953353882
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1116,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1116_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5759808421134949,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5759808421134949
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4240191578865051
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1117,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1117_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5593363046646118,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5593363046646118
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4406636953353882
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1118,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1118_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5593363046646118,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5593363046646118
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4406636953353882
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1119,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1119_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5593363046646118,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5593363046646118
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4406636953353882
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1120,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1120_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5360886454582214,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5360886454582214
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.46391138434410095
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1121,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1121_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5360886454582214,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5360886454582214
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.46391138434410095
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1122,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1122_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5360886454582214,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5360886454582214
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.46391138434410095
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1123,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1123_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5759808421134949,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5759808421134949
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4240191578865051
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1124,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1124_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5593363046646118,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5593363046646118
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4406636953353882
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1125,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1125_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5360886454582214,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5360886454582214
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.46391138434410095
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1126,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1126_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5593363046646118,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5593363046646118
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4406636953353882
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1127,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1127_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5523993372917175,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5523993372917175
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.44760069251060486
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1128,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1128_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5523993372917175,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5523993372917175
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.44760069251060486
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1129,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1129_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5360886454582214,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5360886454582214
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.46391138434410095
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1130,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1130_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5360886454582214,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5360886454582214
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.46391138434410095
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1131,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1131_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5593363046646118,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5593363046646118
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4406636953353882
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1132,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1132_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5360886454582214,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5360886454582214
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.46391138434410095
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1133,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1133_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5593363046646118,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5593363046646118
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4406636953353882
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1134,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1134_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5523993372917175,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5523993372917175
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.44760069251060486
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1175,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1175_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5523993372917175,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5523993372917175
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.44760069251060486
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1176,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1176_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5593363046646118,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5593363046646118
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4406636953353882
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1177,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1177_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5593363046646118,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5593363046646118
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4406636953353882
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1178,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1178_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5593363046646118,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5593363046646118
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4406636953353882
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1179,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1179_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5360886454582214,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5360886454582214
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.46391138434410095
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1180,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1180_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5360886454582214,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5360886454582214
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.46391138434410095
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1181,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1181_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5593363046646118,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5593363046646118
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4406636953353882
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1182,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1182_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5360886454582214,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5360886454582214
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.46391138434410095
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1183,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1183_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5593363046646118,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5593363046646118
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4406636953353882
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1184,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1184_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5360886454582214,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5360886454582214
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.46391138434410095
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1185,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1185_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5593363046646118,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5593363046646118
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4406636953353882
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1186,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1186_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5360886454582214,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5360886454582214
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.46391138434410095
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1187,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1187_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5360886454582214,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5360886454582214
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.46391138434410095
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1188,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1188_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5593363046646118,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5593363046646118
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4406636953353882
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1189,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1189_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5360886454582214,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5360886454582214
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.46391138434410095
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1190,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1190_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5360886454582214,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5360886454582214
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.46391138434410095
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1191,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1191_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5593363046646118,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5593363046646118
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4406636953353882
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1192,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1192_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5593363046646118,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5593363046646118
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4406636953353882
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1193,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1193_further_crop_asym_1191x1176.png",
+      "expected": "Status_Holy",
+      "predicted": "Status_Rot",
+      "confidence": 0.5360886454582214,
+      "match": false,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5360886454582214
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.46391138434410095
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    },
+    {
+      "patternId": 1194,
+      "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\pattern_1194_further_crop_asym_1191x1176.png",
+      "expected": "Status_Rot",
+      "predicted": "Status_Rot",
+      "confidence": 0.5593363046646118,
+      "match": true,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.5593363046646118
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.4406636953353882
+        }
+      ],
+      "fortress_anchor_bl": {
+        "x": 875.0,
+        "y": 278.4000000000001
+      },
+      "crop_center_cv": {
+        "x": 875,
+        "y": 897
+      }
+    }
+  ]
+}

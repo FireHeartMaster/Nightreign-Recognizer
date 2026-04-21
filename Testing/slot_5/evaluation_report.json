@@ -1,0 +1,88 @@
+{
+  "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5\\slot5_status_cnn.pt",
+  "data_dir": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5",
+  "class_names": [
+    "Church",
+    "empty",
+    "Sorcerer_s_Rise"
+  ],
+  "image_size": 200,
+  "meta": {
+    "best_epoch": 7,
+    "best_val_accuracy": 1.0,
+    "train_samples": 277,
+    "val_samples": 68
+  },
+  "total": 345,
+  "correct": 340,
+  "accuracy": 0.9855072463768116,
+  "class_metrics": [
+    {
+      "label": "Church",
+      "count": 116,
+      "correct": 111,
+      "accuracy": 0.9568965517241379
+    },
+    {
+      "label": "empty",
+      "count": 117,
+      "correct": 117,
+      "accuracy": 1.0
+    },
+    {
+      "label": "Sorcerer_s_Rise",
+      "count": 112,
+      "correct": 112,
+      "accuracy": 1.0
+    }
+  ],
+  "confusion_matrix": [
+    [
+      111,
+      0,
+      5
+    ],
+    [
+      0,
+      117,
+      0
+    ],
+    [
+      0,
+      0,
+      112
+    ]
+  ],
+  "failures": [
+    {
+      "file": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5\\Church\\Church__from260__j058__dx-26_dy+21.png",
+      "true_label": "Church",
+      "predicted_label": "Sorcerer_s_Rise",
+      "confidence": 0.5028273463249207
+    },
+    {
+      "file": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5\\Church\\Church__from260__j079__dx-30_dy+25.png",
+      "true_label": "Church",
+      "predicted_label": "Sorcerer_s_Rise",
+      "confidence": 0.563960611820221
+    },
+    {
+      "file": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5\\Church\\Church__from260__j082__dx-27_dy+21.png",
+      "true_label": "Church",
+      "predicted_label": "Sorcerer_s_Rise",
+      "confidence": 0.5048099160194397
+    },
+    {
+      "file": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5\\Church\\Church__from260__j092__dx-27_dy+18.png",
+      "true_label": "Church",
+      "predicted_label": "Sorcerer_s_Rise",
+      "confidence": 0.4567420184612274
+    },
+    {
+      "file": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5\\Church\\pattern_1128_asym_further_crop__slot_5__j3__dx-23_dy+17.png",
+      "true_label": "Church",
+      "predicted_label": "Sorcerer_s_Rise",
+      "confidence": 0.47278887033462524
+    }
+  ]
+}

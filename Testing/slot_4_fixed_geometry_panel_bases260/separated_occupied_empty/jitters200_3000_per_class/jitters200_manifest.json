@@ -1,0 +1,62 @@
+{
+  "dataset": "slot4_occupied_empty_from_panel_bases260",
+  "seed": 1404,
+  "base_size": 260,
+  "output_size": 200,
+  "per_class_target": 3000,
+  "augmentation": {
+    "rotation_deg": [
+      -8.0,
+      8.0
+    ],
+    "scale": [
+      0.92,
+      1.08
+    ],
+    "shear_x_deg": [
+      -6.0,
+      6.0
+    ],
+    "affine_translate_px": [
+      -18.0,
+      18.0
+    ],
+    "crop_center_offset_px": [
+      -30,
+      30
+    ],
+    "border_mode": "BORDER_REFLECT_101"
+  },
+  "classes": {
+    "occupied": {
+      "num_bases": 4,
+      "base_files": [
+        "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\occupied\\1115_panel_crop__slot4_panel260_fixed.png",
+        "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\occupied\\1119_panel_crop__slot4_panel260_fixed.png",
+        "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\occupied\\1120_panel_crop__slot4_panel260_fixed.png",
+        "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\occupied\\1185_panel_crop__slot4_panel260_fixed.png"
+      ],
+      "allocation_per_base": {
+        "1115_panel_crop__slot4_panel260_fixed": 750,
+        "1119_panel_crop__slot4_panel260_fixed": 750,
+        "1120_panel_crop__slot4_panel260_fixed": 750,
+        "1185_panel_crop__slot4_panel260_fixed": 750
+      },
+      "generated": 3000
+    },
+    "empty": {
+      "num_bases": 3,
+      "base_files": [
+        "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\empty\\1128_panel_crop__slot4_panel260_fixed.png",
+        "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\empty\\1175_panel_crop__slot4_panel260_fixed.png",
+        "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\empty\\1181_panel_crop__slot4_panel260_fixed.png"
+      ],
+      "allocation_per_base": {
+        "1128_panel_crop__slot4_panel260_fixed": 1000,
+        "1175_panel_crop__slot4_panel260_fixed": 1000,
+        "1181_panel_crop__slot4_panel260_fixed": 1000
+      },
+      "generated": 3000
+    }
+  }
+}

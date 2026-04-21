@@ -1,0 +1,47 @@
+{
+  "input_panel": "tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop\\1102_panel_crop.png",
+  "result": {
+    "earth_name": "Great Hollow",
+    "classifier_dir": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric",
+    "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\layout_model.pkl",
+    "input_mode": "great_hollow_asymmetric",
+    "input_shape": [
+      1191,
+      1176
+    ],
+    "best_patternId": 1175,
+    "decided_patternId": 1175,
+    "unknown": false,
+    "confidence": 0.3940843641757965,
+    "margin": 0.0145416259765625,
+    "latency_ms": 30.17859999090433,
+    "pipeline_latency_ms": 60.11050008237362,
+    "top5": [
+      {
+        "patternId": 1175,
+        "probability": 0.3940843641757965,
+        "score": 3.1200270652770996
+      },
+      {
+        "patternId": 1120,
+        "probability": 0.3491087555885315,
+        "score": 3.105485439300537
+      },
+      {
+        "patternId": 1128,
+        "probability": 0.13944977521896362,
+        "score": 2.99536395072937
+      },
+      {
+        "patternId": 1115,
+        "probability": 0.06648106873035431,
+        "score": 2.9064693450927734
+      },
+      {
+        "patternId": 1119,
+        "probability": 0.04053524509072304,
+        "score": 2.847100019454956
+      }
+    ]
+  }
+}

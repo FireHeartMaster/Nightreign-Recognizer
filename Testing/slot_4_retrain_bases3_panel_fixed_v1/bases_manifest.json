@@ -1,0 +1,63 @@
+{
+  "dataset": "slot_4_retrain_bases3_panel_fixed_v1",
+  "source_family": "slot_4_fixed_geometry_panel_bases260",
+  "source_center_ref_1536": {
+    "x": 984.0,
+    "y": 805.0
+  },
+  "crop_size_ref": 260,
+  "classes": [
+    "Church",
+    "Sorcerer_s_Rise",
+    "empty"
+  ],
+  "counts": {
+    "Church": 3,
+    "Sorcerer_s_Rise": 1,
+    "empty": 3
+  },
+  "records": [
+    {
+      "layout_id": "1115",
+      "class": "Sorcerer_s_Rise",
+      "source": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\1115_panel_crop__slot4_panel260_fixed.png",
+      "dest": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_retrain_bases3_panel_fixed_v1\\bases260\\Sorcerer_s_Rise\\1115_panel_crop__slot4_panel260_fixed.png"
+    },
+    {
+      "layout_id": "1119",
+      "class": "Church",
+      "source": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\1119_panel_crop__slot4_panel260_fixed.png",
+      "dest": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_retrain_bases3_panel_fixed_v1\\bases260\\Church\\1119_panel_crop__slot4_panel260_fixed.png"
+    },
+    {
+      "layout_id": "1120",
+      "class": "Church",
+      "source": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\1120_panel_crop__slot4_panel260_fixed.png",
+      "dest": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_retrain_bases3_panel_fixed_v1\\bases260\\Church\\1120_panel_crop__slot4_panel260_fixed.png"
+    },
+    {
+      "layout_id": "1128",
+      "class": "empty",
+      "source": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\1128_panel_crop__slot4_panel260_fixed.png",
+      "dest": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_retrain_bases3_panel_fixed_v1\\bases260\\empty\\1128_panel_crop__slot4_panel260_fixed.png"
+    },
+    {
+      "layout_id": "1175",
+      "class": "empty",
+      "source": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\1175_panel_crop__slot4_panel260_fixed.png",
+      "dest": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_retrain_bases3_panel_fixed_v1\\bases260\\empty\\1175_panel_crop__slot4_panel260_fixed.png"
+    },
+    {
+      "layout_id": "1181",
+      "class": "empty",
+      "source": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\1181_panel_crop__slot4_panel260_fixed.png",
+      "dest": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_retrain_bases3_panel_fixed_v1\\bases260\\empty\\1181_panel_crop__slot4_panel260_fixed.png"
+    },
+    {
+      "layout_id": "1185",
+      "class": "Church",
+      "source": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\1185_panel_crop__slot4_panel260_fixed.png",
+      "dest": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_retrain_bases3_panel_fixed_v1\\bases260\\Church\\1185_panel_crop__slot4_panel260_fixed.png"
+    }
+  ]
+}

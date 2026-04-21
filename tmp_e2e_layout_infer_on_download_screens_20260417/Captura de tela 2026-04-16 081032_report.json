@@ -1,0 +1,232 @@
+{
+  "input_file": "C:\\Users\\eduar\\Downloads\\Captura de tela 2026-04-16 081032.png",
+  "ordered_numbers": [
+    1115,
+    1179,
+    1190,
+    1119,
+    1122,
+    1127,
+    1078,
+    1066,
+    1077,
+    1185,
+    1055,
+    1126,
+    1176,
+    1035,
+    1177,
+    1016,
+    1049,
+    1125,
+    1133,
+    1178,
+    1117,
+    1120,
+    1068,
+    1134,
+    1191,
+    1027,
+    1058,
+    1037,
+    1132,
+    1036,
+    1079,
+    1076,
+    1121,
+    1118,
+    1057,
+    1181,
+    1025,
+    1193,
+    1075,
+    1180,
+    1116,
+    1130,
+    1189,
+    1029,
+    1067,
+    1124,
+    1015,
+    1048,
+    1192,
+    1186,
+    1046,
+    1045,
+    1188,
+    1017,
+    1005,
+    1182,
+    1006,
+    1007,
+    1039,
+    1026,
+    1131,
+    1183,
+    1038,
+    1008,
+    1187,
+    1009,
+    1123,
+    1184,
+    1019,
+    1069,
+    1047,
+    1065,
+    1175,
+    1194,
+    1129,
+    1028,
+    1056,
+    1059,
+    1128,
+    1018
+  ],
+  "top5_layouts": [
+    {
+      "layout_number": 1115,
+      "earth": "Great Hollow",
+      "score": 3.1585103504441845,
+      "layout_infer_prior": 2.318820744752884
+    },
+    {
+      "layout_number": 1179,
+      "earth": "Great Hollow",
+      "score": 3.104750596221437,
+      "layout_infer_prior": 0.0
+    },
+    {
+      "layout_number": 1190,
+      "earth": "Great Hollow",
+      "score": 3.104750596221437,
+      "layout_infer_prior": 0.0
+    },
+    {
+      "layout_number": 1119,
+      "earth": "Great Hollow",
+      "score": 3.008334091491365,
+      "layout_infer_prior": 0.0
+    },
+    {
+      "layout_number": 1122,
+      "earth": "Great Hollow",
+      "score": 2.990640431056498,
+      "layout_infer_prior": 0.0
+    }
+  ],
+  "earth_top": {
+    "name": "Great Hollow",
+    "score": 6.340213821473012,
+    "details": {
+      "base_score": 4.267593622207642,
+      "geometry_prior": 0.0,
+      "lost_slot_prior": 0.0,
+      "hard_constraint_prior": 0.0,
+      "evergaol_prior": -0.20394454626627628,
+      "great_hollow_status_support": 0.634986596989135,
+      "raw_details": {
+        "source": "map_class_classifier",
+        "neighbors": [
+          {
+            "label": "Great Hollow",
+            "score": 0.8542084693908691,
+            "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1029.png"
+          },
+          {
+            "label": "Great Hollow",
+            "score": 0.8539638519287109,
+            "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1126.png"
+          },
+          {
+            "label": "Great Hollow",
+            "score": 0.8539221286773682,
+            "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1179.png"
+          },
+          {
+            "label": "Great Hollow",
+            "score": 0.8530679941177368,
+            "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1035.png"
+          },
+          {
+            "label": "Great Hollow",
+            "score": 0.8524311780929565,
+            "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1058.png"
+          }
+        ]
+      },
+      "raw_dominance": true,
+      "gate_structural": true,
+      "gate_pass": true
+    }
+  },
+  "layout_infer_by_earth": {
+    "Great Hollow": {
+      "earth_name": "Great Hollow",
+      "classifier_dir": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric",
+      "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\layout_model.pkl",
+      "input_mode": "great_hollow_asymmetric",
+      "input_shape": [
+        1191,
+        1176
+      ],
+      "best_patternId": 1115,
+      "decided_patternId": 1115,
+      "unknown": false,
+      "confidence": 0.3055216073989868,
+      "margin": 0.02659827470779419,
+      "latency_ms": 27.433200040832162,
+      "pipeline_latency_ms": 53.74399991706014,
+      "top5": [
+        {
+          "patternId": 1115,
+          "probability": 0.3055216073989868,
+          "score": 1.0042123794555664
+        },
+        {
+          "patternId": 1037,
+          "probability": 0.24478210508823395,
+          "score": 0.9776141047477722
+        },
+        {
+          "patternId": 1045,
+          "probability": 0.12335051596164703,
+          "score": 0.895373523235321
+        },
+        {
+          "patternId": 1007,
+          "probability": 0.055425770580768585,
+          "score": 0.7993752956390381
+        },
+        {
+          "patternId": 1187,
+          "probability": 0.05375685915350914,
+          "score": 0.7957065105438232
+        }
+      ]
+    }
+  },
+  "timings": {
+    "capture_screenshot_or_use_pre_captured": 0.000770700047723949,
+    "panel_crop_preview_initial": 0.042228100006468594,
+    "preview_callback": 0.0,
+    "detect_map_circle_main": 0.02702310006134212,
+    "panel_crop_first_pass": 0.012318199966102839,
+    "panel_further_crop_normalize": 3.7409515000181273,
+    "earth_selector_ranking": 0.003716800012625754,
+    "slot_observation_classification_total": 0.01476300007198006,
+    "geometry_prior_computation": 5.500041879713535e-06,
+    "lost_slot_prior_computation": 1.100008375942707e-06,
+    "hard_constraint_prior_computation": 1.2998934835195541e-06,
+    "evergaol_prior_detection": 0.300339600071311,
+    "status_icon_detection": 11.258641499909572,
+    "dual_shot_second_status_detection": 0.0,
+    "earth_cascade_ranking": 3.250001464039087e-05,
+    "layout_classifier_inference": 0.10846949997358024,
+    "layout_identification_scoring": 0.001409200020134449,
+    "layout_sort_and_select": 1.2299977242946625e-05,
+    "debug_annotation_rendering": 0.1736791000002995,
+    "display_path_resolution": 0.08499990007840097,
+    "total_run": 15.984973200014792
+  },
+  "crop_method": "gray_hough_refined"
+}

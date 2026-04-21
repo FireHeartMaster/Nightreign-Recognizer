@@ -1,0 +1,240 @@
+{
+  "summary": {
+    "count": 5,
+    "same_label_count": 3,
+    "same_label_rate": 0.6,
+    "v2_mode_for_comparison": "gh_asym_1191x1176_forced"
+  },
+  "results": [
+    {
+      "file": "C:\\Users\\eduar\\Downloads\\Balancers_1080.png",
+      "crop_method": "blue_ring",
+      "timing_ms": {
+        "crop_total_ms": 20.27559990528971,
+        "pipeline_selector_ms": 6.315900012850761,
+        "v2_standard_call_ms": 26.15779999177903,
+        "v2_gh_asym_call_ms": 30.202200054191053
+      },
+      "artifacts": {
+        "panel_crop": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_earth_selector_comparison_download_screens_20260417_rerun_v2_forced_asym\\Balancers_1080_panel_crop.png",
+        "further_crop_standard": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_earth_selector_comparison_download_screens_20260417_rerun_v2_forced_asym\\Balancers_1080_further_crop_standard_1024.png",
+        "further_crop_gh_asym": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_earth_selector_comparison_download_screens_20260417_rerun_v2_forced_asym\\Balancers_1080_further_crop_gh_asym_1191x1176.png"
+      },
+      "pipeline_selector": {
+        "predicted_label": "Rotted Woods",
+        "top1_score": 1.4026943147182465,
+        "top2_score": null,
+        "margin_top1_top2": null
+      },
+      "v2_selector_standard_further": {
+        "label": "Limveld",
+        "unknown": true,
+        "decided_label": null,
+        "confidence": 0.19488251209259033,
+        "margin_top1_top2": 0.0001434236764907837
+      },
+      "v2_selector_gh_asym_further": {
+        "label": "Rotted Woods",
+        "unknown": true,
+        "decided_label": null,
+        "confidence": 0.21136155724525452,
+        "margin_top1_top2": 0.029902487993240356
+      },
+      "v2_selector_used_for_comparison": {
+        "mode": "gh_asym_1191x1176_forced",
+        "label": "Rotted Woods",
+        "unknown": true,
+        "decided_label": null,
+        "confidence": 0.21136155724525452,
+        "margin_top1_top2": 0.029902487993240356
+      },
+      "comparison": {
+        "same_top_label_pipeline_vs_v2_used": true
+      }
+    },
+    {
+      "file": "C:\\Users\\eduar\\Downloads\\Balancers_4K.png",
+      "crop_method": "gray_hough",
+      "timing_ms": {
+        "crop_total_ms": 747.9015999706462,
+        "pipeline_selector_ms": 3.955800086259842,
+        "v2_standard_call_ms": 26.004599989391863,
+        "v2_gh_asym_call_ms": 32.63799997512251
+      },
+      "artifacts": {
+        "panel_crop": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_earth_selector_comparison_download_screens_20260417_rerun_v2_forced_asym\\Balancers_4K_panel_crop.png",
+        "further_crop_standard": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_earth_selector_comparison_download_screens_20260417_rerun_v2_forced_asym\\Balancers_4K_further_crop_standard_1024.png",
+        "further_crop_gh_asym": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_earth_selector_comparison_download_screens_20260417_rerun_v2_forced_asym\\Balancers_4K_further_crop_gh_asym_1191x1176.png"
+      },
+      "pipeline_selector": {
+        "predicted_label": "Great Hollow",
+        "top1_score": 1.6882930099964142,
+        "top2_score": null,
+        "margin_top1_top2": null
+      },
+      "v2_selector_standard_further": {
+        "label": "Great Hollow",
+        "unknown": true,
+        "decided_label": null,
+        "confidence": 0.2059490978717804,
+        "margin_top1_top2": 0.009214326739311218
+      },
+      "v2_selector_gh_asym_further": {
+        "label": "Great Hollow",
+        "unknown": false,
+        "decided_label": "Great Hollow",
+        "confidence": 0.29745325446128845,
+        "margin_top1_top2": 0.13424019515514374
+      },
+      "v2_selector_used_for_comparison": {
+        "mode": "gh_asym_1191x1176_forced",
+        "label": "Great Hollow",
+        "unknown": false,
+        "decided_label": "Great Hollow",
+        "confidence": 0.29745325446128845,
+        "margin_top1_top2": 0.13424019515514374
+      },
+      "comparison": {
+        "same_top_label_pipeline_vs_v2_used": true
+      }
+    },
+    {
+      "file": "C:\\Users\\eduar\\Downloads\\Darkdrift_Knight_Rotted_Woods_1080.png",
+      "crop_method": "blue_ring",
+      "timing_ms": {
+        "crop_total_ms": 18.440700019709766,
+        "pipeline_selector_ms": 3.8998000090941787,
+        "v2_standard_call_ms": 28.25139998458326,
+        "v2_gh_asym_call_ms": 31.353199970908463
+      },
+      "artifacts": {
+        "panel_crop": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_earth_selector_comparison_download_screens_20260417_rerun_v2_forced_asym\\Darkdrift_Knight_Rotted_Woods_1080_panel_crop.png",
+        "further_crop_standard": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_earth_selector_comparison_download_screens_20260417_rerun_v2_forced_asym\\Darkdrift_Knight_Rotted_Woods_1080_further_crop_standard_1024.png",
+        "further_crop_gh_asym": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_earth_selector_comparison_download_screens_20260417_rerun_v2_forced_asym\\Darkdrift_Knight_Rotted_Woods_1080_further_crop_gh_asym_1191x1176.png"
+      },
+      "pipeline_selector": {
+        "predicted_label": "Rotted Woods",
+        "top1_score": 4.482653617858887,
+        "top2_score": null,
+        "margin_top1_top2": null
+      },
+      "v2_selector_standard_further": {
+        "label": "Rotted Woods",
+        "unknown": false,
+        "decided_label": "Rotted Woods",
+        "confidence": 0.2327893227338791,
+        "margin_top1_top2": 0.046712860465049744
+      },
+      "v2_selector_gh_asym_further": {
+        "label": "Rotted Woods",
+        "unknown": true,
+        "decided_label": null,
+        "confidence": 0.21800807118415833,
+        "margin_top1_top2": 0.04634597897529602
+      },
+      "v2_selector_used_for_comparison": {
+        "mode": "gh_asym_1191x1176_forced",
+        "label": "Rotted Woods",
+        "unknown": true,
+        "decided_label": null,
+        "confidence": 0.21800807118415833,
+        "margin_top1_top2": 0.04634597897529602
+      },
+      "comparison": {
+        "same_top_label_pipeline_vs_v2_used": true
+      }
+    },
+    {
+      "file": "C:\\Users\\eduar\\Downloads\\Dreglord_1080.png",
+      "crop_method": "blue_ring",
+      "timing_ms": {
+        "crop_total_ms": 29.877800028771162,
+        "pipeline_selector_ms": 4.767299978993833,
+        "v2_standard_call_ms": 26.050499989651144,
+        "v2_gh_asym_call_ms": 30.39800003170967
+      },
+      "artifacts": {
+        "panel_crop": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_earth_selector_comparison_download_screens_20260417_rerun_v2_forced_asym\\Dreglord_1080_panel_crop.png",
+        "further_crop_standard": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_earth_selector_comparison_download_screens_20260417_rerun_v2_forced_asym\\Dreglord_1080_further_crop_standard_1024.png",
+        "further_crop_gh_asym": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_earth_selector_comparison_download_screens_20260417_rerun_v2_forced_asym\\Dreglord_1080_further_crop_gh_asym_1191x1176.png"
+      },
+      "pipeline_selector": {
+        "predicted_label": "Limveld",
+        "top1_score": 4.415164589881897,
+        "top2_score": null,
+        "margin_top1_top2": null
+      },
+      "v2_selector_standard_further": {
+        "label": "Limveld",
+        "unknown": true,
+        "decided_label": null,
+        "confidence": 0.2141922265291214,
+        "margin_top1_top2": 0.02276529371738434
+      },
+      "v2_selector_gh_asym_further": {
+        "label": "Mountaintop",
+        "unknown": true,
+        "decided_label": null,
+        "confidence": 0.2001882791519165,
+        "margin_top1_top2": 0.007754281163215637
+      },
+      "v2_selector_used_for_comparison": {
+        "mode": "gh_asym_1191x1176_forced",
+        "label": "Mountaintop",
+        "unknown": true,
+        "decided_label": null,
+        "confidence": 0.2001882791519165,
+        "margin_top1_top2": 0.007754281163215637
+      },
+      "comparison": {
+        "same_top_label_pipeline_vs_v2_used": false
+      }
+    },
+    {
+      "file": "C:\\Users\\eduar\\Downloads\\Gaping_4K.png",
+      "crop_method": "blue_ring",
+      "timing_ms": {
+        "crop_total_ms": 1331.4819999504834,
+        "pipeline_selector_ms": 4.136100062169135,
+        "v2_standard_call_ms": 28.26459996867925,
+        "v2_gh_asym_call_ms": 32.69010002259165
+      },
+      "artifacts": {
+        "panel_crop": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_earth_selector_comparison_download_screens_20260417_rerun_v2_forced_asym\\Gaping_4K_panel_crop.png",
+        "further_crop_standard": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_earth_selector_comparison_download_screens_20260417_rerun_v2_forced_asym\\Gaping_4K_further_crop_standard_1024.png",
+        "further_crop_gh_asym": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_earth_selector_comparison_download_screens_20260417_rerun_v2_forced_asym\\Gaping_4K_further_crop_gh_asym_1191x1176.png"
+      },
+      "pipeline_selector": {
+        "predicted_label": "Limveld",
+        "top1_score": 4.3463810086250305,
+        "top2_score": null,
+        "margin_top1_top2": null
+      },
+      "v2_selector_standard_further": {
+        "label": "Limveld",
+        "unknown": true,
+        "decided_label": null,
+        "confidence": 0.21290436387062073,
+        "margin_top1_top2": 0.01581364870071411
+      },
+      "v2_selector_gh_asym_further": {
+        "label": "Mountaintop",
+        "unknown": true,
+        "decided_label": null,
+        "confidence": 0.1935044676065445,
+        "margin_top1_top2": 0.002197861671447754
+      },
+      "v2_selector_used_for_comparison": {
+        "mode": "gh_asym_1191x1176_forced",
+        "label": "Mountaintop",
+        "unknown": true,
+        "decided_label": null,
+        "confidence": 0.1935044676065445,
+        "margin_top1_top2": 0.002197861671447754
+      },
+      "comparison": {
+        "same_top_label_pipeline_vs_v2_used": false
+      }
+    }
+  ]
+}

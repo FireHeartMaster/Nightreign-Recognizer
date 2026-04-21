@@ -1,0 +1,3786 @@
+{
+  "input_dir": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots",
+  "count": 9,
+  "results": [
+    {
+      "file": "Screenshot (150).png",
+      "top1": {
+        "layout_number": 1177,
+        "score": 1.969279680713294,
+        "shifting_earth": "Great Hollow"
+      },
+      "earth_rank": [],
+      "great_hollow_model_layout_observations": {
+        "slot2_great_church_status": {
+          "spec_key": "slot2_great_church_status",
+          "kind": "status",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.82890625,
+            0.38046875
+          ],
+          "center_px": {
+            "x": 1322,
+            "y": 584
+          },
+          "crop_size": 260,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\slot2_status_cnn_offset50_v1.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Great_Church_Sleep",
+            "Great_Church_Lightning"
+          ],
+          "best_label": "Great_Church_Sleep",
+          "best_prob": 0.8587329387664795,
+          "second_label": "Great_Church_Lightning",
+          "second_prob": 0.14126715064048767,
+          "margin": 0.7174657881259918,
+          "ranking": [
+            {
+              "label": "Great_Church_Sleep",
+              "probability": 0.8587329387664795
+            },
+            {
+              "label": "Great_Church_Lightning",
+              "probability": 0.14126715064048767
+            }
+          ],
+          "weight": 0.14,
+          "parallel_stage": "single",
+          "anchor_type": "Great Church",
+          "predicted_status": "Status_Sleep"
+        },
+        "palace_status": {
+          "spec_key": "palace_status",
+          "kind": "status",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.2762384550797649,
+            0.21343537414965985
+          ],
+          "center_px": {
+            "x": 329,
+            "y": 251
+          },
+          "crop_size": 200,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\palace_status_cnn_retrain_latest.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Status_Fire",
+            "Status_Magic"
+          ],
+          "best_label": "Status_Fire",
+          "best_prob": 0.9999433755874634,
+          "second_label": "Status_Magic",
+          "second_prob": 5.665110074914992e-05,
+          "margin": 0.9998867244867142,
+          "ranking": [
+            {
+              "label": "Status_Fire",
+              "probability": 0.9999433755874634
+            },
+            {
+              "label": "Status_Magic",
+              "probability": 5.665110074914992e-05
+            }
+          ],
+          "weight": 0.12,
+          "parallel_stage": "single",
+          "anchor_type": "Palace",
+          "predicted_status": "Status_Fire"
+        },
+        "fortress_status": {
+          "spec_key": "fortress_status",
+          "kind": "status",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.7346767422334173,
+            0.7627551020408163
+          ],
+          "center_px": {
+            "x": 875,
+            "y": 897
+          },
+          "crop_size": 200,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress\\fortress_status_cnn_retrain_latest.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Status_Holy",
+            "Status_Rot"
+          ],
+          "best_label": "Status_Holy",
+          "best_prob": 0.9296888113021851,
+          "second_label": "Status_Rot",
+          "second_prob": 0.07031121104955673,
+          "margin": 0.8593776002526283,
+          "ranking": [
+            {
+              "label": "Status_Holy",
+              "probability": 0.9296888113021851
+            },
+            {
+              "label": "Status_Rot",
+              "probability": 0.07031121104955673
+            }
+          ],
+          "weight": 0.12,
+          "parallel_stage": "single",
+          "anchor_type": "Fortress",
+          "predicted_status": "Status_Holy"
+        },
+        "slot6_ruins_status": {
+          "spec_key": "slot6_ruins_status",
+          "kind": "status",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.12090680100755667,
+            0.6215986394557823
+          ],
+          "center_px": {
+            "x": 144,
+            "y": 731
+          },
+          "crop_size": 200,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\slot6_status_cnn.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Ruins_Poison",
+            "Ruins_Bleed"
+          ],
+          "best_label": "Ruins_Poison",
+          "best_prob": 0.9551455974578857,
+          "second_label": "Ruins_Bleed",
+          "second_prob": 0.04485447332262993,
+          "margin": 0.9102911241352558,
+          "ranking": [
+            {
+              "label": "Ruins_Poison",
+              "probability": 0.9551455974578857
+            },
+            {
+              "label": "Ruins_Bleed",
+              "probability": 0.04485447332262993
+            }
+          ],
+          "weight": 0.1,
+          "parallel_stage": "single",
+          "anchor_type": "Ruins",
+          "predicted_status": "Status_Poison"
+        },
+        "slot4_minor": {
+          "spec_key": "slot4_minor",
+          "kind": "slot_label",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.6792611251049538,
+            0.5314625850340136
+          ],
+          "center_px": {
+            "x": 1133,
+            "y": 854
+          },
+          "crop_size": 260,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\slot4_occupied_empty_from_panel_fixed_v1.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "empty",
+            "occupied"
+          ],
+          "best_label": "empty",
+          "best_prob": 0.9799438118934631,
+          "second_label": "occupied",
+          "second_prob": 0.02005624584853649,
+          "margin": 0.9598875660449266,
+          "ranking": [
+            {
+              "label": "empty",
+              "probability": 0.9799438118934631
+            },
+            {
+              "label": "occupied",
+              "probability": 0.02005624584853649
+            }
+          ],
+          "weight": 0.08,
+          "parallel_stage": "stage1",
+          "slot_id": 4,
+          "predicted_slot_label": "empty"
+        },
+        "slot5_minor": {
+          "spec_key": "slot5_minor",
+          "kind": "slot_label",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.27204030226700254,
+            0.5348639455782312
+          ],
+          "center_px": {
+            "x": 499,
+            "y": 808
+          },
+          "crop_size": 200,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot5_church_vs_sorcerer_panel_v2_userlabels\\slot5_church_vs_sorcerer_v2.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Sorcerers_Rise",
+            "Church"
+          ],
+          "best_label": "Sorcerers_Rise",
+          "best_prob": 0.9999674558639526,
+          "second_label": "Church",
+          "second_prob": 3.257378557464108e-05,
+          "margin": 0.999934882078378,
+          "ranking": [
+            {
+              "label": "Sorcerers_Rise",
+              "probability": 0.9999674558639526
+            },
+            {
+              "label": "Church",
+              "probability": 3.257378557464108e-05
+            }
+          ],
+          "weight": 0.08,
+          "parallel_stage": "stage2",
+          "slot_id": 5,
+          "predicted_slot_label": "sorcerers rise"
+        },
+        "slot7_minor": {
+          "spec_key": "slot7_minor",
+          "kind": "slot_label",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.28463476070528965,
+            0.9226190476190477
+          ],
+          "center_px": {
+            "x": 514,
+            "y": 1264
+          },
+          "crop_size": 260,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260\\slot7_church_vs_sorcerer_bases260\\slot7_church_vs_sorcerer_v1.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Church",
+            "Sorcerers_Rise"
+          ],
+          "best_label": "Church",
+          "best_prob": 0.9574659466743469,
+          "second_label": "Sorcerers_Rise",
+          "second_prob": 0.04253404587507248,
+          "margin": 0.9149319007992744,
+          "ranking": [
+            {
+              "label": "Church",
+              "probability": 0.9574659466743469
+            },
+            {
+              "label": "Sorcerers_Rise",
+              "probability": 0.04253404587507248
+            }
+          ],
+          "weight": 0.08,
+          "parallel_stage": "stage2",
+          "slot_id": 7,
+          "predicted_slot_label": "church"
+        }
+      },
+      "gh_mode": "",
+      "layout_infer_classifier": {},
+      "gh_parallel_slot_summary": {
+        "slot2_great_church_status": {
+          "kind": "status",
+          "best_label": "Great_Church_Sleep",
+          "best_prob": 0.8587329387664795,
+          "margin": 0.7174657881259918,
+          "predicted_status": "Status_Sleep"
+        },
+        "palace_status": {
+          "kind": "status",
+          "best_label": "Status_Fire",
+          "best_prob": 0.9999433755874634,
+          "margin": 0.9998867244867142,
+          "predicted_status": "Status_Fire"
+        },
+        "fortress_status": {
+          "kind": "status",
+          "best_label": "Status_Holy",
+          "best_prob": 0.9296888113021851,
+          "margin": 0.8593776002526283,
+          "predicted_status": "Status_Holy"
+        },
+        "slot6_ruins_status": {
+          "kind": "status",
+          "best_label": "Ruins_Poison",
+          "best_prob": 0.9551455974578857,
+          "margin": 0.9102911241352558,
+          "predicted_status": "Status_Poison"
+        },
+        "slot4_minor": {
+          "kind": "slot_label",
+          "best_label": "empty",
+          "best_prob": 0.9799438118934631,
+          "margin": 0.9598875660449266,
+          "predicted_slot_label": "empty"
+        },
+        "slot5_minor": {
+          "kind": "slot_label",
+          "best_label": "Sorcerers_Rise",
+          "best_prob": 0.9999674558639526,
+          "margin": 0.999934882078378,
+          "predicted_slot_label": "sorcerers rise"
+        },
+        "slot7_minor": {
+          "kind": "slot_label",
+          "best_label": "Church",
+          "best_prob": 0.9574659466743469,
+          "margin": 0.9149319007992744,
+          "predicted_slot_label": "church"
+        }
+      },
+      "status": "ok",
+      "log_tail": [
+        "  Limveld        score=0.137406 low_corr=0.0000 grad_corr=0.0000 source=earth_selector_v2",
+        "Earth cascade selection is disabled by default; using raw top Shifting Earth for family selection.",
+        "AI slots for earth Great Hollow: dx=-0.0094 dy=+0.0098 resp=0.2220 unknown=0/7",
+        "GH parallel slot2_great_church_status: best=Great_Church_Sleep p=0.8587 margin=0.7175 status=Status_Sleep",
+        "GH parallel palace_status: best=Status_Fire p=0.9999 margin=0.9999 status=Status_Fire",
+        "GH parallel fortress_status: best=Status_Holy p=0.9297 margin=0.8594 status=Status_Holy",
+        "GH parallel slot6_ruins_status: best=Ruins_Poison p=0.9551 margin=0.9103 status=Status_Poison",
+        "GH parallel slot4_minor: best=empty p=0.9799 margin=0.9599 slot=empty",
+        "GH parallel slot5_minor: best=Sorcerers_Rise p=1.0000 margin=0.9999 slot=sorcerers rise",
+        "GH parallel slot7_minor: best=Church p=0.9575 margin=0.9149 slot=church",
+        "Geometry prior for Great Hollow: slot_count=7 align=0.2220 prior=+0.0000",
+        "Evergaol prior for Great Hollow: prior=-0.1996",
+        "Great Hollow status Palace: best=Status_Magic score=0.5061 margin=0.0123",
+        "Great Hollow status Fortress: best=Status_Holy score=0.5012 margin=0.0024",
+        "Great Hollow status Ruins: best=Status_Poison score=0.9412 margin=0.8825",
+        "Great Hollow status Great Church: best=Status_Sleep score=0.5593 margin=0.1186",
+        "Great Hollow model-observation summary:",
+        "  slot2_great_church_status: predicted=Status_Sleep p=0.8587 margin=0.7175",
+        "  palace_status: predicted=Status_Fire p=0.9999 margin=0.9999",
+        "  fortress_status: predicted=Status_Holy p=0.9297 margin=0.8594",
+        "  slot6_ruins_status: predicted=Status_Poison p=0.9551 margin=0.9103",
+        "  slot4_minor: predicted=empty p=0.9799 margin=0.9599",
+        "  slot5_minor: predicted=sorcerers rise p=1.0000 margin=0.9999",
+        "  slot7_minor: predicted=church p=0.9575 margin=0.9149",
+        "Shifting Earth cascade selection disabled (enable with NR_ENABLE_EARTH_CASCADE=1).",
+        "Restricting layout ranking to Great Hollow family from earth_selector_v2.",
+        "Great Hollow model-layout mode active: classic slot likelihood is disabled for GH layout scoring.",
+        "Loaded layout infer classifier for Great Hollow: C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\layout_model.pkl",
+        "Layout infer for Great Hollow: decided pattern=1177 margin=0.0101 conf=0.1692 latency=77.99ms",
+        "[DONE] Run AI slot recognizer (19.173s)",
+        "Saved AI slot debug image to C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_runtime_temp\\nightreign_gui_ai_fadc3605e4fc\\recognition_panel_used_with_slot_labels_ai.png",
+        "Saved Evergaol debug image to C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_runtime_temp\\nightreign_gui_ai_fadc3605e4fc\\recognition_panel_used_with_evergaol_debug.png",
+        "",
+        "Top 20 layout matches:",
+        "  1. layout #1177 earth=Great Hollow score=1.969280 earth_score=0.240516 gh_status=-0.0912 gh_under=+0.0000 gh_models=-0.0946 layout_infer=+2.1742 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  2. layout #1058 earth=Great Hollow score=0.566585 earth_score=0.240516 gh_status=+0.2117 gh_under=+0.0000 gh_models=+0.3741 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  3. layout #1129 earth=Great Hollow score=0.564118 earth_score=0.240516 gh_status=+0.2117 gh_under=+0.0000 gh_models=+0.3716 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  4. layout #1181 earth=Great Hollow score=0.556388 earth_score=0.240516 gh_status=+0.1139 gh_under=+0.0000 gh_models=+0.4617 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  5. layout #1065 earth=Great Hollow score=0.431093 earth_score=0.240516 gh_status=+0.3187 gh_under=+0.0000 gh_models=+0.1316 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  6. layout #1175 earth=Great Hollow score=0.431093 earth_score=0.240516 gh_status=+0.3187 gh_under=+0.0000 gh_models=+0.1316 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  7. layout #1075 earth=Great Hollow score=0.429808 earth_score=0.240516 gh_status=+0.0066 gh_under=+0.0000 gh_models=+0.4424 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  8. layout #1016 earth=Great Hollow score=0.428323 earth_score=0.240516 gh_status=+0.3187 gh_under=+0.0000 gh_models=+0.1289 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  9. layout #1045 earth=Great Hollow score=0.428323 earth_score=0.240516 gh_status=+0.3187 gh_under=+0.0000 gh_models=+0.1289 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  10. layout #1049 earth=Great Hollow score=0.428323 earth_score=0.240516 gh_status=+0.3187 gh_under=+0.0000 gh_models=+0.1289 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  11. layout #1125 earth=Great Hollow score=0.428323 earth_score=0.240516 gh_status=+0.3187 gh_under=+0.0000 gh_models=+0.1289 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  12. layout #1130 earth=Great Hollow score=0.427037 earth_score=0.240516 gh_status=-0.0483 gh_under=+0.0000 gh_models=+0.4945 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  13. layout #1180 earth=Great Hollow score=0.406589 earth_score=0.240516 gh_status=+0.2117 gh_under=+0.0000 gh_models=+0.2141 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  14. layout #1187 earth=Great Hollow score=0.406589 earth_score=0.240516 gh_status=+0.2117 gh_under=+0.0000 gh_models=+0.2141 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  15. layout #1122 earth=Great Hollow score=0.311167 earth_score=0.240516 gh_status=+0.0066 gh_under=+0.0000 gh_models=+0.2848 layout_infer=+0.0389 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  16. layout #1025 earth=Great Hollow score=0.296782 earth_score=0.240516 gh_status=+0.1136 gh_under=+0.0000 gh_models=+0.2024 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  17. layout #1193 earth=Great Hollow score=0.296782 earth_score=0.240516 gh_status=+0.1136 gh_under=+0.0000 gh_models=+0.2024 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  18. layout #1008 earth=Great Hollow score=0.273563 earth_score=0.240516 gh_status=+0.3187 gh_under=+0.0000 gh_models=-0.0259 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  19. layout #1127 earth=Great Hollow score=0.269508 earth_score=0.240516 gh_status=-0.0483 gh_under=+0.0000 gh_models=+0.3370 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  20. layout #1178 earth=Great Hollow score=0.238863 earth_score=0.240516 gh_status=+0.1139 gh_under=+0.0000 gh_models=+0.1442 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "",
+        "Timing breakdown:",
+        "  capture_screenshot_or_use_pre_captured: 0.003s",
+        "  panel_crop_preview_initial: 0.569s",
+        "  preview_callback: 0.000s",
+        "  detect_map_circle_main: 0.516s",
+        "  panel_crop_first_pass: 0.029s",
+        "  panel_further_crop_normalize: 4.181s",
+        "  earth_selector_ranking: 1.191s",
+        "  slot_observation_classification_total: 0.255s",
+        "  geometry_prior_computation: 0.000s",
+        "  lost_slot_prior_computation: 0.000s",
+        "  hard_constraint_prior_computation: 0.000s",
+        "  evergaol_prior_detection: 0.451s",
+        "  status_icon_detection: 12.098s",
+        "  great_hollow_layout_model_observation: 0.175s",
+        "  dual_shot_second_status_detection: 0.000s",
+        "  earth_cascade_ranking: 0.000s",
+        "  layout_classifier_inference: 0.161s",
+        "  layout_identification_scoring: 0.006s",
+        "  layout_sort_and_select: 0.000s",
+        "  debug_annotation_rendering: 0.191s",
+        "  display_path_resolution: 0.100s",
+        "  total_run: 20.465s",
+        "Resolved 5 display image(s) for preview/result view.",
+        "GUI total execution time: 20.465s"
+      ]
+    },
+    {
+      "file": "Screenshot (151).png",
+      "top1": {
+        "layout_number": 1059,
+        "score": 2.1400070636836754,
+        "shifting_earth": "Great Hollow"
+      },
+      "earth_rank": [],
+      "great_hollow_model_layout_observations": {
+        "slot2_great_church_status": {
+          "spec_key": "slot2_great_church_status",
+          "kind": "status",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.82890625,
+            0.38046875
+          ],
+          "center_px": {
+            "x": 1322,
+            "y": 584
+          },
+          "crop_size": 260,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\slot2_status_cnn_offset50_v1.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Great_Church_Sleep",
+            "Great_Church_Lightning"
+          ],
+          "best_label": "Great_Church_Sleep",
+          "best_prob": 0.8612940907478333,
+          "second_label": "Great_Church_Lightning",
+          "second_prob": 0.13870592415332794,
+          "margin": 0.7225881665945053,
+          "ranking": [
+            {
+              "label": "Great_Church_Sleep",
+              "probability": 0.8612940907478333
+            },
+            {
+              "label": "Great_Church_Lightning",
+              "probability": 0.13870592415332794
+            }
+          ],
+          "weight": 0.14,
+          "parallel_stage": "single",
+          "anchor_type": "Great Church",
+          "predicted_status": "Status_Sleep"
+        },
+        "palace_status": {
+          "spec_key": "palace_status",
+          "kind": "status",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.2762384550797649,
+            0.21343537414965985
+          ],
+          "center_px": {
+            "x": 329,
+            "y": 251
+          },
+          "crop_size": 200,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\palace_status_cnn_retrain_latest.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Status_Magic",
+            "Status_Fire"
+          ],
+          "best_label": "Status_Magic",
+          "best_prob": 0.7881757616996765,
+          "second_label": "Status_Fire",
+          "second_prob": 0.21182431280612946,
+          "margin": 0.5763514488935471,
+          "ranking": [
+            {
+              "label": "Status_Magic",
+              "probability": 0.7881757616996765
+            },
+            {
+              "label": "Status_Fire",
+              "probability": 0.21182431280612946
+            }
+          ],
+          "weight": 0.12,
+          "parallel_stage": "single",
+          "anchor_type": "Palace",
+          "predicted_status": "Status_Magic"
+        },
+        "fortress_status": {
+          "spec_key": "fortress_status",
+          "kind": "status",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.7346767422334173,
+            0.7627551020408163
+          ],
+          "center_px": {
+            "x": 875,
+            "y": 897
+          },
+          "crop_size": 200,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress\\fortress_status_cnn_retrain_latest.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Status_Rot",
+            "Status_Holy"
+          ],
+          "best_label": "Status_Rot",
+          "best_prob": 0.7087808847427368,
+          "second_label": "Status_Holy",
+          "second_prob": 0.2912191152572632,
+          "margin": 0.41756176948547363,
+          "ranking": [
+            {
+              "label": "Status_Rot",
+              "probability": 0.7087808847427368
+            },
+            {
+              "label": "Status_Holy",
+              "probability": 0.2912191152572632
+            }
+          ],
+          "weight": 0.12,
+          "parallel_stage": "single",
+          "anchor_type": "Fortress",
+          "predicted_status": "Status_Rot"
+        },
+        "slot6_ruins_status": {
+          "spec_key": "slot6_ruins_status",
+          "kind": "status",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.12090680100755667,
+            0.6215986394557823
+          ],
+          "center_px": {
+            "x": 144,
+            "y": 731
+          },
+          "crop_size": 200,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\slot6_status_cnn.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Ruins_Poison",
+            "Ruins_Bleed"
+          ],
+          "best_label": "Ruins_Poison",
+          "best_prob": 0.9551455974578857,
+          "second_label": "Ruins_Bleed",
+          "second_prob": 0.04485447332262993,
+          "margin": 0.9102911241352558,
+          "ranking": [
+            {
+              "label": "Ruins_Poison",
+              "probability": 0.9551455974578857
+            },
+            {
+              "label": "Ruins_Bleed",
+              "probability": 0.04485447332262993
+            }
+          ],
+          "weight": 0.1,
+          "parallel_stage": "single",
+          "anchor_type": "Ruins",
+          "predicted_status": "Status_Poison"
+        },
+        "slot4_minor": {
+          "spec_key": "slot4_minor",
+          "kind": "slot_label",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.6792611251049538,
+            0.5314625850340136
+          ],
+          "center_px": {
+            "x": 1133,
+            "y": 854
+          },
+          "crop_size": 260,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\slot4_occupied_empty_from_panel_fixed_v1.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "empty",
+            "occupied"
+          ],
+          "best_label": "empty",
+          "best_prob": 0.9799612164497375,
+          "second_label": "occupied",
+          "second_prob": 0.020038796588778496,
+          "margin": 0.959922419860959,
+          "ranking": [
+            {
+              "label": "empty",
+              "probability": 0.9799612164497375
+            },
+            {
+              "label": "occupied",
+              "probability": 0.020038796588778496
+            }
+          ],
+          "weight": 0.08,
+          "parallel_stage": "stage1",
+          "slot_id": 4,
+          "predicted_slot_label": "empty"
+        },
+        "slot5_minor": {
+          "spec_key": "slot5_minor",
+          "kind": "slot_label",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.27204030226700254,
+            0.5348639455782312
+          ],
+          "center_px": {
+            "x": 499,
+            "y": 808
+          },
+          "crop_size": 200,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot5_church_vs_sorcerer_panel_v2_userlabels\\slot5_church_vs_sorcerer_v2.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Church",
+            "Sorcerers_Rise"
+          ],
+          "best_label": "Church",
+          "best_prob": 0.6967629790306091,
+          "second_label": "Sorcerers_Rise",
+          "second_prob": 0.3032369911670685,
+          "margin": 0.39352598786354065,
+          "ranking": [
+            {
+              "label": "Church",
+              "probability": 0.6967629790306091
+            },
+            {
+              "label": "Sorcerers_Rise",
+              "probability": 0.3032369911670685
+            }
+          ],
+          "weight": 0.08,
+          "parallel_stage": "stage2",
+          "slot_id": 5,
+          "predicted_slot_label": "church"
+        },
+        "slot7_minor": {
+          "spec_key": "slot7_minor",
+          "kind": "slot_label",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.28463476070528965,
+            0.9226190476190477
+          ],
+          "center_px": {
+            "x": 514,
+            "y": 1264
+          },
+          "crop_size": 260,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260\\slot7_church_vs_sorcerer_bases260\\slot7_church_vs_sorcerer_v1.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Sorcerers_Rise",
+            "Church"
+          ],
+          "best_label": "Sorcerers_Rise",
+          "best_prob": 0.9567037224769592,
+          "second_label": "Church",
+          "second_prob": 0.04329623654484749,
+          "margin": 0.9134074859321117,
+          "ranking": [
+            {
+              "label": "Sorcerers_Rise",
+              "probability": 0.9567037224769592
+            },
+            {
+              "label": "Church",
+              "probability": 0.04329623654484749
+            }
+          ],
+          "weight": 0.08,
+          "parallel_stage": "stage2",
+          "slot_id": 7,
+          "predicted_slot_label": "sorcerers rise"
+        }
+      },
+      "gh_mode": "",
+      "layout_infer_classifier": {},
+      "gh_parallel_slot_summary": {
+        "slot2_great_church_status": {
+          "kind": "status",
+          "best_label": "Great_Church_Sleep",
+          "best_prob": 0.8612940907478333,
+          "margin": 0.7225881665945053,
+          "predicted_status": "Status_Sleep"
+        },
+        "palace_status": {
+          "kind": "status",
+          "best_label": "Status_Magic",
+          "best_prob": 0.7881757616996765,
+          "margin": 0.5763514488935471,
+          "predicted_status": "Status_Magic"
+        },
+        "fortress_status": {
+          "kind": "status",
+          "best_label": "Status_Rot",
+          "best_prob": 0.7087808847427368,
+          "margin": 0.41756176948547363,
+          "predicted_status": "Status_Rot"
+        },
+        "slot6_ruins_status": {
+          "kind": "status",
+          "best_label": "Ruins_Poison",
+          "best_prob": 0.9551455974578857,
+          "margin": 0.9102911241352558,
+          "predicted_status": "Status_Poison"
+        },
+        "slot4_minor": {
+          "kind": "slot_label",
+          "best_label": "empty",
+          "best_prob": 0.9799612164497375,
+          "margin": 0.959922419860959,
+          "predicted_slot_label": "empty"
+        },
+        "slot5_minor": {
+          "kind": "slot_label",
+          "best_label": "Church",
+          "best_prob": 0.6967629790306091,
+          "margin": 0.39352598786354065,
+          "predicted_slot_label": "church"
+        },
+        "slot7_minor": {
+          "kind": "slot_label",
+          "best_label": "Sorcerers_Rise",
+          "best_prob": 0.9567037224769592,
+          "margin": 0.9134074859321117,
+          "predicted_slot_label": "sorcerers rise"
+        }
+      },
+      "status": "ok",
+      "log_tail": [
+        "  Noklateo       score=0.161258 low_corr=0.0000 grad_corr=0.0000 source=earth_selector_v2",
+        "  Limveld        score=0.137739 low_corr=0.0000 grad_corr=0.0000 source=earth_selector_v2",
+        "Earth cascade selection is disabled by default; using raw top Shifting Earth for family selection.",
+        "AI slots for earth Great Hollow: dx=-0.0042 dy=+0.0009 resp=0.1735 unknown=0/7",
+        "GH parallel slot2_great_church_status: best=Great_Church_Sleep p=0.8613 margin=0.7226 status=Status_Sleep",
+        "GH parallel palace_status: best=Status_Magic p=0.7882 margin=0.5764 status=Status_Magic",
+        "GH parallel fortress_status: best=Status_Rot p=0.7088 margin=0.4176 status=Status_Rot",
+        "GH parallel slot6_ruins_status: best=Ruins_Poison p=0.9551 margin=0.9103 status=Status_Poison",
+        "GH parallel slot4_minor: best=empty p=0.9800 margin=0.9599 slot=empty",
+        "GH parallel slot5_minor: best=Church p=0.6968 margin=0.3935 slot=church",
+        "GH parallel slot7_minor: best=Sorcerers_Rise p=0.9567 margin=0.9134 slot=sorcerers rise",
+        "Geometry prior for Great Hollow: slot_count=7 align=0.1735 prior=+0.0000",
+        "Evergaol prior for Great Hollow: prior=-0.1996",
+        "Great Hollow status Palace: best=Status_Magic score=0.5095 margin=0.0189",
+        "Great Hollow status Fortress: best=Status_Holy score=0.5005 margin=0.0010",
+        "Great Hollow status Ruins: best=Status_Poison score=0.9412 margin=0.8825",
+        "Great Hollow status Great Church: best=Status_Sleep score=0.5803 margin=0.1607",
+        "Great Hollow model-observation summary:",
+        "  slot2_great_church_status: predicted=Status_Sleep p=0.8613 margin=0.7226",
+        "  palace_status: predicted=Status_Magic p=0.7882 margin=0.5764",
+        "  fortress_status: predicted=Status_Rot p=0.7088 margin=0.4176",
+        "  slot6_ruins_status: predicted=Status_Poison p=0.9551 margin=0.9103",
+        "  slot4_minor: predicted=empty p=0.9800 margin=0.9599",
+        "  slot5_minor: predicted=church p=0.6968 margin=0.3935",
+        "  slot7_minor: predicted=sorcerers rise p=0.9567 margin=0.9134",
+        "Shifting Earth cascade selection disabled (enable with NR_ENABLE_EARTH_CASCADE=1).",
+        "Restricting layout ranking to Great Hollow family from earth_selector_v2.",
+        "Great Hollow model-layout mode active: classic slot likelihood is disabled for GH layout scoring.",
+        "Layout infer for Great Hollow: decided pattern=1059 margin=0.0081 conf=0.1612 latency=77.86ms",
+        "[DONE] Run AI slot recognizer (17.185s)",
+        "Saved AI slot debug image to C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_runtime_temp\\nightreign_gui_ai_87f21b334b66\\recognition_panel_used_with_slot_labels_ai.png",
+        "Saved Evergaol debug image to C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_runtime_temp\\nightreign_gui_ai_87f21b334b66\\recognition_panel_used_with_evergaol_debug.png",
+        "",
+        "Top 20 layout matches:",
+        "  1. layout #1059 earth=Great Hollow score=2.140007 earth_score=0.239476 gh_status=-0.0025 gh_under=+0.0000 gh_models=-0.0027 layout_infer=+2.1652 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  2. layout #1194 earth=Great Hollow score=0.820262 earth_score=0.239476 gh_status=+0.2282 gh_under=+0.0000 gh_models=+0.6121 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  3. layout #1065 earth=Great Hollow score=0.762618 earth_score=0.239476 gh_status=+0.3247 gh_under=+0.0000 gh_models=+0.4357 layout_infer=+0.0222 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  4. layout #1175 earth=Great Hollow score=0.740407 earth_score=0.239476 gh_status=+0.3247 gh_under=+0.0000 gh_models=+0.4357 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  5. layout #1017 earth=Great Hollow score=0.557434 earth_score=0.239476 gh_status=+0.2282 gh_under=+0.0000 gh_models=+0.3492 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  6. layout #1129 earth=Great Hollow score=0.457037 earth_score=0.239476 gh_status=+0.2116 gh_under=+0.0000 gh_models=+0.2419 layout_infer=+0.0235 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  7. layout #1008 earth=Great Hollow score=0.428210 earth_score=0.239476 gh_status=+0.3247 gh_under=+0.0000 gh_models=+0.1235 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  8. layout #1055 earth=Great Hollow score=0.402768 earth_score=0.239476 gh_status=+0.2282 gh_under=+0.0000 gh_models=+0.1946 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  9. layout #1126 earth=Great Hollow score=0.402768 earth_score=0.239476 gh_status=+0.2282 gh_under=+0.0000 gh_models=+0.1946 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  10. layout #1133 earth=Great Hollow score=0.402768 earth_score=0.239476 gh_status=+0.2282 gh_under=+0.0000 gh_models=+0.1946 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  11. layout #1176 earth=Great Hollow score=0.402768 earth_score=0.239476 gh_status=+0.2282 gh_under=+0.0000 gh_models=+0.1946 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  12. layout #1056 earth=Great Hollow score=0.398764 earth_score=0.239476 gh_status=+0.0140 gh_under=+0.0000 gh_models=+0.3674 layout_infer=+0.0373 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  13. layout #1016 earth=Great Hollow score=0.322912 earth_score=0.239476 gh_status=+0.3247 gh_under=+0.0000 gh_models=+0.0182 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  14. layout #1045 earth=Great Hollow score=0.322912 earth_score=0.239476 gh_status=+0.3247 gh_under=+0.0000 gh_models=+0.0182 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  15. layout #1049 earth=Great Hollow score=0.322912 earth_score=0.239476 gh_status=+0.3247 gh_under=+0.0000 gh_models=+0.0182 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  16. layout #1125 earth=Great Hollow score=0.322912 earth_score=0.239476 gh_status=+0.3247 gh_under=+0.0000 gh_models=+0.0182 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  17. layout #1028 earth=Great Hollow score=0.288570 earth_score=0.239476 gh_status=+0.0647 gh_under=+0.0000 gh_models=+0.2438 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  18. layout #1180 earth=Great Hollow score=0.276054 earth_score=0.239476 gh_status=+0.2116 gh_under=+0.0000 gh_models=+0.0844 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  19. layout #1181 earth=Great Hollow score=0.253478 earth_score=0.239476 gh_status=+0.1151 gh_under=+0.0000 gh_models=+0.1584 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  20. layout #1067 earth=Great Hollow score=0.203912 earth_score=0.239476 gh_status=+0.0140 gh_under=+0.0000 gh_models=+0.2099 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "",
+        "Timing breakdown:",
+        "  capture_screenshot_or_use_pre_captured: 0.003s",
+        "  panel_crop_preview_initial: 0.616s",
+        "  preview_callback: 0.000s",
+        "  detect_map_circle_main: 0.562s",
+        "  panel_crop_first_pass: 0.027s",
+        "  panel_further_crop_normalize: 3.771s",
+        "  earth_selector_ranking: 0.005s",
+        "  slot_observation_classification_total: 0.024s",
+        "  geometry_prior_computation: 0.000s",
+        "  lost_slot_prior_computation: 0.000s",
+        "  hard_constraint_prior_computation: 0.000s",
+        "  evergaol_prior_detection: 0.361s",
+        "  status_icon_detection: 12.026s",
+        "  great_hollow_layout_model_observation: 0.157s",
+        "  dual_shot_second_status_detection: 0.000s",
+        "  earth_cascade_ranking: 0.000s",
+        "  layout_classifier_inference: 0.156s",
+        "  layout_identification_scoring: 0.005s",
+        "  layout_sort_and_select: 0.000s",
+        "  debug_annotation_rendering: 0.197s",
+        "  display_path_resolution: 0.103s",
+        "  total_run: 18.450s",
+        "Resolved 5 display image(s) for preview/result view.",
+        "GUI total execution time: 18.450s"
+      ]
+    },
+    {
+      "file": "Screenshot (152).png",
+      "top1": {
+        "layout_number": 1068,
+        "score": 2.2658414438676764,
+        "shifting_earth": "Great Hollow"
+      },
+      "earth_rank": [],
+      "great_hollow_model_layout_observations": {
+        "slot2_great_church_status": {
+          "spec_key": "slot2_great_church_status",
+          "kind": "status",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.82890625,
+            0.38046875
+          ],
+          "center_px": {
+            "x": 1322,
+            "y": 584
+          },
+          "crop_size": 260,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\slot2_status_cnn_offset50_v1.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Great_Church_Sleep",
+            "Great_Church_Lightning"
+          ],
+          "best_label": "Great_Church_Sleep",
+          "best_prob": 0.8603644967079163,
+          "second_label": "Great_Church_Lightning",
+          "second_prob": 0.13963547348976135,
+          "margin": 0.7207290232181549,
+          "ranking": [
+            {
+              "label": "Great_Church_Sleep",
+              "probability": 0.8603644967079163
+            },
+            {
+              "label": "Great_Church_Lightning",
+              "probability": 0.13963547348976135
+            }
+          ],
+          "weight": 0.14,
+          "parallel_stage": "single",
+          "anchor_type": "Great Church",
+          "predicted_status": "Status_Sleep"
+        },
+        "palace_status": {
+          "spec_key": "palace_status",
+          "kind": "status",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.2762384550797649,
+            0.21343537414965985
+          ],
+          "center_px": {
+            "x": 329,
+            "y": 251
+          },
+          "crop_size": 200,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\palace_status_cnn_retrain_latest.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Status_Fire",
+            "Status_Magic"
+          ],
+          "best_label": "Status_Fire",
+          "best_prob": 0.9999433755874634,
+          "second_label": "Status_Magic",
+          "second_prob": 5.665110074914992e-05,
+          "margin": 0.9998867244867142,
+          "ranking": [
+            {
+              "label": "Status_Fire",
+              "probability": 0.9999433755874634
+            },
+            {
+              "label": "Status_Magic",
+              "probability": 5.665110074914992e-05
+            }
+          ],
+          "weight": 0.12,
+          "parallel_stage": "single",
+          "anchor_type": "Palace",
+          "predicted_status": "Status_Fire"
+        },
+        "fortress_status": {
+          "spec_key": "fortress_status",
+          "kind": "status",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.7346767422334173,
+            0.7627551020408163
+          ],
+          "center_px": {
+            "x": 875,
+            "y": 897
+          },
+          "crop_size": 200,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress\\fortress_status_cnn_retrain_latest.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Status_Holy",
+            "Status_Rot"
+          ],
+          "best_label": "Status_Holy",
+          "best_prob": 0.9296888113021851,
+          "second_label": "Status_Rot",
+          "second_prob": 0.07031121104955673,
+          "margin": 0.8593776002526283,
+          "ranking": [
+            {
+              "label": "Status_Holy",
+              "probability": 0.9296888113021851
+            },
+            {
+              "label": "Status_Rot",
+              "probability": 0.07031121104955673
+            }
+          ],
+          "weight": 0.12,
+          "parallel_stage": "single",
+          "anchor_type": "Fortress",
+          "predicted_status": "Status_Holy"
+        },
+        "slot6_ruins_status": {
+          "spec_key": "slot6_ruins_status",
+          "kind": "status",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.12090680100755667,
+            0.6215986394557823
+          ],
+          "center_px": {
+            "x": 144,
+            "y": 731
+          },
+          "crop_size": 200,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\slot6_status_cnn.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Ruins_Poison",
+            "Ruins_Bleed"
+          ],
+          "best_label": "Ruins_Poison",
+          "best_prob": 0.9551455974578857,
+          "second_label": "Ruins_Bleed",
+          "second_prob": 0.04485447332262993,
+          "margin": 0.9102911241352558,
+          "ranking": [
+            {
+              "label": "Ruins_Poison",
+              "probability": 0.9551455974578857
+            },
+            {
+              "label": "Ruins_Bleed",
+              "probability": 0.04485447332262993
+            }
+          ],
+          "weight": 0.1,
+          "parallel_stage": "single",
+          "anchor_type": "Ruins",
+          "predicted_status": "Status_Poison"
+        },
+        "slot4_minor": {
+          "spec_key": "slot4_minor",
+          "kind": "slot_label",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.6792611251049538,
+            0.5314625850340136
+          ],
+          "center_px": {
+            "x": 1133,
+            "y": 854
+          },
+          "crop_size": 260,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\slot4_occupied_empty_from_panel_fixed_v1.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "empty",
+            "occupied"
+          ],
+          "best_label": "empty",
+          "best_prob": 0.979975163936615,
+          "second_label": "occupied",
+          "second_prob": 0.020024873316287994,
+          "margin": 0.959950290620327,
+          "ranking": [
+            {
+              "label": "empty",
+              "probability": 0.979975163936615
+            },
+            {
+              "label": "occupied",
+              "probability": 0.020024873316287994
+            }
+          ],
+          "weight": 0.08,
+          "parallel_stage": "stage1",
+          "slot_id": 4,
+          "predicted_slot_label": "empty"
+        },
+        "slot5_minor": {
+          "spec_key": "slot5_minor",
+          "kind": "slot_label",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.27204030226700254,
+            0.5348639455782312
+          ],
+          "center_px": {
+            "x": 499,
+            "y": 808
+          },
+          "crop_size": 200,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot5_church_vs_sorcerer_panel_v2_userlabels\\slot5_church_vs_sorcerer_v2.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Sorcerers_Rise",
+            "Church"
+          ],
+          "best_label": "Sorcerers_Rise",
+          "best_prob": 0.5206997394561768,
+          "second_label": "Church",
+          "second_prob": 0.47930029034614563,
+          "margin": 0.04139944911003113,
+          "ranking": [
+            {
+              "label": "Sorcerers_Rise",
+              "probability": 0.5206997394561768
+            },
+            {
+              "label": "Church",
+              "probability": 0.47930029034614563
+            }
+          ],
+          "weight": 0.08,
+          "parallel_stage": "stage2",
+          "slot_id": 5,
+          "predicted_slot_label": "sorcerers rise"
+        },
+        "slot7_minor": {
+          "spec_key": "slot7_minor",
+          "kind": "slot_label",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.28463476070528965,
+            0.9226190476190477
+          ],
+          "center_px": {
+            "x": 514,
+            "y": 1264
+          },
+          "crop_size": 260,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260\\slot7_church_vs_sorcerer_bases260\\slot7_church_vs_sorcerer_v1.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Church",
+            "Sorcerers_Rise"
+          ],
+          "best_label": "Church",
+          "best_prob": 0.8580830693244934,
+          "second_label": "Sorcerers_Rise",
+          "second_prob": 0.14191694557666779,
+          "margin": 0.7161661237478256,
+          "ranking": [
+            {
+              "label": "Church",
+              "probability": 0.8580830693244934
+            },
+            {
+              "label": "Sorcerers_Rise",
+              "probability": 0.14191694557666779
+            }
+          ],
+          "weight": 0.08,
+          "parallel_stage": "stage2",
+          "slot_id": 7,
+          "predicted_slot_label": "church"
+        }
+      },
+      "gh_mode": "",
+      "layout_infer_classifier": {},
+      "gh_parallel_slot_summary": {
+        "slot2_great_church_status": {
+          "kind": "status",
+          "best_label": "Great_Church_Sleep",
+          "best_prob": 0.8603644967079163,
+          "margin": 0.7207290232181549,
+          "predicted_status": "Status_Sleep"
+        },
+        "palace_status": {
+          "kind": "status",
+          "best_label": "Status_Fire",
+          "best_prob": 0.9999433755874634,
+          "margin": 0.9998867244867142,
+          "predicted_status": "Status_Fire"
+        },
+        "fortress_status": {
+          "kind": "status",
+          "best_label": "Status_Holy",
+          "best_prob": 0.9296888113021851,
+          "margin": 0.8593776002526283,
+          "predicted_status": "Status_Holy"
+        },
+        "slot6_ruins_status": {
+          "kind": "status",
+          "best_label": "Ruins_Poison",
+          "best_prob": 0.9551455974578857,
+          "margin": 0.9102911241352558,
+          "predicted_status": "Status_Poison"
+        },
+        "slot4_minor": {
+          "kind": "slot_label",
+          "best_label": "empty",
+          "best_prob": 0.979975163936615,
+          "margin": 0.959950290620327,
+          "predicted_slot_label": "empty"
+        },
+        "slot5_minor": {
+          "kind": "slot_label",
+          "best_label": "Sorcerers_Rise",
+          "best_prob": 0.5206997394561768,
+          "margin": 0.04139944911003113,
+          "predicted_slot_label": "sorcerers rise"
+        },
+        "slot7_minor": {
+          "kind": "slot_label",
+          "best_label": "Church",
+          "best_prob": 0.8580830693244934,
+          "margin": 0.7161661237478256,
+          "predicted_slot_label": "church"
+        }
+      },
+      "status": "ok",
+      "log_tail": [
+        "  Noklateo       score=0.160572 low_corr=0.0000 grad_corr=0.0000 source=earth_selector_v2",
+        "  Limveld        score=0.137522 low_corr=0.0000 grad_corr=0.0000 source=earth_selector_v2",
+        "Earth cascade selection is disabled by default; using raw top Shifting Earth for family selection.",
+        "AI slots for earth Great Hollow: dx=+0.0019 dy=+0.0013 resp=0.0921 unknown=1/7",
+        "GH parallel slot2_great_church_status: best=Great_Church_Sleep p=0.8604 margin=0.7207 status=Status_Sleep",
+        "GH parallel palace_status: best=Status_Fire p=0.9999 margin=0.9999 status=Status_Fire",
+        "GH parallel fortress_status: best=Status_Holy p=0.9297 margin=0.8594 status=Status_Holy",
+        "GH parallel slot6_ruins_status: best=Ruins_Poison p=0.9551 margin=0.9103 status=Status_Poison",
+        "GH parallel slot4_minor: best=empty p=0.9800 margin=0.9600 slot=empty",
+        "GH parallel slot5_minor: best=Sorcerers_Rise p=0.5207 margin=0.0414 slot=sorcerers rise",
+        "GH parallel slot7_minor: best=Church p=0.8581 margin=0.7162 slot=church",
+        "Geometry prior for Great Hollow: slot_count=7 align=0.0921 prior=+0.0000",
+        "Evergaol prior for Great Hollow: prior=-0.1996",
+        "Great Hollow status Palace: best=Status_Magic score=0.5051 margin=0.0102",
+        "Great Hollow status Fortress: best=Status_Holy score=0.5012 margin=0.0024",
+        "Great Hollow status Ruins: best=Status_Poison score=0.9412 margin=0.8825",
+        "Great Hollow status Great Church: best=Status_Sleep score=0.5798 margin=0.1596",
+        "Great Hollow model-observation summary:",
+        "  slot2_great_church_status: predicted=Status_Sleep p=0.8604 margin=0.7207",
+        "  palace_status: predicted=Status_Fire p=0.9999 margin=0.9999",
+        "  fortress_status: predicted=Status_Holy p=0.9297 margin=0.8594",
+        "  slot6_ruins_status: predicted=Status_Poison p=0.9551 margin=0.9103",
+        "  slot4_minor: predicted=empty p=0.9800 margin=0.9600",
+        "  slot5_minor: predicted=sorcerers rise p=0.5207 margin=0.0414",
+        "  slot7_minor: predicted=church p=0.8581 margin=0.7162",
+        "Shifting Earth cascade selection disabled (enable with NR_ENABLE_EARTH_CASCADE=1).",
+        "Restricting layout ranking to Great Hollow family from earth_selector_v2.",
+        "Great Hollow model-layout mode active: classic slot likelihood is disabled for GH layout scoring.",
+        "Layout infer for Great Hollow: decided pattern=1068 margin=0.0038 conf=0.1080 latency=78.25ms",
+        "[DONE] Run AI slot recognizer (17.115s)",
+        "Saved AI slot debug image to C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_runtime_temp\\nightreign_gui_ai_82d833d7ea19\\recognition_panel_used_with_slot_labels_ai.png",
+        "Saved Evergaol debug image to C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_runtime_temp\\nightreign_gui_ai_82d833d7ea19\\recognition_panel_used_with_evergaol_debug.png",
+        "",
+        "Top 20 layout matches:",
+        "  1. layout #1068 earth=Great Hollow score=2.265841 earth_score=0.241745 gh_status=+0.0027 gh_under=+0.0000 gh_models=+0.1715 layout_infer=+2.1099 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  2. layout #1129 earth=Great Hollow score=0.629333 earth_score=0.241745 gh_status=+0.2167 gh_under=+0.0000 gh_models=+0.4309 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  3. layout #1058 earth=Great Hollow score=0.525828 earth_score=0.241745 gh_status=+0.2167 gh_under=+0.0000 gh_models=+0.3274 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  4. layout #1181 earth=Great Hollow score=0.503391 earth_score=0.241745 gh_status=+0.1188 gh_under=+0.0000 gh_models=+0.4028 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  5. layout #1065 earth=Great Hollow score=0.494356 earth_score=0.241745 gh_status=+0.3217 gh_under=+0.0000 gh_models=+0.1910 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  6. layout #1175 earth=Great Hollow score=0.494356 earth_score=0.241745 gh_status=+0.3217 gh_under=+0.0000 gh_models=+0.1910 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  7. layout #1125 earth=Great Hollow score=0.494045 earth_score=0.241745 gh_status=+0.3217 gh_under=+0.0000 gh_models=+0.1759 layout_infer=+0.0147 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  8. layout #1016 earth=Great Hollow score=0.479339 earth_score=0.241745 gh_status=+0.3217 gh_under=+0.0000 gh_models=+0.1759 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  9. layout #1045 earth=Great Hollow score=0.479339 earth_score=0.241745 gh_status=+0.3217 gh_under=+0.0000 gh_models=+0.1759 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  10. layout #1049 earth=Great Hollow score=0.479339 earth_score=0.241745 gh_status=+0.3217 gh_under=+0.0000 gh_models=+0.1759 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  11. layout #1180 earth=Great Hollow score=0.471800 earth_score=0.241745 gh_status=+0.2167 gh_under=+0.0000 gh_models=+0.2734 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  12. layout #1187 earth=Great Hollow score=0.471800 earth_score=0.241745 gh_status=+0.2167 gh_under=+0.0000 gh_models=+0.2734 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  13. layout #1130 earth=Great Hollow score=0.374040 earth_score=0.241745 gh_status=-0.0433 gh_under=+0.0000 gh_models=+0.4356 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  14. layout #1075 earth=Great Hollow score=0.367500 earth_score=0.241745 gh_status=+0.0027 gh_under=+0.0000 gh_models=+0.3831 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  15. layout #1008 earth=Great Hollow score=0.336823 earth_score=0.241745 gh_status=+0.3217 gh_under=+0.0000 gh_models=+0.0334 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  16. layout #1178 earth=Great Hollow score=0.306742 earth_score=0.241745 gh_status=+0.1188 gh_under=+0.0000 gh_models=+0.1913 layout_infer=+0.0149 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  17. layout #1025 earth=Great Hollow score=0.232523 earth_score=0.241745 gh_status=+0.1077 gh_under=+0.0000 gh_models=+0.1431 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  18. layout #1193 earth=Great Hollow score=0.232523 earth_score=0.241745 gh_status=+0.1077 gh_under=+0.0000 gh_models=+0.1431 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  19. layout #1127 earth=Great Hollow score=0.216507 earth_score=0.241745 gh_status=-0.0433 gh_under=+0.0000 gh_models=+0.2781 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  20. layout #1122 earth=Great Hollow score=0.209967 earth_score=0.241745 gh_status=+0.0027 gh_under=+0.0000 gh_models=+0.2255 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "",
+        "Timing breakdown:",
+        "  capture_screenshot_or_use_pre_captured: 0.003s",
+        "  panel_crop_preview_initial: 0.609s",
+        "  preview_callback: 0.000s",
+        "  detect_map_circle_main: 0.577s",
+        "  panel_crop_first_pass: 0.026s",
+        "  panel_further_crop_normalize: 3.787s",
+        "  earth_selector_ranking: 0.005s",
+        "  slot_observation_classification_total: 0.014s",
+        "  geometry_prior_computation: 0.000s",
+        "  lost_slot_prior_computation: 0.000s",
+        "  hard_constraint_prior_computation: 0.000s",
+        "  evergaol_prior_detection: 0.308s",
+        "  status_icon_detection: 11.986s",
+        "  great_hollow_layout_model_observation: 0.162s",
+        "  dual_shot_second_status_detection: 0.000s",
+        "  earth_cascade_ranking: 0.000s",
+        "  layout_classifier_inference: 0.156s",
+        "  layout_identification_scoring: 0.005s",
+        "  layout_sort_and_select: 0.000s",
+        "  debug_annotation_rendering: 0.194s",
+        "  display_path_resolution: 0.096s",
+        "  total_run: 18.382s",
+        "Resolved 5 display image(s) for preview/result view.",
+        "GUI total execution time: 18.382s"
+      ]
+    },
+    {
+      "file": "Screenshot (153).png",
+      "top1": {
+        "layout_number": 1006,
+        "score": 2.1072179219280374,
+        "shifting_earth": "Great Hollow"
+      },
+      "earth_rank": [],
+      "great_hollow_model_layout_observations": {
+        "slot2_great_church_status": {
+          "spec_key": "slot2_great_church_status",
+          "kind": "status",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.82890625,
+            0.38046875
+          ],
+          "center_px": {
+            "x": 1322,
+            "y": 584
+          },
+          "crop_size": 260,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\slot2_status_cnn_offset50_v1.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Great_Church_Sleep",
+            "Great_Church_Lightning"
+          ],
+          "best_label": "Great_Church_Sleep",
+          "best_prob": 0.8590195775032043,
+          "second_label": "Great_Church_Lightning",
+          "second_prob": 0.14098036289215088,
+          "margin": 0.7180392146110535,
+          "ranking": [
+            {
+              "label": "Great_Church_Sleep",
+              "probability": 0.8590195775032043
+            },
+            {
+              "label": "Great_Church_Lightning",
+              "probability": 0.14098036289215088
+            }
+          ],
+          "weight": 0.14,
+          "parallel_stage": "single",
+          "anchor_type": "Great Church",
+          "predicted_status": "Status_Sleep"
+        },
+        "palace_status": {
+          "spec_key": "palace_status",
+          "kind": "status",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.2762384550797649,
+            0.21343537414965985
+          ],
+          "center_px": {
+            "x": 329,
+            "y": 251
+          },
+          "crop_size": 200,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\palace_status_cnn_retrain_latest.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Status_Fire",
+            "Status_Magic"
+          ],
+          "best_label": "Status_Fire",
+          "best_prob": 0.9999440908432007,
+          "second_label": "Status_Magic",
+          "second_prob": 5.5937816796358675e-05,
+          "margin": 0.9998881530264043,
+          "ranking": [
+            {
+              "label": "Status_Fire",
+              "probability": 0.9999440908432007
+            },
+            {
+              "label": "Status_Magic",
+              "probability": 5.5937816796358675e-05
+            }
+          ],
+          "weight": 0.12,
+          "parallel_stage": "single",
+          "anchor_type": "Palace",
+          "predicted_status": "Status_Fire"
+        },
+        "fortress_status": {
+          "spec_key": "fortress_status",
+          "kind": "status",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.7346767422334173,
+            0.7627551020408163
+          ],
+          "center_px": {
+            "x": 875,
+            "y": 897
+          },
+          "crop_size": 200,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress\\fortress_status_cnn_retrain_latest.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Status_Rot",
+            "Status_Holy"
+          ],
+          "best_label": "Status_Rot",
+          "best_prob": 0.7239735722541809,
+          "second_label": "Status_Holy",
+          "second_prob": 0.2760264575481415,
+          "margin": 0.44794711470603943,
+          "ranking": [
+            {
+              "label": "Status_Rot",
+              "probability": 0.7239735722541809
+            },
+            {
+              "label": "Status_Holy",
+              "probability": 0.2760264575481415
+            }
+          ],
+          "weight": 0.12,
+          "parallel_stage": "single",
+          "anchor_type": "Fortress",
+          "predicted_status": "Status_Rot"
+        },
+        "slot6_ruins_status": {
+          "spec_key": "slot6_ruins_status",
+          "kind": "status",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.12090680100755667,
+            0.6215986394557823
+          ],
+          "center_px": {
+            "x": 144,
+            "y": 731
+          },
+          "crop_size": 200,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\slot6_status_cnn.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Ruins_Poison",
+            "Ruins_Bleed"
+          ],
+          "best_label": "Ruins_Poison",
+          "best_prob": 0.9578608274459839,
+          "second_label": "Ruins_Bleed",
+          "second_prob": 0.04213912412524223,
+          "margin": 0.9157217033207417,
+          "ranking": [
+            {
+              "label": "Ruins_Poison",
+              "probability": 0.9578608274459839
+            },
+            {
+              "label": "Ruins_Bleed",
+              "probability": 0.04213912412524223
+            }
+          ],
+          "weight": 0.1,
+          "parallel_stage": "single",
+          "anchor_type": "Ruins",
+          "predicted_status": "Status_Poison"
+        },
+        "slot4_minor": {
+          "spec_key": "slot4_minor",
+          "kind": "slot_label",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.6792611251049538,
+            0.5314625850340136
+          ],
+          "center_px": {
+            "x": 1133,
+            "y": 854
+          },
+          "crop_size": 260,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\slot4_occupied_empty_from_panel_fixed_v1.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "empty",
+            "occupied"
+          ],
+          "best_label": "empty",
+          "best_prob": 0.9688606858253479,
+          "second_label": "occupied",
+          "second_prob": 0.031139342114329338,
+          "margin": 0.9377213437110186,
+          "ranking": [
+            {
+              "label": "empty",
+              "probability": 0.9688606858253479
+            },
+            {
+              "label": "occupied",
+              "probability": 0.031139342114329338
+            }
+          ],
+          "weight": 0.08,
+          "parallel_stage": "stage1",
+          "slot_id": 4,
+          "predicted_slot_label": "empty"
+        },
+        "slot5_minor": {
+          "spec_key": "slot5_minor",
+          "kind": "slot_label",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.27204030226700254,
+            0.5348639455782312
+          ],
+          "center_px": {
+            "x": 499,
+            "y": 808
+          },
+          "crop_size": 200,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot5_church_vs_sorcerer_panel_v2_userlabels\\slot5_church_vs_sorcerer_v2.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Sorcerers_Rise",
+            "Church"
+          ],
+          "best_label": "Sorcerers_Rise",
+          "best_prob": 0.6420454978942871,
+          "second_label": "Church",
+          "second_prob": 0.35795456171035767,
+          "margin": 0.28409093618392944,
+          "ranking": [
+            {
+              "label": "Sorcerers_Rise",
+              "probability": 0.6420454978942871
+            },
+            {
+              "label": "Church",
+              "probability": 0.35795456171035767
+            }
+          ],
+          "weight": 0.08,
+          "parallel_stage": "stage2",
+          "slot_id": 5,
+          "predicted_slot_label": "sorcerers rise"
+        },
+        "slot7_minor": {
+          "spec_key": "slot7_minor",
+          "kind": "slot_label",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.28463476070528965,
+            0.9226190476190477
+          ],
+          "center_px": {
+            "x": 514,
+            "y": 1264
+          },
+          "crop_size": 260,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260\\slot7_church_vs_sorcerer_bases260\\slot7_church_vs_sorcerer_v1.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Sorcerers_Rise",
+            "Church"
+          ],
+          "best_label": "Sorcerers_Rise",
+          "best_prob": 0.9488688707351685,
+          "second_label": "Church",
+          "second_prob": 0.051131147891283035,
+          "margin": 0.8977377228438854,
+          "ranking": [
+            {
+              "label": "Sorcerers_Rise",
+              "probability": 0.9488688707351685
+            },
+            {
+              "label": "Church",
+              "probability": 0.051131147891283035
+            }
+          ],
+          "weight": 0.08,
+          "parallel_stage": "stage2",
+          "slot_id": 7,
+          "predicted_slot_label": "sorcerers rise"
+        }
+      },
+      "gh_mode": "",
+      "layout_infer_classifier": {},
+      "gh_parallel_slot_summary": {
+        "slot2_great_church_status": {
+          "kind": "status",
+          "best_label": "Great_Church_Sleep",
+          "best_prob": 0.8590195775032043,
+          "margin": 0.7180392146110535,
+          "predicted_status": "Status_Sleep"
+        },
+        "palace_status": {
+          "kind": "status",
+          "best_label": "Status_Fire",
+          "best_prob": 0.9999440908432007,
+          "margin": 0.9998881530264043,
+          "predicted_status": "Status_Fire"
+        },
+        "fortress_status": {
+          "kind": "status",
+          "best_label": "Status_Rot",
+          "best_prob": 0.7239735722541809,
+          "margin": 0.44794711470603943,
+          "predicted_status": "Status_Rot"
+        },
+        "slot6_ruins_status": {
+          "kind": "status",
+          "best_label": "Ruins_Poison",
+          "best_prob": 0.9578608274459839,
+          "margin": 0.9157217033207417,
+          "predicted_status": "Status_Poison"
+        },
+        "slot4_minor": {
+          "kind": "slot_label",
+          "best_label": "empty",
+          "best_prob": 0.9688606858253479,
+          "margin": 0.9377213437110186,
+          "predicted_slot_label": "empty"
+        },
+        "slot5_minor": {
+          "kind": "slot_label",
+          "best_label": "Sorcerers_Rise",
+          "best_prob": 0.6420454978942871,
+          "margin": 0.28409093618392944,
+          "predicted_slot_label": "sorcerers rise"
+        },
+        "slot7_minor": {
+          "kind": "slot_label",
+          "best_label": "Sorcerers_Rise",
+          "best_prob": 0.9488688707351685,
+          "margin": 0.8977377228438854,
+          "predicted_slot_label": "sorcerers rise"
+        }
+      },
+      "status": "ok",
+      "log_tail": [
+        "  The Crater     score=0.163566 low_corr=0.0000 grad_corr=0.0000 source=earth_selector_v2",
+        "  Limveld        score=0.137913 low_corr=0.0000 grad_corr=0.0000 source=earth_selector_v2",
+        "Earth cascade selection is disabled by default; using raw top Shifting Earth for family selection.",
+        "AI slots for earth Great Hollow: dx=+0.0400 dy=+0.0002 resp=0.0612 unknown=1/7",
+        "GH parallel slot2_great_church_status: best=Great_Church_Sleep p=0.8590 margin=0.7180 status=Status_Sleep",
+        "GH parallel palace_status: best=Status_Fire p=0.9999 margin=0.9999 status=Status_Fire",
+        "GH parallel fortress_status: best=Status_Rot p=0.7240 margin=0.4479 status=Status_Rot",
+        "GH parallel slot6_ruins_status: best=Ruins_Poison p=0.9579 margin=0.9157 status=Status_Poison",
+        "GH parallel slot4_minor: best=empty p=0.9689 margin=0.9377 slot=empty",
+        "GH parallel slot5_minor: best=Sorcerers_Rise p=0.6420 margin=0.2841 slot=sorcerers rise",
+        "GH parallel slot7_minor: best=Sorcerers_Rise p=0.9489 margin=0.8977 slot=sorcerers rise",
+        "Geometry prior for Great Hollow: slot_count=7 align=0.0612 prior=+0.0000",
+        "Evergaol prior for Great Hollow: prior=-0.1997",
+        "Great Hollow status Palace: best=Status_Magic score=0.5056 margin=0.0113",
+        "Great Hollow status Fortress: best=Status_Holy score=0.5004 margin=0.0008",
+        "Great Hollow status Ruins: best=Status_Poison score=0.9360 margin=0.8720",
+        "Great Hollow status Great Church: best=Status_Sleep score=0.5803 margin=0.1606",
+        "Great Hollow model-observation summary:",
+        "  slot2_great_church_status: predicted=Status_Sleep p=0.8590 margin=0.7180",
+        "  palace_status: predicted=Status_Fire p=0.9999 margin=0.9999",
+        "  fortress_status: predicted=Status_Rot p=0.7240 margin=0.4479",
+        "  slot6_ruins_status: predicted=Status_Poison p=0.9579 margin=0.9157",
+        "  slot4_minor: predicted=empty p=0.9689 margin=0.9377",
+        "  slot5_minor: predicted=sorcerers rise p=0.6420 margin=0.2841",
+        "  slot7_minor: predicted=sorcerers rise p=0.9489 margin=0.8977",
+        "Shifting Earth cascade selection disabled (enable with NR_ENABLE_EARTH_CASCADE=1).",
+        "Restricting layout ranking to Great Hollow family from earth_selector_v2.",
+        "Great Hollow model-layout mode active: classic slot likelihood is disabled for GH layout scoring.",
+        "Layout infer for Great Hollow: decided pattern=1006 margin=0.0012 conf=0.1679 latency=80.05ms",
+        "[DONE] Run AI slot recognizer (17.327s)",
+        "Saved AI slot debug image to C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_runtime_temp\\nightreign_gui_ai_9b8145154271\\recognition_panel_used_with_slot_labels_ai.png",
+        "Saved Evergaol debug image to C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_runtime_temp\\nightreign_gui_ai_9b8145154271\\recognition_panel_used_with_evergaol_debug.png",
+        "",
+        "Top 20 layout matches:",
+        "  1. layout #1006 earth=Great Hollow score=2.107218 earth_score=0.238247 gh_status=+0.0014 gh_under=+0.0000 gh_models=-0.0417 layout_infer=+2.1685 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  2. layout #1181 earth=Great Hollow score=0.572152 earth_score=0.238247 gh_status=+0.1192 gh_under=+0.0000 gh_models=+0.4740 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  3. layout #1129 earth=Great Hollow score=0.553129 earth_score=0.238247 gh_status=+0.2155 gh_under=+0.0000 gh_models=+0.3586 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  4. layout #1194 earth=Great Hollow score=0.502538 earth_score=0.238247 gh_status=+0.2252 gh_under=+0.0000 gh_models=+0.2983 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  5. layout #1058 earth=Great Hollow score=0.486329 earth_score=0.238247 gh_status=+0.2155 gh_under=+0.0000 gh_models=+0.2918 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  6. layout #1065 earth=Great Hollow score=0.419178 earth_score=0.238247 gh_status=+0.3216 gh_under=+0.0000 gh_models=+0.1186 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  7. layout #1175 earth=Great Hollow score=0.419178 earth_score=0.238247 gh_status=+0.3216 gh_under=+0.0000 gh_models=+0.1186 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  8. layout #1180 earth=Great Hollow score=0.396965 earth_score=0.238247 gh_status=+0.2155 gh_under=+0.0000 gh_models=+0.2024 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  9. layout #1017 earth=Great Hollow score=0.373420 earth_score=0.238247 gh_status=+0.2252 gh_under=+0.0000 gh_models=+0.1422 layout_infer=+0.0270 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  10. layout #1178 earth=Great Hollow score=0.326625 earth_score=0.238247 gh_status=+0.1192 gh_under=+0.0000 gh_models=+0.2284 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  11. layout #1055 earth=Great Hollow score=0.282038 earth_score=0.238247 gh_status=+0.2252 gh_under=+0.0000 gh_models=+0.0778 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  12. layout #1126 earth=Great Hollow score=0.282038 earth_score=0.238247 gh_status=+0.2252 gh_under=+0.0000 gh_models=+0.0778 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  13. layout #1176 earth=Great Hollow score=0.282038 earth_score=0.238247 gh_status=+0.2252 gh_under=+0.0000 gh_models=+0.0778 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  14. layout #1187 earth=Great Hollow score=0.243264 earth_score=0.238247 gh_status=+0.2155 gh_under=+0.0000 gh_models=+0.0487 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  15. layout #1133 earth=Great Hollow score=0.192674 earth_score=0.238247 gh_status=+0.2252 gh_under=+0.0000 gh_models=-0.0115 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  16. layout #1018 earth=Great Hollow score=0.178257 earth_score=0.238247 gh_status=-0.0950 gh_under=+0.0000 gh_models=+0.2942 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  17. layout #1029 earth=Great Hollow score=0.119822 earth_score=0.238247 gh_status=-0.1408 gh_under=+0.0000 gh_models=+0.2816 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  18. layout #1036 earth=Great Hollow score=0.117359 earth_score=0.238247 gh_status=-0.1408 gh_under=+0.0000 gh_models=+0.2792 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  19. layout #1008 earth=Great Hollow score=0.109313 earth_score=0.238247 gh_status=+0.3216 gh_under=+0.0000 gh_models=-0.1913 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  20. layout #1016 earth=Great Hollow score=0.109313 earth_score=0.238247 gh_status=+0.3216 gh_under=+0.0000 gh_models=-0.1913 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "",
+        "Timing breakdown:",
+        "  capture_screenshot_or_use_pre_captured: 0.003s",
+        "  panel_crop_preview_initial: 0.645s",
+        "  preview_callback: 0.000s",
+        "  detect_map_circle_main: 0.571s",
+        "  panel_crop_first_pass: 0.028s",
+        "  panel_further_crop_normalize: 3.803s",
+        "  earth_selector_ranking: 0.005s",
+        "  slot_observation_classification_total: 0.018s",
+        "  geometry_prior_computation: 0.000s",
+        "  lost_slot_prior_computation: 0.000s",
+        "  hard_constraint_prior_computation: 0.000s",
+        "  evergaol_prior_detection: 0.311s",
+        "  status_icon_detection: 12.177s",
+        "  great_hollow_layout_model_observation: 0.160s",
+        "  dual_shot_second_status_detection: 0.000s",
+        "  earth_cascade_ranking: 0.000s",
+        "  layout_classifier_inference: 0.159s",
+        "  layout_identification_scoring: 0.005s",
+        "  layout_sort_and_select: 0.000s",
+        "  debug_annotation_rendering: 0.190s",
+        "  display_path_resolution: 0.124s",
+        "  total_run: 18.616s",
+        "Resolved 5 display image(s) for preview/result view.",
+        "GUI total execution time: 18.616s"
+      ]
+    },
+    {
+      "file": "Screenshot (154).png",
+      "top1": {
+        "layout_number": 1068,
+        "score": 1.846829892389153,
+        "shifting_earth": "Great Hollow"
+      },
+      "earth_rank": [],
+      "great_hollow_model_layout_observations": {
+        "slot2_great_church_status": {
+          "spec_key": "slot2_great_church_status",
+          "kind": "status",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.82890625,
+            0.38046875
+          ],
+          "center_px": {
+            "x": 1322,
+            "y": 584
+          },
+          "crop_size": 260,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\slot2_status_cnn_offset50_v1.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Great_Church_Sleep",
+            "Great_Church_Lightning"
+          ],
+          "best_label": "Great_Church_Sleep",
+          "best_prob": 0.8602114319801331,
+          "second_label": "Great_Church_Lightning",
+          "second_prob": 0.13978853821754456,
+          "margin": 0.7204228937625885,
+          "ranking": [
+            {
+              "label": "Great_Church_Sleep",
+              "probability": 0.8602114319801331
+            },
+            {
+              "label": "Great_Church_Lightning",
+              "probability": 0.13978853821754456
+            }
+          ],
+          "weight": 0.14,
+          "parallel_stage": "single",
+          "anchor_type": "Great Church",
+          "predicted_status": "Status_Sleep"
+        },
+        "palace_status": {
+          "spec_key": "palace_status",
+          "kind": "status",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.2762384550797649,
+            0.21343537414965985
+          ],
+          "center_px": {
+            "x": 329,
+            "y": 251
+          },
+          "crop_size": 200,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\palace_status_cnn_retrain_latest.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Status_Magic",
+            "Status_Fire"
+          ],
+          "best_label": "Status_Magic",
+          "best_prob": 0.7881757616996765,
+          "second_label": "Status_Fire",
+          "second_prob": 0.21182431280612946,
+          "margin": 0.5763514488935471,
+          "ranking": [
+            {
+              "label": "Status_Magic",
+              "probability": 0.7881757616996765
+            },
+            {
+              "label": "Status_Fire",
+              "probability": 0.21182431280612946
+            }
+          ],
+          "weight": 0.12,
+          "parallel_stage": "single",
+          "anchor_type": "Palace",
+          "predicted_status": "Status_Magic"
+        },
+        "fortress_status": {
+          "spec_key": "fortress_status",
+          "kind": "status",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.7346767422334173,
+            0.7627551020408163
+          ],
+          "center_px": {
+            "x": 875,
+            "y": 897
+          },
+          "crop_size": 200,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress\\fortress_status_cnn_retrain_latest.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Status_Rot",
+            "Status_Holy"
+          ],
+          "best_label": "Status_Rot",
+          "best_prob": 0.7087808847427368,
+          "second_label": "Status_Holy",
+          "second_prob": 0.2912191152572632,
+          "margin": 0.41756176948547363,
+          "ranking": [
+            {
+              "label": "Status_Rot",
+              "probability": 0.7087808847427368
+            },
+            {
+              "label": "Status_Holy",
+              "probability": 0.2912191152572632
+            }
+          ],
+          "weight": 0.12,
+          "parallel_stage": "single",
+          "anchor_type": "Fortress",
+          "predicted_status": "Status_Rot"
+        },
+        "slot6_ruins_status": {
+          "spec_key": "slot6_ruins_status",
+          "kind": "status",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.12090680100755667,
+            0.6215986394557823
+          ],
+          "center_px": {
+            "x": 144,
+            "y": 731
+          },
+          "crop_size": 200,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\slot6_status_cnn.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Ruins_Poison",
+            "Ruins_Bleed"
+          ],
+          "best_label": "Ruins_Poison",
+          "best_prob": 0.9551455974578857,
+          "second_label": "Ruins_Bleed",
+          "second_prob": 0.04485447332262993,
+          "margin": 0.9102911241352558,
+          "ranking": [
+            {
+              "label": "Ruins_Poison",
+              "probability": 0.9551455974578857
+            },
+            {
+              "label": "Ruins_Bleed",
+              "probability": 0.04485447332262993
+            }
+          ],
+          "weight": 0.1,
+          "parallel_stage": "single",
+          "anchor_type": "Ruins",
+          "predicted_status": "Status_Poison"
+        },
+        "slot4_minor": {
+          "spec_key": "slot4_minor",
+          "kind": "slot_label",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.6792611251049538,
+            0.5314625850340136
+          ],
+          "center_px": {
+            "x": 1133,
+            "y": 854
+          },
+          "crop_size": 260,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\slot4_occupied_empty_from_panel_fixed_v1.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "empty",
+            "occupied"
+          ],
+          "best_label": "empty",
+          "best_prob": 0.9799485802650452,
+          "second_label": "occupied",
+          "second_prob": 0.020051389932632446,
+          "margin": 0.9598971903324127,
+          "ranking": [
+            {
+              "label": "empty",
+              "probability": 0.9799485802650452
+            },
+            {
+              "label": "occupied",
+              "probability": 0.020051389932632446
+            }
+          ],
+          "weight": 0.08,
+          "parallel_stage": "stage1",
+          "slot_id": 4,
+          "predicted_slot_label": "empty"
+        },
+        "slot5_minor": {
+          "spec_key": "slot5_minor",
+          "kind": "slot_label",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.27204030226700254,
+            0.5348639455782312
+          ],
+          "center_px": {
+            "x": 499,
+            "y": 808
+          },
+          "crop_size": 200,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot5_church_vs_sorcerer_panel_v2_userlabels\\slot5_church_vs_sorcerer_v2.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Sorcerers_Rise",
+            "Church"
+          ],
+          "best_label": "Sorcerers_Rise",
+          "best_prob": 0.5206997394561768,
+          "second_label": "Church",
+          "second_prob": 0.47930029034614563,
+          "margin": 0.04139944911003113,
+          "ranking": [
+            {
+              "label": "Sorcerers_Rise",
+              "probability": 0.5206997394561768
+            },
+            {
+              "label": "Church",
+              "probability": 0.47930029034614563
+            }
+          ],
+          "weight": 0.08,
+          "parallel_stage": "stage2",
+          "slot_id": 5,
+          "predicted_slot_label": "sorcerers rise"
+        },
+        "slot7_minor": {
+          "spec_key": "slot7_minor",
+          "kind": "slot_label",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.28463476070528965,
+            0.9226190476190477
+          ],
+          "center_px": {
+            "x": 514,
+            "y": 1264
+          },
+          "crop_size": 260,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260\\slot7_church_vs_sorcerer_bases260\\slot7_church_vs_sorcerer_v1.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Church",
+            "Sorcerers_Rise"
+          ],
+          "best_label": "Church",
+          "best_prob": 0.957073450088501,
+          "second_label": "Sorcerers_Rise",
+          "second_prob": 0.0429266132414341,
+          "margin": 0.9141468368470669,
+          "ranking": [
+            {
+              "label": "Church",
+              "probability": 0.957073450088501
+            },
+            {
+              "label": "Sorcerers_Rise",
+              "probability": 0.0429266132414341
+            }
+          ],
+          "weight": 0.08,
+          "parallel_stage": "stage2",
+          "slot_id": 7,
+          "predicted_slot_label": "church"
+        }
+      },
+      "gh_mode": "",
+      "layout_infer_classifier": {},
+      "gh_parallel_slot_summary": {
+        "slot2_great_church_status": {
+          "kind": "status",
+          "best_label": "Great_Church_Sleep",
+          "best_prob": 0.8602114319801331,
+          "margin": 0.7204228937625885,
+          "predicted_status": "Status_Sleep"
+        },
+        "palace_status": {
+          "kind": "status",
+          "best_label": "Status_Magic",
+          "best_prob": 0.7881757616996765,
+          "margin": 0.5763514488935471,
+          "predicted_status": "Status_Magic"
+        },
+        "fortress_status": {
+          "kind": "status",
+          "best_label": "Status_Rot",
+          "best_prob": 0.7087808847427368,
+          "margin": 0.41756176948547363,
+          "predicted_status": "Status_Rot"
+        },
+        "slot6_ruins_status": {
+          "kind": "status",
+          "best_label": "Ruins_Poison",
+          "best_prob": 0.9551455974578857,
+          "margin": 0.9102911241352558,
+          "predicted_status": "Status_Poison"
+        },
+        "slot4_minor": {
+          "kind": "slot_label",
+          "best_label": "empty",
+          "best_prob": 0.9799485802650452,
+          "margin": 0.9598971903324127,
+          "predicted_slot_label": "empty"
+        },
+        "slot5_minor": {
+          "kind": "slot_label",
+          "best_label": "Sorcerers_Rise",
+          "best_prob": 0.5206997394561768,
+          "margin": 0.04139944911003113,
+          "predicted_slot_label": "sorcerers rise"
+        },
+        "slot7_minor": {
+          "kind": "slot_label",
+          "best_label": "Church",
+          "best_prob": 0.957073450088501,
+          "margin": 0.9141468368470669,
+          "predicted_slot_label": "church"
+        }
+      },
+      "status": "ok",
+      "log_tail": [
+        "  Noklateo       score=0.160748 low_corr=0.0000 grad_corr=0.0000 source=earth_selector_v2",
+        "  Limveld        score=0.137959 low_corr=0.0000 grad_corr=0.0000 source=earth_selector_v2",
+        "Earth cascade selection is disabled by default; using raw top Shifting Earth for family selection.",
+        "AI slots for earth Great Hollow: dx=-0.0005 dy=-0.0500 resp=0.0497 unknown=0/7",
+        "GH parallel slot2_great_church_status: best=Great_Church_Sleep p=0.8602 margin=0.7204 status=Status_Sleep",
+        "GH parallel palace_status: best=Status_Magic p=0.7882 margin=0.5764 status=Status_Magic",
+        "GH parallel fortress_status: best=Status_Rot p=0.7088 margin=0.4176 status=Status_Rot",
+        "GH parallel slot6_ruins_status: best=Ruins_Poison p=0.9551 margin=0.9103 status=Status_Poison",
+        "GH parallel slot4_minor: best=empty p=0.9799 margin=0.9599 slot=empty",
+        "GH parallel slot5_minor: best=Sorcerers_Rise p=0.5207 margin=0.0414 slot=sorcerers rise",
+        "GH parallel slot7_minor: best=Church p=0.9571 margin=0.9141 slot=church",
+        "Geometry prior for Great Hollow: slot_count=7 align=0.0497 prior=+0.0000",
+        "Evergaol prior for Great Hollow: prior=-0.1996",
+        "Great Hollow status Palace: best=Status_Magic score=0.5095 margin=0.0189",
+        "Great Hollow status Fortress: best=Status_Holy score=0.5005 margin=0.0010",
+        "Great Hollow status Ruins: best=Status_Poison score=0.9412 margin=0.8825",
+        "Great Hollow status Great Church: best=Status_Sleep score=0.5798 margin=0.1596",
+        "Great Hollow model-observation summary:",
+        "  slot2_great_church_status: predicted=Status_Sleep p=0.8602 margin=0.7204",
+        "  palace_status: predicted=Status_Magic p=0.7882 margin=0.5764",
+        "  fortress_status: predicted=Status_Rot p=0.7088 margin=0.4176",
+        "  slot6_ruins_status: predicted=Status_Poison p=0.9551 margin=0.9103",
+        "  slot4_minor: predicted=empty p=0.9799 margin=0.9599",
+        "  slot5_minor: predicted=sorcerers rise p=0.5207 margin=0.0414",
+        "  slot7_minor: predicted=church p=0.9571 margin=0.9141",
+        "Shifting Earth cascade selection disabled (enable with NR_ENABLE_EARTH_CASCADE=1).",
+        "Restricting layout ranking to Great Hollow family from earth_selector_v2.",
+        "Great Hollow model-layout mode active: classic slot likelihood is disabled for GH layout scoring.",
+        "Layout infer for Great Hollow: decided pattern=1068 margin=0.0039 conf=0.1051 latency=80.05ms",
+        "[DONE] Run AI slot recognizer (17.284s)",
+        "Saved AI slot debug image to C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_runtime_temp\\nightreign_gui_ai_a4cf5e285c9d\\recognition_panel_used_with_slot_labels_ai.png",
+        "Saved Evergaol debug image to C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_runtime_temp\\nightreign_gui_ai_a4cf5e285c9d\\recognition_panel_used_with_evergaol_debug.png",
+        "",
+        "Top 20 layout matches:",
+        "  1. layout #1068 earth=Great Hollow score=1.846830 earth_score=0.242130 gh_status=-0.0024 gh_under=+0.0000 gh_models=-0.2398 layout_infer=+2.1070 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  2. layout #1194 earth=Great Hollow score=0.587670 earth_score=0.242130 gh_status=+0.2281 gh_under=+0.0000 gh_models=+0.3776 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  3. layout #1133 earth=Great Hollow score=0.584852 earth_score=0.242130 gh_status=+0.2281 gh_under=+0.0000 gh_models=+0.3748 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  4. layout #1016 earth=Great Hollow score=0.521224 earth_score=0.242130 gh_status=+0.3246 gh_under=+0.0000 gh_models=+0.1984 layout_infer=+0.0162 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  5. layout #1125 earth=Great Hollow score=0.521224 earth_score=0.242130 gh_status=+0.3246 gh_under=+0.0000 gh_models=+0.1984 layout_infer=+0.0162 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  6. layout #1065 earth=Great Hollow score=0.507815 earth_score=0.242130 gh_status=+0.3246 gh_under=+0.0000 gh_models=+0.2012 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  7. layout #1175 earth=Great Hollow score=0.507815 earth_score=0.242130 gh_status=+0.3246 gh_under=+0.0000 gh_models=+0.2012 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  8. layout #1045 earth=Great Hollow score=0.504997 earth_score=0.242130 gh_status=+0.3246 gh_under=+0.0000 gh_models=+0.1984 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  9. layout #1049 earth=Great Hollow score=0.504997 earth_score=0.242130 gh_status=+0.3246 gh_under=+0.0000 gh_models=+0.1984 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  10. layout #1181 earth=Great Hollow score=0.489588 earth_score=0.242130 gh_status=+0.1150 gh_under=+0.0000 gh_models=+0.3926 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  11. layout #1055 earth=Great Hollow score=0.484168 earth_score=0.242130 gh_status=+0.2281 gh_under=+0.0000 gh_models=+0.2741 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  12. layout #1126 earth=Great Hollow score=0.484168 earth_score=0.242130 gh_status=+0.2281 gh_under=+0.0000 gh_models=+0.2741 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  13. layout #1176 earth=Great Hollow score=0.484168 earth_score=0.242130 gh_status=+0.2281 gh_under=+0.0000 gh_models=+0.2741 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  14. layout #1017 earth=Great Hollow score=0.430141 earth_score=0.242130 gh_status=+0.2281 gh_under=+0.0000 gh_models=+0.2200 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  15. layout #1008 earth=Great Hollow score=0.350285 earth_score=0.242130 gh_status=+0.3246 gh_under=+0.0000 gh_models=+0.0436 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  16. layout #1116 earth=Great Hollow score=0.344573 earth_score=0.242130 gh_status=-0.0319 gh_under=+0.0000 gh_models=+0.3945 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  17. layout #1178 earth=Great Hollow score=0.278031 earth_score=0.242130 gh_status=+0.1150 gh_under=+0.0000 gh_models=+0.1810 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  18. layout #1025 earth=Great Hollow score=0.258217 earth_score=0.242130 gh_status=+0.1107 gh_under=+0.0000 gh_models=+0.1655 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  19. layout #1193 earth=Great Hollow score=0.258217 earth_score=0.242130 gh_status=+0.1107 gh_under=+0.0000 gh_models=+0.1655 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  20. layout #1129 earth=Great Hollow score=0.200993 earth_score=0.242130 gh_status=+0.2116 gh_under=+0.0000 gh_models=+0.0074 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "",
+        "Timing breakdown:",
+        "  capture_screenshot_or_use_pre_captured: 0.003s",
+        "  panel_crop_preview_initial: 0.629s",
+        "  preview_callback: 0.000s",
+        "  detect_map_circle_main: 0.573s",
+        "  panel_crop_first_pass: 0.031s",
+        "  panel_further_crop_normalize: 3.779s",
+        "  earth_selector_ranking: 0.005s",
+        "  slot_observation_classification_total: 0.015s",
+        "  geometry_prior_computation: 0.000s",
+        "  lost_slot_prior_computation: 0.000s",
+        "  hard_constraint_prior_computation: 0.000s",
+        "  evergaol_prior_detection: 0.352s",
+        "  status_icon_detection: 12.115s",
+        "  great_hollow_layout_model_observation: 0.163s",
+        "  dual_shot_second_status_detection: 0.000s",
+        "  earth_cascade_ranking: 0.000s",
+        "  layout_classifier_inference: 0.160s",
+        "  layout_identification_scoring: 0.005s",
+        "  layout_sort_and_select: 0.000s",
+        "  debug_annotation_rendering: 0.190s",
+        "  display_path_resolution: 0.108s",
+        "  total_run: 18.546s",
+        "Resolved 5 display image(s) for preview/result view.",
+        "GUI total execution time: 18.546s"
+      ]
+    },
+    {
+      "file": "Screenshot (155).png",
+      "top1": {
+        "layout_number": 1075,
+        "score": 2.496854722415856,
+        "shifting_earth": "Great Hollow"
+      },
+      "earth_rank": [],
+      "great_hollow_model_layout_observations": {
+        "slot2_great_church_status": {
+          "spec_key": "slot2_great_church_status",
+          "kind": "status",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.82890625,
+            0.38046875
+          ],
+          "center_px": {
+            "x": 1322,
+            "y": 584
+          },
+          "crop_size": 260,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\slot2_status_cnn_offset50_v1.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Great_Church_Sleep",
+            "Great_Church_Lightning"
+          ],
+          "best_label": "Great_Church_Sleep",
+          "best_prob": 0.8544706106185913,
+          "second_label": "Great_Church_Lightning",
+          "second_prob": 0.14552941918373108,
+          "margin": 0.7089411914348602,
+          "ranking": [
+            {
+              "label": "Great_Church_Sleep",
+              "probability": 0.8544706106185913
+            },
+            {
+              "label": "Great_Church_Lightning",
+              "probability": 0.14552941918373108
+            }
+          ],
+          "weight": 0.14,
+          "parallel_stage": "single",
+          "anchor_type": "Great Church",
+          "predicted_status": "Status_Sleep"
+        },
+        "palace_status": {
+          "spec_key": "palace_status",
+          "kind": "status",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.2762384550797649,
+            0.21343537414965985
+          ],
+          "center_px": {
+            "x": 329,
+            "y": 251
+          },
+          "crop_size": 200,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\palace_status_cnn_retrain_latest.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Status_Magic",
+            "Status_Fire"
+          ],
+          "best_label": "Status_Magic",
+          "best_prob": 0.7519476413726807,
+          "second_label": "Status_Fire",
+          "second_prob": 0.24805240333080292,
+          "margin": 0.5038952380418777,
+          "ranking": [
+            {
+              "label": "Status_Magic",
+              "probability": 0.7519476413726807
+            },
+            {
+              "label": "Status_Fire",
+              "probability": 0.24805240333080292
+            }
+          ],
+          "weight": 0.12,
+          "parallel_stage": "single",
+          "anchor_type": "Palace",
+          "predicted_status": "Status_Magic"
+        },
+        "fortress_status": {
+          "spec_key": "fortress_status",
+          "kind": "status",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.7346767422334173,
+            0.7627551020408163
+          ],
+          "center_px": {
+            "x": 875,
+            "y": 897
+          },
+          "crop_size": 200,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress\\fortress_status_cnn_retrain_latest.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Status_Holy",
+            "Status_Rot"
+          ],
+          "best_label": "Status_Holy",
+          "best_prob": 0.9262939691543579,
+          "second_label": "Status_Rot",
+          "second_prob": 0.07370605319738388,
+          "margin": 0.852587915956974,
+          "ranking": [
+            {
+              "label": "Status_Holy",
+              "probability": 0.9262939691543579
+            },
+            {
+              "label": "Status_Rot",
+              "probability": 0.07370605319738388
+            }
+          ],
+          "weight": 0.12,
+          "parallel_stage": "single",
+          "anchor_type": "Fortress",
+          "predicted_status": "Status_Holy"
+        },
+        "slot6_ruins_status": {
+          "spec_key": "slot6_ruins_status",
+          "kind": "status",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.12090680100755667,
+            0.6215986394557823
+          ],
+          "center_px": {
+            "x": 144,
+            "y": 731
+          },
+          "crop_size": 200,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\slot6_status_cnn.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Ruins_Poison",
+            "Ruins_Bleed"
+          ],
+          "best_label": "Ruins_Poison",
+          "best_prob": 0.9578608274459839,
+          "second_label": "Ruins_Bleed",
+          "second_prob": 0.04213912412524223,
+          "margin": 0.9157217033207417,
+          "ranking": [
+            {
+              "label": "Ruins_Poison",
+              "probability": 0.9578608274459839
+            },
+            {
+              "label": "Ruins_Bleed",
+              "probability": 0.04213912412524223
+            }
+          ],
+          "weight": 0.1,
+          "parallel_stage": "single",
+          "anchor_type": "Ruins",
+          "predicted_status": "Status_Poison"
+        },
+        "slot4_minor": {
+          "spec_key": "slot4_minor",
+          "kind": "slot_label",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.6792611251049538,
+            0.5314625850340136
+          ],
+          "center_px": {
+            "x": 1133,
+            "y": 854
+          },
+          "crop_size": 260,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\slot4_occupied_empty_from_panel_fixed_v1.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "empty",
+            "occupied"
+          ],
+          "best_label": "empty",
+          "best_prob": 0.9691336750984192,
+          "second_label": "occupied",
+          "second_prob": 0.030866308137774467,
+          "margin": 0.9382673669606447,
+          "ranking": [
+            {
+              "label": "empty",
+              "probability": 0.9691336750984192
+            },
+            {
+              "label": "occupied",
+              "probability": 0.030866308137774467
+            }
+          ],
+          "weight": 0.08,
+          "parallel_stage": "stage1",
+          "slot_id": 4,
+          "predicted_slot_label": "empty"
+        },
+        "slot5_minor": {
+          "spec_key": "slot5_minor",
+          "kind": "slot_label",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.27204030226700254,
+            0.5348639455782312
+          ],
+          "center_px": {
+            "x": 499,
+            "y": 808
+          },
+          "crop_size": 200,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot5_church_vs_sorcerer_panel_v2_userlabels\\slot5_church_vs_sorcerer_v2.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Sorcerers_Rise",
+            "Church"
+          ],
+          "best_label": "Sorcerers_Rise",
+          "best_prob": 0.9999943971633911,
+          "second_label": "Church",
+          "second_prob": 5.543205588764977e-06,
+          "margin": 0.9999888539578023,
+          "ranking": [
+            {
+              "label": "Sorcerers_Rise",
+              "probability": 0.9999943971633911
+            },
+            {
+              "label": "Church",
+              "probability": 5.543205588764977e-06
+            }
+          ],
+          "weight": 0.08,
+          "parallel_stage": "stage2",
+          "slot_id": 5,
+          "predicted_slot_label": "sorcerers rise"
+        },
+        "slot7_minor": {
+          "spec_key": "slot7_minor",
+          "kind": "slot_label",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.28463476070528965,
+            0.9226190476190477
+          ],
+          "center_px": {
+            "x": 514,
+            "y": 1264
+          },
+          "crop_size": 260,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260\\slot7_church_vs_sorcerer_bases260\\slot7_church_vs_sorcerer_v1.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Church",
+            "Sorcerers_Rise"
+          ],
+          "best_label": "Church",
+          "best_prob": 0.9612051248550415,
+          "second_label": "Sorcerers_Rise",
+          "second_prob": 0.03879493102431297,
+          "margin": 0.9224101938307285,
+          "ranking": [
+            {
+              "label": "Church",
+              "probability": 0.9612051248550415
+            },
+            {
+              "label": "Sorcerers_Rise",
+              "probability": 0.03879493102431297
+            }
+          ],
+          "weight": 0.08,
+          "parallel_stage": "stage2",
+          "slot_id": 7,
+          "predicted_slot_label": "church"
+        }
+      },
+      "gh_mode": "",
+      "layout_infer_classifier": {},
+      "gh_parallel_slot_summary": {
+        "slot2_great_church_status": {
+          "kind": "status",
+          "best_label": "Great_Church_Sleep",
+          "best_prob": 0.8544706106185913,
+          "margin": 0.7089411914348602,
+          "predicted_status": "Status_Sleep"
+        },
+        "palace_status": {
+          "kind": "status",
+          "best_label": "Status_Magic",
+          "best_prob": 0.7519476413726807,
+          "margin": 0.5038952380418777,
+          "predicted_status": "Status_Magic"
+        },
+        "fortress_status": {
+          "kind": "status",
+          "best_label": "Status_Holy",
+          "best_prob": 0.9262939691543579,
+          "margin": 0.852587915956974,
+          "predicted_status": "Status_Holy"
+        },
+        "slot6_ruins_status": {
+          "kind": "status",
+          "best_label": "Ruins_Poison",
+          "best_prob": 0.9578608274459839,
+          "margin": 0.9157217033207417,
+          "predicted_status": "Status_Poison"
+        },
+        "slot4_minor": {
+          "kind": "slot_label",
+          "best_label": "empty",
+          "best_prob": 0.9691336750984192,
+          "margin": 0.9382673669606447,
+          "predicted_slot_label": "empty"
+        },
+        "slot5_minor": {
+          "kind": "slot_label",
+          "best_label": "Sorcerers_Rise",
+          "best_prob": 0.9999943971633911,
+          "margin": 0.9999888539578023,
+          "predicted_slot_label": "sorcerers rise"
+        },
+        "slot7_minor": {
+          "kind": "slot_label",
+          "best_label": "Church",
+          "best_prob": 0.9612051248550415,
+          "margin": 0.9224101938307285,
+          "predicted_slot_label": "church"
+        }
+      },
+      "status": "ok",
+      "log_tail": [
+        "  Noklateo       score=0.163997 low_corr=0.0000 grad_corr=0.0000 source=earth_selector_v2",
+        "  Limveld        score=0.137319 low_corr=0.0000 grad_corr=0.0000 source=earth_selector_v2",
+        "Earth cascade selection is disabled by default; using raw top Shifting Earth for family selection.",
+        "AI slots for earth Great Hollow: dx=-0.0045 dy=+0.0100 resp=0.2090 unknown=0/7",
+        "GH parallel slot2_great_church_status: best=Great_Church_Sleep p=0.8545 margin=0.7089 status=Status_Sleep",
+        "GH parallel palace_status: best=Status_Magic p=0.7519 margin=0.5039 status=Status_Magic",
+        "GH parallel fortress_status: best=Status_Holy p=0.9263 margin=0.8526 status=Status_Holy",
+        "GH parallel slot6_ruins_status: best=Ruins_Poison p=0.9579 margin=0.9157 status=Status_Poison",
+        "GH parallel slot4_minor: best=empty p=0.9691 margin=0.9383 slot=empty",
+        "GH parallel slot5_minor: best=Sorcerers_Rise p=1.0000 margin=1.0000 slot=sorcerers rise",
+        "GH parallel slot7_minor: best=Church p=0.9612 margin=0.9224 slot=church",
+        "Geometry prior for Great Hollow: slot_count=7 align=0.2090 prior=+0.0000",
+        "Evergaol prior for Great Hollow: prior=-0.1997",
+        "Great Hollow status Palace: best=Status_Magic score=0.5084 margin=0.0167",
+        "Great Hollow status Fortress: best=Status_Holy score=0.5010 margin=0.0020",
+        "Great Hollow status Ruins: best=Status_Poison score=0.9360 margin=0.8720",
+        "Great Hollow status Great Church: best=Status_Sleep score=0.5650 margin=0.1300",
+        "Great Hollow model-observation summary:",
+        "  slot2_great_church_status: predicted=Status_Sleep p=0.8545 margin=0.7089",
+        "  palace_status: predicted=Status_Magic p=0.7519 margin=0.5039",
+        "  fortress_status: predicted=Status_Holy p=0.9263 margin=0.8526",
+        "  slot6_ruins_status: predicted=Status_Poison p=0.9579 margin=0.9157",
+        "  slot4_minor: predicted=empty p=0.9691 margin=0.9383",
+        "  slot5_minor: predicted=sorcerers rise p=1.0000 margin=1.0000",
+        "  slot7_minor: predicted=church p=0.9612 margin=0.9224",
+        "Shifting Earth cascade selection disabled (enable with NR_ENABLE_EARTH_CASCADE=1).",
+        "Restricting layout ranking to Great Hollow family from earth_selector_v2.",
+        "Great Hollow model-layout mode active: classic slot likelihood is disabled for GH layout scoring.",
+        "Layout infer for Great Hollow: decided pattern=1075 margin=0.0045 conf=0.2857 latency=78.85ms",
+        "[DONE] Run AI slot recognizer (17.108s)",
+        "Saved AI slot debug image to C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_runtime_temp\\nightreign_gui_ai_f73fb93ee663\\recognition_panel_used_with_slot_labels_ai.png",
+        "Saved Evergaol debug image to C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_runtime_temp\\nightreign_gui_ai_f73fb93ee663\\recognition_panel_used_with_evergaol_debug.png",
+        "",
+        "Top 20 layout matches:",
+        "  1. layout #1075 earth=Great Hollow score=2.496855 earth_score=0.235723 gh_status=+0.0023 gh_under=+0.0000 gh_models=+0.2295 layout_infer=+2.2879 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  2. layout #1065 earth=Great Hollow score=0.641810 earth_score=0.235723 gh_status=+0.3217 gh_under=+0.0000 gh_models=+0.3430 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  3. layout #1175 earth=Great Hollow score=0.641810 earth_score=0.235723 gh_status=+0.3217 gh_under=+0.0000 gh_models=+0.3430 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  4. layout #1016 earth=Great Hollow score=0.640833 earth_score=0.235723 gh_status=+0.3217 gh_under=+0.0000 gh_models=+0.3420 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  5. layout #1045 earth=Great Hollow score=0.640833 earth_score=0.235723 gh_status=+0.3217 gh_under=+0.0000 gh_models=+0.3420 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  6. layout #1049 earth=Great Hollow score=0.640833 earth_score=0.235723 gh_status=+0.3217 gh_under=+0.0000 gh_models=+0.3420 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  7. layout #1125 earth=Great Hollow score=0.640833 earth_score=0.235723 gh_status=+0.3217 gh_under=+0.0000 gh_models=+0.3420 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  8. layout #1025 earth=Great Hollow score=0.574615 earth_score=0.235723 gh_status=+0.1134 gh_under=+0.0000 gh_models=+0.4153 layout_infer=+0.0688 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  9. layout #1193 earth=Great Hollow score=0.574615 earth_score=0.235723 gh_status=+0.1134 gh_under=+0.0000 gh_models=+0.4153 layout_infer=+0.0688 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  10. layout #1008 earth=Great Hollow score=0.485613 earth_score=0.235723 gh_status=+0.3217 gh_under=+0.0000 gh_models=+0.1868 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  11. layout #1179 earth=Great Hollow score=0.349628 earth_score=0.235723 gh_status=+0.1134 gh_under=+0.0000 gh_models=+0.2591 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  12. layout #1190 earth=Great Hollow score=0.349628 earth_score=0.235723 gh_status=+0.1134 gh_under=+0.0000 gh_models=+0.2591 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  13. layout #1058 earth=Great Hollow score=0.348712 earth_score=0.235723 gh_status=+0.2106 gh_under=+0.0000 gh_models=+0.1610 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  14. layout #1129 earth=Great Hollow score=0.344910 earth_score=0.235723 gh_status=+0.2106 gh_under=+0.0000 gh_models=+0.1572 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  15. layout #1181 earth=Great Hollow score=0.338736 earth_score=0.235723 gh_status=+0.1131 gh_under=+0.0000 gh_models=+0.2485 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  16. layout #1055 earth=Great Hollow score=0.324218 earth_score=0.235723 gh_status=+0.2242 gh_under=+0.0000 gh_models=+0.1229 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  17. layout #1126 earth=Great Hollow score=0.324218 earth_score=0.235723 gh_status=+0.2242 gh_under=+0.0000 gh_models=+0.1229 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  18. layout #1176 earth=Great Hollow score=0.324218 earth_score=0.235723 gh_status=+0.2242 gh_under=+0.0000 gh_models=+0.1229 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  19. layout #1194 earth=Great Hollow score=0.320416 earth_score=0.235723 gh_status=+0.2242 gh_under=+0.0000 gh_models=+0.1191 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  20. layout #1133 earth=Great Hollow score=0.319440 earth_score=0.235723 gh_status=+0.2242 gh_under=+0.0000 gh_models=+0.1181 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "",
+        "Timing breakdown:",
+        "  capture_screenshot_or_use_pre_captured: 0.003s",
+        "  panel_crop_preview_initial: 0.517s",
+        "  preview_callback: 0.000s",
+        "  detect_map_circle_main: 0.548s",
+        "  panel_crop_first_pass: 0.027s",
+        "  panel_further_crop_normalize: 3.812s",
+        "  earth_selector_ranking: 0.005s",
+        "  slot_observation_classification_total: 0.017s",
+        "  geometry_prior_computation: 0.000s",
+        "  lost_slot_prior_computation: 0.000s",
+        "  hard_constraint_prior_computation: 0.000s",
+        "  evergaol_prior_detection: 0.307s",
+        "  status_icon_detection: 11.980s",
+        "  great_hollow_layout_model_observation: 0.164s",
+        "  dual_shot_second_status_detection: 0.000s",
+        "  earth_cascade_ranking: 0.000s",
+        "  layout_classifier_inference: 0.156s",
+        "  layout_identification_scoring: 0.005s",
+        "  layout_sort_and_select: 0.000s",
+        "  debug_annotation_rendering: 0.194s",
+        "  display_path_resolution: 0.116s",
+        "  total_run: 18.247s",
+        "Resolved 5 display image(s) for preview/result view.",
+        "GUI total execution time: 18.247s"
+      ]
+    },
+    {
+      "file": "Screenshot (156).png",
+      "top1": {
+        "layout_number": 1006,
+        "score": 2.094845826888251,
+        "shifting_earth": "Great Hollow"
+      },
+      "earth_rank": [],
+      "great_hollow_model_layout_observations": {
+        "slot2_great_church_status": {
+          "spec_key": "slot2_great_church_status",
+          "kind": "status",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.82890625,
+            0.38046875
+          ],
+          "center_px": {
+            "x": 1322,
+            "y": 584
+          },
+          "crop_size": 260,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\slot2_status_cnn_offset50_v1.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Great_Church_Sleep",
+            "Great_Church_Lightning"
+          ],
+          "best_label": "Great_Church_Sleep",
+          "best_prob": 0.8559631109237671,
+          "second_label": "Great_Church_Lightning",
+          "second_prob": 0.14403684437274933,
+          "margin": 0.7119262665510178,
+          "ranking": [
+            {
+              "label": "Great_Church_Sleep",
+              "probability": 0.8559631109237671
+            },
+            {
+              "label": "Great_Church_Lightning",
+              "probability": 0.14403684437274933
+            }
+          ],
+          "weight": 0.14,
+          "parallel_stage": "single",
+          "anchor_type": "Great Church",
+          "predicted_status": "Status_Sleep"
+        },
+        "palace_status": {
+          "spec_key": "palace_status",
+          "kind": "status",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.2762384550797649,
+            0.21343537414965985
+          ],
+          "center_px": {
+            "x": 329,
+            "y": 251
+          },
+          "crop_size": 200,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\palace_status_cnn_retrain_latest.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Status_Magic",
+            "Status_Fire"
+          ],
+          "best_label": "Status_Magic",
+          "best_prob": 0.7519476413726807,
+          "second_label": "Status_Fire",
+          "second_prob": 0.24805240333080292,
+          "margin": 0.5038952380418777,
+          "ranking": [
+            {
+              "label": "Status_Magic",
+              "probability": 0.7519476413726807
+            },
+            {
+              "label": "Status_Fire",
+              "probability": 0.24805240333080292
+            }
+          ],
+          "weight": 0.12,
+          "parallel_stage": "single",
+          "anchor_type": "Palace",
+          "predicted_status": "Status_Magic"
+        },
+        "fortress_status": {
+          "spec_key": "fortress_status",
+          "kind": "status",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.7346767422334173,
+            0.7627551020408163
+          ],
+          "center_px": {
+            "x": 875,
+            "y": 897
+          },
+          "crop_size": 200,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress\\fortress_status_cnn_retrain_latest.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Status_Holy",
+            "Status_Rot"
+          ],
+          "best_label": "Status_Holy",
+          "best_prob": 0.9262939691543579,
+          "second_label": "Status_Rot",
+          "second_prob": 0.07370605319738388,
+          "margin": 0.852587915956974,
+          "ranking": [
+            {
+              "label": "Status_Holy",
+              "probability": 0.9262939691543579
+            },
+            {
+              "label": "Status_Rot",
+              "probability": 0.07370605319738388
+            }
+          ],
+          "weight": 0.12,
+          "parallel_stage": "single",
+          "anchor_type": "Fortress",
+          "predicted_status": "Status_Holy"
+        },
+        "slot6_ruins_status": {
+          "spec_key": "slot6_ruins_status",
+          "kind": "status",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.12090680100755667,
+            0.6215986394557823
+          ],
+          "center_px": {
+            "x": 144,
+            "y": 731
+          },
+          "crop_size": 200,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\slot6_status_cnn.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Ruins_Poison",
+            "Ruins_Bleed"
+          ],
+          "best_label": "Ruins_Poison",
+          "best_prob": 0.9578608274459839,
+          "second_label": "Ruins_Bleed",
+          "second_prob": 0.04213912412524223,
+          "margin": 0.9157217033207417,
+          "ranking": [
+            {
+              "label": "Ruins_Poison",
+              "probability": 0.9578608274459839
+            },
+            {
+              "label": "Ruins_Bleed",
+              "probability": 0.04213912412524223
+            }
+          ],
+          "weight": 0.1,
+          "parallel_stage": "single",
+          "anchor_type": "Ruins",
+          "predicted_status": "Status_Poison"
+        },
+        "slot4_minor": {
+          "spec_key": "slot4_minor",
+          "kind": "slot_label",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.6792611251049538,
+            0.5314625850340136
+          ],
+          "center_px": {
+            "x": 1133,
+            "y": 854
+          },
+          "crop_size": 260,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\slot4_occupied_empty_from_panel_fixed_v1.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "empty",
+            "occupied"
+          ],
+          "best_label": "empty",
+          "best_prob": 0.968818724155426,
+          "second_label": "occupied",
+          "second_prob": 0.031181273981928825,
+          "margin": 0.9376374501734972,
+          "ranking": [
+            {
+              "label": "empty",
+              "probability": 0.968818724155426
+            },
+            {
+              "label": "occupied",
+              "probability": 0.031181273981928825
+            }
+          ],
+          "weight": 0.08,
+          "parallel_stage": "stage1",
+          "slot_id": 4,
+          "predicted_slot_label": "empty"
+        },
+        "slot5_minor": {
+          "spec_key": "slot5_minor",
+          "kind": "slot_label",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.27204030226700254,
+            0.5348639455782312
+          ],
+          "center_px": {
+            "x": 499,
+            "y": 808
+          },
+          "crop_size": 200,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot5_church_vs_sorcerer_panel_v2_userlabels\\slot5_church_vs_sorcerer_v2.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Sorcerers_Rise",
+            "Church"
+          ],
+          "best_label": "Sorcerers_Rise",
+          "best_prob": 0.6420454978942871,
+          "second_label": "Church",
+          "second_prob": 0.35795456171035767,
+          "margin": 0.28409093618392944,
+          "ranking": [
+            {
+              "label": "Sorcerers_Rise",
+              "probability": 0.6420454978942871
+            },
+            {
+              "label": "Church",
+              "probability": 0.35795456171035767
+            }
+          ],
+          "weight": 0.08,
+          "parallel_stage": "stage2",
+          "slot_id": 5,
+          "predicted_slot_label": "sorcerers rise"
+        },
+        "slot7_minor": {
+          "spec_key": "slot7_minor",
+          "kind": "slot_label",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.28463476070528965,
+            0.9226190476190477
+          ],
+          "center_px": {
+            "x": 514,
+            "y": 1264
+          },
+          "crop_size": 260,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260\\slot7_church_vs_sorcerer_bases260\\slot7_church_vs_sorcerer_v1.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Sorcerers_Rise",
+            "Church"
+          ],
+          "best_label": "Sorcerers_Rise",
+          "best_prob": 0.948382556438446,
+          "second_label": "Church",
+          "second_prob": 0.051617395132780075,
+          "margin": 0.896765161305666,
+          "ranking": [
+            {
+              "label": "Sorcerers_Rise",
+              "probability": 0.948382556438446
+            },
+            {
+              "label": "Church",
+              "probability": 0.051617395132780075
+            }
+          ],
+          "weight": 0.08,
+          "parallel_stage": "stage2",
+          "slot_id": 7,
+          "predicted_slot_label": "sorcerers rise"
+        }
+      },
+      "gh_mode": "",
+      "layout_infer_classifier": {},
+      "gh_parallel_slot_summary": {
+        "slot2_great_church_status": {
+          "kind": "status",
+          "best_label": "Great_Church_Sleep",
+          "best_prob": 0.8559631109237671,
+          "margin": 0.7119262665510178,
+          "predicted_status": "Status_Sleep"
+        },
+        "palace_status": {
+          "kind": "status",
+          "best_label": "Status_Magic",
+          "best_prob": 0.7519476413726807,
+          "margin": 0.5038952380418777,
+          "predicted_status": "Status_Magic"
+        },
+        "fortress_status": {
+          "kind": "status",
+          "best_label": "Status_Holy",
+          "best_prob": 0.9262939691543579,
+          "margin": 0.852587915956974,
+          "predicted_status": "Status_Holy"
+        },
+        "slot6_ruins_status": {
+          "kind": "status",
+          "best_label": "Ruins_Poison",
+          "best_prob": 0.9578608274459839,
+          "margin": 0.9157217033207417,
+          "predicted_status": "Status_Poison"
+        },
+        "slot4_minor": {
+          "kind": "slot_label",
+          "best_label": "empty",
+          "best_prob": 0.968818724155426,
+          "margin": 0.9376374501734972,
+          "predicted_slot_label": "empty"
+        },
+        "slot5_minor": {
+          "kind": "slot_label",
+          "best_label": "Sorcerers_Rise",
+          "best_prob": 0.6420454978942871,
+          "margin": 0.28409093618392944,
+          "predicted_slot_label": "sorcerers rise"
+        },
+        "slot7_minor": {
+          "kind": "slot_label",
+          "best_label": "Sorcerers_Rise",
+          "best_prob": 0.948382556438446,
+          "margin": 0.896765161305666,
+          "predicted_slot_label": "sorcerers rise"
+        }
+      },
+      "status": "ok",
+      "log_tail": [
+        "  Noklateo       score=0.163382 low_corr=0.0000 grad_corr=0.0000 source=earth_selector_v2",
+        "  Limveld        score=0.136658 low_corr=0.0000 grad_corr=0.0000 source=earth_selector_v2",
+        "Earth cascade selection is disabled by default; using raw top Shifting Earth for family selection.",
+        "AI slots for earth Great Hollow: dx=-0.0057 dy=+0.0010 resp=0.1571 unknown=1/7",
+        "GH parallel slot2_great_church_status: best=Great_Church_Sleep p=0.8560 margin=0.7119 status=Status_Sleep",
+        "GH parallel palace_status: best=Status_Magic p=0.7519 margin=0.5039 status=Status_Magic",
+        "GH parallel fortress_status: best=Status_Holy p=0.9263 margin=0.8526 status=Status_Holy",
+        "GH parallel slot6_ruins_status: best=Ruins_Poison p=0.9579 margin=0.9157 status=Status_Poison",
+        "GH parallel slot4_minor: best=empty p=0.9688 margin=0.9376 slot=empty",
+        "GH parallel slot5_minor: best=Sorcerers_Rise p=0.6420 margin=0.2841 slot=sorcerers rise",
+        "GH parallel slot7_minor: best=Sorcerers_Rise p=0.9484 margin=0.8968 slot=sorcerers rise",
+        "Geometry prior for Great Hollow: slot_count=7 align=0.1571 prior=+0.0000",
+        "Evergaol prior for Great Hollow: prior=-0.1997",
+        "Great Hollow status Palace: best=Status_Magic score=0.5091 margin=0.0182",
+        "Great Hollow status Fortress: best=Status_Holy score=0.5010 margin=0.0020",
+        "Great Hollow status Ruins: best=Status_Poison score=0.9360 margin=0.8720",
+        "Great Hollow status Great Church: best=Status_Sleep score=0.5803 margin=0.1606",
+        "Great Hollow model-observation summary:",
+        "  slot2_great_church_status: predicted=Status_Sleep p=0.8560 margin=0.7119",
+        "  palace_status: predicted=Status_Magic p=0.7519 margin=0.5039",
+        "  fortress_status: predicted=Status_Holy p=0.9263 margin=0.8526",
+        "  slot6_ruins_status: predicted=Status_Poison p=0.9579 margin=0.9157",
+        "  slot4_minor: predicted=empty p=0.9688 margin=0.9376",
+        "  slot5_minor: predicted=sorcerers rise p=0.6420 margin=0.2841",
+        "  slot7_minor: predicted=sorcerers rise p=0.9484 margin=0.8968",
+        "Shifting Earth cascade selection disabled (enable with NR_ENABLE_EARTH_CASCADE=1).",
+        "Restricting layout ranking to Great Hollow family from earth_selector_v2.",
+        "Great Hollow model-layout mode active: classic slot likelihood is disabled for GH layout scoring.",
+        "Layout infer for Great Hollow: decided pattern=1006 margin=0.0030 conf=0.1667 latency=78.07ms",
+        "[DONE] Run AI slot recognizer (17.469s)",
+        "Saved AI slot debug image to C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_runtime_temp\\nightreign_gui_ai_1d4e6e078cf4\\recognition_panel_used_with_slot_labels_ai.png",
+        "Saved Evergaol debug image to C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_runtime_temp\\nightreign_gui_ai_1d4e6e078cf4\\recognition_panel_used_with_evergaol_debug.png",
+        "",
+        "Top 20 layout matches:",
+        "  1. layout #1006 earth=Great Hollow score=2.094846 earth_score=0.240563 gh_status=-0.0018 gh_under=+0.0000 gh_models=-0.0524 layout_infer=+2.1682 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  2. layout #1065 earth=Great Hollow score=0.838522 earth_score=0.240563 gh_status=+0.3249 gh_under=+0.0000 gh_models=+0.5329 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  3. layout #1175 earth=Great Hollow score=0.838522 earth_score=0.240563 gh_status=+0.3249 gh_under=+0.0000 gh_models=+0.5329 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  4. layout #1129 earth=Great Hollow score=0.540231 earth_score=0.240563 gh_status=+0.2124 gh_under=+0.0000 gh_models=+0.3471 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  5. layout #1008 earth=Great Hollow score=0.528723 earth_score=0.240563 gh_status=+0.3249 gh_under=+0.0000 gh_models=+0.2231 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  6. layout #1016 earth=Great Hollow score=0.528723 earth_score=0.240563 gh_status=+0.3249 gh_under=+0.0000 gh_models=+0.2231 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  7. layout #1045 earth=Great Hollow score=0.528723 earth_score=0.240563 gh_status=+0.3249 gh_under=+0.0000 gh_models=+0.2231 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  8. layout #1049 earth=Great Hollow score=0.528723 earth_score=0.240563 gh_status=+0.3249 gh_under=+0.0000 gh_models=+0.2231 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  9. layout #1125 earth=Great Hollow score=0.528723 earth_score=0.240563 gh_status=+0.3249 gh_under=+0.0000 gh_models=+0.2231 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  10. layout #1194 earth=Great Hollow score=0.517128 earth_score=0.240563 gh_status=+0.2274 gh_under=+0.0000 gh_models=+0.3090 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  11. layout #1058 earth=Great Hollow score=0.473437 earth_score=0.240563 gh_status=+0.2124 gh_under=+0.0000 gh_models=+0.2803 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  12. layout #1017 earth=Great Hollow score=0.388577 earth_score=0.240563 gh_status=+0.2274 gh_under=+0.0000 gh_models=+0.1528 layout_infer=+0.0276 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  13. layout #1028 earth=Great Hollow score=0.386191 earth_score=0.240563 gh_status=+0.0649 gh_under=+0.0000 gh_models=+0.3406 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  14. layout #1180 earth=Great Hollow score=0.384073 earth_score=0.240563 gh_status=+0.2124 gh_under=+0.0000 gh_models=+0.1909 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  15. layout #1025 earth=Great Hollow score=0.316791 earth_score=0.240563 gh_status=+0.1107 gh_under=+0.0000 gh_models=+0.2253 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  16. layout #1193 earth=Great Hollow score=0.316791 earth_score=0.240563 gh_status=+0.1107 gh_under=+0.0000 gh_models=+0.2253 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  17. layout #1055 earth=Great Hollow score=0.296692 earth_score=0.240563 gh_status=+0.2274 gh_under=+0.0000 gh_models=+0.0886 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  18. layout #1126 earth=Great Hollow score=0.296692 earth_score=0.240563 gh_status=+0.2274 gh_under=+0.0000 gh_models=+0.0886 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  19. layout #1176 earth=Great Hollow score=0.296692 earth_score=0.240563 gh_status=+0.2274 gh_under=+0.0000 gh_models=+0.0886 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  20. layout #1182 earth=Great Hollow score=0.264572 earth_score=0.240563 gh_status=+0.1107 gh_under=+0.0000 gh_models=+0.1334 layout_infer=+0.0397 exactW=0.00 mismW=0.00 unkW=0.00",
+        "",
+        "Timing breakdown:",
+        "  capture_screenshot_or_use_pre_captured: 0.003s",
+        "  panel_crop_preview_initial: 0.744s",
+        "  preview_callback: 0.000s",
+        "  detect_map_circle_main: 0.702s",
+        "  panel_crop_first_pass: 0.036s",
+        "  panel_further_crop_normalize: 3.864s",
+        "  earth_selector_ranking: 0.005s",
+        "  slot_observation_classification_total: 0.022s",
+        "  geometry_prior_computation: 0.000s",
+        "  lost_slot_prior_computation: 0.000s",
+        "  hard_constraint_prior_computation: 0.000s",
+        "  evergaol_prior_detection: 0.329s",
+        "  status_icon_detection: 12.098s",
+        "  great_hollow_layout_model_observation: 0.156s",
+        "  dual_shot_second_status_detection: 0.000s",
+        "  earth_cascade_ranking: 0.000s",
+        "  layout_classifier_inference: 0.157s",
+        "  layout_identification_scoring: 0.005s",
+        "  layout_sort_and_select: 0.000s",
+        "  debug_annotation_rendering: 0.194s",
+        "  display_path_resolution: 0.115s",
+        "  total_run: 18.857s",
+        "Resolved 5 display image(s) for preview/result view.",
+        "GUI total execution time: 18.857s"
+      ]
+    },
+    {
+      "file": "Screenshot (157).png",
+      "top1": {
+        "layout_number": 1035,
+        "score": 2.1643116131797577,
+        "shifting_earth": "Great Hollow"
+      },
+      "earth_rank": [],
+      "great_hollow_model_layout_observations": {
+        "slot2_great_church_status": {
+          "spec_key": "slot2_great_church_status",
+          "kind": "status",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.82890625,
+            0.38046875
+          ],
+          "center_px": {
+            "x": 1322,
+            "y": 584
+          },
+          "crop_size": 260,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\slot2_status_cnn_offset50_v1.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Great_Church_Sleep",
+            "Great_Church_Lightning"
+          ],
+          "best_label": "Great_Church_Sleep",
+          "best_prob": 0.8601290583610535,
+          "second_label": "Great_Church_Lightning",
+          "second_prob": 0.13987092673778534,
+          "margin": 0.7202581316232681,
+          "ranking": [
+            {
+              "label": "Great_Church_Sleep",
+              "probability": 0.8601290583610535
+            },
+            {
+              "label": "Great_Church_Lightning",
+              "probability": 0.13987092673778534
+            }
+          ],
+          "weight": 0.14,
+          "parallel_stage": "single",
+          "anchor_type": "Great Church",
+          "predicted_status": "Status_Sleep"
+        },
+        "palace_status": {
+          "spec_key": "palace_status",
+          "kind": "status",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.2762384550797649,
+            0.21343537414965985
+          ],
+          "center_px": {
+            "x": 329,
+            "y": 251
+          },
+          "crop_size": 200,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\palace_status_cnn_retrain_latest.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Status_Magic",
+            "Status_Fire"
+          ],
+          "best_label": "Status_Magic",
+          "best_prob": 0.7881757616996765,
+          "second_label": "Status_Fire",
+          "second_prob": 0.21182431280612946,
+          "margin": 0.5763514488935471,
+          "ranking": [
+            {
+              "label": "Status_Magic",
+              "probability": 0.7881757616996765
+            },
+            {
+              "label": "Status_Fire",
+              "probability": 0.21182431280612946
+            }
+          ],
+          "weight": 0.12,
+          "parallel_stage": "single",
+          "anchor_type": "Palace",
+          "predicted_status": "Status_Magic"
+        },
+        "fortress_status": {
+          "spec_key": "fortress_status",
+          "kind": "status",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.7346767422334173,
+            0.7627551020408163
+          ],
+          "center_px": {
+            "x": 875,
+            "y": 897
+          },
+          "crop_size": 200,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress\\fortress_status_cnn_retrain_latest.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Status_Rot",
+            "Status_Holy"
+          ],
+          "best_label": "Status_Rot",
+          "best_prob": 0.7087808847427368,
+          "second_label": "Status_Holy",
+          "second_prob": 0.2912191152572632,
+          "margin": 0.41756176948547363,
+          "ranking": [
+            {
+              "label": "Status_Rot",
+              "probability": 0.7087808847427368
+            },
+            {
+              "label": "Status_Holy",
+              "probability": 0.2912191152572632
+            }
+          ],
+          "weight": 0.12,
+          "parallel_stage": "single",
+          "anchor_type": "Fortress",
+          "predicted_status": "Status_Rot"
+        },
+        "slot6_ruins_status": {
+          "spec_key": "slot6_ruins_status",
+          "kind": "status",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.12090680100755667,
+            0.6215986394557823
+          ],
+          "center_px": {
+            "x": 144,
+            "y": 731
+          },
+          "crop_size": 200,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\slot6_status_cnn.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Ruins_Poison",
+            "Ruins_Bleed"
+          ],
+          "best_label": "Ruins_Poison",
+          "best_prob": 0.9551455974578857,
+          "second_label": "Ruins_Bleed",
+          "second_prob": 0.04485447332262993,
+          "margin": 0.9102911241352558,
+          "ranking": [
+            {
+              "label": "Ruins_Poison",
+              "probability": 0.9551455974578857
+            },
+            {
+              "label": "Ruins_Bleed",
+              "probability": 0.04485447332262993
+            }
+          ],
+          "weight": 0.1,
+          "parallel_stage": "single",
+          "anchor_type": "Ruins",
+          "predicted_status": "Status_Poison"
+        },
+        "slot4_minor": {
+          "spec_key": "slot4_minor",
+          "kind": "slot_label",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.6792611251049538,
+            0.5314625850340136
+          ],
+          "center_px": {
+            "x": 1133,
+            "y": 854
+          },
+          "crop_size": 260,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\slot4_occupied_empty_from_panel_fixed_v1.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "empty",
+            "occupied"
+          ],
+          "best_label": "empty",
+          "best_prob": 0.9804553389549255,
+          "second_label": "occupied",
+          "second_prob": 0.019544703885912895,
+          "margin": 0.9609106350690126,
+          "ranking": [
+            {
+              "label": "empty",
+              "probability": 0.9804553389549255
+            },
+            {
+              "label": "occupied",
+              "probability": 0.019544703885912895
+            }
+          ],
+          "weight": 0.08,
+          "parallel_stage": "stage1",
+          "slot_id": 4,
+          "predicted_slot_label": "empty"
+        },
+        "slot5_minor": {
+          "spec_key": "slot5_minor",
+          "kind": "slot_label",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.27204030226700254,
+            0.5348639455782312
+          ],
+          "center_px": {
+            "x": 499,
+            "y": 808
+          },
+          "crop_size": 200,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot5_church_vs_sorcerer_panel_v2_userlabels\\slot5_church_vs_sorcerer_v2.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Sorcerers_Rise",
+            "Church"
+          ],
+          "best_label": "Sorcerers_Rise",
+          "best_prob": 0.9999674558639526,
+          "second_label": "Church",
+          "second_prob": 3.257378557464108e-05,
+          "margin": 0.999934882078378,
+          "ranking": [
+            {
+              "label": "Sorcerers_Rise",
+              "probability": 0.9999674558639526
+            },
+            {
+              "label": "Church",
+              "probability": 3.257378557464108e-05
+            }
+          ],
+          "weight": 0.08,
+          "parallel_stage": "stage2",
+          "slot_id": 5,
+          "predicted_slot_label": "sorcerers rise"
+        },
+        "slot7_minor": {
+          "spec_key": "slot7_minor",
+          "kind": "slot_label",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.28463476070528965,
+            0.9226190476190477
+          ],
+          "center_px": {
+            "x": 514,
+            "y": 1264
+          },
+          "crop_size": 260,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260\\slot7_church_vs_sorcerer_bases260\\slot7_church_vs_sorcerer_v1.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Church",
+            "Sorcerers_Rise"
+          ],
+          "best_label": "Church",
+          "best_prob": 0.9571553468704224,
+          "second_label": "Sorcerers_Rise",
+          "second_prob": 0.042844660580158234,
+          "margin": 0.9143106862902641,
+          "ranking": [
+            {
+              "label": "Church",
+              "probability": 0.9571553468704224
+            },
+            {
+              "label": "Sorcerers_Rise",
+              "probability": 0.042844660580158234
+            }
+          ],
+          "weight": 0.08,
+          "parallel_stage": "stage2",
+          "slot_id": 7,
+          "predicted_slot_label": "church"
+        }
+      },
+      "gh_mode": "",
+      "layout_infer_classifier": {},
+      "gh_parallel_slot_summary": {
+        "slot2_great_church_status": {
+          "kind": "status",
+          "best_label": "Great_Church_Sleep",
+          "best_prob": 0.8601290583610535,
+          "margin": 0.7202581316232681,
+          "predicted_status": "Status_Sleep"
+        },
+        "palace_status": {
+          "kind": "status",
+          "best_label": "Status_Magic",
+          "best_prob": 0.7881757616996765,
+          "margin": 0.5763514488935471,
+          "predicted_status": "Status_Magic"
+        },
+        "fortress_status": {
+          "kind": "status",
+          "best_label": "Status_Rot",
+          "best_prob": 0.7087808847427368,
+          "margin": 0.41756176948547363,
+          "predicted_status": "Status_Rot"
+        },
+        "slot6_ruins_status": {
+          "kind": "status",
+          "best_label": "Ruins_Poison",
+          "best_prob": 0.9551455974578857,
+          "margin": 0.9102911241352558,
+          "predicted_status": "Status_Poison"
+        },
+        "slot4_minor": {
+          "kind": "slot_label",
+          "best_label": "empty",
+          "best_prob": 0.9804553389549255,
+          "margin": 0.9609106350690126,
+          "predicted_slot_label": "empty"
+        },
+        "slot5_minor": {
+          "kind": "slot_label",
+          "best_label": "Sorcerers_Rise",
+          "best_prob": 0.9999674558639526,
+          "margin": 0.999934882078378,
+          "predicted_slot_label": "sorcerers rise"
+        },
+        "slot7_minor": {
+          "kind": "slot_label",
+          "best_label": "Church",
+          "best_prob": 0.9571553468704224,
+          "margin": 0.9143106862902641,
+          "predicted_slot_label": "church"
+        }
+      },
+      "status": "ok",
+      "log_tail": [
+        "  Noklateo       score=0.159942 low_corr=0.0000 grad_corr=0.0000 source=earth_selector_v2",
+        "  Limveld        score=0.136491 low_corr=0.0000 grad_corr=0.0000 source=earth_selector_v2",
+        "Earth cascade selection is disabled by default; using raw top Shifting Earth for family selection.",
+        "AI slots for earth Great Hollow: dx=-0.0400 dy=+0.0006 resp=0.0399 unknown=0/7",
+        "GH parallel slot2_great_church_status: best=Great_Church_Sleep p=0.8601 margin=0.7203 status=Status_Sleep",
+        "GH parallel palace_status: best=Status_Magic p=0.7882 margin=0.5764 status=Status_Magic",
+        "GH parallel fortress_status: best=Status_Rot p=0.7088 margin=0.4176 status=Status_Rot",
+        "GH parallel slot6_ruins_status: best=Ruins_Poison p=0.9551 margin=0.9103 status=Status_Poison",
+        "GH parallel slot4_minor: best=empty p=0.9805 margin=0.9609 slot=empty",
+        "GH parallel slot5_minor: best=Sorcerers_Rise p=1.0000 margin=0.9999 slot=sorcerers rise",
+        "GH parallel slot7_minor: best=Church p=0.9572 margin=0.9143 slot=church",
+        "Geometry prior for Great Hollow: slot_count=7 align=0.0399 prior=+0.0000",
+        "Evergaol prior for Great Hollow: prior=-0.1996",
+        "Great Hollow status Palace: best=Status_Magic score=0.5095 margin=0.0189",
+        "Great Hollow status Fortress: best=Status_Holy score=0.5005 margin=0.0010",
+        "Great Hollow status Ruins: best=Status_Poison score=0.9412 margin=0.8825",
+        "Great Hollow status Great Church: best=Status_Sleep score=0.5806 margin=0.1613",
+        "Great Hollow model-observation summary:",
+        "  slot2_great_church_status: predicted=Status_Sleep p=0.8601 margin=0.7203",
+        "  palace_status: predicted=Status_Magic p=0.7882 margin=0.5764",
+        "  fortress_status: predicted=Status_Rot p=0.7088 margin=0.4176",
+        "  slot6_ruins_status: predicted=Status_Poison p=0.9551 margin=0.9103",
+        "  slot4_minor: predicted=empty p=0.9805 margin=0.9609",
+        "  slot5_minor: predicted=sorcerers rise p=1.0000 margin=0.9999",
+        "  slot7_minor: predicted=church p=0.9572 margin=0.9143",
+        "Shifting Earth cascade selection disabled (enable with NR_ENABLE_EARTH_CASCADE=1).",
+        "Restricting layout ranking to Great Hollow family from earth_selector_v2.",
+        "Great Hollow model-layout mode active: classic slot likelihood is disabled for GH layout scoring.",
+        "Layout infer for Great Hollow: decided pattern=1035 margin=0.0035 conf=0.1619 latency=80.56ms",
+        "[DONE] Run AI slot recognizer (17.194s)",
+        "Saved AI slot debug image to C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_runtime_temp\\nightreign_gui_ai_6e982676502d\\recognition_panel_used_with_slot_labels_ai.png",
+        "Saved Evergaol debug image to C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_runtime_temp\\nightreign_gui_ai_6e982676502d\\recognition_panel_used_with_evergaol_debug.png",
+        "",
+        "Top 20 layout matches:",
+        "  1. layout #1035 earth=Great Hollow score=2.164312 earth_score=0.244719 gh_status=+0.1105 gh_under=+0.0000 gh_models=-0.0938 layout_infer=+2.1636 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  2. layout #1181 earth=Great Hollow score=0.544658 earth_score=0.244719 gh_status=+0.1152 gh_under=+0.0000 gh_models=+0.4456 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  3. layout #1055 earth=Great Hollow score=0.539166 earth_score=0.244719 gh_status=+0.2282 gh_under=+0.0000 gh_models=+0.3270 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  4. layout #1126 earth=Great Hollow score=0.539166 earth_score=0.244719 gh_status=+0.2282 gh_under=+0.0000 gh_models=+0.3270 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  5. layout #1176 earth=Great Hollow score=0.539166 earth_score=0.244719 gh_status=+0.2282 gh_under=+0.0000 gh_models=+0.3270 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  6. layout #1194 earth=Great Hollow score=0.536762 earth_score=0.244719 gh_status=+0.2282 gh_under=+0.0000 gh_models=+0.3246 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  7. layout #1133 earth=Great Hollow score=0.533892 earth_score=0.244719 gh_status=+0.2282 gh_under=+0.0000 gh_models=+0.3217 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  8. layout #1065 earth=Great Hollow score=0.456907 earth_score=0.244719 gh_status=+0.3248 gh_under=+0.0000 gh_models=+0.1482 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  9. layout #1175 earth=Great Hollow score=0.456907 earth_score=0.244719 gh_status=+0.3248 gh_under=+0.0000 gh_models=+0.1482 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  10. layout #1016 earth=Great Hollow score=0.454036 earth_score=0.244719 gh_status=+0.3248 gh_under=+0.0000 gh_models=+0.1453 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  11. layout #1045 earth=Great Hollow score=0.454036 earth_score=0.244719 gh_status=+0.3248 gh_under=+0.0000 gh_models=+0.1453 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  12. layout #1049 earth=Great Hollow score=0.454036 earth_score=0.244719 gh_status=+0.3248 gh_under=+0.0000 gh_models=+0.1453 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  13. layout #1125 earth=Great Hollow score=0.454036 earth_score=0.244719 gh_status=+0.3248 gh_under=+0.0000 gh_models=+0.1453 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  14. layout #1116 earth=Great Hollow score=0.399643 earth_score=0.244719 gh_status=-0.0318 gh_under=+0.0000 gh_models=+0.4475 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  15. layout #1017 earth=Great Hollow score=0.379170 earth_score=0.244719 gh_status=+0.2282 gh_under=+0.0000 gh_models=+0.1670 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  16. layout #1025 earth=Great Hollow score=0.312982 earth_score=0.244719 gh_status=+0.1105 gh_under=+0.0000 gh_models=+0.2186 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  17. layout #1193 earth=Great Hollow score=0.312982 earth_score=0.244719 gh_status=+0.1105 gh_under=+0.0000 gh_models=+0.2186 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  18. layout #1008 earth=Great Hollow score=0.299315 earth_score=0.244719 gh_status=+0.3248 gh_under=+0.0000 gh_models=-0.0094 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  19. layout #1037 earth=Great Hollow score=0.235245 earth_score=0.244719 gh_status=+0.0140 gh_under=+0.0000 gh_models=+0.2374 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  20. layout #1119 earth=Great Hollow score=0.235245 earth_score=0.244719 gh_status=+0.0140 gh_under=+0.0000 gh_models=+0.2374 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "",
+        "Timing breakdown:",
+        "  capture_screenshot_or_use_pre_captured: 0.003s",
+        "  panel_crop_preview_initial: 0.690s",
+        "  preview_callback: 0.000s",
+        "  detect_map_circle_main: 0.670s",
+        "  panel_crop_first_pass: 0.028s",
+        "  panel_further_crop_normalize: 3.815s",
+        "  earth_selector_ranking: 0.005s",
+        "  slot_observation_classification_total: 0.017s",
+        "  geometry_prior_computation: 0.000s",
+        "  lost_slot_prior_computation: 0.000s",
+        "  hard_constraint_prior_computation: 0.000s",
+        "  evergaol_prior_detection: 0.328s",
+        "  status_icon_detection: 11.924s",
+        "  great_hollow_layout_model_observation: 0.154s",
+        "  dual_shot_second_status_detection: 0.000s",
+        "  earth_cascade_ranking: 0.000s",
+        "  layout_classifier_inference: 0.159s",
+        "  layout_identification_scoring: 0.006s",
+        "  layout_sort_and_select: 0.000s",
+        "  debug_annotation_rendering: 0.194s",
+        "  display_path_resolution: 0.099s",
+        "  total_run: 18.510s",
+        "Resolved 5 display image(s) for preview/result view.",
+        "GUI total execution time: 18.510s"
+      ]
+    },
+    {
+      "file": "Screenshot (158).png",
+      "top1": {
+        "layout_number": 1122,
+        "score": 2.0483516459800772,
+        "shifting_earth": "Great Hollow"
+      },
+      "earth_rank": [],
+      "great_hollow_model_layout_observations": {
+        "slot2_great_church_status": {
+          "spec_key": "slot2_great_church_status",
+          "kind": "status",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.82890625,
+            0.38046875
+          ],
+          "center_px": {
+            "x": 1322,
+            "y": 584
+          },
+          "crop_size": 260,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\slot2_status_cnn_offset50_v1.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Great_Church_Sleep",
+            "Great_Church_Lightning"
+          ],
+          "best_label": "Great_Church_Sleep",
+          "best_prob": 0.8546051979064941,
+          "second_label": "Great_Church_Lightning",
+          "second_prob": 0.14539486169815063,
+          "margin": 0.7092103362083435,
+          "ranking": [
+            {
+              "label": "Great_Church_Sleep",
+              "probability": 0.8546051979064941
+            },
+            {
+              "label": "Great_Church_Lightning",
+              "probability": 0.14539486169815063
+            }
+          ],
+          "weight": 0.14,
+          "parallel_stage": "single",
+          "anchor_type": "Great Church",
+          "predicted_status": "Status_Sleep"
+        },
+        "palace_status": {
+          "spec_key": "palace_status",
+          "kind": "status",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.2762384550797649,
+            0.21343537414965985
+          ],
+          "center_px": {
+            "x": 329,
+            "y": 251
+          },
+          "crop_size": 200,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\palace_status_cnn_retrain_latest.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Status_Fire",
+            "Status_Magic"
+          ],
+          "best_label": "Status_Fire",
+          "best_prob": 0.9999440908432007,
+          "second_label": "Status_Magic",
+          "second_prob": 5.5937816796358675e-05,
+          "margin": 0.9998881530264043,
+          "ranking": [
+            {
+              "label": "Status_Fire",
+              "probability": 0.9999440908432007
+            },
+            {
+              "label": "Status_Magic",
+              "probability": 5.5937816796358675e-05
+            }
+          ],
+          "weight": 0.12,
+          "parallel_stage": "single",
+          "anchor_type": "Palace",
+          "predicted_status": "Status_Fire"
+        },
+        "fortress_status": {
+          "spec_key": "fortress_status",
+          "kind": "status",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.7346767422334173,
+            0.7627551020408163
+          ],
+          "center_px": {
+            "x": 875,
+            "y": 897
+          },
+          "crop_size": 200,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress\\fortress_status_cnn_retrain_latest.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Status_Rot",
+            "Status_Holy"
+          ],
+          "best_label": "Status_Rot",
+          "best_prob": 0.7239735722541809,
+          "second_label": "Status_Holy",
+          "second_prob": 0.2760264575481415,
+          "margin": 0.44794711470603943,
+          "ranking": [
+            {
+              "label": "Status_Rot",
+              "probability": 0.7239735722541809
+            },
+            {
+              "label": "Status_Holy",
+              "probability": 0.2760264575481415
+            }
+          ],
+          "weight": 0.12,
+          "parallel_stage": "single",
+          "anchor_type": "Fortress",
+          "predicted_status": "Status_Rot"
+        },
+        "slot6_ruins_status": {
+          "spec_key": "slot6_ruins_status",
+          "kind": "status",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.12090680100755667,
+            0.6215986394557823
+          ],
+          "center_px": {
+            "x": 144,
+            "y": 731
+          },
+          "crop_size": 200,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\slot6_status_cnn.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Ruins_Bleed",
+            "Ruins_Poison"
+          ],
+          "best_label": "Ruins_Bleed",
+          "best_prob": 0.9311577081680298,
+          "second_label": "Ruins_Poison",
+          "second_prob": 0.06884229928255081,
+          "margin": 0.862315408885479,
+          "ranking": [
+            {
+              "label": "Ruins_Bleed",
+              "probability": 0.9311577081680298
+            },
+            {
+              "label": "Ruins_Poison",
+              "probability": 0.06884229928255081
+            }
+          ],
+          "weight": 0.1,
+          "parallel_stage": "single",
+          "anchor_type": "Ruins",
+          "predicted_status": "Status_Bleed"
+        },
+        "slot4_minor": {
+          "spec_key": "slot4_minor",
+          "kind": "slot_label",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.6792611251049538,
+            0.5314625850340136
+          ],
+          "center_px": {
+            "x": 1133,
+            "y": 854
+          },
+          "crop_size": 260,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\slot4_occupied_empty_from_panel_fixed_v1.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "empty",
+            "occupied"
+          ],
+          "best_label": "empty",
+          "best_prob": 0.9691463112831116,
+          "second_label": "occupied",
+          "second_prob": 0.03085361421108246,
+          "margin": 0.9382926970720291,
+          "ranking": [
+            {
+              "label": "empty",
+              "probability": 0.9691463112831116
+            },
+            {
+              "label": "occupied",
+              "probability": 0.03085361421108246
+            }
+          ],
+          "weight": 0.08,
+          "parallel_stage": "stage1",
+          "slot_id": 4,
+          "predicted_slot_label": "empty"
+        },
+        "slot5_minor": {
+          "spec_key": "slot5_minor",
+          "kind": "slot_label",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.27204030226700254,
+            0.5348639455782312
+          ],
+          "center_px": {
+            "x": 499,
+            "y": 808
+          },
+          "crop_size": 200,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot5_church_vs_sorcerer_panel_v2_userlabels\\slot5_church_vs_sorcerer_v2.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Sorcerers_Rise",
+            "Church"
+          ],
+          "best_label": "Sorcerers_Rise",
+          "best_prob": 0.9999943971633911,
+          "second_label": "Church",
+          "second_prob": 5.543205588764977e-06,
+          "margin": 0.9999888539578023,
+          "ranking": [
+            {
+              "label": "Sorcerers_Rise",
+              "probability": 0.9999943971633911
+            },
+            {
+              "label": "Church",
+              "probability": 5.543205588764977e-06
+            }
+          ],
+          "weight": 0.08,
+          "parallel_stage": "stage2",
+          "slot_id": 5,
+          "predicted_slot_label": "sorcerers rise"
+        },
+        "slot7_minor": {
+          "spec_key": "slot7_minor",
+          "kind": "slot_label",
+          "source": "parallel_panel_script",
+          "center_norm": [
+            0.28463476070528965,
+            0.9226190476190477
+          ],
+          "center_px": {
+            "x": 514,
+            "y": 1264
+          },
+          "crop_size": 260,
+          "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260\\slot7_church_vs_sorcerer_bases260\\slot7_church_vs_sorcerer_v1.pt",
+          "module_path": "Testing/run_parallel_panel_classifiers.py",
+          "class_names": [
+            "Church",
+            "Sorcerers_Rise"
+          ],
+          "best_label": "Church",
+          "best_prob": 0.9612285494804382,
+          "second_label": "Sorcerers_Rise",
+          "second_prob": 0.038771457970142365,
+          "margin": 0.9224570915102959,
+          "ranking": [
+            {
+              "label": "Church",
+              "probability": 0.9612285494804382
+            },
+            {
+              "label": "Sorcerers_Rise",
+              "probability": 0.038771457970142365
+            }
+          ],
+          "weight": 0.08,
+          "parallel_stage": "stage2",
+          "slot_id": 7,
+          "predicted_slot_label": "church"
+        }
+      },
+      "gh_mode": "",
+      "layout_infer_classifier": {},
+      "gh_parallel_slot_summary": {
+        "slot2_great_church_status": {
+          "kind": "status",
+          "best_label": "Great_Church_Sleep",
+          "best_prob": 0.8546051979064941,
+          "margin": 0.7092103362083435,
+          "predicted_status": "Status_Sleep"
+        },
+        "palace_status": {
+          "kind": "status",
+          "best_label": "Status_Fire",
+          "best_prob": 0.9999440908432007,
+          "margin": 0.9998881530264043,
+          "predicted_status": "Status_Fire"
+        },
+        "fortress_status": {
+          "kind": "status",
+          "best_label": "Status_Rot",
+          "best_prob": 0.7239735722541809,
+          "margin": 0.44794711470603943,
+          "predicted_status": "Status_Rot"
+        },
+        "slot6_ruins_status": {
+          "kind": "status",
+          "best_label": "Ruins_Bleed",
+          "best_prob": 0.9311577081680298,
+          "margin": 0.862315408885479,
+          "predicted_status": "Status_Bleed"
+        },
+        "slot4_minor": {
+          "kind": "slot_label",
+          "best_label": "empty",
+          "best_prob": 0.9691463112831116,
+          "margin": 0.9382926970720291,
+          "predicted_slot_label": "empty"
+        },
+        "slot5_minor": {
+          "kind": "slot_label",
+          "best_label": "Sorcerers_Rise",
+          "best_prob": 0.9999943971633911,
+          "margin": 0.9999888539578023,
+          "predicted_slot_label": "sorcerers rise"
+        },
+        "slot7_minor": {
+          "kind": "slot_label",
+          "best_label": "Church",
+          "best_prob": 0.9612285494804382,
+          "margin": 0.9224570915102959,
+          "predicted_slot_label": "church"
+        }
+      },
+      "status": "ok",
+      "log_tail": [
+        "  Noklateo       score=0.163076 low_corr=0.0000 grad_corr=0.0000 source=earth_selector_v2",
+        "  Limveld        score=0.137822 low_corr=0.0000 grad_corr=0.0000 source=earth_selector_v2",
+        "Earth cascade selection is disabled by default; using raw top Shifting Earth for family selection.",
+        "AI slots for earth Great Hollow: dx=-0.0059 dy=+0.0011 resp=0.1587 unknown=0/7",
+        "GH parallel slot2_great_church_status: best=Great_Church_Sleep p=0.8546 margin=0.7092 status=Status_Sleep",
+        "GH parallel palace_status: best=Status_Fire p=0.9999 margin=0.9999 status=Status_Fire",
+        "GH parallel fortress_status: best=Status_Rot p=0.7240 margin=0.4479 status=Status_Rot",
+        "GH parallel slot6_ruins_status: best=Ruins_Bleed p=0.9312 margin=0.8623 status=Status_Bleed",
+        "GH parallel slot4_minor: best=empty p=0.9691 margin=0.9383 slot=empty",
+        "GH parallel slot5_minor: best=Sorcerers_Rise p=1.0000 margin=1.0000 slot=sorcerers rise",
+        "GH parallel slot7_minor: best=Church p=0.9612 margin=0.9225 slot=church",
+        "Geometry prior for Great Hollow: slot_count=7 align=0.1587 prior=+0.0000",
+        "Evergaol prior for Great Hollow: prior=-0.1997",
+        "Great Hollow status Palace: best=Status_Magic score=0.5056 margin=0.0113",
+        "Great Hollow status Fortress: best=Status_Holy score=0.5004 margin=0.0008",
+        "Great Hollow status Ruins: best=Status_Poison score=0.9401 margin=0.8803",
+        "Great Hollow status Great Church: best=Status_Sleep score=0.5803 margin=0.1606",
+        "Great Hollow model-observation summary:",
+        "  slot2_great_church_status: predicted=Status_Sleep p=0.8546 margin=0.7092",
+        "  palace_status: predicted=Status_Fire p=0.9999 margin=0.9999",
+        "  fortress_status: predicted=Status_Rot p=0.7240 margin=0.4479",
+        "  slot6_ruins_status: predicted=Status_Bleed p=0.9312 margin=0.8623",
+        "  slot4_minor: predicted=empty p=0.9691 margin=0.9383",
+        "  slot5_minor: predicted=sorcerers rise p=1.0000 margin=1.0000",
+        "  slot7_minor: predicted=church p=0.9612 margin=0.9225",
+        "Shifting Earth cascade selection disabled (enable with NR_ENABLE_EARTH_CASCADE=1).",
+        "Restricting layout ranking to Great Hollow family from earth_selector_v2.",
+        "Great Hollow model-layout mode active: classic slot likelihood is disabled for GH layout scoring.",
+        "Layout infer for Great Hollow: decided pattern=1122 margin=0.0164 conf=0.1693 latency=78.72ms",
+        "[DONE] Run AI slot recognizer (17.210s)",
+        "Saved AI slot debug image to C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_runtime_temp\\nightreign_gui_ai_9e5440ab193d\\recognition_panel_used_with_slot_labels_ai.png",
+        "Saved Evergaol debug image to C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_runtime_temp\\nightreign_gui_ai_9e5440ab193d\\recognition_panel_used_with_evergaol_debug.png",
+        "",
+        "Top 20 layout matches:",
+        "  1. layout #1122 earth=Great Hollow score=2.048352 earth_score=0.232920 gh_status=+0.0014 gh_under=+0.0000 gh_models=-0.1056 layout_infer=+2.1775 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  2. layout #1181 earth=Great Hollow score=0.567494 earth_score=0.232920 gh_status=+0.1192 gh_under=+0.0000 gh_models=+0.4733 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  3. layout #1029 earth=Great Hollow score=0.494965 earth_score=0.232920 gh_status=-0.1408 gh_under=+0.0000 gh_models=+0.6608 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  4. layout #1130 earth=Great Hollow score=0.411604 earth_score=0.232920 gh_status=-0.0445 gh_under=+0.0000 gh_models=+0.4811 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  5. layout #1116 earth=Great Hollow score=0.361014 earth_score=0.232920 gh_status=-0.0348 gh_under=+0.0000 gh_models=+0.4208 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  6. layout #1078 earth=Great Hollow score=0.338766 earth_score=0.232920 gh_status=-0.1408 gh_under=+0.0000 gh_models=+0.5046 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  7. layout #1127 earth=Great Hollow score=0.255405 earth_score=0.232920 gh_status=-0.0445 gh_under=+0.0000 gh_models=+0.3249 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  8. layout #1178 earth=Great Hollow score=0.251296 earth_score=0.232920 gh_status=+0.1192 gh_under=+0.0000 gh_models=+0.1571 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  9. layout #1036 earth=Great Hollow score=0.183542 earth_score=0.232920 gh_status=-0.1408 gh_under=+0.0000 gh_models=+0.3494 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  10. layout #1027 earth=Great Hollow score=0.178766 earth_score=0.232920 gh_status=-0.1408 gh_under=+0.0000 gh_models=+0.3446 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  11. layout #1058 earth=Great Hollow score=0.172711 earth_score=0.232920 gh_status=+0.2155 gh_under=+0.0000 gh_models=-0.0178 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  12. layout #1129 earth=Great Hollow score=0.168911 earth_score=0.232920 gh_status=+0.2155 gh_under=+0.0000 gh_models=-0.0216 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  13. layout #1055 earth=Great Hollow score=0.122121 earth_score=0.232920 gh_status=+0.2252 gh_under=+0.0000 gh_models=-0.0781 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  14. layout #1126 earth=Great Hollow score=0.122121 earth_score=0.232920 gh_status=+0.2252 gh_under=+0.0000 gh_models=-0.0781 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  15. layout #1176 earth=Great Hollow score=0.122121 earth_score=0.232920 gh_status=+0.2252 gh_under=+0.0000 gh_models=-0.0781 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  16. layout #1194 earth=Great Hollow score=0.118320 earth_score=0.232920 gh_status=+0.2252 gh_under=+0.0000 gh_models=-0.0819 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  17. layout #1133 earth=Great Hollow score=0.117345 earth_score=0.232920 gh_status=+0.2252 gh_under=+0.0000 gh_models=-0.0829 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  18. layout #1065 earth=Great Hollow score=0.034960 earth_score=0.232920 gh_status=+0.3216 gh_under=+0.0000 gh_models=-0.2616 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  19. layout #1175 earth=Great Hollow score=0.034960 earth_score=0.232920 gh_status=+0.3216 gh_under=+0.0000 gh_models=-0.2616 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "  20. layout #1016 earth=Great Hollow score=0.033984 earth_score=0.232920 gh_status=+0.3216 gh_under=+0.0000 gh_models=-0.2626 layout_infer=+0.0000 exactW=0.00 mismW=0.00 unkW=0.00",
+        "",
+        "Timing breakdown:",
+        "  capture_screenshot_or_use_pre_captured: 0.003s",
+        "  panel_crop_preview_initial: 0.594s",
+        "  preview_callback: 0.000s",
+        "  detect_map_circle_main: 0.532s",
+        "  panel_crop_first_pass: 0.034s",
+        "  panel_further_crop_normalize: 3.868s",
+        "  earth_selector_ranking: 0.005s",
+        "  slot_observation_classification_total: 0.022s",
+        "  geometry_prior_computation: 0.000s",
+        "  lost_slot_prior_computation: 0.000s",
+        "  hard_constraint_prior_computation: 0.000s",
+        "  evergaol_prior_detection: 0.368s",
+        "  status_icon_detection: 11.972s",
+        "  great_hollow_layout_model_observation: 0.153s",
+        "  dual_shot_second_status_detection: 0.000s",
+        "  earth_cascade_ranking: 0.000s",
+        "  layout_classifier_inference: 0.157s",
+        "  layout_identification_scoring: 0.005s",
+        "  layout_sort_and_select: 0.000s",
+        "  debug_annotation_rendering: 0.200s",
+        "  display_path_resolution: 0.107s",
+        "  total_run: 18.419s",
+        "Resolved 5 display image(s) for preview/result view.",
+        "GUI total execution time: 18.419s"
+      ]
+    }
+  ]
+}

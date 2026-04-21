@@ -1,0 +1,11 @@
+{
+  "source_dir": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\renders\\recognizer_no_text",
+  "pattern_count_expected": 80,
+  "pattern_count_written": 80,
+  "missing_or_unreadable_pattern_ids": [],
+  "outputs": {
+    "panel_crop_1536_dir": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops\\panel_crop_1536",
+    "further_crop_1024_dir": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops\\further_crop_1024",
+    "combined_preview_dir": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops\\combined"
+  }
+}

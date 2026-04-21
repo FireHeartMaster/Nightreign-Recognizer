@@ -1,0 +1,285 @@
+{
+  "device": "cuda",
+  "model_path": "slot_ai_test_output_dlc_no_text_nobalance\\slot_patch_model_v1.pt",
+  "model_size_mb": 0.792,
+  "label_counts_total": {
+    "Great Church": 1083,
+    "Sorcerer's Rise": 843,
+    "Fort": 1045,
+    "Main Encampment": 1488,
+    "Ruins": 1911,
+    "Church": 1629,
+    "empty": 2202,
+    "Township": 187,
+    "Swamp": 428,
+    "Fortified Village": 524
+  },
+  "source_counts_total": {
+    "recognizer_no_text": 11340
+  },
+  "train_samples": 7965,
+  "val_samples": 1644,
+  "test_samples": 1731,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 2.0477710350309613,
+      "train_acc": 0.23289391086001254,
+      "val_loss": 2.3493098742770453,
+      "val_acc": 0.2329683698296837,
+      "val_per_source_acc": {
+        "recognizer_no_text": 0.2329683698296837
+      }
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.293246411424123,
+      "train_acc": 0.5664783427495292,
+      "val_loss": 1.6133684668227704,
+      "val_acc": 0.45742092457420924,
+      "val_per_source_acc": {
+        "recognizer_no_text": 0.45742092457420924
+      }
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.704905998504768,
+      "train_acc": 0.7939736346516008,
+      "val_loss": 1.1786118597879898,
+      "val_acc": 0.5346715328467153,
+      "val_per_source_acc": {
+        "recognizer_no_text": 0.5346715328467153
+      }
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.39815671853650986,
+      "train_acc": 0.8875078468298807,
+      "val_loss": 4.155505628481398,
+      "val_acc": 0.4628953771289538,
+      "val_per_source_acc": {
+        "recognizer_no_text": 0.4628953771289538
+      }
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.2556610032158383,
+      "train_acc": 0.9249215317011927,
+      "val_loss": 0.46542205036121564,
+      "val_acc": 0.8266423357664233,
+      "val_per_source_acc": {
+        "recognizer_no_text": 0.8266423357664233
+      }
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.22307765341298952,
+      "train_acc": 0.9322033898305084,
+      "val_loss": 0.18051638894707617,
+      "val_acc": 0.9549878345498783,
+      "val_per_source_acc": {
+        "recognizer_no_text": 0.9549878345498783
+      }
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.1387237212415469,
+      "train_acc": 0.9632140615191462,
+      "val_loss": 0.09952210819851744,
+      "val_acc": 0.968978102189781,
+      "val_per_source_acc": {
+        "recognizer_no_text": 0.968978102189781
+      }
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.13281235905914882,
+      "train_acc": 0.9615819209039548,
+      "val_loss": 3.346937645960898,
+      "val_acc": 0.4367396593673966,
+      "val_per_source_acc": {
+        "recognizer_no_text": 0.4367396593673966
+      }
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.10062788568310818,
+      "train_acc": 0.9722536095417451,
+      "val_loss": 0.30362236771705375,
+      "val_acc": 0.8965936739659367,
+      "val_per_source_acc": {
+        "recognizer_no_text": 0.8965936739659367
+      }
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.1072203702537129,
+      "train_acc": 0.9682360326428123,
+      "val_loss": 0.43154176944581263,
+      "val_acc": 0.8661800486618005,
+      "val_per_source_acc": {
+        "recognizer_no_text": 0.8661800486618005
+      }
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.07910654826857949,
+      "train_acc": 0.9781544256120527,
+      "val_loss": 0.5205736615470726,
+      "val_acc": 0.8278588807785888,
+      "val_per_source_acc": {
+        "recognizer_no_text": 0.8278588807785888
+      }
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.06402000380809754,
+      "train_acc": 0.9839296924042686,
+      "val_loss": 0.048992324117435156,
+      "val_acc": 0.9793187347931873,
+      "val_per_source_acc": {
+        "recognizer_no_text": 0.9793187347931873
+      }
+    }
+  ],
+  "final_val": {
+    "loss": 0.048992324117435156,
+    "acc": 0.9793187347931873,
+    "per_class_acc": {
+      "empty": 0.9905362776025236,
+      "Church": 0.983739837398374,
+      "Fort": 1.0,
+      "Fortified Village": 1.0,
+      "Great Church": 1.0,
+      "Main Encampment": 1.0,
+      "Ruins": 0.9112903225806451,
+      "Sorcerer's Rise": 0.9922480620155039,
+      "Swamp": 1.0,
+      "Township": 0.8571428571428571
+    },
+    "per_source_acc": {
+      "recognizer_no_text": 0.9793187347931873
+    },
+    "confusion": {
+      "Fort": {
+        "Fort": 127
+      },
+      "Ruins": {
+        "Ruins": 226,
+        "Township": 22
+      },
+      "Church": {
+        "Church": 242,
+        "Township": 4
+      },
+      "Main Encampment": {
+        "Main Encampment": 206
+      },
+      "empty": {
+        "empty": 314,
+        "Main Encampment": 2,
+        "Township": 1
+      },
+      "Township": {
+        "Township": 24,
+        "empty": 4
+      },
+      "Great Church": {
+        "Great Church": 168
+      },
+      "Sorcerer's Rise": {
+        "Sorcerer's Rise": 128,
+        "empty": 1
+      },
+      "Fortified Village": {
+        "Fortified Village": 94
+      },
+      "Swamp": {
+        "Swamp": 81
+      }
+    },
+    "count": 1644
+  },
+  "final_test": {
+    "loss": 0.06408397979918137,
+    "acc": 0.9722703639514731,
+    "per_class_acc": {
+      "empty": 0.9819277108433735,
+      "Church": 0.9755102040816327,
+      "Fort": 1.0,
+      "Fortified Village": 0.9710144927536232,
+      "Great Church": 0.9936305732484076,
+      "Main Encampment": 1.0,
+      "Ruins": 0.9211356466876972,
+      "Sorcerer's Rise": 0.9767441860465116,
+      "Swamp": 1.0,
+      "Township": 0.8333333333333334
+    },
+    "per_source_acc": {
+      "recognizer_no_text": 0.9722703639514731
+    },
+    "confusion": {
+      "Ruins": {
+        "Ruins": 292,
+        "Township": 25
+      },
+      "Main Encampment": {
+        "Main Encampment": 233
+      },
+      "Church": {
+        "Church": 239,
+        "Township": 6
+      },
+      "Fort": {
+        "Fort": 167
+      },
+      "Sorcerer's Rise": {
+        "Sorcerer's Rise": 126,
+        "empty": 3
+      },
+      "empty": {
+        "empty": 326,
+        "Main Encampment": 3,
+        "Township": 2,
+        "Swamp": 1
+      },
+      "Great Church": {
+        "Great Church": 156,
+        "Fort": 1
+      },
+      "Township": {
+        "Township": 25,
+        "empty": 5
+      },
+      "Fortified Village": {
+        "Fortified Village": 67,
+        "Ruins": 1,
+        "Township": 1
+      },
+      "Swamp": {
+        "Swamp": 52
+      }
+    },
+    "count": 1731
+  },
+  "args": {
+    "package": "nightreign_geom_proto_v4_slots.npz",
+    "images_dirs": [
+      "renders\\recognizer_no_text"
+    ],
+    "patch_size": 96,
+    "context_scale": 1.8,
+    "min_half_frac": 0.075,
+    "train_ratio": 0.7,
+    "val_ratio": 0.15,
+    "seed": 12345,
+    "epochs": 12,
+    "batch_size": 96,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "num_workers": 0,
+    "balance_sampler": false,
+    "max_layouts_per_dir": 0,
+    "output_dir": "slot_ai_test_output_dlc_no_text_nobalance"
+  }
+}

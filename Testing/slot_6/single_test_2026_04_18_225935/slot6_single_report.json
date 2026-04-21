@@ -1,0 +1,60 @@
+{
+  "mode": "slot6_status_on_full_screenshot_via_gh_asym",
+  "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\slot6_status_cnn.pt",
+  "class_names": [
+    "Ruins_Bleed",
+    "Ruins_Poison"
+  ],
+  "model_meta": {
+    "best_epoch": 12,
+    "best_val_accuracy": 1.0,
+    "train_samples": 196,
+    "val_samples": 49
+  },
+  "gh_asym": {
+    "input_size": 1536,
+    "crop": {
+      "left": 175,
+      "right": 170,
+      "top": 180,
+      "bottom": 180
+    }
+  },
+  "slot6_spec": {
+    "center_norm": [
+      0.12090680100755667,
+      0.6215986394557823
+    ],
+    "crop_size": 200
+  },
+  "result": {
+    "input_image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Captura de tela 2026-04-18 225935_.png",
+    "predicted_label": "Ruins_Bleed",
+    "confidence": 0.9794517159461975,
+    "ranking": [
+      {
+        "label": "Ruins_Bleed",
+        "probability": 0.9794517159461975
+      },
+      {
+        "label": "Ruins_Poison",
+        "probability": 0.02054835483431816
+      }
+    ],
+    "panel_crop_box": {
+      "x0": 2174,
+      "y0": 340,
+      "x1": 3664,
+      "y1": 1830
+    },
+    "slot6_center_asym_px": {
+      "x": 144,
+      "y": 731
+    },
+    "slot6_crop_size": 200,
+    "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\single_test_2026_04_18_225935\\Captura de tela 2026-04-18 225935___panel_crop.png",
+    "gh_asym_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\single_test_2026_04_18_225935\\Captura de tela 2026-04-18 225935___gh_asym.png",
+    "slot6_patch_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\single_test_2026_04_18_225935\\Captura de tela 2026-04-18 225935___slot6_patch_200.png",
+    "slot6_overlay_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\single_test_2026_04_18_225935\\Captura de tela 2026-04-18 225935___gh_asym_slot6_box.png"
+  }
+}

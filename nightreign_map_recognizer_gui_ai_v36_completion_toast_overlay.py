@@ -96,18 +96,164 @@ GREAT_HOLLOW_PATTERNSET_STATUS_BY_FIELD = {
     "greatHollowEastFortMainModifier2": ("Fortress", "Status_Holy"),
     "greatHollowWestFortMainModifier1": ("Palace", "Status_Fire"),
     "greatHollowWestFortMainModifier2": ("Palace", "Status_Magic"),
+    # Great Hollow-specific status anchors beyond Palace/Fortress.
+    # Mapping convention follows modifier index 1->first allowed status, 2->second allowed status.
+    "greatHollowWestFortUnderModifier1": ("Ruins", "Status_Poison"),
+    "greatHollowWestFortUnderModifier2": ("Ruins", "Status_Bleed"),
+    "greatHollowWestFortLibraryModifier1": ("Great Church", "Status_Sleep"),
+    "greatHollowWestFortLibraryModifier2": ("Great Church", "Status_Lightning"),
 }
 GREAT_HOLLOW_SYNTHETIC_WORLD_POINTS = {
     "Fortress": (734.399, 267.268),
     "Palace": (278.752, 805.636),
+    "Ruins": (138.250, 392.670),
+    "Great Church": (933.460, 548.590),
 }
 GREAT_HOLLOW_CROP_BORDER = 128.0
+GREAT_HOLLOW_STATUS_INPUT_SIZE = 1536
+GREAT_HOLLOW_STATUS_CROP_LEFT_PX = 220
+GREAT_HOLLOW_STATUS_CROP_RIGHT_PX = 100
+GREAT_HOLLOW_STATUS_CROP_TOP_PX = 140
+GREAT_HOLLOW_STATUS_CROP_BOTTOM_PX = 170
 GREAT_HOLLOW_STATUS_ICON_SOURCES = None
 GREAT_HOLLOW_FIXED_STATUS_TEMPLATE_CACHE = None
 GREAT_HOLLOW_LAYOUT_STATUS_CACHE = {}
 GREAT_HOLLOW_STATUS_ANCHOR_CACHE = None
+GREAT_HOLLOW_STATUS_CLASSIFIER_MODE_DEFAULT = "classic"  # classic|models
+GREAT_HOLLOW_STATUS_MODEL_PATHS = {
+    "Palace": (
+        Path("tmp_palace_magic_fire_test") / "palace_magic_fire_test_model.pt",
+    ),
+    "Fortress": (
+        Path("tmp_fortress_rot_holy_test") / "fortress_rot_holy_test_model.pt",
+    ),
+    "Ruins": (
+        Path("tmp_ruins_poison_bleed_test") / "ruins_poison_bleed_test_model.pt",
+    ),
+    "Great Church": (
+        Path("tmp_gc_sleep_lightning_test") / "gc_sleep_lightning_test_model.pt",
+    ),
+}
+GREAT_HOLLOW_STATUS_MODEL_CACHE: dict = {}
 ICON_RECOGNIZER_V4_MODULE = None
 ICON_RECOGNIZER_V4_LOAD_ATTEMPTED = False
+GH_SLOT4_CLASSIFIER_MODE_DEFAULT = "classic"  # classic|prototype
+GH_SLOT4_TARGET_SLOT_ID = 4
+GH_SLOT4_EMPTY_GATE_THRESHOLD_DEFAULT = 0.50
+GH_SLOT4_PROTOTYPE_MODEL_PATHS = (
+    Path("tmp_gh_slot4_prototype_model_test") / "gh_slot4_empty_vs_churchrise_prototype_model.pkl",
+)
+GH_SLOT4_PROTOTYPE_CACHE = None
+GREAT_HOLLOW_LAYOUT_MODEL_MATCH_MODE_DEFAULT = "models"  # classic|models
+GREAT_HOLLOW_LAYOUT_MODEL_ASYM_INPUT_SIZE = 1536
+GREAT_HOLLOW_LAYOUT_MODEL_CROP_LEFT_PX = 175
+GREAT_HOLLOW_LAYOUT_MODEL_CROP_RIGHT_PX = 170
+GREAT_HOLLOW_LAYOUT_MODEL_CROP_TOP_PX = 180
+GREAT_HOLLOW_LAYOUT_MODEL_CROP_BOTTOM_PX = 180
+GREAT_HOLLOW_LAYOUT_MODEL_SPECS = {
+    "slot2_great_church_status": {
+        "kind": "status",
+        "anchor_type": "Great Church",
+        "source": "panel_raw",
+        "crop_size": 200,
+        "center_norm": (0.82890625, 0.38046875),  # panel crop normalized (top-left)
+        "weight": 0.14,
+        "module_paths": (
+            Path("Testing") / "slot_2" / "layout_classifier_lib.py",
+        ),
+        "model_paths": (
+            Path("Testing") / "slot_2" / "slot2_status_cnn.pt",
+        ),
+    },
+    "palace_status": {
+        "kind": "status",
+        "anchor_type": "Palace",
+        "source": "gh_asym_legacy",
+        "crop_size": 200,
+        "center_norm": (329.0 / 1191.0, 251.0 / 1176.0),
+        "weight": 0.12,
+        "module_paths": (
+            Path("Testing") / "palace" / "layout_classifier_lib.py",
+        ),
+        "model_paths": (
+            Path("Testing") / "palace" / "palace_status_cnn.pt",
+        ),
+    },
+    "fortress_status": {
+        "kind": "status",
+        "anchor_type": "Fortress",
+        "source": "gh_asym_legacy",
+        "crop_size": 200,
+        "center_norm": (875.0 / 1191.0, 897.0 / 1176.0),
+        "weight": 0.12,
+        "module_paths": (
+            Path("Testing") / "fortress" / "layout_classifier_lib.py",
+        ),
+        "model_paths": (
+            Path("Testing") / "fortress" / "fortress_status_cnn.pt",
+        ),
+    },
+    "slot6_ruins_status": {
+        "kind": "status",
+        "anchor_type": "Ruins",
+        "source": "gh_asym_legacy",
+        "crop_size": 200,
+        "center_norm": (144.0 / 1191.0, 731.0 / 1176.0),
+        "weight": 0.10,
+        "module_paths": (
+            Path("Testing") / "slot_6" / "layout_classifier_lib.py",
+        ),
+        "model_paths": (
+            Path("Testing") / "slot_6" / "slot6_status_cnn.pt",
+        ),
+    },
+    "slot4_minor": {
+        "kind": "slot_label",
+        "slot_id": 4,
+        "source": "gh_asym_legacy",
+        "crop_size": 200,
+        "center_norm": (809.0 / 1191.0, 625.0 / 1176.0),
+        "weight": 0.08,
+        "module_paths": (
+            Path("Testing") / "slot_4" / "layout_classifier_lib.py",
+        ),
+        "model_paths": (
+            Path("Testing") / "slot_4_plus_real_heavy" / "slot4_status_cnn_plus_real_heavy.pt",
+            Path("Testing") / "slot_4" / "slot4_status_cnn.pt",
+        ),
+    },
+    "slot5_minor": {
+        "kind": "slot_label",
+        "slot_id": 5,
+        "source": "gh_asym_legacy",
+        "crop_size": 200,
+        "center_norm": (324.0 / 1191.0, 629.0 / 1176.0),
+        "weight": 0.08,
+        "module_paths": (
+            Path("Testing") / "slot_5" / "layout_classifier_lib.py",
+        ),
+        "model_paths": (
+            Path("Testing") / "slot_5_plus_real_heavy" / "slot5_status_cnn_plus_real_heavy.pt",
+            Path("Testing") / "slot_5" / "slot5_status_cnn.pt",
+        ),
+    },
+    "slot7_minor": {
+        "kind": "slot_label",
+        "slot_id": 7,
+        "source": "gh_asym_legacy",
+        "crop_size": 200,
+        "center_norm": (339.0 / 1191.0, 1085.0 / 1176.0),
+        "weight": 0.08,
+        "module_paths": (
+            Path("Testing") / "slot_7" / "layout_classifier_lib.py",
+        ),
+        "model_paths": (
+            Path("Testing") / "slot_7_plus_real_heavy" / "slot7_status_cnn_plus_real_heavy.pt",
+            Path("Testing") / "slot_7" / "slot7_status_cnn.pt",
+        ),
+    },
+}
+GREAT_HOLLOW_LAYOUT_MODEL_CACHE: dict = {}
 EVERGAOL_MODEL_FILENAMES = [
     "evergaol_ai_test_output_no_text/evergaol_patch_model_v1.pt",
     "evergaol_ai_test_output/evergaol_patch_model_v1.pt",
@@ -134,6 +280,14 @@ DEFAULT_SQUARE_RATIO = 0.69
 DEFAULT_PAD = 0
 TOP_RESULTS_TO_LOG = 20
 THUMB_COUNT = 5
+
+# Step 1 preprocessing contract (definition only, no behavior switch yet):
+# - resize panel to 1536x1536
+# - crop 256 px from each border
+# - resulting canonical earth-selector view is 1024x1024
+EARTH_SELECTOR_INPUT_SIZE = 1536
+EARTH_SELECTOR_BORDER_CROP_PX = 256
+EARTH_SELECTOR_CROPPED_SIZE = EARTH_SELECTOR_INPUT_SIZE - (2 * EARTH_SELECTOR_BORDER_CROP_PX)
 
 CACHE_FILENAME = "nightreign_ref_cache_square_gui.npz"
 DISPLAY_SUBDIRS = [
@@ -3777,13 +3931,7 @@ class EarthPanelCNN(nn.Module):
 
 
 def compute_map_class_descriptor(panel_bgr: np.ndarray, thumb_size: int = 24, hist_h_bins: int = 12, hist_s_bins: int = 4, crop_frac: float = 0.02) -> np.ndarray:
-    work = panel_bgr
-    if crop_frac > 0:
-        h, w = work.shape[:2]
-        dy = int(round(h * crop_frac))
-        dx = int(round(w * crop_frac))
-        if dy * 2 < h and dx * 2 < w:
-            work = work[dy : h - dy, dx : w - dx]
+    work = preprocess_earth_selector_panel(panel_bgr)
     work = cv2.resize(work, (96, 96), interpolation=cv2.INTER_AREA)
     hsv = cv2.cvtColor(work, cv2.COLOR_BGR2HSV)
     gray = cv2.cvtColor(work, cv2.COLOR_BGR2GRAY)
@@ -3809,6 +3957,23 @@ def compute_map_class_descriptor(panel_bgr: np.ndarray, thumb_size: int = 24, hi
     ]).astype(np.float32)
     descriptor /= np.linalg.norm(descriptor) + 1e-6
     return descriptor
+
+
+def preprocess_earth_selector_panel(
+    panel_bgr: np.ndarray,
+    input_size: int = EARTH_SELECTOR_INPUT_SIZE,
+    border_crop_px: int = EARTH_SELECTOR_BORDER_CROP_PX,
+) -> np.ndarray:
+    """Step 1 canonical preprocessing helper: 1536 -> crop 256 per side -> 1024."""
+    if panel_bgr is None or panel_bgr.size == 0:
+        raise ValueError("Panel image is empty.")
+    resized = cv2.resize(panel_bgr, (int(input_size), int(input_size)), interpolation=cv2.INTER_AREA)
+    border = int(border_crop_px)
+    if border <= 0:
+        return resized
+    if border * 2 >= resized.shape[0] or border * 2 >= resized.shape[1]:
+        raise ValueError("Invalid border crop for earth-selector preprocessing.")
+    return resized[border : resized.shape[0] - border, border : resized.shape[1] - border]
 
 
 def load_map_class_model(ctx: Optional[RunContext] = None) -> Optional[dict]:
@@ -4236,6 +4401,133 @@ def infer_slot_probs_ai(model: nn.Module, labels: Sequence[str], patch_bgr: np.n
     return {label: float(prob) for label, prob in zip(labels, probs)}
 
 
+def _gh_slot4_classifier_mode() -> str:
+    raw = str(os.getenv("GH_SLOT4_CLASSIFIER_MODE", GH_SLOT4_CLASSIFIER_MODE_DEFAULT)).strip().lower()
+    if raw not in {"classic", "prototype"}:
+        return "classic"
+    return raw
+
+
+def _gh_slot4_empty_gate_threshold() -> float:
+    raw = str(os.getenv("GH_SLOT4_EMPTY_GATE_THRESHOLD", str(GH_SLOT4_EMPTY_GATE_THRESHOLD_DEFAULT))).strip()
+    try:
+        value = float(raw)
+    except Exception:
+        value = GH_SLOT4_EMPTY_GATE_THRESHOLD_DEFAULT
+    return max(0.0, min(1.0, value))
+
+
+def _gh_slot4_find_prototype_model_path() -> Optional[Path]:
+    candidates: List[Path] = []
+    for p in GH_SLOT4_PROTOTYPE_MODEL_PATHS:
+        candidates.extend([
+            runtime_dir() / p,
+            resource_base_dir() / p,
+            Path.cwd() / p,
+            p,
+        ])
+    seen = set()
+    for cand in candidates:
+        key = str(cand)
+        if key in seen:
+            continue
+        seen.add(key)
+        if cand.exists():
+            return cand
+    return None
+
+
+def _gh_slot4_load_prototype_bundle() -> Optional[dict]:
+    global GH_SLOT4_PROTOTYPE_CACHE
+    if GH_SLOT4_PROTOTYPE_CACHE is False:
+        return None
+    if isinstance(GH_SLOT4_PROTOTYPE_CACHE, dict):
+        return GH_SLOT4_PROTOTYPE_CACHE
+    model_path = _gh_slot4_find_prototype_model_path()
+    if model_path is None:
+        GH_SLOT4_PROTOTYPE_CACHE = False
+        return None
+    try:
+        with open(model_path, "rb") as f:
+            payload = pickle.load(f)
+        cent_empty = np.asarray(payload["centroid_empty"], dtype=np.float32).reshape(-1)
+        cent_pos = np.asarray(payload["centroid_pos"], dtype=np.float32).reshape(-1)
+        patch_size = int(payload.get("patch_size", 96))
+        temperature = float(payload.get("temperature", 0.1))
+        GH_SLOT4_PROTOTYPE_CACHE = {
+            "model_path": model_path,
+            "slot_id": int(payload.get("slot_id", GH_SLOT4_TARGET_SLOT_ID)),
+            "patch_size": patch_size,
+            "temperature": max(1e-6, temperature),
+            "centroid_empty": cent_empty,
+            "centroid_pos": cent_pos,
+        }
+        return GH_SLOT4_PROTOTYPE_CACHE
+    except Exception:
+        GH_SLOT4_PROTOTYPE_CACHE = False
+        return None
+
+
+def _gh_slot4_infer_empty_prob(bundle: dict, patch_bgr: np.ndarray) -> Tuple[float, float, float]:
+    patch_size = int(bundle["patch_size"])
+    if patch_bgr.shape[0] != patch_size or patch_bgr.shape[1] != patch_size:
+        patch = cv2.resize(patch_bgr, (patch_size, patch_size), interpolation=cv2.INTER_CUBIC)
+    else:
+        patch = patch_bgr
+    x = patch.astype(np.float32).reshape(-1)
+    cent_empty = bundle["centroid_empty"]
+    cent_pos = bundle["centroid_pos"]
+    de = float(np.mean((x - cent_empty) ** 2))
+    dp = float(np.mean((x - cent_pos) ** 2))
+    t = float(bundle["temperature"])
+    a = -de / t
+    b = -dp / t
+    m = max(a, b)
+    ea = math.exp(a - m)
+    eb = math.exp(b - m)
+    p_empty = float(ea / (ea + eb + 1e-12))
+    return p_empty, de, dp
+
+
+def _gh_slot4_apply_prototype_override(raw_probs: Dict[str, float], slot: dict, earth_name: str, patch_bgr: np.ndarray) -> Tuple[Dict[str, float], str, Optional[dict]]:
+    if str(earth_name) != "Great Hollow":
+        return raw_probs, "classic", None
+    if int(slot.get("slot_id", -1)) != GH_SLOT4_TARGET_SLOT_ID:
+        return raw_probs, "classic", None
+    if _gh_slot4_classifier_mode() != "prototype":
+        return raw_probs, "classic", None
+    bundle = _gh_slot4_load_prototype_bundle()
+    if bundle is None:
+        return raw_probs, "classic", None
+    p_empty, d_empty, d_pos = _gh_slot4_infer_empty_prob(bundle, patch_bgr)
+    p_occ = 1.0 - p_empty
+
+    out = dict(raw_probs)
+    out["empty"] = float(p_empty)
+    pos_labels = [lbl for lbl in ("Church", "Sorcerer's Rise") if lbl in out]
+    if not pos_labels:
+        allowed = {str(x) for x in slot.get("allowed_types", [])}
+        pos_labels = [lbl for lbl in ("Church", "Sorcerer's Rise") if lbl in allowed]
+        for lbl in pos_labels:
+            out.setdefault(lbl, 0.0)
+    raw_pos_sum = float(sum(max(0.0, float(raw_probs.get(lbl, 0.0))) for lbl in pos_labels))
+    if raw_pos_sum <= 1e-9:
+        w = 1.0 / max(1, len(pos_labels))
+        for lbl in pos_labels:
+            out[lbl] = float(p_occ * w)
+    else:
+        for lbl in pos_labels:
+            out[lbl] = float(p_occ * max(0.0, float(raw_probs.get(lbl, 0.0))) / raw_pos_sum)
+    meta = {
+        "model_path": str(bundle.get("model_path", "")),
+        "p_empty": float(p_empty),
+        "p_church_like": float(p_occ),
+        "d_empty": float(d_empty),
+        "d_church_like": float(d_pos),
+    }
+    return out, "prototype", meta
+
+
 def apply_slot_label_constraints(probs: Dict[str, float], slot: dict) -> Tuple[Dict[str, float], List[str]]:
     allowed = slot.get("allowed_labels")
     if not isinstance(allowed, list) or not allowed:
@@ -4301,6 +4593,12 @@ def ai_classify_slots_for_earth(
 
         patch = reflect_pad_extract_ai(panel_bgr, cx, cy, half, patch_size)
         raw_probs = infer_slot_probs_ai(model, labels, patch, device)
+        raw_probs, slot_classifier_mode, slot_classifier_meta = _gh_slot4_apply_prototype_override(
+            raw_probs=raw_probs,
+            slot=slot,
+            earth_name=earth_name,
+            patch_bgr=patch,
+        )
         probs, allowed_labels = apply_slot_label_constraints(raw_probs, slot)
         ordered = sorted(probs.items(), key=lambda kv: kv[1], reverse=True)
         best_label, best_prob = ordered[0]
@@ -4311,6 +4609,46 @@ def ai_classify_slots_for_earth(
             final_label = "unknown"
         else:
             final_label = best_label
+
+        if (
+            str(earth_name) == "Great Hollow"
+            and int(slot.get("slot_id", -1)) == GH_SLOT4_TARGET_SLOT_ID
+            and str(slot_classifier_mode) == "prototype"
+        ):
+            if not isinstance(slot_classifier_meta, dict):
+                slot_classifier_meta = {}
+            gate_threshold = _gh_slot4_empty_gate_threshold()
+            p_empty = float(slot_classifier_meta.get("p_empty", probs.get("empty", 0.0)))
+            p_empty = max(0.0, min(1.0, p_empty))
+            slot_classifier_meta["gate_threshold"] = float(gate_threshold)
+            slot_classifier_meta["p_non_empty"] = float(1.0 - p_empty)
+
+            if p_empty >= gate_threshold:
+                other_probs = [float(v) for k, v in probs.items() if str(k) != "empty"]
+                best_label = "empty"
+                best_prob = float(p_empty)
+                second_prob = float(max(other_probs) if other_probs else 0.0)
+                margin = float(best_prob - second_prob)
+                final_label = "empty"
+                slot_classifier_meta["gate_decision"] = "empty"
+            else:
+                non_empty = {str(k): float(v) for k, v in probs.items() if str(k) != "empty"}
+                non_empty_sum = float(sum(non_empty.values()))
+                if non_empty_sum > 1e-12 and len(non_empty) > 0:
+                    non_empty = {k: (v / non_empty_sum) for k, v in non_empty.items()}
+                    non_empty_ranked = sorted(non_empty.items(), key=lambda kv: kv[1], reverse=True)
+                    best_label, best_prob = non_empty_ranked[0]
+                    second_prob = non_empty_ranked[1][1] if len(non_empty_ranked) > 1 else 0.0
+                    margin = float(best_prob - second_prob)
+                    if best_prob < confidence_threshold or margin < margin_threshold:
+                        final_label = "unknown"
+                    else:
+                        final_label = str(best_label)
+                    slot_classifier_meta["gate_decision"] = "non_empty"
+                    slot_classifier_meta["non_empty_best_label"] = str(best_label)
+                    slot_classifier_meta["non_empty_best_prob"] = float(best_prob)
+                    slot_classifier_meta["non_empty_second_prob"] = float(second_prob)
+                    slot_classifier_meta["non_empty_margin"] = float(margin)
 
         slots_out.append({
             "slot_id": int(slot["slot_id"]),
@@ -4328,6 +4666,8 @@ def ai_classify_slots_for_earth(
             "nominal_y_norm": float(slot["y_norm"]),
             "radius_norm": float(slot["radius_norm"]),
             "weight": float(slot.get("weight", 1.0)),
+            "slot_classifier_mode": str(slot_classifier_mode),
+            "slot_classifier_meta": dict(slot_classifier_meta or {}),
         })
 
     return slots_out, {
@@ -4340,17 +4680,20 @@ def ai_classify_slots_for_earth(
 SPECIAL_LAYOUT_COMPARISONS: Tuple[Tuple[int, int], ...] = (
     (101, 1089),
 )
+GREAT_HOLLOW_ICON_ONLY_SLOT_IDS = {2}
 
 
 def score_layout_ai(
     slots_out: Sequence[dict],
     layout_slot_labels: Sequence[str],
     earth_score: float,
+    earth_name: str = "",
     geometry_prior: float = 0.0,
     lost_slot_prior: float = 0.0,
     hard_constraint_prior: float = 0.0,
     evergaol_prior: float = 0.0,
     great_hollow_status_prior: float = 0.0,
+    great_hollow_model_layout_prior: float = 0.0,
 ) -> Tuple[float, dict]:
     eps = 1e-6
     total = 0.0
@@ -4361,6 +4704,22 @@ def score_layout_ai(
     slot_details = []
 
     for slot_obs, expected in zip(slots_out, layout_slot_labels):
+        slot_id = int(slot_obs.get("slot_id", -1))
+        if str(earth_name) == "Great Hollow" and slot_id in GREAT_HOLLOW_ICON_ONLY_SLOT_IDS:
+            slot_details.append({
+                "slot_id": int(slot_id),
+                "slot_name": str(slot_obs["slot_name"]),
+                "expected": str(expected),
+                "observed": str(slot_obs.get("label", "unknown")),
+                "expected_prob": None,
+                "best_prob": float(slot_obs.get("best_prob", 0.0)),
+                "second_prob": float(slot_obs.get("second_prob", 0.0)),
+                "margin": float(slot_obs.get("margin", 0.0)),
+                "weight": 0.0,
+                "weighted_log_prob": 0.0,
+                "icon_only_slot": True,
+            })
+            continue
         probs = slot_obs["probs"]
         p = max(eps, float(probs.get(str(expected), eps)))
         weight = float(slot_obs.get("weight", 1.0))
@@ -4375,7 +4734,7 @@ def score_layout_ai(
         else:
             hard_mismatch_weight += weight
         slot_details.append({
-            "slot_id": int(slot_obs["slot_id"]),
+            "slot_id": int(slot_id),
             "slot_name": str(slot_obs["slot_name"]),
             "expected": str(expected),
             "observed": observed,
@@ -4385,6 +4744,7 @@ def score_layout_ai(
             "margin": float(slot_obs.get("margin", 0.0)),
             "weight": float(weight),
             "weighted_log_prob": float(weight * math.log(p)),
+            "icon_only_slot": False,
         })
 
     normalized = total / max(1.0, total_weight)
@@ -4396,6 +4756,7 @@ def score_layout_ai(
         + float(hard_constraint_prior)
         + float(evergaol_prior)
         + float(great_hollow_status_prior)
+        + float(great_hollow_model_layout_prior)
     )
     details = {
         "normalized_log_prob": float(normalized),
@@ -4404,6 +4765,7 @@ def score_layout_ai(
         "hard_constraint_prior": float(hard_constraint_prior),
         "evergaol_prior": float(evergaol_prior),
         "great_hollow_status_prior": float(great_hollow_status_prior),
+        "great_hollow_model_layout_prior": float(great_hollow_model_layout_prior),
         "exact_match_weight": float(exact_weight),
         "hard_mismatch_weight": float(hard_mismatch_weight),
         "unknown_weight": float(unknown_weight),
@@ -5029,6 +5391,348 @@ def _gh_crop_with_padding(img: np.ndarray, x: int, y: int, size: int) -> np.ndar
     return patch
 
 
+def _gh_layout_model_match_mode() -> str:
+    raw = str(os.getenv("GH_LAYOUT_MODEL_MATCH_MODE", GREAT_HOLLOW_LAYOUT_MODEL_MATCH_MODE_DEFAULT)).strip().lower()
+    if raw not in {"classic", "models"}:
+        return "models"
+    return raw
+
+
+def preprocess_panel_for_layout_model_great_hollow(raw_panel_bgr: np.ndarray) -> np.ndarray:
+    resized = cv2.resize(
+        raw_panel_bgr,
+        (GREAT_HOLLOW_LAYOUT_MODEL_ASYM_INPUT_SIZE, GREAT_HOLLOW_LAYOUT_MODEL_ASYM_INPUT_SIZE),
+        interpolation=cv2.INTER_CUBIC,
+    )
+    left = int(GREAT_HOLLOW_LAYOUT_MODEL_CROP_LEFT_PX)
+    right = int(GREAT_HOLLOW_LAYOUT_MODEL_CROP_RIGHT_PX)
+    top = int(GREAT_HOLLOW_LAYOUT_MODEL_CROP_TOP_PX)
+    bottom = int(GREAT_HOLLOW_LAYOUT_MODEL_CROP_BOTTOM_PX)
+    y0 = max(0, top)
+    y1 = min(GREAT_HOLLOW_LAYOUT_MODEL_ASYM_INPUT_SIZE, GREAT_HOLLOW_LAYOUT_MODEL_ASYM_INPUT_SIZE - bottom)
+    x0 = max(0, left)
+    x1 = min(GREAT_HOLLOW_LAYOUT_MODEL_ASYM_INPUT_SIZE, GREAT_HOLLOW_LAYOUT_MODEL_ASYM_INPUT_SIZE - right)
+    if y1 <= y0 or x1 <= x0:
+        raise ValueError("Invalid Great Hollow layout-model crop bounds.")
+    return resized[y0:y1, x0:x1].copy()
+
+
+def _gh_crop_center_with_padding(img: np.ndarray, cx: int, cy: int, size: int) -> np.ndarray:
+    half = int(size // 2)
+    return _gh_crop_with_padding(img, int(cx - half), int(cy - half), int(size))
+
+
+def _gh_layout_model_load_bundle(spec_key: str) -> Optional[dict]:
+    cached = GREAT_HOLLOW_LAYOUT_MODEL_CACHE.get(str(spec_key))
+    if cached is False:
+        return None
+    if isinstance(cached, dict):
+        return cached
+
+    spec_cfg = GREAT_HOLLOW_LAYOUT_MODEL_SPECS.get(str(spec_key))
+    if spec_cfg is None:
+        GREAT_HOLLOW_LAYOUT_MODEL_CACHE[str(spec_key)] = False
+        return None
+
+    module_path = _resolve_first_existing_path(spec_cfg.get("module_paths", ()))
+    model_path = _resolve_first_existing_path(spec_cfg.get("model_paths", ()))
+    if module_path is None or model_path is None:
+        GREAT_HOLLOW_LAYOUT_MODEL_CACHE[str(spec_key)] = False
+        return None
+
+    try:
+        unique_mod_name = f"gh_layout_model_lib_{re.sub(r'[^a-zA-Z0-9_]+', '_', str(spec_key))}"
+        spec = importlib.util.spec_from_file_location(unique_mod_name, module_path)
+        if spec is None or spec.loader is None:
+            GREAT_HOLLOW_LAYOUT_MODEL_CACHE[str(spec_key)] = False
+            return None
+        module = importlib.util.module_from_spec(spec)
+        sys.modules[unique_mod_name] = module
+        spec.loader.exec_module(module)
+
+        device = choose_torch_device()
+        model, class_names, image_size, meta = module.load_checkpoint(Path(model_path), device)
+        bundle = {
+            "spec_key": str(spec_key),
+            "module_path": Path(module_path),
+            "model_path": Path(model_path),
+            "module": module,
+            "device": device,
+            "model": model,
+            "class_names": [str(x) for x in class_names],
+            "image_size": int(image_size),
+            "meta": dict(meta or {}),
+        }
+        GREAT_HOLLOW_LAYOUT_MODEL_CACHE[str(spec_key)] = bundle
+        return bundle
+    except Exception:
+        GREAT_HOLLOW_LAYOUT_MODEL_CACHE[str(spec_key)] = False
+        return None
+
+
+def _gh_layout_model_infer_patch(bundle: dict, patch_bgr: np.ndarray) -> dict:
+    module = bundle["module"]
+    device = bundle["device"]
+    model = bundle["model"]
+    class_names = list(bundle["class_names"])
+    image_size = int(bundle["image_size"])
+
+    x = module.preprocess_bgr_200(patch_bgr, image_size=image_size).unsqueeze(0).to(device)
+    with torch.no_grad():
+        logits = model(x)
+    probs = torch.softmax(logits, dim=1).detach().cpu().numpy()[0]
+    ranking = sorted(
+        [{"label": str(class_names[i]), "probability": float(probs[i])} for i in range(len(class_names))],
+        key=lambda item: float(item["probability"]),
+        reverse=True,
+    )
+    best = ranking[0] if ranking else {"label": "", "probability": 0.0}
+    second = ranking[1] if len(ranking) > 1 else {"label": "", "probability": 0.0}
+    return {
+        "best_label": str(best["label"]),
+        "best_prob": float(best["probability"]),
+        "second_label": str(second["label"]),
+        "second_prob": float(second["probability"]),
+        "margin": float(float(best["probability"]) - float(second["probability"])),
+        "ranking": ranking,
+    }
+
+
+def _gh_canonical_slot_label(label: str) -> str:
+    t = str(label or "").strip().lower()
+    t = t.replace("_", " ").replace("’", "'")
+    t = re.sub(r"[^a-z0-9' ]+", " ", t)
+    t = re.sub(r"\\s+", " ", t).strip()
+    if t == "empty":
+        return "empty"
+    if "sorcer" in t and "rise" in t:
+        return "sorcerers rise"
+    if "church" in t:
+        return "church"
+    return t
+
+
+def _gh_status_from_model_label(spec_key: str, label: str) -> Optional[str]:
+    low = str(label or "").strip().lower().replace("_", " ")
+    if str(spec_key) == "slot2_great_church_status":
+        if "sleep" in low:
+            return "Status_Sleep"
+        if "lightning" in low:
+            return "Status_Lightning"
+    if str(spec_key) == "slot6_ruins_status":
+        if "bleed" in low:
+            return "Status_Bleed"
+        if "poison" in low:
+            return "Status_Poison"
+    if "status_" in low:
+        m = re.search(r"status[_ ]([a-z]+)", low)
+        if m:
+            return "Status_" + str(m.group(1)).capitalize()
+    if "rot" in low:
+        return "Status_Rot"
+    if "holy" in low:
+        return "Status_Holy"
+    if "fire" in low:
+        return "Status_Fire"
+    if "magic" in low:
+        return "Status_Magic"
+    if "sleep" in low:
+        return "Status_Sleep"
+    if "lightning" in low:
+        return "Status_Lightning"
+    if "poison" in low:
+        return "Status_Poison"
+    if "bleed" in low:
+        return "Status_Bleed"
+    return None
+
+
+def infer_great_hollow_layout_model_observations(
+    raw_panel_bgr: Optional[np.ndarray],
+    package: SlotRecognitionPackage,
+    ctx: Optional[RunContext] = None,
+) -> dict:
+    if raw_panel_bgr is None or raw_panel_bgr.size == 0:
+        return {}
+    if _gh_layout_model_match_mode() != "models":
+        return {}
+
+    out = {}
+    try:
+        gh_asym = preprocess_panel_for_layout_model_great_hollow(raw_panel_bgr)
+    except Exception:
+        gh_asym = None
+
+    for spec_key, spec_cfg in GREAT_HOLLOW_LAYOUT_MODEL_SPECS.items():
+        bundle = _gh_layout_model_load_bundle(str(spec_key))
+        if bundle is None:
+            continue
+
+        source_kind = str(spec_cfg.get("source", ""))
+        if source_kind == "panel_raw":
+            src = raw_panel_bgr
+        else:
+            src = gh_asym
+        if src is None or src.size == 0:
+            continue
+
+        h, w = src.shape[:2]
+        x_norm, y_norm = spec_cfg.get("center_norm", (0.5, 0.5))
+        cx = int(round(float(x_norm) * w))
+        cy = int(round(float(y_norm) * h))
+        crop_size = int(spec_cfg.get("crop_size", 200))
+        patch = _gh_crop_center_with_padding(src, cx, cy, crop_size)
+        infer = _gh_layout_model_infer_patch(bundle, patch)
+
+        obs = {
+            "spec_key": str(spec_key),
+            "kind": str(spec_cfg.get("kind", "")),
+            "source": source_kind,
+            "center_norm": (float(x_norm), float(y_norm)),
+            "center_px": {"x": int(cx), "y": int(cy)},
+            "crop_size": int(crop_size),
+            "model_path": str(bundle.get("model_path", "")),
+            "module_path": str(bundle.get("module_path", "")),
+            "class_names": list(bundle.get("class_names", [])),
+            "best_label": str(infer.get("best_label", "")),
+            "best_prob": float(infer.get("best_prob", 0.0)),
+            "second_label": str(infer.get("second_label", "")),
+            "second_prob": float(infer.get("second_prob", 0.0)),
+            "margin": float(infer.get("margin", 0.0)),
+            "ranking": list(infer.get("ranking", [])),
+            "weight": float(spec_cfg.get("weight", 0.0)),
+        }
+        if "anchor_type" in spec_cfg:
+            obs["anchor_type"] = str(spec_cfg.get("anchor_type"))
+            obs["predicted_status"] = _gh_status_from_model_label(str(spec_key), str(obs["best_label"]))
+        if "slot_id" in spec_cfg:
+            obs["slot_id"] = int(spec_cfg.get("slot_id"))
+            obs["predicted_slot_label"] = _gh_canonical_slot_label(str(obs["best_label"]))
+
+        out[str(spec_key)] = obs
+        if ctx is not None:
+            extra = ""
+            if "predicted_status" in obs:
+                extra = f" status={obs.get('predicted_status')}"
+            if "predicted_slot_label" in obs:
+                extra = f" slot={obs.get('predicted_slot_label')}"
+            ctx.log(
+                f"GH model {spec_key}: best={obs['best_label']} "
+                f"p={float(obs['best_prob']):.4f} margin={float(obs['margin']):.4f}{extra}"
+            )
+
+    return out
+
+
+def _gh_expected_slot_label(layout: dict, package: SlotRecognitionPackage, slot_id: int) -> Optional[str]:
+    labels = list(layout.get("slot_labels", []) or [])
+    gh_slots = list(package.slots_by_earth.get("Great Hollow", []) or [])
+    for idx, slot in enumerate(gh_slots):
+        if int(slot.get("slot_id", -1)) != int(slot_id):
+            continue
+        if idx < len(labels):
+            return str(labels[idx])
+        return None
+    return None
+
+
+def _gh_strength_binary(best_prob: float, margin: float) -> float:
+    p = max(0.0, min(1.0, (float(best_prob) - 0.50) / 0.50))
+    m = max(0.0, min(1.0, float(margin) / 0.35))
+    return float(0.65 * p + 0.35 * m)
+
+
+def _gh_strength_multiclass(best_prob: float, second_prob: float, class_count: int) -> float:
+    base = 1.0 / max(1, int(class_count))
+    p = max(0.0, min(1.0, (float(best_prob) - base) / max(1e-6, 1.0 - base)))
+    m = max(0.0, min(1.0, (float(best_prob) - float(second_prob)) / 0.60))
+    return float(0.55 * p + 0.45 * m)
+
+
+def compute_great_hollow_model_layout_prior(
+    layout: dict,
+    package: SlotRecognitionPackage,
+    model_observations: dict,
+) -> Tuple[float, dict]:
+    if str(layout.get("shifting_earth", "")) != "Great Hollow":
+        return 0.0, {"great_hollow_model_layout_prior": 0.0, "model_evidence": []}
+    if not model_observations:
+        return 0.0, {"great_hollow_model_layout_prior": 0.0, "model_evidence": []}
+
+    expected_statuses = get_layout_great_hollow_statuses(layout)
+    prior = 0.0
+    evidence = []
+
+    for spec_key, obs in model_observations.items():
+        kind = str(obs.get("kind", ""))
+        weight = float(obs.get("weight", 0.0))
+        if weight <= 0.0:
+            continue
+
+        if kind == "status":
+            anchor_type = str(obs.get("anchor_type", ""))
+            expected = expected_statuses.get(anchor_type, {})
+            expected_status = str(expected.get("status_type", "")).strip()
+            predicted_status = str(obs.get("predicted_status", "")).strip()
+            if not expected_status or not predicted_status:
+                continue
+            strength = _gh_strength_binary(float(obs.get("best_prob", 0.0)), float(obs.get("margin", 0.0)))
+            magnitude = float(weight) * (0.30 + 0.70 * strength)
+            match = predicted_status == expected_status
+            slot_prior = float(magnitude if match else -magnitude)
+            prior += slot_prior
+            evidence.append({
+                "spec_key": str(spec_key),
+                "kind": "status",
+                "anchor_type": anchor_type,
+                "expected": expected_status,
+                "predicted": predicted_status,
+                "best_prob": float(obs.get("best_prob", 0.0)),
+                "margin": float(obs.get("margin", 0.0)),
+                "strength": float(strength),
+                "weight": float(weight),
+                "slot_prior": float(slot_prior),
+            })
+            continue
+
+        if kind == "slot_label":
+            slot_id = int(obs.get("slot_id", -1))
+            expected_label = _gh_expected_slot_label(layout, package, slot_id)
+            if expected_label is None:
+                continue
+            expected_canon = _gh_canonical_slot_label(expected_label)
+            predicted_canon = _gh_canonical_slot_label(str(obs.get("predicted_slot_label", "")))
+            if not expected_canon or not predicted_canon:
+                continue
+            class_count = len(list(obs.get("class_names", []) or []))
+            strength = _gh_strength_multiclass(
+                float(obs.get("best_prob", 0.0)),
+                float(obs.get("second_prob", 0.0)),
+                class_count=max(2, class_count),
+            )
+            magnitude = float(weight) * (0.30 + 0.70 * strength)
+            match = predicted_canon == expected_canon
+            slot_prior = float(magnitude if match else -magnitude)
+            prior += slot_prior
+            evidence.append({
+                "spec_key": str(spec_key),
+                "kind": "slot_label",
+                "slot_id": int(slot_id),
+                "expected": expected_canon,
+                "predicted": predicted_canon,
+                "best_prob": float(obs.get("best_prob", 0.0)),
+                "margin": float(obs.get("margin", 0.0)),
+                "strength": float(strength),
+                "weight": float(weight),
+                "slot_prior": float(slot_prior),
+            })
+
+    return float(prior), {
+        "great_hollow_model_layout_prior": float(prior),
+        "model_evidence": evidence,
+    }
+
+
 def _gh_get_fixed_status_params(img: np.ndarray, xy_norm: Tuple[float, float]) -> Tuple[Tuple[int, int], int, int]:
     h, w = img.shape[:2]
     x = int(round(xy_norm[0] * w))
@@ -5187,7 +5891,114 @@ def _resolve_first_existing_path(candidates: Sequence[Path]) -> Optional[Path]:
     return None
 
 
-def detect_great_hollow_statuses(panel_bgr: np.ndarray, package: SlotRecognitionPackage, observations_by_earth: dict) -> dict:
+class _GHStatusTinyCNN(nn.Module):
+    def __init__(self, num_classes: int = 2):
+        super().__init__()
+        self.net = nn.Sequential(
+            nn.Conv2d(3, 24, 3, padding=1),
+            nn.ReLU(inplace=True),
+            nn.MaxPool2d(2),
+            nn.Conv2d(24, 48, 3, padding=1),
+            nn.ReLU(inplace=True),
+            nn.MaxPool2d(2),
+            nn.Conv2d(48, 64, 3, padding=1),
+            nn.ReLU(inplace=True),
+            nn.AdaptiveAvgPool2d((1, 1)),
+            nn.Flatten(),
+            nn.Linear(64, num_classes),
+        )
+
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        return self.net(x)
+
+
+def _gh_status_classifier_mode() -> str:
+    raw = str(os.getenv("GH_STATUS_CLASSIFIER_MODE", GREAT_HOLLOW_STATUS_CLASSIFIER_MODE_DEFAULT)).strip().lower()
+    if raw not in {"classic", "models"}:
+        return "classic"
+    return raw
+
+
+def _gh_load_status_tiny_model(anchor_type: str):
+    key = str(anchor_type)
+    if key in GREAT_HOLLOW_STATUS_MODEL_CACHE:
+        return GREAT_HOLLOW_STATUS_MODEL_CACHE[key]
+    candidates = GREAT_HOLLOW_STATUS_MODEL_PATHS.get(key, ())
+    model_path = _resolve_first_existing_path(candidates)
+    if model_path is None:
+        GREAT_HOLLOW_STATUS_MODEL_CACHE[key] = None
+        return None
+    try:
+        device = choose_torch_device()
+        ckpt = torch.load(str(model_path), map_location=device)
+        label_map = dict(ckpt.get("label_map", {}))
+        out_size = int(ckpt.get("out_size", 40))
+        model = _GHStatusTinyCNN(num_classes=max(2, len(label_map) or 2)).to(device)
+        model.load_state_dict(ckpt["state_dict"])
+        model.eval()
+        id_to_label = {int(v): str(k) for k, v in label_map.items()}
+        bundle = {
+            "model": model,
+            "device": device,
+            "id_to_label": id_to_label,
+            "out_size": out_size,
+            "path": model_path,
+        }
+        GREAT_HOLLOW_STATUS_MODEL_CACHE[key] = bundle
+        return bundle
+    except Exception:
+        GREAT_HOLLOW_STATUS_MODEL_CACHE[key] = None
+        return None
+
+
+def _gh_model_probs_from_patch(bundle: dict, patch_bgr: np.ndarray) -> Dict[str, float]:
+    out_size = int(bundle["out_size"])
+    patch_rs = cv2.resize(patch_bgr, (out_size, out_size), interpolation=cv2.INTER_AREA)
+    x = patch_to_tensor_ai(patch_rs, bundle["device"])
+    with torch.no_grad():
+        logits = bundle["model"](x)
+    probs = torch.softmax(logits, dim=1).cpu().numpy()[0]
+    id_to_label = dict(bundle["id_to_label"])
+    return {str(id_to_label.get(i, str(i))): float(probs[i]) for i in range(len(probs))}
+
+
+def preprocess_panel_for_status_recognizer(panel_bgr: np.ndarray) -> np.ndarray:
+    # Keep GH status recognizer input aligned with earth-selector preprocessing contract (1536 -> crop 256 -> 1024).
+    return preprocess_earth_selector_panel(
+        panel_bgr,
+        input_size=EARTH_SELECTOR_INPUT_SIZE,
+        border_crop_px=EARTH_SELECTOR_BORDER_CROP_PX,
+    )
+
+
+def preprocess_panel_for_status_recognizer_great_hollow(raw_panel_bgr: np.ndarray) -> np.ndarray:
+    # Great Hollow test path: restart from the initial raw panel crop and apply an asymmetric inner crop.
+    resized = cv2.resize(
+        raw_panel_bgr,
+        (GREAT_HOLLOW_STATUS_INPUT_SIZE, GREAT_HOLLOW_STATUS_INPUT_SIZE),
+        interpolation=cv2.INTER_CUBIC,
+    )
+    left = int(GREAT_HOLLOW_STATUS_CROP_LEFT_PX)
+    right = int(GREAT_HOLLOW_STATUS_CROP_RIGHT_PX)
+    top = int(GREAT_HOLLOW_STATUS_CROP_TOP_PX)
+    bottom = int(GREAT_HOLLOW_STATUS_CROP_BOTTOM_PX)
+
+    y0 = max(0, top)
+    y1 = min(GREAT_HOLLOW_STATUS_INPUT_SIZE, GREAT_HOLLOW_STATUS_INPUT_SIZE - bottom)
+    x0 = max(0, left)
+    x1 = min(GREAT_HOLLOW_STATUS_INPUT_SIZE, GREAT_HOLLOW_STATUS_INPUT_SIZE - right)
+    if y1 <= y0 or x1 <= x0:
+        raise ValueError("Invalid Great Hollow asymmetric status crop bounds.")
+    return resized[y0:y1, x0:x1].copy()
+
+
+def detect_great_hollow_statuses(
+    panel_bgr: np.ndarray,
+    package: SlotRecognitionPackage,
+    observations_by_earth: dict,
+    raw_panel_bgr: Optional[np.ndarray] = None,
+    earth_rank: Optional[Sequence[Tuple[str, float, Dict[str, float]]]] = None,
+) -> dict:
     recognizer = _load_icon_recognizer_v4_module()
     if recognizer is None:
         return {}
@@ -5202,10 +6013,16 @@ def detect_great_hollow_statuses(panel_bgr: np.ndarray, package: SlotRecognition
         "Magic": "Status_Magic",
         "Rot": "Status_Rot",
         "Holy": "Status_Holy",
+        "Poison": "Status_Poison",
+        "Bleed": "Status_Bleed",
+        "Lightning": "Status_Lightning",
+        "Sleep": "Status_Sleep",
     }
     position_map = {
         "Palace": "top_left",
         "Fortress": "bottom_right",
+        "Ruins": "ruins",
+        "Great Church": "great_church_top_right",
     }
     confidence_to_present_prob = {
         "strong": 0.95,
@@ -5213,17 +6030,121 @@ def detect_great_hollow_statuses(panel_bgr: np.ndarray, package: SlotRecognition
         "weak": 0.60,
     }
 
-    tmp_path = None
-    h, w = panel_bgr.shape[:2]
+    primary_earth = str(earth_rank[0][0]) if earth_rank else ""
+    use_great_hollow_alt = primary_earth == "Great Hollow" and raw_panel_bgr is not None and raw_panel_bgr.size > 0
+    status_mode = _gh_status_classifier_mode()
+
+    tmp_query_path = None
+    tmp_ref1_path = None
+    tmp_ref2_path = None
+    if use_great_hollow_alt:
+        status_panel = preprocess_panel_for_status_recognizer_great_hollow(raw_panel_bgr)
+        ref_preprocess_fn = preprocess_panel_for_status_recognizer_great_hollow
+    else:
+        status_panel = preprocess_panel_for_status_recognizer(panel_bgr)
+        ref_preprocess_fn = preprocess_panel_for_status_recognizer
+    h, w = status_panel.shape[:2]
+    old_env = {}
     try:
-        with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as tmp:
-            tmp_path = Path(tmp.name)
-        cv2.imwrite(str(tmp_path), panel_bgr)
-        raw_result = recognizer.recognize_markers(str(ref1), str(ref2), str(tmp_path))
+        if use_great_hollow_alt:
+            env_updates = {
+                "ICON_RECOGNIZER_LEGACY_CROP_LEFT": str(int(GREAT_HOLLOW_STATUS_CROP_LEFT_PX)),
+                "ICON_RECOGNIZER_LEGACY_CROP_RIGHT": str(int(GREAT_HOLLOW_STATUS_CROP_RIGHT_PX)),
+                "ICON_RECOGNIZER_LEGACY_CROP_TOP": str(int(GREAT_HOLLOW_STATUS_CROP_TOP_PX)),
+                "ICON_RECOGNIZER_LEGACY_CROP_BOTTOM": str(int(GREAT_HOLLOW_STATUS_CROP_BOTTOM_PX)),
+            }
+            for k, v in env_updates.items():
+                old_env[k] = os.environ.get(k)
+                os.environ[k] = v
+
+        ref1_img = cv2.imread(str(ref1), cv2.IMREAD_COLOR)
+        ref2_img = cv2.imread(str(ref2), cv2.IMREAD_COLOR)
+        if ref1_img is None or ref2_img is None:
+            return {}
+
+        ref1_status = ref_preprocess_fn(ref1_img)
+        ref2_status = ref_preprocess_fn(ref2_img)
+
+        with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as tmp_q:
+            tmp_query_path = Path(tmp_q.name)
+        with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as tmp_r1:
+            tmp_ref1_path = Path(tmp_r1.name)
+        with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as tmp_r2:
+            tmp_ref2_path = Path(tmp_r2.name)
+
+        cv2.imwrite(str(tmp_query_path), status_panel)
+        cv2.imwrite(str(tmp_ref1_path), ref1_status)
+        cv2.imwrite(str(tmp_ref2_path), ref2_status)
+        raw_result = recognizer.recognize_markers(str(tmp_ref1_path), str(tmp_ref2_path), str(tmp_query_path))
+
+        # Optional model path for GH statuses: Palace/Fortress/Great Church.
+        if primary_earth == "Great Hollow" and status_mode == "models":
+            model_anchor_to_pos = {
+                "Palace": "top_left",
+                "Fortress": "bottom_right",
+                "Ruins": "ruins",
+                "Great Church": "great_church_top_right",
+            }
+            for anchor_type, pos_key in model_anchor_to_pos.items():
+                slot = raw_result.get(pos_key, {})
+                box = slot.get("box", {})
+                bx = int(round(float(box.get("x", 0.0))))
+                by = int(round(float(box.get("y", 0.0))))
+                bw = int(round(float(box.get("w", 0.0))))
+                bh = int(round(float(box.get("h", 0.0))))
+                side = max(12, max(bw, bh))
+                patch = _gh_crop_with_padding(status_panel, bx, by, side)
+
+                bundle = _gh_load_status_tiny_model(anchor_type)
+                if bundle is None:
+                    continue
+                probs = _gh_model_probs_from_patch(bundle, patch)
+                allowed_status_types = list(GREAT_HOLLOW_STATUS_ALLOWED_BY_BASE.get(anchor_type, ()))
+                allowed_labels = [s.replace("Status_", "") for s in allowed_status_types]
+                scored = sorted(
+                    [(lbl, float(probs.get(lbl, 0.0))) for lbl in allowed_labels],
+                    key=lambda t: t[1],
+                    reverse=True,
+                )
+                if not scored:
+                    continue
+                winner, winner_score = scored[0]
+                if len(scored) > 1:
+                    runner, runner_score = scored[1]
+                else:
+                    runner, runner_score = "", 0.0
+                margin = float(winner_score - runner_score)
+                if margin >= 0.30:
+                    conf = "strong"
+                elif margin >= 0.12:
+                    conf = "medium"
+                else:
+                    conf = "weak"
+                slot["label"] = str(winner)
+                slot["score"] = float(winner_score)
+                slot["runner_up"] = str(runner)
+                slot["runner_up_score"] = float(runner_score)
+                slot["margin"] = float(margin)
+                slot["confidence"] = str(conf)
+                slot["ranked"] = [
+                    {"label": str(lbl), "score": float(scr), "dx": 0, "dy": 0}
+                    for lbl, scr in scored
+                ]
+                slot["classifier_mode"] = "models"
+                slot["model_path"] = str(bundle.get("path", ""))
+                slot["model_probs"] = {str(k): float(v) for k, v in probs.items()}
+                raw_result[pos_key] = slot
     except Exception:
         return {}
     finally:
-        if tmp_path is not None:
+        for k, old_v in old_env.items():
+            if old_v is None:
+                os.environ.pop(k, None)
+            else:
+                os.environ[k] = old_v
+        for tmp_path in (tmp_query_path, tmp_ref1_path, tmp_ref2_path):
+            if tmp_path is None:
+                continue
             try:
                 tmp_path.unlink()
             except Exception:
@@ -5273,7 +6194,15 @@ def detect_great_hollow_statuses(panel_bgr: np.ndarray, package: SlotRecognition
             "present_prob": float(present_prob),
             "x_norm": float((bx + 0.5 * bw) / max(1, w)) if bw > 0 else float(xy_norm[0]),
             "y_norm": float((by + 0.5 * bh) / max(1, h)) if bh > 0 else float(xy_norm[1]),
-            "method": "icon_recognizer_v4",
+            "method": (
+                ("icon_recognizer_v4_gh_raw_alt" if use_great_hollow_alt else "icon_recognizer_v4")
+                + (
+                    f":{str(slot.get('classifier_mode', 'classic'))}"
+                    if anchor_type in {"Palace", "Fortress", "Ruins", "Great Church"}
+                    else ""
+                )
+            ),
+            "classifier_mode": str(slot.get("classifier_mode", "classic")),
             "ranked": ranked,
         }
     return observed
@@ -5444,7 +6373,8 @@ def format_layout_debug_lines(result: dict, max_slots: int = 5) -> List[str]:
             f"earth={float(result.get('earth_score', 0.0)):.6f} geometry={float(result.get('geometry_prior', 0.0)):+.4f} "
             f"lost={float(result.get('lost_slot_prior', 0.0)):+.4f} hard={float(result.get('hard_constraint_prior', 0.0)):+.4f} "
             f"evergaol={float(result.get('evergaol_prior', 0.0)):+.4f} "
-            f"gh_status={float(result.get('great_hollow_status_prior', 0.0)):+.4f}"
+            f"gh_status={float(result.get('great_hollow_status_prior', 0.0)):+.4f} "
+            f"gh_models={float(result.get('great_hollow_model_layout_prior', 0.0)):+.4f}"
         ),
         (
             f"  exact_w={float(details.get('exact_match_weight', 0.0)):.2f} "
@@ -5696,7 +6626,18 @@ def run_recognition(ctx: RunContext, monitor_index: int = 1, preview_callback: O
         lost_slot_priors = compute_lost_limveld_slot_priors(package, observations_by_earth)
         hard_constraint_priors = compute_hard_constraint_priors(package, observations_by_earth)
         evergaol_priors = compute_evergaol_priors(panel_bgr, observations_by_earth)
-        great_hollow_status_observations = detect_great_hollow_statuses(panel_bgr, package, observations_by_earth)
+        great_hollow_status_observations = detect_great_hollow_statuses(
+            panel_bgr,
+            package,
+            observations_by_earth,
+            raw_panel_bgr=raw_panel_bgr,
+            earth_rank=earth_rank,
+        )
+        great_hollow_model_layout_observations = infer_great_hollow_layout_model_observations(
+            raw_panel_bgr=raw_panel_bgr,
+            package=package,
+            ctx=ctx,
+        )
         for earth_name, info in geometry_priors.items():
             ctx.log(
                 f"Geometry prior for {earth_name}: slot_count={info['slot_count']} "
@@ -5719,6 +6660,19 @@ def run_recognition(ctx: RunContext, monitor_index: int = 1, preview_callback: O
                 f"Great Hollow status {anchor_type}: best={info.get('best_status', '?')} "
                 f"score={float(info.get('best_score', 0.0)):.4f} margin={float(info.get('margin', 0.0)):.4f}"
             )
+        if great_hollow_model_layout_observations:
+            ctx.log("Great Hollow model-observation summary:")
+            for spec_key, obs in great_hollow_model_layout_observations.items():
+                if str(obs.get("kind", "")) == "status":
+                    ctx.log(
+                        f"  {spec_key}: predicted={obs.get('predicted_status', '?')} "
+                        f"p={float(obs.get('best_prob', 0.0)):.4f} margin={float(obs.get('margin', 0.0)):.4f}"
+                    )
+                else:
+                    ctx.log(
+                        f"  {spec_key}: predicted={obs.get('predicted_slot_label', '?')} "
+                        f"p={float(obs.get('best_prob', 0.0)):.4f} margin={float(obs.get('margin', 0.0)):.4f}"
+                    )
 
         earth_cascade_rank = rank_shifting_earths_cascade(
             earth_rank,
@@ -5751,22 +6705,35 @@ def run_recognition(ctx: RunContext, monitor_index: int = 1, preview_callback: O
             for layout in package.layouts_by_earth[earth_name]:
                 great_hollow_status_prior = 0.0
                 great_hollow_status_details = {"great_hollow_status_prior": 0.0, "status_evidence": []}
+                great_hollow_model_layout_prior = 0.0
+                great_hollow_model_layout_details = {
+                    "great_hollow_model_layout_prior": 0.0,
+                    "model_evidence": [],
+                }
                 if earth_name == "Great Hollow":
                     great_hollow_status_prior, great_hollow_status_details = compute_great_hollow_status_prior(
                         layout,
                         great_hollow_status_observations,
                     )
+                    great_hollow_model_layout_prior, great_hollow_model_layout_details = compute_great_hollow_model_layout_prior(
+                        layout=layout,
+                        package=package,
+                        model_observations=great_hollow_model_layout_observations,
+                    )
                 total_score, details = score_layout_ai(
                     slots_out,
                     layout["slot_labels"],
                     earth_score,
+                    earth_name=earth_name,
                     geometry_prior=geometry_prior,
                     lost_slot_prior=lost_slot_prior,
                     hard_constraint_prior=hard_constraint_prior,
                     evergaol_prior=evergaol_prior,
                     great_hollow_status_prior=great_hollow_status_prior,
+                    great_hollow_model_layout_prior=great_hollow_model_layout_prior,
                 )
                 details["status_evidence"] = list(great_hollow_status_details.get("status_evidence", []))
+                details["gh_model_evidence"] = list(great_hollow_model_layout_details.get("model_evidence", []))
                 all_results.append({
                     "layout_number": int(layout["layout_number"]),
                     "shifting_earth": earth_name,
@@ -5777,6 +6744,7 @@ def run_recognition(ctx: RunContext, monitor_index: int = 1, preview_callback: O
                     "hard_constraint_prior": float(hard_constraint_prior),
                     "evergaol_prior": float(evergaol_prior),
                     "great_hollow_status_prior": float(great_hollow_status_prior),
+                    "great_hollow_model_layout_prior": float(great_hollow_model_layout_prior),
                     "details": details,
                 })
 
@@ -5809,6 +6777,7 @@ def run_recognition(ctx: RunContext, monitor_index: int = 1, preview_callback: O
                     f"score={float(item.get('total_score', 0.0)):.6f}",
                     f"earth_score={float(item.get('earth_score', 0.0)):.6f}",
                     f"gh_status={float(item.get('great_hollow_status_prior', 0.0)):+.4f}",
+                    f"gh_models={float(item.get('great_hollow_model_layout_prior', 0.0)):+.4f}",
                 ]
                 if exact_w is not None:
                     parts.append(f"exactW={float(exact_w):.2f}")
@@ -5862,6 +6831,7 @@ def run_recognition(ctx: RunContext, monitor_index: int = 1, preview_callback: O
             "hard_constraint_priors": hard_constraint_priors,
             "evergaol_priors": evergaol_priors,
             "great_hollow_status_observations": great_hollow_status_observations,
+            "great_hollow_model_layout_observations": great_hollow_model_layout_observations,
             "evergaol_debug_out": str(evergaol_debug_out),
             "results": all_results,
             "model_path": str(ai_bundle["model_path"]),

@@ -1,0 +1,42 @@
+pyinstaller --noconfirm --clean --windowed `
+  --name v38 `
+  --icon nightreign_sword_small_transparent_48.ico `
+  --runtime-hook hook_torch_dlls.py `
+  --hidden-import sklearn --hidden-import torch --hidden-import torchvision --hidden-import torchaudio `
+  --hidden-import PIL --hidden-import PIL.Image --hidden-import PIL.ImageTk `
+  --hidden-import cv2 --hidden-import numpy --hidden-import mss --hidden-import ctypes --hidden-import ctypes.wintypes `
+  --add-data "POI_icons;POI_icons" `
+  --add-data "great_hollow_pattern_sets;great_hollow_pattern_sets" `
+  --add-data "slot_ai_test_output;slot_ai_test_output" `
+  --add-data "slot_ai_test_output_dlc_no_text;slot_ai_test_output_dlc_no_text" `
+  --add-data "slot_ai_test_output_dlc_no_text_nobalance;slot_ai_test_output_dlc_no_text_nobalance" `
+  --add-data "recognize_nightreign_map_proto_v12_debugplus_radiusscale_fix.py;." `
+  --add-data "recognize_nightreign_map_proto_v12_authoritative.py;." `
+  --add-data "nightreign_geom_proto_v4_slots.npz;." `
+  --add-data "nightreign_best_tuned_config_multi.json;." `
+  --add-data "nightreign_best_tuned_config.json;." `
+  --add-data "Train_Earth_Selector_v2/infer_earth_selector_v2.py;Train_Earth_Selector_v2" `
+  --add-data "Train_Earth_Selector_v2/earth_selector_v2_model_all520_plus_new.pkl;Train_Earth_Selector_v2" `
+  --add-data "Testing/run_parallel_panel_classifiers.py;Testing" `
+  --add-data "Testing/slot_2/layout_classifier_lib.py;Testing/slot_2" `
+  --add-data "Testing/slot_2_fixed_geometry_panel_bases260/slot2_status_cnn_offset50_v1.pt;Testing/slot_2_fixed_geometry_panel_bases260" `
+  --add-data "Testing/slot_4/layout_classifier_lib.py;Testing/slot_4" `
+  --add-data "Testing/slot_4_fixed_geometry_panel_bases260/separated_occupied_empty/slot4_occupied_empty_from_panel_fixed_v1.pt;Testing/slot_4_fixed_geometry_panel_bases260/separated_occupied_empty" `
+  --add-data "Testing/slot_4_fixed_geometry_panel_bases260/slot4_church_vs_sorcerer_bases260/slot4_church_vs_sorcerer_v1.pt;Testing/slot_4_fixed_geometry_panel_bases260/slot4_church_vs_sorcerer_bases260" `
+  --add-data "Testing/slot_5/layout_classifier_lib.py;Testing/slot_5" `
+  --add-data "Testing/slot5_authoritative_binary_panel_v1/slot5_occupied_empty_authoritative_v1.pt;Testing/slot5_authoritative_binary_panel_v1" `
+  --add-data "Testing/slot5_church_vs_sorcerer_panel_v2_userlabels/slot5_church_vs_sorcerer_v2.pt;Testing/slot5_church_vs_sorcerer_panel_v2_userlabels" `
+  --add-data "Testing/slot_7/layout_classifier_lib.py;Testing/slot_7" `
+  --add-data "Testing/slot_7_fixed_geometry_panel_bases260/separated_occupied_empty/slot7_occupied_empty_from_panel_fixed_v1.pt;Testing/slot_7_fixed_geometry_panel_bases260/separated_occupied_empty" `
+  --add-data "Testing/slot_7_fixed_geometry_panel_bases260/slot7_church_vs_sorcerer_bases260/slot7_church_vs_sorcerer_v1.pt;Testing/slot_7_fixed_geometry_panel_bases260/slot7_church_vs_sorcerer_bases260" `
+  --add-data "Testing/slot_6/layout_classifier_lib.py;Testing/slot_6" `
+  --add-data "Testing/slot_6/slot6_status_cnn.pt;Testing/slot_6" `
+  --add-data "Testing/palace/layout_classifier_lib.py;Testing/palace" `
+  --add-data "Testing/palace/palace_status_cnn_retrain_latest.pt;Testing/palace" `
+  --add-data "Testing/palace/palace_status_cnn.pt;Testing/palace" `
+  --add-data "Testing/fortress/layout_classifier_lib.py;Testing/fortress" `
+  --add-data "Testing/fortress/fortress_status_cnn_retrain_latest.pt;Testing/fortress" `
+  --add-data "Testing/fortress/fortress_status_cnn.pt;Testing/fortress" `
+  --add-data "earth_ai_test_output_no_text_prepped/earth_panel_model_v1.pt;earth_ai_test_output_no_text_prepped" `
+  --add-data "earth_ai_test_output_no_text/earth_panel_model_v1.pt;earth_ai_test_output_no_text" `
+  nightreign_map_recognizer_gui_ai_v38_completion_toast_overlay.py

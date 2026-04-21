@@ -1,0 +1,15 @@
+Shifting Earth: The Crater
+Source folder: tmp_the_crater_both_crops_L256_R256_T256_B256/further_crop_1024
+Total images in this zip: 10
+
+Files:
+01. pattern_0025_further_crop_1024.png | Shifting Earth=The Crater
+02. pattern_0026_further_crop_1024.png | Shifting Earth=The Crater
+03. pattern_0027_further_crop_1024.png | Shifting Earth=The Crater
+04. pattern_0028_further_crop_1024.png | Shifting Earth=The Crater
+05. pattern_0029_further_crop_1024.png | Shifting Earth=The Crater
+06. pattern_0065_further_crop_1024.png | Shifting Earth=The Crater
+07. pattern_0066_further_crop_1024.png | Shifting Earth=The Crater
+08. pattern_0067_further_crop_1024.png | Shifting Earth=The Crater
+09. pattern_0068_further_crop_1024.png | Shifting Earth=The Crater
+10. pattern_0069_further_crop_1024.png | Shifting Earth=The Crater

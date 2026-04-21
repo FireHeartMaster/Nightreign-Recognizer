@@ -1,0 +1,40 @@
+{
+  "notes": "slot5 rebuild: 260 bases from panel crops + 3000 jitters per base; translation jitter ?30 then affine reflect",
+  "seed": 20260523,
+  "jitters_per_base": 3000,
+  "translation_jitter_max": 30,
+  "bases260_root": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5_plus_real_heavy\\rebuild_260_jitters3000_per_base\\bases260",
+  "jitters_root": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5_plus_real_heavy\\rebuild_260_jitters3000_per_base\\jitters200",
+  "classes": {
+    "Church": {
+      "num_bases": 4,
+      "written": 12000,
+      "per_base_written": {
+        "pattern_1128_panel_crop__slot5_asym260.png": 3000,
+        "pattern_1175_panel_crop__slot5_asym260.png": 3000,
+        "real_Screenshot_133_panel_crop_for_fortress_test__slot5_asym260.png": 3000,
+        "real_Screenshot_137_panel_crop_for_fortress_test__slot5_asym260.png": 3000
+      }
+    },
+    "empty": {
+      "num_bases": 3,
+      "written": 9000,
+      "per_base_written": {
+        "pattern_1120_panel_crop__slot5_asym260.png": 3000,
+        "real_Screenshot_134_panel_crop_for_fortress_test__slot5_asym260.png": 3000,
+        "real_Screenshot_135_panel_crop_for_fortress_test__slot5_asym260.png": 3000
+      }
+    },
+    "Sorcerer_s_Rise": {
+      "num_bases": 5,
+      "written": 15000,
+      "per_base_written": {
+        "pattern_1115_panel_crop__slot5_asym260.png": 3000,
+        "pattern_1119_panel_crop__slot5_asym260.png": 3000,
+        "pattern_1181_panel_crop__slot5_asym260.png": 3000,
+        "pattern_1185_panel_crop__slot5_asym260.png": 3000,
+        "real_Screenshot_136_panel_crop_for_fortress_test__slot5_asym260.png": 3000
+      }
+    }
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "device": "cuda",
+  "model_path": "slot_ai_test_quick\\slot_patch_model_v1.pt",
+  "model_size_mb": 0.79,
+  "label_counts_total": {
+    "Great Church": 420,
+    "Sorcerer's Rise": 288,
+    "Fort": 458,
+    "Main Encampment": 612,
+    "Ruins": 798,
+    "Church": 524,
+    "empty": 780
+  },
+  "source_counts_total": {
+    "no_text": 1940,
+    "no_text_1080_sim": 1940
+  },
+  "train_samples": 2706,
+  "val_samples": 580,
+  "test_samples": 594,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.8589898139040115,
+      "train_acc": 0.16999260901699925,
+      "val_loss": 2.4058694494181667,
+      "val_acc": 0.11724137931034483,
+      "val_per_source_acc": {
+        "no_text": 0.1206896551724138,
+        "no_text_1080_sim": 0.11379310344827587
+      }
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.6204717304648422,
+      "train_acc": 0.2597930524759793,
+      "val_loss": 2.176170118101712,
+      "val_acc": 0.1413793103448276,
+      "val_per_source_acc": {
+        "no_text": 0.1,
+        "no_text_1080_sim": 0.18275862068965518
+      }
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.38729370459749,
+      "train_acc": 0.3048780487804878,
+      "val_loss": 2.8514596774660306,
+      "val_acc": 0.15862068965517243,
+      "val_per_source_acc": {
+        "no_text": 0.1724137931034483,
+        "no_text_1080_sim": 0.14482758620689656
+      }
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.1207868521599442,
+      "train_acc": 0.4597191426459719,
+      "val_loss": 1.588065375952885,
+      "val_acc": 0.36551724137931035,
+      "val_per_source_acc": {
+        "no_text": 0.5137931034482759,
+        "no_text_1080_sim": 0.21724137931034482
+      }
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.8879624303851582,
+      "train_acc": 0.614190687361419,
+      "val_loss": 1.3557901353671633,
+      "val_acc": 0.32413793103448274,
+      "val_per_source_acc": {
+        "no_text": 0.31724137931034485,
+        "no_text_1080_sim": 0.3310344827586207
+      }
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.586169829389737,
+      "train_acc": 0.7852919438285292,
+      "val_loss": 1.549604084573943,
+      "val_acc": 0.4,
+      "val_per_source_acc": {
+        "no_text": 0.30344827586206896,
+        "no_text_1080_sim": 0.496551724137931
+      }
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.4140159976059476,
+      "train_acc": 0.844789356984479,
+      "val_loss": 0.6542119026184082,
+      "val_acc": 0.6758620689655173,
+      "val_per_source_acc": {
+        "no_text": 0.6758620689655173,
+        "no_text_1080_sim": 0.6758620689655173
+      }
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.2776003572470333,
+      "train_acc": 0.8961566888396156,
+      "val_loss": 0.9924375114769771,
+      "val_acc": 0.6620689655172414,
+      "val_per_source_acc": {
+        "no_text": 0.9103448275862069,
+        "no_text_1080_sim": 0.41379310344827586
+      }
+    }
+  ],
+  "final_val": {
+    "loss": 0.6542119026184082,
+    "acc": 0.6758620689655173,
+    "per_class_acc": {
+      "empty": 0.21428571428571427,
+      "Church": 1.0,
+      "Fort": 0.2894736842105263,
+      "Great Church": 0.7741935483870968,
+      "Main Encampment": 1.0,
+      "Ruins": 0.7419354838709677,
+      "Sorcerer's Rise": 1.0
+    },
+    "per_source_acc": {
+      "no_text": 0.6758620689655173,
+      "no_text_1080_sim": 0.6758620689655173
+    },
+    "confusion": {
+      "Ruins": {
+        "Main Encampment": 32,
+        "Ruins": 92
+      },
+      "Great Church": {
+        "Great Church": 48,
+        "Main Encampment": 14
+      },
+      "Sorcerer's Rise": {
+        "Sorcerer's Rise": 44
+      },
+      "Fort": {
+        "Main Encampment": 45,
+        "Fort": 22,
+        "Ruins": 7,
+        "Great Church": 2
+      },
+      "Main Encampment": {
+        "Main Encampment": 86
+      },
+      "Church": {
+        "Church": 76
+      },
+      "empty": {
+        "empty": 24,
+        "Church": 79,
+        "Main Encampment": 9
+      }
+    },
+    "count": 580
+  },
+  "final_test": {
+    "loss": 0.6469031608465946,
+    "acc": 0.6750841750841751,
+    "per_class_acc": {
+      "empty": 0.23076923076923078,
+      "Church": 1.0,
+      "Fort": 0.38235294117647056,
+      "Great Church": 0.8636363636363636,
+      "Main Encampment": 1.0,
+      "Ruins": 0.631578947368421,
+      "Sorcerer's Rise": 1.0
+    },
+    "per_source_acc": {
+      "no_text": 0.6801346801346801,
+      "no_text_1080_sim": 0.67003367003367
+    },
+    "confusion": {
+      "Main Encampment": {
+        "Main Encampment": 100
+      },
+      "Great Church": {
+        "Great Church": 57,
+        "Main Encampment": 9
+      },
+      "Sorcerer's Rise": {
+        "Sorcerer's Rise": 36
+      },
+      "empty": {
+        "Church": 90,
+        "empty": 30,
+        "Main Encampment": 10
+      },
+      "Church": {
+        "Church": 80
+      },
+      "Ruins": {
+        "Ruins": 72,
+        "Main Encampment": 42
+      },
+      "Fort": {
+        "Main Encampment": 32,
+        "Fort": 26,
+        "Ruins": 8,
+        "Great Church": 2
+      }
+    },
+    "count": 594
+  },
+  "args": {
+    "package": "nightreign_geom_proto_v4_slots.npz",
+    "images_dirs": [
+      "renders\\no_text",
+      "renders\\no_text_1080_sim"
+    ],
+    "patch_size": 96,
+    "context_scale": 1.8,
+    "min_half_frac": 0.075,
+    "train_ratio": 0.7,
+    "val_ratio": 0.15,
+    "seed": 12345,
+    "epochs": 8,
+    "batch_size": 96,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "num_workers": 0,
+    "balance_sampler": true,
+    "max_layouts_per_dir": 80,
+    "output_dir": "slot_ai_test_quick"
+  }
+}

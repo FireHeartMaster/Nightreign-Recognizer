@@ -1,0 +1,166 @@
+{
+  "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot5_worldX243_Z471_bases260\\slot5_occupied_empty_cnn.pt",
+  "class_names": [
+    "empty",
+    "occupied"
+  ],
+  "image_size": 200,
+  "meta": {
+    "best_epoch": 1,
+    "best_val_accuracy": 1.0,
+    "train_samples": 7200,
+    "val_samples": 1800,
+    "source_class_counts": {
+      "empty": 3000,
+      "occupied": 6000
+    },
+    "train_class_counts": {
+      "empty": 2400,
+      "occupied": 4800
+    },
+    "class_weight": [
+      1.3333333730697632,
+      0.6666666865348816
+    ],
+    "occupied_source_classes": [
+      "Church",
+      "Sorcerer_s_Rise"
+    ],
+    "empty_source_classes": [
+      "empty"
+    ]
+  },
+  "slot5_crop200_ref_tl_panel_1536": {
+    "x": 499,
+    "y": 809,
+    "size": 200
+  },
+  "results": [
+    {
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\Screenshot_133_panel_crop_for_fortress_test.png",
+      "crop_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot5_worldX243_Z471_bases260\\test_on_6screens_occupied_empty\\Screenshot_133_panel_crop_for_fortress_test_slot5_crop200_occupied_empty.png",
+      "crop_rect": {
+        "x": 243,
+        "y": 394,
+        "size": 200
+      },
+      "predicted_label": "occupied",
+      "confidence": 0.9977486729621887,
+      "ranking": [
+        {
+          "label": "occupied",
+          "probability": 0.9977486729621887
+        },
+        {
+          "label": "empty",
+          "probability": 0.0022513449657708406
+        }
+      ]
+    },
+    {
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\Screenshot_134_panel_crop_for_fortress_test.png",
+      "crop_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot5_worldX243_Z471_bases260\\test_on_6screens_occupied_empty\\Screenshot_134_panel_crop_for_fortress_test_slot5_crop200_occupied_empty.png",
+      "crop_rect": {
+        "x": 243,
+        "y": 394,
+        "size": 200
+      },
+      "predicted_label": "occupied",
+      "confidence": 0.9898869395256042,
+      "ranking": [
+        {
+          "label": "occupied",
+          "probability": 0.9898869395256042
+        },
+        {
+          "label": "empty",
+          "probability": 0.010113031603395939
+        }
+      ]
+    },
+    {
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\Screenshot_135_panel_crop_for_fortress_test.png",
+      "crop_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot5_worldX243_Z471_bases260\\test_on_6screens_occupied_empty\\Screenshot_135_panel_crop_for_fortress_test_slot5_crop200_occupied_empty.png",
+      "crop_rect": {
+        "x": 242,
+        "y": 393,
+        "size": 200
+      },
+      "predicted_label": "occupied",
+      "confidence": 0.9891335368156433,
+      "ranking": [
+        {
+          "label": "occupied",
+          "probability": 0.9891335368156433
+        },
+        {
+          "label": "empty",
+          "probability": 0.01086652185767889
+        }
+      ]
+    },
+    {
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\Screenshot_136_panel_crop_for_fortress_test.png",
+      "crop_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot5_worldX243_Z471_bases260\\test_on_6screens_occupied_empty\\Screenshot_136_panel_crop_for_fortress_test_slot5_crop200_occupied_empty.png",
+      "crop_rect": {
+        "x": 242,
+        "y": 393,
+        "size": 200
+      },
+      "predicted_label": "occupied",
+      "confidence": 0.997606635093689,
+      "ranking": [
+        {
+          "label": "occupied",
+          "probability": 0.997606635093689
+        },
+        {
+          "label": "empty",
+          "probability": 0.0023933437187224627
+        }
+      ]
+    },
+    {
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\Screenshot_137_panel_crop_for_fortress_test.png",
+      "crop_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot5_worldX243_Z471_bases260\\test_on_6screens_occupied_empty\\Screenshot_137_panel_crop_for_fortress_test_slot5_crop200_occupied_empty.png",
+      "crop_rect": {
+        "x": 242,
+        "y": 393,
+        "size": 200
+      },
+      "predicted_label": "occupied",
+      "confidence": 0.9974746108055115,
+      "ranking": [
+        {
+          "label": "occupied",
+          "probability": 0.9974746108055115
+        },
+        {
+          "label": "empty",
+          "probability": 0.002525396877899766
+        }
+      ]
+    },
+    {
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\Balancers_4K_panel_crop_for_fortress_test.png",
+      "crop_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot5_worldX243_Z471_bases260\\test_on_6screens_occupied_empty\\Balancers_4K_panel_crop_for_fortress_test_slot5_crop200_occupied_empty.png",
+      "crop_rect": {
+        "x": 484,
+        "y": 785,
+        "size": 200
+      },
+      "predicted_label": "empty",
+      "confidence": 0.9999281167984009,
+      "ranking": [
+        {
+          "label": "empty",
+          "probability": 0.9999281167984009
+        },
+        {
+          "label": "occupied",
+          "probability": 7.191620534285903e-05
+        }
+      ]
+    }
+  ]
+}

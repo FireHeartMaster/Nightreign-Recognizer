@@ -1,0 +1,16 @@
+{
+  "source_images": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\renders\\recognizer_no_text",
+  "pattern_count_expected": 50,
+  "pattern_count_written": 50,
+  "missing_or_unreadable_pattern_ids": [],
+  "output_dirs": {
+    "panel_crop_1536": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_noklateo_both_crops_L256_R256_T256_B256\\panel_crop_1536",
+    "further_crop_1024": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_noklateo_both_crops_L256_R256_T256_B256\\further_crop_1024",
+    "combined_preview": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_noklateo_both_crops_L256_R256_T256_B256\\combined"
+  },
+  "json_output": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\noklateo_layout_slots_full_further_crop_bl.json",
+  "further_crop_size": {
+    "width": 1024,
+    "height": 1024
+  }
+}

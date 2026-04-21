@@ -1,0 +1,39 @@
+{
+  "notes": "200x200 jitters generated from 260x260 panel-based bases; includes ?30 translational jitter then affine jitter with reflected borders",
+  "seed": 20260418,
+  "panel_center_1536_tl": {
+    "x": 984,
+    "y": 805
+  },
+  "base260_root": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_real_only_experiment\\bases260_from_panel",
+  "output_root": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_real_only_experiment\\jitters200_from_260_2000_per_class",
+  "target_per_class": 2000,
+  "translation_jitter_max": 30,
+  "classes": {
+    "Church": {
+      "num_base260": 3,
+      "written": 2000,
+      "per_base_written": {
+        "layout_1119_slot4_panel260.png": 667,
+        "layout_1120_slot4_panel260.png": 667,
+        "layout_1185_slot4_panel260.png": 666
+      }
+    },
+    "empty": {
+      "num_base260": 3,
+      "written": 2000,
+      "per_base_written": {
+        "layout_1128_slot4_panel260.png": 667,
+        "layout_1175_slot4_panel260.png": 667,
+        "layout_1181_slot4_panel260.png": 666
+      }
+    },
+    "Sorcerer_s_Rise": {
+      "num_base260": 1,
+      "written": 2000,
+      "per_base_written": {
+        "layout_1115_slot4_panel260.png": 2000
+      }
+    }
+  }
+}

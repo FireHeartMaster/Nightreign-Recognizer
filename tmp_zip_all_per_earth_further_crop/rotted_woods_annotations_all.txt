@@ -1,0 +1,55 @@
+Shifting Earth: Rotted Woods
+Source folder: tmp_rotted_woods_both_crops_L256_R256_T256_B256/further_crop_1024
+Total images in this zip: 50
+
+Files:
+0001. pattern_0030_further_crop_1024.png | Shifting Earth=Rotted Woods
+0002. pattern_0031_further_crop_1024.png | Shifting Earth=Rotted Woods
+0003. pattern_0032_further_crop_1024.png | Shifting Earth=Rotted Woods
+0004. pattern_0033_further_crop_1024.png | Shifting Earth=Rotted Woods
+0005. pattern_0034_further_crop_1024.png | Shifting Earth=Rotted Woods
+0006. pattern_0070_further_crop_1024.png | Shifting Earth=Rotted Woods
+0007. pattern_0071_further_crop_1024.png | Shifting Earth=Rotted Woods
+0008. pattern_0072_further_crop_1024.png | Shifting Earth=Rotted Woods
+0009. pattern_0073_further_crop_1024.png | Shifting Earth=Rotted Woods
+0010. pattern_0074_further_crop_1024.png | Shifting Earth=Rotted Woods
+0011. pattern_0110_further_crop_1024.png | Shifting Earth=Rotted Woods
+0012. pattern_0111_further_crop_1024.png | Shifting Earth=Rotted Woods
+0013. pattern_0112_further_crop_1024.png | Shifting Earth=Rotted Woods
+0014. pattern_0113_further_crop_1024.png | Shifting Earth=Rotted Woods
+0015. pattern_0114_further_crop_1024.png | Shifting Earth=Rotted Woods
+0016. pattern_0150_further_crop_1024.png | Shifting Earth=Rotted Woods
+0017. pattern_0151_further_crop_1024.png | Shifting Earth=Rotted Woods
+0018. pattern_0152_further_crop_1024.png | Shifting Earth=Rotted Woods
+0019. pattern_0153_further_crop_1024.png | Shifting Earth=Rotted Woods
+0020. pattern_0154_further_crop_1024.png | Shifting Earth=Rotted Woods
+0021. pattern_0190_further_crop_1024.png | Shifting Earth=Rotted Woods
+0022. pattern_0191_further_crop_1024.png | Shifting Earth=Rotted Woods
+0023. pattern_0192_further_crop_1024.png | Shifting Earth=Rotted Woods
+0024. pattern_0193_further_crop_1024.png | Shifting Earth=Rotted Woods
+0025. pattern_0194_further_crop_1024.png | Shifting Earth=Rotted Woods
+0026. pattern_0230_further_crop_1024.png | Shifting Earth=Rotted Woods
+0027. pattern_0231_further_crop_1024.png | Shifting Earth=Rotted Woods
+0028. pattern_0232_further_crop_1024.png | Shifting Earth=Rotted Woods
+0029. pattern_0233_further_crop_1024.png | Shifting Earth=Rotted Woods
+0030. pattern_0234_further_crop_1024.png | Shifting Earth=Rotted Woods
+0031. pattern_0270_further_crop_1024.png | Shifting Earth=Rotted Woods
+0032. pattern_0271_further_crop_1024.png | Shifting Earth=Rotted Woods
+0033. pattern_0272_further_crop_1024.png | Shifting Earth=Rotted Woods
+0034. pattern_0273_further_crop_1024.png | Shifting Earth=Rotted Woods
+0035. pattern_0274_further_crop_1024.png | Shifting Earth=Rotted Woods
+0036. pattern_0310_further_crop_1024.png | Shifting Earth=Rotted Woods
+0037. pattern_0311_further_crop_1024.png | Shifting Earth=Rotted Woods
+0038. pattern_0312_further_crop_1024.png | Shifting Earth=Rotted Woods
+0039. pattern_0313_further_crop_1024.png | Shifting Earth=Rotted Woods
+0040. pattern_0314_further_crop_1024.png | Shifting Earth=Rotted Woods
+0041. pattern_1110_further_crop_1024.png | Shifting Earth=Rotted Woods
+0042. pattern_1111_further_crop_1024.png | Shifting Earth=Rotted Woods
+0043. pattern_1112_further_crop_1024.png | Shifting Earth=Rotted Woods
+0044. pattern_1113_further_crop_1024.png | Shifting Earth=Rotted Woods
+0045. pattern_1114_further_crop_1024.png | Shifting Earth=Rotted Woods
+0046. pattern_1170_further_crop_1024.png | Shifting Earth=Rotted Woods
+0047. pattern_1171_further_crop_1024.png | Shifting Earth=Rotted Woods
+0048. pattern_1172_further_crop_1024.png | Shifting Earth=Rotted Woods
+0049. pattern_1173_further_crop_1024.png | Shifting Earth=Rotted Woods
+0050. pattern_1174_further_crop_1024.png | Shifting Earth=Rotted Woods

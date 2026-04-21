@@ -1,0 +1,65 @@
+{
+  "notes": "slot-2 jitter set; affine jitter + reflected borders; 260->200 crops.",
+  "per_class_target": 3000,
+  "seed": 777,
+  "base_size": 260,
+  "out_size": 200,
+  "summary": {
+    "Great_Church_Lightning": {
+      "total_generated": 3000,
+      "base_images": 4,
+      "per_base": {
+        "pattern_1115__slot2_panel260_fixed.png": 750,
+        "pattern_1119__slot2_panel260_fixed.png": 750,
+        "pattern_1128__slot2_panel260_fixed.png": 750,
+        "pattern_1185__slot2_panel260_fixed.png": 750
+      }
+    },
+    "Great_Church_Sleep": {
+      "total_generated": 3000,
+      "base_images": 3,
+      "per_base": {
+        "pattern_1120__slot2_panel260_fixed.png": 1000,
+        "pattern_1175__slot2_panel260_fixed.png": 1000,
+        "pattern_1181__slot2_panel260_fixed.png": 1000
+      }
+    }
+  },
+  "items": [
+    {
+      "label": "Great_Church_Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260\\Great_Church_Lightning\\pattern_1115__slot2_panel260_fixed.png",
+      "generated": 750
+    },
+    {
+      "label": "Great_Church_Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260\\Great_Church_Lightning\\pattern_1119__slot2_panel260_fixed.png",
+      "generated": 750
+    },
+    {
+      "label": "Great_Church_Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260\\Great_Church_Lightning\\pattern_1128__slot2_panel260_fixed.png",
+      "generated": 750
+    },
+    {
+      "label": "Great_Church_Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260\\Great_Church_Lightning\\pattern_1185__slot2_panel260_fixed.png",
+      "generated": 750
+    },
+    {
+      "label": "Great_Church_Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260\\Great_Church_Sleep\\pattern_1120__slot2_panel260_fixed.png",
+      "generated": 1000
+    },
+    {
+      "label": "Great_Church_Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260\\Great_Church_Sleep\\pattern_1175__slot2_panel260_fixed.png",
+      "generated": 1000
+    },
+    {
+      "label": "Great_Church_Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260\\Great_Church_Sleep\\pattern_1181__slot2_panel260_fixed.png",
+      "generated": 1000
+    }
+  ]
+}

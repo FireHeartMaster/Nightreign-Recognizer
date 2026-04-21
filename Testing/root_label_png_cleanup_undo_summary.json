@@ -1,0 +1,97 @@
+{
+  "restored_count": 18,
+  "skipped_count": 0,
+  "restored": [
+    {
+      "from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress\\Status_Rot\\Status_Rot.png",
+      "to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress\\Status_Rot.png",
+      "mode": "summary_reverse"
+    },
+    {
+      "from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress\\Status_Holy\\Status_Holy.png",
+      "to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress\\Status_Holy.png",
+      "mode": "summary_reverse"
+    },
+    {
+      "from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\Status_Magic\\Status_Magic.png",
+      "to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\Status_Magic.png",
+      "mode": "summary_reverse"
+    },
+    {
+      "from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\Status_Fire\\Status_Fire.png",
+      "to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\Status_Fire.png",
+      "mode": "summary_reverse"
+    },
+    {
+      "from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7\\Sorcerer_s_Rise\\Sorcerer_s_Rise.png",
+      "to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7\\Sorcerer_s_Rise.png",
+      "mode": "summary_reverse"
+    },
+    {
+      "from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7\\empty\\empty.png",
+      "to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7\\empty.png",
+      "mode": "summary_reverse"
+    },
+    {
+      "from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7\\Church\\Church.png",
+      "to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7\\Church.png",
+      "mode": "summary_reverse"
+    },
+    {
+      "from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\Ruins_Poison\\Ruins_Poison.png",
+      "to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\Ruins_Poison.png",
+      "mode": "summary_reverse"
+    },
+    {
+      "from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\Ruins_Bleed\\Ruins_Bleed.png",
+      "to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\Ruins_Bleed.png",
+      "mode": "summary_reverse"
+    },
+    {
+      "from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5\\Sorcerer_s_Rise\\Sorcerer_s_Rise.png",
+      "to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5\\Sorcerer_s_Rise.png",
+      "mode": "summary_reverse"
+    },
+    {
+      "from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5\\empty\\empty.png",
+      "to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5\\empty.png",
+      "mode": "summary_reverse"
+    },
+    {
+      "from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5\\Church\\Church.png",
+      "to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5\\Church.png",
+      "mode": "summary_reverse"
+    },
+    {
+      "from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4\\Sorcerer_s_Rise\\Sorcerer_s_Rise.png",
+      "to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4\\Sorcerer_s_Rise.png",
+      "mode": "summary_reverse"
+    },
+    {
+      "from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4\\empty\\empty.png",
+      "to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4\\empty.png",
+      "mode": "summary_reverse"
+    },
+    {
+      "from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4\\Church\\Church.png",
+      "to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4\\Church.png",
+      "mode": "summary_reverse"
+    },
+    {
+      "from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_3\\Church\\Church.png",
+      "to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_3\\Church.png",
+      "mode": "summary_reverse"
+    },
+    {
+      "from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2\\Great_Church_Sleep\\Great_Church_Sleep.png",
+      "to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2\\Great_Church_Sleep.png",
+      "mode": "summary_reverse"
+    },
+    {
+      "from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2\\Great_Church_Lightning\\Great_Church_Lightning.png",
+      "to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2\\Great_Church_Lightning.png",
+      "mode": "summary_reverse"
+    }
+  ],
+  "skipped": []
+}

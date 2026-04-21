@@ -294,6 +294,7 @@ def map_layout_from_shifting_earth(shifting_earth: str) -> str:
         "Crater": "the_crater_shifted",
         "Rotted Woods": "the_rotten_woods_shifted",
         "Noklateo": "noklateo_shifted",
+        "Great Hollow": "great_hollow_shifted",
         "Default": "default",
     }.get(shifting_earth, "default")
 
@@ -537,6 +538,7 @@ def load_coordinate_layout(coord_dir: Path, map_layout: str) -> Dict[str, List[L
         "the_crater_shifted": "the_crater_map_layout.json",
         "the_mountaintop_shifted": "the_mountaintop_map_layout.json",
         "the_rotten_woods_shifted": "the_rotten_woods_map_layout.json",
+        "great_hollow_shifted": "great_hollow_map_layout.json",
         "default": "default_map_layout.json",
     }.get(map_layout, "default_map_layout.json")
 
@@ -906,6 +908,7 @@ def stitch_map_tiles(map_dir: Path, map_layout: str) -> Image.Image:
         "the_mountaintop_shifted": map_dir / "the_mountaintop_shifted_map_tiles",
         "the_rotten_woods_shifted": map_dir / "the_rotten_woods_shifted_map_tiles",
         "noklateo_shifted": map_dir / "noklateo_shifted_map_tiles",
+        "great_hollow_shifted": map_dir / "great_hollow_shifted_map_tiles",
     }[map_layout]
 
     tiles: List[List[Image.Image]] = []
@@ -1613,7 +1616,7 @@ def main() -> int:
                 save_ext = args.out.suffix.lower().lstrip(".")
             save_image(img, args.out, save_ext)
             print(f"Saved {args.out}")
-            export_recognition_assets(args.repo, paths, layouts, args.export_recognition_package, args.export_recognition_dir)
+            export_recognition_assets(repo_root, paths, layouts, args.export_recognition_package, args.export_recognition_dir)
             return 0
 
         out_dir = args.out_dir
@@ -1650,7 +1653,7 @@ def main() -> int:
                 zip_dir(mode_dir, zip_path)
                 print(f"Saved {zip_path}")
 
-        export_recognition_assets(args.repo, paths, layouts, args.export_recognition_package, args.export_recognition_dir)
+        export_recognition_assets(repo_root, paths, layouts, args.export_recognition_package, args.export_recognition_dir)
         return 0
     except Exception as exc:
         print(f"Error: {exc}", file=sys.stderr)

@@ -1,0 +1,74 @@
+Display directory: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\renders\recognizer_with_text
+Log file: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\recognition.log
+Selected display: Display 1 — 3840x2160 @ (0,0)
+Using slot package path: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\nightreign_geom_proto_v4_slots.npz
+Using AI confidence_threshold=0.550
+Using AI margin_threshold=0.080
+Using trained AI slot classifier for slot recognition.
+Using pre-captured first screenshot from dual-shot trigger.
+[START] Run AI slot recognizer
+Using map_class_classifier.py as main Shifting Earth selector.
+Shifting Earth ranking:
+  Great Hollow   score=4.267594 low_corr=0.0000 grad_corr=0.0000 source=map_class_classifier
+Evaluating structural earth cascade across 1 families.
+AI slots for earth Great Hollow: dx=-0.0060 dy=+0.0099 resp=0.2231 unknown=0/7
+Geometry prior for Great Hollow: slot_count=7 align=0.2231 prior=+0.0000
+Evergaol prior for Great Hollow: prior=-0.2039
+Great Hollow status Palace: best=Status_Magic score=0.5100 margin=0.0200
+Great Hollow status Fortress: best=Status_Holy score=0.5004 margin=0.0008
+Great Hollow status Ruins: best=Status_Poison score=0.9409 margin=0.8818
+Great Hollow status Great Church: best=Status_Sleep score=0.5814 margin=0.1628
+Shifting Earth cascade ranking:
+  Great Hollow   score=6.340214 base=4.267594 geom=+0.0000 lost=+0.0000 hard=+0.0000 ever=-0.2039
+Restricting layout ranking to Great Hollow family only after cascade.
+Layout infer for Great Hollow: decided pattern=1115 margin=0.0266 conf=0.3055 latency=53.74ms
+[DONE] Run AI slot recognizer (15.550s)
+Saved AI slot debug image to tmp_runtime\compat_tempdirs\nightreign_gui_ai_1f4db399c9\recognition_panel_used_with_slot_labels_ai.png
+Saved Evergaol debug image to tmp_runtime\compat_tempdirs\nightreign_gui_ai_1f4db399c9\recognition_panel_used_with_evergaol_debug.png
+
+Top 20 layout matches:
+  1. layout #1115 earth=Great Hollow score=3.158510 earth_score=4.267594 gh_status=-0.0998 gh_under=+0.0000 layout_infer=+2.3188 exactW=5.70 mismW=1.65 unkW=0.00
+  2. layout #1179 earth=Great Hollow score=3.104751 earth_score=4.267594 gh_status=+0.1107 gh_under=+0.0000 layout_infer=+0.0000 exactW=7.35 mismW=0.00 unkW=0.00
+  3. layout #1190 earth=Great Hollow score=3.104751 earth_score=4.267594 gh_status=+0.1107 gh_under=+0.0000 layout_infer=+0.0000 exactW=7.35 mismW=0.00 unkW=0.00
+  4. layout #1119 earth=Great Hollow score=3.008334 earth_score=4.267594 gh_status=+0.0143 gh_under=+0.0000 layout_infer=+0.0000 exactW=7.35 mismW=0.00 unkW=0.00
+  5. layout #1122 earth=Great Hollow score=2.990640 earth_score=4.267594 gh_status=-0.0034 gh_under=+0.0000 layout_infer=+0.0000 exactW=7.35 mismW=0.00 unkW=0.00
+  6. layout #1127 earth=Great Hollow score=2.945215 earth_score=4.267594 gh_status=-0.0488 gh_under=+0.0000 layout_infer=+0.0000 exactW=7.35 mismW=0.00 unkW=0.00
+  7. layout #1078 earth=Great Hollow score=2.848799 earth_score=4.267594 gh_status=-0.1452 gh_under=+0.0000 layout_infer=+0.0000 exactW=7.35 mismW=0.00 unkW=0.00
+  8. layout #1066 earth=Great Hollow score=2.844751 earth_score=4.267594 gh_status=-0.1493 gh_under=+0.0000 layout_infer=+0.0000 exactW=7.35 mismW=0.00 unkW=0.00
+  9. layout #1077 earth=Great Hollow score=2.748334 earth_score=4.267594 gh_status=-0.2457 gh_under=+0.0000 layout_infer=+0.0000 exactW=7.35 mismW=0.00 unkW=0.00
+  10. layout #1185 earth=Great Hollow score=2.634224 earth_score=4.267594 gh_status=-0.3598 gh_under=+0.0000 layout_infer=+0.0000 exactW=7.35 mismW=0.00 unkW=0.00
+  11. layout #1055 earth=Great Hollow score=1.923644 earth_score=4.267594 gh_status=+0.2289 gh_under=+0.0000 layout_infer=+0.0000 exactW=5.64 mismW=1.71 unkW=0.00
+  12. layout #1126 earth=Great Hollow score=1.923644 earth_score=4.267594 gh_status=+0.2289 gh_under=+0.0000 layout_infer=+0.0000 exactW=5.64 mismW=1.71 unkW=0.00
+  13. layout #1176 earth=Great Hollow score=1.923644 earth_score=4.267594 gh_status=+0.2289 gh_under=+0.0000 layout_infer=+0.0000 exactW=5.64 mismW=1.71 unkW=0.00
+  14. layout #1035 earth=Great Hollow score=1.805486 earth_score=4.267594 gh_status=+0.1107 gh_under=+0.0000 layout_infer=+0.0000 exactW=5.64 mismW=1.71 unkW=0.00
+  15. layout #1177 earth=Great Hollow score=1.594959 earth_score=4.267594 gh_status=-0.0998 gh_under=+0.0000 layout_infer=+0.0000 exactW=5.64 mismW=1.71 unkW=0.00
+  16. layout #1016 earth=Great Hollow score=1.576636 earth_score=4.267594 gh_status=+0.3253 gh_under=+0.0000 layout_infer=+0.0000 exactW=5.60 mismW=1.74 unkW=0.00
+  17. layout #1049 earth=Great Hollow score=1.576636 earth_score=4.267594 gh_status=+0.3253 gh_under=+0.0000 layout_infer=+0.0000 exactW=5.60 mismW=1.74 unkW=0.00
+  18. layout #1125 earth=Great Hollow score=1.576636 earth_score=4.267594 gh_status=+0.3253 gh_under=+0.0000 layout_infer=+0.0000 exactW=5.60 mismW=1.74 unkW=0.00
+  19. layout #1133 earth=Great Hollow score=1.480219 earth_score=4.267594 gh_status=+0.2289 gh_under=+0.0000 layout_infer=+0.0000 exactW=5.60 mismW=1.74 unkW=0.00
+  20. layout #1178 earth=Great Hollow score=1.366109 earth_score=4.267594 gh_status=+0.1148 gh_under=+0.0000 layout_infer=+0.0000 exactW=5.60 mismW=1.74 unkW=0.00
+
+Timing breakdown:
+  capture_screenshot_or_use_pre_captured: 0.001s
+  panel_crop_preview_initial: 0.042s
+  preview_callback: 0.000s
+  detect_map_circle_main: 0.027s
+  panel_crop_first_pass: 0.012s
+  panel_further_crop_normalize: 3.741s
+  earth_selector_ranking: 0.004s
+  slot_observation_classification_total: 0.015s
+  geometry_prior_computation: 0.000s
+  lost_slot_prior_computation: 0.000s
+  hard_constraint_prior_computation: 0.000s
+  evergaol_prior_detection: 0.300s
+  status_icon_detection: 11.259s
+  dual_shot_second_status_detection: 0.000s
+  earth_cascade_ranking: 0.000s
+  layout_classifier_inference: 0.108s
+  layout_identification_scoring: 0.001s
+  layout_sort_and_select: 0.000s
+  debug_annotation_rendering: 0.174s
+  display_path_resolution: 0.085s
+  total_run: 15.985s
+Resolved 5 display image(s) for preview/result view.
+GUI total execution time: 15.985s

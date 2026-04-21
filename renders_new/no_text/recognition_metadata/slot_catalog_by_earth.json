@@ -1,0 +1,2622 @@
+{
+  "Limveld": [
+    {
+      "slot_id": 1,
+      "slot_name": "slot_01",
+      "x_norm": 0.4010416666666667,
+      "y_norm": 0.177734375,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.622800154036931
+    },
+    {
+      "slot_id": 2,
+      "slot_name": "slot_02",
+      "x_norm": 0.7135416666666666,
+      "y_norm": 0.21484375,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.628374103165998
+    },
+    {
+      "slot_id": 3,
+      "slot_name": "slot_03",
+      "x_norm": 0.5364583333333334,
+      "y_norm": 0.22135416666666666,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.527373650768284
+    },
+    {
+      "slot_id": 4,
+      "slot_name": "slot_04",
+      "x_norm": 0.23046875,
+      "y_norm": 0.279296875,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.6183772631635243
+    },
+    {
+      "slot_id": 5,
+      "slot_name": "slot_05",
+      "x_norm": 0.630859375,
+      "y_norm": 0.2916666666666667,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.675883591787386
+    },
+    {
+      "slot_id": 6,
+      "slot_name": "slot_06",
+      "x_norm": 0.4166666666666667,
+      "y_norm": 0.3001302083333333,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.620932875233383
+    },
+    {
+      "slot_id": 7,
+      "slot_name": "slot_07",
+      "x_norm": 0.21875,
+      "y_norm": 0.3528645833333333,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.5727649435655573
+    },
+    {
+      "slot_id": 8,
+      "slot_name": "slot_08",
+      "x_norm": 0.7786458333333334,
+      "y_norm": 0.353515625,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.6800960417938704
+    },
+    {
+      "slot_id": 9,
+      "slot_name": "slot_09",
+      "x_norm": 0.6940104166666666,
+      "y_norm": 0.3639322916666667,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.5352857765888606
+    },
+    {
+      "slot_id": 10,
+      "slot_name": "slot_10",
+      "x_norm": 0.3606770833333333,
+      "y_norm": 0.3958333333333333,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.5388201345887231
+    },
+    {
+      "slot_id": 11,
+      "slot_name": "slot_11",
+      "x_norm": 0.775390625,
+      "y_norm": 0.4225260416666667,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.5715885681045694
+    },
+    {
+      "slot_id": 12,
+      "slot_name": "slot_12",
+      "x_norm": 0.5846354166666666,
+      "y_norm": 0.4251302083333333,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.6828611667625384
+    },
+    {
+      "slot_id": 13,
+      "slot_name": "slot_13",
+      "x_norm": 0.2845052083333333,
+      "y_norm": 0.4453125,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.698918644300072
+    },
+    {
+      "slot_id": 14,
+      "slot_name": "slot_14",
+      "x_norm": 0.6653645833333334,
+      "y_norm": 0.4622395833333333,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.7065309154696569
+    },
+    {
+      "slot_id": 15,
+      "slot_name": "slot_15",
+      "x_norm": 0.3203125,
+      "y_norm": 0.55078125,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.7000697222165497
+    },
+    {
+      "slot_id": 16,
+      "slot_name": "slot_16",
+      "x_norm": 0.20703125,
+      "y_norm": 0.5546875,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.5670909611041108
+    },
+    {
+      "slot_id": 17,
+      "slot_name": "slot_17",
+      "x_norm": 0.8059895833333334,
+      "y_norm": 0.5807291666666666,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.55363011863333
+    },
+    {
+      "slot_id": 18,
+      "slot_name": "slot_18",
+      "x_norm": 0.6321614583333334,
+      "y_norm": 0.5891927083333334,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.610249389675036
+    },
+    {
+      "slot_id": 19,
+      "slot_name": "slot_19",
+      "x_norm": 0.7526041666666666,
+      "y_norm": 0.6276041666666666,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.630429732283903
+    },
+    {
+      "slot_id": 20,
+      "slot_name": "slot_20",
+      "x_norm": 0.5494791666666666,
+      "y_norm": 0.6328125,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.6222941763044498
+    },
+    {
+      "slot_id": 21,
+      "slot_name": "slot_21",
+      "x_norm": 0.279296875,
+      "y_norm": 0.6529947916666666,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.6930337788330687
+    },
+    {
+      "slot_id": 22,
+      "slot_name": "slot_22",
+      "x_norm": 0.6126302083333334,
+      "y_norm": 0.6861979166666666,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.687298695148721
+    },
+    {
+      "slot_id": 23,
+      "slot_name": "slot_23",
+      "x_norm": 0.4537760416666667,
+      "y_norm": 0.6946614583333334,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.6360266567666564
+    },
+    {
+      "slot_id": 24,
+      "slot_name": "slot_24",
+      "x_norm": 0.20182291666666666,
+      "y_norm": 0.7096354166666666,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.518991055473966
+    },
+    {
+      "slot_id": 25,
+      "slot_name": "slot_25",
+      "x_norm": 0.7467447916666666,
+      "y_norm": 0.7369791666666666,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.632588124439927
+    },
+    {
+      "slot_id": 26,
+      "slot_name": "slot_26",
+      "x_norm": 0.3977864583333333,
+      "y_norm": 0.7819010416666666,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.5968511906038605
+    },
+    {
+      "slot_id": 27,
+      "slot_name": "slot_27",
+      "x_norm": 0.5690104166666666,
+      "y_norm": 0.796875,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise"
+      ],
+      "weight": 1.5157627812388486
+    }
+  ],
+  "Mountaintop": [
+    {
+      "slot_id": 1,
+      "slot_name": "slot_01",
+      "x_norm": 0.7135416666666665,
+      "y_norm": 0.21484375,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.584619724683876
+    },
+    {
+      "slot_id": 2,
+      "slot_name": "slot_02",
+      "x_norm": 0.5364583333333334,
+      "y_norm": 0.22135416666666666,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.6418668312459008
+    },
+    {
+      "slot_id": 3,
+      "slot_name": "slot_03",
+      "x_norm": 0.630859375,
+      "y_norm": 0.2916666666666667,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.67317731610167
+    },
+    {
+      "slot_id": 4,
+      "slot_name": "slot_04",
+      "x_norm": 0.7786458333333335,
+      "y_norm": 0.353515625,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.6267680142563181
+    },
+    {
+      "slot_id": 5,
+      "slot_name": "slot_05",
+      "x_norm": 0.6940104166666665,
+      "y_norm": 0.36393229166666674,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.5309640474407957
+    },
+    {
+      "slot_id": 6,
+      "slot_name": "slot_06",
+      "x_norm": 0.775390625,
+      "y_norm": 0.4225260416666667,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.5257201597250654
+    },
+    {
+      "slot_id": 7,
+      "slot_name": "slot_07",
+      "x_norm": 0.5846354166666666,
+      "y_norm": 0.42513020833333326,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.6610712248839583
+    },
+    {
+      "slot_id": 8,
+      "slot_name": "slot_08",
+      "x_norm": 0.205078125,
+      "y_norm": 0.46223958333333326,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Ruins"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Ruins"
+      ],
+      "weight": 0.7499999999985572
+    },
+    {
+      "slot_id": 9,
+      "slot_name": "slot_09",
+      "x_norm": 0.6653645833333334,
+      "y_norm": 0.4622395833333333,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.61884811932828
+    },
+    {
+      "slot_id": 10,
+      "slot_name": "slot_10",
+      "x_norm": 0.3203125,
+      "y_norm": 0.55078125,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.616448373593725
+    },
+    {
+      "slot_id": 11,
+      "slot_name": "slot_11",
+      "x_norm": 0.20703125,
+      "y_norm": 0.5546875,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.5520570272741283
+    },
+    {
+      "slot_id": 12,
+      "slot_name": "slot_12",
+      "x_norm": 0.8059895833333334,
+      "y_norm": 0.5807291666666666,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.4855415983951068
+    },
+    {
+      "slot_id": 13,
+      "slot_name": "slot_13",
+      "x_norm": 0.6321614583333334,
+      "y_norm": 0.5891927083333334,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.6015114995823043
+    },
+    {
+      "slot_id": 14,
+      "slot_name": "slot_14",
+      "x_norm": 0.7526041666666665,
+      "y_norm": 0.6276041666666666,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.6263617682282319
+    },
+    {
+      "slot_id": 15,
+      "slot_name": "slot_15",
+      "x_norm": 0.5494791666666666,
+      "y_norm": 0.6328125,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.6114060608196865
+    },
+    {
+      "slot_id": 16,
+      "slot_name": "slot_16",
+      "x_norm": 0.279296875,
+      "y_norm": 0.6529947916666665,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.6019684613301037
+    },
+    {
+      "slot_id": 17,
+      "slot_name": "slot_17",
+      "x_norm": 0.6126302083333334,
+      "y_norm": 0.6861979166666666,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.6537651862263991
+    },
+    {
+      "slot_id": 18,
+      "slot_name": "slot_18",
+      "x_norm": 0.4537760416666667,
+      "y_norm": 0.6946614583333334,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.5513697697635298
+    },
+    {
+      "slot_id": 19,
+      "slot_name": "slot_19",
+      "x_norm": 0.20182291666666666,
+      "y_norm": 0.7096354166666666,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.5513469118489982
+    },
+    {
+      "slot_id": 20,
+      "slot_name": "slot_20",
+      "x_norm": 0.7467447916666665,
+      "y_norm": 0.7369791666666665,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.6286001782268658
+    },
+    {
+      "slot_id": 21,
+      "slot_name": "slot_21",
+      "x_norm": 0.3977864583333333,
+      "y_norm": 0.7819010416666666,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.6219063622049823
+    },
+    {
+      "slot_id": 22,
+      "slot_name": "slot_22",
+      "x_norm": 0.5690104166666666,
+      "y_norm": 0.796875,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise"
+      ],
+      "weight": 1.5269771299157935
+    }
+  ],
+  "The Crater": [
+    {
+      "slot_id": 1,
+      "slot_name": "slot_01",
+      "x_norm": 0.7135416666666665,
+      "y_norm": 0.21484375,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.5705057862024998
+    },
+    {
+      "slot_id": 2,
+      "slot_name": "slot_02",
+      "x_norm": 0.23046875,
+      "y_norm": 0.279296875,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.6554847739763936
+    },
+    {
+      "slot_id": 3,
+      "slot_name": "slot_03",
+      "x_norm": 0.21875,
+      "y_norm": 0.35286458333333326,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.5409976143849686
+    },
+    {
+      "slot_id": 4,
+      "slot_name": "slot_04",
+      "x_norm": 0.7786458333333334,
+      "y_norm": 0.353515625,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.6750450087409285
+    },
+    {
+      "slot_id": 5,
+      "slot_name": "slot_05",
+      "x_norm": 0.6940104166666666,
+      "y_norm": 0.3639322916666667,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.6682225327797684
+    },
+    {
+      "slot_id": 6,
+      "slot_name": "slot_06",
+      "x_norm": 0.404296875,
+      "y_norm": 0.36458333333333326,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church"
+      ],
+      "weight": 0.7499999999985572
+    },
+    {
+      "slot_id": 7,
+      "slot_name": "slot_07",
+      "x_norm": 0.775390625,
+      "y_norm": 0.4225260416666667,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.5520570272741283
+    },
+    {
+      "slot_id": 8,
+      "slot_name": "slot_08",
+      "x_norm": 0.2845052083333333,
+      "y_norm": 0.4453125,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.6500171114491249
+    },
+    {
+      "slot_id": 9,
+      "slot_name": "slot_09",
+      "x_norm": 0.6653645833333334,
+      "y_norm": 0.4622395833333333,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Great Church"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Great Church"
+      ],
+      "weight": 1.2056390137651434
+    },
+    {
+      "slot_id": 10,
+      "slot_name": "slot_10",
+      "x_norm": 0.3203125,
+      "y_norm": 0.55078125,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.5989717419788079
+    },
+    {
+      "slot_id": 11,
+      "slot_name": "slot_11",
+      "x_norm": 0.20703125,
+      "y_norm": 0.5546875,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.648723144698626
+    },
+    {
+      "slot_id": 12,
+      "slot_name": "slot_12",
+      "x_norm": 0.8059895833333334,
+      "y_norm": 0.5807291666666666,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.5986603292955353
+    },
+    {
+      "slot_id": 13,
+      "slot_name": "slot_13",
+      "x_norm": 0.6321614583333334,
+      "y_norm": 0.5891927083333334,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.6109873174104983
+    },
+    {
+      "slot_id": 14,
+      "slot_name": "slot_14",
+      "x_norm": 0.7526041666666665,
+      "y_norm": 0.6276041666666666,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.6619984813011404
+    },
+    {
+      "slot_id": 15,
+      "slot_name": "slot_15",
+      "x_norm": 0.5494791666666666,
+      "y_norm": 0.6328125,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.5825091920585608
+    },
+    {
+      "slot_id": 16,
+      "slot_name": "slot_16",
+      "x_norm": 0.279296875,
+      "y_norm": 0.6529947916666665,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.6275037642553922
+    },
+    {
+      "slot_id": 17,
+      "slot_name": "slot_17",
+      "x_norm": 0.6126302083333334,
+      "y_norm": 0.6861979166666666,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.5739539914847454
+    },
+    {
+      "slot_id": 18,
+      "slot_name": "slot_18",
+      "x_norm": 0.4537760416666667,
+      "y_norm": 0.6946614583333334,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.6084355807500792
+    },
+    {
+      "slot_id": 19,
+      "slot_name": "slot_19",
+      "x_norm": 0.20182291666666666,
+      "y_norm": 0.7096354166666666,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise"
+      ],
+      "weight": 1.672356956861658
+    },
+    {
+      "slot_id": 20,
+      "slot_name": "slot_20",
+      "x_norm": 0.7467447916666665,
+      "y_norm": 0.7369791666666665,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.602741275028655
+    },
+    {
+      "slot_id": 21,
+      "slot_name": "slot_21",
+      "x_norm": 0.39778645833333326,
+      "y_norm": 0.7819010416666665,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.6775282981120676
+    },
+    {
+      "slot_id": 22,
+      "slot_name": "slot_22",
+      "x_norm": 0.5690104166666666,
+      "y_norm": 0.796875,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise"
+      ],
+      "weight": 1.6090373164741116
+    }
+  ],
+  "Rotted Woods": [
+    {
+      "slot_id": 1,
+      "slot_name": "slot_01",
+      "x_norm": 0.4010416666666667,
+      "y_norm": 0.177734375,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.5679630218675207
+    },
+    {
+      "slot_id": 2,
+      "slot_name": "slot_02",
+      "x_norm": 0.7135416666666666,
+      "y_norm": 0.21484375,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.6073676087584234
+    },
+    {
+      "slot_id": 3,
+      "slot_name": "slot_03",
+      "x_norm": 0.5364583333333334,
+      "y_norm": 0.22135416666666666,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.5093331171138489
+    },
+    {
+      "slot_id": 4,
+      "slot_name": "slot_04",
+      "x_norm": 0.23046875,
+      "y_norm": 0.279296875,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.6582733588826744
+    },
+    {
+      "slot_id": 5,
+      "slot_name": "slot_05",
+      "x_norm": 0.630859375,
+      "y_norm": 0.2916666666666667,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.6220308169368618
+    },
+    {
+      "slot_id": 6,
+      "slot_name": "slot_06",
+      "x_norm": 0.4166666666666667,
+      "y_norm": 0.3001302083333333,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.6480636962280264
+    },
+    {
+      "slot_id": 7,
+      "slot_name": "slot_07",
+      "x_norm": 0.21875,
+      "y_norm": 0.3528645833333333,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.6577603748289018
+    },
+    {
+      "slot_id": 8,
+      "slot_name": "slot_08",
+      "x_norm": 0.7786458333333335,
+      "y_norm": 0.353515625,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.680863122082175
+    },
+    {
+      "slot_id": 9,
+      "slot_name": "slot_09",
+      "x_norm": 0.6940104166666666,
+      "y_norm": 0.3639322916666667,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.6984714538420456
+    },
+    {
+      "slot_id": 10,
+      "slot_name": "slot_10",
+      "x_norm": 0.3606770833333333,
+      "y_norm": 0.3958333333333333,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.5462438445815914
+    },
+    {
+      "slot_id": 11,
+      "slot_name": "slot_11",
+      "x_norm": 0.775390625,
+      "y_norm": 0.4225260416666667,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.6553496664182683
+    },
+    {
+      "slot_id": 12,
+      "slot_name": "slot_12",
+      "x_norm": 0.5846354166666666,
+      "y_norm": 0.42513020833333326,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.6562044200174144
+    },
+    {
+      "slot_id": 13,
+      "slot_name": "slot_13",
+      "x_norm": 0.2845052083333333,
+      "y_norm": 0.4453125,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.5820552023114436
+    },
+    {
+      "slot_id": 14,
+      "slot_name": "slot_14",
+      "x_norm": 0.6653645833333334,
+      "y_norm": 0.4622395833333333,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.6098636840584017
+    },
+    {
+      "slot_id": 15,
+      "slot_name": "slot_15",
+      "x_norm": 0.3203125,
+      "y_norm": 0.55078125,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.6080672825175832
+    },
+    {
+      "slot_id": 16,
+      "slot_name": "slot_16",
+      "x_norm": 0.20703125,
+      "y_norm": 0.5546875,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.5637916462829775
+    },
+    {
+      "slot_id": 17,
+      "slot_name": "slot_17",
+      "x_norm": 0.279296875,
+      "y_norm": 0.6529947916666665,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.6477685880674788
+    },
+    {
+      "slot_id": 18,
+      "slot_name": "slot_18",
+      "x_norm": 0.4537760416666667,
+      "y_norm": 0.6946614583333334,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.6143093505824844
+    },
+    {
+      "slot_id": 19,
+      "slot_name": "slot_19",
+      "x_norm": 0.20182291666666666,
+      "y_norm": 0.7096354166666666,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise"
+      ],
+      "weight": 1.6593065370855204
+    },
+    {
+      "slot_id": 20,
+      "slot_name": "slot_20",
+      "x_norm": 0.7135416666666665,
+      "y_norm": 0.7395833333333335,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort"
+      ],
+      "weight": 0.7499999999985572
+    },
+    {
+      "slot_id": 21,
+      "slot_name": "slot_21",
+      "x_norm": 0.3977864583333333,
+      "y_norm": 0.7819010416666666,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.5978997318034769
+    }
+  ],
+  "Noklateo": [
+    {
+      "slot_id": 1,
+      "slot_name": "slot_01",
+      "x_norm": 0.40104166666666674,
+      "y_norm": 0.177734375,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins"
+      ],
+      "weight": 1.6239820541847236
+    },
+    {
+      "slot_id": 2,
+      "slot_name": "slot_02",
+      "x_norm": 0.7135416666666665,
+      "y_norm": 0.21484375,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.6338945461502032
+    },
+    {
+      "slot_id": 3,
+      "slot_name": "slot_03",
+      "x_norm": 0.5364583333333334,
+      "y_norm": 0.22135416666666666,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.5278877728930504
+    },
+    {
+      "slot_id": 4,
+      "slot_name": "slot_04",
+      "x_norm": 0.23046875,
+      "y_norm": 0.279296875,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.6703487475100471
+    },
+    {
+      "slot_id": 5,
+      "slot_name": "slot_05",
+      "x_norm": 0.630859375,
+      "y_norm": 0.2916666666666667,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.6578736385934136
+    },
+    {
+      "slot_id": 6,
+      "slot_name": "slot_06",
+      "x_norm": 0.41666666666666674,
+      "y_norm": 0.3001302083333333,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.6234350347287654
+    },
+    {
+      "slot_id": 7,
+      "slot_name": "slot_07",
+      "x_norm": 0.21875,
+      "y_norm": 0.3528645833333333,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.4930257814634562
+    },
+    {
+      "slot_id": 8,
+      "slot_name": "slot_08",
+      "x_norm": 0.7786458333333334,
+      "y_norm": 0.353515625,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.6048957584241141
+    },
+    {
+      "slot_id": 9,
+      "slot_name": "slot_09",
+      "x_norm": 0.6940104166666666,
+      "y_norm": 0.3639322916666667,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.708351757839151
+    },
+    {
+      "slot_id": 10,
+      "slot_name": "slot_10",
+      "x_norm": 0.3606770833333333,
+      "y_norm": 0.3958333333333333,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.532370075256364
+    },
+    {
+      "slot_id": 11,
+      "slot_name": "slot_11",
+      "x_norm": 0.775390625,
+      "y_norm": 0.4225260416666667,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.6866111358691436
+    },
+    {
+      "slot_id": 12,
+      "slot_name": "slot_12",
+      "x_norm": 0.5846354166666666,
+      "y_norm": 0.42513020833333326,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.6306262117670027
+    },
+    {
+      "slot_id": 13,
+      "slot_name": "slot_13",
+      "x_norm": 0.2845052083333333,
+      "y_norm": 0.4453125,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins"
+      ],
+      "weight": 1.5953105535259215
+    },
+    {
+      "slot_id": 14,
+      "slot_name": "slot_14",
+      "x_norm": 0.6653645833333335,
+      "y_norm": 0.46223958333333326,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.664805088378131
+    },
+    {
+      "slot_id": 15,
+      "slot_name": "slot_15",
+      "x_norm": 0.8059895833333334,
+      "y_norm": 0.5807291666666666,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.6459067484389633
+    },
+    {
+      "slot_id": 16,
+      "slot_name": "slot_16",
+      "x_norm": 0.6321614583333334,
+      "y_norm": 0.5891927083333334,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.698085073548639
+    },
+    {
+      "slot_id": 17,
+      "slot_name": "slot_17",
+      "x_norm": 0.7526041666666666,
+      "y_norm": 0.6276041666666666,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins"
+      ],
+      "weight": 1.61214006108208
+    },
+    {
+      "slot_id": 18,
+      "slot_name": "slot_18",
+      "x_norm": 0.5494791666666666,
+      "y_norm": 0.6328125,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise",
+        "Township"
+      ],
+      "weight": 1.6849940420216947
+    },
+    {
+      "slot_id": 19,
+      "slot_name": "slot_19",
+      "x_norm": 0.6126302083333334,
+      "y_norm": 0.6861979166666666,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins"
+      ],
+      "weight": 1.7105695229564173
+    },
+    {
+      "slot_id": 20,
+      "slot_name": "slot_20",
+      "x_norm": 0.7467447916666665,
+      "y_norm": 0.7369791666666665,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Fort",
+        "Fortified Village",
+        "Great Church",
+        "Main Encampment",
+        "Ruins",
+        "Swamp"
+      ],
+      "weight": 1.6937111754587038
+    },
+    {
+      "slot_id": 21,
+      "slot_name": "slot_21",
+      "x_norm": 0.5690104166666666,
+      "y_norm": 0.796875,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise"
+      ],
+      "weight": 1.547265334282483
+    }
+  ],
+  "Great Hollow": [
+    {
+      "slot_id": 1,
+      "slot_name": "slot_01",
+      "x_norm": 0.4015625,
+      "y_norm": 0.1765625,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church"
+      ],
+      "weight": 0.7499999999985572
+    },
+    {
+      "slot_id": 2,
+      "slot_name": "slot_02",
+      "x_norm": 0.82890625,
+      "y_norm": 0.38046875,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Great Church"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Great Church"
+      ],
+      "weight": 0.7499999999985572
+    },
+    {
+      "slot_id": 3,
+      "slot_name": "slot_03",
+      "x_norm": 0.53671875,
+      "y_norm": 0.409375,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church"
+      ],
+      "weight": 0.7499999999985572
+    },
+    {
+      "slot_id": 4,
+      "slot_name": "slot_04",
+      "x_norm": 0.640625,
+      "y_norm": 0.52421875,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise"
+      ],
+      "weight": 1.648366960169012
+    },
+    {
+      "slot_id": 5,
+      "slot_name": "slot_05",
+      "x_norm": 0.325,
+      "y_norm": 0.5265625,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise"
+      ],
+      "weight": 1.742798364361507
+    },
+    {
+      "slot_id": 6,
+      "slot_name": "slot_06",
+      "x_norm": 0.2078125,
+      "y_norm": 0.59296875,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Ruins"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Ruins"
+      ],
+      "weight": 0.7499999999985572
+    },
+    {
+      "slot_id": 7,
+      "slot_name": "slot_07",
+      "x_norm": 0.334375,
+      "y_norm": 0.8234375,
+      "radius_norm": 0.018,
+      "allowed_types": [
+        "Church",
+        "Sorcerer's Rise"
+      ],
+      "allowed_labels": [
+        "empty",
+        "Church",
+        "Sorcerer's Rise"
+      ],
+      "weight": 1.706136596144666
+    }
+  ]
+}

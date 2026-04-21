@@ -1,0 +1,6 @@
+file,top_left,top_left_score,top_left_margin,top_left_confidence,bottom_right,bottom_right_score,bottom_right_margin,bottom_right_confidence,status,error
+layout_1005.png,Magic,1.0,0.6586,strong,Holy,1.0,0.1888,strong,ok,
+layout_1006.png,Fire,1.0,0.3092,strong,Holy,1.0,0.1888,strong,ok,
+layout_1007.png,Fire,1.0,0.3092,strong,Rot,1.0,0.1974,strong,ok,
+layout_1008.png,Magic,1.0,0.6586,strong,Holy,1.0,0.1888,strong,ok,
+layout_1009.png,Magic,1.0,0.6586,strong,Rot,1.0,0.1974,strong,ok,

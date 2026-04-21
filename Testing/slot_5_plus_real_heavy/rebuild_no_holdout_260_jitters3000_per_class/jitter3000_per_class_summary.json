@@ -1,0 +1,43 @@
+{
+  "notes": "slot5 no-holdout rebuild; 260 bases from pattern panel crops only; exact 3000 per class",
+  "seed": 20260723,
+  "target_per_class": 3000,
+  "translation_jitter_max": 30,
+  "holdout_excluded": [
+    "Balancers_4K.png",
+    "Screenshot (133).png",
+    "Screenshot (134).png",
+    "Screenshot (135).png",
+    "Screenshot (136).png",
+    "Screenshot (137).png"
+  ],
+  "bases260_root": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5_plus_real_heavy\\rebuild_no_holdout_260_jitters3000_per_class\\bases260",
+  "jitters_root": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5_plus_real_heavy\\rebuild_no_holdout_260_jitters3000_per_class\\jitters200",
+  "classes": {
+    "Church": {
+      "num_bases": 2,
+      "written": 3000,
+      "per_base_written": {
+        "pattern_1128_panel_crop__slot5_asym260.png": 1500,
+        "pattern_1175_panel_crop__slot5_asym260.png": 1500
+      }
+    },
+    "empty": {
+      "num_bases": 1,
+      "written": 3000,
+      "per_base_written": {
+        "pattern_1120_panel_crop__slot5_asym260.png": 3000
+      }
+    },
+    "Sorcerer_s_Rise": {
+      "num_bases": 4,
+      "written": 3000,
+      "per_base_written": {
+        "pattern_1115_panel_crop__slot5_asym260.png": 750,
+        "pattern_1119_panel_crop__slot5_asym260.png": 750,
+        "pattern_1181_panel_crop__slot5_asym260.png": 750,
+        "pattern_1185_panel_crop__slot5_asym260.png": 750
+      }
+    }
+  }
+}

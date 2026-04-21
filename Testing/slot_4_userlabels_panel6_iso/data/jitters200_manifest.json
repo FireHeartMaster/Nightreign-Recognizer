@@ -1,0 +1,62 @@
+{
+  "notes": "Isolated slot-5 jitter set; affine jitter + reflected borders; 260->200 crops.",
+  "per_class_target": 3000,
+  "seed": 777,
+  "base_size": 260,
+  "out_size": 200,
+  "summary": {
+    "Church": {
+      "total_generated": 3000,
+      "per_base": {
+        "pattern_1119__slot4_panel260.png": 1000,
+        "pattern_1120__slot4_panel260.png": 1000,
+        "pattern_1185__slot4_panel260.png": 1000
+      }
+    },
+    "empty": {
+      "total_generated": 3000,
+      "per_base": {
+        "pattern_1128__slot4_panel260.png": 1500,
+        "pattern_1175__slot4_panel260.png": 1500
+      }
+    },
+    "Sorcerer_s_Rise": {
+      "total_generated": 3000,
+      "per_base": {
+        "pattern_1115__slot4_panel260.png": 3000
+      }
+    }
+  },
+  "items": [
+    {
+      "label": "Church",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_userlabels_panel6_iso\\data\\bases260\\Church\\pattern_1119__slot4_panel260.png",
+      "generated": 1000
+    },
+    {
+      "label": "Church",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_userlabels_panel6_iso\\data\\bases260\\Church\\pattern_1120__slot4_panel260.png",
+      "generated": 1000
+    },
+    {
+      "label": "Church",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_userlabels_panel6_iso\\data\\bases260\\Church\\pattern_1185__slot4_panel260.png",
+      "generated": 1000
+    },
+    {
+      "label": "empty",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_userlabels_panel6_iso\\data\\bases260\\empty\\pattern_1128__slot4_panel260.png",
+      "generated": 1500
+    },
+    {
+      "label": "empty",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_userlabels_panel6_iso\\data\\bases260\\empty\\pattern_1175__slot4_panel260.png",
+      "generated": 1500
+    },
+    {
+      "label": "Sorcerer_s_Rise",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_userlabels_panel6_iso\\data\\bases260\\Sorcerer_s_Rise\\pattern_1115__slot4_panel260.png",
+      "generated": 3000
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "input_full_screenshot": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\Screenshots\\Screenshot (135).png",
+  "panel_crop_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\Screenshot_135_panel_crop_for_fortress_test.png",
+  "panel_shape": [
+    746,
+    746
+  ],
+  "slot2_anchor": {
+    "center_norm_tl": [
+      0.82890625,
+      0.38046875
+    ],
+    "center_px": {
+      "x": 618,
+      "y": 284
+    },
+    "crop_size": 200
+  },
+  "slot2_crop_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\Screenshot_135_slot2_crop_200.png",
+  "slot2_crop_shape": [
+    200,
+    200
+  ],
+  "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2\\slot2_status_cnn_retrain_latest.pt",
+  "class_names": [
+    "Great_Church_Lightning",
+    "Great_Church_Sleep"
+  ],
+  "predicted_label": "Great_Church_Sleep",
+  "confidence": 0.9929530024528503,
+  "ranking": [
+    {
+      "label": "Great_Church_Sleep",
+      "probability": 0.9929530024528503
+    },
+    {
+      "label": "Great_Church_Lightning",
+      "probability": 0.007046978920698166
+    }
+  ],
+  "model_meta": {
+    "best_epoch": 8,
+    "best_val_accuracy": 1.0,
+    "train_samples": 1760,
+    "val_samples": 440
+  }
+}

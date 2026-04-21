@@ -1,0 +1,29 @@
+{
+  "input_full_screenshot": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\Screenshots\\Screenshot (133).png",
+  "panel_crop_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\Screenshot_133_panel_crop_for_fortress_test.png",
+  "fortress_crop_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\Screenshot_133_fortress_crop_200.png",
+  "crop_method": "fallback",
+  "predicted_label": "Status_Rot",
+  "confidence": 0.5014341473579407,
+  "ranking": [
+    {
+      "label": "Status_Rot",
+      "probability": 0.5014341473579407
+    },
+    {
+      "label": "Status_Holy",
+      "probability": 0.4985658824443817
+    }
+  ],
+  "class_names": [
+    "Status_Holy",
+    "Status_Rot"
+  ],
+  "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress\\fortress_status_cnn.pt",
+  "model_meta": {
+    "best_epoch": 5,
+    "best_val_accuracy": 1.0,
+    "train_samples": 203,
+    "val_samples": 50
+  }
+}

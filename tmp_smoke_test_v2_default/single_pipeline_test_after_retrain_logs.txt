@@ -1,0 +1,91 @@
+Display directory: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\renders\recognizer_with_text
+Log file: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\recognition.log
+Selected display: Display 1 — 3840x2160 @ (0,0)
+Loaded tuned proto backend: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\recognize_nightreign_map_proto_v12_debugplus_radiusscale_fix.py
+Using tuned config path: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\nightreign_best_tuned_config_multi.json
+Using slot package path: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\nightreign_geom_proto_v4_slots.npz
+Using AI slot model path: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\slot_ai_test_output_dlc_no_text_nobalance\slot_patch_model_v1.pt
+Loaded AI slot model: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\slot_ai_test_output_dlc_no_text_nobalance\slot_patch_model_v1.pt
+AI device: cuda
+AI model patch_size=96 context_scale=1.8 min_half_frac=0.075
+Using AI earth model path: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\earth_ai_test_output_no_text_prepped\earth_panel_model_v1.pt
+Loaded AI earth model: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\earth_ai_test_output_no_text_prepped\earth_panel_model_v1.pt
+AI earth panel_size=256
+Using AI confidence_threshold=0.550
+Using AI margin_threshold=0.080
+Using trained AI slot classifier for slot recognition.
+Using pre-captured first screenshot from dual-shot trigger.
+[START] Run AI slot recognizer
+Using earth_selector_v2 script path: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\Train_Earth_Selector_v2\infer_earth_selector_v2.py
+Using earth_selector_v2 model path: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\Train_Earth_Selector_v2\earth_selector_v2_model_all520_plus_new.pkl
+Loaded earth_selector_v2 model: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\Train_Earth_Selector_v2\earth_selector_v2_model_all520_plus_new.pkl
+Using earth_selector_v2 model for Shifting Earth ranking.
+Shifting Earth ranking:
+  Limveld        score=0.211648 low_corr=0.0000 grad_corr=0.0000 source=earth_selector_v2
+  Noklateo       score=0.184906 low_corr=0.0000 grad_corr=0.0000 source=earth_selector_v2
+  Mountaintop    score=0.184258 low_corr=0.0000 grad_corr=0.0000 source=earth_selector_v2
+  Rotted Woods   score=0.177765 low_corr=0.0000 grad_corr=0.0000 source=earth_selector_v2
+  The Crater     score=0.172008 low_corr=0.0000 grad_corr=0.0000 source=earth_selector_v2
+Earth cascade selection is disabled by default; using raw top Shifting Earth for family selection.
+AI slots for earth Limveld: dx=-0.0001 dy=+0.0003 resp=0.3267 unknown=4/27
+Geometry prior for Limveld: slot_count=27 align=0.3267 prior=+0.0000
+Lost-slot prior for Limveld: lost_slots=0 prior=+0.0000
+Evergaol prior for Limveld: prior=+0.3351
+Great Hollow status Palace: best=Status_Fire score=0.5945 margin=0.4109
+Great Hollow status Fortress: best=Status_Holy score=0.6585 margin=0.0249
+Great Hollow status Ruins: best=Status_Bleed score=0.7448 margin=0.2774
+Great Hollow status Great Church: best=Status_Lightning score=0.8064 margin=0.5842
+Shifting Earth cascade selection disabled (enable with NR_ENABLE_EARTH_CASCADE=1).
+Restricting layout ranking to Limveld family from earth_selector_v2.
+Loaded layout infer classifier for Limveld: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\tmp_limveld_both_crops_L256_R256_T256_B256\further_crop_1024\layout_model.pkl
+Layout infer for Limveld: unknown-gated pattern=1152 margin=1.3784 conf=1.0000 latency=26.53ms
+[DONE] Run AI slot recognizer (9.982s)
+Saved AI slot debug image to c:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\tmp_runtime\compat_tempdirs\nightreign_gui_ai_e46725a733\recognition_panel_used_with_slot_labels_ai.png
+Saved Evergaol debug image to c:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\tmp_runtime\compat_tempdirs\nightreign_gui_ai_e46725a733\recognition_panel_used_with_evergaol_debug.png
+
+Top 20 layout matches:
+  1. layout #1152 earth=Limveld score=-2.546774 earth_score=0.211648 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.2000 exactW=17.62 mismW=19.57 unkW=6.45
+  2. layout #294 earth=Limveld score=-2.965156 earth_score=0.211648 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=16.19 mismW=21.00 unkW=6.45
+  3. layout #204 earth=Limveld score=-3.040607 earth_score=0.211648 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=14.46 mismW=22.73 unkW=6.45
+  4. layout #131 earth=Limveld score=-3.145071 earth_score=0.211648 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=14.48 mismW=22.71 unkW=6.45
+  5. layout #98 earth=Limveld score=-3.190732 earth_score=0.211648 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=17.87 mismW=19.32 unkW=6.45
+  6. layout #80 earth=Limveld score=-3.416434 earth_score=0.211648 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=14.48 mismW=22.71 unkW=6.45
+  7. layout #132 earth=Limveld score=-3.460714 earth_score=0.211648 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=14.13 mismW=23.06 unkW=6.45
+  8. layout #1042 earth=Limveld score=-3.610723 earth_score=0.211648 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=14.46 mismW=22.73 unkW=6.45
+  9. layout #49 earth=Limveld score=-3.647921 earth_score=0.211648 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=17.69 mismW=19.50 unkW=6.45
+  10. layout #53 earth=Limveld score=-3.713244 earth_score=0.211648 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=13.13 mismW=24.06 unkW=6.45
+  11. layout #284 earth=Limveld score=-3.780289 earth_score=0.211648 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=14.49 mismW=22.70 unkW=6.45
+  12. layout #210 earth=Limveld score=-3.818481 earth_score=0.211648 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=11.52 mismW=25.68 unkW=6.45
+  13. layout #200 earth=Limveld score=-3.826328 earth_score=0.211648 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=11.56 mismW=25.63 unkW=6.45
+  14. layout #13 earth=Limveld score=-3.827031 earth_score=0.211648 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=11.24 mismW=25.95 unkW=6.45
+  15. layout #2 earth=Limveld score=-3.840327 earth_score=0.211648 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=17.76 mismW=19.43 unkW=6.45
+  16. layout #179 earth=Limveld score=-3.893798 earth_score=0.211648 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=14.56 mismW=22.64 unkW=6.45
+  17. layout #91 earth=Limveld score=-3.902921 earth_score=0.211648 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=11.29 mismW=25.91 unkW=6.45
+  18. layout #290 earth=Limveld score=-3.905023 earth_score=0.211648 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=12.72 mismW=24.47 unkW=6.45
+  19. layout #280 earth=Limveld score=-3.912781 earth_score=0.211648 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=14.40 mismW=22.79 unkW=6.45
+  20. layout #202 earth=Limveld score=-3.929198 earth_score=0.211648 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=12.99 mismW=24.21 unkW=6.45
+
+Timing breakdown:
+  capture_screenshot_or_use_pre_captured: 0.001s
+  panel_crop_preview_initial: 0.029s
+  preview_callback: 0.000s
+  detect_map_circle_main: 0.027s
+  panel_crop_first_pass: 0.000s
+  panel_further_crop_normalize: 0.001s
+  earth_selector_ranking: 0.852s
+  slot_observation_classification_total: 0.199s
+  geometry_prior_computation: 0.000s
+  lost_slot_prior_computation: 0.000s
+  hard_constraint_prior_computation: 0.000s
+  evergaol_prior_detection: 0.325s
+  status_icon_detection: 8.394s
+  dual_shot_second_status_detection: 0.000s
+  earth_cascade_ranking: 0.000s
+  layout_classifier_inference: 0.086s
+  layout_identification_scoring: 0.007s
+  layout_sort_and_select: 0.000s
+  debug_annotation_rendering: 0.206s
+  display_path_resolution: 0.093s
+  total_run: 10.633s
+Resolved 5 display image(s) for preview/result view.
+GUI total execution time: 10.633s

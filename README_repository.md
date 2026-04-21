@@ -259,7 +259,7 @@ That means the copied Nightreign Map Router folders can live directly inside thi
 A typical PyInstaller command for the production GUI recognizer is:
 
 ```bat
-python -m PyInstaller --noconfirm --clean --windowed --name NightreignRecognizerSlots --icon "nightreign_sword_large_transparent_256.ico" --add-data "nightreign_geom_proto_v4_slots.npz:." --add-data "all_images/with_text/*.webp:all_images/with_text" --add-data "nightreign_sword_large_transparent_256.ico:." --add-data "nightreign_sword_small_transparent_48.ico:." nightreign_map_recognizer_gui.py
+python -m PyInstaller --noconfirm --clean --windowed --name NightreignRecognizer --icon "nightreign_sword_large_transparent_256.ico" --add-data "nightreign_geom_proto_v4_slots.npz:." --add-data "all_images/with_text/*.webp:all_images/with_text" --add-data "nightreign_sword_large_transparent_256.ico:." --add-data "nightreign_sword_small_transparent_48.ico:." nightreign_map_recognizer_gui.py
 ```
 
 Notes:

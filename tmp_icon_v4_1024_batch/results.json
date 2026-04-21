@@ -1,0 +1,372 @@
+[
+  {
+    "file": "layout_1005.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.3414,
+        "margin": 0.6586,
+        "confidence": "strong",
+        "box": {
+          "x": 220,
+          "y": 148,
+          "w": 36,
+          "h": 36
+        },
+        "reference_anchor": {
+          "x": 220,
+          "y": 148,
+          "crop_size": 36,
+          "search_pad": 6
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 6,
+            "dy": 6
+          },
+          {
+            "label": "Fire",
+            "score": 0.3414,
+            "dx": 0,
+            "dy": 0
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.8112,
+        "margin": 0.1888,
+        "confidence": "strong",
+        "box": {
+          "x": 766,
+          "y": 794,
+          "w": 36,
+          "h": 36
+        },
+        "reference_anchor": {
+          "x": 766,
+          "y": 794,
+          "crop_size": 36,
+          "search_pad": 6
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 6,
+            "dy": 6
+          },
+          {
+            "label": "Rot",
+            "score": 0.8112,
+            "dx": 0,
+            "dy": 4
+          }
+        ]
+      }
+    }
+  },
+  {
+    "file": "layout_1006.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.6908,
+        "margin": 0.3092,
+        "confidence": "strong",
+        "box": {
+          "x": 220,
+          "y": 148,
+          "w": 36,
+          "h": 36
+        },
+        "reference_anchor": {
+          "x": 220,
+          "y": 148,
+          "crop_size": 36,
+          "search_pad": 6
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 6,
+            "dy": 6
+          },
+          {
+            "label": "Magic",
+            "score": 0.6908,
+            "dx": 0,
+            "dy": 0
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.8112,
+        "margin": 0.1888,
+        "confidence": "strong",
+        "box": {
+          "x": 766,
+          "y": 794,
+          "w": 36,
+          "h": 36
+        },
+        "reference_anchor": {
+          "x": 766,
+          "y": 794,
+          "crop_size": 36,
+          "search_pad": 6
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 6,
+            "dy": 6
+          },
+          {
+            "label": "Rot",
+            "score": 0.8112,
+            "dx": 0,
+            "dy": 4
+          }
+        ]
+      }
+    }
+  },
+  {
+    "file": "layout_1007.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.6908,
+        "margin": 0.3092,
+        "confidence": "strong",
+        "box": {
+          "x": 220,
+          "y": 148,
+          "w": 36,
+          "h": 36
+        },
+        "reference_anchor": {
+          "x": 220,
+          "y": 148,
+          "crop_size": 36,
+          "search_pad": 6
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 6,
+            "dy": 6
+          },
+          {
+            "label": "Magic",
+            "score": 0.6908,
+            "dx": 0,
+            "dy": 0
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.8026,
+        "margin": 0.1974,
+        "confidence": "strong",
+        "box": {
+          "x": 766,
+          "y": 794,
+          "w": 36,
+          "h": 36
+        },
+        "reference_anchor": {
+          "x": 766,
+          "y": 794,
+          "crop_size": 36,
+          "search_pad": 6
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 6,
+            "dy": 6
+          },
+          {
+            "label": "Holy",
+            "score": 0.8026,
+            "dx": 3,
+            "dy": 0
+          }
+        ]
+      }
+    }
+  },
+  {
+    "file": "layout_1008.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.3414,
+        "margin": 0.6586,
+        "confidence": "strong",
+        "box": {
+          "x": 220,
+          "y": 148,
+          "w": 36,
+          "h": 36
+        },
+        "reference_anchor": {
+          "x": 220,
+          "y": 148,
+          "crop_size": 36,
+          "search_pad": 6
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 6,
+            "dy": 6
+          },
+          {
+            "label": "Fire",
+            "score": 0.3414,
+            "dx": 0,
+            "dy": 0
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.8112,
+        "margin": 0.1888,
+        "confidence": "strong",
+        "box": {
+          "x": 766,
+          "y": 794,
+          "w": 36,
+          "h": 36
+        },
+        "reference_anchor": {
+          "x": 766,
+          "y": 794,
+          "crop_size": 36,
+          "search_pad": 6
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 6,
+            "dy": 6
+          },
+          {
+            "label": "Rot",
+            "score": 0.8112,
+            "dx": 0,
+            "dy": 4
+          }
+        ]
+      }
+    }
+  },
+  {
+    "file": "layout_1009.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.3414,
+        "margin": 0.6586,
+        "confidence": "strong",
+        "box": {
+          "x": 220,
+          "y": 148,
+          "w": 36,
+          "h": 36
+        },
+        "reference_anchor": {
+          "x": 220,
+          "y": 148,
+          "crop_size": 36,
+          "search_pad": 6
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 6,
+            "dy": 6
+          },
+          {
+            "label": "Fire",
+            "score": 0.3414,
+            "dx": 0,
+            "dy": 0
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.8026,
+        "margin": 0.1974,
+        "confidence": "strong",
+        "box": {
+          "x": 766,
+          "y": 794,
+          "w": 36,
+          "h": 36
+        },
+        "reference_anchor": {
+          "x": 766,
+          "y": 794,
+          "crop_size": 36,
+          "search_pad": 6
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 6,
+            "dy": 6
+          },
+          {
+            "label": "Holy",
+            "score": 0.8026,
+            "dx": 3,
+            "dy": 0
+          }
+        ]
+      }
+    }
+  }
+]

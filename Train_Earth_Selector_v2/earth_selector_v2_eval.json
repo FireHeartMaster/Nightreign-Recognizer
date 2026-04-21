@@ -1,0 +1,4473 @@
+{
+  "seed": 42,
+  "num_samples_total": 520,
+  "num_bad_files_skipped": 0,
+  "bad_files": [],
+  "labels": [
+    "Great Hollow",
+    "Limveld",
+    "Mountaintop",
+    "Noklateo",
+    "Rotted Woods",
+    "The Crater"
+  ],
+  "split_sizes": {
+    "train": 312,
+    "val": 104,
+    "test": 104
+  },
+  "thresholds": {
+    "temperature": 0.05,
+    "unknown_margin_threshold": 0.043059876561164855,
+    "unknown_conf_threshold": 0.23101839572191238
+  },
+  "metrics": {
+    "accuracy": 1.0,
+    "unknown_rate": 0.21153846153846154,
+    "accuracy_on_decided_samples": 1.0,
+    "mean_latency_ms_scoring_only": 0.0061192292308148285
+  },
+  "per_class_accuracy": {
+    "Great Hollow": 1.0,
+    "Limveld": 1.0,
+    "Mountaintop": 1.0,
+    "Noklateo": 1.0,
+    "Rotted Woods": 1.0,
+    "The Crater": 1.0
+  },
+  "confusion_matrix": {
+    "labels": [
+      "Great Hollow",
+      "Limveld",
+      "Mountaintop",
+      "Noklateo",
+      "Rotted Woods",
+      "The Crater"
+    ],
+    "matrix": [
+      [
+        16,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        48,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        10,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        10,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        10,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        10
+      ]
+    ]
+  },
+  "test_predictions": [
+    {
+      "file": "pattern_0047_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.23085154592990875,
+      "margin_top1_top2": 0.045625463128089905,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.23085154592990875,
+          "score": 0.23085154592990875
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.18522608280181885,
+          "score": 0.18522608280181885
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.184737429022789,
+          "score": 0.184737429022789
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.18306882679462433,
+          "score": 0.18306882679462433
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.18030212819576263,
+          "score": 0.18030212819576263
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.0358140803873539,
+          "score": 0.0358140803873539
+        }
+      ],
+      "unknown": true,
+      "decided_label": null,
+      "latency_ms": 0.016400008462369442
+    },
+    {
+      "file": "pattern_0008_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.23058204352855682,
+      "margin_top1_top2": 0.04394501447677612,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.23058204352855682,
+          "score": 0.23058204352855682
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.1866370290517807,
+          "score": 0.1866370290517807
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18351265788078308,
+          "score": 0.18351265788078308
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.18343566358089447,
+          "score": 0.18343566358089447
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.18287673592567444,
+          "score": 0.18287673592567444
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.0329558365046978,
+          "score": 0.0329558365046978
+        }
+      ],
+      "unknown": true,
+      "decided_label": null,
+      "latency_ms": 0.01009996049106121
+    },
+    {
+      "file": "pattern_0242_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.23161320388317108,
+      "margin_top1_top2": 0.046264827251434326,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.23161320388317108,
+          "score": 0.23161320388317108
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.18534837663173676,
+          "score": 0.18534837663173676
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18471309542655945,
+          "score": 0.18471309542655945
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.18362730741500854,
+          "score": 0.18362730741500854
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.18087632954120636,
+          "score": 0.18087632954120636
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.03382166102528572,
+          "score": 0.03382166102528572
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Limveld",
+      "latency_ms": 0.007700058631598949
+    },
+    {
+      "file": "pattern_0087_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.23169732093811035,
+      "margin_top1_top2": 0.04250417649745941,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.23169732093811035,
+          "score": 0.23169732093811035
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.18919314444065094,
+          "score": 0.18919314444065094
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18290559947490692,
+          "score": 0.18290559947490692
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.1819848269224167,
+          "score": 0.1819848269224167
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.1808692067861557,
+          "score": 0.1808692067861557
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.033349957317113876,
+          "score": 0.033349957317113876
+        }
+      ],
+      "unknown": true,
+      "decided_label": null,
+      "latency_ms": 0.0071999384090304375
+    },
+    {
+      "file": "pattern_0151_further_crop_1024.png",
+      "truth": "Rotted Woods",
+      "label": "Rotted Woods",
+      "confidence": 0.24893179535865784,
+      "margin_top1_top2": 0.05663459002971649,
+      "topk": [
+        {
+          "label": "Rotted Woods",
+          "probability": 0.24893179535865784,
+          "score": 0.24893179535865784
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.19229720532894135,
+          "score": 0.19229720532894135
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18467944860458374,
+          "score": 0.18467944860458374
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.1681486964225769,
+          "score": 0.1681486964225769
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.14998504519462585,
+          "score": 0.14998504519462585
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.05595783889293671,
+          "score": 0.05595783889293671
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Rotted Woods",
+      "latency_ms": 0.006900052540004253
+    },
+    {
+      "file": "pattern_0159_further_crop_1024.png",
+      "truth": "Noklateo",
+      "label": "Noklateo",
+      "confidence": 0.2484215646982193,
+      "margin_top1_top2": 0.05223052203655243,
+      "topk": [
+        {
+          "label": "Noklateo",
+          "probability": 0.2484215646982193,
+          "score": 0.2484215646982193
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.19619104266166687,
+          "score": 0.19619104266166687
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.17534133791923523,
+          "score": 0.17534133791923523
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.17084433138370514,
+          "score": 0.17084433138370514
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.16739392280578613,
+          "score": 0.16739392280578613
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.04180775582790375,
+          "score": 0.04180775582790375
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Noklateo",
+      "latency_ms": 0.00600004568696022
+    },
+    {
+      "file": "pattern_0168_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.23107345402240753,
+      "margin_top1_top2": 0.045399293303489685,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.23107345402240753,
+          "score": 0.23107345402240753
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.18567416071891785,
+          "score": 0.18567416071891785
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18431216478347778,
+          "score": 0.18431216478347778
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.18351835012435913,
+          "score": 0.18351835012435913
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.18085864186286926,
+          "score": 0.18085864186286926
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.03456326201558113,
+          "score": 0.03456326201558113
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Limveld",
+      "latency_ms": 0.005700043402612209
+    },
+    {
+      "file": "pattern_1156_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.23085927963256836,
+      "margin_top1_top2": 0.041703566908836365,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.23085927963256836,
+          "score": 0.23085927963256836
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.189155712723732,
+          "score": 0.189155712723732
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.184466153383255,
+          "score": 0.184466153383255
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.18398897349834442,
+          "score": 0.18398897349834442
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.17864178121089935,
+          "score": 0.17864178121089935
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.03288820758461952,
+          "score": 0.03288820758461952
+        }
+      ],
+      "unknown": true,
+      "decided_label": null,
+      "latency_ms": 0.005699926987290382
+    },
+    {
+      "file": "pattern_0222_further_crop_1024.png",
+      "truth": "Mountaintop",
+      "label": "Mountaintop",
+      "confidence": 0.25112923979759216,
+      "margin_top1_top2": 0.045579805970191956,
+      "topk": [
+        {
+          "label": "Mountaintop",
+          "probability": 0.25112923979759216,
+          "score": 0.25112923979759216
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.2055494338274002,
+          "score": 0.2055494338274002
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.17854459583759308,
+          "score": 0.17854459583759308
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.1742626577615738,
+          "score": 0.1742626577615738
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.15870940685272217,
+          "score": 0.15870940685272217
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.03180466964840889,
+          "score": 0.03180466964840889
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Mountaintop",
+      "latency_ms": 0.006400048732757568
+    },
+    {
+      "file": "pattern_1126_further_crop_asym_1191x1176.png",
+      "truth": "Great Hollow",
+      "label": "Great Hollow",
+      "confidence": 0.5360618233680725,
+      "margin_top1_top2": 0.4143999218940735,
+      "topk": [
+        {
+          "label": "Great Hollow",
+          "probability": 0.5360618233680725,
+          "score": 0.5360618233680725
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.12166190147399902,
+          "score": 0.12166190147399902
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.10978268086910248,
+          "score": 0.10978268086910248
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.0890948474407196,
+          "score": 0.0890948474407196
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.0773247480392456,
+          "score": 0.0773247480392456
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.06607405096292496,
+          "score": 0.06607405096292496
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Great Hollow",
+      "latency_ms": 0.0065999338403344154
+    },
+    {
+      "file": "pattern_0258_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.23049987852573395,
+      "margin_top1_top2": 0.04388204216957092,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.23049987852573395,
+          "score": 0.23049987852573395
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.18661783635616302,
+          "score": 0.18661783635616302
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.1846918910741806,
+          "score": 0.1846918910741806
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.182879239320755,
+          "score": 0.182879239320755
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.180759996175766,
+          "score": 0.180759996175766
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.03455113247036934,
+          "score": 0.03455113247036934
+        }
+      ],
+      "unknown": true,
+      "decided_label": null,
+      "latency_ms": 0.006200047209858894
+    },
+    {
+      "file": "pattern_0035_further_crop_1024.png",
+      "truth": "Noklateo",
+      "label": "Noklateo",
+      "confidence": 0.2506638169288635,
+      "margin_top1_top2": 0.0554790198802948,
+      "topk": [
+        {
+          "label": "Noklateo",
+          "probability": 0.2506638169288635,
+          "score": 0.2506638169288635
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.19518479704856873,
+          "score": 0.19518479704856873
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.17453955113887787,
+          "score": 0.17453955113887787
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.16912145912647247,
+          "score": 0.16912145912647247
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.16896121203899384,
+          "score": 0.16896121203899384
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.04152911156415939,
+          "score": 0.04152911156415939
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Noklateo",
+      "latency_ms": 0.006199930794537067
+    },
+    {
+      "file": "pattern_0167_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.23290839791297913,
+      "margin_top1_top2": 0.04521213471889496,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.23290839791297913,
+          "score": 0.23290839791297913
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.18769626319408417,
+          "score": 0.18769626319408417
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.1829831898212433,
+          "score": 0.1829831898212433
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.1821860373020172,
+          "score": 0.1821860373020172
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.17974163591861725,
+          "score": 0.17974163591861725
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.03448450192809105,
+          "score": 0.03448450192809105
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Limveld",
+      "latency_ms": 0.005800044164061546
+    },
+    {
+      "file": "pattern_0060_further_crop_1024.png",
+      "truth": "Mountaintop",
+      "label": "Mountaintop",
+      "confidence": 0.25174739956855774,
+      "margin_top1_top2": 0.04524149000644684,
+      "topk": [
+        {
+          "label": "Mountaintop",
+          "probability": 0.25174739956855774,
+          "score": 0.25174739956855774
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.2065059095621109,
+          "score": 0.2065059095621109
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.17672553658485413,
+          "score": 0.17672553658485413
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.17663589119911194,
+          "score": 0.17663589119911194
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.1570378988981247,
+          "score": 0.1570378988981247
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.0313473716378212,
+          "score": 0.0313473716378212
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Mountaintop",
+      "latency_ms": 0.005999929271638393
+    },
+    {
+      "file": "pattern_0223_further_crop_1024.png",
+      "truth": "Mountaintop",
+      "label": "Mountaintop",
+      "confidence": 0.2528190612792969,
+      "margin_top1_top2": 0.04814983904361725,
+      "topk": [
+        {
+          "label": "Mountaintop",
+          "probability": 0.2528190612792969,
+          "score": 0.2528190612792969
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.20466922223567963,
+          "score": 0.20466922223567963
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.18013930320739746,
+          "score": 0.18013930320739746
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.17313820123672485,
+          "score": 0.17313820123672485
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.15716977417469025,
+          "score": 0.15716977417469025
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.03206450864672661,
+          "score": 0.03206450864672661
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Mountaintop",
+      "latency_ms": 0.005600042641162872
+    },
+    {
+      "file": "pattern_0131_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.23317953944206238,
+      "margin_top1_top2": 0.047783926129341125,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.23317953944206238,
+          "score": 0.23317953944206238
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.18539561331272125,
+          "score": 0.18539561331272125
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18447144329547882,
+          "score": 0.18447144329547882
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.181560218334198,
+          "score": 0.181560218334198
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.18110232055187225,
+          "score": 0.18110232055187225
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.03429087996482849,
+          "score": 0.03429087996482849
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Limveld",
+      "latency_ms": 0.005499925464391708
+    },
+    {
+      "file": "pattern_0148_further_crop_1024.png",
+      "truth": "The Crater",
+      "label": "The Crater",
+      "confidence": 0.2431633323431015,
+      "margin_top1_top2": 0.04986226558685303,
+      "topk": [
+        {
+          "label": "The Crater",
+          "probability": 0.2431633323431015,
+          "score": 0.2431633323431015
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.19330106675624847,
+          "score": 0.19330106675624847
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.17760883271694183,
+          "score": 0.17760883271694183
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.16876909136772156,
+          "score": 0.16876909136772156
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.16586126387119293,
+          "score": 0.16586126387119293
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.051296330988407135,
+          "score": 0.051296330988407135
+        }
+      ],
+      "unknown": false,
+      "decided_label": "The Crater",
+      "latency_ms": 0.005500041879713535
+    },
+    {
+      "file": "pattern_0029_further_crop_1024.png",
+      "truth": "The Crater",
+      "label": "The Crater",
+      "confidence": 0.24432896077632904,
+      "margin_top1_top2": 0.050913140177726746,
+      "topk": [
+        {
+          "label": "The Crater",
+          "probability": 0.24432896077632904,
+          "score": 0.24432896077632904
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.1934158205986023,
+          "score": 0.1934158205986023
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.17884968221187592,
+          "score": 0.17884968221187592
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.1682760864496231,
+          "score": 0.1682760864496231
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.16552886366844177,
+          "score": 0.16552886366844177
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.04960058256983757,
+          "score": 0.04960058256983757
+        }
+      ],
+      "unknown": false,
+      "decided_label": "The Crater",
+      "latency_ms": 0.005699926987290382
+    },
+    {
+      "file": "pattern_0124_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.23303304612636566,
+      "margin_top1_top2": 0.04594317078590393,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.23303304612636566,
+          "score": 0.23303304612636566
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.18708987534046173,
+          "score": 0.18708987534046173
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.1839277744293213,
+          "score": 0.1839277744293213
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.1836879700422287,
+          "score": 0.1836879700422287
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.1790485680103302,
+          "score": 0.1790485680103302
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.033212702721357346,
+          "score": 0.033212702721357346
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Limveld",
+      "latency_ms": 0.005400041118264198
+    },
+    {
+      "file": "pattern_0052_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.23239412903785706,
+      "margin_top1_top2": 0.044890716671943665,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.23239412903785706,
+          "score": 0.23239412903785706
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.1875034123659134,
+          "score": 0.1875034123659134
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18345952033996582,
+          "score": 0.18345952033996582
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.18265855312347412,
+          "score": 0.18265855312347412
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.18081964552402496,
+          "score": 0.18081964552402496
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.03316468745470047,
+          "score": 0.03316468745470047
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Limveld",
+      "latency_ms": 0.005400041118264198
+    },
+    {
+      "file": "pattern_1127_further_crop_asym_1191x1176.png",
+      "truth": "Great Hollow",
+      "label": "Great Hollow",
+      "confidence": 0.5370039343833923,
+      "margin_top1_top2": 0.41580072045326233,
+      "topk": [
+        {
+          "label": "Great Hollow",
+          "probability": 0.5370039343833923,
+          "score": 0.5370039343833923
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.12120321393013,
+          "score": 0.12120321393013
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.10928244888782501,
+          "score": 0.10928244888782501
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.08936368674039841,
+          "score": 0.08936368674039841
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.07692911475896835,
+          "score": 0.07692911475896835
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.0662175714969635,
+          "score": 0.0662175714969635
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Great Hollow",
+      "latency_ms": 0.005600042641162872
+    },
+    {
+      "file": "pattern_0305_further_crop_1024.png",
+      "truth": "The Crater",
+      "label": "The Crater",
+      "confidence": 0.24112921953201294,
+      "margin_top1_top2": 0.05014914274215698,
+      "topk": [
+        {
+          "label": "The Crater",
+          "probability": 0.24112921953201294,
+          "score": 0.24112921953201294
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.19098007678985596,
+          "score": 0.19098007678985596
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.18505023419857025,
+          "score": 0.18505023419857025
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.16622760891914368,
+          "score": 0.16622760891914368
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.16446971893310547,
+          "score": 0.16446971893310547
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.05214307829737663,
+          "score": 0.05214307829737663
+        }
+      ],
+      "unknown": false,
+      "decided_label": "The Crater",
+      "latency_ms": 0.005400041118264198
+    },
+    {
+      "file": "pattern_0004_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.23182912170886993,
+      "margin_top1_top2": 0.04322391748428345,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.23182912170886993,
+          "score": 0.23182912170886993
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.1886052042245865,
+          "score": 0.1886052042245865
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.18732352554798126,
+          "score": 0.18732352554798126
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.17948943376541138,
+          "score": 0.17948943376541138
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.1794096827507019,
+          "score": 0.1794096827507019
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.033343032002449036,
+          "score": 0.033343032002449036
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Limveld",
+      "latency_ms": 0.005299923941493034
+    },
+    {
+      "file": "pattern_0281_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.23411686718463898,
+      "margin_top1_top2": 0.049207448959350586,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.23411686718463898,
+          "score": 0.23411686718463898
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.1849094182252884,
+          "score": 0.1849094182252884
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.18414990603923798,
+          "score": 0.18414990603923798
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.18314844369888306,
+          "score": 0.18314844369888306
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.18085801601409912,
+          "score": 0.18085801601409912
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.032817356288433075,
+          "score": 0.032817356288433075
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Limveld",
+      "latency_ms": 0.005300040356814861
+    },
+    {
+      "file": "pattern_0178_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.23305146396160126,
+      "margin_top1_top2": 0.04579436779022217,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.23305146396160126,
+          "score": 0.23305146396160126
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.1872570961713791,
+          "score": 0.1872570961713791
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.1829220950603485,
+          "score": 0.1829220950603485
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18248648941516876,
+          "score": 0.18248648941516876
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.18198873102664948,
+          "score": 0.18198873102664948
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.0322941355407238,
+          "score": 0.0322941355407238
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Limveld",
+      "latency_ms": 0.005399924702942371
+    },
+    {
+      "file": "pattern_0143_further_crop_1024.png",
+      "truth": "Mountaintop",
+      "label": "Mountaintop",
+      "confidence": 0.2531396746635437,
+      "margin_top1_top2": 0.04849681258201599,
+      "topk": [
+        {
+          "label": "Mountaintop",
+          "probability": 0.2531396746635437,
+          "score": 0.2531396746635437
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.2046428620815277,
+          "score": 0.2046428620815277
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.17855769395828247,
+          "score": 0.17855769395828247
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.17555789649486542,
+          "score": 0.17555789649486542
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.15684108436107635,
+          "score": 0.15684108436107635
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.031260766088962555,
+          "score": 0.031260766088962555
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Mountaintop",
+      "latency_ms": 0.005500041879713535
+    },
+    {
+      "file": "pattern_0141_further_crop_1024.png",
+      "truth": "Mountaintop",
+      "label": "Mountaintop",
+      "confidence": 0.25658562779426575,
+      "margin_top1_top2": 0.05313798785209656,
+      "topk": [
+        {
+          "label": "Mountaintop",
+          "probability": 0.25658562779426575,
+          "score": 0.25658562779426575
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.2034476399421692,
+          "score": 0.2034476399421692
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.1774735450744629,
+          "score": 0.1774735450744629
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.17560642957687378,
+          "score": 0.17560642957687378
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.15529879927635193,
+          "score": 0.15529879927635193
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.031587958335876465,
+          "score": 0.031587958335876465
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Mountaintop",
+      "latency_ms": 0.005700043402612209
+    },
+    {
+      "file": "pattern_0054_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.23155470192432404,
+      "margin_top1_top2": 0.043620988726615906,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.23155470192432404,
+          "score": 0.23155470192432404
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.18793371319770813,
+          "score": 0.18793371319770813
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.1850486397743225,
+          "score": 0.1850486397743225
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.18097622692584991,
+          "score": 0.18097622692584991
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.18082164227962494,
+          "score": 0.18082164227962494
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.03366510570049286,
+          "score": 0.03366510570049286
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Limveld",
+      "latency_ms": 0.005400041118264198
+    },
+    {
+      "file": "pattern_1077_further_crop_asym_1191x1176.png",
+      "truth": "Great Hollow",
+      "label": "Great Hollow",
+      "confidence": 0.535490095615387,
+      "margin_top1_top2": 0.4145317077636719,
+      "topk": [
+        {
+          "label": "Great Hollow",
+          "probability": 0.535490095615387,
+          "score": 0.535490095615387
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.12095838785171509,
+          "score": 0.12095838785171509
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.10944847762584686,
+          "score": 0.10944847762584686
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.0901099145412445,
+          "score": 0.0901099145412445
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.07728501409292221,
+          "score": 0.07728501409292221
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.06670815497636795,
+          "score": 0.06670815497636795
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Great Hollow",
+      "latency_ms": 0.005400041118264198
+    },
+    {
+      "file": "pattern_0028_further_crop_1024.png",
+      "truth": "The Crater",
+      "label": "The Crater",
+      "confidence": 0.24441242218017578,
+      "margin_top1_top2": 0.05067424476146698,
+      "topk": [
+        {
+          "label": "The Crater",
+          "probability": 0.24441242218017578,
+          "score": 0.24441242218017578
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.1937381774187088,
+          "score": 0.1937381774187088
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.17888963222503662,
+          "score": 0.17888963222503662
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.16763123869895935,
+          "score": 0.16763123869895935
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.16591356694698334,
+          "score": 0.16591356694698334
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.049414943903684616,
+          "score": 0.049414943903684616
+        }
+      ],
+      "unknown": false,
+      "decided_label": "The Crater",
+      "latency_ms": 0.005499925464391708
+    },
+    {
+      "file": "pattern_0080_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.23287688195705414,
+      "margin_top1_top2": 0.046094879508018494,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.23287688195705414,
+          "score": 0.23287688195705414
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.18678200244903564,
+          "score": 0.18678200244903564
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18458302319049835,
+          "score": 0.18458302319049835
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.18190304934978485,
+          "score": 0.18190304934978485
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.18042105436325073,
+          "score": 0.18042105436325073
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.033433981239795685,
+          "score": 0.033433981239795685
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Limveld",
+      "latency_ms": 0.005500041879713535
+    },
+    {
+      "file": "pattern_1021_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.231233611702919,
+      "margin_top1_top2": 0.043301522731781006,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.231233611702919,
+          "score": 0.231233611702919
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.187932088971138,
+          "score": 0.187932088971138
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.1845683604478836,
+          "score": 0.1845683604478836
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.18363326787948608,
+          "score": 0.18363326787948608
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.1782715767621994,
+          "score": 0.1782715767621994
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.034361157566308975,
+          "score": 0.034361157566308975
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Limveld",
+      "latency_ms": 0.005399924702942371
+    },
+    {
+      "file": "pattern_0234_further_crop_1024.png",
+      "truth": "Rotted Woods",
+      "label": "Rotted Woods",
+      "confidence": 0.2454429566860199,
+      "margin_top1_top2": 0.05364282429218292,
+      "topk": [
+        {
+          "label": "Rotted Woods",
+          "probability": 0.2454429566860199,
+          "score": 0.2454429566860199
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.19180013239383698,
+          "score": 0.19180013239383698
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18342304229736328,
+          "score": 0.18342304229736328
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.16881036758422852,
+          "score": 0.16881036758422852
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.15339316427707672,
+          "score": 0.15339316427707672
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.05713033676147461,
+          "score": 0.05713033676147461
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Rotted Woods",
+      "latency_ms": 0.005400041118264198
+    },
+    {
+      "file": "pattern_0296_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.2327726036310196,
+      "margin_top1_top2": 0.04443219304084778,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.2327726036310196,
+          "score": 0.2327726036310196
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.18834041059017181,
+          "score": 0.18834041059017181
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.1861039251089096,
+          "score": 0.1861039251089096
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.18146787583827972,
+          "score": 0.18146787583827972
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.17873524129390717,
+          "score": 0.17873524129390717
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.032579921185970306,
+          "score": 0.032579921185970306
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Limveld",
+      "latency_ms": 0.005300040356814861
+    },
+    {
+      "file": "pattern_0250_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.23098595440387726,
+      "margin_top1_top2": 0.04446259140968323,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.23098595440387726,
+          "score": 0.23098595440387726
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.18652336299419403,
+          "score": 0.18652336299419403
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.18492256104946136,
+          "score": 0.18492256104946136
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18407797813415527,
+          "score": 0.18407797813415527
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.1807432621717453,
+          "score": 0.1807432621717453
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.03274690359830856,
+          "score": 0.03274690359830856
+        }
+      ],
+      "unknown": true,
+      "decided_label": null,
+      "latency_ms": 0.005600042641162872
+    },
+    {
+      "file": "pattern_1146_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.23103301227092743,
+      "margin_top1_top2": 0.04060547053813934,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.23103301227092743,
+          "score": 0.23103301227092743
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.19042754173278809,
+          "score": 0.19042754173278809
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.18163169920444489,
+          "score": 0.18163169920444489
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18158873915672302,
+          "score": 0.18158873915672302
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.18106959760189056,
+          "score": 0.18106959760189056
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.034249331802129745,
+          "score": 0.034249331802129745
+        }
+      ],
+      "unknown": true,
+      "decided_label": null,
+      "latency_ms": 0.005800044164061546
+    },
+    {
+      "file": "pattern_0084_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.23401916027069092,
+      "margin_top1_top2": 0.048865437507629395,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.23401916027069092,
+          "score": 0.23401916027069092
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18515372276306152,
+          "score": 0.18515372276306152
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.18335261940956116,
+          "score": 0.18335261940956116
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.18326519429683685,
+          "score": 0.18326519429683685
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.1816587746143341,
+          "score": 0.1816587746143341
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.03255043551325798,
+          "score": 0.03255043551325798
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Limveld",
+      "latency_ms": 0.005699926987290382
+    },
+    {
+      "file": "pattern_0248_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.2315085381269455,
+      "margin_top1_top2": 0.041738346219062805,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.2315085381269455,
+          "score": 0.2315085381269455
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.1897701919078827,
+          "score": 0.1897701919078827
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.1850198656320572,
+          "score": 0.1850198656320572
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.1838095337152481,
+          "score": 0.1838095337152481
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.17693991959095,
+          "score": 0.17693991959095
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.032951902598142624,
+          "score": 0.032951902598142624
+        }
+      ],
+      "unknown": true,
+      "decided_label": null,
+      "latency_ms": 0.008900067768990993
+    },
+    {
+      "file": "pattern_0153_further_crop_1024.png",
+      "truth": "Rotted Woods",
+      "label": "Rotted Woods",
+      "confidence": 0.24979658424854279,
+      "margin_top1_top2": 0.05773353576660156,
+      "topk": [
+        {
+          "label": "Rotted Woods",
+          "probability": 0.24979658424854279,
+          "score": 0.24979658424854279
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.19206304848194122,
+          "score": 0.19206304848194122
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18388517200946808,
+          "score": 0.18388517200946808
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.16946564614772797,
+          "score": 0.16946564614772797
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.15032362937927246,
+          "score": 0.15032362937927246
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.054465942084789276,
+          "score": 0.054465942084789276
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Rotted Woods",
+      "latency_ms": 0.005500041879713535
+    },
+    {
+      "file": "pattern_0069_further_crop_1024.png",
+      "truth": "The Crater",
+      "label": "The Crater",
+      "confidence": 0.24312959611415863,
+      "margin_top1_top2": 0.05083714425563812,
+      "topk": [
+        {
+          "label": "The Crater",
+          "probability": 0.24312959611415863,
+          "score": 0.24312959611415863
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.1922924518585205,
+          "score": 0.1922924518585205
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.1805080622434616,
+          "score": 0.1805080622434616
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.1680823564529419,
+          "score": 0.1680823564529419
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.1663273572921753,
+          "score": 0.1663273572921753
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.04966022074222565,
+          "score": 0.04966022074222565
+        }
+      ],
+      "unknown": false,
+      "decided_label": "The Crater",
+      "latency_ms": 0.005500041879713535
+    },
+    {
+      "file": "pattern_0268_further_crop_1024.png",
+      "truth": "The Crater",
+      "label": "The Crater",
+      "confidence": 0.24064901471138,
+      "margin_top1_top2": 0.04852212965488434,
+      "topk": [
+        {
+          "label": "The Crater",
+          "probability": 0.24064901471138,
+          "score": 0.24064901471138
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.19212688505649567,
+          "score": 0.19212688505649567
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.18165764212608337,
+          "score": 0.18165764212608337
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.1685151904821396,
+          "score": 0.1685151904821396
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.16498681902885437,
+          "score": 0.16498681902885437
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.052064456045627594,
+          "score": 0.052064456045627594
+        }
+      ],
+      "unknown": false,
+      "decided_label": "The Crater",
+      "latency_ms": 0.005599926225841045
+    },
+    {
+      "file": "pattern_0056_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.23100289702415466,
+      "margin_top1_top2": 0.045367732644081116,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.23100289702415466,
+          "score": 0.23100289702415466
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18563516438007355,
+          "score": 0.18563516438007355
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.1852259635925293,
+          "score": 0.1852259635925293
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.1828572154045105,
+          "score": 0.1828572154045105
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.17988909780979156,
+          "score": 0.17988909780979156
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.03538971766829491,
+          "score": 0.03538971766829491
+        }
+      ],
+      "unknown": true,
+      "decided_label": null,
+      "latency_ms": 0.005600042641162872
+    },
+    {
+      "file": "pattern_1024_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.23132796585559845,
+      "margin_top1_top2": 0.04240939021110535,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.23132796585559845,
+          "score": 0.23132796585559845
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.1889185756444931,
+          "score": 0.1889185756444931
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.1841396987438202,
+          "score": 0.1841396987438202
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.1826363205909729,
+          "score": 0.1826363205909729
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.1795974224805832,
+          "score": 0.1795974224805832
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.03337996453046799,
+          "score": 0.03337996453046799
+        }
+      ],
+      "unknown": true,
+      "decided_label": null,
+      "latency_ms": 0.005999929271638393
+    },
+    {
+      "file": "pattern_1169_further_crop_1024.png",
+      "truth": "The Crater",
+      "label": "The Crater",
+      "confidence": 0.24193024635314941,
+      "margin_top1_top2": 0.049643173813819885,
+      "topk": [
+        {
+          "label": "The Crater",
+          "probability": 0.24193024635314941,
+          "score": 0.24193024635314941
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.19228707253932953,
+          "score": 0.19228707253932953
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.1785508692264557,
+          "score": 0.1785508692264557
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.16994668543338776,
+          "score": 0.16994668543338776
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.16746707260608673,
+          "score": 0.16746707260608673
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.04981811344623566,
+          "score": 0.04981811344623566
+        }
+      ],
+      "unknown": false,
+      "decided_label": "The Crater",
+      "latency_ms": 0.00600004568696022
+    },
+    {
+      "file": "pattern_0230_further_crop_1024.png",
+      "truth": "Rotted Woods",
+      "label": "Rotted Woods",
+      "confidence": 0.24462200701236725,
+      "margin_top1_top2": 0.05300086736679077,
+      "topk": [
+        {
+          "label": "Rotted Woods",
+          "probability": 0.24462200701236725,
+          "score": 0.24462200701236725
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.19162113964557648,
+          "score": 0.19162113964557648
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18498913943767548,
+          "score": 0.18498913943767548
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.16934971511363983,
+          "score": 0.16934971511363983
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.15182089805603027,
+          "score": 0.15182089805603027
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.05759713426232338,
+          "score": 0.05759713426232338
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Rotted Woods",
+      "latency_ms": 0.005599926225841045
+    },
+    {
+      "file": "pattern_0232_further_crop_1024.png",
+      "truth": "Rotted Woods",
+      "label": "Rotted Woods",
+      "confidence": 0.24490398168563843,
+      "margin_top1_top2": 0.050650596618652344,
+      "topk": [
+        {
+          "label": "Rotted Woods",
+          "probability": 0.24490398168563843,
+          "score": 0.24490398168563843
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.19425338506698608,
+          "score": 0.19425338506698608
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18453946709632874,
+          "score": 0.18453946709632874
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.16737930476665497,
+          "score": 0.16737930476665497
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.15182118117809296,
+          "score": 0.15182118117809296
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.05710270628333092,
+          "score": 0.05710270628333092
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Rotted Woods",
+      "latency_ms": 0.005500041879713535
+    },
+    {
+      "file": "pattern_0014_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.23333905637264252,
+      "margin_top1_top2": 0.046603187918663025,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.23333905637264252,
+          "score": 0.23333905637264252
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.1867358684539795,
+          "score": 0.1867358684539795
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18392251431941986,
+          "score": 0.18392251431941986
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.18133994936943054,
+          "score": 0.18133994936943054
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.18091261386871338,
+          "score": 0.18091261386871338
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.03374995291233063,
+          "score": 0.03374995291233063
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Limveld",
+      "latency_ms": 0.0077999429777264595
+    },
+    {
+      "file": "pattern_1172_further_crop_1024.png",
+      "truth": "Rotted Woods",
+      "label": "Rotted Woods",
+      "confidence": 0.24225260317325592,
+      "margin_top1_top2": 0.05067750811576843,
+      "topk": [
+        {
+          "label": "Rotted Woods",
+          "probability": 0.24225260317325592,
+          "score": 0.24225260317325592
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.1915750950574875,
+          "score": 0.1915750950574875
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18390698730945587,
+          "score": 0.18390698730945587
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.16890907287597656,
+          "score": 0.16890907287597656
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.15740904211997986,
+          "score": 0.15740904211997986
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.05594721436500549,
+          "score": 0.05594721436500549
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Rotted Woods",
+      "latency_ms": 0.005600042641162872
+    },
+    {
+      "file": "pattern_1001_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.2307473123073578,
+      "margin_top1_top2": 0.042906537652015686,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.2307473123073578,
+          "score": 0.2307473123073578
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.1878407746553421,
+          "score": 0.1878407746553421
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.18442872166633606,
+          "score": 0.18442872166633606
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18340547382831573,
+          "score": 0.18340547382831573
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.1801873743534088,
+          "score": 0.1801873743534088
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.033390361815690994,
+          "score": 0.033390361815690994
+        }
+      ],
+      "unknown": true,
+      "decided_label": null,
+      "latency_ms": 0.005399924702942371
+    },
+    {
+      "file": "pattern_1111_further_crop_1024.png",
+      "truth": "Rotted Woods",
+      "label": "Rotted Woods",
+      "confidence": 0.2466253787279129,
+      "margin_top1_top2": 0.052817851305007935,
+      "topk": [
+        {
+          "label": "Rotted Woods",
+          "probability": 0.2466253787279129,
+          "score": 0.2466253787279129
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.19380752742290497,
+          "score": 0.19380752742290497
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18205732107162476,
+          "score": 0.18205732107162476
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.17066174745559692,
+          "score": 0.17066174745559692
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.15290378034114838,
+          "score": 0.15290378034114838
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.05394420027732849,
+          "score": 0.05394420027732849
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Rotted Woods",
+      "latency_ms": 0.005600042641162872
+    },
+    {
+      "file": "pattern_1113_further_crop_1024.png",
+      "truth": "Rotted Woods",
+      "label": "Rotted Woods",
+      "confidence": 0.25025102496147156,
+      "margin_top1_top2": 0.05826050043106079,
+      "topk": [
+        {
+          "label": "Rotted Woods",
+          "probability": 0.25025102496147156,
+          "score": 0.25025102496147156
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.19199052453041077,
+          "score": 0.19199052453041077
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18369759619235992,
+          "score": 0.18369759619235992
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.16710391640663147,
+          "score": 0.16710391640663147
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.15146015584468842,
+          "score": 0.15146015584468842
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.05549676716327667,
+          "score": 0.05549676716327667
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Rotted Woods",
+      "latency_ms": 0.005400041118264198
+    },
+    {
+      "file": "pattern_0311_further_crop_1024.png",
+      "truth": "Rotted Woods",
+      "label": "Rotted Woods",
+      "confidence": 0.24444527924060822,
+      "margin_top1_top2": 0.05210751295089722,
+      "topk": [
+        {
+          "label": "Rotted Woods",
+          "probability": 0.24444527924060822,
+          "score": 0.24444527924060822
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.192337766289711,
+          "score": 0.192337766289711
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18235929310321808,
+          "score": 0.18235929310321808
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.16829261183738708,
+          "score": 0.16829261183738708
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.15525148808956146,
+          "score": 0.15525148808956146
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.05731353163719177,
+          "score": 0.05731353163719177
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Rotted Woods",
+      "latency_ms": 0.0066999346017837524
+    },
+    {
+      "file": "pattern_0155_further_crop_1024.png",
+      "truth": "Noklateo",
+      "label": "Noklateo",
+      "confidence": 0.24532712996006012,
+      "margin_top1_top2": 0.04986432194709778,
+      "topk": [
+        {
+          "label": "Noklateo",
+          "probability": 0.24532712996006012,
+          "score": 0.24532712996006012
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.19546280801296234,
+          "score": 0.19546280801296234
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.17477813363075256,
+          "score": 0.17477813363075256
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.17106777429580688,
+          "score": 0.17106777429580688
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.16917283833026886,
+          "score": 0.16917283833026886
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.04419133812189102,
+          "score": 0.04419133812189102
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Noklateo",
+      "latency_ms": 0.005700043402612209
+    },
+    {
+      "file": "pattern_0023_further_crop_1024.png",
+      "truth": "Mountaintop",
+      "label": "Mountaintop",
+      "confidence": 0.25462090969085693,
+      "margin_top1_top2": 0.04924999177455902,
+      "topk": [
+        {
+          "label": "Mountaintop",
+          "probability": 0.25462090969085693,
+          "score": 0.25462090969085693
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.2053709179162979,
+          "score": 0.2053709179162979
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.17737236618995667,
+          "score": 0.17737236618995667
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.1770883947610855,
+          "score": 0.1770883947610855
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.15490947663784027,
+          "score": 0.15490947663784027
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.030637890100479126,
+          "score": 0.030637890100479126
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Mountaintop",
+      "latency_ms": 0.005599926225841045
+    },
+    {
+      "file": "pattern_0116_further_crop_1024.png",
+      "truth": "Noklateo",
+      "label": "Noklateo",
+      "confidence": 0.24952538311481476,
+      "margin_top1_top2": 0.05227269232273102,
+      "topk": [
+        {
+          "label": "Noklateo",
+          "probability": 0.24952538311481476,
+          "score": 0.24952538311481476
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.19725269079208374,
+          "score": 0.19725269079208374
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.17499703168869019,
+          "score": 0.17499703168869019
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.16971291601657867,
+          "score": 0.16971291601657867
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.16784195601940155,
+          "score": 0.16784195601940155
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.0406700074672699,
+          "score": 0.0406700074672699
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Noklateo",
+      "latency_ms": 0.005300040356814861
+    },
+    {
+      "file": "pattern_0122_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.23277823626995087,
+      "margin_top1_top2": 0.04624941945075989,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.23277823626995087,
+          "score": 0.23277823626995087
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.18652881681919098,
+          "score": 0.18652881681919098
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18483173847198486,
+          "score": 0.18483173847198486
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.1818201094865799,
+          "score": 0.1818201094865799
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.18068446218967438,
+          "score": 0.18068446218967438
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.033356644213199615,
+          "score": 0.033356644213199615
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Limveld",
+      "latency_ms": 0.005899928510189056
+    },
+    {
+      "file": "pattern_0290_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.23352894186973572,
+      "margin_top1_top2": 0.0467262864112854,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.23352894186973572,
+          "score": 0.23352894186973572
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18680265545845032,
+          "score": 0.18680265545845032
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.18410028517246246,
+          "score": 0.18410028517246246
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.1821804791688919,
+          "score": 0.1821804791688919
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.1797495186328888,
+          "score": 0.1797495186328888
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.03363808989524841,
+          "score": 0.03363808989524841
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Limveld",
+      "latency_ms": 0.006100046448409557
+    },
+    {
+      "file": "pattern_0121_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.23067300021648407,
+      "margin_top1_top2": 0.044787436723709106,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.23067300021648407,
+          "score": 0.23067300021648407
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.18588556349277496,
+          "score": 0.18588556349277496
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18392011523246765,
+          "score": 0.18392011523246765
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.1834748089313507,
+          "score": 0.1834748089313507
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.182577982544899,
+          "score": 0.182577982544899
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.03346860408782959,
+          "score": 0.03346860408782959
+        }
+      ],
+      "unknown": true,
+      "decided_label": null,
+      "latency_ms": 0.006199930794537067
+    },
+    {
+      "file": "pattern_0011_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.2319926619529724,
+      "margin_top1_top2": 0.044797465205192566,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.2319926619529724,
+          "score": 0.2319926619529724
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.18719519674777985,
+          "score": 0.18719519674777985
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18284766376018524,
+          "score": 0.18284766376018524
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.18228492140769958,
+          "score": 0.18228492140769958
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.18011347949504852,
+          "score": 0.18011347949504852
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.03556603193283081,
+          "score": 0.03556603193283081
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Limveld",
+      "latency_ms": 0.005500041879713535
+    },
+    {
+      "file": "pattern_0130_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.23245267570018768,
+      "margin_top1_top2": 0.046807900071144104,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.23245267570018768,
+          "score": 0.23245267570018768
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18564477562904358,
+          "score": 0.18564477562904358
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.1852751225233078,
+          "score": 0.1852751225233078
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.18455490469932556,
+          "score": 0.18455490469932556
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.1802803874015808,
+          "score": 0.1802803874015808
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.03179219737648964,
+          "score": 0.03179219737648964
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Limveld",
+      "latency_ms": 0.005499925464391708
+    },
+    {
+      "file": "pattern_0192_further_crop_1024.png",
+      "truth": "Rotted Woods",
+      "label": "Rotted Woods",
+      "confidence": 0.24626269936561584,
+      "margin_top1_top2": 0.05261354148387909,
+      "topk": [
+        {
+          "label": "Rotted Woods",
+          "probability": 0.24626269936561584,
+          "score": 0.24626269936561584
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.19364915788173676,
+          "score": 0.19364915788173676
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18498726189136505,
+          "score": 0.18498726189136505
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.1697256863117218,
+          "score": 0.1697256863117218
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.151201531291008,
+          "score": 0.151201531291008
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.05417366325855255,
+          "score": 0.05417366325855255
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Rotted Woods",
+      "latency_ms": 0.005300040356814861
+    },
+    {
+      "file": "pattern_1062_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.2304142862558365,
+      "margin_top1_top2": 0.04177507758140564,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.2304142862558365,
+          "score": 0.2304142862558365
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.18863920867443085,
+          "score": 0.18863920867443085
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.1842401921749115,
+          "score": 0.1842401921749115
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.18351878225803375,
+          "score": 0.18351878225803375
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.17856524884700775,
+          "score": 0.17856524884700775
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.03462226688861847,
+          "score": 0.03462226688861847
+        }
+      ],
+      "unknown": true,
+      "decided_label": null,
+      "latency_ms": 0.005400041118264198
+    },
+    {
+      "file": "pattern_1029_further_crop_asym_1191x1176.png",
+      "truth": "Great Hollow",
+      "label": "Great Hollow",
+      "confidence": 0.5354264378547668,
+      "margin_top1_top2": 0.4139833450317383,
+      "topk": [
+        {
+          "label": "Great Hollow",
+          "probability": 0.5354264378547668,
+          "score": 0.5354264378547668
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.12144308537244797,
+          "score": 0.12144308537244797
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.10983947664499283,
+          "score": 0.10983947664499283
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.08955197036266327,
+          "score": 0.08955197036266327
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.07744063436985016,
+          "score": 0.07744063436985016
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.06629839539527893,
+          "score": 0.06629839539527893
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Great Hollow",
+      "latency_ms": 0.0067999353632330894
+    },
+    {
+      "file": "pattern_0315_further_crop_1024.png",
+      "truth": "Noklateo",
+      "label": "Noklateo",
+      "confidence": 0.24619285762310028,
+      "margin_top1_top2": 0.05146390199661255,
+      "topk": [
+        {
+          "label": "Noklateo",
+          "probability": 0.24619285762310028,
+          "score": 0.24619285762310028
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.19472895562648773,
+          "score": 0.19472895562648773
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.1763819009065628,
+          "score": 0.1763819009065628
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.1711457371711731,
+          "score": 0.1711457371711731
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.17010918259620667,
+          "score": 0.17010918259620667
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.04144129157066345,
+          "score": 0.04144129157066345
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Noklateo",
+      "latency_ms": 0.005500041879713535
+    },
+    {
+      "file": "pattern_1007_further_crop_asym_1191x1176.png",
+      "truth": "Great Hollow",
+      "label": "Great Hollow",
+      "confidence": 0.5357648134231567,
+      "margin_top1_top2": 0.4150480031967163,
+      "topk": [
+        {
+          "label": "Great Hollow",
+          "probability": 0.5357648134231567,
+          "score": 0.5357648134231567
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.12071681767702103,
+          "score": 0.12071681767702103
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.10903027653694153,
+          "score": 0.10903027653694153
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.09079844504594803,
+          "score": 0.09079844504594803
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.07719836384057999,
+          "score": 0.07719836384057999
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.06649130582809448,
+          "score": 0.06649130582809448
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Great Hollow",
+      "latency_ms": 0.005399924702942371
+    },
+    {
+      "file": "pattern_0202_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.23290346562862396,
+      "margin_top1_top2": 0.04740460216999054,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.23290346562862396,
+          "score": 0.23290346562862396
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.18549886345863342,
+          "score": 0.18549886345863342
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.1845484972000122,
+          "score": 0.1845484972000122
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.1826818436384201,
+          "score": 0.1826818436384201
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.1805921196937561,
+          "score": 0.1805921196937561
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.03377528116106987,
+          "score": 0.03377528116106987
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Limveld",
+      "latency_ms": 0.00600004568696022
+    },
+    {
+      "file": "pattern_0243_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.2310102880001068,
+      "margin_top1_top2": 0.041656479239463806,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.2310102880001068,
+          "score": 0.2310102880001068
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.189353808760643,
+          "score": 0.189353808760643
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18315978348255157,
+          "score": 0.18315978348255157
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.1827065348625183,
+          "score": 0.1827065348625183
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.17959830164909363,
+          "score": 0.17959830164909363
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.034171316772699356,
+          "score": 0.034171316772699356
+        }
+      ],
+      "unknown": true,
+      "decided_label": null,
+      "latency_ms": 0.005699926987290382
+    },
+    {
+      "file": "pattern_1162_further_crop_1024.png",
+      "truth": "Mountaintop",
+      "label": "Mountaintop",
+      "confidence": 0.2549566626548767,
+      "margin_top1_top2": 0.052404627203941345,
+      "topk": [
+        {
+          "label": "Mountaintop",
+          "probability": 0.2549566626548767,
+          "score": 0.2549566626548767
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.20255203545093536,
+          "score": 0.20255203545093536
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.1797882616519928,
+          "score": 0.1797882616519928
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.17375527322292328,
+          "score": 0.17375527322292328
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.15755914151668549,
+          "score": 0.15755914151668549
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.03138861432671547,
+          "score": 0.03138861432671547
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Mountaintop",
+      "latency_ms": 0.006700051017105579
+    },
+    {
+      "file": "pattern_0264_further_crop_1024.png",
+      "truth": "Mountaintop",
+      "label": "Mountaintop",
+      "confidence": 0.2539168894290924,
+      "margin_top1_top2": 0.048028141260147095,
+      "topk": [
+        {
+          "label": "Mountaintop",
+          "probability": 0.2539168894290924,
+          "score": 0.2539168894290924
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.2058887481689453,
+          "score": 0.2058887481689453
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.1767268031835556,
+          "score": 0.1767268031835556
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.17498399317264557,
+          "score": 0.17498399317264557
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.15674906969070435,
+          "score": 0.15674906969070435
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.03173448145389557,
+          "score": 0.03173448145389557
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Mountaintop",
+      "latency_ms": 0.005599926225841045
+    },
+    {
+      "file": "pattern_1157_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.23180323839187622,
+      "margin_top1_top2": 0.04204356670379639,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.23180323839187622,
+          "score": 0.23180323839187622
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.18975967168807983,
+          "score": 0.18975967168807983
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.1839277148246765,
+          "score": 0.1839277148246765
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.18045280873775482,
+          "score": 0.18045280873775482
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.17921216785907745,
+          "score": 0.17921216785907745
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.034844331443309784,
+          "score": 0.034844331443309784
+        }
+      ],
+      "unknown": true,
+      "decided_label": null,
+      "latency_ms": 0.005400041118264198
+    },
+    {
+      "file": "pattern_1175_further_crop_asym_1191x1176.png",
+      "truth": "Great Hollow",
+      "label": "Great Hollow",
+      "confidence": 0.5330794453620911,
+      "margin_top1_top2": 0.41164591908454895,
+      "topk": [
+        {
+          "label": "Great Hollow",
+          "probability": 0.5330794453620911,
+          "score": 0.5330794453620911
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.12143352627754211,
+          "score": 0.12143352627754211
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.11027857661247253,
+          "score": 0.11027857661247253
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.09080911427736282,
+          "score": 0.09080911427736282
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.077544666826725,
+          "score": 0.077544666826725
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.06685468554496765,
+          "score": 0.06685468554496765
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Great Hollow",
+      "latency_ms": 0.005699926987290382
+    },
+    {
+      "file": "pattern_1178_further_crop_asym_1191x1176.png",
+      "truth": "Great Hollow",
+      "label": "Great Hollow",
+      "confidence": 0.5365204811096191,
+      "margin_top1_top2": 0.4150710999965668,
+      "topk": [
+        {
+          "label": "Great Hollow",
+          "probability": 0.5365204811096191,
+          "score": 0.5365204811096191
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.12144938111305237,
+          "score": 0.12144938111305237
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.10934412479400635,
+          "score": 0.10934412479400635
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.08990646153688431,
+          "score": 0.08990646153688431
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.0770653784275055,
+          "score": 0.0770653784275055
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.06571414321660995,
+          "score": 0.06571414321660995
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Great Hollow",
+      "latency_ms": 0.005600042641162872
+    },
+    {
+      "file": "pattern_0266_further_crop_1024.png",
+      "truth": "The Crater",
+      "label": "The Crater",
+      "confidence": 0.24204766750335693,
+      "margin_top1_top2": 0.049406588077545166,
+      "topk": [
+        {
+          "label": "The Crater",
+          "probability": 0.24204766750335693,
+          "score": 0.24204766750335693
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.19264107942581177,
+          "score": 0.19264107942581177
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.18395934998989105,
+          "score": 0.18395934998989105
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.16580714285373688,
+          "score": 0.16580714285373688
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.16447730362415314,
+          "score": 0.16447730362415314
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.051067501306533813,
+          "score": 0.051067501306533813
+        }
+      ],
+      "unknown": false,
+      "decided_label": "The Crater",
+      "latency_ms": 0.006500049494206905
+    },
+    {
+      "file": "pattern_1139_further_crop_1024.png",
+      "truth": "Noklateo",
+      "label": "Noklateo",
+      "confidence": 0.24862563610076904,
+      "margin_top1_top2": 0.05353519320487976,
+      "topk": [
+        {
+          "label": "Noklateo",
+          "probability": 0.24862563610076904,
+          "score": 0.24862563610076904
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.19509044289588928,
+          "score": 0.19509044289588928
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.1762552410364151,
+          "score": 0.1762552410364151
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.1700664907693863,
+          "score": 0.1700664907693863
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.16773542761802673,
+          "score": 0.16773542761802673
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.04222685098648071,
+          "score": 0.04222685098648071
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Noklateo",
+      "latency_ms": 0.005900044925510883
+    },
+    {
+      "file": "pattern_0200_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.2327791452407837,
+      "margin_top1_top2": 0.04760266840457916,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.2327791452407837,
+          "score": 0.2327791452407837
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.18517647683620453,
+          "score": 0.18517647683620453
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.18452247977256775,
+          "score": 0.18452247977256775
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18399213254451752,
+          "score": 0.18399213254451752
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.18020571768283844,
+          "score": 0.18020571768283844
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.03332402929663658,
+          "score": 0.03332402929663658
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Limveld",
+      "latency_ms": 0.005400041118264198
+    },
+    {
+      "file": "pattern_0025_further_crop_1024.png",
+      "truth": "The Crater",
+      "label": "The Crater",
+      "confidence": 0.24196116626262665,
+      "margin_top1_top2": 0.050583332777023315,
+      "topk": [
+        {
+          "label": "The Crater",
+          "probability": 0.24196116626262665,
+          "score": 0.24196116626262665
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.19137783348560333,
+          "score": 0.19137783348560333
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.18369029462337494,
+          "score": 0.18369029462337494
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.16736967861652374,
+          "score": 0.16736967861652374
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.1642887443304062,
+          "score": 0.1642887443304062
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.051312338560819626,
+          "score": 0.051312338560819626
+        }
+      ],
+      "unknown": false,
+      "decided_label": "The Crater",
+      "latency_ms": 0.005399924702942371
+    },
+    {
+      "file": "pattern_1048_further_crop_asym_1191x1176.png",
+      "truth": "Great Hollow",
+      "label": "Great Hollow",
+      "confidence": 0.5353956818580627,
+      "margin_top1_top2": 0.41455358266830444,
+      "topk": [
+        {
+          "label": "Great Hollow",
+          "probability": 0.5353956818580627,
+          "score": 0.5353956818580627
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.1208420842885971,
+          "score": 0.1208420842885971
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.10935927927494049,
+          "score": 0.10935927927494049
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.09020907431840897,
+          "score": 0.09020907431840897
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.07738363742828369,
+          "score": 0.07738363742828369
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.06681021302938461,
+          "score": 0.06681021302938461
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Great Hollow",
+      "latency_ms": 0.012299977242946625
+    },
+    {
+      "file": "pattern_1095_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.23437412083148956,
+      "margin_top1_top2": 0.04552406072616577,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.23437412083148956,
+          "score": 0.23437412083148956
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.1888500601053238,
+          "score": 0.1888500601053238
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18313999474048615,
+          "score": 0.18313999474048615
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.18173348903656006,
+          "score": 0.18173348903656006
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.17975126206874847,
+          "score": 0.17975126206874847
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.032151129096746445,
+          "score": 0.032151129096746445
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Limveld",
+      "latency_ms": 0.005900044925510883
+    },
+    {
+      "file": "pattern_1006_further_crop_asym_1191x1176.png",
+      "truth": "Great Hollow",
+      "label": "Great Hollow",
+      "confidence": 0.5327610969543457,
+      "margin_top1_top2": 0.4114692807197571,
+      "topk": [
+        {
+          "label": "Great Hollow",
+          "probability": 0.5327610969543457,
+          "score": 0.5327610969543457
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.12129182368516922,
+          "score": 0.12129182368516922
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.10988528281450272,
+          "score": 0.10988528281450272
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.09173207730054855,
+          "score": 0.09173207730054855
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.0775194987654686,
+          "score": 0.0775194987654686
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.06681030988693237,
+          "score": 0.06681030988693237
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Great Hollow",
+      "latency_ms": 0.0067999353632330894
+    },
+    {
+      "file": "pattern_1098_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.22976802289485931,
+      "margin_top1_top2": 0.040591076016426086,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.22976802289485931,
+          "score": 0.22976802289485931
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.18917694687843323,
+          "score": 0.18917694687843323
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.183436319231987,
+          "score": 0.183436319231987
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.1822822391986847,
+          "score": 0.1822822391986847
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.1811726987361908,
+          "score": 0.1811726987361908
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.034163698554039,
+          "score": 0.034163698554039
+        }
+      ],
+      "unknown": true,
+      "decided_label": null,
+      "latency_ms": 0.005500041879713535
+    },
+    {
+      "file": "pattern_1184_further_crop_asym_1191x1176.png",
+      "truth": "Great Hollow",
+      "label": "Great Hollow",
+      "confidence": 0.5360845327377319,
+      "margin_top1_top2": 0.4153544008731842,
+      "topk": [
+        {
+          "label": "Great Hollow",
+          "probability": 0.5360845327377319,
+          "score": 0.5360845327377319
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.12073012441396713,
+          "score": 0.12073012441396713
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.10949308425188065,
+          "score": 0.10949308425188065
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.08974262326955795,
+          "score": 0.08974262326955795
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.07718906551599503,
+          "score": 0.07718906551599503
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.06676055490970612,
+          "score": 0.06676055490970612
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Great Hollow",
+      "latency_ms": 0.005399924702942371
+    },
+    {
+      "file": "pattern_0118_further_crop_1024.png",
+      "truth": "Noklateo",
+      "label": "Noklateo",
+      "confidence": 0.25074297189712524,
+      "margin_top1_top2": 0.05635678768157959,
+      "topk": [
+        {
+          "label": "Noklateo",
+          "probability": 0.25074297189712524,
+          "score": 0.25074297189712524
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.19438618421554565,
+          "score": 0.19438618421554565
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.17448878288269043,
+          "score": 0.17448878288269043
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.17039963603019714,
+          "score": 0.17039963603019714
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.1684301495552063,
+          "score": 0.1684301495552063
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.041552286595106125,
+          "score": 0.041552286595106125
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Noklateo",
+      "latency_ms": 0.006200047209858894
+    },
+    {
+      "file": "pattern_1189_further_crop_asym_1191x1176.png",
+      "truth": "Great Hollow",
+      "label": "Great Hollow",
+      "confidence": 0.5314049124717712,
+      "margin_top1_top2": 0.41003331542015076,
+      "topk": [
+        {
+          "label": "Great Hollow",
+          "probability": 0.5314049124717712,
+          "score": 0.5314049124717712
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.12137159705162048,
+          "score": 0.12137159705162048
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.11060985177755356,
+          "score": 0.11060985177755356
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.09147151559591293,
+          "score": 0.09147151559591293
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.07781632244586945,
+          "score": 0.07781632244586945
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.06732579320669174,
+          "score": 0.06732579320669174
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Great Hollow",
+      "latency_ms": 0.0065999338403344154
+    },
+    {
+      "file": "pattern_1080_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.23055629432201385,
+      "margin_top1_top2": 0.0396861732006073,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.23055629432201385,
+          "score": 0.23055629432201385
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.19087012112140656,
+          "score": 0.19087012112140656
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.18386879563331604,
+          "score": 0.18386879563331604
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18045523762702942,
+          "score": 0.18045523762702942
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.1798168420791626,
+          "score": 0.1798168420791626
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.03443273529410362,
+          "score": 0.03443273529410362
+        }
+      ],
+      "unknown": true,
+      "decided_label": null,
+      "latency_ms": 0.00870006624609232
+    },
+    {
+      "file": "pattern_0254_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.23252879083156586,
+      "margin_top1_top2": 0.043874338269233704,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.23252879083156586,
+          "score": 0.23252879083156586
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.18865445256233215,
+          "score": 0.18865445256233215
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18408511579036713,
+          "score": 0.18408511579036713
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.18327264487743378,
+          "score": 0.18327264487743378
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.1789291799068451,
+          "score": 0.1789291799068451
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.03252984583377838,
+          "score": 0.03252984583377838
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Limveld",
+      "latency_ms": 0.0065999338403344154
+    },
+    {
+      "file": "pattern_1052_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.23366111516952515,
+      "margin_top1_top2": 0.0472358763217926,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.23366111516952515,
+          "score": 0.23366111516952515
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.18642523884773254,
+          "score": 0.18642523884773254
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18419358134269714,
+          "score": 0.18419358134269714
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.18213032186031342,
+          "score": 0.18213032186031342
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.18201956152915955,
+          "score": 0.18201956152915955
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.03157016262412071,
+          "score": 0.03157016262412071
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Limveld",
+      "latency_ms": 0.005600042641162872
+    },
+    {
+      "file": "pattern_1186_further_crop_asym_1191x1176.png",
+      "truth": "Great Hollow",
+      "label": "Great Hollow",
+      "confidence": 0.5351454615592957,
+      "margin_top1_top2": 0.41423332691192627,
+      "topk": [
+        {
+          "label": "Great Hollow",
+          "probability": 0.5351454615592957,
+          "score": 0.5351454615592957
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.12091213464736938,
+          "score": 0.12091213464736938
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.10943686962127686,
+          "score": 0.10943686962127686
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.09021679311990738,
+          "score": 0.09021679311990738
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.07739748805761337,
+          "score": 0.07739748805761337
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.06689129024744034,
+          "score": 0.06689129024744034
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Great Hollow",
+      "latency_ms": 0.005399924702942371
+    },
+    {
+      "file": "pattern_1134_further_crop_asym_1191x1176.png",
+      "truth": "Great Hollow",
+      "label": "Great Hollow",
+      "confidence": 0.5375275611877441,
+      "margin_top1_top2": 0.4163523316383362,
+      "topk": [
+        {
+          "label": "Great Hollow",
+          "probability": 0.5375275611877441,
+          "score": 0.5375275611877441
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.12117522954940796,
+          "score": 0.12117522954940796
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.10878042131662369,
+          "score": 0.10878042131662369
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.08990048617124557,
+          "score": 0.08990048617124557
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.07672001421451569,
+          "score": 0.07672001421451569
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.06589628010988235,
+          "score": 0.06589628010988235
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Great Hollow",
+      "latency_ms": 0.005700043402612209
+    },
+    {
+      "file": "pattern_0160_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.2307446449995041,
+      "margin_top1_top2": 0.04353626072406769,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.2307446449995041,
+          "score": 0.2307446449995041
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.1872083842754364,
+          "score": 0.1872083842754364
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.18532933294773102,
+          "score": 0.18532933294773102
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18530035018920898,
+          "score": 0.18530035018920898
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.17708279192447662,
+          "score": 0.17708279192447662
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.03433449938893318,
+          "score": 0.03433449938893318
+        }
+      ],
+      "unknown": true,
+      "decided_label": null,
+      "latency_ms": 0.006600050255656242
+    },
+    {
+      "file": "pattern_1045_further_crop_asym_1191x1176.png",
+      "truth": "Great Hollow",
+      "label": "Great Hollow",
+      "confidence": 0.5366907715797424,
+      "margin_top1_top2": 0.41608595848083496,
+      "topk": [
+        {
+          "label": "Great Hollow",
+          "probability": 0.5366907715797424,
+          "score": 0.5366907715797424
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.12060482054948807,
+          "score": 0.12060482054948807
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.10876552760601044,
+          "score": 0.10876552760601044
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.09067615121603012,
+          "score": 0.09067615121603012
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.07707498222589493,
+          "score": 0.07707498222589493
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.0661877915263176,
+          "score": 0.0661877915263176
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Great Hollow",
+      "latency_ms": 0.007100054062902927
+    },
+    {
+      "file": "pattern_0000_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.23309844732284546,
+      "margin_top1_top2": 0.04387393593788147,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.23309844732284546,
+          "score": 0.23309844732284546
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.189224511384964,
+          "score": 0.189224511384964
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18369361758232117,
+          "score": 0.18369361758232117
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.1811533123254776,
+          "score": 0.1811533123254776
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.18038305640220642,
+          "score": 0.18038305640220642
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.03244699165225029,
+          "score": 0.03244699165225029
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Limveld",
+      "latency_ms": 0.005600042641162872
+    },
+    {
+      "file": "pattern_0076_further_crop_1024.png",
+      "truth": "Noklateo",
+      "label": "Noklateo",
+      "confidence": 0.2520428001880646,
+      "margin_top1_top2": 0.05682176351547241,
+      "topk": [
+        {
+          "label": "Noklateo",
+          "probability": 0.2520428001880646,
+          "score": 0.2520428001880646
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.19522103667259216,
+          "score": 0.19522103667259216
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.17526322603225708,
+          "score": 0.17526322603225708
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.1687130331993103,
+          "score": 0.1687130331993103
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.16708014905452728,
+          "score": 0.16708014905452728
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.0416797511279583,
+          "score": 0.0416797511279583
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Noklateo",
+      "latency_ms": 0.005399924702942371
+    },
+    {
+      "file": "pattern_1096_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.23142042756080627,
+      "margin_top1_top2": 0.04152192175388336,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.23142042756080627,
+          "score": 0.23142042756080627
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.1898985058069229,
+          "score": 0.1898985058069229
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.1840696483850479,
+          "score": 0.1840696483850479
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18377918004989624,
+          "score": 0.18377918004989624
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.1780783236026764,
+          "score": 0.1780783236026764
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.03275391459465027,
+          "score": 0.03275391459465027
+        }
+      ],
+      "unknown": true,
+      "decided_label": null,
+      "latency_ms": 0.005400041118264198
+    },
+    {
+      "file": "pattern_0224_further_crop_1024.png",
+      "truth": "Mountaintop",
+      "label": "Mountaintop",
+      "confidence": 0.25018590688705444,
+      "margin_top1_top2": 0.0473189502954483,
+      "topk": [
+        {
+          "label": "Mountaintop",
+          "probability": 0.25018590688705444,
+          "score": 0.25018590688705444
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.20286695659160614,
+          "score": 0.20286695659160614
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.18209761381149292,
+          "score": 0.18209761381149292
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.17533548176288605,
+          "score": 0.17533548176288605
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.15746857225894928,
+          "score": 0.15746857225894928
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.03204548358917236,
+          "score": 0.03204548358917236
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Mountaintop",
+      "latency_ms": 0.0066999346017837524
+    },
+    {
+      "file": "pattern_0265_further_crop_1024.png",
+      "truth": "The Crater",
+      "label": "The Crater",
+      "confidence": 0.24471357464790344,
+      "margin_top1_top2": 0.05076073110103607,
+      "topk": [
+        {
+          "label": "The Crater",
+          "probability": 0.24471357464790344,
+          "score": 0.24471357464790344
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.19395284354686737,
+          "score": 0.19395284354686737
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.18113598227500916,
+          "score": 0.18113598227500916
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.16877999901771545,
+          "score": 0.16877999901771545
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.1636645793914795,
+          "score": 0.1636645793914795
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.047753095626831055,
+          "score": 0.047753095626831055
+        }
+      ],
+      "unknown": false,
+      "decided_label": "The Crater",
+      "latency_ms": 0.005400041118264198
+    },
+    {
+      "file": "pattern_1103_further_crop_1024.png",
+      "truth": "Mountaintop",
+      "label": "Mountaintop",
+      "confidence": 0.25201529264450073,
+      "margin_top1_top2": 0.046709731221199036,
+      "topk": [
+        {
+          "label": "Mountaintop",
+          "probability": 0.25201529264450073,
+          "score": 0.25201529264450073
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.2053055614233017,
+          "score": 0.2053055614233017
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.18030723929405212,
+          "score": 0.18030723929405212
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.17541232705116272,
+          "score": 0.17541232705116272
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.15625765919685364,
+          "score": 0.15625765919685364
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.030701950192451477,
+          "score": 0.030701950192451477
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Mountaintop",
+      "latency_ms": 0.005399924702942371
+    },
+    {
+      "file": "pattern_1059_further_crop_asym_1191x1176.png",
+      "truth": "Great Hollow",
+      "label": "Great Hollow",
+      "confidence": 0.530870795249939,
+      "margin_top1_top2": 0.4089323878288269,
+      "topk": [
+        {
+          "label": "Great Hollow",
+          "probability": 0.530870795249939,
+          "score": 0.530870795249939
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.12193841487169266,
+          "score": 0.12193841487169266
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.11108528077602386,
+          "score": 0.11108528077602386
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.09099346399307251,
+          "score": 0.09099346399307251
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.07803789526224136,
+          "score": 0.07803789526224136
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.06707414984703064,
+          "score": 0.06707414984703064
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Great Hollow",
+      "latency_ms": 0.005400041118264198
+    },
+    {
+      "file": "pattern_1140_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.22902613878250122,
+      "margin_top1_top2": 0.038910746574401855,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.22902613878250122,
+          "score": 0.22902613878250122
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.19011539220809937,
+          "score": 0.19011539220809937
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.1834312379360199,
+          "score": 0.1834312379360199
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18122434616088867,
+          "score": 0.18122434616088867
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.18110236525535583,
+          "score": 0.18110236525535583
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.035100460052490234,
+          "score": 0.035100460052490234
+        }
+      ],
+      "unknown": true,
+      "decided_label": null,
+      "latency_ms": 0.005399924702942371
+    },
+    {
+      "file": "pattern_1002_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.23291391134262085,
+      "margin_top1_top2": 0.0432262122631073,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.23291391134262085,
+          "score": 0.23291391134262085
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.18968769907951355,
+          "score": 0.18968769907951355
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.18362173438072205,
+          "score": 0.18362173438072205
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.18023890256881714,
+          "score": 0.18023890256881714
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.18007737398147583,
+          "score": 0.18007737398147583
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.033460356295108795,
+          "score": 0.033460356295108795
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Limveld",
+      "latency_ms": 0.006100046448409557
+    },
+    {
+      "file": "pattern_0255_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.23157596588134766,
+      "margin_top1_top2": 0.042140766978263855,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.23157596588134766,
+          "score": 0.23157596588134766
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.1894351989030838,
+          "score": 0.1894351989030838
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.1841311901807785,
+          "score": 0.1841311901807785
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.1825418472290039,
+          "score": 0.1825418472290039
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.1782272607088089,
+          "score": 0.1782272607088089
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.03408846631646156,
+          "score": 0.03408846631646156
+        }
+      ],
+      "unknown": true,
+      "decided_label": null,
+      "latency_ms": 0.0065999338403344154
+    },
+    {
+      "file": "pattern_0203_further_crop_1024.png",
+      "truth": "Limveld",
+      "label": "Limveld",
+      "confidence": 0.22982770204544067,
+      "margin_top1_top2": 0.04227176308631897,
+      "topk": [
+        {
+          "label": "Limveld",
+          "probability": 0.22982770204544067,
+          "score": 0.22982770204544067
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.1875559389591217,
+          "score": 0.1875559389591217
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.18461082875728607,
+          "score": 0.18461082875728607
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.1829426884651184,
+          "score": 0.1829426884651184
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.1807927042245865,
+          "score": 0.1807927042245865
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.03427021577954292,
+          "score": 0.03427021577954292
+        }
+      ],
+      "unknown": true,
+      "decided_label": null,
+      "latency_ms": 0.005500041879713535
+    },
+    {
+      "file": "pattern_1046_further_crop_asym_1191x1176.png",
+      "truth": "Great Hollow",
+      "label": "Great Hollow",
+      "confidence": 0.5321465134620667,
+      "margin_top1_top2": 0.41090676188468933,
+      "topk": [
+        {
+          "label": "Great Hollow",
+          "probability": 0.5321465134620667,
+          "score": 0.5321465134620667
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.12123975902795792,
+          "score": 0.12123975902795792
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.1105436459183693,
+          "score": 0.1105436459183693
+        },
+        {
+          "label": "Noklateo",
+          "probability": 0.09121665358543396,
+          "score": 0.09121665358543396
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.07765207439661026,
+          "score": 0.07765207439661026
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.06720136851072311,
+          "score": 0.06720136851072311
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Great Hollow",
+      "latency_ms": 0.0066999346017837524
+    },
+    {
+      "file": "pattern_0197_further_crop_1024.png",
+      "truth": "Noklateo",
+      "label": "Noklateo",
+      "confidence": 0.2500939965248108,
+      "margin_top1_top2": 0.05527786910533905,
+      "topk": [
+        {
+          "label": "Noklateo",
+          "probability": 0.2500939965248108,
+          "score": 0.2500939965248108
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.19481612741947174,
+          "score": 0.19481612741947174
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.17653627693653107,
+          "score": 0.17653627693653107
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.16998746991157532,
+          "score": 0.16998746991157532
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.16768817603588104,
+          "score": 0.16768817603588104
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.04087791219353676,
+          "score": 0.04087791219353676
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Noklateo",
+      "latency_ms": 0.008800067007541656
+    },
+    {
+      "file": "pattern_0077_further_crop_1024.png",
+      "truth": "Noklateo",
+      "label": "Noklateo",
+      "confidence": 0.2459937483072281,
+      "margin_top1_top2": 0.04875929653644562,
+      "topk": [
+        {
+          "label": "Noklateo",
+          "probability": 0.2459937483072281,
+          "score": 0.2459937483072281
+        },
+        {
+          "label": "Limveld",
+          "probability": 0.19723445177078247,
+          "score": 0.19723445177078247
+        },
+        {
+          "label": "Mountaintop",
+          "probability": 0.17703939974308014,
+          "score": 0.17703939974308014
+        },
+        {
+          "label": "The Crater",
+          "probability": 0.17107842862606049,
+          "score": 0.17107842862606049
+        },
+        {
+          "label": "Rotted Woods",
+          "probability": 0.16711126267910004,
+          "score": 0.16711126267910004
+        },
+        {
+          "label": "Great Hollow",
+          "probability": 0.04154273122549057,
+          "score": 0.04154273122549057
+        }
+      ],
+      "unknown": false,
+      "decided_label": "Noklateo",
+      "latency_ms": 0.005599926225841045
+    }
+  ],
+  "model_info": {
+    "feature_type": "letterboxed_192_hog_hsvhist_colorstats_edgeprofiles",
+    "classifier": "cosine-to-class-centroids + softmax",
+    "handles_mixed_input_sizes": true
+  }
+}

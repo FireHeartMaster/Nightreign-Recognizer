@@ -1,0 +1,59 @@
+{
+  "output_dir": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\merged_further_crop_all520_plus_new",
+  "zips": [
+    {
+      "earth": "Limveld",
+      "zip": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\merged_further_crop_all520_plus_new\\limveld_all520_plus_new_further_crops_with_annotations_txt.zip",
+      "annotation_txt": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\merged_further_crop_all520_plus_new\\limveld_annotations.txt",
+      "mapping_json": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\merged_further_crop_all520_plus_new\\limveld_filename_mapping.json",
+      "base_count": 240,
+      "new_count": 12,
+      "total_count": 252
+    },
+    {
+      "earth": "Mountaintop",
+      "zip": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\merged_further_crop_all520_plus_new\\mountaintop_all520_plus_new_further_crops_with_annotations_txt.zip",
+      "annotation_txt": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\merged_further_crop_all520_plus_new\\mountaintop_annotations.txt",
+      "mapping_json": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\merged_further_crop_all520_plus_new\\mountaintop_filename_mapping.json",
+      "base_count": 50,
+      "new_count": 5,
+      "total_count": 55
+    },
+    {
+      "earth": "The Crater",
+      "zip": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\merged_further_crop_all520_plus_new\\the_crater_all520_plus_new_further_crops_with_annotations_txt.zip",
+      "annotation_txt": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\merged_further_crop_all520_plus_new\\the_crater_annotations.txt",
+      "mapping_json": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\merged_further_crop_all520_plus_new\\the_crater_filename_mapping.json",
+      "base_count": 50,
+      "new_count": 6,
+      "total_count": 56
+    },
+    {
+      "earth": "Rotted Woods",
+      "zip": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\merged_further_crop_all520_plus_new\\rotted_woods_all520_plus_new_further_crops_with_annotations_txt.zip",
+      "annotation_txt": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\merged_further_crop_all520_plus_new\\rotted_woods_annotations.txt",
+      "mapping_json": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\merged_further_crop_all520_plus_new\\rotted_woods_filename_mapping.json",
+      "base_count": 50,
+      "new_count": 7,
+      "total_count": 57
+    },
+    {
+      "earth": "Noklateo",
+      "zip": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\merged_further_crop_all520_plus_new\\noklateo_all520_plus_new_further_crops_with_annotations_txt.zip",
+      "annotation_txt": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\merged_further_crop_all520_plus_new\\noklateo_annotations.txt",
+      "mapping_json": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\merged_further_crop_all520_plus_new\\noklateo_filename_mapping.json",
+      "base_count": 50,
+      "new_count": 7,
+      "total_count": 57
+    },
+    {
+      "earth": "Great Hollow",
+      "zip": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\merged_further_crop_all520_plus_new\\great_hollow_all520_plus_new_further_crops_with_annotations_txt.zip",
+      "annotation_txt": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\merged_further_crop_all520_plus_new\\great_hollow_annotations.txt",
+      "mapping_json": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\merged_further_crop_all520_plus_new\\great_hollow_filename_mapping.json",
+      "base_count": 80,
+      "new_count": 6,
+      "total_count": 86
+    }
+  ]
+}

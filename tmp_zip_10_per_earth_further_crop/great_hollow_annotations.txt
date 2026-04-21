@@ -1,0 +1,15 @@
+Shifting Earth: Great Hollow
+Source folder: tmp_great_hollow_both_crops_asym_L175_R170_T180_B180/further_crop_asymmetric
+Total images in this zip: 10
+
+Files:
+01. pattern_1005_further_crop_asym_1191x1176.png | Shifting Earth=Great Hollow
+02. pattern_1006_further_crop_asym_1191x1176.png | Shifting Earth=Great Hollow
+03. pattern_1007_further_crop_asym_1191x1176.png | Shifting Earth=Great Hollow
+04. pattern_1008_further_crop_asym_1191x1176.png | Shifting Earth=Great Hollow
+05. pattern_1009_further_crop_asym_1191x1176.png | Shifting Earth=Great Hollow
+06. pattern_1015_further_crop_asym_1191x1176.png | Shifting Earth=Great Hollow
+07. pattern_1016_further_crop_asym_1191x1176.png | Shifting Earth=Great Hollow
+08. pattern_1017_further_crop_asym_1191x1176.png | Shifting Earth=Great Hollow
+09. pattern_1018_further_crop_asym_1191x1176.png | Shifting Earth=Great Hollow
+10. pattern_1019_further_crop_asym_1191x1176.png | Shifting Earth=Great Hollow

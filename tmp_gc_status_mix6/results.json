@@ -1,0 +1,50 @@
+[
+  {
+    "file": "layout_1005_Lightning.png",
+    "target": "Lightning",
+    "pred": "Lightning",
+    "ok": true,
+    "score": 0.999,
+    "margin": 0.6874
+  },
+  {
+    "file": "layout_1006_Lightning.png",
+    "target": "Lightning",
+    "pred": "Lightning",
+    "ok": true,
+    "score": 0.9993,
+    "margin": 0.7307
+  },
+  {
+    "file": "layout_1007_Lightning.png",
+    "target": "Lightning",
+    "pred": "Lightning",
+    "ok": true,
+    "score": 0.999,
+    "margin": 0.6874
+  },
+  {
+    "file": "layout_1008_Sleep.png",
+    "target": "Sleep",
+    "pred": "Sleep",
+    "ok": true,
+    "score": 0.9907,
+    "margin": 0.1396
+  },
+  {
+    "file": "layout_1009_Sleep.png",
+    "target": "Sleep",
+    "pred": "Sleep",
+    "ok": true,
+    "score": 0.9907,
+    "margin": 0.1396
+  },
+  {
+    "file": "layout_1015_Sleep.png",
+    "target": "Sleep",
+    "pred": "Sleep",
+    "ok": true,
+    "score": 0.9927,
+    "margin": 0.2312
+  }
+]

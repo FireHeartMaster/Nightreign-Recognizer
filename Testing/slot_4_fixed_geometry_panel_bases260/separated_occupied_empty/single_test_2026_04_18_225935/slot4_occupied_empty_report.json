@@ -1,0 +1,54 @@
+{
+  "mode": "slot4_occupied_empty_from_full_screens",
+  "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\slot4_occupied_empty_from_panel_fixed_v1.pt",
+  "model_meta": {
+    "best_epoch": 3,
+    "best_val_accuracy": 1.0,
+    "train_samples": 4800,
+    "val_samples": 1200
+  },
+  "class_names": [
+    "empty",
+    "occupied"
+  ],
+  "dx_px": 50,
+  "dy_px": -50,
+  "results": [
+    {
+      "input_image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Captura de tela 2026-04-18 225935_.png",
+      "panel_crop_box": {
+        "x0": 2174,
+        "y0": 340,
+        "x1": 3664,
+        "y1": 1830
+      },
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "slot4_crop_rect": {
+        "x": 976,
+        "y": 702,
+        "size": 252,
+        "dx": 50,
+        "dy": -50
+      },
+      "predicted_label": "occupied",
+      "confidence": 0.9999239444732666,
+      "ranking": [
+        {
+          "label": "occupied",
+          "probability": 0.9999239444732666
+        },
+        {
+          "label": "empty",
+          "probability": 7.609950262121856e-05
+        }
+      ],
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\single_test_2026_04_18_225935\\Captura de tela 2026-04-18 225935___panel_crop.png",
+      "slot4_native_crop": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\single_test_2026_04_18_225935\\Captura de tela 2026-04-18 225935___slot4_native_252.png",
+      "model_input_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\single_test_2026_04_18_225935\\Captura de tela 2026-04-18 225935___slot4_input_200.png",
+      "slot4_overlay": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\single_test_2026_04_18_225935\\Captura de tela 2026-04-18 225935___panel_with_slot4_box.png"
+    }
+  ]
+}

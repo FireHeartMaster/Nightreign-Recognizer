@@ -1,0 +1,50 @@
+{
+  "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress\\fortress_status_cnn.pt",
+  "data_dir": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress",
+  "class_names": [
+    "Status_Holy",
+    "Status_Rot"
+  ],
+  "image_size": 200,
+  "meta": {
+    "best_epoch": 5,
+    "best_val_accuracy": 1.0,
+    "train_samples": 203,
+    "val_samples": 50
+  },
+  "total": 253,
+  "correct": 252,
+  "accuracy": 0.9960474308300395,
+  "class_metrics": [
+    {
+      "label": "Status_Holy",
+      "count": 121,
+      "correct": 121,
+      "accuracy": 1.0
+    },
+    {
+      "label": "Status_Rot",
+      "count": 132,
+      "correct": 131,
+      "accuracy": 0.9924242424242424
+    }
+  ],
+  "confusion_matrix": [
+    [
+      121,
+      0
+    ],
+    [
+      1,
+      131
+    ]
+  ],
+  "failures": [
+    {
+      "file": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress\\Status_Rot\\Status_Rot__from260__j056__dx-30_dy+19.png",
+      "true_label": "Status_Rot",
+      "predicted_label": "Status_Holy",
+      "confidence": 0.5013344287872314
+    }
+  ]
+}

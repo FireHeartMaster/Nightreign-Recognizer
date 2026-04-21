@@ -1,0 +1,16 @@
+{
+  "source_images": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\renders\\recognizer_no_text",
+  "pattern_count_expected": 50,
+  "pattern_count_written": 50,
+  "missing_or_unreadable_pattern_ids": [],
+  "imwrite_fail_pattern_ids": [],
+  "output_dirs": {
+    "further_crop_1024": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_rotted_woods_both_crops_L256_R256_T256_B256\\further_crop_1024"
+  },
+  "json_output_full": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\rotted_woods_layout_slots_full_further_crop_bl.json",
+  "json_output_strict": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\rotted_woods_layout_slots_further_crop_bl_strict.json",
+  "further_crop_size": {
+    "width": 1024,
+    "height": 1024
+  }
+}

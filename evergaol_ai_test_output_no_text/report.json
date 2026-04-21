@@ -1,0 +1,73 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.26766407604400927,
+      "val_accuracy": 0.3131868131868132
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.026608838134312203,
+      "val_accuracy": 0.9853479853479854
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.0033017011604957527,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.001100436574523593,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.008759043456875431,
+      "val_accuracy": 0.9871794871794872
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.006266955713729785,
+      "val_accuracy": 0.7967032967032966
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.0006449253700770075,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.0004570708892292093,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.00021359469220546634,
+      "val_accuracy": 1.0
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.00019907083220157065,
+      "val_accuracy": 1.0
+    }
+  ],
+  "best_val_accuracy": 1.0,
+  "test_accuracy": 1.0,
+  "test_confusion": [
+    [
+      131,
+      0
+    ],
+    [
+      0,
+      415
+    ]
+  ],
+  "labels": [
+    "absent",
+    "present"
+  ],
+  "patch_size": 96,
+  "context_scale": 2.0,
+  "min_half_frac": 0.07
+}

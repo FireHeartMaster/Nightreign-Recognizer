@@ -1,0 +1,42 @@
+{
+  "patternId": 1188,
+  "rareMap": "Great Hollow",
+  "width": 1280,
+  "height": 1280,
+  "cropBorder": 128,
+  "landmarks": [
+    {
+      "type": "Great Church",
+      "icon": "Great Church",
+      "x": 599.0,
+      "y": 1041.0,
+      "x_norm": 0.46796875,
+      "y_norm": 0.81328125,
+      "text": "Inquisitor",
+      "source": "row_item",
+      "source_id": 108627
+    },
+    {
+      "type": "Status_Holy",
+      "icon": "Status_Holy",
+      "x": 622.0,
+      "y": 1063.0,
+      "x_norm": 0.4859375,
+      "y_norm": 0.83046875,
+      "text": "",
+      "source": "overlay",
+      "source_id": 108627
+    },
+    {
+      "type": "text",
+      "icon": "",
+      "x": 599.0,
+      "y": 1041.0,
+      "x_norm": 0.46796875,
+      "y_norm": 0.81328125,
+      "text": "Inquisitor",
+      "source": "row_item",
+      "source_id": 108627
+    }
+  ]
+}

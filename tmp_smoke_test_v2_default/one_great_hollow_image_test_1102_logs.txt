@@ -1,0 +1,90 @@
+[1] Display directory: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\renders\recognizer_with_text
+[1] Log file: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\recognition.log
+[1] Selected display: Display 1 — 3840x2160 @ (0,0)
+[1] Loaded tuned proto backend: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\recognize_nightreign_map_proto_v12_debugplus_radiusscale_fix.py
+[1] Using tuned config path: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\nightreign_best_tuned_config_multi.json
+[1] Using slot package path: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\nightreign_geom_proto_v4_slots.npz
+[1] Using AI slot model path: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\slot_ai_test_output_dlc_no_text_nobalance\slot_patch_model_v1.pt
+[1] Loaded AI slot model: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\slot_ai_test_output_dlc_no_text_nobalance\slot_patch_model_v1.pt
+[1] AI device: cuda
+[1] AI model patch_size=96 context_scale=1.8 min_half_frac=0.075
+[1] Using AI earth model path: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\earth_ai_test_output_no_text_prepped\earth_panel_model_v1.pt
+[1] Loaded AI earth model: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\earth_ai_test_output_no_text_prepped\earth_panel_model_v1.pt
+[1] AI earth panel_size=256
+[1] Using AI confidence_threshold=0.550
+[1] Using AI margin_threshold=0.080
+[1] Using trained AI slot classifier for slot recognition.
+[1] Using pre-captured first screenshot from dual-shot trigger.
+[1] [START] Run AI slot recognizer
+[1] Using earth_selector_v2 script path: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\Train_Earth_Selector_v2\infer_earth_selector_v2.py
+[1] Using earth_selector_v2 model path: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\Train_Earth_Selector_v2\earth_selector_v2_model_all520_plus_new.pkl
+[1] Loaded earth_selector_v2 model: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\Train_Earth_Selector_v2\earth_selector_v2_model_all520_plus_new.pkl
+[1] Using earth_selector_v2 model for Shifting Earth ranking.
+[1] Shifting Earth ranking:
+[1]   Mountaintop    score=0.201890 low_corr=0.0000 grad_corr=0.0000 source=earth_selector_v2
+[1]   Limveld        score=0.188407 low_corr=0.0000 grad_corr=0.0000 source=earth_selector_v2
+[1]   Noklateo       score=0.182903 low_corr=0.0000 grad_corr=0.0000 source=earth_selector_v2
+[1]   Rotted Woods   score=0.171169 low_corr=0.0000 grad_corr=0.0000 source=earth_selector_v2
+[1]   The Crater     score=0.156936 low_corr=0.0000 grad_corr=0.0000 source=earth_selector_v2
+[1] Earth cascade selection is disabled by default; using raw top Shifting Earth for family selection.
+[1] AI slots for earth Mountaintop: dx=-0.0002 dy=+0.0002 resp=0.1608 unknown=0/22
+[1] Geometry prior for Mountaintop: slot_count=22 align=0.1608 prior=+0.0000
+[1] Evergaol prior for Mountaintop: prior=+0.1021
+[1] Great Hollow status Palace: best=Status_Magic score=0.5402 margin=0.0403
+[1] Great Hollow status Fortress: best=Status_Rot score=0.4822 margin=0.0273
+[1] Great Hollow status Ruins: best=Status_Bleed score=0.5555 margin=0.1148
+[1] Great Hollow status Great Church: best=Status_Lightning score=0.8139 margin=0.6198
+[1] Shifting Earth cascade selection disabled (enable with NR_ENABLE_EARTH_CASCADE=1).
+[1] Restricting layout ranking to Mountaintop family from earth_selector_v2.
+[1] Loaded layout infer classifier for Mountaintop: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\tmp_mountaintop_both_crops_L256_R256_T256_B256\further_crop_1024\layout_model.pkl
+[1] Layout infer for Mountaintop: unknown-gated pattern=182 margin=0.2313 conf=0.7684 latency=93.60ms
+[1] [DONE] Run AI slot recognizer (18.513s)
+[1] Saved AI slot debug image to C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\tmp_smoke_test_v2_default\runtime_temp\nightreign_gui_ai_269wzw6h\recognition_panel_used_with_slot_labels_ai.png
+[1] Saved Evergaol debug image to C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\tmp_smoke_test_v2_default\runtime_temp\nightreign_gui_ai_269wzw6h\recognition_panel_used_with_evergaol_debug.png
+[1] 
+[1] Top 20 layout matches:
+[1]   1. layout #141 earth=Mountaintop score=-4.719697 earth_score=0.201890 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=14.34 mismW=19.90 unkW=0.00
+[1]   2. layout #1102 earth=Mountaintop score=-4.808484 earth_score=0.201890 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=14.16 mismW=20.08 unkW=0.00
+[1]   3. layout #104 earth=Mountaintop score=-4.836687 earth_score=0.201890 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=11.12 mismW=23.13 unkW=0.00
+[1]   4. layout #300 earth=Mountaintop score=-4.881143 earth_score=0.201890 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=12.78 mismW=21.47 unkW=0.00
+[1]   5. layout #221 earth=Mountaintop score=-4.914561 earth_score=0.201890 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0126 exactW=14.37 mismW=19.87 unkW=0.00
+[1]   6. layout #101 earth=Mountaintop score=-4.927918 earth_score=0.201890 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=12.52 mismW=21.72 unkW=0.00
+[1]   7. layout #142 earth=Mountaintop score=-5.322048 earth_score=0.201890 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=9.33 mismW=24.91 unkW=0.00
+[1]   8. layout #223 earth=Mountaintop score=-5.403133 earth_score=0.201890 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=14.16 mismW=20.09 unkW=0.00
+[1]   9. layout #60 earth=Mountaintop score=-5.517712 earth_score=0.201890 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=9.60 mismW=24.65 unkW=0.00
+[1]   10. layout #261 earth=Mountaintop score=-5.727119 earth_score=0.201890 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=9.37 mismW=24.87 unkW=0.00
+[1]   11. layout #180 earth=Mountaintop score=-5.884716 earth_score=0.201890 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=9.65 mismW=24.59 unkW=0.00
+[1]   12. layout #260 earth=Mountaintop score=-5.933536 earth_score=0.201890 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=11.00 mismW=23.24 unkW=0.00
+[1]   13. layout #302 earth=Mountaintop score=-6.076625 earth_score=0.201890 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=12.79 mismW=21.45 unkW=0.00
+[1]   14. layout #1100 earth=Mountaintop score=-6.158435 earth_score=0.201890 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=7.89 mismW=26.35 unkW=0.00
+[1]   15. layout #100 earth=Mountaintop score=-6.173801 earth_score=0.201890 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=11.17 mismW=23.08 unkW=0.00
+[1]   16. layout #262 earth=Mountaintop score=-6.254694 earth_score=0.201890 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=7.85 mismW=26.39 unkW=0.00
+[1]   17. layout #144 earth=Mountaintop score=-6.395538 earth_score=0.201890 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0010 exactW=11.08 mismW=23.17 unkW=0.00
+[1]   18. layout #303 earth=Mountaintop score=-6.466229 earth_score=0.201890 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=9.46 mismW=24.78 unkW=0.00
+[1]   19. layout #24 earth=Mountaintop score=-6.493778 earth_score=0.201890 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=7.97 mismW=26.27 unkW=0.00
+[1]   20. layout #21 earth=Mountaintop score=-6.525066 earth_score=0.201890 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=6.16 mismW=28.08 unkW=0.00
+[1] 
+[1] Timing breakdown:
+[1]   capture_screenshot_or_use_pre_captured: 0.003s
+[1]   panel_crop_preview_initial: 2.741s
+[1]   preview_callback: 0.000s
+[1]   detect_map_circle_main: 2.732s
+[1]   panel_crop_first_pass: 0.028s
+[1]   panel_further_crop_normalize: 3.997s
+[1]   earth_selector_ranking: 0.920s
+[1]   slot_observation_classification_total: 0.220s
+[1]   geometry_prior_computation: 0.000s
+[1]   lost_slot_prior_computation: 0.000s
+[1]   hard_constraint_prior_computation: 0.000s
+[1]   evergaol_prior_detection: 0.433s
+[1]   status_icon_detection: 10.035s
+[1]   dual_shot_second_status_detection: 0.000s
+[1]   earth_cascade_ranking: 0.000s
+[1]   layout_classifier_inference: 0.147s
+[1]   layout_identification_scoring: 0.001s
+[1]   layout_sort_and_select: 0.000s
+[1]   debug_annotation_rendering: 0.017s
+[1]   display_path_resolution: 0.101s
+[1]   total_run: 21.623s
+[1] Resolved 5 display image(s) for preview/result view.
+[1] GUI total execution time: 21.623s

@@ -1,0 +1,78 @@
+[
+  {
+    "input": "C:\\Users\\eduar\\Downloads\\Captura de tela 2026-04-15 125537.png",
+    "crop_method": "gray_hough",
+    "panel_shape": [
+      1536,
+      1536
+    ],
+    "best_layout": 1018,
+    "model_type": "sparse",
+    "top5": [
+      {
+        "layout_number": 1018,
+        "score": -5.417056846332588
+      },
+      {
+        "layout_number": 1131,
+        "score": -5.417056846332588
+      },
+      {
+        "layout_number": 1183,
+        "score": -5.417056846332588
+      },
+      {
+        "layout_number": 1007,
+        "score": -5.652233906549433
+      },
+      {
+        "layout_number": 1019,
+        "score": -5.652233906549433
+      }
+    ],
+    "status_slots": [
+      {
+        "slot_id": 2,
+        "expected": "PalaceFire",
+        "predicted": "PalaceFire",
+        "predicted_prob": 1.0,
+        "second": "PalaceMagic",
+        "second_prob": 0.0
+      },
+      {
+        "slot_id": 3,
+        "expected": "GreatChurchTopRightLightning",
+        "predicted": "GreatChurchTopRightLightning",
+        "predicted_prob": 1.0,
+        "second": "empty",
+        "second_prob": 2.655206957080658e-11
+      },
+      {
+        "slot_id": 8,
+        "expected": "RuinsPoison",
+        "predicted": "RuinsPoison",
+        "predicted_prob": 0.9958001971244812,
+        "second": "empty",
+        "second_prob": 0.004199800081551075
+      },
+      {
+        "slot_id": 9,
+        "expected": "FortressRot",
+        "predicted": "FortressRot",
+        "predicted_prob": 0.9994470477104187,
+        "second": "FortressHoly",
+        "second_prob": 0.0005528831970877945
+      },
+      {
+        "slot_id": 10,
+        "expected": "empty",
+        "predicted": "GreatChurchUnderFrost",
+        "predicted_prob": 0.9999998807907104,
+        "second": "GreatChurchUnderHoly",
+        "second_prob": 7.96058614582762e-08
+      }
+    ],
+    "panel_overlay_image": "tmp_status_aware_overlay_sparse_125537\\Captura de tela 2026-04-15 125537_status_aware_panel_overlay.png",
+    "full_overlay_image": "tmp_status_aware_overlay_sparse_125537\\Captura de tela 2026-04-15 125537_status_aware_full_overlay.png"
+  }
+]

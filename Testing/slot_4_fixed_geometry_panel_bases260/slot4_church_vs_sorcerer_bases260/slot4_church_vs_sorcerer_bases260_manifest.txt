@@ -1,0 +1,8 @@
+dataset: slot4_church_vs_sorcerer_bases260
+source: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\Testing\slot_4_fixed_geometry_panel_bases260\separated_occupied_empty\occupied
+total_bases: 4
+
+1115_panel_crop__slot4_panel260_fixed.png	layout=1115	class=Sorcerers_Rise
+1119_panel_crop__slot4_panel260_fixed.png	layout=1119	class=Church
+1120_panel_crop__slot4_panel260_fixed.png	layout=1120	class=Church
+1185_panel_crop__slot4_panel260_fixed.png	layout=1185	class=Church

@@ -1,0 +1,57 @@
+{
+  "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_plus_real_heavy\\slot7_status_cnn_plus_real_heavy.pt",
+  "data_dir": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_plus_real_heavy",
+  "class_names": [
+    "Church",
+    "empty",
+    "Sorcerer_s_Rise"
+  ],
+  "image_size": 200,
+  "meta": {
+    "best_epoch": 15,
+    "best_val_accuracy": 1.0,
+    "train_samples": 521,
+    "val_samples": 130
+  },
+  "total": 651,
+  "correct": 651,
+  "accuracy": 1.0,
+  "class_metrics": [
+    {
+      "label": "Church",
+      "count": 298,
+      "correct": 298,
+      "accuracy": 1.0
+    },
+    {
+      "label": "empty",
+      "count": 237,
+      "correct": 237,
+      "accuracy": 1.0
+    },
+    {
+      "label": "Sorcerer_s_Rise",
+      "count": 116,
+      "correct": 116,
+      "accuracy": 1.0
+    }
+  ],
+  "confusion_matrix": [
+    [
+      298,
+      0,
+      0
+    ],
+    [
+      0,
+      237,
+      0
+    ],
+    [
+      0,
+      0,
+      116
+    ]
+  ],
+  "failures": []
+}

@@ -1,0 +1,8962 @@
+[
+  {
+    "file": "layout_1005.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1006.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1007.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1008.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1009.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1015.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1016.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1017.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1018.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1019.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1025.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1026.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.7241,
+        "runner_up": "Poison",
+        "runner_up_score": 0.7241,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 272,
+          "y": 767,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          },
+          {
+            "label": "Poison",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1027.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.7241,
+        "runner_up": "Poison",
+        "runner_up_score": 0.7241,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 272,
+          "y": 767,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          },
+          {
+            "label": "Poison",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1028.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.7241,
+        "runner_up": "Poison",
+        "runner_up_score": 0.7241,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 272,
+          "y": 767,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          },
+          {
+            "label": "Poison",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1029.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.7241,
+        "runner_up": "Poison",
+        "runner_up_score": 0.7241,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 272,
+          "y": 767,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          },
+          {
+            "label": "Poison",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1035.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1036.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.7241,
+        "runner_up": "Poison",
+        "runner_up_score": 0.7241,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 272,
+          "y": 767,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          },
+          {
+            "label": "Poison",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1037.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1038.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.7241,
+        "runner_up": "Poison",
+        "runner_up_score": 0.7241,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 272,
+          "y": 767,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          },
+          {
+            "label": "Poison",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1039.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1045.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1046.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.7241,
+        "runner_up": "Poison",
+        "runner_up_score": 0.7241,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 272,
+          "y": 767,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          },
+          {
+            "label": "Poison",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1047.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.7241,
+        "runner_up": "Poison",
+        "runner_up_score": 0.7241,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 272,
+          "y": 767,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          },
+          {
+            "label": "Poison",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1048.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.7241,
+        "runner_up": "Poison",
+        "runner_up_score": 0.7241,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 272,
+          "y": 767,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          },
+          {
+            "label": "Poison",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1049.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1055.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1056.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1057.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.7241,
+        "runner_up": "Poison",
+        "runner_up_score": 0.7241,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 272,
+          "y": 767,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          },
+          {
+            "label": "Poison",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1058.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1059.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1065.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1066.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.7241,
+        "runner_up": "Poison",
+        "runner_up_score": 0.7241,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 272,
+          "y": 767,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          },
+          {
+            "label": "Poison",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1067.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1068.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1069.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.7241,
+        "runner_up": "Poison",
+        "runner_up_score": 0.7241,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 272,
+          "y": 767,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          },
+          {
+            "label": "Poison",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1075.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1076.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.7241,
+        "runner_up": "Poison",
+        "runner_up_score": 0.7241,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 272,
+          "y": 767,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          },
+          {
+            "label": "Poison",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1077.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.7241,
+        "runner_up": "Poison",
+        "runner_up_score": 0.7241,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 272,
+          "y": 767,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          },
+          {
+            "label": "Poison",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1078.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.7241,
+        "runner_up": "Poison",
+        "runner_up_score": 0.7241,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 272,
+          "y": 767,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          },
+          {
+            "label": "Poison",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1079.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.7241,
+        "runner_up": "Poison",
+        "runner_up_score": 0.7241,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 272,
+          "y": 767,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          },
+          {
+            "label": "Poison",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1115.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1116.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.7241,
+        "runner_up": "Poison",
+        "runner_up_score": 0.7241,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 272,
+          "y": 767,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          },
+          {
+            "label": "Poison",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1117.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.7241,
+        "runner_up": "Poison",
+        "runner_up_score": 0.7241,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 272,
+          "y": 767,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          },
+          {
+            "label": "Poison",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1118.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.7241,
+        "runner_up": "Poison",
+        "runner_up_score": 0.7241,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 272,
+          "y": 767,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          },
+          {
+            "label": "Poison",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1119.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1120.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.7241,
+        "runner_up": "Poison",
+        "runner_up_score": 0.7241,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 272,
+          "y": 767,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          },
+          {
+            "label": "Poison",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1121.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.7241,
+        "runner_up": "Poison",
+        "runner_up_score": 0.7241,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 272,
+          "y": 767,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          },
+          {
+            "label": "Poison",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1122.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1123.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1124.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1125.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1126.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1127.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.7241,
+        "runner_up": "Poison",
+        "runner_up_score": 0.7241,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 272,
+          "y": 767,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          },
+          {
+            "label": "Poison",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1128.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1129.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1130.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.7241,
+        "runner_up": "Poison",
+        "runner_up_score": 0.7241,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 272,
+          "y": 767,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          },
+          {
+            "label": "Poison",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1131.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1132.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.7241,
+        "runner_up": "Poison",
+        "runner_up_score": 0.7241,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 272,
+          "y": 767,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          },
+          {
+            "label": "Poison",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1133.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1134.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1175.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1176.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1177.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1178.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1179.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1180.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1181.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1182.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1183.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1184.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.7241,
+        "runner_up": "Poison",
+        "runner_up_score": 0.7241,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 272,
+          "y": 767,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          },
+          {
+            "label": "Poison",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1185.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.7241,
+        "runner_up": "Poison",
+        "runner_up_score": 0.7241,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 272,
+          "y": 767,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          },
+          {
+            "label": "Poison",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1186.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.7241,
+        "runner_up": "Poison",
+        "runner_up_score": 0.7241,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 272,
+          "y": 767,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          },
+          {
+            "label": "Poison",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1187.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1188.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.7241,
+        "runner_up": "Poison",
+        "runner_up_score": 0.7241,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 272,
+          "y": 767,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          },
+          {
+            "label": "Poison",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1189.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1190.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1191.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Fire",
+        "score": 1.0,
+        "runner_up": "Magic",
+        "runner_up_score": 0.5169,
+        "margin": 0.4831,
+        "confidence": "strong",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Fire",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Magic",
+            "score": 0.5169,
+            "dx": 10,
+            "dy": 10
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1192.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.7241,
+        "runner_up": "Poison",
+        "runner_up_score": 0.7241,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 272,
+          "y": 767,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          },
+          {
+            "label": "Poison",
+            "score": 0.7241,
+            "dx": 14,
+            "dy": 16
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1193.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Holy",
+        "score": 1.0,
+        "runner_up": "Rot",
+        "runner_up_score": 0.9545,
+        "margin": 0.0455,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Holy",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Rot",
+            "score": 0.9545,
+            "dx": 5,
+            "dy": 13
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  },
+  {
+    "file": "layout_1194.png",
+    "status": "ok",
+    "result": {
+      "top_left": {
+        "label": "Magic",
+        "score": 1.0,
+        "runner_up": "Fire",
+        "runner_up_score": 0.901,
+        "margin": 0.099,
+        "confidence": "medium",
+        "box": {
+          "x": 397,
+          "y": 336,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 397,
+          "y": 336,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Magic",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Fire",
+            "score": 0.901,
+            "dx": 16,
+            "dy": 12
+          }
+        ]
+      },
+      "bottom_right": {
+        "label": "Rot",
+        "score": 1.0,
+        "runner_up": "Holy",
+        "runner_up_score": 0.9625,
+        "margin": 0.0375,
+        "confidence": "weak",
+        "box": {
+          "x": 852,
+          "y": 875,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 852,
+          "y": 875,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 1.0,
+            "dx": 8,
+            "dy": 8
+          },
+          {
+            "label": "Holy",
+            "score": 0.9625,
+            "dx": 16,
+            "dy": 0
+          }
+        ]
+      },
+      "ruins": {
+        "label": "Bleed",
+        "score": 0.8228,
+        "runner_up": "Poison",
+        "runner_up_score": 0.8228,
+        "margin": 0.0,
+        "confidence": "weak",
+        "box": {
+          "x": 274,
+          "y": 764,
+          "w": 45,
+          "h": 45
+        },
+        "reference_anchor": {
+          "x": 266,
+          "y": 759,
+          "crop_size": 45,
+          "search_pad": 8
+        },
+        "ranked": [
+          {
+            "label": "Bleed",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          },
+          {
+            "label": "Poison",
+            "score": 0.8228,
+            "dx": 16,
+            "dy": 13
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.207813,
+          "y_norm": 0.592969
+        }
+      }
+    }
+  }
+]

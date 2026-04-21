@@ -1,0 +1,61 @@
+{
+  "source_dir": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260",
+  "meta_file": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\great_hollow_layout_slots_full.json",
+  "records": [
+    {
+      "source": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260\\1115_panel_crop__slot7_panel260_fixed.png",
+      "patternId": 1115,
+      "slot7_label": "Church",
+      "status": "occupied",
+      "output": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260\\separated_occupied_empty\\occupied\\1115_panel_crop__slot7_panel260_fixed.png"
+    },
+    {
+      "source": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260\\1119_panel_crop__slot7_panel260_fixed.png",
+      "patternId": 1119,
+      "slot7_label": "Church",
+      "status": "occupied",
+      "output": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260\\separated_occupied_empty\\occupied\\1119_panel_crop__slot7_panel260_fixed.png"
+    },
+    {
+      "source": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260\\1120_panel_crop__slot7_panel260_fixed.png",
+      "patternId": 1120,
+      "slot7_label": "Church",
+      "status": "occupied",
+      "output": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260\\separated_occupied_empty\\occupied\\1120_panel_crop__slot7_panel260_fixed.png"
+    },
+    {
+      "source": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260\\1128_panel_crop__slot7_panel260_fixed.png",
+      "patternId": 1128,
+      "slot7_label": "Sorcerer's Rise",
+      "status": "occupied",
+      "output": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260\\separated_occupied_empty\\occupied\\1128_panel_crop__slot7_panel260_fixed.png"
+    },
+    {
+      "source": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260\\1175_panel_crop__slot7_panel260_fixed.png",
+      "patternId": 1175,
+      "slot7_label": "Sorcerer's Rise",
+      "status": "occupied",
+      "output": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260\\separated_occupied_empty\\occupied\\1175_panel_crop__slot7_panel260_fixed.png"
+    },
+    {
+      "source": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260\\1181_panel_crop__slot7_panel260_fixed.png",
+      "patternId": 1181,
+      "slot7_label": "Church",
+      "status": "occupied",
+      "output": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260\\separated_occupied_empty\\occupied\\1181_panel_crop__slot7_panel260_fixed.png"
+    },
+    {
+      "source": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260\\1185_panel_crop__slot7_panel260_fixed.png",
+      "patternId": 1185,
+      "slot7_label": "Church",
+      "status": "occupied",
+      "output": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260\\separated_occupied_empty\\occupied\\1185_panel_crop__slot7_panel260_fixed.png"
+    }
+  ],
+  "counts": {
+    "occupied": 7,
+    "empty": 0,
+    "unknown": 0
+  },
+  "contact_sheet": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260\\separated_occupied_empty\\slot7_bases260_occupied_empty_contact_sheet.png"
+}

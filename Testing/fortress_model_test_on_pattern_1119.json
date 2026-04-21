@@ -1,0 +1,35 @@
+{
+  "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\pattern_1119_asym_further_crop.png",
+  "patternId": 1119,
+  "expected_fortress_status": "Status_Rot",
+  "expected_model_label": "Status_Rot",
+  "predicted_label": "Status_Rot",
+  "confidence": 0.5239733457565308,
+  "ranking": [
+    {
+      "label": "Status_Rot",
+      "probability": 0.5239733457565308
+    },
+    {
+      "label": "Status_Holy",
+      "probability": 0.476026713848114
+    }
+  ],
+  "match": true,
+  "fortress_anchor_px_bl": {
+    "x": 875.0,
+    "y": 278.4000000000001
+  },
+  "fortress_center_cv": {
+    "x": 875,
+    "y": 897
+  },
+  "crop_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress_crop_200_from_pattern_1119.png",
+  "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress\\fortress_status_cnn.pt",
+  "model_meta": {
+    "best_epoch": 5,
+    "best_val_accuracy": 1.0,
+    "train_samples": 203,
+    "val_samples": 50
+  }
+}

@@ -1,0 +1,4 @@
+Great_Church.png
+Night_Location.png
+Status_Frost.png
+Status_Holy.png

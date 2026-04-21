@@ -1,0 +1,31 @@
+{
+  "task": "Mountaintop layout patternId classification from one image",
+  "model_config": {
+    "image_size": [
+      1024,
+      1024
+    ],
+    "image_descriptor_resize": [
+      384,
+      384
+    ],
+    "slot_patch_size": 72,
+    "landmark_patch_size": 64
+  },
+  "metadata_diagnostics": {
+    "coord_sources": {
+      "px_bl": 1991
+    },
+    "out_of_bounds": [],
+    "image_w": 1024,
+    "image_h": 1024,
+    "layouts_count": 50
+  },
+  "calibration": {
+    "alpha": 0.6,
+    "temperature": 0.12,
+    "unknown_margin_threshold": 2.468438148498535,
+    "calibration_note": "Heuristic calibration from self-retrieval margins; one template per class."
+  },
+  "gallery_count": 50
+}

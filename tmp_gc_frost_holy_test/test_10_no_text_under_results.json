@@ -1,0 +1,107 @@
+{
+  "model_path": "tmp_gc_frost_holy_test\\gc_frost_holy_test_model.pt",
+  "tested_count": 10,
+  "accuracy": 1.0,
+  "results": [
+    {
+      "patternId": 1005,
+      "true_status": "Status_Frost",
+      "pred_status": "Status_Frost",
+      "p_frost": 0.5829381942749023,
+      "p_holy": 0.4170617461204529,
+      "correct": true,
+      "json": "renders_new_under\\no_text\\pattern_1005_Great Hollow_under.json",
+      "image": "renders\\recognizer_no_text_under\\layout_1005.png"
+    },
+    {
+      "patternId": 1006,
+      "true_status": "Status_Holy",
+      "pred_status": "Status_Holy",
+      "p_frost": 0.46180692315101624,
+      "p_holy": 0.5381931066513062,
+      "correct": true,
+      "json": "renders_new_under\\no_text\\pattern_1006_Great Hollow_under.json",
+      "image": "renders\\recognizer_no_text_under\\layout_1006.png"
+    },
+    {
+      "patternId": 1007,
+      "true_status": "Status_Holy",
+      "pred_status": "Status_Holy",
+      "p_frost": 0.46180692315101624,
+      "p_holy": 0.5381931066513062,
+      "correct": true,
+      "json": "renders_new_under\\no_text\\pattern_1007_Great Hollow_under.json",
+      "image": "renders\\recognizer_no_text_under\\layout_1007.png"
+    },
+    {
+      "patternId": 1008,
+      "true_status": "Status_Frost",
+      "pred_status": "Status_Frost",
+      "p_frost": 0.5829381942749023,
+      "p_holy": 0.4170617461204529,
+      "correct": true,
+      "json": "renders_new_under\\no_text\\pattern_1008_Great Hollow_under.json",
+      "image": "renders\\recognizer_no_text_under\\layout_1008.png"
+    },
+    {
+      "patternId": 1009,
+      "true_status": "Status_Frost",
+      "pred_status": "Status_Frost",
+      "p_frost": 0.5829381942749023,
+      "p_holy": 0.4170617461204529,
+      "correct": true,
+      "json": "renders_new_under\\no_text\\pattern_1009_Great Hollow_under.json",
+      "image": "renders\\recognizer_no_text_under\\layout_1009.png"
+    },
+    {
+      "patternId": 1015,
+      "true_status": "Status_Frost",
+      "pred_status": "Status_Frost",
+      "p_frost": 0.5829381942749023,
+      "p_holy": 0.4170617461204529,
+      "correct": true,
+      "json": "renders_new_under\\no_text\\pattern_1015_Great Hollow_under.json",
+      "image": "renders\\recognizer_no_text_under\\layout_1015.png"
+    },
+    {
+      "patternId": 1016,
+      "true_status": "Status_Holy",
+      "pred_status": "Status_Holy",
+      "p_frost": 0.46180692315101624,
+      "p_holy": 0.5381931066513062,
+      "correct": true,
+      "json": "renders_new_under\\no_text\\pattern_1016_Great Hollow_under.json",
+      "image": "renders\\recognizer_no_text_under\\layout_1016.png"
+    },
+    {
+      "patternId": 1017,
+      "true_status": "Status_Holy",
+      "pred_status": "Status_Holy",
+      "p_frost": 0.46180692315101624,
+      "p_holy": 0.5381931066513062,
+      "correct": true,
+      "json": "renders_new_under\\no_text\\pattern_1017_Great Hollow_under.json",
+      "image": "renders\\recognizer_no_text_under\\layout_1017.png"
+    },
+    {
+      "patternId": 1018,
+      "true_status": "Status_Frost",
+      "pred_status": "Status_Frost",
+      "p_frost": 0.5829381942749023,
+      "p_holy": 0.4170617461204529,
+      "correct": true,
+      "json": "renders_new_under\\no_text\\pattern_1018_Great Hollow_under.json",
+      "image": "renders\\recognizer_no_text_under\\layout_1018.png"
+    },
+    {
+      "patternId": 1019,
+      "true_status": "Status_Holy",
+      "pred_status": "Status_Holy",
+      "p_frost": 0.46180692315101624,
+      "p_holy": 0.5381931066513062,
+      "correct": true,
+      "json": "renders_new_under\\no_text\\pattern_1019_Great Hollow_under.json",
+      "image": "renders\\recognizer_no_text_under\\layout_1019.png"
+    }
+  ]
+}

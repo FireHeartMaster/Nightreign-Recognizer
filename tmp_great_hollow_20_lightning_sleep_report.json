@@ -1,0 +1,142 @@
+[
+  {
+    "layout": 1005,
+    "label": "Lightning",
+    "score": 0.876,
+    "margin": 0.5264,
+    "confidence": "strong"
+  },
+  {
+    "layout": 1006,
+    "label": "Lightning",
+    "score": 0.8655,
+    "margin": 0.5969,
+    "confidence": "strong"
+  },
+  {
+    "layout": 1007,
+    "label": "Lightning",
+    "score": 0.876,
+    "margin": 0.5264,
+    "confidence": "strong"
+  },
+  {
+    "layout": 1008,
+    "label": "Lightning",
+    "score": 0.876,
+    "margin": 0.5264,
+    "confidence": "strong"
+  },
+  {
+    "layout": 1009,
+    "label": "Lightning",
+    "score": 0.876,
+    "margin": 0.5264,
+    "confidence": "strong"
+  },
+  {
+    "layout": 1015,
+    "label": "Lightning",
+    "score": 0.8655,
+    "margin": 0.5969,
+    "confidence": "strong"
+  },
+  {
+    "layout": 1016,
+    "label": "Lightning",
+    "score": 0.8655,
+    "margin": 0.5969,
+    "confidence": "strong"
+  },
+  {
+    "layout": 1017,
+    "label": "Lightning",
+    "score": 0.8655,
+    "margin": 0.5969,
+    "confidence": "strong"
+  },
+  {
+    "layout": 1018,
+    "label": "Lightning",
+    "score": 0.9423,
+    "margin": 0.5312,
+    "confidence": "strong"
+  },
+  {
+    "layout": 1019,
+    "label": "Lightning",
+    "score": 0.876,
+    "margin": 0.5264,
+    "confidence": "strong"
+  },
+  {
+    "layout": 1025,
+    "label": "Lightning",
+    "score": 0.9423,
+    "margin": 0.5312,
+    "confidence": "strong"
+  },
+  {
+    "layout": 1026,
+    "label": "Lightning",
+    "score": 0.876,
+    "margin": 0.5264,
+    "confidence": "strong"
+  },
+  {
+    "layout": 1027,
+    "label": "Lightning",
+    "score": 0.8655,
+    "margin": 0.5969,
+    "confidence": "strong"
+  },
+  {
+    "layout": 1028,
+    "label": "Lightning",
+    "score": 0.9423,
+    "margin": 0.5312,
+    "confidence": "strong"
+  },
+  {
+    "layout": 1029,
+    "label": "Lightning",
+    "score": 0.9423,
+    "margin": 0.5312,
+    "confidence": "strong"
+  },
+  {
+    "layout": 1035,
+    "label": "Lightning",
+    "score": 0.8655,
+    "margin": 0.5969,
+    "confidence": "strong"
+  },
+  {
+    "layout": 1036,
+    "label": "Lightning",
+    "score": 0.8655,
+    "margin": 0.5969,
+    "confidence": "strong"
+  },
+  {
+    "layout": 1037,
+    "label": "Lightning",
+    "score": 0.876,
+    "margin": 0.5264,
+    "confidence": "strong"
+  },
+  {
+    "layout": 1038,
+    "label": "Lightning",
+    "score": 0.876,
+    "margin": 0.5264,
+    "confidence": "strong"
+  },
+  {
+    "layout": 1039,
+    "label": "Lightning",
+    "score": 0.876,
+    "margin": 0.5264,
+    "confidence": "strong"
+  }
+]

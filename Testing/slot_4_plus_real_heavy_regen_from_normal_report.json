@@ -1,0 +1,22 @@
+{
+  "folder": "Testing\\slot_4_plus_real_heavy",
+  "removed_previous_batch_files": 1000,
+  "created_total": 3000,
+  "per_class": [
+    {
+      "class": "Church",
+      "source": "Church.png",
+      "created": 1000
+    },
+    {
+      "class": "empty",
+      "source": "empty.png",
+      "created": 1000
+    },
+    {
+      "class": "Sorcerer_s_Rise",
+      "source": "Sorcerer_s_Rise.png",
+      "created": 1000
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+Shifting Earth: Noklateo
+Base source folder: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\tmp_noklateo_both_crops_L256_R256_T256_B256\further_crop_1024
+New source folder: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\Train_Earth_Selector_v2\Screenshots\further_crop_1024\Noklateo
+Base images: 50
+New images: 7
+Total images in this zip: 57
+
+Files:
+0001. pattern_0035_further_crop_1024.png | Shifting Earth=Noklateo
+0002. pattern_0036_further_crop_1024.png | Shifting Earth=Noklateo
+0003. pattern_0037_further_crop_1024.png | Shifting Earth=Noklateo
+0004. pattern_0038_further_crop_1024.png | Shifting Earth=Noklateo
+0005. pattern_0039_further_crop_1024.png | Shifting Earth=Noklateo
+0006. pattern_0075_further_crop_1024.png | Shifting Earth=Noklateo
+0007. pattern_0076_further_crop_1024.png | Shifting Earth=Noklateo
+0008. pattern_0077_further_crop_1024.png | Shifting Earth=Noklateo
+0009. pattern_0078_further_crop_1024.png | Shifting Earth=Noklateo
+0010. pattern_0079_further_crop_1024.png | Shifting Earth=Noklateo
+0011. pattern_0115_further_crop_1024.png | Shifting Earth=Noklateo
+0012. pattern_0116_further_crop_1024.png | Shifting Earth=Noklateo
+0013. pattern_0117_further_crop_1024.png | Shifting Earth=Noklateo
+0014. pattern_0118_further_crop_1024.png | Shifting Earth=Noklateo
+0015. pattern_0119_further_crop_1024.png | Shifting Earth=Noklateo
+0016. pattern_0155_further_crop_1024.png | Shifting Earth=Noklateo
+0017. pattern_0156_further_crop_1024.png | Shifting Earth=Noklateo
+0018. pattern_0157_further_crop_1024.png | Shifting Earth=Noklateo
+0019. pattern_0158_further_crop_1024.png | Shifting Earth=Noklateo
+0020. pattern_0159_further_crop_1024.png | Shifting Earth=Noklateo
+0021. pattern_0195_further_crop_1024.png | Shifting Earth=Noklateo
+0022. pattern_0196_further_crop_1024.png | Shifting Earth=Noklateo
+0023. pattern_0197_further_crop_1024.png | Shifting Earth=Noklateo
+0024. pattern_0198_further_crop_1024.png | Shifting Earth=Noklateo
+0025. pattern_0199_further_crop_1024.png | Shifting Earth=Noklateo
+0026. pattern_0235_further_crop_1024.png | Shifting Earth=Noklateo
+0027. pattern_0236_further_crop_1024.png | Shifting Earth=Noklateo
+0028. pattern_0237_further_crop_1024.png | Shifting Earth=Noklateo
+0029. pattern_0238_further_crop_1024.png | Shifting Earth=Noklateo
+0030. pattern_0239_further_crop_1024.png | Shifting Earth=Noklateo
+0031. pattern_0275_further_crop_1024.png | Shifting Earth=Noklateo
+0032. pattern_0276_further_crop_1024.png | Shifting Earth=Noklateo
+0033. pattern_0277_further_crop_1024.png | Shifting Earth=Noklateo
+0034. pattern_0278_further_crop_1024.png | Shifting Earth=Noklateo
+0035. pattern_0279_further_crop_1024.png | Shifting Earth=Noklateo
+0036. pattern_0315_further_crop_1024.png | Shifting Earth=Noklateo
+0037. pattern_0316_further_crop_1024.png | Shifting Earth=Noklateo
+0038. pattern_0317_further_crop_1024.png | Shifting Earth=Noklateo
+0039. pattern_0318_further_crop_1024.png | Shifting Earth=Noklateo
+0040. pattern_0319_further_crop_1024.png | Shifting Earth=Noklateo
+0041. pattern_1135_further_crop_1024.png | Shifting Earth=Noklateo
+0042. pattern_1136_further_crop_1024.png | Shifting Earth=Noklateo
+0043. pattern_1137_further_crop_1024.png | Shifting Earth=Noklateo
+0044. pattern_1138_further_crop_1024.png | Shifting Earth=Noklateo
+0045. pattern_1139_further_crop_1024.png | Shifting Earth=Noklateo
+0046. pattern_1195_further_crop_1024.png | Shifting Earth=Noklateo
+0047. pattern_1196_further_crop_1024.png | Shifting Earth=Noklateo
+0048. pattern_1197_further_crop_1024.png | Shifting Earth=Noklateo
+0049. pattern_1198_further_crop_1024.png | Shifting Earth=Noklateo
+0050. pattern_1199_further_crop_1024.png | Shifting Earth=Noklateo
+0051. Screenshot_117_further_crop_1024.png | Shifting Earth=Noklateo
+0052. Screenshot_118_further_crop_1024.png | Shifting Earth=Noklateo
+0053. Screenshot_119_further_crop_1024.png | Shifting Earth=Noklateo
+0054. Screenshot_120_further_crop_1024.png | Shifting Earth=Noklateo
+0055. Screenshot_121_further_crop_1024.png | Shifting Earth=Noklateo
+0056. Screenshot_122_further_crop_1024.png | Shifting Earth=Noklateo
+0057. Screenshot_145_further_crop_1024.png | Shifting Earth=Noklateo

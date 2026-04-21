@@ -1,0 +1,342 @@
+{
+  "mode": "slot4_occupied_empty_from_full_screens",
+  "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\slot4_church_vs_sorcerer_v1.pt",
+  "model_meta": {
+    "best_epoch": 2,
+    "best_val_accuracy": 1.0,
+    "train_samples": 4800,
+    "val_samples": 1200
+  },
+  "class_names": [
+    "Church",
+    "Sorcerers_Rise"
+  ],
+  "dx_px": 50,
+  "dy_px": -50,
+  "results": [
+    {
+      "input_image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots\\Screenshot (150).png",
+      "panel_crop_box": {
+        "x0": 2175,
+        "y0": 344,
+        "x1": 3665,
+        "y1": 1834
+      },
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "slot4_crop_rect": {
+        "x": 976,
+        "y": 702,
+        "size": 252,
+        "dx": 50,
+        "dy": -50
+      },
+      "predicted_label": "Church",
+      "confidence": 0.9872101545333862,
+      "ranking": [
+        {
+          "label": "Church",
+          "probability": 0.9872101545333862
+        },
+        {
+          "label": "Sorcerers_Rise",
+          "probability": 0.012789875268936157
+        }
+      ],
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\test_screenshots_eval_v1\\Screenshot (150)__panel_crop.png",
+      "slot4_native_crop": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\test_screenshots_eval_v1\\Screenshot (150)__slot4_native_252.png",
+      "model_input_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\test_screenshots_eval_v1\\Screenshot (150)__slot4_input_200.png",
+      "slot4_overlay": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\test_screenshots_eval_v1\\Screenshot (150)__panel_with_slot4_box.png"
+    },
+    {
+      "input_image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots\\Screenshot (151).png",
+      "panel_crop_box": {
+        "x0": 2175,
+        "y0": 344,
+        "x1": 3665,
+        "y1": 1834
+      },
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "slot4_crop_rect": {
+        "x": 976,
+        "y": 702,
+        "size": 252,
+        "dx": 50,
+        "dy": -50
+      },
+      "predicted_label": "Church",
+      "confidence": 0.5887943506240845,
+      "ranking": [
+        {
+          "label": "Church",
+          "probability": 0.5887943506240845
+        },
+        {
+          "label": "Sorcerers_Rise",
+          "probability": 0.41120561957359314
+        }
+      ],
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\test_screenshots_eval_v1\\Screenshot (151)__panel_crop.png",
+      "slot4_native_crop": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\test_screenshots_eval_v1\\Screenshot (151)__slot4_native_252.png",
+      "model_input_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\test_screenshots_eval_v1\\Screenshot (151)__slot4_input_200.png",
+      "slot4_overlay": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\test_screenshots_eval_v1\\Screenshot (151)__panel_with_slot4_box.png"
+    },
+    {
+      "input_image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots\\Screenshot (152).png",
+      "panel_crop_box": {
+        "x0": 2175,
+        "y0": 344,
+        "x1": 3665,
+        "y1": 1834
+      },
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "slot4_crop_rect": {
+        "x": 976,
+        "y": 702,
+        "size": 252,
+        "dx": 50,
+        "dy": -50
+      },
+      "predicted_label": "Church",
+      "confidence": 0.9872101545333862,
+      "ranking": [
+        {
+          "label": "Church",
+          "probability": 0.9872101545333862
+        },
+        {
+          "label": "Sorcerers_Rise",
+          "probability": 0.01278979517519474
+        }
+      ],
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\test_screenshots_eval_v1\\Screenshot (152)__panel_crop.png",
+      "slot4_native_crop": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\test_screenshots_eval_v1\\Screenshot (152)__slot4_native_252.png",
+      "model_input_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\test_screenshots_eval_v1\\Screenshot (152)__slot4_input_200.png",
+      "slot4_overlay": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\test_screenshots_eval_v1\\Screenshot (152)__panel_with_slot4_box.png"
+    },
+    {
+      "input_image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots\\Screenshot (153).png",
+      "panel_crop_box": {
+        "x0": 2174,
+        "y0": 344,
+        "x1": 3664,
+        "y1": 1834
+      },
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "slot4_crop_rect": {
+        "x": 976,
+        "y": 702,
+        "size": 252,
+        "dx": 50,
+        "dy": -50
+      },
+      "predicted_label": "Church",
+      "confidence": 0.990670919418335,
+      "ranking": [
+        {
+          "label": "Church",
+          "probability": 0.990670919418335
+        },
+        {
+          "label": "Sorcerers_Rise",
+          "probability": 0.009329079650342464
+        }
+      ],
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\test_screenshots_eval_v1\\Screenshot (153)__panel_crop.png",
+      "slot4_native_crop": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\test_screenshots_eval_v1\\Screenshot (153)__slot4_native_252.png",
+      "model_input_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\test_screenshots_eval_v1\\Screenshot (153)__slot4_input_200.png",
+      "slot4_overlay": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\test_screenshots_eval_v1\\Screenshot (153)__panel_with_slot4_box.png"
+    },
+    {
+      "input_image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots\\Screenshot (154).png",
+      "panel_crop_box": {
+        "x0": 2175,
+        "y0": 344,
+        "x1": 3665,
+        "y1": 1834
+      },
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "slot4_crop_rect": {
+        "x": 976,
+        "y": 702,
+        "size": 252,
+        "dx": 50,
+        "dy": -50
+      },
+      "predicted_label": "Church",
+      "confidence": 0.9872106313705444,
+      "ranking": [
+        {
+          "label": "Church",
+          "probability": 0.9872106313705444
+        },
+        {
+          "label": "Sorcerers_Rise",
+          "probability": 0.012789369560778141
+        }
+      ],
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\test_screenshots_eval_v1\\Screenshot (154)__panel_crop.png",
+      "slot4_native_crop": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\test_screenshots_eval_v1\\Screenshot (154)__slot4_native_252.png",
+      "model_input_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\test_screenshots_eval_v1\\Screenshot (154)__slot4_input_200.png",
+      "slot4_overlay": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\test_screenshots_eval_v1\\Screenshot (154)__panel_with_slot4_box.png"
+    },
+    {
+      "input_image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots\\Screenshot (155).png",
+      "panel_crop_box": {
+        "x0": 2174,
+        "y0": 344,
+        "x1": 3664,
+        "y1": 1834
+      },
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "slot4_crop_rect": {
+        "x": 976,
+        "y": 702,
+        "size": 252,
+        "dx": 50,
+        "dy": -50
+      },
+      "predicted_label": "Church",
+      "confidence": 0.6644487380981445,
+      "ranking": [
+        {
+          "label": "Church",
+          "probability": 0.6644487380981445
+        },
+        {
+          "label": "Sorcerers_Rise",
+          "probability": 0.33555129170417786
+        }
+      ],
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\test_screenshots_eval_v1\\Screenshot (155)__panel_crop.png",
+      "slot4_native_crop": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\test_screenshots_eval_v1\\Screenshot (155)__slot4_native_252.png",
+      "model_input_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\test_screenshots_eval_v1\\Screenshot (155)__slot4_input_200.png",
+      "slot4_overlay": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\test_screenshots_eval_v1\\Screenshot (155)__panel_with_slot4_box.png"
+    },
+    {
+      "input_image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots\\Screenshot (156).png",
+      "panel_crop_box": {
+        "x0": 2174,
+        "y0": 344,
+        "x1": 3664,
+        "y1": 1834
+      },
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "slot4_crop_rect": {
+        "x": 976,
+        "y": 702,
+        "size": 252,
+        "dx": 50,
+        "dy": -50
+      },
+      "predicted_label": "Church",
+      "confidence": 0.990670919418335,
+      "ranking": [
+        {
+          "label": "Church",
+          "probability": 0.990670919418335
+        },
+        {
+          "label": "Sorcerers_Rise",
+          "probability": 0.009329031221568584
+        }
+      ],
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\test_screenshots_eval_v1\\Screenshot (156)__panel_crop.png",
+      "slot4_native_crop": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\test_screenshots_eval_v1\\Screenshot (156)__slot4_native_252.png",
+      "model_input_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\test_screenshots_eval_v1\\Screenshot (156)__slot4_input_200.png",
+      "slot4_overlay": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\test_screenshots_eval_v1\\Screenshot (156)__panel_with_slot4_box.png"
+    },
+    {
+      "input_image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots\\Screenshot (157).png",
+      "panel_crop_box": {
+        "x0": 2175,
+        "y0": 344,
+        "x1": 3665,
+        "y1": 1834
+      },
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "slot4_crop_rect": {
+        "x": 976,
+        "y": 702,
+        "size": 252,
+        "dx": 50,
+        "dy": -50
+      },
+      "predicted_label": "Church",
+      "confidence": 0.9872111082077026,
+      "ranking": [
+        {
+          "label": "Church",
+          "probability": 0.9872111082077026
+        },
+        {
+          "label": "Sorcerers_Rise",
+          "probability": 0.012788880616426468
+        }
+      ],
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\test_screenshots_eval_v1\\Screenshot (157)__panel_crop.png",
+      "slot4_native_crop": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\test_screenshots_eval_v1\\Screenshot (157)__slot4_native_252.png",
+      "model_input_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\test_screenshots_eval_v1\\Screenshot (157)__slot4_input_200.png",
+      "slot4_overlay": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\test_screenshots_eval_v1\\Screenshot (157)__panel_with_slot4_box.png"
+    },
+    {
+      "input_image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots\\Screenshot (158).png",
+      "panel_crop_box": {
+        "x0": 2174,
+        "y0": 344,
+        "x1": 3664,
+        "y1": 1834
+      },
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "slot4_crop_rect": {
+        "x": 976,
+        "y": 702,
+        "size": 252,
+        "dx": 50,
+        "dy": -50
+      },
+      "predicted_label": "Church",
+      "confidence": 0.9906700849533081,
+      "ranking": [
+        {
+          "label": "Church",
+          "probability": 0.9906700849533081
+        },
+        {
+          "label": "Sorcerers_Rise",
+          "probability": 0.009329961612820625
+        }
+      ],
+      "panel_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\test_screenshots_eval_v1\\Screenshot (158)__panel_crop.png",
+      "slot4_native_crop": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\test_screenshots_eval_v1\\Screenshot (158)__slot4_native_252.png",
+      "model_input_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\test_screenshots_eval_v1\\Screenshot (158)__slot4_input_200.png",
+      "slot4_overlay": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\test_screenshots_eval_v1\\Screenshot (158)__panel_with_slot4_box.png"
+    }
+  ]
+}

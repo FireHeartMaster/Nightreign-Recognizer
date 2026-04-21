@@ -1,0 +1,62 @@
+{
+  "Limveld": {
+    "count": 48,
+    "zip": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\limveld_all_further_crops_with_annotations_txt.zip",
+    "annotation": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\limveld_annotations_all.txt",
+    "sample_names": [
+      "limveld_balancers_1080_further_crop_1024_copy_2.png",
+      "limveld_balancers_1080_further_crop_1024_copy_copy.png",
+      "limveld_balancers_1080_further_crop_1024_copy.png"
+    ]
+  },
+  "Mountaintop": {
+    "count": 5,
+    "zip": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\mountaintop_all_further_crops_with_annotations_txt.zip",
+    "annotation": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\mountaintop_annotations_all.txt",
+    "sample_names": [
+      "mountaintop_screenshot_123_further_crop_1024.png",
+      "mountaintop_screenshot_124_further_crop_1024.png",
+      "mountaintop_screenshot_125_further_crop_1024.png"
+    ]
+  },
+  "The Crater": {
+    "count": 24,
+    "zip": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\the_crater_all_further_crops_with_annotations_txt.zip",
+    "annotation": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\the_crater_annotations_all.txt",
+    "sample_names": [
+      "the_crater_screenshot_128_further_crop_1024_copy_copy.png",
+      "the_crater_screenshot_128_further_crop_1024_copy.png",
+      "the_crater_screenshot_128_further_crop_1024.png"
+    ]
+  },
+  "Rotted Woods": {
+    "count": 7,
+    "zip": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\rotted_woods_all_further_crops_with_annotations_txt.zip",
+    "annotation": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\rotted_woods_annotations_all.txt",
+    "sample_names": [
+      "rotted_woods_darkdrift_knight_rotted_woods_1080_further_crop_1024.png",
+      "rotted_woods_screenshot_111_further_crop_1024.png",
+      "rotted_woods_screenshot_112_further_crop_1024.png"
+    ]
+  },
+  "Noklateo": {
+    "count": 7,
+    "zip": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\noklateo_all_further_crops_with_annotations_txt.zip",
+    "annotation": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\noklateo_annotations_all.txt",
+    "sample_names": [
+      "noklateo_screenshot_117_further_crop_1024.png",
+      "noklateo_screenshot_118_further_crop_1024.png",
+      "noklateo_screenshot_119_further_crop_1024.png"
+    ]
+  },
+  "Great Hollow": {
+    "count": 6,
+    "zip": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\great_hollow_all_further_crops_with_annotations_txt.zip",
+    "annotation": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\great_hollow_annotations_all.txt",
+    "sample_names": [
+      "great_hollow_balancers_4k_further_crop_1024.png",
+      "great_hollow_screenshot_133_further_crop_1024.png",
+      "great_hollow_screenshot_134_further_crop_1024.png"
+    ]
+  }
+}

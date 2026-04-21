@@ -1,0 +1,68 @@
+{
+  "input": "C:\\Users\\eduar\\Downloads\\Captura de tela 2026-04-15 125537.png",
+  "crop_method": "gray_hough",
+  "panel_shape": [
+    1536,
+    1536
+  ],
+  "best_layout": 1037,
+  "model_type": "centroid",
+  "top5": [
+    {
+      "layout_number": 1037,
+      "score": -0.4651082572945779
+    },
+    {
+      "layout_number": 1115,
+      "score": -0.4657466196534948
+    },
+    {
+      "layout_number": 1078,
+      "score": -0.4808842859818816
+    },
+    {
+      "layout_number": 1127,
+      "score": -0.4845992809326096
+    },
+    {
+      "layout_number": 1119,
+      "score": -0.48830530132034583
+    }
+  ],
+  "status_slots": [
+    {
+      "slot_id": 2,
+      "expected": "PalaceMagic",
+      "predicted": "PalaceMagic",
+      "predicted_prob": 0.41741322505007344,
+      "second": "PalaceFire",
+      "second_prob": 0.4144924221692587
+    },
+    {
+      "slot_id": 3,
+      "expected": "GreatChurchTopRightLightning",
+      "predicted": "GreatChurchTopRightSleep",
+      "predicted_prob": 0.5271557311211302,
+      "second": "GreatChurchTopRightLightning",
+      "second_prob": 0.47221401668239577
+    },
+    {
+      "slot_id": 8,
+      "expected": "RuinsPoison",
+      "predicted": "RuinsPoison",
+      "predicted_prob": 0.4852544040262405,
+      "second": "RuinsBleed",
+      "second_prob": 0.47497527526172406
+    },
+    {
+      "slot_id": 9,
+      "expected": "FortressRot",
+      "predicted": "FortressRot",
+      "predicted_prob": 0.5100688551865488,
+      "second": "FortressHoly",
+      "second_prob": 0.48964507030216653
+    }
+  ],
+  "panel_overlay_image": "tmp_status_aware_overlay_centroid_125537\\Captura de tela 2026-04-15 125537_status_aware_panel_overlay.png",
+  "full_overlay_image": "tmp_status_aware_overlay_centroid_125537\\Captura de tela 2026-04-15 125537_status_aware_full_overlay.png"
+}

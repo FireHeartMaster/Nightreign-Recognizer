@@ -1,0 +1,186 @@
+{
+  "layout_number": 183,
+  "shifting_earth": "Mountaintop",
+  "map_layout": "the_mountaintop_shifted",
+  "width": 1536,
+  "height": 1536,
+  "slot_labels": [
+    "Fort",
+    "empty",
+    "Main Encampment",
+    "Church",
+    "empty",
+    "Ruins",
+    "Ruins",
+    "Ruins",
+    "Great Church",
+    "Fort",
+    "Church",
+    "empty",
+    "Fort",
+    "Great Church",
+    "Church",
+    "Main Encampment",
+    "Main Encampment",
+    "Sorcerer's Rise",
+    "empty",
+    "Great Church",
+    "Ruins",
+    "empty"
+  ],
+  "landmarks": [
+    {
+      "poi_id": 29,
+      "type": "Church",
+      "icon": "Church.png",
+      "x": 839.8011834319527,
+      "y": 982.4946745562131,
+      "x_norm": 0.5467455621301776,
+      "y_norm": 0.6396449704142012
+    },
+    {
+      "poi_id": 32,
+      "type": "Church",
+      "icon": "Church.png",
+      "x": 313.56213017751475,
+      "y": 872.5207100591716,
+      "x_norm": 0.2041420118343195,
+      "y_norm": 0.5680473372781065
+    },
+    {
+      "poi_id": 37,
+      "type": "Church",
+      "icon": "Church.png",
+      "x": 1213.1218934911242,
+      "y": 556.6863905325445,
+      "x_norm": 0.789792899408284,
+      "y_norm": 0.36242603550295865
+    },
+    {
+      "poi_id": 96,
+      "type": "Fort",
+      "icon": "Fort.png",
+      "x": 487.73907692307705,
+      "y": 846.2451124260356,
+      "x_norm": 0.3175384615384616,
+      "y_norm": 0.5509408284023669
+    },
+    {
+      "poi_id": 101,
+      "type": "Fort",
+      "icon": "Fort.png",
+      "x": 1088.8331360946745,
+      "y": 322.87810650887576,
+      "x_norm": 0.7088757396449704,
+      "y_norm": 0.210207100591716
+    },
+    {
+      "poi_id": 105,
+      "type": "Fort",
+      "icon": "Fort.png",
+      "x": 967.9526627218935,
+      "y": 910.0845443786982,
+      "x_norm": 0.6301775147928994,
+      "y_norm": 0.5925029585798817
+    },
+    {
+      "poi_id": 103,
+      "type": "Great Church",
+      "icon": "Great_Church.png",
+      "x": 1023.1668639053255,
+      "y": 711.4224852071005,
+      "x_norm": 0.6661242603550296,
+      "y_norm": 0.46316568047337275
+    },
+    {
+      "poi_id": 106,
+      "type": "Great Church",
+      "icon": "Great_Church.png",
+      "x": 1155.7900118343196,
+      "y": 966.4348402366863,
+      "x_norm": 0.7524674556213018,
+      "y_norm": 0.629189349112426
+    },
+    {
+      "poi_id": 107,
+      "type": "Great Church",
+      "icon": "Great_Church.png",
+      "x": 1146.70125443787,
+      "y": 1125.7971124260357,
+      "x_norm": 0.7465502958579883,
+      "y_norm": 0.732940828402367
+    },
+    {
+      "poi_id": 94,
+      "type": "Main Encampment",
+      "icon": "Main_Encampment.png",
+      "x": 429.67100591715973,
+      "y": 1003.6260355029585,
+      "x_norm": 0.27973372781065087,
+      "y_norm": 0.6534023668639053
+    },
+    {
+      "poi_id": 100,
+      "type": "Main Encampment",
+      "icon": "Main_Encampment.png",
+      "x": 979.9952662721894,
+      "y": 455.3467455621302,
+      "x_norm": 0.63801775147929,
+      "y_norm": 0.2964497041420118
+    },
+    {
+      "poi_id": 108,
+      "type": "Main Encampment",
+      "icon": "Main_Encampment.png",
+      "x": 945.8397159763314,
+      "y": 1064.9024378698225,
+      "x_norm": 0.6157810650887574,
+      "y_norm": 0.6932958579881657
+    },
+    {
+      "poi_id": 93,
+      "type": "Ruins",
+      "icon": "Ruins.png",
+      "x": 614.9816804733729,
+      "y": 1201.5337278106508,
+      "x_norm": 0.4003786982248521,
+      "y_norm": 0.7822485207100591
+    },
+    {
+      "poi_id": 102,
+      "type": "Ruins",
+      "icon": "Ruins.png",
+      "x": 888.8804733727811,
+      "y": 666.2059171597633,
+      "x_norm": 0.578698224852071,
+      "y_norm": 0.43372781065088756
+    },
+    {
+      "poi_id": 104,
+      "type": "Ruins",
+      "icon": "Ruins.png",
+      "x": 1181.084023668639,
+      "y": 647.8011834319526,
+      "x_norm": 0.7689349112426035,
+      "y_norm": 0.4217455621301775
+    },
+    {
+      "poi_id": 149,
+      "type": "Ruins",
+      "icon": "Ruins.png",
+      "x": 329.92189349112425,
+      "y": 694.3810650887574,
+      "x_norm": 0.21479289940828403,
+      "y_norm": 0.45207100591715976
+    },
+    {
+      "poi_id": 30,
+      "type": "Sorcerer's Rise",
+      "icon": "Sorcerer's_Rise.png",
+      "x": 706.1964497041421,
+      "y": 1078.8355029585798,
+      "x_norm": 0.4597633136094675,
+      "y_norm": 0.7023668639053254
+    }
+  ]
+}

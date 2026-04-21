@@ -1,0 +1,146 @@
+{
+  "top_left": {
+    "label": "Fire",
+    "score": 0.3741,
+    "runner_up": "Magic",
+    "runner_up_score": 0.3057,
+    "margin": 0.0685,
+    "confidence": "weak",
+    "box": {
+      "x": 226,
+      "y": 154,
+      "w": 36,
+      "h": 36
+    },
+    "reference_anchor": {
+      "x": 220,
+      "y": 148,
+      "crop_size": 36,
+      "search_pad": 6
+    },
+    "ranked": [
+      {
+        "label": "Fire",
+        "score": 0.3741,
+        "dx": 12,
+        "dy": 12
+      },
+      {
+        "label": "Magic",
+        "score": 0.3057,
+        "dx": 12,
+        "dy": 0
+      }
+    ]
+  },
+  "bottom_right": {
+    "label": "Holy",
+    "score": 0.0725,
+    "runner_up": "Rot",
+    "runner_up_score": 0.0492,
+    "margin": 0.0233,
+    "confidence": "weak",
+    "box": {
+      "x": 767,
+      "y": 790,
+      "w": 36,
+      "h": 36
+    },
+    "reference_anchor": {
+      "x": 766,
+      "y": 794,
+      "crop_size": 36,
+      "search_pad": 6
+    },
+    "ranked": [
+      {
+        "label": "Holy",
+        "score": 0.0725,
+        "dx": 7,
+        "dy": 2
+      },
+      {
+        "label": "Rot",
+        "score": 0.0492,
+        "dx": 0,
+        "dy": 12
+      }
+    ]
+  },
+  "ruins": {
+    "label": "Poison",
+    "score": 0.6233,
+    "runner_up": "Bleed",
+    "runner_up_score": 0.3695,
+    "margin": 0.2538,
+    "confidence": "strong",
+    "box": {
+      "x": 224,
+      "y": 529,
+      "w": 18,
+      "h": 18
+    },
+    "reference_anchor": {
+      "x": 225,
+      "y": 535,
+      "crop_size": 36,
+      "search_pad": 6
+    },
+    "ranked": [
+      {
+        "label": "Poison",
+        "score": 0.6233,
+        "dx": 5,
+        "dy": 0
+      },
+      {
+        "label": "Bleed",
+        "score": 0.3695,
+        "dx": 12,
+        "dy": 0
+      }
+    ],
+    "selected_candidate_xy_norm": {
+      "x_norm": 0.325,
+      "y_norm": 0.526563
+    }
+  },
+  "great_church_top_right": {
+    "label": "Lightning",
+    "score": 0.9343,
+    "runner_up": "Sleep",
+    "runner_up_score": 0.4609,
+    "margin": 0.4734,
+    "confidence": "strong",
+    "box": {
+      "x": 711,
+      "y": 525,
+      "w": 18,
+      "h": 18
+    },
+    "reference_anchor": {
+      "x": 710,
+      "y": 531,
+      "crop_size": 36,
+      "search_pad": 6
+    },
+    "ranked": [
+      {
+        "label": "Lightning",
+        "score": 0.9343,
+        "dx": 7,
+        "dy": 0
+      },
+      {
+        "label": "Sleep",
+        "score": 0.4609,
+        "dx": 28,
+        "dy": 24
+      }
+    ],
+    "center_xy_norm": {
+      "x_norm": 0.640625,
+      "y_norm": 0.524219
+    }
+  }
+}

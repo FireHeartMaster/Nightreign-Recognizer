@@ -1,0 +1,140 @@
+{
+  "total": 12,
+  "earth_correct": 12,
+  "layout_correct": 12,
+  "avg_seconds": 4.21,
+  "rows": [
+    {
+      "expected_earth": "Great Hollow",
+      "expected_layout": 1005,
+      "pred_earth": "Great Hollow",
+      "pred_layout": 1005,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 4.129,
+      "gh_palace": "Status_Magic",
+      "gh_fortress": "Status_Holy"
+    },
+    {
+      "expected_earth": "Great Hollow",
+      "expected_layout": 1006,
+      "pred_earth": "Great Hollow",
+      "pred_layout": 1006,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 4.189,
+      "gh_palace": "Status_Fire",
+      "gh_fortress": "Status_Holy"
+    },
+    {
+      "expected_earth": "Limveld",
+      "expected_layout": 0,
+      "pred_earth": "Limveld",
+      "pred_layout": 0,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 4.265,
+      "gh_palace": "Status_Fire",
+      "gh_fortress": "Status_Rot"
+    },
+    {
+      "expected_earth": "Limveld",
+      "expected_layout": 1,
+      "pred_earth": "Limveld",
+      "pred_layout": 1,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 4.268,
+      "gh_palace": "Status_Fire",
+      "gh_fortress": "Status_Rot"
+    },
+    {
+      "expected_earth": "Mountaintop",
+      "expected_layout": 20,
+      "pred_earth": "Mountaintop",
+      "pred_layout": 20,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 4.176,
+      "gh_palace": "Status_Fire",
+      "gh_fortress": "Status_Holy"
+    },
+    {
+      "expected_earth": "Mountaintop",
+      "expected_layout": 21,
+      "pred_earth": "Mountaintop",
+      "pred_layout": 21,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 4.188,
+      "gh_palace": "Status_Fire",
+      "gh_fortress": "Status_Holy"
+    },
+    {
+      "expected_earth": "Noklateo",
+      "expected_layout": 35,
+      "pred_earth": "Noklateo",
+      "pred_layout": 35,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 4.261,
+      "gh_palace": "Status_Fire",
+      "gh_fortress": "Status_Rot"
+    },
+    {
+      "expected_earth": "Noklateo",
+      "expected_layout": 36,
+      "pred_earth": "Noklateo",
+      "pred_layout": 36,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 4.228,
+      "gh_palace": "Status_Fire",
+      "gh_fortress": "Status_Rot"
+    },
+    {
+      "expected_earth": "Rotted Woods",
+      "expected_layout": 30,
+      "pred_earth": "Rotted Woods",
+      "pred_layout": 30,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 4.209,
+      "gh_palace": "Status_Fire",
+      "gh_fortress": "Status_Rot"
+    },
+    {
+      "expected_earth": "Rotted Woods",
+      "expected_layout": 31,
+      "pred_earth": "Rotted Woods",
+      "pred_layout": 31,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 4.223,
+      "gh_palace": "Status_Fire",
+      "gh_fortress": "Status_Rot"
+    },
+    {
+      "expected_earth": "The Crater",
+      "expected_layout": 25,
+      "pred_earth": "The Crater",
+      "pred_layout": 25,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 4.206,
+      "gh_palace": "Status_Fire",
+      "gh_fortress": "Status_Rot"
+    },
+    {
+      "expected_earth": "The Crater",
+      "expected_layout": 26,
+      "pred_earth": "The Crater",
+      "pred_layout": 26,
+      "earth_ok": true,
+      "layout_ok": true,
+      "seconds": 4.183,
+      "gh_palace": "Status_Fire",
+      "gh_fortress": "Status_Rot"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "file": "Balancers_1080.png",
+    "raw_top": "Rotted Woods",
+    "candidate_earth": "Rotted Woods",
+    "restriction_line": "Restricting layout ranking to Rotted Woods family from earth_selector_v2 (cascade used for diagnostics only)."
+  },
+  {
+    "file": "Dreglord_1080.png",
+    "raw_top": "Limveld",
+    "candidate_earth": "Limveld",
+    "restriction_line": "Restricting layout ranking to Limveld family from earth_selector_v2 (cascade used for diagnostics only)."
+  }
+]

@@ -1,0 +1,2307 @@
+[
+  {
+    "file": "Screenshot (133).png",
+    "candidate_earth": "Great Hollow",
+    "top_layout": {
+      "layout_number": 1057,
+      "earth": "Great Hollow",
+      "score": -0.8773668065856892
+    },
+    "slots": [
+      {
+        "slot_id": 1,
+        "slot_name": "slot_01",
+        "label": "empty",
+        "best_prob": 0.5619006933029544,
+        "margin": 0.12380138660590889
+      },
+      {
+        "slot_id": 2,
+        "slot_name": "slot_02",
+        "label": "empty",
+        "best_prob": 0.8084220859160551,
+        "margin": 0.6168441718321103
+      },
+      {
+        "slot_id": 3,
+        "slot_name": "slot_03",
+        "label": "Church",
+        "best_prob": 0.9986479343798298,
+        "margin": 0.9972958687596596
+      },
+      {
+        "slot_id": 4,
+        "slot_name": "slot_04",
+        "label": "empty",
+        "best_prob": 0.9999999999989999,
+        "margin": 0.9999999999979998
+      },
+      {
+        "slot_id": 5,
+        "slot_name": "slot_05",
+        "label": "Church",
+        "best_prob": 0.9959313536986478,
+        "margin": 0.9931474296463426
+      },
+      {
+        "slot_id": 6,
+        "slot_name": "slot_06",
+        "label": "Ruins",
+        "best_prob": 0.9999990352810084,
+        "margin": 0.9999980705620168
+      },
+      {
+        "slot_id": 7,
+        "slot_name": "slot_07",
+        "label": "empty",
+        "best_prob": 0.9981391899143823,
+        "margin": 0.996384543058703
+      }
+    ],
+    "great_hollow_statuses": {
+      "Palace": {
+        "anchor_type": "Palace",
+        "expected_x_norm": 0.328125,
+        "expected_y_norm": 0.28046875,
+        "best_status": "Status_Fire",
+        "best_score": 0.5086928009986877,
+        "second_status": "Status_Magic",
+        "second_score": 0.49130722880363464,
+        "margin": 0.0173855721950531,
+        "present_prob": 0.6,
+        "x_norm": 0.27246011754827876,
+        "y_norm": 0.20280612244897958,
+        "method": "icon_recognizer_v4_gh_raw_alt:models",
+        "classifier_mode": "models",
+        "ranked": [
+          {
+            "status_type": "Status_Fire",
+            "score": 0.5086928009986877,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "status_type": "Status_Magic",
+            "score": 0.49130722880363464,
+            "dx": 0,
+            "dy": 0
+          }
+        ]
+      },
+      "Fortress": {
+        "anchor_type": "Fortress",
+        "expected_x_norm": 0.68359375,
+        "expected_y_norm": 0.7015625,
+        "best_status": "Status_Rot",
+        "best_score": 0.5001642107963562,
+        "second_status": "Status_Holy",
+        "second_score": 0.4998358190059662,
+        "margin": 0.00032839179039001465,
+        "present_prob": 0.6,
+        "x_norm": 0.7342569269521411,
+        "y_norm": 0.7614795918367347,
+        "method": "icon_recognizer_v4_gh_raw_alt:models",
+        "classifier_mode": "models",
+        "ranked": [
+          {
+            "status_type": "Status_Rot",
+            "score": 0.5001642107963562,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "status_type": "Status_Holy",
+            "score": 0.4998358190059662,
+            "dx": 0,
+            "dy": 0
+          }
+        ]
+      },
+      "Ruins": {
+        "anchor_type": "Ruins",
+        "expected_x_norm": 0.0,
+        "expected_y_norm": 0.0,
+        "best_status": "Status_Poison",
+        "best_score": 0.948651134967804,
+        "second_status": "Status_Bleed",
+        "second_score": 0.05134882032871246,
+        "margin": 0.8973023146390915,
+        "present_prob": 0.95,
+        "x_norm": 0.12762384550797648,
+        "y_norm": 0.6360544217687075,
+        "method": "icon_recognizer_v4_gh_raw_alt:models",
+        "classifier_mode": "models",
+        "ranked": [
+          {
+            "status_type": "Status_Poison",
+            "score": 0.948651134967804,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "status_type": "Status_Bleed",
+            "score": 0.05134882032871246,
+            "dx": 0,
+            "dy": 0
+          }
+        ]
+      },
+      "Great Church": {
+        "anchor_type": "Great Church",
+        "expected_x_norm": 0.0,
+        "expected_y_norm": 0.0,
+        "best_status": "Status_Lightning",
+        "best_score": 0.517530620098114,
+        "second_status": "Status_Sleep",
+        "second_score": 0.4824694097042084,
+        "margin": 0.03506121039390564,
+        "present_prob": 0.6,
+        "x_norm": 0.9605373635600336,
+        "y_norm": 0.3520408163265306,
+        "method": "icon_recognizer_v4_gh_raw_alt:models",
+        "classifier_mode": "models",
+        "ranked": [
+          {
+            "status_type": "Status_Lightning",
+            "score": 0.517530620098114,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "status_type": "Status_Sleep",
+            "score": 0.4824694097042084,
+            "dx": 0,
+            "dy": 0
+          }
+        ]
+      }
+    },
+    "great_hollow_model_layout_observations": {
+      "slot2_great_church_status": {
+        "spec_key": "slot2_great_church_status",
+        "kind": "status",
+        "source": "panel_raw",
+        "center_norm": [
+          0.82890625,
+          0.38046875
+        ],
+        "center_px": {
+          "x": 620,
+          "y": 285
+        },
+        "crop_size": 200,
+        "model_path": "Testing\\slot_2\\slot2_status_cnn.pt",
+        "module_path": "Testing\\slot_2\\layout_classifier_lib.py",
+        "class_names": [
+          "Great_Church_Lightning",
+          "Great_Church_Sleep"
+        ],
+        "best_label": "Great_Church_Lightning",
+        "best_prob": 0.5576114654541016,
+        "second_label": "Great_Church_Sleep",
+        "second_prob": 0.44238853454589844,
+        "margin": 0.11522293090820312,
+        "ranking": [
+          {
+            "label": "Great_Church_Lightning",
+            "probability": 0.5576114654541016
+          },
+          {
+            "label": "Great_Church_Sleep",
+            "probability": 0.44238853454589844
+          }
+        ],
+        "weight": 0.14,
+        "anchor_type": "Great Church",
+        "predicted_status": "Status_Lightning"
+      },
+      "palace_status": {
+        "spec_key": "palace_status",
+        "kind": "status",
+        "source": "gh_asym_legacy",
+        "center_norm": [
+          0.2762384550797649,
+          0.21343537414965985
+        ],
+        "center_px": {
+          "x": 329,
+          "y": 251
+        },
+        "crop_size": 200,
+        "model_path": "Testing\\palace\\palace_status_cnn.pt",
+        "module_path": "Testing\\palace\\layout_classifier_lib.py",
+        "class_names": [
+          "Status_Fire",
+          "Status_Magic"
+        ],
+        "best_label": "Status_Magic",
+        "best_prob": 0.6723708510398865,
+        "second_label": "Status_Fire",
+        "second_prob": 0.3276292085647583,
+        "margin": 0.3447416424751282,
+        "ranking": [
+          {
+            "label": "Status_Magic",
+            "probability": 0.6723708510398865
+          },
+          {
+            "label": "Status_Fire",
+            "probability": 0.3276292085647583
+          }
+        ],
+        "weight": 0.12,
+        "anchor_type": "Palace",
+        "predicted_status": "Status_Magic"
+      },
+      "fortress_status": {
+        "spec_key": "fortress_status",
+        "kind": "status",
+        "source": "gh_asym_legacy",
+        "center_norm": [
+          0.7346767422334173,
+          0.7627551020408163
+        ],
+        "center_px": {
+          "x": 875,
+          "y": 897
+        },
+        "crop_size": 200,
+        "model_path": "Testing\\fortress\\fortress_status_cnn.pt",
+        "module_path": "Testing\\fortress\\layout_classifier_lib.py",
+        "class_names": [
+          "Status_Holy",
+          "Status_Rot"
+        ],
+        "best_label": "Status_Holy",
+        "best_prob": 0.5009408593177795,
+        "second_label": "Status_Rot",
+        "second_prob": 0.49905914068222046,
+        "margin": 0.001881718635559082,
+        "ranking": [
+          {
+            "label": "Status_Holy",
+            "probability": 0.5009408593177795
+          },
+          {
+            "label": "Status_Rot",
+            "probability": 0.49905914068222046
+          }
+        ],
+        "weight": 0.12,
+        "anchor_type": "Fortress",
+        "predicted_status": "Status_Holy"
+      },
+      "slot6_ruins_status": {
+        "spec_key": "slot6_ruins_status",
+        "kind": "status",
+        "source": "gh_asym_legacy",
+        "center_norm": [
+          0.12090680100755667,
+          0.6215986394557823
+        ],
+        "center_px": {
+          "x": 144,
+          "y": 731
+        },
+        "crop_size": 200,
+        "model_path": "Testing\\slot_6\\slot6_status_cnn.pt",
+        "module_path": "Testing\\slot_6\\layout_classifier_lib.py",
+        "class_names": [
+          "Ruins_Bleed",
+          "Ruins_Poison"
+        ],
+        "best_label": "Ruins_Bleed",
+        "best_prob": 0.9552299976348877,
+        "second_label": "Ruins_Poison",
+        "second_prob": 0.044770073145627975,
+        "margin": 0.9104599244892597,
+        "ranking": [
+          {
+            "label": "Ruins_Bleed",
+            "probability": 0.9552299976348877
+          },
+          {
+            "label": "Ruins_Poison",
+            "probability": 0.044770073145627975
+          }
+        ],
+        "weight": 0.1,
+        "anchor_type": "Ruins",
+        "predicted_status": "Status_Bleed"
+      },
+      "slot4_minor": {
+        "spec_key": "slot4_minor",
+        "kind": "slot_label",
+        "source": "gh_asym_legacy",
+        "center_norm": [
+          0.6792611251049538,
+          0.5314625850340136
+        ],
+        "center_px": {
+          "x": 809,
+          "y": 625
+        },
+        "crop_size": 200,
+        "model_path": "Testing\\slot_4_plus_real_heavy\\slot4_status_cnn_plus_real_heavy.pt",
+        "module_path": "Testing\\slot_4\\layout_classifier_lib.py",
+        "class_names": [
+          "Church",
+          "empty",
+          "Sorcerer_s_Rise"
+        ],
+        "best_label": "Church",
+        "best_prob": 0.9999932050704956,
+        "second_label": "empty",
+        "second_prob": 4.64992717752466e-06,
+        "margin": 0.9999885551433181,
+        "ranking": [
+          {
+            "label": "Church",
+            "probability": 0.9999932050704956
+          },
+          {
+            "label": "empty",
+            "probability": 4.64992717752466e-06
+          },
+          {
+            "label": "Sorcerer_s_Rise",
+            "probability": 2.158582447009394e-06
+          }
+        ],
+        "weight": 0.08,
+        "slot_id": 4,
+        "predicted_slot_label": "church"
+      },
+      "slot5_minor": {
+        "spec_key": "slot5_minor",
+        "kind": "slot_label",
+        "source": "gh_asym_legacy",
+        "center_norm": [
+          0.27204030226700254,
+          0.5348639455782312
+        ],
+        "center_px": {
+          "x": 324,
+          "y": 629
+        },
+        "crop_size": 200,
+        "model_path": "Testing\\slot_5_plus_real_heavy\\slot5_status_cnn_plus_real_heavy.pt",
+        "module_path": "Testing\\slot_5\\layout_classifier_lib.py",
+        "class_names": [
+          "Church",
+          "empty",
+          "Sorcerer_s_Rise"
+        ],
+        "best_label": "Church",
+        "best_prob": 0.9987013339996338,
+        "second_label": "Sorcerer_s_Rise",
+        "second_prob": 0.001214554999023676,
+        "margin": 0.9974867790006101,
+        "ranking": [
+          {
+            "label": "Church",
+            "probability": 0.9987013339996338
+          },
+          {
+            "label": "Sorcerer_s_Rise",
+            "probability": 0.001214554999023676
+          },
+          {
+            "label": "empty",
+            "probability": 8.401345985475928e-05
+          }
+        ],
+        "weight": 0.08,
+        "slot_id": 5,
+        "predicted_slot_label": "church"
+      },
+      "slot7_minor": {
+        "spec_key": "slot7_minor",
+        "kind": "slot_label",
+        "source": "gh_asym_legacy",
+        "center_norm": [
+          0.28463476070528965,
+          0.9226190476190477
+        ],
+        "center_px": {
+          "x": 339,
+          "y": 1085
+        },
+        "crop_size": 200,
+        "model_path": "Testing\\slot_7_plus_real_heavy\\slot7_status_cnn_plus_real_heavy.pt",
+        "module_path": "Testing\\slot_7\\layout_classifier_lib.py",
+        "class_names": [
+          "Church",
+          "empty",
+          "Sorcerer_s_Rise"
+        ],
+        "best_label": "Church",
+        "best_prob": 0.549214780330658,
+        "second_label": "empty",
+        "second_prob": 0.4427344799041748,
+        "margin": 0.10648030042648315,
+        "ranking": [
+          {
+            "label": "Church",
+            "probability": 0.549214780330658
+          },
+          {
+            "label": "empty",
+            "probability": 0.4427344799041748
+          },
+          {
+            "label": "Sorcerer_s_Rise",
+            "probability": 0.008050760254263878
+          }
+        ],
+        "weight": 0.08,
+        "slot_id": 7,
+        "predicted_slot_label": "church"
+      }
+    }
+  },
+  {
+    "file": "Screenshot (134).png",
+    "candidate_earth": "Great Hollow",
+    "top_layout": {
+      "layout_number": 1025,
+      "earth": "Great Hollow",
+      "score": -0.6736208071382535
+    },
+    "slots": [
+      {
+        "slot_id": 1,
+        "slot_name": "slot_01",
+        "label": "empty",
+        "best_prob": 0.5619093526574459,
+        "margin": 0.12381870531489181
+      },
+      {
+        "slot_id": 2,
+        "slot_name": "slot_02",
+        "label": "empty",
+        "best_prob": 0.8836976489458455,
+        "margin": 0.7673952978916909
+      },
+      {
+        "slot_id": 3,
+        "slot_name": "slot_03",
+        "label": "Church",
+        "best_prob": 0.9971659209830124,
+        "margin": 0.9943318419660248
+      },
+      {
+        "slot_id": 4,
+        "slot_name": "slot_04",
+        "label": "empty",
+        "best_prob": 0.9999999999989999,
+        "margin": 0.9999999999979998
+      },
+      {
+        "slot_id": 5,
+        "slot_name": "slot_05",
+        "label": "unknown",
+        "best_prob": 0.521120369373267,
+        "margin": 0.0860562191146057
+      },
+      {
+        "slot_id": 6,
+        "slot_name": "slot_06",
+        "label": "Ruins",
+        "best_prob": 0.9999962005372991,
+        "margin": 0.9999924010745982
+      },
+      {
+        "slot_id": 7,
+        "slot_name": "slot_07",
+        "label": "Church",
+        "best_prob": 0.9963293084985957,
+        "margin": 0.9926669023509437
+      }
+    ],
+    "great_hollow_statuses": {
+      "Palace": {
+        "anchor_type": "Palace",
+        "expected_x_norm": 0.328125,
+        "expected_y_norm": 0.28046875,
+        "best_status": "Status_Fire",
+        "best_score": 0.5086928009986877,
+        "second_status": "Status_Magic",
+        "second_score": 0.49130722880363464,
+        "margin": 0.0173855721950531,
+        "present_prob": 0.6,
+        "x_norm": 0.27246011754827876,
+        "y_norm": 0.20280612244897958,
+        "method": "icon_recognizer_v4_gh_raw_alt:models",
+        "classifier_mode": "models",
+        "ranked": [
+          {
+            "status_type": "Status_Fire",
+            "score": 0.5086928009986877,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "status_type": "Status_Magic",
+            "score": 0.49130722880363464,
+            "dx": 0,
+            "dy": 0
+          }
+        ]
+      },
+      "Fortress": {
+        "anchor_type": "Fortress",
+        "expected_x_norm": 0.68359375,
+        "expected_y_norm": 0.7015625,
+        "best_status": "Status_Rot",
+        "best_score": 0.5004549026489258,
+        "second_status": "Status_Holy",
+        "second_score": 0.49954506754875183,
+        "margin": 0.0009098351001739502,
+        "present_prob": 0.6,
+        "x_norm": 0.7342569269521411,
+        "y_norm": 0.7563775510204082,
+        "method": "icon_recognizer_v4_gh_raw_alt:models",
+        "classifier_mode": "models",
+        "ranked": [
+          {
+            "status_type": "Status_Rot",
+            "score": 0.5004549026489258,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "status_type": "Status_Holy",
+            "score": 0.49954506754875183,
+            "dx": 0,
+            "dy": 0
+          }
+        ]
+      },
+      "Ruins": {
+        "anchor_type": "Ruins",
+        "expected_x_norm": 0.0,
+        "expected_y_norm": 0.0,
+        "best_status": "Status_Poison",
+        "best_score": 0.9060231447219849,
+        "second_status": "Status_Bleed",
+        "second_score": 0.09397684037685394,
+        "margin": 0.8120463043451309,
+        "present_prob": 0.95,
+        "x_norm": 0.12762384550797648,
+        "y_norm": 0.6360544217687075,
+        "method": "icon_recognizer_v4_gh_raw_alt:models",
+        "classifier_mode": "models",
+        "ranked": [
+          {
+            "status_type": "Status_Poison",
+            "score": 0.9060231447219849,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "status_type": "Status_Bleed",
+            "score": 0.09397684037685394,
+            "dx": 0,
+            "dy": 0
+          }
+        ]
+      },
+      "Great Church": {
+        "anchor_type": "Great Church",
+        "expected_x_norm": 0.0,
+        "expected_y_norm": 0.0,
+        "best_status": "Status_Lightning",
+        "best_score": 0.5344122648239136,
+        "second_status": "Status_Sleep",
+        "second_score": 0.4655877649784088,
+        "margin": 0.06882449984550476,
+        "present_prob": 0.6,
+        "x_norm": 0.9563392107472712,
+        "y_norm": 0.35799319727891155,
+        "method": "icon_recognizer_v4_gh_raw_alt:models",
+        "classifier_mode": "models",
+        "ranked": [
+          {
+            "status_type": "Status_Lightning",
+            "score": 0.5344122648239136,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "status_type": "Status_Sleep",
+            "score": 0.4655877649784088,
+            "dx": 0,
+            "dy": 0
+          }
+        ]
+      }
+    },
+    "great_hollow_model_layout_observations": {
+      "slot2_great_church_status": {
+        "spec_key": "slot2_great_church_status",
+        "kind": "status",
+        "source": "panel_raw",
+        "center_norm": [
+          0.82890625,
+          0.38046875
+        ],
+        "center_px": {
+          "x": 620,
+          "y": 285
+        },
+        "crop_size": 200,
+        "model_path": "Testing\\slot_2\\slot2_status_cnn.pt",
+        "module_path": "Testing\\slot_2\\layout_classifier_lib.py",
+        "class_names": [
+          "Great_Church_Lightning",
+          "Great_Church_Sleep"
+        ],
+        "best_label": "Great_Church_Sleep",
+        "best_prob": 0.5900022983551025,
+        "second_label": "Great_Church_Lightning",
+        "second_prob": 0.4099976420402527,
+        "margin": 0.18000465631484985,
+        "ranking": [
+          {
+            "label": "Great_Church_Sleep",
+            "probability": 0.5900022983551025
+          },
+          {
+            "label": "Great_Church_Lightning",
+            "probability": 0.4099976420402527
+          }
+        ],
+        "weight": 0.14,
+        "anchor_type": "Great Church",
+        "predicted_status": "Status_Sleep"
+      },
+      "palace_status": {
+        "spec_key": "palace_status",
+        "kind": "status",
+        "source": "gh_asym_legacy",
+        "center_norm": [
+          0.2762384550797649,
+          0.21343537414965985
+        ],
+        "center_px": {
+          "x": 329,
+          "y": 251
+        },
+        "crop_size": 200,
+        "model_path": "Testing\\palace\\palace_status_cnn.pt",
+        "module_path": "Testing\\palace\\layout_classifier_lib.py",
+        "class_names": [
+          "Status_Fire",
+          "Status_Magic"
+        ],
+        "best_label": "Status_Magic",
+        "best_prob": 0.6724763512611389,
+        "second_label": "Status_Fire",
+        "second_prob": 0.3275236487388611,
+        "margin": 0.34495270252227783,
+        "ranking": [
+          {
+            "label": "Status_Magic",
+            "probability": 0.6724763512611389
+          },
+          {
+            "label": "Status_Fire",
+            "probability": 0.3275236487388611
+          }
+        ],
+        "weight": 0.12,
+        "anchor_type": "Palace",
+        "predicted_status": "Status_Magic"
+      },
+      "fortress_status": {
+        "spec_key": "fortress_status",
+        "kind": "status",
+        "source": "gh_asym_legacy",
+        "center_norm": [
+          0.7346767422334173,
+          0.7627551020408163
+        ],
+        "center_px": {
+          "x": 875,
+          "y": 897
+        },
+        "crop_size": 200,
+        "model_path": "Testing\\fortress\\fortress_status_cnn.pt",
+        "module_path": "Testing\\fortress\\layout_classifier_lib.py",
+        "class_names": [
+          "Status_Holy",
+          "Status_Rot"
+        ],
+        "best_label": "Status_Holy",
+        "best_prob": 0.5232858657836914,
+        "second_label": "Status_Rot",
+        "second_prob": 0.47671419382095337,
+        "margin": 0.04657167196273804,
+        "ranking": [
+          {
+            "label": "Status_Holy",
+            "probability": 0.5232858657836914
+          },
+          {
+            "label": "Status_Rot",
+            "probability": 0.47671419382095337
+          }
+        ],
+        "weight": 0.12,
+        "anchor_type": "Fortress",
+        "predicted_status": "Status_Holy"
+      },
+      "slot6_ruins_status": {
+        "spec_key": "slot6_ruins_status",
+        "kind": "status",
+        "source": "gh_asym_legacy",
+        "center_norm": [
+          0.12090680100755667,
+          0.6215986394557823
+        ],
+        "center_px": {
+          "x": 144,
+          "y": 731
+        },
+        "crop_size": 200,
+        "model_path": "Testing\\slot_6\\slot6_status_cnn.pt",
+        "module_path": "Testing\\slot_6\\layout_classifier_lib.py",
+        "class_names": [
+          "Ruins_Bleed",
+          "Ruins_Poison"
+        ],
+        "best_label": "Ruins_Poison",
+        "best_prob": 0.9186549782752991,
+        "second_label": "Ruins_Bleed",
+        "second_prob": 0.08134505897760391,
+        "margin": 0.8373099192976952,
+        "ranking": [
+          {
+            "label": "Ruins_Poison",
+            "probability": 0.9186549782752991
+          },
+          {
+            "label": "Ruins_Bleed",
+            "probability": 0.08134505897760391
+          }
+        ],
+        "weight": 0.1,
+        "anchor_type": "Ruins",
+        "predicted_status": "Status_Poison"
+      },
+      "slot4_minor": {
+        "spec_key": "slot4_minor",
+        "kind": "slot_label",
+        "source": "gh_asym_legacy",
+        "center_norm": [
+          0.6792611251049538,
+          0.5314625850340136
+        ],
+        "center_px": {
+          "x": 809,
+          "y": 625
+        },
+        "crop_size": 200,
+        "model_path": "Testing\\slot_4_plus_real_heavy\\slot4_status_cnn_plus_real_heavy.pt",
+        "module_path": "Testing\\slot_4\\layout_classifier_lib.py",
+        "class_names": [
+          "Church",
+          "empty",
+          "Sorcerer_s_Rise"
+        ],
+        "best_label": "Church",
+        "best_prob": 0.9999932050704956,
+        "second_label": "empty",
+        "second_prob": 4.64992717752466e-06,
+        "margin": 0.9999885551433181,
+        "ranking": [
+          {
+            "label": "Church",
+            "probability": 0.9999932050704956
+          },
+          {
+            "label": "empty",
+            "probability": 4.64992717752466e-06
+          },
+          {
+            "label": "Sorcerer_s_Rise",
+            "probability": 2.158582447009394e-06
+          }
+        ],
+        "weight": 0.08,
+        "slot_id": 4,
+        "predicted_slot_label": "church"
+      },
+      "slot5_minor": {
+        "spec_key": "slot5_minor",
+        "kind": "slot_label",
+        "source": "gh_asym_legacy",
+        "center_norm": [
+          0.27204030226700254,
+          0.5348639455782312
+        ],
+        "center_px": {
+          "x": 324,
+          "y": 629
+        },
+        "crop_size": 200,
+        "model_path": "Testing\\slot_5_plus_real_heavy\\slot5_status_cnn_plus_real_heavy.pt",
+        "module_path": "Testing\\slot_5\\layout_classifier_lib.py",
+        "class_names": [
+          "Church",
+          "empty",
+          "Sorcerer_s_Rise"
+        ],
+        "best_label": "empty",
+        "best_prob": 0.8441386222839355,
+        "second_label": "Church",
+        "second_prob": 0.08388794213533401,
+        "margin": 0.7602506801486015,
+        "ranking": [
+          {
+            "label": "empty",
+            "probability": 0.8441386222839355
+          },
+          {
+            "label": "Church",
+            "probability": 0.08388794213533401
+          },
+          {
+            "label": "Sorcerer_s_Rise",
+            "probability": 0.07197348028421402
+          }
+        ],
+        "weight": 0.08,
+        "slot_id": 5,
+        "predicted_slot_label": "empty"
+      },
+      "slot7_minor": {
+        "spec_key": "slot7_minor",
+        "kind": "slot_label",
+        "source": "gh_asym_legacy",
+        "center_norm": [
+          0.28463476070528965,
+          0.9226190476190477
+        ],
+        "center_px": {
+          "x": 339,
+          "y": 1085
+        },
+        "crop_size": 200,
+        "model_path": "Testing\\slot_7_plus_real_heavy\\slot7_status_cnn_plus_real_heavy.pt",
+        "module_path": "Testing\\slot_7\\layout_classifier_lib.py",
+        "class_names": [
+          "Church",
+          "empty",
+          "Sorcerer_s_Rise"
+        ],
+        "best_label": "Church",
+        "best_prob": 0.9958030581474304,
+        "second_label": "empty",
+        "second_prob": 0.0030178148299455643,
+        "margin": 0.9927852433174849,
+        "ranking": [
+          {
+            "label": "Church",
+            "probability": 0.9958030581474304
+          },
+          {
+            "label": "empty",
+            "probability": 0.0030178148299455643
+          },
+          {
+            "label": "Sorcerer_s_Rise",
+            "probability": 0.0011791049037128687
+          }
+        ],
+        "weight": 0.08,
+        "slot_id": 7,
+        "predicted_slot_label": "church"
+      }
+    }
+  },
+  {
+    "file": "Screenshot (135).png",
+    "candidate_earth": "Great Hollow",
+    "top_layout": {
+      "layout_number": 1068,
+      "earth": "Great Hollow",
+      "score": 1.9205195571767186
+    },
+    "slots": [
+      {
+        "slot_id": 1,
+        "slot_name": "slot_01",
+        "label": "Church",
+        "best_prob": 0.8598423152147594,
+        "margin": 0.7196846304295188
+      },
+      {
+        "slot_id": 2,
+        "slot_name": "slot_02",
+        "label": "empty",
+        "best_prob": 0.9771617829365347,
+        "margin": 0.9543235658730693
+      },
+      {
+        "slot_id": 3,
+        "slot_name": "slot_03",
+        "label": "Church",
+        "best_prob": 0.9988083130082996,
+        "margin": 0.9976166260165993
+      },
+      {
+        "slot_id": 4,
+        "slot_name": "slot_04",
+        "label": "Church",
+        "best_prob": 0.9999962233504014,
+        "margin": 0.9999924467008028
+      },
+      {
+        "slot_id": 5,
+        "slot_name": "slot_05",
+        "label": "unknown",
+        "best_prob": 0.48856002338467003,
+        "margin": 0.011621650749698065
+      },
+      {
+        "slot_id": 6,
+        "slot_name": "slot_06",
+        "label": "Ruins",
+        "best_prob": 0.9999998668304012,
+        "margin": 0.9999997336608024
+      },
+      {
+        "slot_id": 7,
+        "slot_name": "slot_07",
+        "label": "Church",
+        "best_prob": 0.9978879083276896,
+        "margin": 0.9957864995984139
+      }
+    ],
+    "great_hollow_statuses": {
+      "Palace": {
+        "anchor_type": "Palace",
+        "expected_x_norm": 0.328125,
+        "expected_y_norm": 0.28046875,
+        "best_status": "Status_Magic",
+        "best_score": 0.5101543068885803,
+        "second_status": "Status_Fire",
+        "second_score": 0.48984572291374207,
+        "margin": 0.020308583974838257,
+        "present_prob": 0.6,
+        "x_norm": 0.27246011754827876,
+        "y_norm": 0.20280612244897958,
+        "method": "icon_recognizer_v4_gh_raw_alt:models",
+        "classifier_mode": "models",
+        "ranked": [
+          {
+            "status_type": "Status_Magic",
+            "score": 0.5101543068885803,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "status_type": "Status_Fire",
+            "score": 0.48984572291374207,
+            "dx": 0,
+            "dy": 0
+          }
+        ]
+      },
+      "Fortress": {
+        "anchor_type": "Fortress",
+        "expected_x_norm": 0.68359375,
+        "expected_y_norm": 0.7015625,
+        "best_status": "Status_Holy",
+        "best_score": 0.5007041692733765,
+        "second_status": "Status_Rot",
+        "second_score": 0.49929583072662354,
+        "margin": 0.0014083385467529297,
+        "present_prob": 0.6,
+        "x_norm": 0.7342569269521411,
+        "y_norm": 0.7555272108843537,
+        "method": "icon_recognizer_v4_gh_raw_alt:models",
+        "classifier_mode": "models",
+        "ranked": [
+          {
+            "status_type": "Status_Holy",
+            "score": 0.5007041692733765,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "status_type": "Status_Rot",
+            "score": 0.49929583072662354,
+            "dx": 0,
+            "dy": 0
+          }
+        ]
+      },
+      "Ruins": {
+        "anchor_type": "Ruins",
+        "expected_x_norm": 0.0,
+        "expected_y_norm": 0.0,
+        "best_status": "Status_Poison",
+        "best_score": 0.9314188957214355,
+        "second_status": "Status_Bleed",
+        "second_score": 0.06858109682798386,
+        "margin": 0.8628377988934517,
+        "present_prob": 0.95,
+        "x_norm": 0.12762384550797648,
+        "y_norm": 0.6360544217687075,
+        "method": "icon_recognizer_v4_gh_raw_alt:models",
+        "classifier_mode": "models",
+        "ranked": [
+          {
+            "status_type": "Status_Poison",
+            "score": 0.9314188957214355,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "status_type": "Status_Bleed",
+            "score": 0.06858109682798386,
+            "dx": 0,
+            "dy": 0
+          }
+        ]
+      },
+      "Great Church": {
+        "anchor_type": "Great Church",
+        "expected_x_norm": 0.0,
+        "expected_y_norm": 0.0,
+        "best_status": "Status_Sleep",
+        "best_score": 0.581151008605957,
+        "second_status": "Status_Lightning",
+        "second_score": 0.4188489615917206,
+        "margin": 0.16230204701423645,
+        "present_prob": 0.8,
+        "x_norm": 0.9605373635600336,
+        "y_norm": 0.3520408163265306,
+        "method": "icon_recognizer_v4_gh_raw_alt:models",
+        "classifier_mode": "models",
+        "ranked": [
+          {
+            "status_type": "Status_Sleep",
+            "score": 0.581151008605957,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "status_type": "Status_Lightning",
+            "score": 0.4188489615917206,
+            "dx": 0,
+            "dy": 0
+          }
+        ]
+      }
+    },
+    "great_hollow_model_layout_observations": {
+      "slot2_great_church_status": {
+        "spec_key": "slot2_great_church_status",
+        "kind": "status",
+        "source": "panel_raw",
+        "center_norm": [
+          0.82890625,
+          0.38046875
+        ],
+        "center_px": {
+          "x": 637,
+          "y": 292
+        },
+        "crop_size": 200,
+        "model_path": "Testing\\slot_2\\slot2_status_cnn.pt",
+        "module_path": "Testing\\slot_2\\layout_classifier_lib.py",
+        "class_names": [
+          "Great_Church_Lightning",
+          "Great_Church_Sleep"
+        ],
+        "best_label": "Great_Church_Sleep",
+        "best_prob": 0.5534384250640869,
+        "second_label": "Great_Church_Lightning",
+        "second_prob": 0.4465615451335907,
+        "margin": 0.10687687993049622,
+        "ranking": [
+          {
+            "label": "Great_Church_Sleep",
+            "probability": 0.5534384250640869
+          },
+          {
+            "label": "Great_Church_Lightning",
+            "probability": 0.4465615451335907
+          }
+        ],
+        "weight": 0.14,
+        "anchor_type": "Great Church",
+        "predicted_status": "Status_Sleep"
+      },
+      "palace_status": {
+        "spec_key": "palace_status",
+        "kind": "status",
+        "source": "gh_asym_legacy",
+        "center_norm": [
+          0.2762384550797649,
+          0.21343537414965985
+        ],
+        "center_px": {
+          "x": 329,
+          "y": 251
+        },
+        "crop_size": 200,
+        "model_path": "Testing\\palace\\palace_status_cnn.pt",
+        "module_path": "Testing\\palace\\layout_classifier_lib.py",
+        "class_names": [
+          "Status_Fire",
+          "Status_Magic"
+        ],
+        "best_label": "Status_Magic",
+        "best_prob": 0.666836678981781,
+        "second_label": "Status_Fire",
+        "second_prob": 0.3331633508205414,
+        "margin": 0.3336733281612396,
+        "ranking": [
+          {
+            "label": "Status_Magic",
+            "probability": 0.666836678981781
+          },
+          {
+            "label": "Status_Fire",
+            "probability": 0.3331633508205414
+          }
+        ],
+        "weight": 0.12,
+        "anchor_type": "Palace",
+        "predicted_status": "Status_Magic"
+      },
+      "fortress_status": {
+        "spec_key": "fortress_status",
+        "kind": "status",
+        "source": "gh_asym_legacy",
+        "center_norm": [
+          0.7346767422334173,
+          0.7627551020408163
+        ],
+        "center_px": {
+          "x": 875,
+          "y": 897
+        },
+        "crop_size": 200,
+        "model_path": "Testing\\fortress\\fortress_status_cnn.pt",
+        "module_path": "Testing\\fortress\\layout_classifier_lib.py",
+        "class_names": [
+          "Status_Holy",
+          "Status_Rot"
+        ],
+        "best_label": "Status_Holy",
+        "best_prob": 0.5234915018081665,
+        "second_label": "Status_Rot",
+        "second_prob": 0.4765084981918335,
+        "margin": 0.04698300361633301,
+        "ranking": [
+          {
+            "label": "Status_Holy",
+            "probability": 0.5234915018081665
+          },
+          {
+            "label": "Status_Rot",
+            "probability": 0.4765084981918335
+          }
+        ],
+        "weight": 0.12,
+        "anchor_type": "Fortress",
+        "predicted_status": "Status_Holy"
+      },
+      "slot6_ruins_status": {
+        "spec_key": "slot6_ruins_status",
+        "kind": "status",
+        "source": "gh_asym_legacy",
+        "center_norm": [
+          0.12090680100755667,
+          0.6215986394557823
+        ],
+        "center_px": {
+          "x": 144,
+          "y": 731
+        },
+        "crop_size": 200,
+        "model_path": "Testing\\slot_6\\slot6_status_cnn.pt",
+        "module_path": "Testing\\slot_6\\layout_classifier_lib.py",
+        "class_names": [
+          "Ruins_Bleed",
+          "Ruins_Poison"
+        ],
+        "best_label": "Ruins_Bleed",
+        "best_prob": 0.9293583631515503,
+        "second_label": "Ruins_Poison",
+        "second_prob": 0.0706416666507721,
+        "margin": 0.8587166965007782,
+        "ranking": [
+          {
+            "label": "Ruins_Bleed",
+            "probability": 0.9293583631515503
+          },
+          {
+            "label": "Ruins_Poison",
+            "probability": 0.0706416666507721
+          }
+        ],
+        "weight": 0.1,
+        "anchor_type": "Ruins",
+        "predicted_status": "Status_Bleed"
+      },
+      "slot4_minor": {
+        "spec_key": "slot4_minor",
+        "kind": "slot_label",
+        "source": "gh_asym_legacy",
+        "center_norm": [
+          0.6792611251049538,
+          0.5314625850340136
+        ],
+        "center_px": {
+          "x": 809,
+          "y": 625
+        },
+        "crop_size": 200,
+        "model_path": "Testing\\slot_4_plus_real_heavy\\slot4_status_cnn_plus_real_heavy.pt",
+        "module_path": "Testing\\slot_4\\layout_classifier_lib.py",
+        "class_names": [
+          "Church",
+          "empty",
+          "Sorcerer_s_Rise"
+        ],
+        "best_label": "Church",
+        "best_prob": 0.9999887943267822,
+        "second_label": "empty",
+        "second_prob": 8.43004909256706e-06,
+        "margin": 0.9999803642776897,
+        "ranking": [
+          {
+            "label": "Church",
+            "probability": 0.9999887943267822
+          },
+          {
+            "label": "empty",
+            "probability": 8.43004909256706e-06
+          },
+          {
+            "label": "Sorcerer_s_Rise",
+            "probability": 2.78887341664813e-06
+          }
+        ],
+        "weight": 0.08,
+        "slot_id": 4,
+        "predicted_slot_label": "church"
+      },
+      "slot5_minor": {
+        "spec_key": "slot5_minor",
+        "kind": "slot_label",
+        "source": "gh_asym_legacy",
+        "center_norm": [
+          0.27204030226700254,
+          0.5348639455782312
+        ],
+        "center_px": {
+          "x": 324,
+          "y": 629
+        },
+        "crop_size": 200,
+        "model_path": "Testing\\slot_5_plus_real_heavy\\slot5_status_cnn_plus_real_heavy.pt",
+        "module_path": "Testing\\slot_5\\layout_classifier_lib.py",
+        "class_names": [
+          "Church",
+          "empty",
+          "Sorcerer_s_Rise"
+        ],
+        "best_label": "empty",
+        "best_prob": 0.618474543094635,
+        "second_label": "Church",
+        "second_prob": 0.2635803818702698,
+        "margin": 0.35489416122436523,
+        "ranking": [
+          {
+            "label": "empty",
+            "probability": 0.618474543094635
+          },
+          {
+            "label": "Church",
+            "probability": 0.2635803818702698
+          },
+          {
+            "label": "Sorcerer_s_Rise",
+            "probability": 0.1179451048374176
+          }
+        ],
+        "weight": 0.08,
+        "slot_id": 5,
+        "predicted_slot_label": "empty"
+      },
+      "slot7_minor": {
+        "spec_key": "slot7_minor",
+        "kind": "slot_label",
+        "source": "gh_asym_legacy",
+        "center_norm": [
+          0.28463476070528965,
+          0.9226190476190477
+        ],
+        "center_px": {
+          "x": 339,
+          "y": 1085
+        },
+        "crop_size": 200,
+        "model_path": "Testing\\slot_7_plus_real_heavy\\slot7_status_cnn_plus_real_heavy.pt",
+        "module_path": "Testing\\slot_7\\layout_classifier_lib.py",
+        "class_names": [
+          "Church",
+          "empty",
+          "Sorcerer_s_Rise"
+        ],
+        "best_label": "Church",
+        "best_prob": 0.989967942237854,
+        "second_label": "empty",
+        "second_prob": 0.007930663414299488,
+        "margin": 0.9820372788235545,
+        "ranking": [
+          {
+            "label": "Church",
+            "probability": 0.989967942237854
+          },
+          {
+            "label": "empty",
+            "probability": 0.007930663414299488
+          },
+          {
+            "label": "Sorcerer_s_Rise",
+            "probability": 0.0021014688536524773
+          }
+        ],
+        "weight": 0.08,
+        "slot_id": 7,
+        "predicted_slot_label": "church"
+      }
+    }
+  },
+  {
+    "file": "Screenshot (136).png",
+    "candidate_earth": "Great Hollow",
+    "top_layout": {
+      "layout_number": 1122,
+      "earth": "Great Hollow",
+      "score": 1.1447411609470304
+    },
+    "slots": [
+      {
+        "slot_id": 1,
+        "slot_name": "slot_01",
+        "label": "Church",
+        "best_prob": 0.9999617806925317,
+        "margin": 0.9999235613850634
+      },
+      {
+        "slot_id": 2,
+        "slot_name": "slot_02",
+        "label": "Great Church",
+        "best_prob": 0.9704103791053,
+        "margin": 0.9408207582106001
+      },
+      {
+        "slot_id": 3,
+        "slot_name": "slot_03",
+        "label": "Church",
+        "best_prob": 0.9999694193644217,
+        "margin": 0.9999388387288435
+      },
+      {
+        "slot_id": 4,
+        "slot_name": "slot_04",
+        "label": "Church",
+        "best_prob": 0.999992550782597,
+        "margin": 0.9999851015651939
+      },
+      {
+        "slot_id": 5,
+        "slot_name": "slot_05",
+        "label": "Sorcerer's Rise",
+        "best_prob": 0.9877729555341846,
+        "margin": 0.97606709568806
+      },
+      {
+        "slot_id": 6,
+        "slot_name": "slot_06",
+        "label": "empty",
+        "best_prob": 0.9999996734682046,
+        "margin": 0.9999993469364092
+      },
+      {
+        "slot_id": 7,
+        "slot_name": "slot_07",
+        "label": "Church",
+        "best_prob": 0.9933665167988501,
+        "margin": 0.9868636887431174
+      }
+    ],
+    "great_hollow_statuses": {
+      "Palace": {
+        "anchor_type": "Palace",
+        "expected_x_norm": 0.328125,
+        "expected_y_norm": 0.28046875,
+        "best_status": "Status_Magic",
+        "best_score": 0.5101543068885803,
+        "second_status": "Status_Fire",
+        "second_score": 0.48984572291374207,
+        "margin": 0.020308583974838257,
+        "present_prob": 0.6,
+        "x_norm": 0.27246011754827876,
+        "y_norm": 0.20280612244897958,
+        "method": "icon_recognizer_v4_gh_raw_alt:models",
+        "classifier_mode": "models",
+        "ranked": [
+          {
+            "status_type": "Status_Magic",
+            "score": 0.5101543068885803,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "status_type": "Status_Fire",
+            "score": 0.48984572291374207,
+            "dx": 0,
+            "dy": 0
+          }
+        ]
+      },
+      "Fortress": {
+        "anchor_type": "Fortress",
+        "expected_x_norm": 0.68359375,
+        "expected_y_norm": 0.7015625,
+        "best_status": "Status_Holy",
+        "best_score": 0.5007041692733765,
+        "second_status": "Status_Rot",
+        "second_score": 0.49929583072662354,
+        "margin": 0.0014083385467529297,
+        "present_prob": 0.6,
+        "x_norm": 0.7342569269521411,
+        "y_norm": 0.7555272108843537,
+        "method": "icon_recognizer_v4_gh_raw_alt:models",
+        "classifier_mode": "models",
+        "ranked": [
+          {
+            "status_type": "Status_Holy",
+            "score": 0.5007041692733765,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "status_type": "Status_Rot",
+            "score": 0.49929583072662354,
+            "dx": 0,
+            "dy": 0
+          }
+        ]
+      },
+      "Ruins": {
+        "anchor_type": "Ruins",
+        "expected_x_norm": 0.0,
+        "expected_y_norm": 0.0,
+        "best_status": "Status_Poison",
+        "best_score": 0.9269987344741821,
+        "second_status": "Status_Bleed",
+        "second_score": 0.07300131022930145,
+        "margin": 0.8539974242448807,
+        "present_prob": 0.95,
+        "x_norm": 0.12762384550797648,
+        "y_norm": 0.6360544217687075,
+        "method": "icon_recognizer_v4_gh_raw_alt:models",
+        "classifier_mode": "models",
+        "ranked": [
+          {
+            "status_type": "Status_Poison",
+            "score": 0.9269987344741821,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "status_type": "Status_Bleed",
+            "score": 0.07300131022930145,
+            "dx": 0,
+            "dy": 0
+          }
+        ]
+      },
+      "Great Church": {
+        "anchor_type": "Great Church",
+        "expected_x_norm": 0.0,
+        "expected_y_norm": 0.0,
+        "best_status": "Status_Sleep",
+        "best_score": 0.581151008605957,
+        "second_status": "Status_Lightning",
+        "second_score": 0.4188489615917206,
+        "margin": 0.16230204701423645,
+        "present_prob": 0.8,
+        "x_norm": 0.9605373635600336,
+        "y_norm": 0.3520408163265306,
+        "method": "icon_recognizer_v4_gh_raw_alt:models",
+        "classifier_mode": "models",
+        "ranked": [
+          {
+            "status_type": "Status_Sleep",
+            "score": 0.581151008605957,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "status_type": "Status_Lightning",
+            "score": 0.4188489615917206,
+            "dx": 0,
+            "dy": 0
+          }
+        ]
+      }
+    },
+    "great_hollow_model_layout_observations": {
+      "slot2_great_church_status": {
+        "spec_key": "slot2_great_church_status",
+        "kind": "status",
+        "source": "panel_raw",
+        "center_norm": [
+          0.82890625,
+          0.38046875
+        ],
+        "center_px": {
+          "x": 637,
+          "y": 292
+        },
+        "crop_size": 200,
+        "model_path": "Testing\\slot_2\\slot2_status_cnn.pt",
+        "module_path": "Testing\\slot_2\\layout_classifier_lib.py",
+        "class_names": [
+          "Great_Church_Lightning",
+          "Great_Church_Sleep"
+        ],
+        "best_label": "Great_Church_Lightning",
+        "best_prob": 0.5894849896430969,
+        "second_label": "Great_Church_Sleep",
+        "second_prob": 0.41051504015922546,
+        "margin": 0.17896994948387146,
+        "ranking": [
+          {
+            "label": "Great_Church_Lightning",
+            "probability": 0.5894849896430969
+          },
+          {
+            "label": "Great_Church_Sleep",
+            "probability": 0.41051504015922546
+          }
+        ],
+        "weight": 0.14,
+        "anchor_type": "Great Church",
+        "predicted_status": "Status_Lightning"
+      },
+      "palace_status": {
+        "spec_key": "palace_status",
+        "kind": "status",
+        "source": "gh_asym_legacy",
+        "center_norm": [
+          0.2762384550797649,
+          0.21343537414965985
+        ],
+        "center_px": {
+          "x": 329,
+          "y": 251
+        },
+        "crop_size": 200,
+        "model_path": "Testing\\palace\\palace_status_cnn.pt",
+        "module_path": "Testing\\palace\\layout_classifier_lib.py",
+        "class_names": [
+          "Status_Fire",
+          "Status_Magic"
+        ],
+        "best_label": "Status_Magic",
+        "best_prob": 0.666836678981781,
+        "second_label": "Status_Fire",
+        "second_prob": 0.3331633508205414,
+        "margin": 0.3336733281612396,
+        "ranking": [
+          {
+            "label": "Status_Magic",
+            "probability": 0.666836678981781
+          },
+          {
+            "label": "Status_Fire",
+            "probability": 0.3331633508205414
+          }
+        ],
+        "weight": 0.12,
+        "anchor_type": "Palace",
+        "predicted_status": "Status_Magic"
+      },
+      "fortress_status": {
+        "spec_key": "fortress_status",
+        "kind": "status",
+        "source": "gh_asym_legacy",
+        "center_norm": [
+          0.7346767422334173,
+          0.7627551020408163
+        ],
+        "center_px": {
+          "x": 875,
+          "y": 897
+        },
+        "crop_size": 200,
+        "model_path": "Testing\\fortress\\fortress_status_cnn.pt",
+        "module_path": "Testing\\fortress\\layout_classifier_lib.py",
+        "class_names": [
+          "Status_Holy",
+          "Status_Rot"
+        ],
+        "best_label": "Status_Holy",
+        "best_prob": 0.5234915018081665,
+        "second_label": "Status_Rot",
+        "second_prob": 0.4765084981918335,
+        "margin": 0.04698300361633301,
+        "ranking": [
+          {
+            "label": "Status_Holy",
+            "probability": 0.5234915018081665
+          },
+          {
+            "label": "Status_Rot",
+            "probability": 0.4765084981918335
+          }
+        ],
+        "weight": 0.12,
+        "anchor_type": "Fortress",
+        "predicted_status": "Status_Holy"
+      },
+      "slot6_ruins_status": {
+        "spec_key": "slot6_ruins_status",
+        "kind": "status",
+        "source": "gh_asym_legacy",
+        "center_norm": [
+          0.12090680100755667,
+          0.6215986394557823
+        ],
+        "center_px": {
+          "x": 144,
+          "y": 731
+        },
+        "crop_size": 200,
+        "model_path": "Testing\\slot_6\\slot6_status_cnn.pt",
+        "module_path": "Testing\\slot_6\\layout_classifier_lib.py",
+        "class_names": [
+          "Ruins_Bleed",
+          "Ruins_Poison"
+        ],
+        "best_label": "Ruins_Poison",
+        "best_prob": 0.999902606010437,
+        "second_label": "Ruins_Bleed",
+        "second_prob": 9.736502397572622e-05,
+        "margin": 0.9998052409864613,
+        "ranking": [
+          {
+            "label": "Ruins_Poison",
+            "probability": 0.999902606010437
+          },
+          {
+            "label": "Ruins_Bleed",
+            "probability": 9.736502397572622e-05
+          }
+        ],
+        "weight": 0.1,
+        "anchor_type": "Ruins",
+        "predicted_status": "Status_Poison"
+      },
+      "slot4_minor": {
+        "spec_key": "slot4_minor",
+        "kind": "slot_label",
+        "source": "gh_asym_legacy",
+        "center_norm": [
+          0.6792611251049538,
+          0.5314625850340136
+        ],
+        "center_px": {
+          "x": 809,
+          "y": 625
+        },
+        "crop_size": 200,
+        "model_path": "Testing\\slot_4_plus_real_heavy\\slot4_status_cnn_plus_real_heavy.pt",
+        "module_path": "Testing\\slot_4\\layout_classifier_lib.py",
+        "class_names": [
+          "Church",
+          "empty",
+          "Sorcerer_s_Rise"
+        ],
+        "best_label": "Church",
+        "best_prob": 0.9999887943267822,
+        "second_label": "empty",
+        "second_prob": 8.43004909256706e-06,
+        "margin": 0.9999803642776897,
+        "ranking": [
+          {
+            "label": "Church",
+            "probability": 0.9999887943267822
+          },
+          {
+            "label": "empty",
+            "probability": 8.43004909256706e-06
+          },
+          {
+            "label": "Sorcerer_s_Rise",
+            "probability": 2.78887341664813e-06
+          }
+        ],
+        "weight": 0.08,
+        "slot_id": 4,
+        "predicted_slot_label": "church"
+      },
+      "slot5_minor": {
+        "spec_key": "slot5_minor",
+        "kind": "slot_label",
+        "source": "gh_asym_legacy",
+        "center_norm": [
+          0.27204030226700254,
+          0.5348639455782312
+        ],
+        "center_px": {
+          "x": 324,
+          "y": 629
+        },
+        "crop_size": 200,
+        "model_path": "Testing\\slot_5_plus_real_heavy\\slot5_status_cnn_plus_real_heavy.pt",
+        "module_path": "Testing\\slot_5\\layout_classifier_lib.py",
+        "class_names": [
+          "Church",
+          "empty",
+          "Sorcerer_s_Rise"
+        ],
+        "best_label": "Sorcerer_s_Rise",
+        "best_prob": 0.9787096977233887,
+        "second_label": "Church",
+        "second_prob": 0.020636966452002525,
+        "margin": 0.9580727312713861,
+        "ranking": [
+          {
+            "label": "Sorcerer_s_Rise",
+            "probability": 0.9787096977233887
+          },
+          {
+            "label": "Church",
+            "probability": 0.020636966452002525
+          },
+          {
+            "label": "empty",
+            "probability": 0.000653357885312289
+          }
+        ],
+        "weight": 0.08,
+        "slot_id": 5,
+        "predicted_slot_label": "sorcerers rise"
+      },
+      "slot7_minor": {
+        "spec_key": "slot7_minor",
+        "kind": "slot_label",
+        "source": "gh_asym_legacy",
+        "center_norm": [
+          0.28463476070528965,
+          0.9226190476190477
+        ],
+        "center_px": {
+          "x": 339,
+          "y": 1085
+        },
+        "crop_size": 200,
+        "model_path": "Testing\\slot_7_plus_real_heavy\\slot7_status_cnn_plus_real_heavy.pt",
+        "module_path": "Testing\\slot_7\\layout_classifier_lib.py",
+        "class_names": [
+          "Church",
+          "empty",
+          "Sorcerer_s_Rise"
+        ],
+        "best_label": "Church",
+        "best_prob": 0.9899489879608154,
+        "second_label": "empty",
+        "second_prob": 0.007948449812829494,
+        "margin": 0.9820005381479859,
+        "ranking": [
+          {
+            "label": "Church",
+            "probability": 0.9899489879608154
+          },
+          {
+            "label": "empty",
+            "probability": 0.007948449812829494
+          },
+          {
+            "label": "Sorcerer_s_Rise",
+            "probability": 0.0021025794558227062
+          }
+        ],
+        "weight": 0.08,
+        "slot_id": 7,
+        "predicted_slot_label": "church"
+      }
+    }
+  },
+  {
+    "file": "Screenshot (137).png",
+    "candidate_earth": "Great Hollow",
+    "top_layout": {
+      "layout_number": 1076,
+      "earth": "Great Hollow",
+      "score": -1.2500037223637
+    },
+    "slots": [
+      {
+        "slot_id": 1,
+        "slot_name": "slot_01",
+        "label": "Church",
+        "best_prob": 0.6656900308738315,
+        "margin": 0.331380061747663
+      },
+      {
+        "slot_id": 2,
+        "slot_name": "slot_02",
+        "label": "empty",
+        "best_prob": 0.8245999805817259,
+        "margin": 0.6491999611634518
+      },
+      {
+        "slot_id": 3,
+        "slot_name": "slot_03",
+        "label": "Church",
+        "best_prob": 0.9979441992265787,
+        "margin": 0.9958883984531575
+      },
+      {
+        "slot_id": 4,
+        "slot_name": "slot_04",
+        "label": "empty",
+        "best_prob": 0.9999999999989999,
+        "margin": 0.9999999999980056
+      },
+      {
+        "slot_id": 5,
+        "slot_name": "slot_05",
+        "label": "Church",
+        "best_prob": 0.9994115853956085,
+        "margin": 0.999084692527885
+      },
+      {
+        "slot_id": 6,
+        "slot_name": "slot_06",
+        "label": "Ruins",
+        "best_prob": 0.9999967537234346,
+        "margin": 0.9999935074468691
+      },
+      {
+        "slot_id": 7,
+        "slot_name": "slot_07",
+        "label": "empty",
+        "best_prob": 0.9997208610447937,
+        "margin": 0.9995034708304258
+      }
+    ],
+    "great_hollow_statuses": {
+      "Palace": {
+        "anchor_type": "Palace",
+        "expected_x_norm": 0.328125,
+        "expected_y_norm": 0.28046875,
+        "best_status": "Status_Magic",
+        "best_score": 0.528770923614502,
+        "second_status": "Status_Fire",
+        "second_score": 0.47122904658317566,
+        "margin": 0.057541877031326294,
+        "present_prob": 0.6,
+        "x_norm": 0.2682619647355164,
+        "y_norm": 0.20280612244897958,
+        "method": "icon_recognizer_v4_gh_raw_alt:models",
+        "classifier_mode": "models",
+        "ranked": [
+          {
+            "status_type": "Status_Magic",
+            "score": 0.528770923614502,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "status_type": "Status_Fire",
+            "score": 0.47122904658317566,
+            "dx": 0,
+            "dy": 0
+          }
+        ]
+      },
+      "Fortress": {
+        "anchor_type": "Fortress",
+        "expected_x_norm": 0.68359375,
+        "expected_y_norm": 0.7015625,
+        "best_status": "Status_Rot",
+        "best_score": 0.5011040568351746,
+        "second_status": "Status_Holy",
+        "second_score": 0.4988959729671478,
+        "margin": 0.0022080838680267334,
+        "present_prob": 0.6,
+        "x_norm": 0.7342569269521411,
+        "y_norm": 0.7555272108843537,
+        "method": "icon_recognizer_v4_gh_raw_alt:models",
+        "classifier_mode": "models",
+        "ranked": [
+          {
+            "status_type": "Status_Rot",
+            "score": 0.5011040568351746,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "status_type": "Status_Holy",
+            "score": 0.4988959729671478,
+            "dx": 0,
+            "dy": 0
+          }
+        ]
+      },
+      "Ruins": {
+        "anchor_type": "Ruins",
+        "expected_x_norm": 0.0,
+        "expected_y_norm": 0.0,
+        "best_status": "Status_Poison",
+        "best_score": 0.9016337990760803,
+        "second_status": "Status_Bleed",
+        "second_score": 0.0983661413192749,
+        "margin": 0.8032676577568054,
+        "present_prob": 0.95,
+        "x_norm": 0.12762384550797648,
+        "y_norm": 0.6360544217687075,
+        "method": "icon_recognizer_v4_gh_raw_alt:models",
+        "classifier_mode": "models",
+        "ranked": [
+          {
+            "status_type": "Status_Poison",
+            "score": 0.9016337990760803,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "status_type": "Status_Bleed",
+            "score": 0.0983661413192749,
+            "dx": 0,
+            "dy": 0
+          }
+        ]
+      },
+      "Great Church": {
+        "anchor_type": "Great Church",
+        "expected_x_norm": 0.0,
+        "expected_y_norm": 0.0,
+        "best_status": "Status_Lightning",
+        "best_score": 0.570410966873169,
+        "second_status": "Status_Sleep",
+        "second_score": 0.42958903312683105,
+        "margin": 0.1408219337463379,
+        "present_prob": 0.8,
+        "x_norm": 0.9554995801847187,
+        "y_norm": 0.3664965986394558,
+        "method": "icon_recognizer_v4_gh_raw_alt:models",
+        "classifier_mode": "models",
+        "ranked": [
+          {
+            "status_type": "Status_Lightning",
+            "score": 0.570410966873169,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "status_type": "Status_Sleep",
+            "score": 0.42958903312683105,
+            "dx": 0,
+            "dy": 0
+          }
+        ]
+      }
+    },
+    "great_hollow_model_layout_observations": {
+      "slot2_great_church_status": {
+        "spec_key": "slot2_great_church_status",
+        "kind": "status",
+        "source": "panel_raw",
+        "center_norm": [
+          0.82890625,
+          0.38046875
+        ],
+        "center_px": {
+          "x": 618,
+          "y": 284
+        },
+        "crop_size": 200,
+        "model_path": "Testing\\slot_2\\slot2_status_cnn.pt",
+        "module_path": "Testing\\slot_2\\layout_classifier_lib.py",
+        "class_names": [
+          "Great_Church_Lightning",
+          "Great_Church_Sleep"
+        ],
+        "best_label": "Great_Church_Sleep",
+        "best_prob": 0.5926765203475952,
+        "second_label": "Great_Church_Lightning",
+        "second_prob": 0.40732353925704956,
+        "margin": 0.18535298109054565,
+        "ranking": [
+          {
+            "label": "Great_Church_Sleep",
+            "probability": 0.5926765203475952
+          },
+          {
+            "label": "Great_Church_Lightning",
+            "probability": 0.40732353925704956
+          }
+        ],
+        "weight": 0.14,
+        "anchor_type": "Great Church",
+        "predicted_status": "Status_Sleep"
+      },
+      "palace_status": {
+        "spec_key": "palace_status",
+        "kind": "status",
+        "source": "gh_asym_legacy",
+        "center_norm": [
+          0.2762384550797649,
+          0.21343537414965985
+        ],
+        "center_px": {
+          "x": 329,
+          "y": 251
+        },
+        "crop_size": 200,
+        "model_path": "Testing\\palace\\palace_status_cnn.pt",
+        "module_path": "Testing\\palace\\layout_classifier_lib.py",
+        "class_names": [
+          "Status_Fire",
+          "Status_Magic"
+        ],
+        "best_label": "Status_Fire",
+        "best_prob": 0.5726384520530701,
+        "second_label": "Status_Magic",
+        "second_prob": 0.42736154794692993,
+        "margin": 0.14527690410614014,
+        "ranking": [
+          {
+            "label": "Status_Fire",
+            "probability": 0.5726384520530701
+          },
+          {
+            "label": "Status_Magic",
+            "probability": 0.42736154794692993
+          }
+        ],
+        "weight": 0.12,
+        "anchor_type": "Palace",
+        "predicted_status": "Status_Fire"
+      },
+      "fortress_status": {
+        "spec_key": "fortress_status",
+        "kind": "status",
+        "source": "gh_asym_legacy",
+        "center_norm": [
+          0.7346767422334173,
+          0.7627551020408163
+        ],
+        "center_px": {
+          "x": 875,
+          "y": 897
+        },
+        "crop_size": 200,
+        "model_path": "Testing\\fortress\\fortress_status_cnn.pt",
+        "module_path": "Testing\\fortress\\layout_classifier_lib.py",
+        "class_names": [
+          "Status_Holy",
+          "Status_Rot"
+        ],
+        "best_label": "Status_Holy",
+        "best_prob": 0.5237365961074829,
+        "second_label": "Status_Rot",
+        "second_prob": 0.47626346349716187,
+        "margin": 0.047473132610321045,
+        "ranking": [
+          {
+            "label": "Status_Holy",
+            "probability": 0.5237365961074829
+          },
+          {
+            "label": "Status_Rot",
+            "probability": 0.47626346349716187
+          }
+        ],
+        "weight": 0.12,
+        "anchor_type": "Fortress",
+        "predicted_status": "Status_Holy"
+      },
+      "slot6_ruins_status": {
+        "spec_key": "slot6_ruins_status",
+        "kind": "status",
+        "source": "gh_asym_legacy",
+        "center_norm": [
+          0.12090680100755667,
+          0.6215986394557823
+        ],
+        "center_px": {
+          "x": 144,
+          "y": 731
+        },
+        "crop_size": 200,
+        "model_path": "Testing\\slot_6\\slot6_status_cnn.pt",
+        "module_path": "Testing\\slot_6\\layout_classifier_lib.py",
+        "class_names": [
+          "Ruins_Bleed",
+          "Ruins_Poison"
+        ],
+        "best_label": "Ruins_Poison",
+        "best_prob": 0.9216342568397522,
+        "second_label": "Ruins_Bleed",
+        "second_prob": 0.0783657655119896,
+        "margin": 0.8432684913277626,
+        "ranking": [
+          {
+            "label": "Ruins_Poison",
+            "probability": 0.9216342568397522
+          },
+          {
+            "label": "Ruins_Bleed",
+            "probability": 0.0783657655119896
+          }
+        ],
+        "weight": 0.1,
+        "anchor_type": "Ruins",
+        "predicted_status": "Status_Poison"
+      },
+      "slot4_minor": {
+        "spec_key": "slot4_minor",
+        "kind": "slot_label",
+        "source": "gh_asym_legacy",
+        "center_norm": [
+          0.6792611251049538,
+          0.5314625850340136
+        ],
+        "center_px": {
+          "x": 809,
+          "y": 625
+        },
+        "crop_size": 200,
+        "model_path": "Testing\\slot_4_plus_real_heavy\\slot4_status_cnn_plus_real_heavy.pt",
+        "module_path": "Testing\\slot_4\\layout_classifier_lib.py",
+        "class_names": [
+          "Church",
+          "empty",
+          "Sorcerer_s_Rise"
+        ],
+        "best_label": "Church",
+        "best_prob": 0.5672963857650757,
+        "second_label": "Sorcerer_s_Rise",
+        "second_prob": 0.4071810245513916,
+        "margin": 0.16011536121368408,
+        "ranking": [
+          {
+            "label": "Church",
+            "probability": 0.5672963857650757
+          },
+          {
+            "label": "Sorcerer_s_Rise",
+            "probability": 0.4071810245513916
+          },
+          {
+            "label": "empty",
+            "probability": 0.025522569194436073
+          }
+        ],
+        "weight": 0.08,
+        "slot_id": 4,
+        "predicted_slot_label": "church"
+      },
+      "slot5_minor": {
+        "spec_key": "slot5_minor",
+        "kind": "slot_label",
+        "source": "gh_asym_legacy",
+        "center_norm": [
+          0.27204030226700254,
+          0.5348639455782312
+        ],
+        "center_px": {
+          "x": 324,
+          "y": 629
+        },
+        "crop_size": 200,
+        "model_path": "Testing\\slot_5_plus_real_heavy\\slot5_status_cnn_plus_real_heavy.pt",
+        "module_path": "Testing\\slot_5\\layout_classifier_lib.py",
+        "class_names": [
+          "Church",
+          "empty",
+          "Sorcerer_s_Rise"
+        ],
+        "best_label": "Church",
+        "best_prob": 0.9989013671875,
+        "second_label": "Sorcerer_s_Rise",
+        "second_prob": 0.0010339664295315742,
+        "margin": 0.9978674007579684,
+        "ranking": [
+          {
+            "label": "Church",
+            "probability": 0.9989013671875
+          },
+          {
+            "label": "Sorcerer_s_Rise",
+            "probability": 0.0010339664295315742
+          },
+          {
+            "label": "empty",
+            "probability": 6.469750951509923e-05
+          }
+        ],
+        "weight": 0.08,
+        "slot_id": 5,
+        "predicted_slot_label": "church"
+      },
+      "slot7_minor": {
+        "spec_key": "slot7_minor",
+        "kind": "slot_label",
+        "source": "gh_asym_legacy",
+        "center_norm": [
+          0.28463476070528965,
+          0.9226190476190477
+        ],
+        "center_px": {
+          "x": 339,
+          "y": 1085
+        },
+        "crop_size": 200,
+        "model_path": "Testing\\slot_7_plus_real_heavy\\slot7_status_cnn_plus_real_heavy.pt",
+        "module_path": "Testing\\slot_7\\layout_classifier_lib.py",
+        "class_names": [
+          "Church",
+          "empty",
+          "Sorcerer_s_Rise"
+        ],
+        "best_label": "Church",
+        "best_prob": 0.6185714602470398,
+        "second_label": "empty",
+        "second_prob": 0.3739683926105499,
+        "margin": 0.24460306763648987,
+        "ranking": [
+          {
+            "label": "Church",
+            "probability": 0.6185714602470398
+          },
+          {
+            "label": "empty",
+            "probability": 0.3739683926105499
+          },
+          {
+            "label": "Sorcerer_s_Rise",
+            "probability": 0.007460118271410465
+          }
+        ],
+        "weight": 0.08,
+        "slot_id": 7,
+        "predicted_slot_label": "church"
+      }
+    }
+  }
+]

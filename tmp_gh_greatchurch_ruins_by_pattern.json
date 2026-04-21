@@ -1,0 +1,3602 @@
+[
+  {
+    "patternId": 1005,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 100258,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 100260,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 100261,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1006,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 100299,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 100301,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 100302,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1007,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 100343,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 100345,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 100346,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1008,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 100383,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 100385,
+        "location": "Great Church",
+        "variation": "Abductor Virgins",
+        "map_name": "Great Church - Abductor Virgins",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 100386,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1009,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 100424,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 100426,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 100427,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1015,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 100729,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 100731,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 100732,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1016,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 100774,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 100776,
+        "location": "Great Church",
+        "variation": "Abductor Virgins",
+        "map_name": "Great Church - Abductor Virgins",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 100777,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1017,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 100815,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 100817,
+        "location": "Great Church",
+        "variation": "Abductor Virgins",
+        "map_name": "Great Church - Abductor Virgins",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 100818,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1018,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 100856,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 100858,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 100859,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1019,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 100897,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 100899,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 100900,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1025,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 101206,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 101208,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 101209,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1026,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 101247,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 101249,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 101250,
+        "location": "Ruins",
+        "variation": "Bloodbane Giant Crows + Chief Bloodfiend",
+        "map_name": "Ruins - Bloodbane Giant Crows + Chief Bloodfiend",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1027,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 101287,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 101289,
+        "location": "Great Church",
+        "variation": "Abductor Virgins",
+        "map_name": "Great Church - Abductor Virgins",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 101290,
+        "location": "Ruins",
+        "variation": "Bloodbane Giant Crows + Chief Bloodfiend",
+        "map_name": "Ruins - Bloodbane Giant Crows + Chief Bloodfiend",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1028,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 101332,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 101334,
+        "location": "Great Church",
+        "variation": "Abductor Virgins",
+        "map_name": "Great Church - Abductor Virgins",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 101335,
+        "location": "Ruins",
+        "variation": "Bloodbane Giant Crows + Chief Bloodfiend",
+        "map_name": "Ruins - Bloodbane Giant Crows + Chief Bloodfiend",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1029,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 101374,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 101376,
+        "location": "Great Church",
+        "variation": "Abductor Virgins",
+        "map_name": "Great Church - Abductor Virgins",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 101377,
+        "location": "Ruins",
+        "variation": "Bloodbane Giant Crows + Chief Bloodfiend",
+        "map_name": "Ruins - Bloodbane Giant Crows + Chief Bloodfiend",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1035,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 101664,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 101666,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 101667,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1036,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 101706,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 101708,
+        "location": "Great Church",
+        "variation": "Abductor Virgins",
+        "map_name": "Great Church - Abductor Virgins",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 101709,
+        "location": "Ruins",
+        "variation": "Bloodbane Giant Crows + Chief Bloodfiend",
+        "map_name": "Ruins - Bloodbane Giant Crows + Chief Bloodfiend",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1037,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 101746,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 101748,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 101749,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1038,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 101790,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 101792,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 101793,
+        "location": "Ruins",
+        "variation": "Bloodbane Giant Crows + Chief Bloodfiend",
+        "map_name": "Ruins - Bloodbane Giant Crows + Chief Bloodfiend",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1039,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 101833,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 101835,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 101836,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1045,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 102119,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 102121,
+        "location": "Great Church",
+        "variation": "Abductor Virgins",
+        "map_name": "Great Church - Abductor Virgins",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 102122,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1046,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 102162,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 102164,
+        "location": "Great Church",
+        "variation": "Abductor Virgins",
+        "map_name": "Great Church - Abductor Virgins",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 102165,
+        "location": "Ruins",
+        "variation": "Bloodbane Giant Crows + Chief Bloodfiend",
+        "map_name": "Ruins - Bloodbane Giant Crows + Chief Bloodfiend",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1047,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 102202,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 102204,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 102205,
+        "location": "Ruins",
+        "variation": "Bloodbane Giant Crows + Chief Bloodfiend",
+        "map_name": "Ruins - Bloodbane Giant Crows + Chief Bloodfiend",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1048,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 102243,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 102245,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 102246,
+        "location": "Ruins",
+        "variation": "Bloodbane Giant Crows + Chief Bloodfiend",
+        "map_name": "Ruins - Bloodbane Giant Crows + Chief Bloodfiend",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1049,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 102284,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 102286,
+        "location": "Great Church",
+        "variation": "Abductor Virgins",
+        "map_name": "Great Church - Abductor Virgins",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 102287,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1055,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 102570,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 102572,
+        "location": "Great Church",
+        "variation": "Abductor Virgins",
+        "map_name": "Great Church - Abductor Virgins",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 102573,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1056,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 102614,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 102616,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 102617,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1057,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 102656,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 102658,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 102659,
+        "location": "Ruins",
+        "variation": "Bloodbane Giant Crows + Chief Bloodfiend",
+        "map_name": "Ruins - Bloodbane Giant Crows + Chief Bloodfiend",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1058,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 102699,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 102701,
+        "location": "Great Church",
+        "variation": "Abductor Virgins",
+        "map_name": "Great Church - Abductor Virgins",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 102702,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1059,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 102740,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 102742,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 102743,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1065,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 103026,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 103028,
+        "location": "Great Church",
+        "variation": "Abductor Virgins",
+        "map_name": "Great Church - Abductor Virgins",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 103029,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1066,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 103067,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 103069,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 103070,
+        "location": "Ruins",
+        "variation": "Bloodbane Giant Crows + Chief Bloodfiend",
+        "map_name": "Ruins - Bloodbane Giant Crows + Chief Bloodfiend",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1067,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 103111,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 103113,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 103114,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1068,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 103155,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 103157,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 103158,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1069,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 103195,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 103197,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 103198,
+        "location": "Ruins",
+        "variation": "Bloodbane Giant Crows + Chief Bloodfiend",
+        "map_name": "Ruins - Bloodbane Giant Crows + Chief Bloodfiend",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1075,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 103490,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 103492,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 103493,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1076,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 103530,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 103532,
+        "location": "Great Church",
+        "variation": "Abductor Virgins",
+        "map_name": "Great Church - Abductor Virgins",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 103533,
+        "location": "Ruins",
+        "variation": "Bloodbane Giant Crows + Chief Bloodfiend",
+        "map_name": "Ruins - Bloodbane Giant Crows + Chief Bloodfiend",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1077,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 103570,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 103572,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 103573,
+        "location": "Ruins",
+        "variation": "Bloodbane Giant Crows + Chief Bloodfiend",
+        "map_name": "Ruins - Bloodbane Giant Crows + Chief Bloodfiend",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1078,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 103613,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 103615,
+        "location": "Great Church",
+        "variation": "Abductor Virgins",
+        "map_name": "Great Church - Abductor Virgins",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 103616,
+        "location": "Ruins",
+        "variation": "Bloodbane Giant Crows + Chief Bloodfiend",
+        "map_name": "Ruins - Bloodbane Giant Crows + Chief Bloodfiend",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1079,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 103654,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 103656,
+        "location": "Great Church",
+        "variation": "Abductor Virgins",
+        "map_name": "Great Church - Abductor Virgins",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 103657,
+        "location": "Ruins",
+        "variation": "Bloodbane Giant Crows + Chief Bloodfiend",
+        "map_name": "Ruins - Bloodbane Giant Crows + Chief Bloodfiend",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1115,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 105397,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 105399,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 105400,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1116,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 105439,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 105441,
+        "location": "Great Church",
+        "variation": "Abductor Virgins",
+        "map_name": "Great Church - Abductor Virgins",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 105442,
+        "location": "Ruins",
+        "variation": "Bloodbane Giant Crows + Chief Bloodfiend",
+        "map_name": "Ruins - Bloodbane Giant Crows + Chief Bloodfiend",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1117,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 105483,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 105485,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 105486,
+        "location": "Ruins",
+        "variation": "Bloodbane Giant Crows + Chief Bloodfiend",
+        "map_name": "Ruins - Bloodbane Giant Crows + Chief Bloodfiend",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1118,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 105525,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 105527,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 105528,
+        "location": "Ruins",
+        "variation": "Bloodbane Giant Crows + Chief Bloodfiend",
+        "map_name": "Ruins - Bloodbane Giant Crows + Chief Bloodfiend",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1119,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 105566,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 105568,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 105569,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1120,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 105610,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 105612,
+        "location": "Great Church",
+        "variation": "Abductor Virgins",
+        "map_name": "Great Church - Abductor Virgins",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 105613,
+        "location": "Ruins",
+        "variation": "Bloodbane Giant Crows + Chief Bloodfiend",
+        "map_name": "Ruins - Bloodbane Giant Crows + Chief Bloodfiend",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1121,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 105652,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 105654,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 105655,
+        "location": "Ruins",
+        "variation": "Bloodbane Giant Crows + Chief Bloodfiend",
+        "map_name": "Ruins - Bloodbane Giant Crows + Chief Bloodfiend",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1122,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 105692,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 105694,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 105695,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1123,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 105732,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 105734,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 105735,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1124,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 105772,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 105774,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 105775,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1125,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 105813,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 105815,
+        "location": "Great Church",
+        "variation": "Abductor Virgins",
+        "map_name": "Great Church - Abductor Virgins",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 105816,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1126,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 105858,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 105860,
+        "location": "Great Church",
+        "variation": "Abductor Virgins",
+        "map_name": "Great Church - Abductor Virgins",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 105861,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1127,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 105901,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 105903,
+        "location": "Great Church",
+        "variation": "Abductor Virgins",
+        "map_name": "Great Church - Abductor Virgins",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 105904,
+        "location": "Ruins",
+        "variation": "Bloodbane Giant Crows + Chief Bloodfiend",
+        "map_name": "Ruins - Bloodbane Giant Crows + Chief Bloodfiend",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1128,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 105942,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 105944,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 105945,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1129,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 105983,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 105985,
+        "location": "Great Church",
+        "variation": "Abductor Virgins",
+        "map_name": "Great Church - Abductor Virgins",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 105986,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1130,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 106026,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 106028,
+        "location": "Great Church",
+        "variation": "Abductor Virgins",
+        "map_name": "Great Church - Abductor Virgins",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 106029,
+        "location": "Ruins",
+        "variation": "Bloodbane Giant Crows + Chief Bloodfiend",
+        "map_name": "Ruins - Bloodbane Giant Crows + Chief Bloodfiend",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1131,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 106067,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 106069,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 106070,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1132,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 106112,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 106114,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 106115,
+        "location": "Ruins",
+        "variation": "Bloodbane Giant Crows + Chief Bloodfiend",
+        "map_name": "Ruins - Bloodbane Giant Crows + Chief Bloodfiend",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1133,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 106156,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 106158,
+        "location": "Great Church",
+        "variation": "Abductor Virgins",
+        "map_name": "Great Church - Abductor Virgins",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 106159,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1134,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 106201,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 106203,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 106204,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1175,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 108079,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 108081,
+        "location": "Great Church",
+        "variation": "Abductor Virgins",
+        "map_name": "Great Church - Abductor Virgins",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 108082,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1176,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 108120,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 108122,
+        "location": "Great Church",
+        "variation": "Abductor Virgins",
+        "map_name": "Great Church - Abductor Virgins",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 108123,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1177,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 108163,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 108165,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 108166,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1178,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 108203,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 108205,
+        "location": "Great Church",
+        "variation": "Abductor Virgins",
+        "map_name": "Great Church - Abductor Virgins",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 108206,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1179,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 108246,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 108248,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 108249,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1180,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 108290,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 108292,
+        "location": "Great Church",
+        "variation": "Abductor Virgins",
+        "map_name": "Great Church - Abductor Virgins",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 108293,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1181,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 108334,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 108336,
+        "location": "Great Church",
+        "variation": "Abductor Virgins",
+        "map_name": "Great Church - Abductor Virgins",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 108337,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1182,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 108376,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 108378,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 108379,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1183,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 108416,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 108418,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 108419,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1184,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 108456,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 108458,
+        "location": "Great Church",
+        "variation": "Abductor Virgins",
+        "map_name": "Great Church - Abductor Virgins",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 108459,
+        "location": "Ruins",
+        "variation": "Bloodbane Giant Crows + Chief Bloodfiend",
+        "map_name": "Ruins - Bloodbane Giant Crows + Chief Bloodfiend",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1185,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 108498,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 108500,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 108501,
+        "location": "Ruins",
+        "variation": "Bloodbane Giant Crows + Chief Bloodfiend",
+        "map_name": "Ruins - Bloodbane Giant Crows + Chief Bloodfiend",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1186,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 108539,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 108541,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 108542,
+        "location": "Ruins",
+        "variation": "Bloodbane Giant Crows + Chief Bloodfiend",
+        "map_name": "Ruins - Bloodbane Giant Crows + Chief Bloodfiend",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1187,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 108583,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 108585,
+        "location": "Great Church",
+        "variation": "Abductor Virgins",
+        "map_name": "Great Church - Abductor Virgins",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 108586,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1188,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 108627,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 108629,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 108630,
+        "location": "Ruins",
+        "variation": "Bloodbane Giant Crows + Chief Bloodfiend",
+        "map_name": "Ruins - Bloodbane Giant Crows + Chief Bloodfiend",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1189,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 108672,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 108674,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 108675,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1190,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 108712,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 108714,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 108715,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1191,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 108754,
+        "location": "Great Church",
+        "variation": "Ancient Heroes of Zamor",
+        "map_name": "Great Church - Ancient Heroes of Zamor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 108756,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 108757,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1192,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 108794,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 108796,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 108797,
+        "location": "Ruins",
+        "variation": "Bloodbane Giant Crows + Chief Bloodfiend",
+        "map_name": "Ruins - Bloodbane Giant Crows + Chief Bloodfiend",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1193,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 108838,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 108840,
+        "location": "Great Church",
+        "variation": "Nox Warriors",
+        "map_name": "Great Church - Nox Warriors",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 108841,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  },
+  {
+    "patternId": 1194,
+    "rareMap": "Great Hollow",
+    "great_church_or_ruins_rows": [
+      {
+        "row_id": 108880,
+        "location": "Great Church",
+        "variation": "Inquisitor",
+        "map_name": "Great Church - Inquisitor",
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "modifier": 0
+      },
+      {
+        "row_id": 108882,
+        "location": "Great Church",
+        "variation": "Abductor Virgins",
+        "map_name": "Great Church - Abductor Virgins",
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "modifier": 0
+      },
+      {
+        "row_id": 108883,
+        "location": "Ruins",
+        "variation": "Curseblade + Spider Scorpions",
+        "map_name": "Ruins - Curseblade + Spider Scorpions",
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "modifier": 0
+      }
+    ]
+  }
+]

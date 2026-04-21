@@ -1,0 +1,90 @@
+Display directory: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\renders\recognizer_with_text
+Log file: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\recognition.log
+Selected display: Display 1 — 3840x2160 @ (0,0)
+Loaded tuned proto backend: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\recognize_nightreign_map_proto_v12_debugplus_radiusscale_fix.py
+Using tuned config path: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\nightreign_best_tuned_config_multi.json
+Using slot package path: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\nightreign_geom_proto_v4_slots.npz
+Using AI slot model path: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\slot_ai_test_output_dlc_no_text_nobalance\slot_patch_model_v1.pt
+Loaded AI slot model: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\slot_ai_test_output_dlc_no_text_nobalance\slot_patch_model_v1.pt
+AI device: cuda
+AI model patch_size=96 context_scale=1.8 min_half_frac=0.075
+Using AI earth model path: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\earth_ai_test_output_no_text_prepped\earth_panel_model_v1.pt
+Loaded AI earth model: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\earth_ai_test_output_no_text_prepped\earth_panel_model_v1.pt
+AI earth panel_size=256
+Using AI confidence_threshold=0.550
+Using AI margin_threshold=0.080
+Using trained AI slot classifier for slot recognition.
+Using pre-captured first screenshot from dual-shot trigger.
+[START] Run AI slot recognizer
+Using earth_selector_v2 script path: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\Train_Earth_Selector_v2\infer_earth_selector_v2.py
+Using earth_selector_v2 model path: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\Train_Earth_Selector_v2\earth_selector_v2_model_all520_plus_new.pkl
+Loaded earth_selector_v2 model: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\Train_Earth_Selector_v2\earth_selector_v2_model_all520_plus_new.pkl
+Using earth_selector_v2 model for Shifting Earth ranking.
+Shifting Earth ranking:
+  Rotted Woods   score=0.197433 low_corr=0.0000 grad_corr=0.0000 source=earth_selector_v2
+  Limveld        score=0.189257 low_corr=0.0000 grad_corr=0.0000 source=earth_selector_v2
+  Mountaintop    score=0.185608 low_corr=0.0000 grad_corr=0.0000 source=earth_selector_v2
+  Noklateo       score=0.179035 low_corr=0.0000 grad_corr=0.0000 source=earth_selector_v2
+  The Crater     score=0.172283 low_corr=0.0000 grad_corr=0.0000 source=earth_selector_v2
+Earth cascade selection is disabled by default; using raw top Shifting Earth for family selection.
+AI slots for earth Rotted Woods: dx=-0.0002 dy=+0.0500 resp=0.0636 unknown=0/21
+Geometry prior for Rotted Woods: slot_count=21 align=0.0636 prior=+0.0000
+Evergaol prior for Rotted Woods: prior=+0.2179
+Great Hollow status Palace: best=Status_Magic score=0.6680 margin=0.5631
+Great Hollow status Fortress: best=Status_Holy score=0.6334 margin=0.0799
+Great Hollow status Ruins: best=Status_Poison score=0.6306 margin=0.0834
+Great Hollow status Great Church: best=Status_Sleep score=0.7407 margin=0.6711
+Shifting Earth cascade selection disabled (enable with NR_ENABLE_EARTH_CASCADE=1).
+Restricting layout ranking to Rotted Woods family from earth_selector_v2.
+Loaded layout infer classifier for Rotted Woods: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\tmp_rotted_woods_both_crops_L256_R256_T256_B256\further_crop_1024\layout_model.pkl
+Layout infer for Rotted Woods: unknown-gated pattern=1171 margin=0.3187 conf=0.9184 latency=90.23ms
+[DONE] Run AI slot recognizer (10.024s)
+Saved AI slot debug image to c:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\tmp_runtime\compat_tempdirs\nightreign_gui_ai_b492cd4952\recognition_panel_used_with_slot_labels_ai.png
+Saved Evergaol debug image to c:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\tmp_runtime\compat_tempdirs\nightreign_gui_ai_b492cd4952\recognition_panel_used_with_evergaol_debug.png
+
+Top 20 layout matches:
+  1. layout #72 earth=Rotted Woods score=-3.891971 earth_score=0.197433 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=11.35 mismW=21.79 unkW=0.00
+  2. layout #70 earth=Rotted Woods score=-4.222964 earth_score=0.197433 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=14.52 mismW=18.62 unkW=0.00
+  3. layout #111 earth=Rotted Woods score=-4.568242 earth_score=0.197433 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=12.81 mismW=20.33 unkW=0.00
+  4. layout #34 earth=Rotted Woods score=-4.697970 earth_score=0.197433 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=12.95 mismW=20.19 unkW=0.00
+  5. layout #154 earth=Rotted Woods score=-4.711976 earth_score=0.197433 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=8.12 mismW=25.02 unkW=0.00
+  6. layout #312 earth=Rotted Woods score=-4.735815 earth_score=0.197433 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=11.32 mismW=21.82 unkW=0.00
+  7. layout #191 earth=Rotted Woods score=-5.364417 earth_score=0.197433 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=11.27 mismW=21.87 unkW=0.00
+  8. layout #273 earth=Rotted Woods score=-5.378659 earth_score=0.197433 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=11.24 mismW=21.90 unkW=0.00
+  9. layout #314 earth=Rotted Woods score=-5.421018 earth_score=0.197433 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=6.46 mismW=26.68 unkW=0.00
+  10. layout #311 earth=Rotted Woods score=-5.445273 earth_score=0.197433 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=9.63 mismW=23.51 unkW=0.00
+  11. layout #30 earth=Rotted Woods score=-5.529333 earth_score=0.197433 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0012 exactW=9.70 mismW=23.44 unkW=0.00
+  12. layout #192 earth=Rotted Woods score=-5.539868 earth_score=0.197433 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=4.92 mismW=28.22 unkW=0.00
+  13. layout #152 earth=Rotted Woods score=-5.599775 earth_score=0.197433 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=12.96 mismW=20.18 unkW=0.00
+  14. layout #151 earth=Rotted Woods score=-5.802524 earth_score=0.197433 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=4.74 mismW=28.41 unkW=0.00
+  15. layout #270 earth=Rotted Woods score=-5.962351 earth_score=0.197433 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0009 exactW=8.12 mismW=25.03 unkW=0.00
+  16. layout #110 earth=Rotted Woods score=-5.994271 earth_score=0.197433 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=11.20 mismW=21.94 unkW=0.00
+  17. layout #310 earth=Rotted Woods score=-6.006685 earth_score=0.197433 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=11.16 mismW=21.98 unkW=0.00
+  18. layout #1113 earth=Rotted Woods score=-6.068974 earth_score=0.197433 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=6.58 mismW=26.56 unkW=0.00
+  19. layout #73 earth=Rotted Woods score=-6.201600 earth_score=0.197433 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=9.67 mismW=23.47 unkW=0.00
+  20. layout #232 earth=Rotted Woods score=-6.320977 earth_score=0.197433 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=4.97 mismW=28.17 unkW=0.00
+
+Timing breakdown:
+  capture_screenshot_or_use_pre_captured: 0.001s
+  panel_crop_preview_initial: 0.026s
+  preview_callback: 0.000s
+  detect_map_circle_main: 0.017s
+  panel_crop_first_pass: 0.000s
+  panel_further_crop_normalize: 0.001s
+  earth_selector_ranking: 0.860s
+  slot_observation_classification_total: 0.189s
+  geometry_prior_computation: 0.000s
+  lost_slot_prior_computation: 0.000s
+  hard_constraint_prior_computation: 0.000s
+  evergaol_prior_detection: 0.350s
+  status_icon_detection: 8.376s
+  dual_shot_second_status_detection: 0.000s
+  earth_cascade_ranking: 0.000s
+  layout_classifier_inference: 0.140s
+  layout_identification_scoring: 0.001s
+  layout_sort_and_select: 0.000s
+  debug_annotation_rendering: 0.195s
+  display_path_resolution: 0.091s
+  total_run: 10.616s
+Resolved 5 display image(s) for preview/result view.
+GUI total execution time: 10.616s

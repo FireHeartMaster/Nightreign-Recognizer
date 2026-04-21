@@ -2,6 +2,7 @@ import json
 import math
 import os
 from pathlib import Path
+import sys
 import time
 import numpy as np
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
@@ -12,13 +13,24 @@ try:
 except ImportError:
     cv2 = None
 
+def resource_path(relative_path):
+    """ Get absolute path to resource, works for dev and for PyInstaller """
+    try:
+        # PyInstaller creates a temp folder and stores path in _MEIPASS
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+
+    return os.path.join(base_path, relative_path)
+
 # --------------------------------------------------
 # Paths
 # --------------------------------------------------
-json_path = Path(r"C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\LotResultSmallBaseAndSpot_grouped_by_patternId_11.json")
-backgrounds_dir = Path(r"C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\maps")
-icons_dir = Path(r"C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\POI_icons")
+json_path = Path(resource_path("LotResultSmallBaseAndSpot_grouped_by_patternId_14.json"))
+backgrounds_dir = Path(resource_path("maps"))
+icons_dir = Path(resource_path("POI_icons"))
 recognition_package_path = Path(r"C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\nightreign_geom_proto_v4_slots.npz")
+GREAT_HOLLOW_PATTERNSET_DIR = Path(resource_path("great_hollow_pattern_sets"))
 
 MISSING_ICON_FILES = set()
 USED_ICON_FILES = set()
@@ -30,6 +42,14 @@ SLOT_CLUSTER_RADIUS_NORM = 0.018
 SLOT_ASSIGN_TOLERANCE_FACTOR = 1.55
 SLOT_MIN_RADIUS_NORM = 0.018
 SLOT_MAX_RADIUS_NORM = 0.040
+MAJOR_LOCATION_TYPES = {
+    "Fort",
+    "Fortified Village",
+    "Great Church",
+    "Main Encampment",
+    "Ruins",
+    "Swamp",
+}
 
 RECOGNITION_ICON_SPECS = [
     ("Church", "Church.png"),
@@ -64,10 +84,11 @@ GREAT_HOLLOW_STATUS_TYPES = {
     "Status_Holy",
     "Status_Fire",
     "Status_Magic",
+    "Status_Frost",
 }
 GREAT_HOLLOW_STATUS_ALLOWED_BY_BASE = {
     "Ruins": {"Status_Poison", "Status_Bleed"},
-    "Great Church": {"Status_Sleep", "Status_Lightning"},
+    "Great Church": {"Status_Sleep", "Status_Lightning", "Status_Frost", "Status_Holy"},
     "Fortress": {"Status_Rot", "Status_Holy"},
     "Palace": {"Status_Fire", "Status_Magic"},
 }
@@ -107,18 +128,41 @@ BASE_ICON_SIZE = 48
 SKIP_TEXT_WHEN_ICON_MISSING = False
 RENDER_ANY_TEXT = True
 
-HIDE_ALL_BOSSES_AND_ALL_TEXT = os.environ.get("NR_HIDE_ALL_BOSSES_AND_ALL_TEXT", "1") == "1"
+HIDE_ALL_BOSSES_AND_ALL_TEXT = os.environ.get("NR_HIDE_ALL_BOSSES_AND_ALL_TEXT", "0") == "1"
+RENDERER_DEBUG = os.environ.get("NR_RENDERER_DEBUG", "0") == "1"
 
 RENDER_MODE_DIRNAME = "no_text" if HIDE_ALL_BOSSES_AND_ALL_TEXT else "with_text"
 output_dir = Path(r"C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\renders_new") / RENDER_MODE_DIRNAME
 recognition_metadata_dir = output_dir / "recognition_metadata"
 recognizer_display_dir = Path(r"C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\renders") / f"recognizer_{RENDER_MODE_DIRNAME}"
+under_output_dir = Path(r"C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\renders_new_under") / RENDER_MODE_DIRNAME
+under_recognizer_display_dir = Path(r"C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\renders") / f"recognizer_{RENDER_MODE_DIRNAME}_under"
 
 missing_icons_txt = output_dir / "missing_icons.txt"
 used_icons_txt = output_dir / "used_icons.txt"
 
 output_dir.mkdir(parents=True, exist_ok=True)
 recognizer_display_dir.mkdir(parents=True, exist_ok=True)
+under_output_dir.mkdir(parents=True, exist_ok=True)
+under_recognizer_display_dir.mkdir(parents=True, exist_ok=True)
+
+GREAT_HOLLOW_UNDER_BACKGROUND_NAME = "Great_Hollow_under"
+GREAT_HOLLOW_UNDER_GREAT_CHURCH_X = 470.74
+GREAT_HOLLOW_UNDER_GREAT_CHURCH_Z = 110.51
+GREAT_HOLLOW_UNDER_RECOGNITION_SLOT_X = 924.0
+GREAT_HOLLOW_UNDER_RECOGNITION_SLOT_Z = 394.0
+GREAT_HOLLOW_UNDER_RECOGNITION_SLOT_ALLOWED_ICONS = {"Church", "Sorcerer's Rise"}
+GREAT_HOLLOW_UNDER_STATUS_BY_VARIATION = {
+    "Ancient Heroes of Zamor": "Status_Frost",
+    "Inquisitor": "Status_Holy",
+}
+GREAT_HOLLOW_UNDER_STATUS_BY_MAP_NAME = {
+    "Great Church - Ancient Heroes of Zamor": "Status_Frost",
+    "Great Church - Inquisitor": "Status_Holy",
+}
+UNDER_VARIANT_RENDER_ENABLED = os.environ.get("NR_RENDER_GH_UNDER_VARIANTS", "1") == "1"
+RENDER_ONLY_UNDER_VARIANTS = os.environ.get("NR_RENDER_ONLY_GH_UNDER_VARIANTS", "0") == "1"
+UNDER_ONLY_TARGET_GREAT_CHURCH = os.environ.get("NR_UNDER_ONLY_TARGET_GREAT_CHURCH", "0") == "1"
 
 # Crop only for selected Shifting Earth / rareMap values.
 # Key = rareMap name exactly as it appears in the JSON.
@@ -157,6 +201,9 @@ FIXED_POINTS_BY_RAREMAP = {
    "Great Hollow": [
    #  {"x": 143.604, "z": 392.848, "icon": "Ruins"},
     {"x": 386.488, "z": 926.106, "icon": "Church"},
+    # Fixed Church slot (requested):
+    # gridXNo=44, gridZNo=38, posX=-81.187, posZ=-12.41, world X=558.813, Z=627.59
+    {"x": 558.813, "z": 627.59, "icon": "Church"},
     {"x": 144.499, "z": 618.496, "icon": "Divine Tower", "render_scale": 0.6},
     {"x": 846.955, "z": 219.805, "icon": "Divine Tower", "render_scale": 0.6},
    ],
@@ -463,6 +510,54 @@ def float_matches(a, b, tol=1e-6):
         return False
 
 
+def is_great_hollow_under_great_church_row(rare_map, icon_name, x_world, z_world):
+    if str(rare_map).strip() != "Great Hollow":
+        return False
+    if str(icon_name).strip() != "Great Church":
+        return False
+    return float_matches(x_world, GREAT_HOLLOW_UNDER_GREAT_CHURCH_X) and float_matches(z_world, GREAT_HOLLOW_UNDER_GREAT_CHURCH_Z)
+
+def is_great_hollow_under_recognition_slot_position(rare_map, x_world, z_world):
+    if str(rare_map).strip() != "Great Hollow":
+        return False
+    return float_matches(x_world, GREAT_HOLLOW_UNDER_RECOGNITION_SLOT_X) and float_matches(z_world, GREAT_HOLLOW_UNDER_RECOGNITION_SLOT_Z)
+
+def is_great_hollow_under_recognition_slot_row(rare_map, icon_name, x_world, z_world):
+    if is_great_hollow_under_great_church_row(rare_map, icon_name, x_world, z_world):
+        return True
+    return is_great_hollow_under_recognition_slot_position(
+        rare_map=rare_map,
+        x_world=x_world,
+        z_world=z_world,
+    )
+
+
+def resolve_great_hollow_under_status_icon(map_name, variation_name):
+    map_name = "" if map_name is None else str(map_name).strip()
+    variation_name = "" if variation_name is None else str(variation_name).strip()
+    status_icon = GREAT_HOLLOW_UNDER_STATUS_BY_MAP_NAME.get(map_name)
+    if status_icon:
+        return status_icon
+    return GREAT_HOLLOW_UNDER_STATUS_BY_VARIATION.get(variation_name, "")
+
+
+def has_great_hollow_under_variant(entry):
+    if str(entry.get("rareMap", "")).strip() != "Great Hollow":
+        return False
+    for row in entry.get("rows", []):
+        if is_great_hollow_under_great_church_row(
+            rare_map=entry.get("rareMap", ""),
+            icon_name=row.get("smallBaseLocationName", ""),
+            x_world=row.get("X", ""),
+            z_world=row.get("Z", ""),
+        ):
+            variation = str(row.get("smallBaseVariationName", "")).strip()
+            map_name = str(row.get("smallBaseMapName", "")).strip()
+            if resolve_great_hollow_under_status_icon(map_name, variation) != "":
+                return True
+    return False
+
+
 def get_row_render_config(rare_map, icon_name, variation_name, map_name, x_world, z_world):
     config = {
         "render_icon": True,
@@ -591,14 +686,14 @@ def load_font(size):
             continue
     return ImageFont.load_default()
 
-def draw_label(draw, center_x, center_y, text, font, fill="white", stroke_fill="black", stroke_width=1, max_chars=16):
+def draw_label(draw, center_x, center_y, text, font, fill="white", stroke_fill="black", stroke_width=1, max_chars=16, align="center"):
     wrapped_text = wrap_text_by_words(text, max_chars=max_chars)
 
     bbox = draw.multiline_textbbox(
         (0, 0),
         wrapped_text,
         font=font,
-        align="center",
+        align=align,
         spacing=4,
         stroke_width=stroke_width,
     )
@@ -606,8 +701,15 @@ def draw_label(draw, center_x, center_y, text, font, fill="white", stroke_fill="
     text_w = bbox[2] - bbox[0]
     text_h = bbox[3] - bbox[1]
 
-    x = center_x - text_w / 2
-    y = center_y - text_h / 2
+    if align == "center":
+        x = center_x - text_w / 2
+        y = center_y - text_h / 2
+    elif align == "left":
+        x = center_x
+        y = center_y - text_h / 2
+    else:
+        x = center_x - text_w / 2
+        y = center_y - text_h / 2
 
     draw.multiline_text(
         (x, y),
@@ -617,17 +719,17 @@ def draw_label(draw, center_x, center_y, text, font, fill="white", stroke_fill="
         stroke_width=stroke_width,
         stroke_fill=stroke_fill,
         spacing=4,
-        align="center",
+        align=align,
     )
 
-def get_label_bbox(draw, center_x, center_y, text, font, stroke_width=1, max_chars=16):
+def get_label_bbox(draw, center_x, center_y, text, font, stroke_width=1, max_chars=16, align="center"):
     wrapped_text = wrap_text_by_words(text, max_chars=max_chars)
 
     bbox = draw.multiline_textbbox(
         (0, 0),
         wrapped_text,
         font=font,
-        align="center",
+        align=align,
         spacing=4,
         stroke_width=stroke_width,
     )
@@ -635,8 +737,15 @@ def get_label_bbox(draw, center_x, center_y, text, font, stroke_width=1, max_cha
     text_w = bbox[2] - bbox[0]
     text_h = bbox[3] - bbox[1]
 
-    x = center_x - text_w / 2
-    y = center_y - text_h / 2
+    if align == "center":
+        x = center_x - text_w / 2
+        y = center_y - text_h / 2
+    elif align == "left":
+        x = center_x
+        y = center_y - text_h / 2
+    else:
+        x = center_x - text_w / 2
+        y = center_y - text_h / 2
 
     return wrapped_text, (x, y, x + text_w, y + text_h)
 
@@ -660,12 +769,14 @@ def find_non_overlapping_position(
     padding=6,
     step=10,
     max_radius=180,
+    align="center",
 ):
     # Try the original position first
     wrapped_text, bbox = get_label_bbox(
         draw, center_x, center_y, text, font,
         stroke_width=stroke_width,
-        max_chars=max_chars
+        max_chars=max_chars,
+        align=align
     )
 
     if not any(boxes_overlap(bbox, old_box, padding=padding) for old_box in placed_boxes):
@@ -691,7 +802,8 @@ def find_non_overlapping_position(
             _, test_bbox = get_label_bbox(
                 draw, test_x, test_y, text, font,
                 stroke_width=stroke_width,
-                max_chars=max_chars
+                max_chars=max_chars,
+                align=align
             )
 
             if not any(boxes_overlap(test_bbox, old_box, padding=padding) for old_box in placed_boxes):
@@ -729,6 +841,26 @@ def append_landmark(
         "source": str(source),
         "source_id": None if source_id is None else int(source_id),
     })
+
+def append_great_hollow_under_recognition_slot_landmarks(landmarks, rare_map, width, height):
+    if str(rare_map).strip() != "Great Hollow":
+        return
+    px, py = world_to_image(
+        GREAT_HOLLOW_UNDER_RECOGNITION_SLOT_X,
+        GREAT_HOLLOW_UNDER_RECOGNITION_SLOT_Z,
+    )
+    append_landmark(
+        landmarks,
+        landmark_type="under_slot_gh_43_38",
+        icon="",
+        x=px,
+        y=py,
+        width=width,
+        height=height,
+        text="",
+        source="under_slot_anchor",
+        source_id=43_038,
+    )
 
 def build_annotation(pattern_id, rare_map, width, height, landmarks, crop_border):
     return {
@@ -934,6 +1066,14 @@ def _merge_close_slot_clusters(clusters, radius):
         clusters = out
     return clusters
 
+def _apply_slot_allowed_type_constraints(allowed_types):
+    allowed = [str(name) for name in allowed_types]
+    has_major = any(name in MAJOR_LOCATION_TYPES for name in allowed)
+    if has_major:
+        # Township is only valid for Minor Location slots.
+        allowed = [name for name in allowed if name != "Township"]
+    return sorted(set(allowed))
+
 def build_slots_for_earth(layout_meta_for_earth):
     points = []
     for meta in layout_meta_for_earth:
@@ -975,7 +1115,9 @@ def build_slots_for_earth(layout_meta_for_earth):
         dists = [math.hypot(float(p["x_norm"]) - cx, float(p["y_norm"]) - cy) for p in cluster["points"]]
         max_dist = max(dists) if dists else 0.0
         radius_norm = min(SLOT_MAX_RADIUS_NORM, max(SLOT_MIN_RADIUS_NORM, max_dist * 1.35 + 0.004))
-        allowed_types = sorted({str(p["type"]) for p in cluster["points"]})
+        allowed_types = _apply_slot_allowed_type_constraints(
+            {str(p["type"]) for p in cluster["points"]}
+        )
         allowed_labels = ["empty"] + [type_name for type_name in allowed_types if type_name != "empty"]
         slots.append({
             "slot_id": idx,
@@ -1175,10 +1317,11 @@ def normalize_row_icon_name(icon_name):
     if icon_name == "":
         return ""
 
-    # For now, treat both variants as the same icon
-   #  lowered = icon_name.lower()
-   #  if lowered in {"field boss", "field boss red"}:
-   #      return "Field Boss"
+    lowered = icon_name.lower()
+    if lowered == "field boss red":
+        return "Gold Merchant"
+    if lowered == "mission objective":
+        return "Church"
 
     return icon_name
 
@@ -1199,7 +1342,11 @@ def get_row_icon(icon_name, render_scale=1.0):
     if cache_key in ICON_CACHE:
         return ICON_CACHE[cache_key]
 
-    icon_path = icons_dir / f"{file_safe_name(icon_name)}.png"
+    # Special mapping: use Field_Boss_Red.png for Gold Merchant
+    if icon_name == "Gold Merchant":
+        icon_path = icons_dir / "Field_Boss_Red.png"
+    else:
+        icon_path = icons_dir / f"{file_safe_name(icon_name)}.png"
 
     if not icon_path.exists():
         print(f"Missing row icon: {icon_path.name}")
@@ -1286,7 +1433,7 @@ def render_fixed_points(icon_queue, label_queue, rare_map):
         if (not HIDE_ALL_BOSSES_AND_ALL_TEXT) and config["render_text"] and text_value != "":
             label_queue.append((text_px, text_py, text_value, boss_font, "fixed_point", point_index))
 
-def render_row_item(icon_queue, row, label_queue, rare_map):
+def render_row_item(icon_queue, row, label_queue, rare_map, render_under_variant=False):
     icon_name = row.get("smallBaseLocationName", "")
     label_text = row.get("smallBaseVariationName", "")
     x_world = row.get("X", "")
@@ -1302,6 +1449,18 @@ def render_row_item(icon_queue, row, label_queue, rare_map):
         return
     if x_world in ("", None) or z_world in ("", None):
         return
+    if (
+        render_under_variant
+        and is_great_hollow_under_recognition_slot_position(
+            rare_map=rare_map,
+            x_world=x_world,
+            z_world=z_world,
+        )
+        and icon_name not in GREAT_HOLLOW_UNDER_RECOGNITION_SLOT_ALLOWED_ICONS
+    ):
+        # Enforce this under-slot as Church / Sorcerer's Rise / empty only.
+        # Non-allowed rows are treated as empty.
+        return
 
     config = get_row_render_config(
         rare_map=rare_map,
@@ -1311,6 +1470,32 @@ def render_row_item(icon_queue, row, label_queue, rare_map):
         x_world=x_world,
         z_world=z_world,
     )
+
+    if render_under_variant and is_great_hollow_under_great_church_row(
+        rare_map=rare_map,
+        icon_name=icon_name,
+        x_world=x_world,
+        z_world=z_world,
+    ):
+        config["render_icon"] = True
+        config["render_text"] = True
+        status_icon = resolve_great_hollow_under_status_icon(map_name, label_text)
+        if status_icon != "":
+            config["overlay_icon_name"] = status_icon
+            config["overlay_render_scale"] = 0.384
+            config["overlay_dx"] = 0
+            config["overlay_dy"] = 0
+            config["overlay_dx_factor"] = 0.7
+            config["overlay_dy_factor"] = 0.66
+            config["overlay_layer_offset"] = 1
+    if render_under_variant and is_great_hollow_under_recognition_slot_position(
+        rare_map=rare_map,
+        x_world=x_world,
+        z_world=z_world,
+    ):
+        # In under renders, explicitly show this recognition slot when present.
+        config["render_icon"] = True
+        config["render_text"] = True
 
     if not config["render_icon"] and not config["render_text"] and str(config["overlay_icon_name"]).strip() == "":
         return
@@ -1369,21 +1554,40 @@ def render_row_item(icon_queue, row, label_queue, rare_map):
 
 def load_great_hollow_patternset_statuses(pattern_id):
     pattern_path = GREAT_HOLLOW_PATTERNSET_DIR / f"pattern_{int(pattern_id):04d}_mappatternset_bundle.json"
+    if RENDERER_DEBUG:
+        print(f"DEBUG: Loading pattern {pattern_id}, path: {pattern_path}")
     if not pattern_path.exists():
+        if RENDERER_DEBUG:
+            print("DEBUG: Pattern file does not exist")
         return {}
     try:
         payload = json.loads(pattern_path.read_text(encoding="utf-8"))
-    except Exception:
+        if RENDERER_DEBUG:
+            print(f"DEBUG: Payload loaded, keys: {list(payload.keys())}")
+    except Exception as e:
+        if RENDERER_DEBUG:
+            print(f"DEBUG: Failed to load JSON: {e}")
         return {}
 
     statuses = {}
-    for item in payload.get("activeMapPatternSetFields", []):
+    fields = payload.get("activeMapPatternSetFields", [])
+    if RENDERER_DEBUG:
+        print(f"DEBUG: activeMapPatternSetFields: {[item.get('field') for item in fields]}")
+    for item in fields:
         field_name = str(item.get("field", "")).strip()
+        if RENDERER_DEBUG:
+            print(f"DEBUG: Checking field: '{field_name}'")
         mapping = GREAT_HOLLOW_PATTERNSET_STATUS_BY_FIELD.get(field_name)
         if mapping is None:
+            if RENDERER_DEBUG:
+                print(f"DEBUG: No mapping for field '{field_name}'")
             continue
         anchor_type, status_type = mapping
         statuses[anchor_type] = status_type
+        if RENDERER_DEBUG:
+            print(f"DEBUG: Added status {anchor_type}: {status_type}")
+    if RENDERER_DEBUG:
+        print(f"DEBUG: Final statuses: {statuses}")
     return statuses
 
 
@@ -1391,7 +1595,12 @@ def render_great_hollow_hidden_features(icon_queue, label_queue, pattern_id, rar
     if str(rare_map).strip() != "Great Hollow":
         return
 
+    if RENDERER_DEBUG:
+        print(f"DEBUG: Rendering GH hidden features for pattern {pattern_id}")
+
     active_statuses = load_great_hollow_patternset_statuses(pattern_id)
+    if RENDERER_DEBUG:
+        print(f"DEBUG: Active statuses: {active_statuses}")
     if not active_statuses:
         return
 
@@ -1462,197 +1671,303 @@ boss_font = load_font(22)
 # --------------------------------------------------
 # Render one image per patternId
 # --------------------------------------------------
-run_start_time = time.perf_counter()
-recognition_layout_meta = []
-for entry in data:
+def get_entry_by_pattern_id(pattern_id):
+    try:
+        pattern_id = int(pattern_id)
+    except (TypeError, ValueError):
+        raise KeyError(f"Invalid pattern_id: {pattern_id}")
+
+    for entry in data:
+        try:
+            if int(entry.get("patternId", -1)) == pattern_id:
+                return entry
+        except (TypeError, ValueError):
+            continue
+
+    raise KeyError(f"No entry found for patternId {pattern_id}")
+
+
+def build_pattern_image_and_annotation(
+    entry,
+    background_name_override=None,
+    render_under_variant=False,
+    render_background=True,
+    render_icons=True,
+    render_labels=True,
+):
     pattern_id = entry.get("patternId", "")
     rare_map = str(entry.get("rareMap", "")).strip()
+    under_target_only = bool(render_under_variant)
 
     if not should_render_pattern(pattern_id):
-        continue
-
+        return None
     if rare_map == "":
         print(f"Skipping pattern {pattern_id}: rareMap is empty")
-        continue
+        return None
 
-    background_path = backgrounds_dir / f"{file_safe_name(rare_map)}.png"
-    if not background_path.exists():
-        print(f"Skipping pattern {pattern_id}: missing background {background_path.name}")
-        continue
+    if render_background:
+        background_name = str(background_name_override).strip() if background_name_override else file_safe_name(rare_map)
+        background_path = backgrounds_dir / f"{background_name}.png"
+        if not background_path.exists():
+            print(f"Skipping pattern {pattern_id}: missing background {background_path.name}")
+            return None
 
-    bg = Image.open(background_path).convert("RGBA")
-    if bg.size != (IMAGE_W, IMAGE_H):
-        bg = bg.resize((IMAGE_W, IMAGE_H), Image.Resampling.LANCZOS)
+        bg = Image.open(background_path).convert("RGBA")
+        if bg.size != (IMAGE_W, IMAGE_H):
+            bg = bg.resize((IMAGE_W, IMAGE_H), Image.Resampling.LANCZOS)
+    else:
+        bg = Image.new("RGBA", (IMAGE_W, IMAGE_H), (0, 0, 0, 0))
 
     draw = ImageDraw.Draw(bg)
     label_queue = []
     icon_queue = []
     landmarks = []
-    # Optional title
     title = f"Pattern {pattern_id} - {rare_map}"
-    if not HIDE_ALL_BOSSES_AND_ALL_TEXT:
-        label_queue.append((20, 20, title, title_font, "title", pattern_id))
-    # Render fixed points for this Shifting Earth / rareMap
-    render_fixed_points(
-        icon_queue=icon_queue,
-        label_queue=label_queue,
-        rare_map=rare_map,
-    )
-    render_great_hollow_hidden_features(
-        icon_queue=icon_queue,
-        label_queue=label_queue,
-        pattern_id=pattern_id,
-        rare_map=rare_map,
-    )
-    # Render normal row entries
+    if (not under_target_only) and (not HIDE_ALL_BOSSES_AND_ALL_TEXT):
+        label_queue.append((20, 40, title, title_font, "title", pattern_id))
+
+    if not under_target_only:
+        render_fixed_points(icon_queue=icon_queue, label_queue=label_queue, rare_map=rare_map)
+        render_great_hollow_hidden_features(
+            icon_queue=icon_queue,
+            label_queue=label_queue,
+            pattern_id=pattern_id,
+            rare_map=rare_map,
+        )
     for row in entry.get("rows", []):
-       render_row_item(
-          icon_queue=icon_queue,
-          row=row,
-          label_queue=label_queue,
-          rare_map=rare_map,
-       )
-
-    # Boss 1
-    render_boss(
-        icon_queue=icon_queue,
-        icon_img=boss_icon,
-        boss_name=f"Night 1\n{entry.get('bossId1Name', '')}".strip(),
-        x_world=entry.get("playArea1_X", ""),
-        z_world=entry.get("playArea1_Z", ""),
-        label_queue=label_queue,
-        label_dx=0,
-        label_dy=0,
-        render_layer=200,
-    )
-
-    # Boss 2
-    render_boss(
-        icon_queue=icon_queue,
-        icon_img=boss_icon,
-        boss_name=f"Night 2\n{entry.get('bossId2Name', '')}".strip(),
-        x_world=entry.get("playArea2_X", ""),
-        z_world=entry.get("playArea2_Z", ""),
-        label_queue=label_queue,
-        label_dx=0,
-        label_dy=0,
-        render_layer=200,
-    )
-
-    for _, _, px, py, icon_name, text, source, source_id in icon_queue:
-        append_landmark(
-            landmarks,
-            landmark_type=icon_name,
-            icon=icon_name,
-            x=px,
-            y=py,
-            width=IMAGE_W,
-            height=IMAGE_H,
-            text=text,
-            source=source,
-            source_id=source_id,
+        if under_target_only and not is_great_hollow_under_recognition_slot_row(
+            rare_map=rare_map,
+            icon_name=row.get("smallBaseLocationName", ""),
+            x_world=row.get("X", ""),
+            z_world=row.get("Z", ""),
+        ):
+            continue
+        render_row_item(
+            icon_queue=icon_queue,
+            row=row,
+            label_queue=label_queue,
+            rare_map=rare_map,
+            render_under_variant=render_under_variant,
         )
 
-    for _, icon_img, px, py, _, _, _, _ in sorted(icon_queue, key=lambda item: item[0]):
-        paste_centered(bg, icon_img, px, py)
+    if not under_target_only:
+        render_boss(
+            icon_queue=icon_queue,
+            icon_img=boss_icon,
+            boss_name=f"Night 1\n{entry.get('bossId1Name', '')}".strip(),
+            x_world=entry.get("playArea1_X", ""),
+            z_world=entry.get("playArea1_Z", ""),
+            label_queue=label_queue,
+            label_dx=0,
+            label_dy=0,
+            render_layer=200,
+        )
+        render_boss(
+            icon_queue=icon_queue,
+            icon_img=boss_icon,
+            boss_name=f"Night 2\n{entry.get('bossId2Name', '')}".strip(),
+            x_world=entry.get("playArea2_X", ""),
+            z_world=entry.get("playArea2_Z", ""),
+            label_queue=label_queue,
+            label_dx=0,
+            label_dy=0,
+            render_layer=200,
+        )
 
-    if RENDER_ANY_TEXT and not HIDE_ALL_BOSSES_AND_ALL_TEXT:
-      placed_label_boxes = []
-      seen_labels = set()
-
-      for item in label_queue:
-         if len(item) == 6:
-            x, y, text, font, label_type, source_id = item
-         else:
-            # For compatibility, if old format
-            x, y, text = item
-            font = boss_font
-            label_type = "unknown"
-            source_id = None
-
-         # Deduplicate exact same label at exact same anchor position
-         label_key = (round(float(x), 3), round(float(y), 3), str(text).strip(), id(font))
-         if label_key in seen_labels:
-            continue
-         seen_labels.add(label_key)
-
-         final_x, final_y, final_bbox = find_non_overlapping_position(
-            draw=draw,
-            center_x=x,
-            center_y=y,
-            text=text,
-            font=font,
-            placed_boxes=placed_label_boxes,
-            stroke_width=1,
-            max_chars=16,
-            padding=6,
-            step=10,
-            max_radius=180,
-         )
-
-         draw_label(draw, final_x, final_y, text, font)
-         placed_label_boxes.append(final_bbox)
-
-         # Add to landmarks
-         append_landmark(
-            landmarks,
-            landmark_type="text",
-            x=final_x,
-            y=final_y,
+    if render_icons:
+        for _, _, px, py, icon_name, text, source, source_id in icon_queue:
+            append_landmark(
+                landmarks,
+                landmark_type=icon_name,
+                icon=icon_name,
+                x=px,
+                y=py,
+                width=IMAGE_W,
+                height=IMAGE_H,
+                text=text,
+                source=source,
+                source_id=source_id,
+            )
+    if render_under_variant:
+        append_great_hollow_under_recognition_slot_landmarks(
+            landmarks=landmarks,
+            rare_map=rare_map,
             width=IMAGE_W,
             height=IMAGE_H,
-            text=text,
-            source=label_type,
-            source_id=source_id,
-         )
+        )
+
+    if render_icons:
+        for _, icon_img, px, py, _, _, _, _ in sorted(icon_queue, key=lambda item: item[0]):
+            paste_centered(bg, icon_img, px, py)
+
+    if render_labels and RENDER_ANY_TEXT and not HIDE_ALL_BOSSES_AND_ALL_TEXT:
+        placed_label_boxes = []
+        seen_labels = set()
+
+        for item in label_queue:
+            if len(item) == 6:
+                x, y, text, font, label_type, source_id = item
+            else:
+                x, y, text = item
+                font = boss_font
+                label_type = "unknown"
+                source_id = None
+
+            align = "left" if label_type == "title" else "center"
+
+            label_key = (round(float(x), 3), round(float(y), 3), str(text).strip(), id(font))
+            if label_key in seen_labels:
+                continue
+            seen_labels.add(label_key)
+
+            final_x, final_y, final_bbox = find_non_overlapping_position(
+                draw=draw,
+                center_x=x,
+                center_y=y,
+                text=text,
+                font=font,
+                placed_boxes=placed_label_boxes,
+                stroke_width=1,
+                max_chars=16,
+                padding=6,
+                step=10,
+                max_radius=180,
+                align=align,
+            )
+
+            draw_label(draw, final_x, final_y, text, font, align=align)
+            placed_label_boxes.append(final_bbox)
+
+            append_landmark(
+                landmarks,
+                landmark_type="text",
+                x=final_x,
+                y=final_y,
+                width=IMAGE_W,
+                height=IMAGE_H,
+                text=text,
+                source=label_type,
+                source_id=source_id,
+            )
 
     crop_px = int(CROP_BORDER_BY_RAREMAP.get(rare_map, 0))
-
     if crop_px > 0:
         if crop_px * 2 >= bg.width or crop_px * 2 >= bg.height:
             raise ValueError(
                 f"Crop for rareMap '{rare_map}' is too large: {crop_px}px for image size {bg.width}x{bg.height}"
             )
 
-        bg = bg.crop((
-            crop_px,
-            crop_px,
-            bg.width - crop_px,
-            bg.height - crop_px,
-        ))
-
+        bg = bg.crop((crop_px, crop_px, bg.width - crop_px, bg.height - crop_px))
         apply_crop_to_landmarks(landmarks, crop_px, bg.width, bg.height)
 
-    recognizer_display_path = recognizer_display_dir / f"layout_{int(pattern_id):04d}.png"
+    annotation = build_annotation(pattern_id, rare_map, bg.width, bg.height, landmarks, crop_px)
+    return bg, annotation
+
+
+def build_pattern_image(entry, background_name_override=None, render_under_variant=False):
+    result = build_pattern_image_and_annotation(
+        entry,
+        background_name_override=background_name_override,
+        render_under_variant=render_under_variant,
+    )
+    return result[0] if result is not None else None
+
+
+def build_pattern_text_overlay_image(entry, background_name_override=None, render_under_variant=False):
+    result = build_pattern_image_and_annotation(
+        entry,
+        background_name_override=background_name_override,
+        render_under_variant=render_under_variant,
+        render_background=False,
+        render_icons=False,
+        render_labels=True,
+    )
+    return result[0] if result is not None else None
+
+
+def render_pattern_entry(
+    entry,
+    output_dir_target,
+    recognizer_display_dir_target,
+    recognition_layout_meta_target=None,
+    background_name_override=None,
+    file_suffix="",
+    render_under_variant=False,
+):
+    image_and_annotation = build_pattern_image_and_annotation(
+        entry,
+        background_name_override=background_name_override,
+        render_under_variant=render_under_variant,
+    )
+    if image_and_annotation is None:
+        return False
+
+    bg, annotation = image_and_annotation
+    pattern_id = entry.get("patternId", "")
+    rare_map = str(entry.get("rareMap", "")).strip()
+    recognizer_display_path = recognizer_display_dir_target / f"layout_{int(pattern_id):04d}.png"
     bg.save(recognizer_display_path)
     print(f"Created: {recognizer_display_path}")
 
-    # Save annotations
-    annotation = build_annotation(pattern_id, rare_map, bg.width, bg.height, landmarks, crop_px)
-    json_path_out = output_dir / f"pattern_{int(pattern_id):04d}_{rare_map}.json"
+    suffix = str(file_suffix).strip()
+    json_path_out = output_dir_target / f"pattern_{int(pattern_id):04d}_{rare_map}{suffix}.json"
     with open(json_path_out, "w", encoding="utf-8") as f:
         json.dump(annotation, f, indent=2, ensure_ascii=False)
     print(f"Created: {json_path_out}")
-    recognition_layout_meta.append(
-        collect_pattern_recognition_metadata(
-            pattern_id=pattern_id,
-            rare_map=rare_map,
-            annotation=annotation,
+
+    if recognition_layout_meta_target is not None:
+        recognition_layout_meta_target.append(
+            collect_pattern_recognition_metadata(
+                pattern_id=pattern_id,
+                rare_map=rare_map,
+                annotation=annotation,
+            )
         )
-    )
+    return True
 
-with open(missing_icons_txt, "w", encoding="utf-8") as f:
-    for name in sorted(MISSING_ICON_FILES):
-        f.write(f"{name}\n")
 
-with open(used_icons_txt, "w", encoding="utf-8") as f:
-    for name in sorted(USED_ICON_FILES):
-        f.write(f"{name}\n")
+if __name__ == "__main__":
+    run_start_time = time.perf_counter()
+    recognition_layout_meta = []
+    for entry in data:
+        rendered = False
+        if not RENDER_ONLY_UNDER_VARIANTS:
+            rendered = render_pattern_entry(
+                entry=entry,
+                output_dir_target=output_dir,
+                recognizer_display_dir_target=recognizer_display_dir,
+                recognition_layout_meta_target=recognition_layout_meta,
+                background_name_override=None,
+                file_suffix="",
+                render_under_variant=False,
+            )
 
-export_recognition_assets(recognition_layout_meta)
+        if UNDER_VARIANT_RENDER_ENABLED and has_great_hollow_under_variant(entry):
+            if RENDER_ONLY_UNDER_VARIANTS or rendered:
+                render_pattern_entry(
+                    entry=entry,
+                    output_dir_target=under_output_dir,
+                    recognizer_display_dir_target=under_recognizer_display_dir,
+                    recognition_layout_meta_target=None,
+                    background_name_override=GREAT_HOLLOW_UNDER_BACKGROUND_NAME,
+                    file_suffix="_under",
+                    render_under_variant=True,
+                )
 
-print(f"Saved missing icon list: {missing_icons_txt}")
-print(f"Saved used icon list: {used_icons_txt}")
-print(f"Full run took {time.perf_counter() - run_start_time:.2f}s")
+    with open(missing_icons_txt, "w", encoding="utf-8") as f:
+        for name in sorted(MISSING_ICON_FILES):
+            f.write(f"{name}\n")
+
+    with open(used_icons_txt, "w", encoding="utf-8") as f:
+        for name in sorted(USED_ICON_FILES):
+            f.write(f"{name}\n")
+
+    export_recognition_assets(recognition_layout_meta)
+
+    print(f"Saved missing icon list: {missing_icons_txt}")
+    print(f"Saved used icon list: {used_icons_txt}")
+    print(f"Under variant output dir: {under_output_dir}")
+    print(f"Under variant recognizer dir: {under_recognizer_display_dir}")
+    print(f"Full run took {time.perf_counter() - run_start_time:.2f}s")
 
 print("Done.")

@@ -1,0 +1,28 @@
+{
+  "baseline_test": {
+    "acc": 1.0,
+    "avg_margin_from_0_5": 0.22190535444426676
+  },
+  "hybrid_params": {
+    "a_model_logit": 2.0,
+    "b_template": 1.0,
+    "temperature": 0.5
+  },
+  "hybrid_test": {
+    "acc": 1.0,
+    "avg_margin_from_0_5": 0.47083168791735014
+  },
+  "screenshot": {
+    "orig_model_probs": {
+      "Sleep": 0.4709516027904548,
+      "Lightning": 0.5290483972095452,
+      "margin": 0.029048397209545218
+    },
+    "hybrid_probs": {
+      "Sleep": 0.6996722152697512,
+      "Lightning": 0.30032778473024885,
+      "margin": 0.19967221526975115
+    },
+    "template_delta_light_minus_sleep": -0.655517896171563
+  }
+}

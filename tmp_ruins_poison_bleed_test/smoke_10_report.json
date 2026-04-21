@@ -1,0 +1,96 @@
+{
+  "count": 10,
+  "accuracy": 1.0,
+  "rows": [
+    {
+      "patternId": 1005,
+      "pred": "Poison",
+      "expected": "Poison",
+      "correct": true,
+      "poison_prob": 0.8131,
+      "bleed_prob": 0.1869,
+      "margin": 0.6262
+    },
+    {
+      "patternId": 1006,
+      "pred": "Poison",
+      "expected": "Poison",
+      "correct": true,
+      "poison_prob": 0.8131,
+      "bleed_prob": 0.1869,
+      "margin": 0.6262
+    },
+    {
+      "patternId": 1007,
+      "pred": "Poison",
+      "expected": "Poison",
+      "correct": true,
+      "poison_prob": 0.8131,
+      "bleed_prob": 0.1869,
+      "margin": 0.6262
+    },
+    {
+      "patternId": 1008,
+      "pred": "Poison",
+      "expected": "Poison",
+      "correct": true,
+      "poison_prob": 0.8131,
+      "bleed_prob": 0.1869,
+      "margin": 0.6262
+    },
+    {
+      "patternId": 1009,
+      "pred": "Poison",
+      "expected": "Poison",
+      "correct": true,
+      "poison_prob": 0.8131,
+      "bleed_prob": 0.1869,
+      "margin": 0.6262
+    },
+    {
+      "patternId": 1015,
+      "pred": "Poison",
+      "expected": "Poison",
+      "correct": true,
+      "poison_prob": 0.8131,
+      "bleed_prob": 0.1869,
+      "margin": 0.6262
+    },
+    {
+      "patternId": 1016,
+      "pred": "Poison",
+      "expected": "Poison",
+      "correct": true,
+      "poison_prob": 0.8131,
+      "bleed_prob": 0.1869,
+      "margin": 0.6262
+    },
+    {
+      "patternId": 1017,
+      "pred": "Poison",
+      "expected": "Poison",
+      "correct": true,
+      "poison_prob": 0.8131,
+      "bleed_prob": 0.1869,
+      "margin": 0.6262
+    },
+    {
+      "patternId": 1018,
+      "pred": "Poison",
+      "expected": "Poison",
+      "correct": true,
+      "poison_prob": 0.8131,
+      "bleed_prob": 0.1869,
+      "margin": 0.6262
+    },
+    {
+      "patternId": 1019,
+      "pred": "Poison",
+      "expected": "Poison",
+      "correct": true,
+      "poison_prob": 0.8131,
+      "bleed_prob": 0.1869,
+      "margin": 0.6262
+    }
+  ]
+}

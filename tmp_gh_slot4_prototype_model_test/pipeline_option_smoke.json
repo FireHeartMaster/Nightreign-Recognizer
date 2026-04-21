@@ -1,0 +1,24 @@
+{
+  "classic": {
+    "label": "Sorcerer's Rise",
+    "best_prob": 0.7877150297146954,
+    "second_prob": 0.13583980674162663,
+    "margin": 0.6518752229730688,
+    "slot_classifier_mode": "classic",
+    "slot_classifier_meta": {}
+  },
+  "prototype": {
+    "label": "Sorcerer's Rise",
+    "best_prob": 0.8529163603724456,
+    "second_prob": 0.1470836396275544,
+    "margin": 0.7058327207448911,
+    "slot_classifier_mode": "prototype",
+    "slot_classifier_meta": {
+      "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_gh_slot4_prototype_model_test\\gh_slot4_empty_vs_churchrise_prototype_model.pkl",
+      "p_empty": 0.0,
+      "p_church_like": 1.0,
+      "d_empty": 3125.84375,
+      "d_church_like": 2883.6318359375
+    }
+  }
+}

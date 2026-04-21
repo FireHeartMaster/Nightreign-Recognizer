@@ -1,0 +1,14 @@
+{
+  "gc_box": {
+    "x": 1074,
+    "y": 454,
+    "w": 22,
+    "h": 22
+  },
+  "icon_recognizer_label": "Lightning",
+  "model_pred": "Lightning",
+  "model_probs": {
+    "Sleep": 0.4709515869617462,
+    "Lightning": 0.5290483832359314
+  }
+}

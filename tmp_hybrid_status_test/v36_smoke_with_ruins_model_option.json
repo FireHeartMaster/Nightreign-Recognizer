@@ -1,0 +1,26 @@
+{
+  "Palace": {
+    "best_status": "Status_Magic",
+    "margin": 0.0252,
+    "method": "icon_recognizer_v4_gh_raw_alt:models",
+    "classifier_mode": "models"
+  },
+  "Fortress": {
+    "best_status": "Status_Holy",
+    "margin": 0.0188,
+    "method": "icon_recognizer_v4_gh_raw_alt:models",
+    "classifier_mode": "models"
+  },
+  "Ruins": {
+    "best_status": "Status_Poison",
+    "margin": 0.9758,
+    "method": "icon_recognizer_v4_gh_raw_alt:models",
+    "classifier_mode": "models"
+  },
+  "Great Church": {
+    "best_status": "Status_Lightning",
+    "margin": 0.3585,
+    "method": "icon_recognizer_v4_gh_raw_alt:models",
+    "classifier_mode": "models"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "count": 80,
+  "accuracy": 1.0,
+  "confusion_true_holy_rot_pred_holy_rot": [
+    [
+      40,
+      0
+    ],
+    [
+      0,
+      40
+    ]
+  ],
+  "wrong_count": 0,
+  "wrong_examples": []
+}

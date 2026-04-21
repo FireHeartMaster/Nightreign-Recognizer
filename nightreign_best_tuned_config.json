@@ -1,0 +1,52 @@
+{
+  "search_radius_scale": 1.1,
+  "earth_low_weight": 0.75,
+  "earth_grad_weight": 0.25,
+  "crop_refine_margin_weight": 0.25,
+  "crop_refine_black_weight": 0.18,
+  "crop_refine_edge_weight": 0.02,
+  "earth_secondary_threshold": 0.015,
+  "template_scales": [
+    0.66,
+    0.8,
+    0.92,
+    1.0,
+    1.1,
+    1.24,
+    1.4
+  ],
+  "type_overrides": {
+    "Church": {
+      "accept": 0.44,
+      "margin": 0.032,
+      "empty_threshold": 0.24,
+      "edge_weight": 0.62
+    },
+    "Sorcerer's Rise": {
+      "accept": 0.4,
+      "margin": 0.02,
+      "empty_threshold": 0.3,
+      "edge_weight": 0.64
+    },
+    "Fort": {
+      "accept": 0.43,
+      "margin": 0.03,
+      "empty_threshold": 0.3
+    },
+    "Great Church": {
+      "accept": 0.47,
+      "margin": 0.03,
+      "empty_threshold": 0.3
+    },
+    "Main Encampment": {
+      "accept": 0.44,
+      "margin": 0.028,
+      "empty_threshold": 0.29
+    },
+    "Ruins": {
+      "accept": 0.38,
+      "margin": 0.028,
+      "empty_threshold": 0.3
+    }
+  }
+}

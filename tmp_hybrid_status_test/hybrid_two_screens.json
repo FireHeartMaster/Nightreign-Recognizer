@@ -1,0 +1,248 @@
+[
+  {
+    "query_panel": "tmp_gc_model_test_on_shared\\query_panel.png",
+    "icon_recognizer": {
+      "fortress": {
+        "label": "Rot",
+        "score": 0.8507,
+        "runner_up": "Holy",
+        "runner_up_score": 0.8235,
+        "margin": 0.0273,
+        "confidence": "weak",
+        "box": {
+          "x": 804,
+          "y": 917,
+          "w": 43,
+          "h": 43
+        },
+        "reference_anchor": {
+          "x": 802,
+          "y": 910,
+          "crop_size": 43,
+          "search_pad": 7
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 0.8507,
+            "dx": 9,
+            "dy": 14
+          },
+          {
+            "label": "Holy",
+            "score": 0.8235,
+            "dx": 14,
+            "dy": 9
+          }
+        ]
+      },
+      "great_church_top_right": {
+        "label": "Lightning",
+        "score": 0.9027,
+        "runner_up": "Sleep",
+        "runner_up_score": 0.2715,
+        "margin": 0.6311,
+        "confidence": "strong",
+        "box": {
+          "x": 1074,
+          "y": 454,
+          "w": 22,
+          "h": 22
+        },
+        "reference_anchor": {
+          "x": 1110,
+          "y": 406,
+          "crop_size": 43,
+          "search_pad": 7
+        },
+        "ranked": [
+          {
+            "label": "Lightning",
+            "score": 0.9027,
+            "dx": 1,
+            "dy": 15
+          },
+          {
+            "label": "Sleep",
+            "score": 0.2715,
+            "dx": 35,
+            "dy": 3
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.88,
+          "y_norm": 0.37
+        },
+        "center_xy_norm": {
+          "x_norm": 0.86,
+          "y_norm": 0.36
+        }
+      }
+    },
+    "hybrid": {
+      "fortress": {
+        "label": "Rot",
+        "probs_sharpened": {
+          "Rot": 0.5710336456881971,
+          "Holy": 0.42896635431180286
+        },
+        "margin": 0.1420672913763943,
+        "icon_scores": {
+          "Rot": 0.8507,
+          "Holy": 0.8235
+        },
+        "icon_probs": {
+          "Rot": 0.584190522935066,
+          "Holy": 0.41580947706434973
+        },
+        "model_probs": {
+          "Rot": 0.4939277768135071,
+          "Holy": 0.5060721635818481
+        }
+      },
+      "great_church_top_right": {
+        "label": "Lightning",
+        "probs_sharpened": {
+          "Lightning": 0.9063108130682584,
+          "Sleep": 0.09368918693174155
+        },
+        "margin": 0.8126216261365169,
+        "icon_scores": {
+          "Lightning": 0.9027,
+          "Sleep": 0.2715
+        },
+        "icon_probs": {
+          "Lightning": 0.9996256705989859,
+          "Sleep": 0.0003743294000143762
+        },
+        "model_probs": {
+          "Lightning": 0.5290483832359314,
+          "Sleep": 0.4709515869617462
+        }
+      }
+    }
+  },
+  {
+    "query_panel": "tmp_test_new_screenshot_081032_gc\\query_panel.png",
+    "icon_recognizer": {
+      "fortress": {
+        "label": "Rot",
+        "score": 0.8838,
+        "runner_up": "Holy",
+        "runner_up_score": 0.7314,
+        "margin": 0.1524,
+        "confidence": "strong",
+        "box": {
+          "x": 808,
+          "y": 917,
+          "w": 43,
+          "h": 43
+        },
+        "reference_anchor": {
+          "x": 802,
+          "y": 910,
+          "crop_size": 43,
+          "search_pad": 7
+        },
+        "ranked": [
+          {
+            "label": "Rot",
+            "score": 0.8838,
+            "dx": 13,
+            "dy": 14
+          },
+          {
+            "label": "Holy",
+            "score": 0.7314,
+            "dx": 14,
+            "dy": 1
+          }
+        ]
+      },
+      "great_church_top_right": {
+        "label": "Lightning",
+        "score": 0.8845,
+        "runner_up": "Sleep",
+        "runner_up_score": 0.2699,
+        "margin": 0.6146,
+        "confidence": "strong",
+        "box": {
+          "x": 1082,
+          "y": 450,
+          "w": 22,
+          "h": 22
+        },
+        "reference_anchor": {
+          "x": 1110,
+          "y": 406,
+          "crop_size": 43,
+          "search_pad": 7
+        },
+        "ranked": [
+          {
+            "label": "Lightning",
+            "score": 0.8845,
+            "dx": 9,
+            "dy": 11
+          },
+          {
+            "label": "Sleep",
+            "score": 0.2699,
+            "dx": 35,
+            "dy": 0
+          }
+        ],
+        "selected_candidate_xy_norm": {
+          "x_norm": 0.88,
+          "y_norm": 0.37
+        },
+        "center_xy_norm": {
+          "x_norm": 0.86,
+          "y_norm": 0.36
+        }
+      }
+    },
+    "hybrid": {
+      "fortress": {
+        "label": "Rot",
+        "probs_sharpened": {
+          "Rot": 0.8117914320912827,
+          "Holy": 0.18820856790871732
+        },
+        "margin": 0.6235828641825654,
+        "icon_scores": {
+          "Rot": 0.8838,
+          "Holy": 0.7314
+        },
+        "icon_probs": {
+          "Rot": 0.8704563810795639,
+          "Holy": 0.12954361891956567
+        },
+        "model_probs": {
+          "Rot": 0.4968666434288025,
+          "Holy": 0.5031332969665527
+        }
+      },
+      "great_church_top_right": {
+        "label": "Lightning",
+        "probs_sharpened": {
+          "Lightning": 0.914949752305204,
+          "Sleep": 0.08505024769479597
+        },
+        "margin": 0.8298995046104081,
+        "icon_scores": {
+          "Lightning": 0.8845,
+          "Sleep": 0.2699
+        },
+        "icon_probs": {
+          "Lightning": 0.9995393908535499,
+          "Sleep": 0.0004606091454503838
+        },
+        "model_probs": {
+          "Lightning": 0.5395071506500244,
+          "Sleep": 0.460492879152298
+        }
+      }
+    }
+  }
+]

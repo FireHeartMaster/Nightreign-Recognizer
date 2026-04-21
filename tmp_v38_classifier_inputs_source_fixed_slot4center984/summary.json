@@ -1,0 +1,114 @@
+{
+  "input_dir": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots",
+  "out_root": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_v38_classifier_inputs_source_fixed_slot4center984",
+  "results": [
+    {
+      "file": "Screenshot (150).png",
+      "predictions": {
+        "slot2": "Great_Church_Lightning",
+        "slot4": "empty",
+        "slot5": "Sorcerers_Rise",
+        "slot6": "Ruins_Poison",
+        "slot7": "Church",
+        "palace": "Status_Fire",
+        "fortress": "Status_Holy"
+      }
+    },
+    {
+      "file": "Screenshot (151).png",
+      "predictions": {
+        "slot2": "Great_Church_Sleep",
+        "slot4": "empty",
+        "slot5": "Church",
+        "slot6": "Ruins_Poison",
+        "slot7": "Sorcerers_Rise",
+        "palace": "Status_Magic",
+        "fortress": "Status_Rot"
+      }
+    },
+    {
+      "file": "Screenshot (152).png",
+      "predictions": {
+        "slot2": "Great_Church_Lightning",
+        "slot4": "empty",
+        "slot5": "empty",
+        "slot6": "Ruins_Poison",
+        "slot7": "Church",
+        "palace": "Status_Fire",
+        "fortress": "Status_Holy"
+      }
+    },
+    {
+      "file": "Screenshot (153).png",
+      "predictions": {
+        "slot2": "Great_Church_Lightning",
+        "slot4": "empty",
+        "slot5": "empty",
+        "slot6": "Ruins_Poison",
+        "slot7": "Sorcerers_Rise",
+        "palace": "Status_Fire",
+        "fortress": "Status_Rot"
+      }
+    },
+    {
+      "file": "Screenshot (154).png",
+      "predictions": {
+        "slot2": "Great_Church_Sleep",
+        "slot4": "empty",
+        "slot5": "empty",
+        "slot6": "Ruins_Poison",
+        "slot7": "Church",
+        "palace": "Status_Magic",
+        "fortress": "Status_Rot"
+      }
+    },
+    {
+      "file": "Screenshot (155).png",
+      "predictions": {
+        "slot2": "Great_Church_Lightning",
+        "slot4": "empty",
+        "slot5": "Sorcerers_Rise",
+        "slot6": "Ruins_Poison",
+        "slot7": "Church",
+        "palace": "Status_Magic",
+        "fortress": "Status_Holy"
+      }
+    },
+    {
+      "file": "Screenshot (156).png",
+      "predictions": {
+        "slot2": "Great_Church_Lightning",
+        "slot4": "empty",
+        "slot5": "empty",
+        "slot6": "Ruins_Poison",
+        "slot7": "Sorcerers_Rise",
+        "palace": "Status_Magic",
+        "fortress": "Status_Holy"
+      }
+    },
+    {
+      "file": "Screenshot (157).png",
+      "predictions": {
+        "slot2": "Great_Church_Lightning",
+        "slot4": "empty",
+        "slot5": "Sorcerers_Rise",
+        "slot6": "Ruins_Poison",
+        "slot7": "Church",
+        "palace": "Status_Magic",
+        "fortress": "Status_Rot"
+      }
+    },
+    {
+      "file": "Screenshot (158).png",
+      "predictions": {
+        "slot2": "Great_Church_Lightning",
+        "slot4": "empty",
+        "slot5": "Sorcerers_Rise",
+        "slot6": "Ruins_Bleed",
+        "slot7": "Church",
+        "palace": "Status_Fire",
+        "fortress": "Status_Rot"
+      }
+    }
+  ]
+}

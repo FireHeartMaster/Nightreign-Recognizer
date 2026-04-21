@@ -1,0 +1,462 @@
+[
+  {
+    "patternId": 1005,
+    "file": "renders\\recognizer_no_text\\layout_1005.png",
+    "icons": {
+      "Palace": {
+        "pred": "Magic",
+        "expected": "Magic",
+        "correct": true,
+        "confidence": {
+          "band": "medium",
+          "margin": 0.493,
+          "score": 0.7465
+        }
+      },
+      "Fortress": {
+        "pred": "Holy",
+        "expected": "Holy",
+        "correct": true,
+        "confidence": {
+          "band": "weak",
+          "margin": 0.2917,
+          "score": 0.6458
+        }
+      },
+      "Ruins": {
+        "pred": "Poison",
+        "expected": "Poison",
+        "correct": true,
+        "confidence": {
+          "band": "strong",
+          "margin": 0.3617,
+          "score": 0.9375
+        }
+      },
+      "Great Church": {
+        "pred": "Lightning",
+        "expected": "Lightning",
+        "correct": true,
+        "confidence": {
+          "band": "strong",
+          "margin": 0.9958,
+          "score": 0.9979
+        }
+      }
+    }
+  },
+  {
+    "patternId": 1006,
+    "file": "renders\\recognizer_no_text\\layout_1006.png",
+    "icons": {
+      "Palace": {
+        "pred": "Fire",
+        "expected": "Fire",
+        "correct": true,
+        "confidence": {
+          "band": "strong",
+          "margin": 0.8082,
+          "score": 0.9041
+        }
+      },
+      "Fortress": {
+        "pred": "Holy",
+        "expected": "Holy",
+        "correct": true,
+        "confidence": {
+          "band": "weak",
+          "margin": 0.2917,
+          "score": 0.6458
+        }
+      },
+      "Ruins": {
+        "pred": "Poison",
+        "expected": "Poison",
+        "correct": true,
+        "confidence": {
+          "band": "strong",
+          "margin": 0.3617,
+          "score": 0.9375
+        }
+      },
+      "Great Church": {
+        "pred": "Lightning",
+        "expected": "Lightning",
+        "correct": true,
+        "confidence": {
+          "band": "strong",
+          "margin": 0.9958,
+          "score": 0.9979
+        }
+      }
+    }
+  },
+  {
+    "patternId": 1007,
+    "file": "renders\\recognizer_no_text\\layout_1007.png",
+    "icons": {
+      "Palace": {
+        "pred": "Fire",
+        "expected": "Fire",
+        "correct": true,
+        "confidence": {
+          "band": "strong",
+          "margin": 0.8082,
+          "score": 0.9041
+        }
+      },
+      "Fortress": {
+        "pred": "Rot",
+        "expected": "Rot",
+        "correct": true,
+        "confidence": {
+          "band": "weak",
+          "margin": 0.211,
+          "score": 0.6055
+        }
+      },
+      "Ruins": {
+        "pred": "Poison",
+        "expected": "Poison",
+        "correct": true,
+        "confidence": {
+          "band": "strong",
+          "margin": 0.3617,
+          "score": 0.9375
+        }
+      },
+      "Great Church": {
+        "pred": "Lightning",
+        "expected": "Lightning",
+        "correct": true,
+        "confidence": {
+          "band": "strong",
+          "margin": 0.9958,
+          "score": 0.9979
+        }
+      }
+    }
+  },
+  {
+    "patternId": 1008,
+    "file": "renders\\recognizer_no_text\\layout_1008.png",
+    "icons": {
+      "Palace": {
+        "pred": "Magic",
+        "expected": "Magic",
+        "correct": true,
+        "confidence": {
+          "band": "medium",
+          "margin": 0.493,
+          "score": 0.7465
+        }
+      },
+      "Fortress": {
+        "pred": "Holy",
+        "expected": "Holy",
+        "correct": true,
+        "confidence": {
+          "band": "weak",
+          "margin": 0.2917,
+          "score": 0.6458
+        }
+      },
+      "Ruins": {
+        "pred": "Poison",
+        "expected": "Poison",
+        "correct": true,
+        "confidence": {
+          "band": "strong",
+          "margin": 0.3617,
+          "score": 0.9375
+        }
+      },
+      "Great Church": {
+        "pred": "Lightning",
+        "expected": "Sleep",
+        "correct": false,
+        "confidence": {
+          "band": "strong",
+          "margin": 0.7385,
+          "score": 0.8693
+        }
+      }
+    }
+  },
+  {
+    "patternId": 1009,
+    "file": "renders\\recognizer_no_text\\layout_1009.png",
+    "icons": {
+      "Palace": {
+        "pred": "Magic",
+        "expected": "Magic",
+        "correct": true,
+        "confidence": {
+          "band": "medium",
+          "margin": 0.493,
+          "score": 0.7465
+        }
+      },
+      "Fortress": {
+        "pred": "Rot",
+        "expected": "Rot",
+        "correct": true,
+        "confidence": {
+          "band": "weak",
+          "margin": 0.211,
+          "score": 0.6055
+        }
+      },
+      "Ruins": {
+        "pred": "Poison",
+        "expected": "Poison",
+        "correct": true,
+        "confidence": {
+          "band": "strong",
+          "margin": 0.3617,
+          "score": 0.9375
+        }
+      },
+      "Great Church": {
+        "pred": "Lightning",
+        "expected": "Lightning",
+        "correct": true,
+        "confidence": {
+          "band": "strong",
+          "margin": 0.9958,
+          "score": 0.9979
+        }
+      }
+    }
+  },
+  {
+    "patternId": 1015,
+    "file": "renders\\recognizer_no_text\\layout_1015.png",
+    "icons": {
+      "Palace": {
+        "pred": "Fire",
+        "expected": "Fire",
+        "correct": true,
+        "confidence": {
+          "band": "strong",
+          "margin": 0.8082,
+          "score": 0.9041
+        }
+      },
+      "Fortress": {
+        "pred": "Holy",
+        "expected": "Holy",
+        "correct": true,
+        "confidence": {
+          "band": "weak",
+          "margin": 0.2917,
+          "score": 0.6458
+        }
+      },
+      "Ruins": {
+        "pred": "Poison",
+        "expected": "Poison",
+        "correct": true,
+        "confidence": {
+          "band": "strong",
+          "margin": 0.3617,
+          "score": 0.9375
+        }
+      },
+      "Great Church": {
+        "pred": "Lightning",
+        "expected": "Lightning",
+        "correct": true,
+        "confidence": {
+          "band": "strong",
+          "margin": 0.9958,
+          "score": 0.9979
+        }
+      }
+    }
+  },
+  {
+    "patternId": 1016,
+    "file": "renders\\recognizer_no_text\\layout_1016.png",
+    "icons": {
+      "Palace": {
+        "pred": "Magic",
+        "expected": "Magic",
+        "correct": true,
+        "confidence": {
+          "band": "medium",
+          "margin": 0.493,
+          "score": 0.7465
+        }
+      },
+      "Fortress": {
+        "pred": "Holy",
+        "expected": "Holy",
+        "correct": true,
+        "confidence": {
+          "band": "weak",
+          "margin": 0.2917,
+          "score": 0.6458
+        }
+      },
+      "Ruins": {
+        "pred": "Poison",
+        "expected": "Poison",
+        "correct": true,
+        "confidence": {
+          "band": "strong",
+          "margin": 0.3617,
+          "score": 0.9375
+        }
+      },
+      "Great Church": {
+        "pred": "Lightning",
+        "expected": "Sleep",
+        "correct": false,
+        "confidence": {
+          "band": "strong",
+          "margin": 0.7385,
+          "score": 0.8693
+        }
+      }
+    }
+  },
+  {
+    "patternId": 1017,
+    "file": "renders\\recognizer_no_text\\layout_1017.png",
+    "icons": {
+      "Palace": {
+        "pred": "Magic",
+        "expected": "Magic",
+        "correct": true,
+        "confidence": {
+          "band": "medium",
+          "margin": 0.493,
+          "score": 0.7465
+        }
+      },
+      "Fortress": {
+        "pred": "Rot",
+        "expected": "Rot",
+        "correct": true,
+        "confidence": {
+          "band": "weak",
+          "margin": 0.211,
+          "score": 0.6055
+        }
+      },
+      "Ruins": {
+        "pred": "Poison",
+        "expected": "Poison",
+        "correct": true,
+        "confidence": {
+          "band": "strong",
+          "margin": 0.3617,
+          "score": 0.9375
+        }
+      },
+      "Great Church": {
+        "pred": "Lightning",
+        "expected": "Sleep",
+        "correct": false,
+        "confidence": {
+          "band": "strong",
+          "margin": 0.7385,
+          "score": 0.8693
+        }
+      }
+    }
+  },
+  {
+    "patternId": 1018,
+    "file": "renders\\recognizer_no_text\\layout_1018.png",
+    "icons": {
+      "Palace": {
+        "pred": "Fire",
+        "expected": "Fire",
+        "correct": true,
+        "confidence": {
+          "band": "strong",
+          "margin": 0.8082,
+          "score": 0.9041
+        }
+      },
+      "Fortress": {
+        "pred": "Rot",
+        "expected": "Rot",
+        "correct": true,
+        "confidence": {
+          "band": "weak",
+          "margin": 0.211,
+          "score": 0.6055
+        }
+      },
+      "Ruins": {
+        "pred": "Poison",
+        "expected": "Poison",
+        "correct": true,
+        "confidence": {
+          "band": "strong",
+          "margin": 0.3617,
+          "score": 0.9375
+        }
+      },
+      "Great Church": {
+        "pred": "Lightning",
+        "expected": "Lightning",
+        "correct": true,
+        "confidence": {
+          "band": "strong",
+          "margin": 0.9958,
+          "score": 0.9979
+        }
+      }
+    }
+  },
+  {
+    "patternId": 1019,
+    "file": "renders\\recognizer_no_text\\layout_1019.png",
+    "icons": {
+      "Palace": {
+        "pred": "Fire",
+        "expected": "Fire",
+        "correct": true,
+        "confidence": {
+          "band": "strong",
+          "margin": 0.8082,
+          "score": 0.9041
+        }
+      },
+      "Fortress": {
+        "pred": "Rot",
+        "expected": "Rot",
+        "correct": true,
+        "confidence": {
+          "band": "weak",
+          "margin": 0.211,
+          "score": 0.6055
+        }
+      },
+      "Ruins": {
+        "pred": "Poison",
+        "expected": "Poison",
+        "correct": true,
+        "confidence": {
+          "band": "strong",
+          "margin": 0.3617,
+          "score": 0.9375
+        }
+      },
+      "Great Church": {
+        "pred": "Lightning",
+        "expected": "Lightning",
+        "correct": true,
+        "confidence": {
+          "band": "strong",
+          "margin": 0.9958,
+          "score": 0.9979
+        }
+      }
+    }
+  }
+]

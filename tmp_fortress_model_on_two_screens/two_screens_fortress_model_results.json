@@ -1,0 +1,50 @@
+[
+  {
+    "file": "C:\\Users\\eduar\\Downloads\\Captura de tela 2026-04-15 125537.png",
+    "earth_top1": "Great Hollow",
+    "icon_recognizer_fortress": {
+      "label": "Rot",
+      "score": 0.8507,
+      "runner_up": "Holy",
+      "runner_up_score": 0.8235,
+      "margin": 0.0273,
+      "box": {
+        "x": 804,
+        "y": 917,
+        "w": 43,
+        "h": 43
+      }
+    },
+    "fortress_model": {
+      "pred": "Holy",
+      "probs": {
+        "Holy": 0.5060722021714703,
+        "Rot": 0.4939277978285297
+      }
+    }
+  },
+  {
+    "file": "C:\\Users\\eduar\\Downloads\\Captura de tela 2026-04-16 081032.png",
+    "earth_top1": "Great Hollow",
+    "icon_recognizer_fortress": {
+      "label": "Rot",
+      "score": 0.8838,
+      "runner_up": "Holy",
+      "runner_up_score": 0.7314,
+      "margin": 0.1524,
+      "box": {
+        "x": 808,
+        "y": 917,
+        "w": 43,
+        "h": 43
+      }
+    },
+    "fortress_model": {
+      "pred": "Holy",
+      "probs": {
+        "Holy": 0.5031333397678714,
+        "Rot": 0.4968666602321286
+      }
+    }
+  }
+]

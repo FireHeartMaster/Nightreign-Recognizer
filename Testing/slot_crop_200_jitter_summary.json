@@ -1,0 +1,633 @@
+{
+  "source_count": 7,
+  "targets": [
+    "fortress",
+    "palace",
+    "slot_2",
+    "slot_3",
+    "slot_4",
+    "slot_5",
+    "slot_6",
+    "slot_7"
+  ],
+  "created": [
+    {
+      "source": "pattern_1115_asym_further_crop.png",
+      "target": "slot_2",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2\\pattern_1115_asym_further_crop__slot_2__dx-20_dy+17.png",
+      "dx": -20,
+      "dy": 17,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1115_asym_further_crop.png",
+      "target": "slot_3",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_3\\pattern_1115_asym_further_crop__slot_3__dx-24_dy-10.png",
+      "dx": -24,
+      "dy": -10,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1115_asym_further_crop.png",
+      "target": "slot_4",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4\\pattern_1115_asym_further_crop__slot_4__dx-18_dy+9.png",
+      "dx": -18,
+      "dy": 9,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1115_asym_further_crop.png",
+      "target": "slot_5",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5\\pattern_1115_asym_further_crop__slot_5__dx-29_dy+16.png",
+      "dx": -29,
+      "dy": 16,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1115_asym_further_crop.png",
+      "target": "slot_6",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\pattern_1115_asym_further_crop__slot_6__dx+8_dy+12.png",
+      "dx": 8,
+      "dy": 12,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1115_asym_further_crop.png",
+      "target": "slot_7",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7\\pattern_1115_asym_further_crop__slot_7__dx-7_dy+13.png",
+      "dx": -7,
+      "dy": 13,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1115_asym_further_crop.png",
+      "target": "palace",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\pattern_1115_asym_further_crop__palace__dx-25_dy+24.png",
+      "dx": -25,
+      "dy": 24,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1115_asym_further_crop.png",
+      "target": "fortress",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress\\pattern_1115_asym_further_crop__fortress__dx+17_dy+25.png",
+      "dx": 17,
+      "dy": 25,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1119_asym_further_crop.png",
+      "target": "slot_2",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2\\pattern_1119_asym_further_crop__slot_2__dx+14_dy-2.png",
+      "dx": 14,
+      "dy": -2,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1119_asym_further_crop.png",
+      "target": "slot_3",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_3\\pattern_1119_asym_further_crop__slot_3__dx+19_dy+12.png",
+      "dx": 19,
+      "dy": 12,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1119_asym_further_crop.png",
+      "target": "slot_4",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4\\pattern_1119_asym_further_crop__slot_4__dx-27_dy-17.png",
+      "dx": -27,
+      "dy": -17,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1119_asym_further_crop.png",
+      "target": "slot_5",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5\\pattern_1119_asym_further_crop__slot_5__dx-11_dy+4.png",
+      "dx": -11,
+      "dy": 4,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1119_asym_further_crop.png",
+      "target": "slot_6",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\pattern_1119_asym_further_crop__slot_6__dx+25_dy-28.png",
+      "dx": 25,
+      "dy": -28,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1119_asym_further_crop.png",
+      "target": "slot_7",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7\\pattern_1119_asym_further_crop__slot_7__dx+29_dy+2.png",
+      "dx": 29,
+      "dy": 2,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1119_asym_further_crop.png",
+      "target": "palace",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\pattern_1119_asym_further_crop__palace__dx+1_dy+21.png",
+      "dx": 1,
+      "dy": 21,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1119_asym_further_crop.png",
+      "target": "fortress",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress\\pattern_1119_asym_further_crop__fortress__dx+22_dy-1.png",
+      "dx": 22,
+      "dy": -1,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1120_asym_further_crop.png",
+      "target": "slot_2",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2\\pattern_1120_asym_further_crop__slot_2__dx-1_dy-24.png",
+      "dx": -1,
+      "dy": -24,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1120_asym_further_crop.png",
+      "target": "slot_3",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_3\\pattern_1120_asym_further_crop__slot_3__dx+10_dy+21.png",
+      "dx": 10,
+      "dy": 21,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1120_asym_further_crop.png",
+      "target": "slot_4",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4\\pattern_1120_asym_further_crop__slot_4__dx+2_dy+10.png",
+      "dx": 2,
+      "dy": 10,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1120_asym_further_crop.png",
+      "target": "slot_5",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5\\pattern_1120_asym_further_crop__slot_5__dx+12_dy+23.png",
+      "dx": 12,
+      "dy": 23,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1120_asym_further_crop.png",
+      "target": "slot_6",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\pattern_1120_asym_further_crop__slot_6__dx+11_dy-13.png",
+      "dx": 11,
+      "dy": -13,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1120_asym_further_crop.png",
+      "target": "slot_7",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7\\pattern_1120_asym_further_crop__slot_7__dx-7_dy-26.png",
+      "dx": -7,
+      "dy": -26,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1120_asym_further_crop.png",
+      "target": "palace",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\pattern_1120_asym_further_crop__palace__dx-5_dy-17.png",
+      "dx": -5,
+      "dy": -17,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1120_asym_further_crop.png",
+      "target": "fortress",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress\\pattern_1120_asym_further_crop__fortress__dx-20_dy+8.png",
+      "dx": -20,
+      "dy": 8,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1128_asym_further_crop.png",
+      "target": "slot_2",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2\\pattern_1128_asym_further_crop__slot_2__dx+2_dy+25.png",
+      "dx": 2,
+      "dy": 25,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1128_asym_further_crop.png",
+      "target": "slot_3",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_3\\pattern_1128_asym_further_crop__slot_3__dx+29_dy+26.png",
+      "dx": 29,
+      "dy": 26,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1128_asym_further_crop.png",
+      "target": "slot_4",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4\\pattern_1128_asym_further_crop__slot_4__dx-5_dy-13.png",
+      "dx": -5,
+      "dy": -13,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1128_asym_further_crop.png",
+      "target": "slot_5",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5\\pattern_1128_asym_further_crop__slot_5__dx-24_dy+8.png",
+      "dx": -24,
+      "dy": 8,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1128_asym_further_crop.png",
+      "target": "slot_6",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\pattern_1128_asym_further_crop__slot_6__dx-4_dy+14.png",
+      "dx": -4,
+      "dy": 14,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1128_asym_further_crop.png",
+      "target": "slot_7",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7\\pattern_1128_asym_further_crop__slot_7__dx+2_dy-13.png",
+      "dx": 2,
+      "dy": -13,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1128_asym_further_crop.png",
+      "target": "palace",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\pattern_1128_asym_further_crop__palace__dx-28_dy+18.png",
+      "dx": -28,
+      "dy": 18,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1128_asym_further_crop.png",
+      "target": "fortress",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress\\pattern_1128_asym_further_crop__fortress__dx+14_dy+28.png",
+      "dx": 14,
+      "dy": 28,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1175_asym_further_crop.png",
+      "target": "slot_2",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2\\pattern_1175_asym_further_crop__slot_2__dx+20_dy-29.png",
+      "dx": 20,
+      "dy": -29,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1175_asym_further_crop.png",
+      "target": "slot_3",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_3\\pattern_1175_asym_further_crop__slot_3__dx+10_dy+26.png",
+      "dx": 10,
+      "dy": 26,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1175_asym_further_crop.png",
+      "target": "slot_4",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4\\pattern_1175_asym_further_crop__slot_4__dx-15_dy+16.png",
+      "dx": -15,
+      "dy": 16,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1175_asym_further_crop.png",
+      "target": "slot_5",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5\\pattern_1175_asym_further_crop__slot_5__dx+20_dy+8.png",
+      "dx": 20,
+      "dy": 8,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1175_asym_further_crop.png",
+      "target": "slot_6",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\pattern_1175_asym_further_crop__slot_6__dx-8_dy+20.png",
+      "dx": -8,
+      "dy": 20,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1175_asym_further_crop.png",
+      "target": "slot_7",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7\\pattern_1175_asym_further_crop__slot_7__dx-18_dy+20.png",
+      "dx": -18,
+      "dy": 20,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1175_asym_further_crop.png",
+      "target": "palace",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\pattern_1175_asym_further_crop__palace__dx+26_dy-3.png",
+      "dx": 26,
+      "dy": -3,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1175_asym_further_crop.png",
+      "target": "fortress",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress\\pattern_1175_asym_further_crop__fortress__dx-7_dy-23.png",
+      "dx": -7,
+      "dy": -23,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1181_asym_further_crop.png",
+      "target": "slot_2",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2\\pattern_1181_asym_further_crop__slot_2__dx+6_dy+3.png",
+      "dx": 6,
+      "dy": 3,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1181_asym_further_crop.png",
+      "target": "slot_3",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_3\\pattern_1181_asym_further_crop__slot_3__dx-11_dy-15.png",
+      "dx": -11,
+      "dy": -15,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1181_asym_further_crop.png",
+      "target": "slot_4",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4\\pattern_1181_asym_further_crop__slot_4__dx+14_dy-9.png",
+      "dx": 14,
+      "dy": -9,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1181_asym_further_crop.png",
+      "target": "slot_5",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5\\pattern_1181_asym_further_crop__slot_5__dx-26_dy-4.png",
+      "dx": -26,
+      "dy": -4,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1181_asym_further_crop.png",
+      "target": "slot_6",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\pattern_1181_asym_further_crop__slot_6__dx+17_dy-17.png",
+      "dx": 17,
+      "dy": -17,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1181_asym_further_crop.png",
+      "target": "slot_7",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7\\pattern_1181_asym_further_crop__slot_7__dx+16_dy-11.png",
+      "dx": 16,
+      "dy": -11,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1181_asym_further_crop.png",
+      "target": "palace",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\pattern_1181_asym_further_crop__palace__dx-2_dy+0.png",
+      "dx": -2,
+      "dy": 0,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1181_asym_further_crop.png",
+      "target": "fortress",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress\\pattern_1181_asym_further_crop__fortress__dx+23_dy+5.png",
+      "dx": 23,
+      "dy": 5,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1185_asym_further_crop.png",
+      "target": "slot_2",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2\\pattern_1185_asym_further_crop__slot_2__dx-8_dy-7.png",
+      "dx": -8,
+      "dy": -7,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1185_asym_further_crop.png",
+      "target": "slot_3",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_3\\pattern_1185_asym_further_crop__slot_3__dx-8_dy-22.png",
+      "dx": -8,
+      "dy": -22,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1185_asym_further_crop.png",
+      "target": "slot_4",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4\\pattern_1185_asym_further_crop__slot_4__dx-29_dy+2.png",
+      "dx": -29,
+      "dy": 2,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1185_asym_further_crop.png",
+      "target": "slot_5",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5\\pattern_1185_asym_further_crop__slot_5__dx+14_dy-9.png",
+      "dx": 14,
+      "dy": -9,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1185_asym_further_crop.png",
+      "target": "slot_6",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\pattern_1185_asym_further_crop__slot_6__dx+1_dy+5.png",
+      "dx": 1,
+      "dy": 5,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1185_asym_further_crop.png",
+      "target": "slot_7",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7\\pattern_1185_asym_further_crop__slot_7__dx-18_dy-22.png",
+      "dx": -18,
+      "dy": -22,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1185_asym_further_crop.png",
+      "target": "palace",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\pattern_1185_asym_further_crop__palace__dx-28_dy-15.png",
+      "dx": -28,
+      "dy": -15,
+      "size": [
+        200,
+        200
+      ]
+    },
+    {
+      "source": "pattern_1185_asym_further_crop.png",
+      "target": "fortress",
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress\\pattern_1185_asym_further_crop__fortress__dx-21_dy+7.png",
+      "dx": -21,
+      "dy": 7,
+      "size": [
+        200,
+        200
+      ]
+    }
+  ],
+  "errors": [],
+  "created_count": 56
+}

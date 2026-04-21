@@ -1,0 +1,45 @@
+{
+  "notes": "Isolated slot-5 jitter set; affine jitter + reflected borders; 260->200 crops.",
+  "per_class_target": 3000,
+  "seed": 2404,
+  "base_size": 260,
+  "out_size": 200,
+  "summary": {
+    "Church": {
+      "total_generated": 3000,
+      "per_base": {
+        "1119_panel_crop__slot4_panel260_fixed.png": 1000,
+        "1120_panel_crop__slot4_panel260_fixed.png": 1000,
+        "1185_panel_crop__slot4_panel260_fixed.png": 1000
+      }
+    },
+    "Sorcerers_Rise": {
+      "total_generated": 3000,
+      "per_base": {
+        "1115_panel_crop__slot4_panel260_fixed.png": 3000
+      }
+    }
+  },
+  "items": [
+    {
+      "label": "Church",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\Church\\1119_panel_crop__slot4_panel260_fixed.png",
+      "generated": 1000
+    },
+    {
+      "label": "Church",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\Church\\1120_panel_crop__slot4_panel260_fixed.png",
+      "generated": 1000
+    },
+    {
+      "label": "Church",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\Church\\1185_panel_crop__slot4_panel260_fixed.png",
+      "generated": 1000
+    },
+    {
+      "label": "Sorcerers_Rise",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\Sorcerers_Rise\\1115_panel_crop__slot4_panel260_fixed.png",
+      "generated": 3000
+    }
+  ]
+}

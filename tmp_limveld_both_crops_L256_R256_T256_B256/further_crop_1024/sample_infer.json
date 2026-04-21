@@ -1,0 +1,34 @@
+{
+  "input": "pattern_0000_further_crop_1024.png",
+  "best_patternId": 0,
+  "top5": [
+    {
+      "patternId": 0,
+      "score": 5.570703506469727,
+      "probability": 1.0
+    },
+    {
+      "patternId": 171,
+      "score": 1.8013484477996826,
+      "probability": 2.2816487536673515e-14
+    },
+    {
+      "patternId": 92,
+      "score": 1.7769780158996582,
+      "probability": 1.8622983268879768e-14
+    },
+    {
+      "patternId": 293,
+      "score": 1.7675166130065918,
+      "probability": 1.721103186184958e-14
+    },
+    {
+      "patternId": 281,
+      "score": 1.692507028579712,
+      "probability": 9.211663719408281e-15
+    }
+  ],
+  "confidence": 1.0,
+  "margin_top1_top2": 3.769355058670044,
+  "unknown": false
+}

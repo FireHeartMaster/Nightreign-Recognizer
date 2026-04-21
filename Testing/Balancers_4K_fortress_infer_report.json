@@ -1,0 +1,50 @@
+{
+  "input_full_screenshot": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\Screenshots\\Balancers_4K.png",
+  "panel_crop_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\Balancers_4K_panel_crop_for_fortress_test.png",
+  "panel_shape": [
+    1490,
+    1490
+  ],
+  "crop_method": "fallback",
+  "asym_shape": [
+    1191,
+    1176
+  ],
+  "fortress_anchor_reference": {
+    "patternId": 1119,
+    "x_further_px_bl": 875.0,
+    "y_further_px_bl": 278.4000000000001,
+    "center_cv": {
+      "x": 875,
+      "y": 897
+    }
+  },
+  "fortress_crop_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\Balancers_4K_fortress_crop_200.png",
+  "fortress_crop_shape": [
+    200,
+    200
+  ],
+  "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress\\fortress_status_cnn.pt",
+  "class_names": [
+    "Status_Holy",
+    "Status_Rot"
+  ],
+  "predicted_label": "Status_Rot",
+  "confidence": 0.5239733457565308,
+  "ranking": [
+    {
+      "label": "Status_Rot",
+      "probability": 0.5239733457565308
+    },
+    {
+      "label": "Status_Holy",
+      "probability": 0.476026713848114
+    }
+  ],
+  "model_meta": {
+    "best_epoch": 5,
+    "best_val_accuracy": 1.0,
+    "train_samples": 203,
+    "val_samples": 50
+  }
+}

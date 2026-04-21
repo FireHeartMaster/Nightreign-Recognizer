@@ -1,0 +1,70 @@
+{
+  "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5_plus_real_heavy\\slot5_status_cnn_plus_real_heavy.pt",
+  "data_dir": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5_plus_real_heavy",
+  "class_names": [
+    "Church",
+    "empty",
+    "Sorcerer_s_Rise"
+  ],
+  "image_size": 200,
+  "meta": {
+    "best_epoch": 7,
+    "best_val_accuracy": 1.0,
+    "train_samples": 677,
+    "val_samples": 168
+  },
+  "total": 845,
+  "correct": 843,
+  "accuracy": 0.9976331360946745,
+  "class_metrics": [
+    {
+      "label": "Church",
+      "count": 316,
+      "correct": 316,
+      "accuracy": 1.0
+    },
+    {
+      "label": "empty",
+      "count": 317,
+      "correct": 315,
+      "accuracy": 0.9936908517350158
+    },
+    {
+      "label": "Sorcerer_s_Rise",
+      "count": 212,
+      "correct": 212,
+      "accuracy": 1.0
+    }
+  ],
+  "confusion_matrix": [
+    [
+      316,
+      0,
+      0
+    ],
+    [
+      2,
+      315,
+      0
+    ],
+    [
+      0,
+      0,
+      212
+    ]
+  ],
+  "failures": [
+    {
+      "file": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5_plus_real_heavy\\empty\\empty__from260__j051__dx-30_dy+22.png",
+      "true_label": "empty",
+      "predicted_label": "Church",
+      "confidence": 0.41821736097335815
+    },
+    {
+      "file": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5_plus_real_heavy\\empty\\empty__from260__j097__dx-27_dy+30.png",
+      "true_label": "empty",
+      "predicted_label": "Church",
+      "confidence": 0.39756685495376587
+    }
+  ]
+}

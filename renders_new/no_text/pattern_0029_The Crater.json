@@ -1,0 +1,240 @@
+{
+  "patternId": 29,
+  "rareMap": "The Crater",
+  "width": 1536,
+  "height": 1536,
+  "cropBorder": 0,
+  "landmarks": [
+    {
+      "type": "Church",
+      "icon": "Church",
+      "x": 621.0,
+      "y": 560.0,
+      "x_norm": 0.404296875,
+      "y_norm": 0.3645833333333333,
+      "text": "",
+      "source": "fixed_point",
+      "source_id": 7
+    },
+    {
+      "type": "Day 1",
+      "icon": "Day 1",
+      "x": 492.0,
+      "y": 846.0,
+      "x_norm": 0.3203125,
+      "y_norm": 0.55078125,
+      "text": "Day 1\nMeteor Strike",
+      "source": "row_item",
+      "source_id": 1551
+    },
+    {
+      "type": "Fort",
+      "icon": "Fort",
+      "x": 437.0,
+      "y": 684.0,
+      "x_norm": 0.2845052083333333,
+      "y_norm": 0.4453125,
+      "text": "Crystalians",
+      "source": "row_item",
+      "source_id": 1552
+    },
+    {
+      "type": "Fort",
+      "icon": "Fort",
+      "x": 971.0,
+      "y": 905.0,
+      "x_norm": 0.6321614583333334,
+      "y_norm": 0.5891927083333334,
+      "text": "Lordsworn Captain",
+      "source": "row_item",
+      "source_id": 1553
+    },
+    {
+      "type": "Great Church",
+      "icon": "Great Church",
+      "x": 429.0,
+      "y": 1003.0,
+      "x_norm": 0.279296875,
+      "y_norm": 0.6529947916666666,
+      "text": "Oracle Envoys",
+      "source": "row_item",
+      "source_id": 1554
+    },
+    {
+      "type": "Great Church",
+      "icon": "Great Church",
+      "x": 354.0,
+      "y": 429.0,
+      "x_norm": 0.23046875,
+      "y_norm": 0.279296875,
+      "text": "Fire Monk",
+      "source": "row_item",
+      "source_id": 1555
+    },
+    {
+      "type": "Camp",
+      "icon": "Camp",
+      "x": 1156.0,
+      "y": 964.0,
+      "x_norm": 0.7526041666666666,
+      "y_norm": 0.6276041666666666,
+      "text": "Leonine Misbegotten",
+      "source": "row_item",
+      "source_id": 1556
+    },
+    {
+      "type": "Camp",
+      "icon": "Camp",
+      "x": 1147.0,
+      "y": 1132.0,
+      "x_norm": 0.7467447916666666,
+      "y_norm": 0.7369791666666666,
+      "text": "Banished Knights",
+      "source": "row_item",
+      "source_id": 1557
+    },
+    {
+      "type": "Ruins",
+      "icon": "Ruins",
+      "x": 941.0,
+      "y": 1054.0,
+      "x_norm": 0.6126302083333334,
+      "y_norm": 0.6861979166666666,
+      "text": "Large Albinaurics",
+      "source": "row_item",
+      "source_id": 1558
+    },
+    {
+      "type": "Ruins",
+      "icon": "Ruins",
+      "x": 1196.0,
+      "y": 543.0,
+      "x_norm": 0.7786458333333334,
+      "y_norm": 0.353515625,
+      "text": "Beastmen of Farum Azula",
+      "source": "row_item",
+      "source_id": 1559
+    },
+    {
+      "type": "Ruins",
+      "icon": "Ruins",
+      "x": 1096.0,
+      "y": 330.0,
+      "x_norm": 0.7135416666666666,
+      "y_norm": 0.21484375,
+      "text": "Large Albinaurics",
+      "source": "row_item",
+      "source_id": 1560
+    },
+    {
+      "type": "Church",
+      "icon": "Church",
+      "x": 844.0,
+      "y": 972.0,
+      "x_norm": 0.5494791666666666,
+      "y_norm": 0.6328125,
+      "text": "Dogs",
+      "source": "row_item",
+      "source_id": 1562
+    },
+    {
+      "type": "Church",
+      "icon": "Church",
+      "x": 310.0,
+      "y": 1090.0,
+      "x_norm": 0.20182291666666666,
+      "y_norm": 0.7096354166666666,
+      "text": "Dogs",
+      "source": "row_item",
+      "source_id": 1563
+    },
+    {
+      "type": "Church",
+      "icon": "Church",
+      "x": 1191.0,
+      "y": 649.0,
+      "x_norm": 0.775390625,
+      "y_norm": 0.4225260416666667,
+      "text": "Dogs",
+      "source": "row_item",
+      "source_id": 1564
+    },
+    {
+      "type": "Sorcerer's Rise",
+      "icon": "Sorcerer's Rise",
+      "x": 874.0,
+      "y": 1224.0,
+      "x_norm": 0.5690104166666666,
+      "y_norm": 0.796875,
+      "text": "Fleeing Stump",
+      "source": "row_item",
+      "source_id": 1565
+    },
+    {
+      "type": "Castle",
+      "icon": "Castle",
+      "x": 730.0,
+      "y": 833.0,
+      "x_norm": 0.4752604166666667,
+      "y_norm": 0.5423177083333334,
+      "text": "Trolls",
+      "source": "row_item",
+      "source_id": 1570
+    },
+    {
+      "type": "Evergaol",
+      "icon": "Evergaol",
+      "x": 259.0,
+      "y": 487.0,
+      "x_norm": 0.16861979166666666,
+      "y_norm": 0.3170572916666667,
+      "text": "Banished Knights",
+      "source": "row_item",
+      "source_id": 1577
+    },
+    {
+      "type": "Evergaol",
+      "icon": "Evergaol",
+      "x": 1214.0,
+      "y": 750.0,
+      "x_norm": 0.7903645833333334,
+      "y_norm": 0.48828125,
+      "text": "Crucible Knight with Sword",
+      "source": "row_item",
+      "source_id": 1578
+    },
+    {
+      "type": "Evergaol",
+      "icon": "Evergaol",
+      "x": 533.0,
+      "y": 970.0,
+      "x_norm": 0.3470052083333333,
+      "y_norm": 0.6315104166666666,
+      "text": "Beastmen of Farum Azula",
+      "source": "row_item",
+      "source_id": 1579
+    },
+    {
+      "type": "Evergaol",
+      "icon": "Evergaol",
+      "x": 953.0,
+      "y": 1179.0,
+      "x_norm": 0.6204427083333334,
+      "y_norm": 0.767578125,
+      "text": "Nox Duo",
+      "source": "row_item",
+      "source_id": 1580
+    },
+    {
+      "type": "Fort",
+      "icon": "Fort",
+      "x": 611.0,
+      "y": 1201.0,
+      "x_norm": 0.3977864583333333,
+      "y_norm": 0.7819010416666666,
+      "text": "Crystalians",
+      "source": "row_item",
+      "source_id": 1582
+    }
+  ]
+}

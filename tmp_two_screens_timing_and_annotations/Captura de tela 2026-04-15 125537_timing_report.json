@@ -1,0 +1,271 @@
+{
+  "screenshot": "C:\\Users\\eduar\\Downloads\\Captura de tela 2026-04-15 125537.png",
+  "monitor_index_used": 1,
+  "best_earth": "Great Hollow",
+  "top_layout": 1191,
+  "top_layout_score": 3.0787786588111183,
+  "timings_seconds": {
+    "capture_screenshot_or_use_pre_captured": 0.0009211000287905335,
+    "panel_crop_preview_initial": 0.09330710000358522,
+    "preview_callback": 0.0,
+    "detect_map_circle_main": 0.07500010007061064,
+    "panel_crop_first_pass": 0.012643499998375773,
+    "panel_further_crop_normalize": 4.477308499976061,
+    "earth_selector_ranking": 0.007928400067612529,
+    "slot_observation_classification_total": 0.23678090004250407,
+    "geometry_prior_computation": 6.900052540004253e-06,
+    "lost_slot_prior_computation": 1.300009898841381e-06,
+    "hard_constraint_prior_computation": 1.7998972907662392e-06,
+    "evergaol_prior_detection": 0.44555450009647757,
+    "status_icon_detection": 17.27533360000234,
+    "dual_shot_second_status_detection": 0.0,
+    "earth_cascade_ranking": 6.170000415295362e-05,
+    "layout_identification_scoring": 0.0023458999348804355,
+    "layout_sort_and_select": 1.7400016076862812e-05,
+    "debug_annotation_rendering": 0.23016379994805902,
+    "display_path_resolution": 0.14866179996170104,
+    "total_run": 23.44639639998786
+  },
+  "timings_wall_clock_seconds": 23.450441000051796,
+  "status_observations": {
+    "Palace": {
+      "anchor_type": "Palace",
+      "expected_x_norm": 0.328125,
+      "expected_y_norm": 0.28046875,
+      "best_status": "Status_Fire",
+      "best_score": 0.50578773021698,
+      "second_status": "Status_Magic",
+      "second_score": 0.49421223998069763,
+      "margin": 0.011575490236282349,
+      "present_prob": 0.6,
+      "x_norm": 0.22985197368421054,
+      "y_norm": 0.22879282218597063,
+      "method": "icon_recognizer_v4_gh_raw_alt:models",
+      "classifier_mode": "models",
+      "ranked": [
+        {
+          "status_type": "Status_Fire",
+          "score": 0.50578773021698,
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "status_type": "Status_Magic",
+          "score": 0.49421223998069763,
+          "dx": 0,
+          "dy": 0
+        }
+      ]
+    },
+    "Fortress": {
+      "anchor_type": "Fortress",
+      "expected_x_norm": 0.68359375,
+      "expected_y_norm": 0.7015625,
+      "best_status": "Status_Rot",
+      "best_score": 0.5003450512886047,
+      "second_status": "Status_Holy",
+      "second_score": 0.49965494871139526,
+      "margin": 0.0006901025772094727,
+      "present_prob": 0.6,
+      "x_norm": 0.6788651315789473,
+      "y_norm": 0.7654975530179445,
+      "method": "icon_recognizer_v4_gh_raw_alt:models",
+      "classifier_mode": "models",
+      "ranked": [
+        {
+          "status_type": "Status_Rot",
+          "score": 0.5003450512886047,
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "status_type": "Status_Holy",
+          "score": 0.49965494871139526,
+          "dx": 0,
+          "dy": 0
+        }
+      ]
+    },
+    "Ruins": {
+      "anchor_type": "Ruins",
+      "expected_x_norm": 0.0,
+      "expected_y_norm": 0.0,
+      "best_status": "Status_Poison",
+      "best_score": 0.9271183013916016,
+      "second_status": "Status_Bleed",
+      "second_score": 0.07288171350955963,
+      "margin": 0.8542365878820419,
+      "present_prob": 0.95,
+      "x_norm": 0.08799342105263158,
+      "y_norm": 0.6435562805872757,
+      "method": "icon_recognizer_v4_gh_raw_alt:models",
+      "classifier_mode": "models",
+      "ranked": [
+        {
+          "status_type": "Status_Poison",
+          "score": 0.9271183013916016,
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "status_type": "Status_Bleed",
+          "score": 0.07288171350955963,
+          "dx": 0,
+          "dy": 0
+        }
+      ]
+    },
+    "Great Church": {
+      "anchor_type": "Great Church",
+      "expected_x_norm": 0.0,
+      "expected_y_norm": 0.0,
+      "best_status": "Status_Lightning",
+      "best_score": 0.6436322927474976,
+      "second_status": "Status_Sleep",
+      "second_score": 0.35636764764785767,
+      "margin": 0.2872646450996399,
+      "present_prob": 0.8,
+      "x_norm": 0.8922697368421053,
+      "y_norm": 0.3792822185970636,
+      "method": "icon_recognizer_v4_gh_raw_alt:models",
+      "classifier_mode": "models",
+      "ranked": [
+        {
+          "status_type": "Status_Lightning",
+          "score": 0.6436322927474976,
+          "dx": 0,
+          "dy": 0
+        },
+        {
+          "status_type": "Status_Sleep",
+          "score": 0.35636764764785767,
+          "dx": 0,
+          "dy": 0
+        }
+      ]
+    }
+  },
+  "panel_annotated_image": "tmp_two_screens_timing_and_annotations\\Captura de tela 2026-04-15 125537_panel_annotated.png",
+  "full_annotated_image": "tmp_two_screens_timing_and_annotations\\Captura de tela 2026-04-15 125537_full_annotated.png",
+  "top5": [
+    {
+      "layout_number": 1191,
+      "shifting_earth": "Great Hollow",
+      "total_score": 3.0787786588111183,
+      "great_hollow_status_prior": 0.33223650492834195,
+      "great_hollow_under_status_prior": 0.0
+    },
+    {
+      "layout_number": 1068,
+      "shifting_earth": "Great Hollow",
+      "total_score": 2.982498997191881,
+      "great_hollow_status_prior": 0.23595684330910446,
+      "great_hollow_under_status_prior": 0.0
+    },
+    {
+      "layout_number": 1134,
+      "shifting_earth": "Great Hollow",
+      "total_score": 2.982498997191881,
+      "great_hollow_status_prior": 0.23595684330910446,
+      "great_hollow_under_status_prior": 0.0
+    },
+    {
+      "layout_number": 1178,
+      "shifting_earth": "Great Hollow",
+      "total_score": 2.8403695038212287,
+      "great_hollow_status_prior": 0.09382734993845224,
+      "great_hollow_under_status_prior": 0.0
+    },
+    {
+      "layout_number": 1133,
+      "shifting_earth": "Great Hollow",
+      "total_score": 2.7340451620653363,
+      "great_hollow_status_prior": -0.012496991817440337,
+      "great_hollow_under_status_prior": 0.0
+    }
+  ],
+  "log_tail": [
+    "Display directory: C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\renders\\recognizer_with_text",
+    "Log file: C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\recognition.log",
+    "Selected display: Display 1 \u2014 3840x2160 @ (0,0)",
+    "Loaded tuned proto backend: C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\recognize_nightreign_map_proto_v12_debugplus_radiusscale_fix.py",
+    "Using tuned config path: C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\nightreign_best_tuned_config_multi.json",
+    "Using slot package path: C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\nightreign_geom_proto_v4_slots.npz",
+    "Using AI slot model path: C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\slot_ai_test_output_dlc_no_text_nobalance\\slot_patch_model_v1.pt",
+    "Loaded AI slot model: C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\slot_ai_test_output_dlc_no_text_nobalance\\slot_patch_model_v1.pt",
+    "AI device: cuda",
+    "AI model patch_size=96 context_scale=1.8 min_half_frac=0.075",
+    "Using AI earth model path: C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\earth_ai_test_output_no_text_prepped\\earth_panel_model_v1.pt",
+    "Loaded AI earth model: C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\earth_ai_test_output_no_text_prepped\\earth_panel_model_v1.pt",
+    "AI earth panel_size=256",
+    "Using AI confidence_threshold=0.550",
+    "Using AI margin_threshold=0.080",
+    "Using trained AI slot classifier for slot recognition.",
+    "Using pre-captured first screenshot from dual-shot trigger.",
+    "[START] Run AI slot recognizer",
+    "Loaded map class model: C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\map_class_model.pkl",
+    "Using map_class_classifier.py as main Shifting Earth selector.",
+    "Shifting Earth ranking:",
+    "  Great Hollow   score=3.977626 low_corr=0.0000 grad_corr=0.0000 source=map_class_classifier",
+    "Evaluating structural earth cascade across 1 families.",
+    "AI slots for earth Great Hollow: dx=+0.0400 dy=+0.0001 resp=0.0733 unknown=0/6",
+    "Geometry prior for Great Hollow: slot_count=6 align=0.0733 prior=+0.0000",
+    "Evergaol prior for Great Hollow: prior=-0.2017",
+    "Great Hollow status Palace: best=Status_Fire score=0.5058 margin=0.0116",
+    "Great Hollow status Fortress: best=Status_Rot score=0.5003 margin=0.0007",
+    "Great Hollow status Ruins: best=Status_Poison score=0.9271 margin=0.8542",
+    "Great Hollow status Great Church: best=Status_Lightning score=0.6436 margin=0.2873",
+    "Shifting Earth cascade ranking:",
+    "  Great Hollow   score=5.951337 base=3.977626 geom=+0.0000 lost=+0.0000 hard=+0.0000 ever=-0.2017",
+    "Restricting layout ranking to Great Hollow family only after cascade.",
+    "[DONE] Run AI slot recognizer (22.651s)",
+    "Saved AI slot debug image to tmp_runtime\\nightreign_gui_ai_e88b74dce6\\recognition_panel_used_with_slot_labels_ai.png",
+    "Saved Evergaol debug image to tmp_runtime\\nightreign_gui_ai_e88b74dce6\\recognition_panel_used_with_evergaol_debug.png",
+    "",
+    "Top 20 layout matches:",
+    "  1. layout #1191 earth=Great Hollow score=3.078779 earth_score=3.977626 gh_status=+0.3322 gh_under=+0.0000 exactW=6.60 mismW=0.00 unkW=0.00",
+    "  2. layout #1068 earth=Great Hollow score=2.982499 earth_score=3.977626 gh_status=+0.2360 gh_under=+0.0000 exactW=6.60 mismW=0.00 unkW=0.00",
+    "  3. layout #1134 earth=Great Hollow score=2.982499 earth_score=3.977626 gh_status=+0.2360 gh_under=+0.0000 exactW=6.60 mismW=0.00 unkW=0.00",
+    "  4. layout #1178 earth=Great Hollow score=2.840370 earth_score=3.977626 gh_status=+0.0938 gh_under=+0.0000 exactW=6.60 mismW=0.00 unkW=0.00",
+    "  5. layout #1133 earth=Great Hollow score=2.734045 earth_score=3.977626 gh_status=-0.0125 gh_under=+0.0000 exactW=6.60 mismW=0.00 unkW=0.00",
+    "  6. layout #1132 earth=Great Hollow score=2.722499 earth_score=3.977626 gh_status=-0.0240 gh_under=+0.0000 exactW=6.60 mismW=0.00 unkW=0.00",
+    "  7. layout #1016 earth=Great Hollow score=2.637766 earth_score=3.977626 gh_status=-0.1088 gh_under=+0.0000 exactW=6.60 mismW=0.00 unkW=0.00",
+    "  8. layout #1049 earth=Great Hollow score=2.637766 earth_score=3.977626 gh_status=-0.1088 gh_under=+0.0000 exactW=6.60 mismW=0.00 unkW=0.00",
+    "  9. layout #1125 earth=Great Hollow score=2.637766 earth_score=3.977626 gh_status=-0.1088 gh_under=+0.0000 exactW=6.60 mismW=0.00 unkW=0.00",
+    "  10. layout #1027 earth=Great Hollow score=2.580370 earth_score=3.977626 gh_status=-0.1662 gh_under=+0.0000 exactW=6.60 mismW=0.00 unkW=0.00",
+    "  11. layout #1120 earth=Great Hollow score=2.377766 earth_score=3.977626 gh_status=-0.3688 gh_under=+0.0000 exactW=6.60 mismW=0.00 unkW=0.00",
+    "  12. layout #1007 earth=Great Hollow score=-0.016221 earth_score=3.977626 gh_status=+0.3322 gh_under=+0.0000 exactW=4.95 mismW=1.65 unkW=0.00",
+    "  13. layout #1039 earth=Great Hollow score=-0.016221 earth_score=3.977626 gh_status=+0.3322 gh_under=+0.0000 exactW=4.95 mismW=1.65 unkW=0.00",
+    "  14. layout #1131 earth=Great Hollow score=-0.045538 earth_score=3.977626 gh_status=+0.3322 gh_under=+0.0000 exactW=4.89 mismW=1.71 unkW=0.00",
+    "  15. layout #1183 earth=Great Hollow score=-0.045538 earth_score=3.977626 gh_status=+0.3322 gh_under=+0.0000 exactW=4.89 mismW=1.71 unkW=0.00",
+    "  16. layout #1006 earth=Great Hollow score=-0.141818 earth_score=3.977626 gh_status=+0.2360 gh_under=+0.0000 exactW=4.89 mismW=1.71 unkW=0.00",
+    "  17. layout #1005 earth=Great Hollow score=-0.218825 earth_score=3.977626 gh_status=+0.1296 gh_under=+0.0000 exactW=4.95 mismW=1.65 unkW=0.00",
+    "  18. layout #1182 earth=Great Hollow score=-0.248142 earth_score=3.977626 gh_status=+0.1296 gh_under=+0.0000 exactW=4.89 mismW=1.71 unkW=0.00",
+    "  19. layout #1038 earth=Great Hollow score=-0.372500 earth_score=3.977626 gh_status=-0.0240 gh_under=+0.0000 exactW=4.95 mismW=1.65 unkW=0.00",
+    "  20. layout #1017 earth=Great Hollow score=-0.390272 earth_score=3.977626 gh_status=-0.0125 gh_under=+0.0000 exactW=4.89 mismW=1.71 unkW=0.00",
+    "",
+    "Timing breakdown:",
+    "  capture_screenshot_or_use_pre_captured: 0.001s",
+    "  panel_crop_preview_initial: 0.093s",
+    "  preview_callback: 0.000s",
+    "  detect_map_circle_main: 0.075s",
+    "  panel_crop_first_pass: 0.013s",
+    "  panel_further_crop_normalize: 4.477s",
+    "  earth_selector_ranking: 0.008s",
+    "  slot_observation_classification_total: 0.237s",
+    "  geometry_prior_computation: 0.000s",
+    "  lost_slot_prior_computation: 0.000s",
+    "  hard_constraint_prior_computation: 0.000s",
+    "  evergaol_prior_detection: 0.446s",
+    "  status_icon_detection: 17.275s",
+    "  dual_shot_second_status_detection: 0.000s",
+    "  earth_cascade_ranking: 0.000s",
+    "  layout_identification_scoring: 0.002s",
+    "  layout_sort_and_select: 0.000s",
+    "  debug_annotation_rendering: 0.230s",
+    "  display_path_resolution: 0.149s",
+    "  total_run: 23.446s",
+    "Resolved 5 display image(s) for preview/result view.",
+    "GUI total execution time: 23.446s"
+  ]
+}

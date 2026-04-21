@@ -1,0 +1,43 @@
+{
+  "run_id": "20260417_183532",
+  "monitor_index": 2,
+  "capture_shape": [
+    1920,
+    1080
+  ],
+  "crop_method": "gray_hough",
+  "crop_box": {
+    "x0": 1086,
+    "y0": 171,
+    "x1": 1832,
+    "y1": 917
+  },
+  "panel_shape": [
+    746,
+    746
+  ],
+  "further_shape": [
+    1024,
+    1024
+  ],
+  "prediction": {
+    "label": "Great Hollow",
+    "unknown": false,
+    "decided_label": "Great Hollow",
+    "confidence": 0.23332181572914124,
+    "margin_top1_top2": 0.043173208832740784
+  },
+  "timings_sec": {
+    "capture_monitor2": 0.05387599999085069,
+    "panel_crop": 0.07792580011300743,
+    "further_crop_normalize": 0.0010227999882772565,
+    "infer_v2": 0.029317199951037765,
+    "total": 0.33370850002393126
+  },
+  "artifacts": {
+    "full_screenshot": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\tmp_monitor2_v2_infer_test\\run_20260417_183532\\monitor2_full_screenshot.png",
+    "panel_crop": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\tmp_monitor2_v2_infer_test\\run_20260417_183532\\monitor2_panel_crop.png",
+    "further_crop_1024": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\tmp_monitor2_v2_infer_test\\run_20260417_183532\\monitor2_further_crop_1024.png",
+    "infer_result_json": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\tmp_monitor2_v2_infer_test\\run_20260417_183532\\infer_result.json"
+  }
+}

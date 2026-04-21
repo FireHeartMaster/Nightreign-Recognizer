@@ -1,0 +1,43 @@
+{
+  "run_id": "20260417_183147",
+  "monitor_index": 2,
+  "capture_shape": [
+    1920,
+    1080
+  ],
+  "crop_method": "blue_ring",
+  "crop_box": {
+    "x0": 1084,
+    "y0": 170,
+    "x1": 1832,
+    "y1": 917
+  },
+  "panel_shape": [
+    748,
+    747
+  ],
+  "further_shape": [
+    1024,
+    1024
+  ],
+  "prediction": {
+    "label": "Limveld",
+    "unknown": true,
+    "decided_label": null,
+    "confidence": 0.21433643996715546,
+    "margin_top1_top2": 0.0257730633020401
+  },
+  "timings_sec": {
+    "capture_monitor2": 0.055239200009964406,
+    "panel_crop": 0.020197700010612607,
+    "further_crop_normalize": 0.0008151999209076166,
+    "infer_v2": 0.030166600015945733,
+    "total": 0.26508030004333705
+  },
+  "artifacts": {
+    "full_screenshot": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\tmp_monitor2_v2_infer_test\\run_20260417_183147\\monitor2_full_screenshot.png",
+    "panel_crop": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\tmp_monitor2_v2_infer_test\\run_20260417_183147\\monitor2_panel_crop.png",
+    "further_crop_1024": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\tmp_monitor2_v2_infer_test\\run_20260417_183147\\monitor2_further_crop_1024.png",
+    "infer_result_json": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\tmp_monitor2_v2_infer_test\\run_20260417_183147\\infer_result.json"
+  }
+}

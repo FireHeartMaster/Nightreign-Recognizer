@@ -1,0 +1,996 @@
+{
+  "input_dir": "C:\\Users\\eduar\\Pictures\\Screenshots\\Test_Screenshots",
+  "out_root": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_v38_classifier_inputs",
+  "results": [
+    {
+      "file": "Screenshot (150).png",
+      "crop_method": "gray_hough",
+      "crop_box": {
+        "x0": 2212,
+        "y0": 292,
+        "x1": 3747,
+        "y1": 1827
+      },
+      "raw_panel_shape": {
+        "w": 1535,
+        "h": 1535
+      },
+      "norm_panel_shape": {
+        "w": 1536,
+        "h": 1536
+      },
+      "parallel_raw": {
+        "slot2": "Great_Church_Sleep",
+        "slot4": "empty",
+        "slot5": "Sorcerers_Rise",
+        "slot6": "Ruins_Poison",
+        "slot7": "Church",
+        "palace": "Status_Fire",
+        "fortress": "Status_Holy"
+      },
+      "parallel_norm": {
+        "slot2": "Great_Church_Sleep",
+        "slot4": "empty",
+        "slot5": "Sorcerers_Rise",
+        "slot6": "Ruins_Poison",
+        "slot7": "Church",
+        "palace": "Status_Fire",
+        "fortress": "Status_Holy"
+      },
+      "obs_raw": {
+        "slot2_great_church_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Sleep",
+          "best_label": "Great_Church_Sleep"
+        },
+        "palace_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Fire",
+          "best_label": "Status_Fire"
+        },
+        "fortress_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Holy",
+          "best_label": "Status_Holy"
+        },
+        "slot6_ruins_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Poison",
+          "best_label": "Ruins_Poison"
+        },
+        "slot4_minor": {
+          "predicted_slot_label": "empty",
+          "predicted_status": null,
+          "best_label": "empty"
+        },
+        "slot5_minor": {
+          "predicted_slot_label": "sorcerers rise",
+          "predicted_status": null,
+          "best_label": "Sorcerers_Rise"
+        },
+        "slot7_minor": {
+          "predicted_slot_label": "church",
+          "predicted_status": null,
+          "best_label": "Church"
+        }
+      },
+      "obs_norm": {
+        "slot2_great_church_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Sleep",
+          "best_label": "Great_Church_Sleep"
+        },
+        "palace_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Fire",
+          "best_label": "Status_Fire"
+        },
+        "fortress_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Holy",
+          "best_label": "Status_Holy"
+        },
+        "slot6_ruins_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Poison",
+          "best_label": "Ruins_Poison"
+        },
+        "slot4_minor": {
+          "predicted_slot_label": "empty",
+          "predicted_status": null,
+          "best_label": "empty"
+        },
+        "slot5_minor": {
+          "predicted_slot_label": "sorcerers rise",
+          "predicted_status": null,
+          "best_label": "Sorcerers_Rise"
+        },
+        "slot7_minor": {
+          "predicted_slot_label": "church",
+          "predicted_status": null,
+          "best_label": "Church"
+        }
+      }
+    },
+    {
+      "file": "Screenshot (151).png",
+      "crop_method": "gray_hough",
+      "crop_box": {
+        "x0": 2212,
+        "y0": 292,
+        "x1": 3747,
+        "y1": 1827
+      },
+      "raw_panel_shape": {
+        "w": 1535,
+        "h": 1535
+      },
+      "norm_panel_shape": {
+        "w": 1536,
+        "h": 1536
+      },
+      "parallel_raw": {
+        "slot2": "Great_Church_Sleep",
+        "slot4": "empty",
+        "slot5": "Church",
+        "slot6": "Ruins_Poison",
+        "slot7": "Sorcerers_Rise",
+        "palace": "Status_Magic",
+        "fortress": "Status_Rot"
+      },
+      "parallel_norm": {
+        "slot2": "Great_Church_Sleep",
+        "slot4": "empty",
+        "slot5": "Church",
+        "slot6": "Ruins_Poison",
+        "slot7": "Sorcerers_Rise",
+        "palace": "Status_Magic",
+        "fortress": "Status_Rot"
+      },
+      "obs_raw": {
+        "slot2_great_church_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Sleep",
+          "best_label": "Great_Church_Sleep"
+        },
+        "palace_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Magic",
+          "best_label": "Status_Magic"
+        },
+        "fortress_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Rot",
+          "best_label": "Status_Rot"
+        },
+        "slot6_ruins_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Poison",
+          "best_label": "Ruins_Poison"
+        },
+        "slot4_minor": {
+          "predicted_slot_label": "empty",
+          "predicted_status": null,
+          "best_label": "empty"
+        },
+        "slot5_minor": {
+          "predicted_slot_label": "church",
+          "predicted_status": null,
+          "best_label": "Church"
+        },
+        "slot7_minor": {
+          "predicted_slot_label": "sorcerers rise",
+          "predicted_status": null,
+          "best_label": "Sorcerers_Rise"
+        }
+      },
+      "obs_norm": {
+        "slot2_great_church_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Sleep",
+          "best_label": "Great_Church_Sleep"
+        },
+        "palace_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Magic",
+          "best_label": "Status_Magic"
+        },
+        "fortress_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Rot",
+          "best_label": "Status_Rot"
+        },
+        "slot6_ruins_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Poison",
+          "best_label": "Ruins_Poison"
+        },
+        "slot4_minor": {
+          "predicted_slot_label": "empty",
+          "predicted_status": null,
+          "best_label": "empty"
+        },
+        "slot5_minor": {
+          "predicted_slot_label": "church",
+          "predicted_status": null,
+          "best_label": "Church"
+        },
+        "slot7_minor": {
+          "predicted_slot_label": "sorcerers rise",
+          "predicted_status": null,
+          "best_label": "Sorcerers_Rise"
+        }
+      }
+    },
+    {
+      "file": "Screenshot (152).png",
+      "crop_method": "gray_hough",
+      "crop_box": {
+        "x0": 2212,
+        "y0": 292,
+        "x1": 3747,
+        "y1": 1827
+      },
+      "raw_panel_shape": {
+        "w": 1535,
+        "h": 1535
+      },
+      "norm_panel_shape": {
+        "w": 1536,
+        "h": 1536
+      },
+      "parallel_raw": {
+        "slot2": "Great_Church_Sleep",
+        "slot4": "empty",
+        "slot5": "Sorcerers_Rise",
+        "slot6": "Ruins_Poison",
+        "slot7": "Church",
+        "palace": "Status_Fire",
+        "fortress": "Status_Holy"
+      },
+      "parallel_norm": {
+        "slot2": "Great_Church_Sleep",
+        "slot4": "empty",
+        "slot5": "Sorcerers_Rise",
+        "slot6": "Ruins_Poison",
+        "slot7": "Church",
+        "palace": "Status_Fire",
+        "fortress": "Status_Holy"
+      },
+      "obs_raw": {
+        "slot2_great_church_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Sleep",
+          "best_label": "Great_Church_Sleep"
+        },
+        "palace_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Fire",
+          "best_label": "Status_Fire"
+        },
+        "fortress_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Holy",
+          "best_label": "Status_Holy"
+        },
+        "slot6_ruins_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Poison",
+          "best_label": "Ruins_Poison"
+        },
+        "slot4_minor": {
+          "predicted_slot_label": "empty",
+          "predicted_status": null,
+          "best_label": "empty"
+        },
+        "slot5_minor": {
+          "predicted_slot_label": "sorcerers rise",
+          "predicted_status": null,
+          "best_label": "Sorcerers_Rise"
+        },
+        "slot7_minor": {
+          "predicted_slot_label": "church",
+          "predicted_status": null,
+          "best_label": "Church"
+        }
+      },
+      "obs_norm": {
+        "slot2_great_church_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Sleep",
+          "best_label": "Great_Church_Sleep"
+        },
+        "palace_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Fire",
+          "best_label": "Status_Fire"
+        },
+        "fortress_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Holy",
+          "best_label": "Status_Holy"
+        },
+        "slot6_ruins_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Poison",
+          "best_label": "Ruins_Poison"
+        },
+        "slot4_minor": {
+          "predicted_slot_label": "empty",
+          "predicted_status": null,
+          "best_label": "empty"
+        },
+        "slot5_minor": {
+          "predicted_slot_label": "sorcerers rise",
+          "predicted_status": null,
+          "best_label": "Sorcerers_Rise"
+        },
+        "slot7_minor": {
+          "predicted_slot_label": "church",
+          "predicted_status": null,
+          "best_label": "Church"
+        }
+      }
+    },
+    {
+      "file": "Screenshot (153).png",
+      "crop_method": "gray_hough",
+      "crop_box": {
+        "x0": 2211,
+        "y0": 292,
+        "x1": 3746,
+        "y1": 1827
+      },
+      "raw_panel_shape": {
+        "w": 1535,
+        "h": 1535
+      },
+      "norm_panel_shape": {
+        "w": 1536,
+        "h": 1536
+      },
+      "parallel_raw": {
+        "slot2": "Great_Church_Sleep",
+        "slot4": "empty",
+        "slot5": "Sorcerers_Rise",
+        "slot6": "Ruins_Poison",
+        "slot7": "Sorcerers_Rise",
+        "palace": "Status_Fire",
+        "fortress": "Status_Rot"
+      },
+      "parallel_norm": {
+        "slot2": "Great_Church_Sleep",
+        "slot4": "empty",
+        "slot5": "Sorcerers_Rise",
+        "slot6": "Ruins_Poison",
+        "slot7": "Sorcerers_Rise",
+        "palace": "Status_Fire",
+        "fortress": "Status_Rot"
+      },
+      "obs_raw": {
+        "slot2_great_church_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Sleep",
+          "best_label": "Great_Church_Sleep"
+        },
+        "palace_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Fire",
+          "best_label": "Status_Fire"
+        },
+        "fortress_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Rot",
+          "best_label": "Status_Rot"
+        },
+        "slot6_ruins_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Poison",
+          "best_label": "Ruins_Poison"
+        },
+        "slot4_minor": {
+          "predicted_slot_label": "empty",
+          "predicted_status": null,
+          "best_label": "empty"
+        },
+        "slot5_minor": {
+          "predicted_slot_label": "sorcerers rise",
+          "predicted_status": null,
+          "best_label": "Sorcerers_Rise"
+        },
+        "slot7_minor": {
+          "predicted_slot_label": "sorcerers rise",
+          "predicted_status": null,
+          "best_label": "Sorcerers_Rise"
+        }
+      },
+      "obs_norm": {
+        "slot2_great_church_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Sleep",
+          "best_label": "Great_Church_Sleep"
+        },
+        "palace_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Fire",
+          "best_label": "Status_Fire"
+        },
+        "fortress_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Rot",
+          "best_label": "Status_Rot"
+        },
+        "slot6_ruins_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Poison",
+          "best_label": "Ruins_Poison"
+        },
+        "slot4_minor": {
+          "predicted_slot_label": "empty",
+          "predicted_status": null,
+          "best_label": "empty"
+        },
+        "slot5_minor": {
+          "predicted_slot_label": "sorcerers rise",
+          "predicted_status": null,
+          "best_label": "Sorcerers_Rise"
+        },
+        "slot7_minor": {
+          "predicted_slot_label": "sorcerers rise",
+          "predicted_status": null,
+          "best_label": "Sorcerers_Rise"
+        }
+      }
+    },
+    {
+      "file": "Screenshot (154).png",
+      "crop_method": "gray_hough",
+      "crop_box": {
+        "x0": 2212,
+        "y0": 292,
+        "x1": 3747,
+        "y1": 1827
+      },
+      "raw_panel_shape": {
+        "w": 1535,
+        "h": 1535
+      },
+      "norm_panel_shape": {
+        "w": 1536,
+        "h": 1536
+      },
+      "parallel_raw": {
+        "slot2": "Great_Church_Sleep",
+        "slot4": "empty",
+        "slot5": "Sorcerers_Rise",
+        "slot6": "Ruins_Poison",
+        "slot7": "Church",
+        "palace": "Status_Magic",
+        "fortress": "Status_Rot"
+      },
+      "parallel_norm": {
+        "slot2": "Great_Church_Sleep",
+        "slot4": "empty",
+        "slot5": "Sorcerers_Rise",
+        "slot6": "Ruins_Poison",
+        "slot7": "Church",
+        "palace": "Status_Magic",
+        "fortress": "Status_Rot"
+      },
+      "obs_raw": {
+        "slot2_great_church_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Sleep",
+          "best_label": "Great_Church_Sleep"
+        },
+        "palace_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Magic",
+          "best_label": "Status_Magic"
+        },
+        "fortress_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Rot",
+          "best_label": "Status_Rot"
+        },
+        "slot6_ruins_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Poison",
+          "best_label": "Ruins_Poison"
+        },
+        "slot4_minor": {
+          "predicted_slot_label": "empty",
+          "predicted_status": null,
+          "best_label": "empty"
+        },
+        "slot5_minor": {
+          "predicted_slot_label": "sorcerers rise",
+          "predicted_status": null,
+          "best_label": "Sorcerers_Rise"
+        },
+        "slot7_minor": {
+          "predicted_slot_label": "church",
+          "predicted_status": null,
+          "best_label": "Church"
+        }
+      },
+      "obs_norm": {
+        "slot2_great_church_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Sleep",
+          "best_label": "Great_Church_Sleep"
+        },
+        "palace_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Magic",
+          "best_label": "Status_Magic"
+        },
+        "fortress_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Rot",
+          "best_label": "Status_Rot"
+        },
+        "slot6_ruins_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Poison",
+          "best_label": "Ruins_Poison"
+        },
+        "slot4_minor": {
+          "predicted_slot_label": "empty",
+          "predicted_status": null,
+          "best_label": "empty"
+        },
+        "slot5_minor": {
+          "predicted_slot_label": "sorcerers rise",
+          "predicted_status": null,
+          "best_label": "Sorcerers_Rise"
+        },
+        "slot7_minor": {
+          "predicted_slot_label": "church",
+          "predicted_status": null,
+          "best_label": "Church"
+        }
+      }
+    },
+    {
+      "file": "Screenshot (155).png",
+      "crop_method": "gray_hough",
+      "crop_box": {
+        "x0": 2211,
+        "y0": 292,
+        "x1": 3746,
+        "y1": 1827
+      },
+      "raw_panel_shape": {
+        "w": 1535,
+        "h": 1535
+      },
+      "norm_panel_shape": {
+        "w": 1536,
+        "h": 1536
+      },
+      "parallel_raw": {
+        "slot2": "Great_Church_Sleep",
+        "slot4": "empty",
+        "slot5": "Sorcerers_Rise",
+        "slot6": "Ruins_Poison",
+        "slot7": "Church",
+        "palace": "Status_Magic",
+        "fortress": "Status_Holy"
+      },
+      "parallel_norm": {
+        "slot2": "Great_Church_Sleep",
+        "slot4": "empty",
+        "slot5": "Sorcerers_Rise",
+        "slot6": "Ruins_Poison",
+        "slot7": "Church",
+        "palace": "Status_Magic",
+        "fortress": "Status_Holy"
+      },
+      "obs_raw": {
+        "slot2_great_church_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Sleep",
+          "best_label": "Great_Church_Sleep"
+        },
+        "palace_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Magic",
+          "best_label": "Status_Magic"
+        },
+        "fortress_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Holy",
+          "best_label": "Status_Holy"
+        },
+        "slot6_ruins_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Poison",
+          "best_label": "Ruins_Poison"
+        },
+        "slot4_minor": {
+          "predicted_slot_label": "empty",
+          "predicted_status": null,
+          "best_label": "empty"
+        },
+        "slot5_minor": {
+          "predicted_slot_label": "sorcerers rise",
+          "predicted_status": null,
+          "best_label": "Sorcerers_Rise"
+        },
+        "slot7_minor": {
+          "predicted_slot_label": "church",
+          "predicted_status": null,
+          "best_label": "Church"
+        }
+      },
+      "obs_norm": {
+        "slot2_great_church_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Sleep",
+          "best_label": "Great_Church_Sleep"
+        },
+        "palace_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Magic",
+          "best_label": "Status_Magic"
+        },
+        "fortress_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Holy",
+          "best_label": "Status_Holy"
+        },
+        "slot6_ruins_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Poison",
+          "best_label": "Ruins_Poison"
+        },
+        "slot4_minor": {
+          "predicted_slot_label": "empty",
+          "predicted_status": null,
+          "best_label": "empty"
+        },
+        "slot5_minor": {
+          "predicted_slot_label": "sorcerers rise",
+          "predicted_status": null,
+          "best_label": "Sorcerers_Rise"
+        },
+        "slot7_minor": {
+          "predicted_slot_label": "church",
+          "predicted_status": null,
+          "best_label": "Church"
+        }
+      }
+    },
+    {
+      "file": "Screenshot (156).png",
+      "crop_method": "gray_hough",
+      "crop_box": {
+        "x0": 2211,
+        "y0": 292,
+        "x1": 3746,
+        "y1": 1827
+      },
+      "raw_panel_shape": {
+        "w": 1535,
+        "h": 1535
+      },
+      "norm_panel_shape": {
+        "w": 1536,
+        "h": 1536
+      },
+      "parallel_raw": {
+        "slot2": "Great_Church_Sleep",
+        "slot4": "empty",
+        "slot5": "Sorcerers_Rise",
+        "slot6": "Ruins_Poison",
+        "slot7": "Sorcerers_Rise",
+        "palace": "Status_Magic",
+        "fortress": "Status_Holy"
+      },
+      "parallel_norm": {
+        "slot2": "Great_Church_Sleep",
+        "slot4": "empty",
+        "slot5": "Sorcerers_Rise",
+        "slot6": "Ruins_Poison",
+        "slot7": "Sorcerers_Rise",
+        "palace": "Status_Magic",
+        "fortress": "Status_Holy"
+      },
+      "obs_raw": {
+        "slot2_great_church_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Sleep",
+          "best_label": "Great_Church_Sleep"
+        },
+        "palace_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Magic",
+          "best_label": "Status_Magic"
+        },
+        "fortress_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Holy",
+          "best_label": "Status_Holy"
+        },
+        "slot6_ruins_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Poison",
+          "best_label": "Ruins_Poison"
+        },
+        "slot4_minor": {
+          "predicted_slot_label": "empty",
+          "predicted_status": null,
+          "best_label": "empty"
+        },
+        "slot5_minor": {
+          "predicted_slot_label": "sorcerers rise",
+          "predicted_status": null,
+          "best_label": "Sorcerers_Rise"
+        },
+        "slot7_minor": {
+          "predicted_slot_label": "sorcerers rise",
+          "predicted_status": null,
+          "best_label": "Sorcerers_Rise"
+        }
+      },
+      "obs_norm": {
+        "slot2_great_church_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Sleep",
+          "best_label": "Great_Church_Sleep"
+        },
+        "palace_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Magic",
+          "best_label": "Status_Magic"
+        },
+        "fortress_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Holy",
+          "best_label": "Status_Holy"
+        },
+        "slot6_ruins_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Poison",
+          "best_label": "Ruins_Poison"
+        },
+        "slot4_minor": {
+          "predicted_slot_label": "empty",
+          "predicted_status": null,
+          "best_label": "empty"
+        },
+        "slot5_minor": {
+          "predicted_slot_label": "sorcerers rise",
+          "predicted_status": null,
+          "best_label": "Sorcerers_Rise"
+        },
+        "slot7_minor": {
+          "predicted_slot_label": "sorcerers rise",
+          "predicted_status": null,
+          "best_label": "Sorcerers_Rise"
+        }
+      }
+    },
+    {
+      "file": "Screenshot (157).png",
+      "crop_method": "gray_hough",
+      "crop_box": {
+        "x0": 2212,
+        "y0": 292,
+        "x1": 3747,
+        "y1": 1827
+      },
+      "raw_panel_shape": {
+        "w": 1535,
+        "h": 1535
+      },
+      "norm_panel_shape": {
+        "w": 1536,
+        "h": 1536
+      },
+      "parallel_raw": {
+        "slot2": "Great_Church_Sleep",
+        "slot4": "empty",
+        "slot5": "Sorcerers_Rise",
+        "slot6": "Ruins_Poison",
+        "slot7": "Church",
+        "palace": "Status_Magic",
+        "fortress": "Status_Rot"
+      },
+      "parallel_norm": {
+        "slot2": "Great_Church_Sleep",
+        "slot4": "empty",
+        "slot5": "Sorcerers_Rise",
+        "slot6": "Ruins_Poison",
+        "slot7": "Church",
+        "palace": "Status_Magic",
+        "fortress": "Status_Rot"
+      },
+      "obs_raw": {
+        "slot2_great_church_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Sleep",
+          "best_label": "Great_Church_Sleep"
+        },
+        "palace_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Magic",
+          "best_label": "Status_Magic"
+        },
+        "fortress_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Rot",
+          "best_label": "Status_Rot"
+        },
+        "slot6_ruins_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Poison",
+          "best_label": "Ruins_Poison"
+        },
+        "slot4_minor": {
+          "predicted_slot_label": "empty",
+          "predicted_status": null,
+          "best_label": "empty"
+        },
+        "slot5_minor": {
+          "predicted_slot_label": "sorcerers rise",
+          "predicted_status": null,
+          "best_label": "Sorcerers_Rise"
+        },
+        "slot7_minor": {
+          "predicted_slot_label": "church",
+          "predicted_status": null,
+          "best_label": "Church"
+        }
+      },
+      "obs_norm": {
+        "slot2_great_church_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Sleep",
+          "best_label": "Great_Church_Sleep"
+        },
+        "palace_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Magic",
+          "best_label": "Status_Magic"
+        },
+        "fortress_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Rot",
+          "best_label": "Status_Rot"
+        },
+        "slot6_ruins_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Poison",
+          "best_label": "Ruins_Poison"
+        },
+        "slot4_minor": {
+          "predicted_slot_label": "empty",
+          "predicted_status": null,
+          "best_label": "empty"
+        },
+        "slot5_minor": {
+          "predicted_slot_label": "sorcerers rise",
+          "predicted_status": null,
+          "best_label": "Sorcerers_Rise"
+        },
+        "slot7_minor": {
+          "predicted_slot_label": "church",
+          "predicted_status": null,
+          "best_label": "Church"
+        }
+      }
+    },
+    {
+      "file": "Screenshot (158).png",
+      "crop_method": "gray_hough",
+      "crop_box": {
+        "x0": 2211,
+        "y0": 292,
+        "x1": 3746,
+        "y1": 1827
+      },
+      "raw_panel_shape": {
+        "w": 1535,
+        "h": 1535
+      },
+      "norm_panel_shape": {
+        "w": 1536,
+        "h": 1536
+      },
+      "parallel_raw": {
+        "slot2": "Great_Church_Sleep",
+        "slot4": "empty",
+        "slot5": "Sorcerers_Rise",
+        "slot6": "Ruins_Bleed",
+        "slot7": "Church",
+        "palace": "Status_Fire",
+        "fortress": "Status_Rot"
+      },
+      "parallel_norm": {
+        "slot2": "Great_Church_Sleep",
+        "slot4": "empty",
+        "slot5": "Sorcerers_Rise",
+        "slot6": "Ruins_Bleed",
+        "slot7": "Church",
+        "palace": "Status_Fire",
+        "fortress": "Status_Rot"
+      },
+      "obs_raw": {
+        "slot2_great_church_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Sleep",
+          "best_label": "Great_Church_Sleep"
+        },
+        "palace_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Fire",
+          "best_label": "Status_Fire"
+        },
+        "fortress_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Rot",
+          "best_label": "Status_Rot"
+        },
+        "slot6_ruins_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Bleed",
+          "best_label": "Ruins_Bleed"
+        },
+        "slot4_minor": {
+          "predicted_slot_label": "empty",
+          "predicted_status": null,
+          "best_label": "empty"
+        },
+        "slot5_minor": {
+          "predicted_slot_label": "sorcerers rise",
+          "predicted_status": null,
+          "best_label": "Sorcerers_Rise"
+        },
+        "slot7_minor": {
+          "predicted_slot_label": "church",
+          "predicted_status": null,
+          "best_label": "Church"
+        }
+      },
+      "obs_norm": {
+        "slot2_great_church_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Sleep",
+          "best_label": "Great_Church_Sleep"
+        },
+        "palace_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Fire",
+          "best_label": "Status_Fire"
+        },
+        "fortress_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Rot",
+          "best_label": "Status_Rot"
+        },
+        "slot6_ruins_status": {
+          "predicted_slot_label": null,
+          "predicted_status": "Status_Bleed",
+          "best_label": "Ruins_Bleed"
+        },
+        "slot4_minor": {
+          "predicted_slot_label": "empty",
+          "predicted_status": null,
+          "best_label": "empty"
+        },
+        "slot5_minor": {
+          "predicted_slot_label": "sorcerers rise",
+          "predicted_status": null,
+          "best_label": "Sorcerers_Rise"
+        },
+        "slot7_minor": {
+          "predicted_slot_label": "church",
+          "predicted_status": null,
+          "best_label": "Church"
+        }
+      }
+    }
+  ]
+}

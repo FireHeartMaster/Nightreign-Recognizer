@@ -1,0 +1,32 @@
+[
+  {
+    "image": "Captura de tela 2026-04-19 040412.png",
+    "slot2": "Great_Church_Sleep",
+    "slot4": "Church",
+    "slot5": "Sorcerers_Rise",
+    "slot6": "Ruins_Poison",
+    "slot7": "Church",
+    "palace": "Status_Magic",
+    "fortress": "Status_Holy"
+  },
+  {
+    "image": "Captura de tela 2026-04-19 040910.png",
+    "slot2": "Great_Church_Lightning",
+    "slot4": "Church",
+    "slot5": "Sorcerers_Rise",
+    "slot6": "Ruins_Poison",
+    "slot7": "Sorcerers_Rise",
+    "palace": "Status_Fire",
+    "fortress": "Status_Rot"
+  },
+  {
+    "image": "Captura de tela 2026-04-19 041131.png",
+    "slot2": "Great_Church_Lightning",
+    "slot4": "Church",
+    "slot5": "Sorcerers_Rise",
+    "slot6": "Ruins_Bleed",
+    "slot7": "empty",
+    "palace": "Status_Magic",
+    "fortress": "Status_Holy"
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "file": "Balancers_4K.png",
+  "earth": "Great Hollow",
+  "top_layout": 1177,
+  "gh_classic_slot_likelihood_used": false,
+  "model_outputs": {
+    "slot1": {
+      "value": "ignored_in_models_mode"
+    },
+    "slot2_great_church_status": {
+      "value": "Status_Lightning",
+      "best_prob": 0.5513733625411987,
+      "margin": 0.10274672508239746
+    },
+    "slot3": {
+      "value": "ignored_in_models_mode"
+    },
+    "slot4_minor": {
+      "value": "church",
+      "best_prob": 0.9999686479568481,
+      "margin": 0.9999434812016261
+    },
+    "slot5_minor": {
+      "value": "sorcerers rise",
+      "best_prob": 0.9982055425643921,
+      "margin": 0.9968771020649001
+    },
+    "slot6_ruins_status": {
+      "value": "Status_Poison",
+      "best_prob": 0.9878133535385132,
+      "margin": 0.9756267825141549
+    },
+    "slot7_minor": {
+      "value": "empty",
+      "best_prob": 0.9391780495643616,
+      "margin": 0.8908841200172901
+    },
+    "palace_status": {
+      "value": "Status_Magic",
+      "best_prob": 0.6881341934204102,
+      "margin": 0.3762683868408203
+    },
+    "fortress_status": {
+      "value": "Status_Rot",
+      "best_prob": 0.5175409317016602,
+      "margin": 0.03508192300796509
+    }
+  }
+}

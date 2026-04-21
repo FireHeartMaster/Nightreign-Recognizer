@@ -1,0 +1,34 @@
+{
+  "run_id": "20260417_182644",
+  "monitor_index": 2,
+  "capture_shape": [
+    1920,
+    1080
+  ],
+  "crop_method": "gray_hough",
+  "crop_box": {
+    "x0": 1086,
+    "y0": 171,
+    "x1": 1832,
+    "y1": 917
+  },
+  "panel_shape": [
+    746,
+    746
+  ],
+  "further_shape": [
+    1024,
+    1024
+  ],
+  "artifacts": {
+    "full_screenshot": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\tmp_monitor2_v2_infer_test\\run_20260417_182644\\monitor2_full_screenshot.png",
+    "panel_crop": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\tmp_monitor2_v2_infer_test\\run_20260417_182644\\monitor2_panel_crop.png",
+    "further_crop_1024": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\tmp_monitor2_v2_infer_test\\run_20260417_182644\\monitor2_further_crop_1024.png"
+  },
+  "timings_sec": {
+    "capture_monitor2": 0.04327450005803257,
+    "panel_crop": 0.1436015999643132,
+    "further_crop_normalize": 0.0008173000533133745,
+    "pre_infer_total": 0.338125400012359
+  }
+}

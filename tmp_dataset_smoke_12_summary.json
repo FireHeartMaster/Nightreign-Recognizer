@@ -1,0 +1,176 @@
+{
+  "count": 12,
+  "ok_count": 12,
+  "earth_correct": 12,
+  "earth_accuracy": 1.0,
+  "results": [
+    {
+      "patternId": 0,
+      "image": "renders_new\\no_text\\pattern_0000_Limveld.png",
+      "expected": "Limveld",
+      "predicted": "Limveld",
+      "ok": true,
+      "status": "ok",
+      "gh_status": {
+        "Palace": "Status_Fire",
+        "Fortress": "Status_Holy",
+        "Ruins": "Status_Bleed",
+        "Great Church": "Status_Lightning"
+      }
+    },
+    {
+      "patternId": 1000,
+      "image": "renders\\recognizer_no_text\\layout_1000.png",
+      "expected": "Limveld",
+      "predicted": "Limveld",
+      "ok": true,
+      "status": "ok",
+      "gh_status": {
+        "Palace": "Status_Fire",
+        "Fortress": "Status_Holy",
+        "Ruins": "Status_Bleed",
+        "Great Church": "Status_Lightning"
+      }
+    },
+    {
+      "patternId": 1100,
+      "image": "renders\\recognizer_no_text\\layout_1100.png",
+      "expected": "Mountaintop",
+      "predicted": "Mountaintop",
+      "ok": true,
+      "status": "ok",
+      "gh_status": {
+        "Palace": "Status_Fire",
+        "Fortress": "Status_Holy",
+        "Ruins": "Status_Bleed",
+        "Great Church": "Status_Lightning"
+      }
+    },
+    {
+      "patternId": 1101,
+      "image": "renders\\recognizer_no_text\\layout_1101.png",
+      "expected": "Mountaintop",
+      "predicted": "Mountaintop",
+      "ok": true,
+      "status": "ok",
+      "gh_status": {
+        "Palace": "Status_Fire",
+        "Fortress": "Status_Holy",
+        "Ruins": "Status_Poison",
+        "Great Church": "Status_Lightning"
+      }
+    },
+    {
+      "patternId": 1105,
+      "image": "renders\\recognizer_no_text\\layout_1105.png",
+      "expected": "The Crater",
+      "predicted": "The Crater",
+      "ok": true,
+      "status": "ok",
+      "gh_status": {
+        "Palace": "Status_Fire",
+        "Fortress": "Status_Holy",
+        "Ruins": "Status_Bleed",
+        "Great Church": "Status_Lightning"
+      }
+    },
+    {
+      "patternId": 1106,
+      "image": "renders\\recognizer_no_text\\layout_1106.png",
+      "expected": "The Crater",
+      "predicted": "The Crater",
+      "ok": true,
+      "status": "ok",
+      "gh_status": {
+        "Palace": "Status_Fire",
+        "Fortress": "Status_Holy",
+        "Ruins": "Status_Bleed",
+        "Great Church": "Status_Lightning"
+      }
+    },
+    {
+      "patternId": 1110,
+      "image": "renders\\recognizer_no_text\\layout_1110.png",
+      "expected": "Rotted Woods",
+      "predicted": "Rotted Woods",
+      "ok": true,
+      "status": "ok",
+      "gh_status": {
+        "Palace": "Status_Fire",
+        "Fortress": "Status_Holy",
+        "Ruins": "Status_Bleed",
+        "Great Church": "Status_Lightning"
+      }
+    },
+    {
+      "patternId": 1111,
+      "image": "renders\\recognizer_no_text\\layout_1111.png",
+      "expected": "Rotted Woods",
+      "predicted": "Rotted Woods",
+      "ok": true,
+      "status": "ok",
+      "gh_status": {
+        "Palace": "Status_Fire",
+        "Fortress": "Status_Holy",
+        "Ruins": "Status_Bleed",
+        "Great Church": "Status_Lightning"
+      }
+    },
+    {
+      "patternId": 1135,
+      "image": "renders\\recognizer_no_text\\layout_1135.png",
+      "expected": "Noklateo",
+      "predicted": "Noklateo",
+      "ok": true,
+      "status": "ok",
+      "gh_status": {
+        "Palace": "Status_Magic",
+        "Fortress": "Status_Holy",
+        "Ruins": "Status_Bleed",
+        "Great Church": "Status_Lightning"
+      }
+    },
+    {
+      "patternId": 1136,
+      "image": "renders\\recognizer_no_text\\layout_1136.png",
+      "expected": "Noklateo",
+      "predicted": "Noklateo",
+      "ok": true,
+      "status": "ok",
+      "gh_status": {
+        "Palace": "Status_Fire",
+        "Fortress": "Status_Holy",
+        "Ruins": "Status_Poison",
+        "Great Church": "Status_Lightning"
+      }
+    },
+    {
+      "patternId": 1005,
+      "image": "renders\\recognizer_no_text\\layout_1005.png",
+      "expected": "Great Hollow",
+      "predicted": "Great Hollow",
+      "ok": true,
+      "status": "ok",
+      "gh_status": {
+        "Palace": "Status_Magic",
+        "Fortress": "Status_Holy",
+        "Ruins": "Status_Poison",
+        "Great Church": "Status_Lightning"
+      }
+    },
+    {
+      "patternId": 1006,
+      "image": "renders\\recognizer_no_text\\layout_1006.png",
+      "expected": "Great Hollow",
+      "predicted": "Great Hollow",
+      "ok": true,
+      "status": "ok",
+      "gh_status": {
+        "Palace": "Status_Fire",
+        "Fortress": "Status_Holy",
+        "Ruins": "Status_Poison",
+        "Great Church": "Status_Lightning"
+      }
+    }
+  ]
+}

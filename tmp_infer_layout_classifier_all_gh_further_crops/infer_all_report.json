@@ -1,0 +1,5053 @@
+{
+  "num_images_total": 80,
+  "num_ok": 80,
+  "num_errors": 0,
+  "top1_accuracy": 0.925,
+  "top3_accuracy": 1.0,
+  "top5_accuracy": 1.0,
+  "unknown_rate": 0.0,
+  "accuracy_on_decided": 0.925,
+  "errors": [],
+  "rows": [
+    {
+      "file": "pattern_1005_further_crop_asym_1191x1176.png",
+      "truth": 1005,
+      "status": "ok",
+      "best_patternId": 1005,
+      "unknown": false,
+      "margin": 0.014421701431274414,
+      "confidence": 0.2978993356227875,
+      "latency_ms": 28.517000027932227,
+      "top5": [
+        1005,
+        1007,
+        1038,
+        1045,
+        1039
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1005_further_crop_asym_1191x1176.png",
+        "best_patternId": 1005,
+        "top5": [
+          {
+            "patternId": 1005,
+            "score": 1.6586717367172241,
+            "probability": 0.2978993356227875,
+            "image_score": 1.000000238418579,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1007,
+            "score": 1.6442500352859497,
+            "probability": 0.26416516304016113,
+            "image_score": 0.9999886751174927,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1038,
+            "score": 1.6064115762710571,
+            "probability": 0.1927231103181839,
+            "image_score": 0.999958336353302,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1045,
+            "score": 1.541142225265503,
+            "probability": 0.1118706688284874,
+            "image_score": 0.9999060034751892,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1039,
+            "score": 1.484273076057434,
+            "probability": 0.06964655220508575,
+            "image_score": 0.999860405921936,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.014421701431274414,
+        "confidence": 0.2978993356227875,
+        "unknown": false,
+        "decided_patternId": 1005,
+        "latency_ms": 28.517000027932227
+      }
+    },
+    {
+      "file": "pattern_1006_further_crop_asym_1191x1176.png",
+      "truth": 1006,
+      "status": "ok",
+      "best_patternId": 1006,
+      "unknown": false,
+      "margin": 0.007707118988037109,
+      "confidence": 0.24220684170722961,
+      "latency_ms": 28.017999953590333,
+      "top5": [
+        1006,
+        1131,
+        1183,
+        1017,
+        1182
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1006_further_crop_asym_1191x1176.png",
+        "best_patternId": 1006,
+        "top5": [
+          {
+            "patternId": 1006,
+            "score": 1.5050126314163208,
+            "probability": 0.24220684170722961,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1131,
+            "score": 1.4973055124282837,
+            "probability": 0.22714006900787354,
+            "image_score": 0.9999938011169434,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1183,
+            "score": 1.4973055124282837,
+            "probability": 0.22714006900787354,
+            "image_score": 0.9999938011169434,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1017,
+            "score": 1.375956416130066,
+            "probability": 0.08262597024440765,
+            "image_score": 0.9998943209648132,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1182,
+            "score": 1.3424381017684937,
+            "probability": 0.06248985230922699,
+            "image_score": 0.9998668432235718,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.007707118988037109,
+        "confidence": 0.24220684170722961,
+        "unknown": false,
+        "decided_patternId": 1006,
+        "latency_ms": 28.017999953590333
+      }
+    },
+    {
+      "file": "pattern_1007_further_crop_asym_1191x1176.png",
+      "truth": 1007,
+      "status": "ok",
+      "best_patternId": 1007,
+      "unknown": false,
+      "margin": 0.014362812042236328,
+      "confidence": 0.3019670844078064,
+      "latency_ms": 28.75950001180172,
+      "top5": [
+        1007,
+        1005,
+        1038,
+        1045,
+        1039
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1007_further_crop_asym_1191x1176.png",
+        "best_patternId": 1007,
+        "top5": [
+          {
+            "patternId": 1007,
+            "score": 1.6599462032318115,
+            "probability": 0.3019670844078064,
+            "image_score": 1.000000238418579,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1005,
+            "score": 1.6455833911895752,
+            "probability": 0.26790356636047363,
+            "image_score": 0.9999887347221375,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1038,
+            "score": 1.6059924364089966,
+            "probability": 0.1926167756319046,
+            "image_score": 0.9999570250511169,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1045,
+            "score": 1.528001308441162,
+            "probability": 0.1005621924996376,
+            "image_score": 0.9998945593833923,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1039,
+            "score": 1.4997221231460571,
+            "probability": 0.0794491097331047,
+            "image_score": 0.9998719096183777,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.014362812042236328,
+        "confidence": 0.3019670844078064,
+        "unknown": false,
+        "decided_patternId": 1007,
+        "latency_ms": 28.75950001180172
+      }
+    },
+    {
+      "file": "pattern_1008_further_crop_asym_1191x1176.png",
+      "truth": 1008,
+      "status": "ok",
+      "best_patternId": 1008,
+      "unknown": false,
+      "margin": 0.006419539451599121,
+      "confidence": 0.30025514960289,
+      "latency_ms": 31.56270005274564,
+      "top5": [
+        1008,
+        1187,
+        1184,
+        1009,
+        1069
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1008_further_crop_asym_1191x1176.png",
+        "best_patternId": 1008,
+        "top5": [
+          {
+            "patternId": 1008,
+            "score": 1.8731125593185425,
+            "probability": 0.30025514960289,
+            "image_score": 1.0,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1187,
+            "score": 1.8666930198669434,
+            "probability": 0.2846146821975708,
+            "image_score": 0.9999949932098389,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1184,
+            "score": 1.8196163177490234,
+            "probability": 0.1922564059495926,
+            "image_score": 0.9999582767486572,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1009,
+            "score": 1.744110107421875,
+            "probability": 0.10247427970170975,
+            "image_score": 0.9998993873596191,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1069,
+            "score": 1.690613865852356,
+            "probability": 0.06561537832021713,
+            "image_score": 0.9998576641082764,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.006419539451599121,
+        "confidence": 0.30025514960289,
+        "unknown": false,
+        "decided_patternId": 1008,
+        "latency_ms": 31.56270005274564
+      }
+    },
+    {
+      "file": "pattern_1009_further_crop_asym_1191x1176.png",
+      "truth": 1009,
+      "status": "ok",
+      "best_patternId": 1009,
+      "unknown": false,
+      "margin": 0.053212523460388184,
+      "confidence": 0.3258327841758728,
+      "latency_ms": 30.992900021374226,
+      "top5": [
+        1009,
+        1069,
+        1008,
+        1187,
+        1123
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1009_further_crop_asym_1191x1176.png",
+        "best_patternId": 1009,
+        "top5": [
+          {
+            "patternId": 1009,
+            "score": 1.8417667150497437,
+            "probability": 0.3258327841758728,
+            "image_score": 1.0,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1069,
+            "score": 1.7885541915893555,
+            "probability": 0.20912803709506989,
+            "image_score": 0.9999582767486572,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1008,
+            "score": 1.7134487628936768,
+            "probability": 0.1118398979306221,
+            "image_score": 0.9998993873596191,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1187,
+            "score": 1.7070633172988892,
+            "probability": 0.1060442328453064,
+            "image_score": 0.999894380569458,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1123,
+            "score": 1.6952805519104004,
+            "probability": 0.09612667560577393,
+            "image_score": 0.9998851418495178,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.053212523460388184,
+        "confidence": 0.3258327841758728,
+        "unknown": false,
+        "decided_patternId": 1009,
+        "latency_ms": 30.992900021374226
+      }
+    },
+    {
+      "file": "pattern_1015_further_crop_asym_1191x1176.png",
+      "truth": 1015,
+      "status": "ok",
+      "best_patternId": 1015,
+      "unknown": false,
+      "margin": 0.00952446460723877,
+      "confidence": 0.28430241346359253,
+      "latency_ms": 28.68240000680089,
+      "top5": [
+        1015,
+        1189,
+        1124,
+        1188,
+        1067
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1015_further_crop_asym_1191x1176.png",
+        "best_patternId": 1015,
+        "top5": [
+          {
+            "patternId": 1015,
+            "score": 1.8557019233703613,
+            "probability": 0.28430241346359253,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1189,
+            "score": 1.8461774587631226,
+            "probability": 0.26260948181152344,
+            "image_score": 0.9999951124191284,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1124,
+            "score": 1.83393132686615,
+            "probability": 0.23713205754756927,
+            "image_score": 0.9999886751174927,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1188,
+            "score": 1.7638576030731201,
+            "probability": 0.1322466880083084,
+            "image_score": 0.9999518394470215,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1067,
+            "score": 1.615319013595581,
+            "probability": 0.0383535660803318,
+            "image_score": 0.9998737573623657,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.00952446460723877,
+        "confidence": 0.28430241346359253,
+        "unknown": false,
+        "decided_patternId": 1015,
+        "latency_ms": 28.68240000680089
+      }
+    },
+    {
+      "file": "pattern_1016_further_crop_asym_1191x1176.png",
+      "truth": 1016,
+      "status": "ok",
+      "best_patternId": 1016,
+      "unknown": false,
+      "margin": 0.0,
+      "confidence": 0.14690622687339783,
+      "latency_ms": 29.21890001744032,
+      "top5": [
+        1016,
+        1125,
+        1049,
+        1133,
+        1120
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1016_further_crop_asym_1191x1176.png",
+        "best_patternId": 1016,
+        "top5": [
+          {
+            "patternId": 1016,
+            "score": 1.3848599195480347,
+            "probability": 0.14690622687339783,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1125,
+            "score": 1.3848599195480347,
+            "probability": 0.14690622687339783,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1049,
+            "score": 1.3847306966781616,
+            "probability": 0.1467481404542923,
+            "image_score": 1.0,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1133,
+            "score": 1.377821683883667,
+            "probability": 0.1385377198457718,
+            "image_score": 0.999993622303009,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1120,
+            "score": 1.345084547996521,
+            "probability": 0.10546008497476578,
+            "image_score": 0.9999634027481079,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.0,
+        "confidence": 0.14690622687339783,
+        "unknown": false,
+        "decided_patternId": 1016,
+        "latency_ms": 29.21890001744032
+      }
+    },
+    {
+      "file": "pattern_1017_further_crop_asym_1191x1176.png",
+      "truth": 1017,
+      "status": "ok",
+      "best_patternId": 1017,
+      "unknown": false,
+      "margin": 0.12221109867095947,
+      "confidence": 0.3392801880836487,
+      "latency_ms": 28.20059994701296,
+      "top5": [
+        1017,
+        1131,
+        1183,
+        1006,
+        1133
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1017_further_crop_asym_1191x1176.png",
+        "best_patternId": 1017,
+        "top5": [
+          {
+            "patternId": 1017,
+            "score": 1.5385268926620483,
+            "probability": 0.3392801880836487,
+            "image_score": 1.0,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1131,
+            "score": 1.4163157939910889,
+            "probability": 0.12253556400537491,
+            "image_score": 0.9999006986618042,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1183,
+            "score": 1.4163157939910889,
+            "probability": 0.12253556400537491,
+            "image_score": 0.9999006986618042,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1006,
+            "score": 1.408393383026123,
+            "probability": 0.11470690369606018,
+            "image_score": 0.9998942613601685,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1133,
+            "score": 1.2953517436981201,
+            "probability": 0.04471761733293533,
+            "image_score": 0.9998024106025696,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.12221109867095947,
+        "confidence": 0.3392801880836487,
+        "unknown": false,
+        "decided_patternId": 1017,
+        "latency_ms": 28.20059994701296
+      }
+    },
+    {
+      "file": "pattern_1018_further_crop_asym_1191x1176.png",
+      "truth": 1018,
+      "status": "ok",
+      "best_patternId": 1018,
+      "unknown": false,
+      "margin": 0.007953763008117676,
+      "confidence": 0.3450910151004791,
+      "latency_ms": 28.087300015613437,
+      "top5": [
+        1018,
+        1059,
+        1065,
+        1056,
+        1194
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1018_further_crop_asym_1191x1176.png",
+        "best_patternId": 1018,
+        "top5": [
+          {
+            "patternId": 1018,
+            "score": 1.859180212020874,
+            "probability": 0.3450910151004791,
+            "image_score": 1.0,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1059,
+            "score": 1.8512264490127563,
+            "probability": 0.32295945286750793,
+            "image_score": 0.999993622303009,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1065,
+            "score": 1.7273101806640625,
+            "probability": 0.11499528586864471,
+            "image_score": 0.9998942613601685,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1056,
+            "score": 1.6929676532745361,
+            "probability": 0.0863754078745842,
+            "image_score": 0.9998667240142822,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1194,
+            "score": 1.5755187273025513,
+            "probability": 0.03245849534869194,
+            "image_score": 0.9997725486755371,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.007953763008117676,
+        "confidence": 0.3450910151004791,
+        "unknown": false,
+        "decided_patternId": 1018,
+        "latency_ms": 28.087300015613437
+      }
+    },
+    {
+      "file": "pattern_1019_further_crop_asym_1191x1176.png",
+      "truth": 1019,
+      "status": "ok",
+      "best_patternId": 1019,
+      "unknown": false,
+      "margin": 0.16446363925933838,
+      "confidence": 0.565647304058075,
+      "latency_ms": 28.868700028397143,
+      "top5": [
+        1019,
+        1009,
+        1069,
+        1187,
+        1008
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1019_further_crop_asym_1191x1176.png",
+        "best_patternId": 1019,
+        "top5": [
+          {
+            "patternId": 1019,
+            "score": 1.892520785331726,
+            "probability": 0.565647304058075,
+            "image_score": 1.0,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1009,
+            "score": 1.7280571460723877,
+            "probability": 0.14365874230861664,
+            "image_score": 0.9998667240142822,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1069,
+            "score": 1.6889272928237915,
+            "probability": 0.10368509590625763,
+            "image_score": 0.9998350143432617,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1187,
+            "score": 1.6100789308547974,
+            "probability": 0.05374707281589508,
+            "image_score": 0.9997711181640625,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1008,
+            "score": 1.6037533283233643,
+            "probability": 0.050987258553504944,
+            "image_score": 0.9997659921646118,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.16446363925933838,
+        "confidence": 0.565647304058075,
+        "unknown": false,
+        "decided_patternId": 1019,
+        "latency_ms": 28.868700028397143
+      }
+    },
+    {
+      "file": "pattern_1025_further_crop_asym_1191x1176.png",
+      "truth": 1025,
+      "status": "ok",
+      "best_patternId": 1025,
+      "unknown": false,
+      "margin": 0.0,
+      "confidence": 0.17665252089500427,
+      "latency_ms": 27.934600017033517,
+      "top5": [
+        1025,
+        1193,
+        1075,
+        1186,
+        1048
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1025_further_crop_asym_1191x1176.png",
+        "best_patternId": 1025,
+        "top5": [
+          {
+            "patternId": 1025,
+            "score": 1.7097671031951904,
+            "probability": 0.17665252089500427,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1193,
+            "score": 1.7097671031951904,
+            "probability": 0.17665252089500427,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1075,
+            "score": 1.7031259536743164,
+            "probability": 0.16714170575141907,
+            "image_score": 0.9999947547912598,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1186,
+            "score": 1.657819151878357,
+            "probability": 0.11458137631416321,
+            "image_score": 0.9999581575393677,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1048,
+            "score": 1.6561957597732544,
+            "probability": 0.11304175853729248,
+            "image_score": 0.9999568462371826,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.0,
+        "confidence": 0.17665252089500427,
+        "unknown": false,
+        "decided_patternId": 1025,
+        "latency_ms": 27.934600017033517
+      }
+    },
+    {
+      "file": "pattern_1026_further_crop_asym_1191x1176.png",
+      "truth": 1026,
+      "status": "ok",
+      "best_patternId": 1026,
+      "unknown": false,
+      "margin": 0.15037941932678223,
+      "confidence": 0.555568516254425,
+      "latency_ms": 29.29730003233999,
+      "top5": [
+        1026,
+        1038,
+        1005,
+        1007,
+        1045
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1026_further_crop_asym_1191x1176.png",
+        "best_patternId": 1026,
+        "top5": [
+          {
+            "patternId": 1026,
+            "score": 1.783249020576477,
+            "probability": 0.555568516254425,
+            "image_score": 1.000000238418579,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1038,
+            "score": 1.6328696012496948,
+            "probability": 0.15867061913013458,
+            "image_score": 0.9998800754547119,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1005,
+            "score": 1.5934845209121704,
+            "probability": 0.11427656561136246,
+            "image_score": 0.9998486042022705,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1007,
+            "score": 1.5790135860443115,
+            "probability": 0.10129432380199432,
+            "image_score": 0.9998370409011841,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1045,
+            "score": 1.4754784107208252,
+            "probability": 0.04274432361125946,
+            "image_score": 0.9997543096542358,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.15037941932678223,
+        "confidence": 0.555568516254425,
+        "unknown": false,
+        "decided_patternId": 1026,
+        "latency_ms": 29.29730003233999
+      }
+    },
+    {
+      "file": "pattern_1027_further_crop_asym_1191x1176.png",
+      "truth": 1027,
+      "status": "ok",
+      "best_patternId": 1027,
+      "unknown": false,
+      "margin": 0.1377115249633789,
+      "confidence": 0.325831800699234,
+      "latency_ms": 28.692299965769053,
+      "top5": [
+        1027,
+        1120,
+        1134,
+        1133,
+        1125
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1027_further_crop_asym_1191x1176.png",
+        "best_patternId": 1027,
+        "top5": [
+          {
+            "patternId": 1027,
+            "score": 1.4951190948486328,
+            "probability": 0.325831800699234,
+            "image_score": 1.000000238418579,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1120,
+            "score": 1.357407569885254,
+            "probability": 0.10341870039701462,
+            "image_score": 0.9998737573623657,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1134,
+            "score": 1.345336675643921,
+            "probability": 0.0935218557715416,
+            "image_score": 0.9998626708984375,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1133,
+            "score": 1.324310064315796,
+            "probability": 0.07849012315273285,
+            "image_score": 0.9998433589935303,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1125,
+            "score": 1.3173011541366577,
+            "probability": 0.07403700798749924,
+            "image_score": 0.9998369216918945,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.1377115249633789,
+        "confidence": 0.325831800699234,
+        "unknown": false,
+        "decided_patternId": 1027,
+        "latency_ms": 28.692299965769053
+      }
+    },
+    {
+      "file": "pattern_1028_further_crop_asym_1191x1176.png",
+      "truth": 1028,
+      "status": "ok",
+      "best_patternId": 1028,
+      "unknown": false,
+      "margin": 0.053251028060913086,
+      "confidence": 0.3228488266468048,
+      "latency_ms": 29.73119996022433,
+      "top5": [
+        1028,
+        1129,
+        1194,
+        1056,
+        1175
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1028_further_crop_asym_1191x1176.png",
+        "best_patternId": 1028,
+        "top5": [
+          {
+            "patternId": 1028,
+            "score": 1.8260952234268188,
+            "probability": 0.3228488266468048,
+            "image_score": 1.0,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1129,
+            "score": 1.7728441953659058,
+            "probability": 0.2071462869644165,
+            "image_score": 0.9999581575393677,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1194,
+            "score": 1.7711753845214844,
+            "probability": 0.20428554713726044,
+            "image_score": 0.9999568462371826,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1056,
+            "score": 1.651322841644287,
+            "probability": 0.07524482160806656,
+            "image_score": 0.9998626708984375,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1175,
+            "score": 1.633117437362671,
+            "probability": 0.06465306878089905,
+            "image_score": 0.9998483657836914,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.053251028060913086,
+        "confidence": 0.3228488266468048,
+        "unknown": false,
+        "decided_patternId": 1028,
+        "latency_ms": 29.73119996022433
+      }
+    },
+    {
+      "file": "pattern_1029_further_crop_asym_1191x1176.png",
+      "truth": 1029,
+      "status": "ok",
+      "best_patternId": 1029,
+      "unknown": false,
+      "margin": 0.16940927505493164,
+      "confidence": 0.5093700885772705,
+      "latency_ms": 27.51180005725473,
+      "top5": [
+        1029,
+        1130,
+        1181,
+        1048,
+        1192
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1029_further_crop_asym_1191x1176.png",
+        "best_patternId": 1029,
+        "top5": [
+          {
+            "patternId": 1029,
+            "score": 1.8643358945846558,
+            "probability": 0.5093700885772705,
+            "image_score": 1.0,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1130,
+            "score": 1.6949266195297241,
+            "probability": 0.12414257973432541,
+            "image_score": 0.9998655319213867,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1181,
+            "score": 1.6566293239593506,
+            "probability": 0.09022318571805954,
+            "image_score": 0.9998351335525513,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1048,
+            "score": 1.5776315927505493,
+            "probability": 0.046710673719644547,
+            "image_score": 0.9997724294662476,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1192,
+            "score": 1.5776315927505493,
+            "probability": 0.046710673719644547,
+            "image_score": 0.9997724294662476,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.16940927505493164,
+        "confidence": 0.5093700885772705,
+        "unknown": false,
+        "decided_patternId": 1029,
+        "latency_ms": 27.51180005725473
+      }
+    },
+    {
+      "file": "pattern_1035_further_crop_asym_1191x1176.png",
+      "truth": 1035,
+      "status": "ok",
+      "best_patternId": 1035,
+      "unknown": false,
+      "margin": 0.12895143032073975,
+      "confidence": 0.5149223804473877,
+      "latency_ms": 27.92720007710159,
+      "top5": [
+        1035,
+        1126,
+        1177,
+        1117,
+        1176
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1035_further_crop_asym_1191x1176.png",
+        "best_patternId": 1035,
+        "top5": [
+          {
+            "patternId": 1035,
+            "score": 1.7721489667892456,
+            "probability": 0.5149223804473877,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1126,
+            "score": 1.6431975364685059,
+            "probability": 0.1758129596710205,
+            "image_score": 0.9998993873596191,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1177,
+            "score": 1.5931429862976074,
+            "probability": 0.11585041880607605,
+            "image_score": 0.9998602867126465,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1117,
+            "score": 1.5461405515670776,
+            "probability": 0.07830515503883362,
+            "image_score": 0.9998235702514648,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1176,
+            "score": 1.4791468381881714,
+            "probability": 0.04480557143688202,
+            "image_score": 0.999771237373352,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.12895143032073975,
+        "confidence": 0.5149223804473877,
+        "unknown": false,
+        "decided_patternId": 1035,
+        "latency_ms": 27.92720007710159
+      }
+    },
+    {
+      "file": "pattern_1036_further_crop_asym_1191x1176.png",
+      "truth": 1036,
+      "status": "ok",
+      "best_patternId": 1036,
+      "unknown": false,
+      "margin": 0.3334430456161499,
+      "confidence": 0.858613133430481,
+      "latency_ms": 28.67929998319596,
+      "top5": [
+        1036,
+        1058,
+        1078,
+        1046,
+        1185
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1036_further_crop_asym_1191x1176.png",
+        "best_patternId": 1036,
+        "top5": [
+          {
+            "patternId": 1036,
+            "score": 1.8977458477020264,
+            "probability": 0.858613133430481,
+            "image_score": 1.0,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1058,
+            "score": 1.5643028020858765,
+            "probability": 0.05333678051829338,
+            "image_score": 0.9998288154602051,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1078,
+            "score": 1.5134505033493042,
+            "probability": 0.03491292893886566,
+            "image_score": 0.9998027086257935,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1046,
+            "score": 1.3569459915161133,
+            "probability": 0.00947495736181736,
+            "image_score": 0.9997223615646362,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1185,
+            "score": 1.3297781944274902,
+            "probability": 0.007555333897471428,
+            "image_score": 0.9997084140777588,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.3334430456161499,
+        "confidence": 0.858613133430481,
+        "unknown": false,
+        "decided_patternId": 1036,
+        "latency_ms": 28.67929998319596
+      }
+    },
+    {
+      "file": "pattern_1037_further_crop_asym_1191x1176.png",
+      "truth": 1037,
+      "status": "ok",
+      "best_patternId": 1037,
+      "unknown": false,
+      "margin": 0.009393811225891113,
+      "confidence": 0.5137749314308167,
+      "latency_ms": 28.825700050219893,
+      "top5": [
+        1037,
+        1115,
+        1025,
+        1193,
+        1075
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1037_further_crop_asym_1191x1176.png",
+        "best_patternId": 1037,
+        "top5": [
+          {
+            "patternId": 1037,
+            "score": 1.9114938974380493,
+            "probability": 0.5137749314308167,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1115,
+            "score": 1.9021000862121582,
+            "probability": 0.47508981823921204,
+            "image_score": 0.9999951124191284,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1025,
+            "score": 1.2529047727584839,
+            "probability": 0.0021245121024549007,
+            "image_score": 0.9996809959411621,
+            "slot_score": 0.9999998807907104
+          },
+          {
+            "patternId": 1193,
+            "score": 1.2529047727584839,
+            "probability": 0.0021245121024549007,
+            "image_score": 0.9996809959411621,
+            "slot_score": 0.9999998807907104
+          },
+          {
+            "patternId": 1075,
+            "score": 1.2430635690689087,
+            "probability": 0.0019572332967072725,
+            "image_score": 0.9996757507324219,
+            "slot_score": 0.9999998807907104
+          }
+        ],
+        "margin": 0.009393811225891113,
+        "confidence": 0.5137749314308167,
+        "unknown": false,
+        "decided_patternId": 1037,
+        "latency_ms": 28.825700050219893
+      }
+    },
+    {
+      "file": "pattern_1038_further_crop_asym_1191x1176.png",
+      "truth": 1038,
+      "status": "ok",
+      "best_patternId": 1038,
+      "unknown": false,
+      "margin": 0.05253922939300537,
+      "confidence": 0.33588695526123047,
+      "latency_ms": 28.0423000222072,
+      "top5": [
+        1038,
+        1005,
+        1007,
+        1026,
+        1045
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1038_further_crop_asym_1191x1176.png",
+        "best_patternId": 1038,
+        "top5": [
+          {
+            "patternId": 1038,
+            "score": 1.6810238361358643,
+            "probability": 0.33588695526123047,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1005,
+            "score": 1.6284846067428589,
+            "probability": 0.21679401397705078,
+            "image_score": 0.999958336353302,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1007,
+            "score": 1.626760721206665,
+            "probability": 0.2137017548084259,
+            "image_score": 0.9999569654464722,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1026,
+            "score": 1.5300766229629517,
+            "probability": 0.09547659009695053,
+            "image_score": 0.9998800754547119,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1045,
+            "score": 1.5100651979446411,
+            "probability": 0.08081145584583282,
+            "image_score": 0.9998641610145569,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.05253922939300537,
+        "confidence": 0.33588695526123047,
+        "unknown": false,
+        "decided_patternId": 1038,
+        "latency_ms": 28.0423000222072
+      }
+    },
+    {
+      "file": "pattern_1039_further_crop_asym_1191x1176.png",
+      "truth": 1039,
+      "status": "ok",
+      "best_patternId": 1039,
+      "unknown": false,
+      "margin": 0.1651146411895752,
+      "confidence": 0.5678254961967468,
+      "latency_ms": 28.335000039078295,
+      "top5": [
+        1039,
+        1007,
+        1005,
+        1038,
+        1045
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1039_further_crop_asym_1191x1176.png",
+        "best_patternId": 1039,
+        "top5": [
+          {
+            "patternId": 1039,
+            "score": 1.797918438911438,
+            "probability": 0.5678254961967468,
+            "image_score": 0.9999999403953552,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1007,
+            "score": 1.6328037977218628,
+            "probability": 0.14343178272247314,
+            "image_score": 0.9998719096183777,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1005,
+            "score": 1.617968201637268,
+            "probability": 0.12675157189369202,
+            "image_score": 0.999860405921936,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1038,
+            "score": 1.5770738124847412,
+            "probability": 0.09014711529016495,
+            "image_score": 0.9998286962509155,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1045,
+            "score": 1.4964382648468018,
+            "probability": 0.046038560569286346,
+            "image_score": 0.9997661709785461,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.1651146411895752,
+        "confidence": 0.5678254961967468,
+        "unknown": false,
+        "decided_patternId": 1039,
+        "latency_ms": 28.335000039078295
+      }
+    },
+    {
+      "file": "pattern_1045_further_crop_asym_1191x1176.png",
+      "truth": 1045,
+      "status": "ok",
+      "best_patternId": 1045,
+      "unknown": false,
+      "margin": 0.1193159818649292,
+      "confidence": 0.47675850987434387,
+      "latency_ms": 27.937500039115548,
+      "top5": [
+        1045,
+        1005,
+        1007,
+        1038,
+        1039
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1045_further_crop_asym_1191x1176.png",
+        "best_patternId": 1045,
+        "top5": [
+          {
+            "patternId": 1045,
+            "score": 1.7005305290222168,
+            "probability": 0.47675850987434387,
+            "image_score": 1.000000238418579,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1005,
+            "score": 1.5812145471572876,
+            "probability": 0.17639225721359253,
+            "image_score": 0.9999060034751892,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1007,
+            "score": 1.5665736198425293,
+            "probability": 0.15613201260566711,
+            "image_score": 0.9998944401741028,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1038,
+            "score": 1.5282355546951294,
+            "probability": 0.11343365162611008,
+            "image_score": 0.9998641610145569,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1039,
+            "score": 1.4041650295257568,
+            "probability": 0.04033815860748291,
+            "image_score": 0.9997661709785461,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.1193159818649292,
+        "confidence": 0.47675850987434387,
+        "unknown": false,
+        "decided_patternId": 1045,
+        "latency_ms": 27.937500039115548
+      }
+    },
+    {
+      "file": "pattern_1046_further_crop_asym_1191x1176.png",
+      "truth": 1046,
+      "status": "ok",
+      "best_patternId": 1046,
+      "unknown": false,
+      "margin": 0.2043675184249878,
+      "confidence": 0.6187463402748108,
+      "latency_ms": 27.92069991119206,
+      "top5": [
+        1046,
+        1188,
+        1015,
+        1189,
+        1124
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1046_further_crop_asym_1191x1176.png",
+        "best_patternId": 1046,
+        "top5": [
+          {
+            "patternId": 1046,
+            "score": 1.9356017112731934,
+            "probability": 0.6187463402748108,
+            "image_score": 1.0,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1188,
+            "score": 1.7312341928482056,
+            "probability": 0.11268916726112366,
+            "image_score": 0.9998942613601685,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1015,
+            "score": 1.682619333267212,
+            "probability": 0.0751517042517662,
+            "image_score": 0.9998691082000732,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1189,
+            "score": 1.6729422807693481,
+            "probability": 0.06932926177978516,
+            "image_score": 0.9998641014099121,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1124,
+            "score": 1.6605006456375122,
+            "probability": 0.06250123679637909,
+            "image_score": 0.9998576641082764,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.2043675184249878,
+        "confidence": 0.6187463402748108,
+        "unknown": false,
+        "decided_patternId": 1046,
+        "latency_ms": 27.92069991119206
+      }
+    },
+    {
+      "file": "pattern_1047_further_crop_asym_1191x1176.png",
+      "truth": 1047,
+      "status": "ok",
+      "best_patternId": 1047,
+      "unknown": false,
+      "margin": 0.7562030553817749,
+      "confidence": 0.99570232629776,
+      "latency_ms": 29.31190002709627,
+      "top5": [
+        1047,
+        1018,
+        1059,
+        1065,
+        1056
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1047_further_crop_asym_1191x1176.png",
+        "best_patternId": 1047,
+        "top5": [
+          {
+            "patternId": 1047,
+            "score": 2.244657278060913,
+            "probability": 0.99570232629776,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1018,
+            "score": 1.4884542226791382,
+            "probability": 0.001825320185162127,
+            "image_score": 0.9996504783630371,
+            "slot_score": 0.9999998807907104
+          },
+          {
+            "patternId": 1059,
+            "score": 1.4758707284927368,
+            "probability": 0.0016436054138466716,
+            "image_score": 0.9996441602706909,
+            "slot_score": 0.9999998807907104
+          },
+          {
+            "patternId": 1065,
+            "score": 1.2779772281646729,
+            "probability": 0.0003159347688779235,
+            "image_score": 0.9995447993278503,
+            "slot_score": 0.9999998807907104
+          },
+          {
+            "patternId": 1056,
+            "score": 1.2231321334838867,
+            "probability": 0.00020003513782285154,
+            "image_score": 0.9995172619819641,
+            "slot_score": 0.9999998807907104
+          }
+        ],
+        "margin": 0.7562030553817749,
+        "confidence": 0.99570232629776,
+        "unknown": false,
+        "decided_patternId": 1047,
+        "latency_ms": 29.31190002709627
+      }
+    },
+    {
+      "file": "pattern_1048_further_crop_asym_1191x1176.png",
+      "truth": 1048,
+      "status": "ok",
+      "best_patternId": 1048,
+      "unknown": false,
+      "margin": 0.0,
+      "confidence": 0.17755356431007385,
+      "latency_ms": 27.40100002847612,
+      "top5": [
+        1048,
+        1192,
+        1186,
+        1025,
+        1193
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1048_further_crop_asym_1191x1176.png",
+        "best_patternId": 1048,
+        "top5": [
+          {
+            "patternId": 1048,
+            "score": 1.718220829963684,
+            "probability": 0.17755356431007385,
+            "image_score": 1.0,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1192,
+            "score": 1.718220829963684,
+            "probability": 0.17755356431007385,
+            "image_score": 1.0,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1186,
+            "score": 1.7040969133377075,
+            "probability": 0.15783855319023132,
+            "image_score": 0.9999885559082031,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1025,
+            "score": 1.6651090383529663,
+            "probability": 0.11405421793460846,
+            "image_score": 0.9999569654464722,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1193,
+            "score": 1.6651090383529663,
+            "probability": 0.11405421793460846,
+            "image_score": 0.9999569654464722,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.0,
+        "confidence": 0.17755356431007385,
+        "unknown": false,
+        "decided_patternId": 1048,
+        "latency_ms": 27.40100002847612
+      }
+    },
+    {
+      "file": "pattern_1049_further_crop_asym_1191x1176.png",
+      "truth": 1049,
+      "status": "ok",
+      "best_patternId": 1016,
+      "unknown": false,
+      "margin": 0.0,
+      "confidence": 0.14690622687339783,
+      "latency_ms": 28.51630002260208,
+      "top5": [
+        1016,
+        1125,
+        1049,
+        1133,
+        1120
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1049_further_crop_asym_1191x1176.png",
+        "best_patternId": 1016,
+        "top5": [
+          {
+            "patternId": 1016,
+            "score": 1.3848599195480347,
+            "probability": 0.14690622687339783,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1125,
+            "score": 1.3848599195480347,
+            "probability": 0.14690622687339783,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1049,
+            "score": 1.3847306966781616,
+            "probability": 0.1467481404542923,
+            "image_score": 1.0,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1133,
+            "score": 1.377821683883667,
+            "probability": 0.1385377198457718,
+            "image_score": 0.999993622303009,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1120,
+            "score": 1.345084547996521,
+            "probability": 0.10546008497476578,
+            "image_score": 0.9999634027481079,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.0,
+        "confidence": 0.14690622687339783,
+        "unknown": false,
+        "decided_patternId": 1016,
+        "latency_ms": 28.51630002260208
+      }
+    },
+    {
+      "file": "pattern_1055_further_crop_asym_1191x1176.png",
+      "truth": 1055,
+      "status": "ok",
+      "best_patternId": 1055,
+      "unknown": false,
+      "margin": 0.0,
+      "confidence": 0.3397243320941925,
+      "latency_ms": 28.205599985085428,
+      "top5": [
+        1055,
+        1176,
+        1177,
+        1126,
+        1117
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1055_further_crop_asym_1191x1176.png",
+        "best_patternId": 1055,
+        "top5": [
+          {
+            "patternId": 1055,
+            "score": 1.7258983850479126,
+            "probability": 0.3397243320941925,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1176,
+            "score": 1.7258983850479126,
+            "probability": 0.3397243320941925,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1177,
+            "score": 1.595968246459961,
+            "probability": 0.11505189538002014,
+            "image_score": 0.9999006986618042,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1126,
+            "score": 1.5582666397094727,
+            "probability": 0.08403243124485016,
+            "image_score": 0.9998718500137329,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1117,
+            "score": 1.5481401681900024,
+            "probability": 0.07723216712474823,
+            "image_score": 0.9998641014099121,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.0,
+        "confidence": 0.3397243320941925,
+        "unknown": false,
+        "decided_patternId": 1055,
+        "latency_ms": 28.205599985085428
+      }
+    },
+    {
+      "file": "pattern_1056_further_crop_asym_1191x1176.png",
+      "truth": 1056,
+      "status": "ok",
+      "best_patternId": 1056,
+      "unknown": false,
+      "margin": 0.11960351467132568,
+      "confidence": 0.34501832723617554,
+      "latency_ms": 27.557100052945316,
+      "top5": [
+        1056,
+        1194,
+        1129,
+        1128,
+        1018
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1056_further_crop_asym_1191x1176.png",
+        "best_patternId": 1056,
+        "top5": [
+          {
+            "patternId": 1056,
+            "score": 1.7857158184051514,
+            "probability": 0.34501832723617554,
+            "image_score": 1.0,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1194,
+            "score": 1.6661123037338257,
+            "probability": 0.1273452639579773,
+            "image_score": 0.9999057650566101,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1129,
+            "score": 1.6515116691589355,
+            "probability": 0.11275635659694672,
+            "image_score": 0.9998942613601685,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1128,
+            "score": 1.6253366470336914,
+            "probability": 0.09065898507833481,
+            "image_score": 0.9998736381530762,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1018,
+            "score": 1.6165611743927002,
+            "probability": 0.08426573127508163,
+            "image_score": 0.9998667240142822,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.11960351467132568,
+        "confidence": 0.34501832723617554,
+        "unknown": false,
+        "decided_patternId": 1056,
+        "latency_ms": 27.557100052945316
+      }
+    },
+    {
+      "file": "pattern_1057_further_crop_asym_1191x1176.png",
+      "truth": 1057,
+      "status": "ok",
+      "best_patternId": 1057,
+      "unknown": false,
+      "margin": 0.14076721668243408,
+      "confidence": 0.5765501260757446,
+      "latency_ms": 27.335899998433888,
+      "top5": [
+        1057,
+        1118,
+        1121,
+        1076,
+        1079
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1057_further_crop_asym_1191x1176.png",
+        "best_patternId": 1057,
+        "top5": [
+          {
+            "patternId": 1057,
+            "score": 1.7065681219100952,
+            "probability": 0.5765501260757446,
+            "image_score": 1.0,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1118,
+            "score": 1.5658009052276611,
+            "probability": 0.17839530110359192,
+            "image_score": 0.9998800754547119,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1121,
+            "score": 1.558384656906128,
+            "probability": 0.16770391166210175,
+            "image_score": 0.9998737573623657,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1076,
+            "score": 1.3106428384780884,
+            "probability": 0.02127823792397976,
+            "image_score": 0.9996626973152161,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1079,
+            "score": 1.2972098588943481,
+            "probability": 0.0190248042345047,
+            "image_score": 0.9996512532234192,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.14076721668243408,
+        "confidence": 0.5765501260757446,
+        "unknown": false,
+        "decided_patternId": 1057,
+        "latency_ms": 27.335899998433888
+      }
+    },
+    {
+      "file": "pattern_1058_further_crop_asym_1191x1176.png",
+      "truth": 1058,
+      "status": "ok",
+      "best_patternId": 1058,
+      "unknown": false,
+      "margin": 0.33078455924987793,
+      "confidence": 0.9131933450698853,
+      "latency_ms": 28.12689996790141,
+      "top5": [
+        1058,
+        1036,
+        1180,
+        1179,
+        1078
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1058_further_crop_asym_1191x1176.png",
+        "best_patternId": 1058,
+        "top5": [
+          {
+            "patternId": 1058,
+            "score": 2.0123963356018066,
+            "probability": 0.9131933450698853,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1036,
+            "score": 1.6816117763519287,
+            "probability": 0.057998042553663254,
+            "image_score": 0.9998286962509155,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1180,
+            "score": 1.488730788230896,
+            "probability": 0.011623947881162167,
+            "image_score": 0.9997287392616272,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1179,
+            "score": 1.4398492574691772,
+            "probability": 0.007734739221632481,
+            "image_score": 0.9997034072875977,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1078,
+            "score": 1.3006805181503296,
+            "probability": 0.0024253653828054667,
+            "image_score": 0.9996312856674194,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.33078455924987793,
+        "confidence": 0.9131933450698853,
+        "unknown": false,
+        "decided_patternId": 1058,
+        "latency_ms": 28.12689996790141
+      }
+    },
+    {
+      "file": "pattern_1059_further_crop_asym_1191x1176.png",
+      "truth": 1059,
+      "status": "ok",
+      "best_patternId": 1059,
+      "unknown": false,
+      "margin": 0.008170127868652344,
+      "confidence": 0.3431923985481262,
+      "latency_ms": 29.446400003507733,
+      "top5": [
+        1059,
+        1018,
+        1065,
+        1056,
+        1129
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1059_further_crop_asym_1191x1176.png",
+        "best_patternId": 1059,
+        "top5": [
+          {
+            "patternId": 1059,
+            "score": 1.8582011461257935,
+            "probability": 0.3431923985481262,
+            "image_score": 1.0,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1018,
+            "score": 1.8500310182571411,
+            "probability": 0.3206039369106293,
+            "image_score": 0.9999934434890747,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1065,
+            "score": 1.7343131303787231,
+            "probability": 0.12222835421562195,
+            "image_score": 0.9999005794525146,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1056,
+            "score": 1.6839556694030762,
+            "probability": 0.08033816516399384,
+            "image_score": 0.9998601675033569,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1129,
+            "score": 1.5809383392333984,
+            "probability": 0.03404786437749863,
+            "image_score": 0.9997774958610535,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.008170127868652344,
+        "confidence": 0.3431923985481262,
+        "unknown": false,
+        "decided_patternId": 1059,
+        "latency_ms": 29.446400003507733
+      }
+    },
+    {
+      "file": "pattern_1065_further_crop_asym_1191x1176.png",
+      "truth": 1065,
+      "status": "ok",
+      "best_patternId": 1065,
+      "unknown": false,
+      "margin": 0.12356901168823242,
+      "confidence": 0.38608258962631226,
+      "latency_ms": 28.443600051105022,
+      "top5": [
+        1065,
+        1059,
+        1018,
+        1129,
+        1194
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1065_further_crop_asym_1191x1176.png",
+        "best_patternId": 1065,
+        "top5": [
+          {
+            "patternId": 1065,
+            "score": 1.880292534828186,
+            "probability": 0.38608258962631226,
+            "image_score": 0.9999999403953552,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1059,
+            "score": 1.7567235231399536,
+            "probability": 0.13786983489990234,
+            "image_score": 0.9999006986618042,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1018,
+            "score": 1.7487082481384277,
+            "probability": 0.1289617270231247,
+            "image_score": 0.9998942613601685,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1129,
+            "score": 1.7144205570220947,
+            "probability": 0.09691024571657181,
+            "image_score": 0.9998667240142822,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1194,
+            "score": 1.7126394510269165,
+            "probability": 0.09548243135213852,
+            "image_score": 0.9998652935028076,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.12356901168823242,
+        "confidence": 0.38608258962631226,
+        "unknown": false,
+        "decided_patternId": 1065,
+        "latency_ms": 28.443600051105022
+      }
+    },
+    {
+      "file": "pattern_1066_further_crop_asym_1191x1176.png",
+      "truth": 1066,
+      "status": "ok",
+      "best_patternId": 1066,
+      "unknown": false,
+      "margin": 0.010442256927490234,
+      "confidence": 0.2033754587173462,
+      "latency_ms": 29.63939995970577,
+      "top5": [
+        1066,
+        1077,
+        1185,
+        1190,
+        1122
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1066_further_crop_asym_1191x1176.png",
+        "best_patternId": 1066,
+        "top5": [
+          {
+            "patternId": 1066,
+            "score": 1.6034201383590698,
+            "probability": 0.2033754587173462,
+            "image_score": 1.000000238418579,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1077,
+            "score": 1.5929778814315796,
+            "probability": 0.1864261031150818,
+            "image_score": 0.9999938607215881,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1185,
+            "score": 1.5845850706100464,
+            "probability": 0.17383302748203278,
+            "image_score": 0.9999887347221375,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1190,
+            "score": 1.5432063341140747,
+            "probability": 0.12313389778137207,
+            "image_score": 0.9999634623527527,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1122,
+            "score": 1.534911036491394,
+            "probability": 0.11490955948829651,
+            "image_score": 0.9999583959579468,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.010442256927490234,
+        "confidence": 0.2033754587173462,
+        "unknown": false,
+        "decided_patternId": 1066,
+        "latency_ms": 29.63939995970577
+      }
+    },
+    {
+      "file": "pattern_1067_further_crop_asym_1191x1176.png",
+      "truth": 1067,
+      "status": "ok",
+      "best_patternId": 1067,
+      "unknown": false,
+      "margin": 0.21731626987457275,
+      "confidence": 0.6403980851173401,
+      "latency_ms": 28.595200041309,
+      "top5": [
+        1067,
+        1124,
+        1189,
+        1015,
+        1188
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1067_further_crop_asym_1191x1176.png",
+        "best_patternId": 1067,
+        "top5": [
+          {
+            "patternId": 1067,
+            "score": 2.010603427886963,
+            "probability": 0.6403980851173401,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1124,
+            "score": 1.7932871580123901,
+            "probability": 0.10470224916934967,
+            "image_score": 0.9998852610588074,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1189,
+            "score": 1.7812203168869019,
+            "probability": 0.09468573331832886,
+            "image_score": 0.9998788833618164,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1015,
+            "score": 1.7715216875076294,
+            "probability": 0.08733412623405457,
+            "image_score": 0.9998737573623657,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1188,
+            "score": 1.7235924005508423,
+            "probability": 0.05857635289430618,
+            "image_score": 0.9998484253883362,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.21731626987457275,
+        "confidence": 0.6403980851173401,
+        "unknown": false,
+        "decided_patternId": 1067,
+        "latency_ms": 28.595200041309
+      }
+    },
+    {
+      "file": "pattern_1068_further_crop_asym_1191x1176.png",
+      "truth": 1068,
+      "status": "ok",
+      "best_patternId": 1068,
+      "unknown": false,
+      "margin": 0.006847500801086426,
+      "confidence": 0.17133298516273499,
+      "latency_ms": 30.115299974568188,
+      "top5": [
+        1068,
+        1191,
+        1132,
+        1016,
+        1125
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1068_further_crop_asym_1191x1176.png",
+        "best_patternId": 1068,
+        "top5": [
+          {
+            "patternId": 1068,
+            "score": 1.3553322553634644,
+            "probability": 0.17133298516273499,
+            "image_score": 0.9999998807907104,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1191,
+            "score": 1.348484754562378,
+            "probability": 0.16183005273342133,
+            "image_score": 0.9999935030937195,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1132,
+            "score": 1.316038727760315,
+            "probability": 0.1234903484582901,
+            "image_score": 0.9999632835388184,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1016,
+            "score": 1.2489069700241089,
+            "probability": 0.07057894766330719,
+            "image_score": 0.999900758266449,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1125,
+            "score": 1.2489069700241089,
+            "probability": 0.07057894766330719,
+            "image_score": 0.999900758266449,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.006847500801086426,
+        "confidence": 0.17133298516273499,
+        "unknown": false,
+        "decided_patternId": 1068,
+        "latency_ms": 30.115299974568188
+      }
+    },
+    {
+      "file": "pattern_1069_further_crop_asym_1191x1176.png",
+      "truth": 1069,
+      "status": "ok",
+      "best_patternId": 1069,
+      "unknown": false,
+      "margin": 0.053046345710754395,
+      "confidence": 0.3558025062084198,
+      "latency_ms": 29.639300075359643,
+      "top5": [
+        1069,
+        1009,
+        1184,
+        1187,
+        1008
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1069_further_crop_asym_1191x1176.png",
+        "best_patternId": 1069,
+        "top5": [
+          {
+            "patternId": 1069,
+            "score": 1.8466401100158691,
+            "probability": 0.3558025062084198,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1009,
+            "score": 1.7935937643051147,
+            "probability": 0.2286798357963562,
+            "image_score": 0.9999582767486572,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1184,
+            "score": 1.7189358472824097,
+            "probability": 0.12275292724370956,
+            "image_score": 0.9998993873596191,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1187,
+            "score": 1.6725391149520874,
+            "probability": 0.08339046686887741,
+            "image_score": 0.999862790107727,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1008,
+            "score": 1.6660405397415161,
+            "probability": 0.07899460196495056,
+            "image_score": 0.9998576641082764,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.053046345710754395,
+        "confidence": 0.3558025062084198,
+        "unknown": false,
+        "decided_patternId": 1069,
+        "latency_ms": 29.639300075359643
+      }
+    },
+    {
+      "file": "pattern_1075_further_crop_asym_1191x1176.png",
+      "truth": 1075,
+      "status": "ok",
+      "best_patternId": 1075,
+      "unknown": false,
+      "margin": 0.006051421165466309,
+      "confidence": 0.17784127593040466,
+      "latency_ms": 30.319900019094348,
+      "top5": [
+        1075,
+        1025,
+        1193,
+        1186,
+        1048
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1075_further_crop_asym_1191x1176.png",
+        "best_patternId": 1075,
+        "top5": [
+          {
+            "patternId": 1075,
+            "score": 1.7094391584396362,
+            "probability": 0.17784127593040466,
+            "image_score": 0.9999998807907104,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1025,
+            "score": 1.70338773727417,
+            "probability": 0.1690952479839325,
+            "image_score": 0.9999949932098389,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1193,
+            "score": 1.70338773727417,
+            "probability": 0.1690952479839325,
+            "image_score": 0.9999949932098389,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1186,
+            "score": 1.6641279458999634,
+            "probability": 0.12191175669431686,
+            "image_score": 0.9999632835388184,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1048,
+            "score": 1.6498113870620728,
+            "probability": 0.10820123553276062,
+            "image_score": 0.9999517202377319,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.006051421165466309,
+        "confidence": 0.17784127593040466,
+        "unknown": false,
+        "decided_patternId": 1075,
+        "latency_ms": 30.319900019094348
+      }
+    },
+    {
+      "file": "pattern_1076_further_crop_asym_1191x1176.png",
+      "truth": 1076,
+      "status": "ok",
+      "best_patternId": 1076,
+      "unknown": false,
+      "margin": 0.013022661209106445,
+      "confidence": 0.4373828172683716,
+      "latency_ms": 28.741999994963408,
+      "top5": [
+        1076,
+        1079,
+        1118,
+        1121,
+        1126
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1076_further_crop_asym_1191x1176.png",
+        "best_patternId": 1076,
+        "top5": [
+          {
+            "patternId": 1076,
+            "score": 1.6759941577911377,
+            "probability": 0.4373828172683716,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1079,
+            "score": 1.6629714965820312,
+            "probability": 0.392401784658432,
+            "image_score": 0.9999886751174927,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1118,
+            "score": 1.4169647693634033,
+            "probability": 0.05051296204328537,
+            "image_score": 0.9997724890708923,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1121,
+            "score": 1.4097073078155518,
+            "probability": 0.0475485734641552,
+            "image_score": 0.9997661113739014,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1126,
+            "score": 1.319565773010254,
+            "probability": 0.022433873265981674,
+            "image_score": 0.9996868968009949,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.013022661209106445,
+        "confidence": 0.4373828172683716,
+        "unknown": false,
+        "decided_patternId": 1076,
+        "latency_ms": 28.741999994963408
+      }
+    },
+    {
+      "file": "pattern_1077_further_crop_asym_1191x1176.png",
+      "truth": 1077,
+      "status": "ok",
+      "best_patternId": 1077,
+      "unknown": false,
+      "margin": 0.00838923454284668,
+      "confidence": 0.20171044766902924,
+      "latency_ms": 27.841900009661913,
+      "top5": [
+        1077,
+        1185,
+        1066,
+        1119,
+        1190
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1077_further_crop_asym_1191x1176.png",
+        "best_patternId": 1077,
+        "top5": [
+          {
+            "patternId": 1077,
+            "score": 1.6028741598129272,
+            "probability": 0.20171044766902924,
+            "image_score": 1.000000238418579,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1185,
+            "score": 1.5944849252700806,
+            "probability": 0.1880904883146286,
+            "image_score": 0.9999951124191284,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1066,
+            "score": 1.59243643283844,
+            "probability": 0.18490689992904663,
+            "image_score": 0.9999938607215881,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1119,
+            "score": 1.5426863431930542,
+            "probability": 0.12215224653482437,
+            "image_score": 0.9999634623527527,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1190,
+            "score": 1.532248616218567,
+            "probability": 0.11197632551193237,
+            "image_score": 0.9999570846557617,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.00838923454284668,
+        "confidence": 0.20171044766902924,
+        "unknown": false,
+        "decided_patternId": 1077,
+        "latency_ms": 27.841900009661913
+      }
+    },
+    {
+      "file": "pattern_1078_further_crop_asym_1191x1176.png",
+      "truth": 1078,
+      "status": "ok",
+      "best_patternId": 1078,
+      "unknown": false,
+      "margin": 0.15809404850006104,
+      "confidence": 0.40675437450408936,
+      "latency_ms": 28.657999937422574,
+      "top5": [
+        1078,
+        1185,
+        1077,
+        1066,
+        1127
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1078_further_crop_asym_1191x1176.png",
+        "best_patternId": 1078,
+        "top5": [
+          {
+            "patternId": 1078,
+            "score": 1.6653677225112915,
+            "probability": 0.40675437450408936,
+            "image_score": 1.000000238418579,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1185,
+            "score": 1.5072736740112305,
+            "probability": 0.10893583297729492,
+            "image_score": 0.9999059438705444,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1077,
+            "score": 1.498879313468933,
+            "probability": 0.10157587379217148,
+            "image_score": 0.9999009370803833,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1066,
+            "score": 1.4881864786148071,
+            "probability": 0.09291625022888184,
+            "image_score": 0.9998945593833923,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1127,
+            "score": 1.4619041681289673,
+            "probability": 0.07464022934436798,
+            "image_score": 0.9998788833618164,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.15809404850006104,
+        "confidence": 0.40675437450408936,
+        "unknown": false,
+        "decided_patternId": 1078,
+        "latency_ms": 28.657999937422574
+      }
+    },
+    {
+      "file": "pattern_1079_further_crop_asym_1191x1176.png",
+      "truth": 1079,
+      "status": "ok",
+      "best_patternId": 1079,
+      "unknown": false,
+      "margin": 0.01290595531463623,
+      "confidence": 0.43621504306793213,
+      "latency_ms": 27.337700012139976,
+      "top5": [
+        1079,
+        1076,
+        1121,
+        1118,
+        1126
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1079_further_crop_asym_1191x1176.png",
+        "best_patternId": 1079,
+        "top5": [
+          {
+            "patternId": 1079,
+            "score": 1.6780794858932495,
+            "probability": 0.43621504306793213,
+            "image_score": 1.0,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1076,
+            "score": 1.6651735305786133,
+            "probability": 0.3917350172996521,
+            "image_score": 0.9999886751174927,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1121,
+            "score": 1.4245119094848633,
+            "probability": 0.05272403731942177,
+            "image_score": 0.9997774958610535,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1118,
+            "score": 1.4172438383102417,
+            "probability": 0.049625493586063385,
+            "image_score": 0.9997711181640625,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1126,
+            "score": 1.319770097732544,
+            "probability": 0.02202598936855793,
+            "image_score": 0.9996855854988098,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.01290595531463623,
+        "confidence": 0.43621504306793213,
+        "unknown": false,
+        "decided_patternId": 1079,
+        "latency_ms": 27.337700012139976
+      }
+    },
+    {
+      "file": "pattern_1115_further_crop_asym_1191x1176.png",
+      "truth": 1115,
+      "status": "ok",
+      "best_patternId": 1115,
+      "unknown": false,
+      "margin": 0.009727716445922852,
+      "confidence": 0.5145679116249084,
+      "latency_ms": 29.175100033171475,
+      "top5": [
+        1115,
+        1037,
+        1075,
+        1025,
+        1193
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1115_further_crop_asym_1191x1176.png",
+        "best_patternId": 1115,
+        "top5": [
+          {
+            "patternId": 1115,
+            "score": 1.911813497543335,
+            "probability": 0.5145679116249084,
+            "image_score": 1.000000238418579,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1037,
+            "score": 1.902085781097412,
+            "probability": 0.4745008051395416,
+            "image_score": 0.9999950528144836,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1075,
+            "score": 1.2528772354125977,
+            "probability": 0.0021216454915702343,
+            "image_score": 0.9996808767318726,
+            "slot_score": 0.9999998807907104
+          },
+          {
+            "patternId": 1025,
+            "score": 1.2434848546981812,
+            "probability": 0.00196191668510437,
+            "image_score": 0.9996758699417114,
+            "slot_score": 0.9999998807907104
+          },
+          {
+            "patternId": 1193,
+            "score": 1.2434848546981812,
+            "probability": 0.00196191668510437,
+            "image_score": 0.9996758699417114,
+            "slot_score": 0.9999998807907104
+          }
+        ],
+        "margin": 0.009727716445922852,
+        "confidence": 0.5145679116249084,
+        "unknown": false,
+        "decided_patternId": 1115,
+        "latency_ms": 29.175100033171475
+      }
+    },
+    {
+      "file": "pattern_1116_further_crop_asym_1191x1176.png",
+      "truth": 1116,
+      "status": "ok",
+      "best_patternId": 1116,
+      "unknown": false,
+      "margin": 0.15642476081848145,
+      "confidence": 0.472702294588089,
+      "latency_ms": 29.170800000429153,
+      "top5": [
+        1116,
+        1130,
+        1181,
+        1048,
+        1192
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1116_further_crop_asym_1191x1176.png",
+        "best_patternId": 1116,
+        "top5": [
+          {
+            "patternId": 1116,
+            "score": 1.8539518117904663,
+            "probability": 0.472702294588089,
+            "image_score": 1.0,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1130,
+            "score": 1.6975270509719849,
+            "probability": 0.1283712536096573,
+            "image_score": 0.9998738169670105,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1181,
+            "score": 1.6597694158554077,
+            "probability": 0.09371701627969742,
+            "image_score": 0.9998433589935303,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1048,
+            "score": 1.5947463512420654,
+            "probability": 0.05451201647520065,
+            "image_score": 0.9997909069061279,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1192,
+            "score": 1.5947463512420654,
+            "probability": 0.05451201647520065,
+            "image_score": 0.9997909069061279,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.15642476081848145,
+        "confidence": 0.472702294588089,
+        "unknown": false,
+        "decided_patternId": 1116,
+        "latency_ms": 29.170800000429153
+      }
+    },
+    {
+      "file": "pattern_1117_further_crop_asym_1191x1176.png",
+      "truth": 1117,
+      "status": "ok",
+      "best_patternId": 1117,
+      "unknown": false,
+      "margin": 0.04752039909362793,
+      "confidence": 0.404625803232193,
+      "latency_ms": 27.448600041680038,
+      "top5": [
+        1117,
+        1177,
+        1055,
+        1176,
+        1035
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1117_further_crop_asym_1191x1176.png",
+        "best_patternId": 1117,
+        "top5": [
+          {
+            "patternId": 1117,
+            "score": 1.6990357637405396,
+            "probability": 0.404625803232193,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1177,
+            "score": 1.6515153646469116,
+            "probability": 0.272315114736557,
+            "image_score": 0.9999633431434631,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1055,
+            "score": 1.5232795476913452,
+            "probability": 0.09353425353765488,
+            "image_score": 0.9998641014099121,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1176,
+            "score": 1.5232795476913452,
+            "probability": 0.09353425353765488,
+            "image_score": 0.9998641014099121,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1035,
+            "score": 1.4710609912872314,
+            "probability": 0.06053204834461212,
+            "image_score": 0.9998236894607544,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.04752039909362793,
+        "confidence": 0.404625803232193,
+        "unknown": false,
+        "decided_patternId": 1117,
+        "latency_ms": 27.448600041680038
+      }
+    },
+    {
+      "file": "pattern_1118_further_crop_asym_1191x1176.png",
+      "truth": 1118,
+      "status": "ok",
+      "best_patternId": 1118,
+      "unknown": false,
+      "margin": 0.007553577423095703,
+      "confidence": 0.3773117661476135,
+      "latency_ms": 29.02770007494837,
+      "top5": [
+        1118,
+        1121,
+        1057,
+        1076,
+        1079
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1118_further_crop_asym_1191x1176.png",
+        "best_patternId": 1118,
+        "top5": [
+          {
+            "patternId": 1118,
+            "score": 1.6051033735275269,
+            "probability": 0.3773117661476135,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1121,
+            "score": 1.5975497961044312,
+            "probability": 0.3542931079864502,
+            "image_score": 0.9999936819076538,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1057,
+            "score": 1.4643850326538086,
+            "probability": 0.11679481714963913,
+            "image_score": 0.9998801946640015,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1076,
+            "score": 1.338004231452942,
+            "probability": 0.04074143245816231,
+            "image_score": 0.9997724890708923,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1079,
+            "score": 1.33646559715271,
+            "probability": 0.040222372859716415,
+            "image_score": 0.9997711777687073,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.007553577423095703,
+        "confidence": 0.3773117661476135,
+        "unknown": false,
+        "decided_patternId": 1118,
+        "latency_ms": 29.02770007494837
+      }
+    },
+    {
+      "file": "pattern_1119_further_crop_asym_1191x1176.png",
+      "truth": 1119,
+      "status": "ok",
+      "best_patternId": 1119,
+      "unknown": false,
+      "margin": 0.010530948638916016,
+      "confidence": 0.20622403919696808,
+      "latency_ms": 28.763100039213896,
+      "top5": [
+        1119,
+        1190,
+        1122,
+        1077,
+        1185
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1119_further_crop_asym_1191x1176.png",
+        "best_patternId": 1119,
+        "top5": [
+          {
+            "patternId": 1119,
+            "score": 1.5973618030548096,
+            "probability": 0.20622403919696808,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1190,
+            "score": 1.5868308544158936,
+            "probability": 0.18889760971069336,
+            "image_score": 0.9999937415122986,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1122,
+            "score": 1.578366756439209,
+            "probability": 0.17603279650211334,
+            "image_score": 0.9999886155128479,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1077,
+            "score": 1.5367351770401,
+            "probability": 0.12442969530820847,
+            "image_score": 0.9999634027481079,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1185,
+            "score": 1.5284678936004639,
+            "probability": 0.11614593118429184,
+            "image_score": 0.9999583959579468,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.010530948638916016,
+        "confidence": 0.20622403919696808,
+        "unknown": false,
+        "decided_patternId": 1119,
+        "latency_ms": 28.763100039213896
+      }
+    },
+    {
+      "file": "pattern_1120_further_crop_asym_1191x1176.png",
+      "truth": 1120,
+      "status": "ok",
+      "best_patternId": 1120,
+      "unknown": false,
+      "margin": 0.03997230529785156,
+      "confidence": 0.17494462430477142,
+      "latency_ms": 28.96839997265488,
+      "top5": [
+        1120,
+        1016,
+        1125,
+        1049,
+        1133
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1120_further_crop_asym_1191x1176.png",
+        "best_patternId": 1120,
+        "top5": [
+          {
+            "patternId": 1120,
+            "score": 1.4010376930236816,
+            "probability": 0.17494462430477142,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1016,
+            "score": 1.36106538772583,
+            "probability": 0.12538225948810577,
+            "image_score": 0.9999634027481079,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1125,
+            "score": 1.36106538772583,
+            "probability": 0.12538225948810577,
+            "image_score": 0.9999634027481079,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1049,
+            "score": 1.36106538772583,
+            "probability": 0.12538225948810577,
+            "image_score": 0.9999634027481079,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1133,
+            "score": 1.3540571928024292,
+            "probability": 0.11826953291893005,
+            "image_score": 0.9999569654464722,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.03997230529785156,
+        "confidence": 0.17494462430477142,
+        "unknown": false,
+        "decided_patternId": 1120,
+        "latency_ms": 28.96839997265488
+      }
+    },
+    {
+      "file": "pattern_1121_further_crop_asym_1191x1176.png",
+      "truth": 1121,
+      "status": "ok",
+      "best_patternId": 1121,
+      "unknown": false,
+      "margin": 0.007569789886474609,
+      "confidence": 0.3817010521888733,
+      "latency_ms": 27.875900035724044,
+      "top5": [
+        1121,
+        1118,
+        1057,
+        1079,
+        1076
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1121_further_crop_asym_1191x1176.png",
+        "best_patternId": 1121,
+        "top5": [
+          {
+            "patternId": 1121,
+            "score": 1.607798457145691,
+            "probability": 0.3817010521888733,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1118,
+            "score": 1.6002286672592163,
+            "probability": 0.3583664298057556,
+            "image_score": 0.9999936819076538,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1057,
+            "score": 1.4592092037200928,
+            "probability": 0.1106523796916008,
+            "image_score": 0.9998737573623657,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1079,
+            "score": 1.3461552858352661,
+            "probability": 0.04313254728913307,
+            "image_score": 0.999777615070343,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1076,
+            "score": 1.3326280117034912,
+            "probability": 0.03853437304496765,
+            "image_score": 0.9997661113739014,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.007569789886474609,
+        "confidence": 0.3817010521888733,
+        "unknown": false,
+        "decided_patternId": 1121,
+        "latency_ms": 27.875900035724044
+      }
+    },
+    {
+      "file": "pattern_1122_further_crop_asym_1191x1176.png",
+      "truth": 1122,
+      "status": "ok",
+      "best_patternId": 1122,
+      "unknown": false,
+      "margin": 0.008172392845153809,
+      "confidence": 0.20877932012081146,
+      "latency_ms": 28.25999993365258,
+      "top5": [
+        1122,
+        1190,
+        1119,
+        1066,
+        1185
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1122_further_crop_asym_1191x1176.png",
+        "best_patternId": 1122,
+        "top5": [
+          {
+            "patternId": 1122,
+            "score": 1.597881555557251,
+            "probability": 0.20877932012081146,
+            "image_score": 1.0,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1190,
+            "score": 1.5897091627120972,
+            "probability": 0.1950342059135437,
+            "image_score": 0.9999950528144836,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1119,
+            "score": 1.5790754556655884,
+            "probability": 0.17849497497081757,
+            "image_score": 0.9999886155128479,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1066,
+            "score": 1.5291558504104614,
+            "probability": 0.11775003373622894,
+            "image_score": 0.9999583959579468,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1185,
+            "score": 1.5269896984100342,
+            "probability": 0.11564356833696365,
+            "image_score": 0.9999570846557617,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.008172392845153809,
+        "confidence": 0.20877932012081146,
+        "unknown": false,
+        "decided_patternId": 1122,
+        "latency_ms": 28.25999993365258
+      }
+    },
+    {
+      "file": "pattern_1123_further_crop_asym_1191x1176.png",
+      "truth": 1123,
+      "status": "ok",
+      "best_patternId": 1123,
+      "unknown": false,
+      "margin": 0.14574897289276123,
+      "confidence": 0.5481141209602356,
+      "latency_ms": 27.600600034929812,
+      "top5": [
+        1123,
+        1009,
+        1069,
+        1008,
+        1187
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1123_further_crop_asym_1191x1176.png",
+        "best_patternId": 1123,
+        "top5": [
+          {
+            "patternId": 1123,
+            "score": 1.9463331699371338,
+            "probability": 0.5481141209602356,
+            "image_score": 0.9999998807907104,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1009,
+            "score": 1.8005841970443726,
+            "probability": 0.16269996762275696,
+            "image_score": 0.9998852014541626,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1069,
+            "score": 1.7472540140151978,
+            "probability": 0.10432278364896774,
+            "image_score": 0.9998432397842407,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1008,
+            "score": 1.672561526298523,
+            "probability": 0.05598323419690132,
+            "image_score": 0.9997844696044922,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1187,
+            "score": 1.6661982536315918,
+            "probability": 0.05309193953871727,
+            "image_score": 0.999779462814331,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.14574897289276123,
+        "confidence": 0.5481141209602356,
+        "unknown": false,
+        "decided_patternId": 1123,
+        "latency_ms": 27.600600034929812
+      }
+    },
+    {
+      "file": "pattern_1124_further_crop_asym_1191x1176.png",
+      "truth": 1124,
+      "status": "ok",
+      "best_patternId": 1124,
+      "unknown": false,
+      "margin": 0.012240767478942871,
+      "confidence": 0.2786148488521576,
+      "latency_ms": 26.890099979937077,
+      "top5": [
+        1124,
+        1189,
+        1015,
+        1188,
+        1067
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1124_further_crop_asym_1191x1176.png",
+        "best_patternId": 1124,
+        "top5": [
+          {
+            "patternId": 1124,
+            "score": 1.855067491531372,
+            "probability": 0.2786148488521576,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1189,
+            "score": 1.8428267240524292,
+            "probability": 0.25159594416618347,
+            "image_score": 0.9999936819076538,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1015,
+            "score": 1.8330793380737305,
+            "probability": 0.2319672405719757,
+            "image_score": 0.9999885559082031,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1188,
+            "score": 1.7850230932235718,
+            "probability": 0.15541942417621613,
+            "image_score": 0.9999632835388184,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1067,
+            "score": 1.6365469694137573,
+            "probability": 0.045097481459379196,
+            "image_score": 0.9998852014541626,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.012240767478942871,
+        "confidence": 0.2786148488521576,
+        "unknown": false,
+        "decided_patternId": 1124,
+        "latency_ms": 26.890099979937077
+      }
+    },
+    {
+      "file": "pattern_1125_further_crop_asym_1191x1176.png",
+      "truth": 1125,
+      "status": "ok",
+      "best_patternId": 1016,
+      "unknown": false,
+      "margin": 0.0,
+      "confidence": 0.14690622687339783,
+      "latency_ms": 32.08139992784709,
+      "top5": [
+        1016,
+        1125,
+        1049,
+        1133,
+        1120
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1125_further_crop_asym_1191x1176.png",
+        "best_patternId": 1016,
+        "top5": [
+          {
+            "patternId": 1016,
+            "score": 1.3848599195480347,
+            "probability": 0.14690622687339783,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1125,
+            "score": 1.3848599195480347,
+            "probability": 0.14690622687339783,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1049,
+            "score": 1.3847306966781616,
+            "probability": 0.1467481404542923,
+            "image_score": 1.0,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1133,
+            "score": 1.377821683883667,
+            "probability": 0.1385377198457718,
+            "image_score": 0.999993622303009,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1120,
+            "score": 1.345084547996521,
+            "probability": 0.10546008497476578,
+            "image_score": 0.9999634027481079,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.0,
+        "confidence": 0.14690622687339783,
+        "unknown": false,
+        "decided_patternId": 1016,
+        "latency_ms": 32.08139992784709
+      }
+    },
+    {
+      "file": "pattern_1126_further_crop_asym_1191x1176.png",
+      "truth": 1126,
+      "status": "ok",
+      "best_patternId": 1126,
+      "unknown": false,
+      "margin": 0.1281946897506714,
+      "confidence": 0.47863292694091797,
+      "latency_ms": 28.258200036361814,
+      "top5": [
+        1126,
+        1035,
+        1176,
+        1055,
+        1177
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1126_further_crop_asym_1191x1176.png",
+        "best_patternId": 1126,
+        "top5": [
+          {
+            "patternId": 1126,
+            "score": 1.7893823385238647,
+            "probability": 0.47863292694091797,
+            "image_score": 1.0,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1035,
+            "score": 1.6611876487731934,
+            "probability": 0.16445621848106384,
+            "image_score": 0.9998993873596191,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1176,
+            "score": 1.6261011362075806,
+            "probability": 0.12276318669319153,
+            "image_score": 0.9998718500137329,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1055,
+            "score": 1.6261011362075806,
+            "probability": 0.12276318669319153,
+            "image_score": 0.9998718500137329,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1177,
+            "score": 1.4994252920150757,
+            "probability": 0.04271818324923515,
+            "image_score": 0.9997724294662476,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.1281946897506714,
+        "confidence": 0.47863292694091797,
+        "unknown": false,
+        "decided_patternId": 1126,
+        "latency_ms": 28.258200036361814
+      }
+    },
+    {
+      "file": "pattern_1127_further_crop_asym_1191x1176.png",
+      "truth": 1127,
+      "status": "ok",
+      "best_patternId": 1127,
+      "unknown": false,
+      "margin": 0.2055058479309082,
+      "confidence": 0.7010009288787842,
+      "latency_ms": 28.08680001180619,
+      "top5": [
+        1127,
+        1078,
+        1066,
+        1185,
+        1077
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1127_further_crop_asym_1191x1176.png",
+        "best_patternId": 1127,
+        "top5": [
+          {
+            "patternId": 1127,
+            "score": 1.8243622779846191,
+            "probability": 0.7010009288787842,
+            "image_score": 1.000000238418579,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1078,
+            "score": 1.618856430053711,
+            "probability": 0.12646441161632538,
+            "image_score": 0.9998788833618164,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1066,
+            "score": 1.4617998600006104,
+            "probability": 0.03416341915726662,
+            "image_score": 0.9997861385345459,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1185,
+            "score": 1.4593772888183594,
+            "probability": 0.03348066285252571,
+            "image_score": 0.9997847080230713,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1077,
+            "score": 1.4508986473083496,
+            "probability": 0.03119669482111931,
+            "image_score": 0.9997797012329102,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.2055058479309082,
+        "confidence": 0.7010009288787842,
+        "unknown": false,
+        "decided_patternId": 1127,
+        "latency_ms": 28.08680001180619
+      }
+    },
+    {
+      "file": "pattern_1128_further_crop_asym_1191x1176.png",
+      "truth": 1128,
+      "status": "ok",
+      "best_patternId": 1128,
+      "unknown": false,
+      "margin": 0.12430739402770996,
+      "confidence": 0.47497427463531494,
+      "latency_ms": 28.007599990814924,
+      "top5": [
+        1128,
+        1175,
+        1056,
+        1129,
+        1194
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1128_further_crop_asym_1191x1176.png",
+        "best_patternId": 1128,
+        "top5": [
+          {
+            "patternId": 1128,
+            "score": 1.87656831741333,
+            "probability": 0.47497427463531494,
+            "image_score": 0.9999999403953552,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1175,
+            "score": 1.7522609233856201,
+            "probability": 0.16857239603996277,
+            "image_score": 0.9999006986618042,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1056,
+            "score": 1.718440294265747,
+            "probability": 0.12717026472091675,
+            "image_score": 0.999873697757721,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1129,
+            "score": 1.6148134469985962,
+            "probability": 0.053622566163539886,
+            "image_score": 0.9997909665107727,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1194,
+            "score": 1.6004042625427246,
+            "probability": 0.04755528271198273,
+            "image_score": 0.999779462814331,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.12430739402770996,
+        "confidence": 0.47497427463531494,
+        "unknown": false,
+        "decided_patternId": 1128,
+        "latency_ms": 28.007599990814924
+      }
+    },
+    {
+      "file": "pattern_1129_further_crop_asym_1191x1176.png",
+      "truth": 1129,
+      "status": "ok",
+      "best_patternId": 1129,
+      "unknown": false,
+      "margin": 0.014564037322998047,
+      "confidence": 0.27049341797828674,
+      "latency_ms": 27.751300018280745,
+      "top5": [
+        1129,
+        1194,
+        1028,
+        1056,
+        1175
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1129_further_crop_asym_1191x1176.png",
+        "best_patternId": 1129,
+        "top5": [
+          {
+            "patternId": 1129,
+            "score": 1.8130993843078613,
+            "probability": 0.27049341797828674,
+            "image_score": 1.0,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1194,
+            "score": 1.7985353469848633,
+            "probability": 0.23957829177379608,
+            "image_score": 0.9999885559082031,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1028,
+            "score": 1.7598494291305542,
+            "probability": 0.17355549335479736,
+            "image_score": 0.9999581575393677,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1056,
+            "score": 1.678684949874878,
+            "probability": 0.08824585378170013,
+            "image_score": 0.999894380569458,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1175,
+            "score": 1.6606316566467285,
+            "probability": 0.07592019438743591,
+            "image_score": 0.9998801946640015,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.014564037322998047,
+        "confidence": 0.27049341797828674,
+        "unknown": false,
+        "decided_patternId": 1129,
+        "latency_ms": 27.751300018280745
+      }
+    },
+    {
+      "file": "pattern_1130_further_crop_asym_1191x1176.png",
+      "truth": 1130,
+      "status": "ok",
+      "best_patternId": 1130,
+      "unknown": false,
+      "margin": 0.05362391471862793,
+      "confidence": 0.25113624334335327,
+      "latency_ms": 27.726899948902428,
+      "top5": [
+        1130,
+        1181,
+        1186,
+        1048,
+        1192
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1130_further_crop_asym_1191x1176.png",
+        "best_patternId": 1130,
+        "top5": [
+          {
+            "patternId": 1130,
+            "score": 1.7518402338027954,
+            "probability": 0.25113624334335327,
+            "image_score": 1.0,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1181,
+            "score": 1.6982163190841675,
+            "probability": 0.16063417494297028,
+            "image_score": 0.9999569058418274,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1186,
+            "score": 1.6345057487487793,
+            "probability": 0.09446294605731964,
+            "image_score": 0.9999057054519653,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1048,
+            "score": 1.6202653646469116,
+            "probability": 0.08389265835285187,
+            "image_score": 0.9998942613601685,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1192,
+            "score": 1.6202653646469116,
+            "probability": 0.08389265835285187,
+            "image_score": 0.9998942613601685,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.05362391471862793,
+        "confidence": 0.25113624334335327,
+        "unknown": false,
+        "decided_patternId": 1130,
+        "latency_ms": 27.726899948902428
+      }
+    },
+    {
+      "file": "pattern_1131_further_crop_asym_1191x1176.png",
+      "truth": 1131,
+      "status": "ok",
+      "best_patternId": 1131,
+      "unknown": false,
+      "margin": 0.0,
+      "confidence": 0.23922091722488403,
+      "latency_ms": 28.434100095182657,
+      "top5": [
+        1131,
+        1183,
+        1006,
+        1017,
+        1182
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1131_further_crop_asym_1191x1176.png",
+        "best_patternId": 1131,
+        "top5": [
+          {
+            "patternId": 1131,
+            "score": 1.5059953927993774,
+            "probability": 0.23922091722488403,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1183,
+            "score": 1.5059953927993774,
+            "probability": 0.23922091722488403,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1006,
+            "score": 1.4982808828353882,
+            "probability": 0.2243257611989975,
+            "image_score": 0.9999938011169434,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1017,
+            "score": 1.3846737146377563,
+            "probability": 0.0870405063033104,
+            "image_score": 0.999900758266449,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1182,
+            "score": 1.3354754447937012,
+            "probability": 0.05776528641581535,
+            "image_score": 0.9998604655265808,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.0,
+        "confidence": 0.23922091722488403,
+        "unknown": false,
+        "decided_patternId": 1131,
+        "latency_ms": 28.434100095182657
+      }
+    },
+    {
+      "file": "pattern_1132_further_crop_asym_1191x1176.png",
+      "truth": 1132,
+      "status": "ok",
+      "best_patternId": 1132,
+      "unknown": false,
+      "margin": 0.03989887237548828,
+      "confidence": 0.2027253955602646,
+      "latency_ms": 30.015899916179478,
+      "top5": [
+        1132,
+        1068,
+        1191,
+        1120,
+        1125
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1132_further_crop_asym_1191x1176.png",
+        "best_patternId": 1132,
+        "top5": [
+          {
+            "patternId": 1132,
+            "score": 1.3719016313552856,
+            "probability": 0.2027253955602646,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1068,
+            "score": 1.3320027589797974,
+            "probability": 0.14538151025772095,
+            "image_score": 0.9999631643295288,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1191,
+            "score": 1.3251813650131226,
+            "probability": 0.13734784722328186,
+            "image_score": 0.9999568462371826,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1120,
+            "score": 1.264689564704895,
+            "probability": 0.08296491950750351,
+            "image_score": 0.9999008178710938,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1125,
+            "score": 1.2249839305877686,
+            "probability": 0.059592969715595245,
+            "image_score": 0.9998640418052673,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.03989887237548828,
+        "confidence": 0.2027253955602646,
+        "unknown": false,
+        "decided_patternId": 1132,
+        "latency_ms": 30.015899916179478
+      }
+    },
+    {
+      "file": "pattern_1133_further_crop_asym_1191x1176.png",
+      "truth": 1133,
+      "status": "ok",
+      "best_patternId": 1133,
+      "unknown": false,
+      "margin": 0.007046818733215332,
+      "confidence": 0.14998359978199005,
+      "latency_ms": 28.33740005735308,
+      "top5": [
+        1133,
+        1016,
+        1125,
+        1049,
+        1120
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1133_further_crop_asym_1191x1176.png",
+        "best_patternId": 1133,
+        "top5": [
+          {
+            "patternId": 1133,
+            "score": 1.3861494064331055,
+            "probability": 0.14998359978199005,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1016,
+            "score": 1.3791025876998901,
+            "probability": 0.14142966270446777,
+            "image_score": 0.999993622303009,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1125,
+            "score": 1.3791025876998901,
+            "probability": 0.14142966270446777,
+            "image_score": 0.999993622303009,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1049,
+            "score": 1.3791025876998901,
+            "probability": 0.14142966270446777,
+            "image_score": 0.999993622303009,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1120,
+            "score": 1.339342474937439,
+            "probability": 0.10154148936271667,
+            "image_score": 0.9999569654464722,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.007046818733215332,
+        "confidence": 0.14998359978199005,
+        "unknown": false,
+        "decided_patternId": 1133,
+        "latency_ms": 28.33740005735308
+      }
+    },
+    {
+      "file": "pattern_1134_further_crop_asym_1191x1176.png",
+      "truth": 1134,
+      "status": "ok",
+      "best_patternId": 1134,
+      "unknown": false,
+      "margin": 0.1234130859375,
+      "confidence": 0.3108963668346405,
+      "latency_ms": 28.348399908281863,
+      "top5": [
+        1134,
+        1068,
+        1191,
+        1027,
+        1132
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1134_further_crop_asym_1191x1176.png",
+        "best_patternId": 1134,
+        "top5": [
+          {
+            "patternId": 1134,
+            "score": 1.4480644464492798,
+            "probability": 0.3108963668346405,
+            "image_score": 1.0,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1068,
+            "score": 1.3246513605117798,
+            "probability": 0.11116518080234528,
+            "image_score": 0.999885082244873,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1191,
+            "score": 1.3178662061691284,
+            "probability": 0.10505403578281403,
+            "image_score": 0.9998787641525269,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1027,
+            "score": 1.3007112741470337,
+            "probability": 0.0910598635673523,
+            "image_score": 0.999862790107727,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1132,
+            "score": 1.2854126691818237,
+            "probability": 0.08016034960746765,
+            "image_score": 0.9998485445976257,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.1234130859375,
+        "confidence": 0.3108963668346405,
+        "unknown": false,
+        "decided_patternId": 1134,
+        "latency_ms": 28.348399908281863
+      }
+    },
+    {
+      "file": "pattern_1175_further_crop_asym_1191x1176.png",
+      "truth": 1175,
+      "status": "ok",
+      "best_patternId": 1175,
+      "unknown": false,
+      "margin": 0.1249232292175293,
+      "confidence": 0.42142465710639954,
+      "latency_ms": 28.24199991300702,
+      "top5": [
+        1175,
+        1128,
+        1129,
+        1194,
+        1028
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1175_further_crop_asym_1191x1176.png",
+        "best_patternId": 1175,
+        "top5": [
+          {
+            "patternId": 1175,
+            "score": 1.9047423601150513,
+            "probability": 0.42142465710639954,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1128,
+            "score": 1.779819130897522,
+            "probability": 0.14880162477493286,
+            "image_score": 0.9999006986618042,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1129,
+            "score": 1.7540555000305176,
+            "probability": 0.1200510561466217,
+            "image_score": 0.9998801946640015,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1194,
+            "score": 1.7524077892303467,
+            "probability": 0.11841389536857605,
+            "image_score": 0.9998788833618164,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1028,
+            "score": 1.7140620946884155,
+            "probability": 0.08602504432201385,
+            "image_score": 0.9998483657836914,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.1249232292175293,
+        "confidence": 0.42142465710639954,
+        "unknown": false,
+        "decided_patternId": 1175,
+        "latency_ms": 28.24199991300702
+      }
+    },
+    {
+      "file": "pattern_1176_further_crop_asym_1191x1176.png",
+      "truth": 1176,
+      "status": "ok",
+      "best_patternId": 1055,
+      "unknown": false,
+      "margin": 0.0,
+      "confidence": 0.3397243320941925,
+      "latency_ms": 27.708000037819147,
+      "top5": [
+        1055,
+        1176,
+        1177,
+        1126,
+        1117
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1176_further_crop_asym_1191x1176.png",
+        "best_patternId": 1055,
+        "top5": [
+          {
+            "patternId": 1055,
+            "score": 1.7258983850479126,
+            "probability": 0.3397243320941925,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1176,
+            "score": 1.7258983850479126,
+            "probability": 0.3397243320941925,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1177,
+            "score": 1.595968246459961,
+            "probability": 0.11505189538002014,
+            "image_score": 0.9999006986618042,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1126,
+            "score": 1.5582666397094727,
+            "probability": 0.08403243124485016,
+            "image_score": 0.9998718500137329,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1117,
+            "score": 1.5481401681900024,
+            "probability": 0.07723216712474823,
+            "image_score": 0.9998641014099121,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.0,
+        "confidence": 0.3397243320941925,
+        "unknown": false,
+        "decided_patternId": 1055,
+        "latency_ms": 27.708000037819147
+      }
+    },
+    {
+      "file": "pattern_1177_further_crop_asym_1191x1176.png",
+      "truth": 1177,
+      "status": "ok",
+      "best_patternId": 1177,
+      "unknown": false,
+      "margin": 0.04781019687652588,
+      "confidence": 0.3650278151035309,
+      "latency_ms": 28.065399965271354,
+      "top5": [
+        1177,
+        1117,
+        1055,
+        1176,
+        1035
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1177_further_crop_asym_1191x1176.png",
+        "best_patternId": 1177,
+        "top5": [
+          {
+            "patternId": 1177,
+            "score": 1.698577642440796,
+            "probability": 0.3650278151035309,
+            "image_score": 1.0,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1117,
+            "score": 1.65076744556427,
+            "probability": 0.24507276713848114,
+            "image_score": 0.9999633431434631,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1055,
+            "score": 1.5690624713897705,
+            "probability": 0.12404945492744446,
+            "image_score": 0.9999006986618042,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1176,
+            "score": 1.5690624713897705,
+            "probability": 0.12404945492744446,
+            "image_score": 0.9999006986618042,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1035,
+            "score": 1.516510009765625,
+            "probability": 0.08005737513303757,
+            "image_score": 0.999860405921936,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.04781019687652588,
+        "confidence": 0.3650278151035309,
+        "unknown": false,
+        "decided_patternId": 1177,
+        "latency_ms": 28.065399965271354
+      }
+    },
+    {
+      "file": "pattern_1178_further_crop_asym_1191x1176.png",
+      "truth": 1178,
+      "status": "ok",
+      "best_patternId": 1178,
+      "unknown": false,
+      "margin": 0.14761030673980713,
+      "confidence": 0.33930733799934387,
+      "latency_ms": 28.46890001092106,
+      "top5": [
+        1178,
+        1133,
+        1016,
+        1049,
+        1125
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1178_further_crop_asym_1191x1176.png",
+        "best_patternId": 1178,
+        "top5": [
+          {
+            "patternId": 1178,
+            "score": 1.4933984279632568,
+            "probability": 0.33930733799934387,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1133,
+            "score": 1.3457881212234497,
+            "probability": 0.09916845709085464,
+            "image_score": 0.9998668432235718,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1016,
+            "score": 1.3386584520339966,
+            "probability": 0.09344808757305145,
+            "image_score": 0.999860405921936,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1049,
+            "score": 1.3386584520339966,
+            "probability": 0.09344808757305145,
+            "image_score": 0.999860405921936,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1125,
+            "score": 1.3386584520339966,
+            "probability": 0.09344808757305145,
+            "image_score": 0.999860405921936,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.14761030673980713,
+        "confidence": 0.33930733799934387,
+        "unknown": false,
+        "decided_patternId": 1178,
+        "latency_ms": 28.46890001092106
+      }
+    },
+    {
+      "file": "pattern_1179_further_crop_asym_1191x1176.png",
+      "truth": 1179,
+      "status": "ok",
+      "best_patternId": 1179,
+      "unknown": false,
+      "margin": 0.2179875373840332,
+      "confidence": 0.5638569593429565,
+      "latency_ms": 29.501099954359233,
+      "top5": [
+        1179,
+        1190,
+        1122,
+        1119,
+        1066
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1179_further_crop_asym_1191x1176.png",
+        "best_patternId": 1179,
+        "top5": [
+          {
+            "patternId": 1179,
+            "score": 1.7653529644012451,
+            "probability": 0.5638569593429565,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1190,
+            "score": 1.547365427017212,
+            "probability": 0.09167392551898956,
+            "image_score": 0.9998719096183777,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1122,
+            "score": 1.538751244544983,
+            "probability": 0.0853237584233284,
+            "image_score": 0.9998668432235718,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1119,
+            "score": 1.5365217924118042,
+            "probability": 0.08375321328639984,
+            "image_score": 0.9998655319213867,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1066,
+            "score": 1.484938383102417,
+            "probability": 0.05448974296450615,
+            "image_score": 0.999835193157196,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.2179875373840332,
+        "confidence": 0.5638569593429565,
+        "unknown": false,
+        "decided_patternId": 1179,
+        "latency_ms": 29.501099954359233
+      }
+    },
+    {
+      "file": "pattern_1180_further_crop_asym_1191x1176.png",
+      "truth": 1180,
+      "status": "ok",
+      "best_patternId": 1180,
+      "unknown": false,
+      "margin": 0.30554842948913574,
+      "confidence": 0.8305153846740723,
+      "latency_ms": 28.973800013773143,
+      "top5": [
+        1180,
+        1046,
+        1015,
+        1189,
+        1124
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1180_further_crop_asym_1191x1176.png",
+        "best_patternId": 1180,
+        "top5": [
+          {
+            "patternId": 1180,
+            "score": 1.9936059713363647,
+            "probability": 0.8305153846740723,
+            "image_score": 1.0,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1046,
+            "score": 1.688057541847229,
+            "probability": 0.06509244441986084,
+            "image_score": 0.9998350739479065,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1015,
+            "score": 1.5814965963363647,
+            "probability": 0.026783887296915054,
+            "image_score": 0.9997775554656982,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1189,
+            "score": 1.5720000267028809,
+            "probability": 0.024745969101786613,
+            "image_score": 0.9997724294662476,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1124,
+            "score": 1.560073971748352,
+            "probability": 0.02240488864481449,
+            "image_score": 0.9997659921646118,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.30554842948913574,
+        "confidence": 0.8305153846740723,
+        "unknown": false,
+        "decided_patternId": 1180,
+        "latency_ms": 28.973800013773143
+      }
+    },
+    {
+      "file": "pattern_1181_further_crop_asym_1191x1176.png",
+      "truth": 1181,
+      "status": "ok",
+      "best_patternId": 1181,
+      "unknown": false,
+      "margin": 0.05401897430419922,
+      "confidence": 0.2637341320514679,
+      "latency_ms": 29.505199985578656,
+      "top5": [
+        1181,
+        1130,
+        1075,
+        1025,
+        1193
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1181_further_crop_asym_1191x1176.png",
+        "best_patternId": 1181,
+        "top5": [
+          {
+            "patternId": 1181,
+            "score": 1.7468349933624268,
+            "probability": 0.2637341320514679,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1130,
+            "score": 1.6928160190582275,
+            "probability": 0.16813771426677704,
+            "image_score": 0.9999569654464722,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1075,
+            "score": 1.62066650390625,
+            "probability": 0.09216103702783585,
+            "image_score": 0.9998993277549744,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1025,
+            "score": 1.6144737005233765,
+            "probability": 0.08752559870481491,
+            "image_score": 0.999894380569458,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1193,
+            "score": 1.6144737005233765,
+            "probability": 0.08752559870481491,
+            "image_score": 0.999894380569458,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.05401897430419922,
+        "confidence": 0.2637341320514679,
+        "unknown": false,
+        "decided_patternId": 1181,
+        "latency_ms": 29.505199985578656
+      }
+    },
+    {
+      "file": "pattern_1182_further_crop_asym_1191x1176.png",
+      "truth": 1182,
+      "status": "ok",
+      "best_patternId": 1182,
+      "unknown": false,
+      "margin": 0.1648644208908081,
+      "confidence": 0.49257248640060425,
+      "latency_ms": 27.484600082971156,
+      "top5": [
+        1182,
+        1006,
+        1183,
+        1131,
+        1017
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1182_further_crop_asym_1191x1176.png",
+        "best_patternId": 1182,
+        "top5": [
+          {
+            "patternId": 1182,
+            "score": 1.6165255308151245,
+            "probability": 0.49257248640060425,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1006,
+            "score": 1.4516611099243164,
+            "probability": 0.12468263506889343,
+            "image_score": 0.9998668432235718,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1183,
+            "score": 1.4437717199325562,
+            "probability": 0.11674901843070984,
+            "image_score": 0.9998604655265808,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1131,
+            "score": 1.4437717199325562,
+            "probability": 0.11674901843070984,
+            "image_score": 0.9998604655265808,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1017,
+            "score": 1.3334689140319824,
+            "probability": 0.04656438156962395,
+            "image_score": 0.9997712969779968,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.1648644208908081,
+        "confidence": 0.49257248640060425,
+        "unknown": false,
+        "decided_patternId": 1182,
+        "latency_ms": 27.484600082971156
+      }
+    },
+    {
+      "file": "pattern_1183_further_crop_asym_1191x1176.png",
+      "truth": 1183,
+      "status": "ok",
+      "best_patternId": 1131,
+      "unknown": false,
+      "margin": 0.0,
+      "confidence": 0.23922091722488403,
+      "latency_ms": 29.16839998215437,
+      "top5": [
+        1131,
+        1183,
+        1006,
+        1017,
+        1182
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1183_further_crop_asym_1191x1176.png",
+        "best_patternId": 1131,
+        "top5": [
+          {
+            "patternId": 1131,
+            "score": 1.5059953927993774,
+            "probability": 0.23922091722488403,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1183,
+            "score": 1.5059953927993774,
+            "probability": 0.23922091722488403,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1006,
+            "score": 1.4982808828353882,
+            "probability": 0.2243257611989975,
+            "image_score": 0.9999938011169434,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1017,
+            "score": 1.3846737146377563,
+            "probability": 0.0870405063033104,
+            "image_score": 0.999900758266449,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1182,
+            "score": 1.3354754447937012,
+            "probability": 0.05776528641581535,
+            "image_score": 0.9998604655265808,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.0,
+        "confidence": 0.23922091722488403,
+        "unknown": false,
+        "decided_patternId": 1131,
+        "latency_ms": 29.16839998215437
+      }
+    },
+    {
+      "file": "pattern_1184_further_crop_asym_1191x1176.png",
+      "truth": 1184,
+      "status": "ok",
+      "best_patternId": 1184,
+      "unknown": false,
+      "margin": 0.046599507331848145,
+      "confidence": 0.3321690261363983,
+      "latency_ms": 28.386999969370663,
+      "top5": [
+        1184,
+        1187,
+        1008,
+        1069,
+        1009
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1184_further_crop_asym_1191x1176.png",
+        "best_patternId": 1184,
+        "top5": [
+          {
+            "patternId": 1184,
+            "score": 1.8763736486434937,
+            "probability": 0.3321690261363983,
+            "image_score": 1.0,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1187,
+            "score": 1.8297741413116455,
+            "probability": 0.22527354955673218,
+            "image_score": 0.9999634027481079,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1008,
+            "score": 1.8232470750808716,
+            "probability": 0.21334758400917053,
+            "image_score": 0.9999582767486572,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1069,
+            "score": 1.7482630014419556,
+            "probability": 0.11421196907758713,
+            "image_score": 0.9998993873596191,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1009,
+            "score": 1.6950607299804688,
+            "probability": 0.0733104720711708,
+            "image_score": 0.9998576045036316,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.046599507331848145,
+        "confidence": 0.3321690261363983,
+        "unknown": false,
+        "decided_patternId": 1184,
+        "latency_ms": 28.386999969370663
+      }
+    },
+    {
+      "file": "pattern_1185_further_crop_asym_1191x1176.png",
+      "truth": 1185,
+      "status": "ok",
+      "best_patternId": 1185,
+      "unknown": false,
+      "margin": 0.008388757705688477,
+      "confidence": 0.20524592697620392,
+      "latency_ms": 28.075300040654838,
+      "top5": [
+        1185,
+        1077,
+        1066,
+        1119,
+        1122
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1185_further_crop_asym_1191x1176.png",
+        "best_patternId": 1185,
+        "top5": [
+          {
+            "patternId": 1185,
+            "score": 1.602984070777893,
+            "probability": 0.20524592697620392,
+            "image_score": 1.000000238418579,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1077,
+            "score": 1.5945953130722046,
+            "probability": 0.19138798117637634,
+            "image_score": 0.9999951124191284,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1066,
+            "score": 1.5841583013534546,
+            "probability": 0.1754453480243683,
+            "image_score": 0.9999887347221375,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1119,
+            "score": 1.5345091819763184,
+            "probability": 0.11599935591220856,
+            "image_score": 0.9999583959579468,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1122,
+            "score": 1.5323632955551147,
+            "probability": 0.1139434427022934,
+            "image_score": 0.9999570846557617,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.008388757705688477,
+        "confidence": 0.20524592697620392,
+        "unknown": false,
+        "decided_patternId": 1185,
+        "latency_ms": 28.075300040654838
+      }
+    },
+    {
+      "file": "pattern_1186_further_crop_asym_1191x1176.png",
+      "truth": 1186,
+      "status": "ok",
+      "best_patternId": 1186,
+      "unknown": false,
+      "margin": 0.01411449909210205,
+      "confidence": 0.1773294061422348,
+      "latency_ms": 27.4156000232324,
+      "top5": [
+        1186,
+        1048,
+        1192,
+        1075,
+        1025
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1186_further_crop_asym_1191x1176.png",
+        "best_patternId": 1186,
+        "top5": [
+          {
+            "patternId": 1186,
+            "score": 1.717392086982727,
+            "probability": 0.1773294061422348,
+            "image_score": 1.0,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1048,
+            "score": 1.703277587890625,
+            "probability": 0.15765176713466644,
+            "image_score": 0.9999885559082031,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1192,
+            "score": 1.703277587890625,
+            "probability": 0.15765176713466644,
+            "image_score": 0.9999885559082031,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1075,
+            "score": 1.6721084117889404,
+            "probability": 0.12158891558647156,
+            "image_score": 0.9999632835388184,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1025,
+            "score": 1.66593337059021,
+            "probability": 0.11549030244350433,
+            "image_score": 0.9999582767486572,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.01411449909210205,
+        "confidence": 0.1773294061422348,
+        "unknown": false,
+        "decided_patternId": 1186,
+        "latency_ms": 27.4156000232324
+      }
+    },
+    {
+      "file": "pattern_1187_further_crop_asym_1191x1176.png",
+      "truth": 1187,
+      "status": "ok",
+      "best_patternId": 1187,
+      "unknown": false,
+      "margin": 0.006577014923095703,
+      "confidence": 0.297934889793396,
+      "latency_ms": 28.532600030303,
+      "top5": [
+        1187,
+        1008,
+        1184,
+        1009,
+        1069
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1187_further_crop_asym_1191x1176.png",
+        "best_patternId": 1187,
+        "top5": [
+          {
+            "patternId": 1187,
+            "score": 1.874265432357788,
+            "probability": 0.297934889793396,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1008,
+            "score": 1.8676884174346924,
+            "probability": 0.282044917345047,
+            "image_score": 0.9999949932098389,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1184,
+            "score": 1.8271549940109253,
+            "probability": 0.2011975795030594,
+            "image_score": 0.9999634027481079,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1009,
+            "score": 1.738593339920044,
+            "probability": 0.09618505090475082,
+            "image_score": 0.999894380569458,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1069,
+            "score": 1.6980599164962769,
+            "probability": 0.06861389428377151,
+            "image_score": 0.999862790107727,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.006577014923095703,
+        "confidence": 0.297934889793396,
+        "unknown": false,
+        "decided_patternId": 1187,
+        "latency_ms": 28.532600030303
+      }
+    },
+    {
+      "file": "pattern_1188_further_crop_asym_1191x1176.png",
+      "truth": 1188,
+      "status": "ok",
+      "best_patternId": 1188,
+      "unknown": false,
+      "margin": 0.06969344615936279,
+      "confidence": 0.3534722328186035,
+      "latency_ms": 27.61290001217276,
+      "top5": [
+        1188,
+        1124,
+        1189,
+        1015,
+        1046
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1188_further_crop_asym_1191x1176.png",
+        "best_patternId": 1188,
+        "top5": [
+          {
+            "patternId": 1188,
+            "score": 1.8738672733306885,
+            "probability": 0.3534722328186035,
+            "image_score": 1.0,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1124,
+            "score": 1.8041738271713257,
+            "probability": 0.1977546066045761,
+            "image_score": 0.9999633431434631,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1189,
+            "score": 1.7920483350753784,
+            "probability": 0.17874875664710999,
+            "image_score": 0.9999569654464722,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1015,
+            "score": 1.7823026180267334,
+            "probability": 0.1648055613040924,
+            "image_score": 0.9999518394470215,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1046,
+            "score": 1.6728328466415405,
+            "probability": 0.06618928909301758,
+            "image_score": 0.9998942613601685,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.06969344615936279,
+        "confidence": 0.3534722328186035,
+        "unknown": false,
+        "decided_patternId": 1188,
+        "latency_ms": 27.61290001217276
+      }
+    },
+    {
+      "file": "pattern_1189_further_crop_asym_1191x1176.png",
+      "truth": 1189,
+      "status": "ok",
+      "best_patternId": 1189,
+      "unknown": false,
+      "margin": 0.009749889373779297,
+      "confidence": 0.27605971693992615,
+      "latency_ms": 27.262300020083785,
+      "top5": [
+        1189,
+        1015,
+        1124,
+        1188,
+        1067
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1189_further_crop_asym_1191x1176.png",
+        "best_patternId": 1189,
+        "top5": [
+          {
+            "patternId": 1189,
+            "score": 1.8554803133010864,
+            "probability": 0.27605971693992615,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1015,
+            "score": 1.8457304239273071,
+            "probability": 0.2545170783996582,
+            "image_score": 0.9999949932098389,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1124,
+            "score": 1.8432363271713257,
+            "probability": 0.24928170442581177,
+            "image_score": 0.9999936819076538,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1188,
+            "score": 1.7731727361679077,
+            "probability": 0.13903425633907318,
+            "image_score": 0.9999568462371826,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1067,
+            "score": 1.624882698059082,
+            "probability": 0.040405672043561935,
+            "image_score": 0.9998788833618164,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.009749889373779297,
+        "confidence": 0.27605971693992615,
+        "unknown": false,
+        "decided_patternId": 1189,
+        "latency_ms": 27.262300020083785
+      }
+    },
+    {
+      "file": "pattern_1190_further_crop_asym_1191x1176.png",
+      "truth": 1190,
+      "status": "ok",
+      "best_patternId": 1190,
+      "unknown": false,
+      "margin": 0.008171439170837402,
+      "confidence": 0.20449790358543396,
+      "latency_ms": 28.8911999668926,
+      "top5": [
+        1190,
+        1122,
+        1119,
+        1066,
+        1077
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1190_further_crop_asym_1191x1176.png",
+        "best_patternId": 1190,
+        "top5": [
+          {
+            "patternId": 1190,
+            "score": 1.5977710485458374,
+            "probability": 0.20449790358543396,
+            "image_score": 1.0,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1122,
+            "score": 1.589599609375,
+            "probability": 0.1910361349582672,
+            "image_score": 0.9999950528144836,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1119,
+            "score": 1.5874336957931519,
+            "probability": 0.18761900067329407,
+            "image_score": 0.9999937415122986,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1066,
+            "score": 1.5373214483261108,
+            "probability": 0.12357037514448166,
+            "image_score": 0.9999634027481079,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1077,
+            "score": 1.5266886949539185,
+            "probability": 0.11309235543012619,
+            "image_score": 0.9999569654464722,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.008171439170837402,
+        "confidence": 0.20449790358543396,
+        "unknown": false,
+        "decided_patternId": 1190,
+        "latency_ms": 28.8911999668926
+      }
+    },
+    {
+      "file": "pattern_1191_further_crop_asym_1191x1176.png",
+      "truth": 1191,
+      "status": "ok",
+      "best_patternId": 1191,
+      "unknown": false,
+      "margin": 0.006918907165527344,
+      "confidence": 0.17452257871627808,
+      "latency_ms": 28.463399969041348,
+      "top5": [
+        1191,
+        1068,
+        1132,
+        1133,
+        1125
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1191_further_crop_asym_1191x1176.png",
+        "best_patternId": 1191,
+        "top5": [
+          {
+            "patternId": 1191,
+            "score": 1.3563307523727417,
+            "probability": 0.17452257871627808,
+            "image_score": 1.0,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1068,
+            "score": 1.3494118452072144,
+            "probability": 0.16474469006061554,
+            "image_score": 0.9999935626983643,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1132,
+            "score": 1.3100769519805908,
+            "probability": 0.11870075762271881,
+            "image_score": 0.9999569654464722,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1133,
+            "score": 1.2496652603149414,
+            "probability": 0.07174909859895706,
+            "image_score": 0.999900758266449,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1125,
+            "score": 1.242746353149414,
+            "probability": 0.06772924959659576,
+            "image_score": 0.9998943209648132,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.006918907165527344,
+        "confidence": 0.17452257871627808,
+        "unknown": false,
+        "decided_patternId": 1191,
+        "latency_ms": 28.463399969041348
+      }
+    },
+    {
+      "file": "pattern_1192_further_crop_asym_1191x1176.png",
+      "truth": 1192,
+      "status": "ok",
+      "best_patternId": 1048,
+      "unknown": false,
+      "margin": 0.0,
+      "confidence": 0.17755356431007385,
+      "latency_ms": 28.529000002890825,
+      "top5": [
+        1048,
+        1192,
+        1186,
+        1025,
+        1193
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1192_further_crop_asym_1191x1176.png",
+        "best_patternId": 1048,
+        "top5": [
+          {
+            "patternId": 1048,
+            "score": 1.718220829963684,
+            "probability": 0.17755356431007385,
+            "image_score": 1.0,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1192,
+            "score": 1.718220829963684,
+            "probability": 0.17755356431007385,
+            "image_score": 1.0,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1186,
+            "score": 1.7040969133377075,
+            "probability": 0.15783855319023132,
+            "image_score": 0.9999885559082031,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1025,
+            "score": 1.6651090383529663,
+            "probability": 0.11405421793460846,
+            "image_score": 0.9999569654464722,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1193,
+            "score": 1.6651090383529663,
+            "probability": 0.11405421793460846,
+            "image_score": 0.9999569654464722,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.0,
+        "confidence": 0.17755356431007385,
+        "unknown": false,
+        "decided_patternId": 1048,
+        "latency_ms": 28.529000002890825
+      }
+    },
+    {
+      "file": "pattern_1193_further_crop_asym_1191x1176.png",
+      "truth": 1193,
+      "status": "ok",
+      "best_patternId": 1025,
+      "unknown": false,
+      "margin": 0.0,
+      "confidence": 0.17665252089500427,
+      "latency_ms": 32.22010005265474,
+      "top5": [
+        1025,
+        1193,
+        1075,
+        1186,
+        1048
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1193_further_crop_asym_1191x1176.png",
+        "best_patternId": 1025,
+        "top5": [
+          {
+            "patternId": 1025,
+            "score": 1.7097671031951904,
+            "probability": 0.17665252089500427,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1193,
+            "score": 1.7097671031951904,
+            "probability": 0.17665252089500427,
+            "image_score": 1.0000001192092896,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1075,
+            "score": 1.7031259536743164,
+            "probability": 0.16714170575141907,
+            "image_score": 0.9999947547912598,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1186,
+            "score": 1.657819151878357,
+            "probability": 0.11458137631416321,
+            "image_score": 0.9999581575393677,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1048,
+            "score": 1.6561957597732544,
+            "probability": 0.11304175853729248,
+            "image_score": 0.9999568462371826,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.0,
+        "confidence": 0.17665252089500427,
+        "unknown": false,
+        "decided_patternId": 1025,
+        "latency_ms": 32.22010005265474
+      }
+    },
+    {
+      "file": "pattern_1194_further_crop_asym_1191x1176.png",
+      "truth": 1194,
+      "status": "ok",
+      "best_patternId": 1194,
+      "unknown": false,
+      "margin": 0.014577627182006836,
+      "confidence": 0.2704271376132965,
+      "latency_ms": 29.208699939772487,
+      "top5": [
+        1194,
+        1129,
+        1028,
+        1056,
+        1175
+      ],
+      "raw": {
+        "input": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180\\further_crop_asymmetric\\pattern_1194_further_crop_asym_1191x1176.png",
+        "best_patternId": 1194,
+        "top5": [
+          {
+            "patternId": 1194,
+            "score": 1.8143351078033447,
+            "probability": 0.2704271376132965,
+            "image_score": 1.0,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1129,
+            "score": 1.799757480621338,
+            "probability": 0.23949265480041504,
+            "image_score": 0.9999885559082031,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1028,
+            "score": 1.7593649625778198,
+            "probability": 0.17104361951351166,
+            "image_score": 0.9999568462371826,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1056,
+            "score": 1.6943726539611816,
+            "probability": 0.09951570630073547,
+            "image_score": 0.9999058246612549,
+            "slot_score": 1.0
+          },
+          {
+            "patternId": 1175,
+            "score": 1.6599024534225464,
+            "probability": 0.07466892898082733,
+            "image_score": 0.9998787641525269,
+            "slot_score": 1.0
+          }
+        ],
+        "margin": 0.014577627182006836,
+        "confidence": 0.2704271376132965,
+        "unknown": false,
+        "decided_patternId": 1194,
+        "latency_ms": 29.208699939772487
+      }
+    }
+  ]
+}

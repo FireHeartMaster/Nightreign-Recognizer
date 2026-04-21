@@ -1,0 +1,43 @@
+[
+  {
+    "label": "Rotted Woods",
+    "confidence": 0.2392367571592331,
+    "margin_top1_top2": 0.05465468764305115,
+    "topk": [
+      {
+        "label": "Rotted Woods",
+        "probability": 0.2392367571592331,
+        "score": 0.2392367571592331
+      },
+      {
+        "label": "Noklateo",
+        "probability": 0.18458206951618195,
+        "score": 0.18458206951618195
+      },
+      {
+        "label": "The Crater",
+        "probability": 0.17601224780082703,
+        "score": 0.17601224780082703
+      },
+      {
+        "label": "Limveld",
+        "probability": 0.17532402276992798,
+        "score": 0.17532402276992798
+      },
+      {
+        "label": "Mountaintop",
+        "probability": 0.15644587576389313,
+        "score": 0.15644587576389313
+      },
+      {
+        "label": "Great Hollow",
+        "probability": 0.0683990865945816,
+        "score": 0.0683990865945816
+      }
+    ],
+    "unknown": false,
+    "decided_label": "Rotted Woods",
+    "file": "Train_Earth_Selector_v2\\tmp_monitor1_v2_infer_test\\run_20260417_184138\\monitor1_further_crop_1024.png",
+    "latency_ms": 31.67209995444864
+  }
+]

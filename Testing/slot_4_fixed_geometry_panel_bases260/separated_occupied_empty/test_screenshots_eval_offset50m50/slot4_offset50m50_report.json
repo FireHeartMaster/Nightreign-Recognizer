@@ -1,0 +1,159 @@
+{
+  "dx": 50,
+  "dy": -50,
+  "results": [
+    {
+      "image": "Screenshot (150).png",
+      "predicted_label": "occupied",
+      "confidence": 0.6964438557624817,
+      "ranking": [
+        {
+          "label": "occupied",
+          "probability": 0.6964438557624817
+        },
+        {
+          "label": "empty",
+          "probability": 0.3035561442375183
+        }
+      ],
+      "dx": 50,
+      "dy": -50
+    },
+    {
+      "image": "Screenshot (151).png",
+      "predicted_label": "empty",
+      "confidence": 0.999517560005188,
+      "ranking": [
+        {
+          "label": "empty",
+          "probability": 0.999517560005188
+        },
+        {
+          "label": "occupied",
+          "probability": 0.00048246674123220146
+        }
+      ],
+      "dx": 50,
+      "dy": -50
+    },
+    {
+      "image": "Screenshot (152).png",
+      "predicted_label": "occupied",
+      "confidence": 0.6964473724365234,
+      "ranking": [
+        {
+          "label": "occupied",
+          "probability": 0.6964473724365234
+        },
+        {
+          "label": "empty",
+          "probability": 0.30355262756347656
+        }
+      ],
+      "dx": 50,
+      "dy": -50
+    },
+    {
+      "image": "Screenshot (153).png",
+      "predicted_label": "occupied",
+      "confidence": 0.5083094239234924,
+      "ranking": [
+        {
+          "label": "occupied",
+          "probability": 0.5083094239234924
+        },
+        {
+          "label": "empty",
+          "probability": 0.4916905164718628
+        }
+      ],
+      "dx": 50,
+      "dy": -50
+    },
+    {
+      "image": "Screenshot (154).png",
+      "predicted_label": "occupied",
+      "confidence": 0.6964753866195679,
+      "ranking": [
+        {
+          "label": "occupied",
+          "probability": 0.6964753866195679
+        },
+        {
+          "label": "empty",
+          "probability": 0.30352461338043213
+        }
+      ],
+      "dx": 50,
+      "dy": -50
+    },
+    {
+      "image": "Screenshot (155).png",
+      "predicted_label": "empty",
+      "confidence": 0.9997718930244446,
+      "ranking": [
+        {
+          "label": "empty",
+          "probability": 0.9997718930244446
+        },
+        {
+          "label": "occupied",
+          "probability": 0.0002281483612023294
+        }
+      ],
+      "dx": 50,
+      "dy": -50
+    },
+    {
+      "image": "Screenshot (156).png",
+      "predicted_label": "occupied",
+      "confidence": 0.5083203911781311,
+      "ranking": [
+        {
+          "label": "occupied",
+          "probability": 0.5083203911781311
+        },
+        {
+          "label": "empty",
+          "probability": 0.4916795790195465
+        }
+      ],
+      "dx": 50,
+      "dy": -50
+    },
+    {
+      "image": "Screenshot (157).png",
+      "predicted_label": "occupied",
+      "confidence": 0.696452796459198,
+      "ranking": [
+        {
+          "label": "occupied",
+          "probability": 0.696452796459198
+        },
+        {
+          "label": "empty",
+          "probability": 0.3035471737384796
+        }
+      ],
+      "dx": 50,
+      "dy": -50
+    },
+    {
+      "image": "Screenshot (158).png",
+      "predicted_label": "occupied",
+      "confidence": 0.508293867111206,
+      "ranking": [
+        {
+          "label": "occupied",
+          "probability": 0.508293867111206
+        },
+        {
+          "label": "empty",
+          "probability": 0.49170613288879395
+        }
+      ],
+      "dx": 50,
+      "dy": -50
+    }
+  ]
+}

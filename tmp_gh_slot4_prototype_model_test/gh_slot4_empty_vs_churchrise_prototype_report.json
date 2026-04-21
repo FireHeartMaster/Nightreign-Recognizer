@@ -1,0 +1,899 @@
+{
+  "counts": {
+    "all": 80,
+    "train": 56,
+    "val": 12,
+    "test": 12,
+    "labels_all": {
+      "0": 22,
+      "1": 58
+    }
+  },
+  "slot_id": 4,
+  "config": {
+    "package": "nightreign_geom_proto_v4_slots.npz",
+    "images_dir": "renders\\recognizer_no_text",
+    "patch_size": 96,
+    "context_scale": 1.2,
+    "min_half_frac": 0.075,
+    "train_ratio": 0.7,
+    "val_ratio": 0.15,
+    "seed": 12345,
+    "temperature": 0.01
+  },
+  "train_metrics": {
+    "count": 56,
+    "accuracy": 1.0,
+    "empty_recall": 1.0,
+    "empty_precision": 1.0,
+    "church_like_recall": 1.0,
+    "confusion_true_empty_pos_pred_empty_pos": [
+      [
+        14,
+        0
+      ],
+      [
+        0,
+        42
+      ]
+    ],
+    "mean_p_empty_when_true_empty": 0.9999999999989999,
+    "mean_p_empty_when_true_church_like": 0.0,
+    "empty_confidence_separation": 0.9999999999989999,
+    "rows": [
+      {
+        "layout_number": 1005,
+        "slot_id": 4,
+        "gt_label": "empty",
+        "y_true": 0,
+        "y_pred": 0,
+        "p_empty": 0.9999999999989999,
+        "d_empty": 0.0,
+        "d_pos": 194.44424438476562
+      },
+      {
+        "layout_number": 1007,
+        "slot_id": 4,
+        "gt_label": "empty",
+        "y_true": 0,
+        "y_pred": 0,
+        "p_empty": 0.9999999999989999,
+        "d_empty": 0.0,
+        "d_pos": 194.44424438476562
+      },
+      {
+        "layout_number": 1008,
+        "slot_id": 4,
+        "gt_label": "Church",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 410.0670471191406,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1009,
+        "slot_id": 4,
+        "gt_label": "Church",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 410.0670471191406,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1015,
+        "slot_id": 4,
+        "gt_label": "Church",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 410.0670471191406,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1016,
+        "slot_id": 4,
+        "gt_label": "empty",
+        "y_true": 0,
+        "y_pred": 0,
+        "p_empty": 0.9999999999989999,
+        "d_empty": 0.0,
+        "d_pos": 194.44424438476562
+      },
+      {
+        "layout_number": 1017,
+        "slot_id": 4,
+        "gt_label": "empty",
+        "y_true": 0,
+        "y_pred": 0,
+        "p_empty": 0.9999999999989999,
+        "d_empty": 0.0,
+        "d_pos": 194.44424438476562
+      },
+      {
+        "layout_number": 1018,
+        "slot_id": 4,
+        "gt_label": "Church",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 410.0670471191406,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1027,
+        "slot_id": 4,
+        "gt_label": "empty",
+        "y_true": 0,
+        "y_pred": 0,
+        "p_empty": 0.9999999999989999,
+        "d_empty": 0.0,
+        "d_pos": 194.44424438476562
+      },
+      {
+        "layout_number": 1028,
+        "slot_id": 4,
+        "gt_label": "Church",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 410.0670471191406,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1029,
+        "slot_id": 4,
+        "gt_label": "Sorcerer's Rise",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 177.84837341308594,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1036,
+        "slot_id": 4,
+        "gt_label": "Sorcerer's Rise",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 177.84837341308594,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1037,
+        "slot_id": 4,
+        "gt_label": "Sorcerer's Rise",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 177.84837341308594,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1038,
+        "slot_id": 4,
+        "gt_label": "empty",
+        "y_true": 0,
+        "y_pred": 0,
+        "p_empty": 0.9999999999989999,
+        "d_empty": 0.0,
+        "d_pos": 194.44424438476562
+      },
+      {
+        "layout_number": 1039,
+        "slot_id": 4,
+        "gt_label": "empty",
+        "y_true": 0,
+        "y_pred": 0,
+        "p_empty": 0.9999999999989999,
+        "d_empty": 0.0,
+        "d_pos": 194.44424438476562
+      },
+      {
+        "layout_number": 1046,
+        "slot_id": 4,
+        "gt_label": "Church",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 410.0670471191406,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1055,
+        "slot_id": 4,
+        "gt_label": "Sorcerer's Rise",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 177.84837341308594,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1057,
+        "slot_id": 4,
+        "gt_label": "Church",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 410.0670471191406,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1058,
+        "slot_id": 4,
+        "gt_label": "Sorcerer's Rise",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 177.84837341308594,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1059,
+        "slot_id": 4,
+        "gt_label": "Church",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 410.0670471191406,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1065,
+        "slot_id": 4,
+        "gt_label": "Church",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 410.0670471191406,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1066,
+        "slot_id": 4,
+        "gt_label": "Sorcerer's Rise",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 177.84837341308594,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1075,
+        "slot_id": 4,
+        "gt_label": "Sorcerer's Rise",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 177.84837341308594,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1076,
+        "slot_id": 4,
+        "gt_label": "Church",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 410.0670471191406,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1079,
+        "slot_id": 4,
+        "gt_label": "Church",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 410.0670471191406,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1115,
+        "slot_id": 4,
+        "gt_label": "Sorcerer's Rise",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 177.84837341308594,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1116,
+        "slot_id": 4,
+        "gt_label": "Sorcerer's Rise",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 177.84837341308594,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1117,
+        "slot_id": 4,
+        "gt_label": "Sorcerer's Rise",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 177.84837341308594,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1118,
+        "slot_id": 4,
+        "gt_label": "Church",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 410.0670471191406,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1119,
+        "slot_id": 4,
+        "gt_label": "Sorcerer's Rise",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 177.84837341308594,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1121,
+        "slot_id": 4,
+        "gt_label": "Church",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 410.0670471191406,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1123,
+        "slot_id": 4,
+        "gt_label": "Church",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 410.0670471191406,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1124,
+        "slot_id": 4,
+        "gt_label": "Church",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 410.0670471191406,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1125,
+        "slot_id": 4,
+        "gt_label": "empty",
+        "y_true": 0,
+        "y_pred": 0,
+        "p_empty": 0.9999999999989999,
+        "d_empty": 0.0,
+        "d_pos": 194.44424438476562
+      },
+      {
+        "layout_number": 1126,
+        "slot_id": 4,
+        "gt_label": "Sorcerer's Rise",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 177.84837341308594,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1127,
+        "slot_id": 4,
+        "gt_label": "Sorcerer's Rise",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 177.84837341308594,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1129,
+        "slot_id": 4,
+        "gt_label": "Church",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 410.0670471191406,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1131,
+        "slot_id": 4,
+        "gt_label": "empty",
+        "y_true": 0,
+        "y_pred": 0,
+        "p_empty": 0.9999999999989999,
+        "d_empty": 0.0,
+        "d_pos": 194.44424438476562
+      },
+      {
+        "layout_number": 1132,
+        "slot_id": 4,
+        "gt_label": "empty",
+        "y_true": 0,
+        "y_pred": 0,
+        "p_empty": 0.9999999999989999,
+        "d_empty": 0.0,
+        "d_pos": 194.44424438476562
+      },
+      {
+        "layout_number": 1133,
+        "slot_id": 4,
+        "gt_label": "empty",
+        "y_true": 0,
+        "y_pred": 0,
+        "p_empty": 0.9999999999989999,
+        "d_empty": 0.0,
+        "d_pos": 194.44424438476562
+      },
+      {
+        "layout_number": 1134,
+        "slot_id": 4,
+        "gt_label": "empty",
+        "y_true": 0,
+        "y_pred": 0,
+        "p_empty": 0.9999999999989999,
+        "d_empty": 0.0,
+        "d_pos": 194.44424438476562
+      },
+      {
+        "layout_number": 1175,
+        "slot_id": 4,
+        "gt_label": "Church",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 410.0670471191406,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1176,
+        "slot_id": 4,
+        "gt_label": "Sorcerer's Rise",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 177.84837341308594,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1177,
+        "slot_id": 4,
+        "gt_label": "Sorcerer's Rise",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 177.84837341308594,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1178,
+        "slot_id": 4,
+        "gt_label": "empty",
+        "y_true": 0,
+        "y_pred": 0,
+        "p_empty": 0.9999999999989999,
+        "d_empty": 0.0,
+        "d_pos": 194.44424438476562
+      },
+      {
+        "layout_number": 1179,
+        "slot_id": 4,
+        "gt_label": "Sorcerer's Rise",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 177.84837341308594,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1180,
+        "slot_id": 4,
+        "gt_label": "Church",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 410.0670471191406,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1181,
+        "slot_id": 4,
+        "gt_label": "Sorcerer's Rise",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 177.84837341308594,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1183,
+        "slot_id": 4,
+        "gt_label": "empty",
+        "y_true": 0,
+        "y_pred": 0,
+        "p_empty": 0.9999999999989999,
+        "d_empty": 0.0,
+        "d_pos": 194.44424438476562
+      },
+      {
+        "layout_number": 1184,
+        "slot_id": 4,
+        "gt_label": "Church",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 410.0670471191406,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1186,
+        "slot_id": 4,
+        "gt_label": "Sorcerer's Rise",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 177.84837341308594,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1189,
+        "slot_id": 4,
+        "gt_label": "Church",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 410.0670471191406,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1190,
+        "slot_id": 4,
+        "gt_label": "Sorcerer's Rise",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 177.84837341308594,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1192,
+        "slot_id": 4,
+        "gt_label": "Sorcerer's Rise",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 177.84837341308594,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1193,
+        "slot_id": 4,
+        "gt_label": "Sorcerer's Rise",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 177.84837341308594,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1194,
+        "slot_id": 4,
+        "gt_label": "Church",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 410.0670471191406,
+        "d_pos": 99.51347351074219
+      }
+    ]
+  },
+  "val_metrics": {
+    "count": 12,
+    "accuracy": 1.0,
+    "empty_recall": 1.0,
+    "empty_precision": 1.0,
+    "church_like_recall": 1.0,
+    "confusion_true_empty_pos_pred_empty_pos": [
+      [
+        4,
+        0
+      ],
+      [
+        0,
+        8
+      ]
+    ],
+    "mean_p_empty_when_true_empty": 0.9999999999989999,
+    "mean_p_empty_when_true_church_like": 0.0,
+    "empty_confidence_separation": 0.9999999999989999,
+    "rows": [
+      {
+        "layout_number": 1019,
+        "slot_id": 4,
+        "gt_label": "Church",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 410.0670471191406,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1025,
+        "slot_id": 4,
+        "gt_label": "Sorcerer's Rise",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 177.84837341308594,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1026,
+        "slot_id": 4,
+        "gt_label": "empty",
+        "y_true": 0,
+        "y_pred": 0,
+        "p_empty": 0.9999999999989999,
+        "d_empty": 0.0,
+        "d_pos": 194.44424438476562
+      },
+      {
+        "layout_number": 1047,
+        "slot_id": 4,
+        "gt_label": "Church",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 410.0670471191406,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1048,
+        "slot_id": 4,
+        "gt_label": "Sorcerer's Rise",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 177.84837341308594,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1056,
+        "slot_id": 4,
+        "gt_label": "Church",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 410.0670471191406,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1067,
+        "slot_id": 4,
+        "gt_label": "Church",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 410.0670471191406,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1068,
+        "slot_id": 4,
+        "gt_label": "empty",
+        "y_true": 0,
+        "y_pred": 0,
+        "p_empty": 0.9999999999989999,
+        "d_empty": 0.0,
+        "d_pos": 194.44424438476562
+      },
+      {
+        "layout_number": 1077,
+        "slot_id": 4,
+        "gt_label": "Sorcerer's Rise",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 177.84837341308594,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1120,
+        "slot_id": 4,
+        "gt_label": "empty",
+        "y_true": 0,
+        "y_pred": 0,
+        "p_empty": 0.9999999999989999,
+        "d_empty": 0.0,
+        "d_pos": 194.44424438476562
+      },
+      {
+        "layout_number": 1182,
+        "slot_id": 4,
+        "gt_label": "empty",
+        "y_true": 0,
+        "y_pred": 0,
+        "p_empty": 0.9999999999989999,
+        "d_empty": 0.0,
+        "d_pos": 194.44424438476562
+      },
+      {
+        "layout_number": 1185,
+        "slot_id": 4,
+        "gt_label": "Sorcerer's Rise",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 177.84837341308594,
+        "d_pos": 99.51347351074219
+      }
+    ]
+  },
+  "test_metrics": {
+    "count": 12,
+    "accuracy": 1.0,
+    "empty_recall": 1.0,
+    "empty_precision": 1.0,
+    "church_like_recall": 1.0,
+    "confusion_true_empty_pos_pred_empty_pos": [
+      [
+        4,
+        0
+      ],
+      [
+        0,
+        8
+      ]
+    ],
+    "mean_p_empty_when_true_empty": 0.9999999999989999,
+    "mean_p_empty_when_true_church_like": 0.0,
+    "empty_confidence_separation": 0.9999999999989999,
+    "rows": [
+      {
+        "layout_number": 1006,
+        "slot_id": 4,
+        "gt_label": "empty",
+        "y_true": 0,
+        "y_pred": 0,
+        "p_empty": 0.9999999999989999,
+        "d_empty": 0.0,
+        "d_pos": 194.44424438476562
+      },
+      {
+        "layout_number": 1035,
+        "slot_id": 4,
+        "gt_label": "Sorcerer's Rise",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 177.84837341308594,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1045,
+        "slot_id": 4,
+        "gt_label": "empty",
+        "y_true": 0,
+        "y_pred": 0,
+        "p_empty": 0.9999999999989999,
+        "d_empty": 0.0,
+        "d_pos": 194.44424438476562
+      },
+      {
+        "layout_number": 1049,
+        "slot_id": 4,
+        "gt_label": "empty",
+        "y_true": 0,
+        "y_pred": 0,
+        "p_empty": 0.9999999999989999,
+        "d_empty": 0.0,
+        "d_pos": 194.44424438476562
+      },
+      {
+        "layout_number": 1069,
+        "slot_id": 4,
+        "gt_label": "Church",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 410.0670471191406,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1078,
+        "slot_id": 4,
+        "gt_label": "Sorcerer's Rise",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 177.84837341308594,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1122,
+        "slot_id": 4,
+        "gt_label": "Sorcerer's Rise",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 177.84837341308594,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1128,
+        "slot_id": 4,
+        "gt_label": "Church",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 410.0670471191406,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1130,
+        "slot_id": 4,
+        "gt_label": "Sorcerer's Rise",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 177.84837341308594,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1187,
+        "slot_id": 4,
+        "gt_label": "Church",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 410.0670471191406,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1188,
+        "slot_id": 4,
+        "gt_label": "Church",
+        "y_true": 1,
+        "y_pred": 1,
+        "p_empty": 0.0,
+        "d_empty": 410.0670471191406,
+        "d_pos": 99.51347351074219
+      },
+      {
+        "layout_number": 1191,
+        "slot_id": 4,
+        "gt_label": "empty",
+        "y_true": 0,
+        "y_pred": 0,
+        "p_empty": 0.9999999999989999,
+        "d_empty": 0.0,
+        "d_pos": 194.44424438476562
+      }
+    ]
+  },
+  "leave_one_layout_out_metrics": {
+    "count": 80,
+    "accuracy": 1.0,
+    "empty_recall": 1.0,
+    "mean_p_empty_when_true_empty": 0.9999999999989995,
+    "mean_p_empty_when_true_church_like": 0.0,
+    "empty_confidence_separation": 0.9999999999989995
+  },
+  "model_path": "tmp_gh_slot4_prototype_model_test\\gh_slot4_empty_vs_churchrise_prototype_model.pkl"
+}

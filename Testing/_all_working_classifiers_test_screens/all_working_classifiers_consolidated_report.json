@@ -1,0 +1,1093 @@
+{
+  "results": [
+    {
+      "image": "Screenshot (150).png",
+      "slot4": {
+        "final": "Church",
+        "final_conf": 0.9872101545333862,
+        "stage1": "occupied",
+        "stage1_conf": 0.6964438557624817
+      },
+      "slot5": {
+        "final": "Sorcerers_Rise",
+        "final_conf": 0.999994158744812,
+        "stage1": "occupied",
+        "stage1_conf": 0.9999909400939941
+      },
+      "slot7": {
+        "final": "Church",
+        "final_conf": 0.9553161263465881,
+        "stage1": "occupied",
+        "stage1_conf": 0.8255112171173096
+      },
+      "slot2": {
+        "predicted_label": "Great_Church_Sleep",
+        "confidence": 0.8242164254188538,
+        "ranking": [
+          {
+            "label": "Great_Church_Sleep",
+            "probability": 0.8242164254188538
+          },
+          {
+            "label": "Great_Church_Lightning",
+            "probability": 0.17578350007534027
+          }
+        ],
+        "source": "panel_raw",
+        "center_norm": [
+          0.82890625,
+          0.38046875
+        ],
+        "crop_size": 200,
+        "crop_rect": {
+          "x": 1135,
+          "y": 467,
+          "size": 200
+        }
+      },
+      "slot6": {
+        "predicted_label": "Ruins_Poison",
+        "confidence": 0.9412510395050049,
+        "ranking": [
+          {
+            "label": "Ruins_Poison",
+            "probability": 0.9412510395050049
+          },
+          {
+            "label": "Ruins_Bleed",
+            "probability": 0.05874898284673691
+          }
+        ],
+        "source": "gh_asym",
+        "center_norm": [
+          0.12090680100755667,
+          0.6215986394557823
+        ],
+        "crop_size": 200,
+        "crop_rect": {
+          "x": 44,
+          "y": 631,
+          "size": 200
+        }
+      },
+      "palace": {
+        "predicted_label": "Status_Fire",
+        "confidence": 0.999789297580719,
+        "ranking": [
+          {
+            "label": "Status_Fire",
+            "probability": 0.999789297580719
+          },
+          {
+            "label": "Status_Magic",
+            "probability": 0.0002106599713442847
+          }
+        ],
+        "source": "gh_asym",
+        "center_norm": [
+          0.2762384550797649,
+          0.21343537414965985
+        ],
+        "crop_size": 200,
+        "crop_rect": {
+          "x": 229,
+          "y": 151,
+          "size": 200
+        }
+      },
+      "fortress": {
+        "predicted_label": "Status_Holy",
+        "confidence": 0.941893994808197,
+        "ranking": [
+          {
+            "label": "Status_Holy",
+            "probability": 0.941893994808197
+          },
+          {
+            "label": "Status_Rot",
+            "probability": 0.0581059455871582
+          }
+        ],
+        "source": "gh_asym",
+        "center_norm": [
+          0.7346767422334173,
+          0.7627551020408163
+        ],
+        "crop_size": 200,
+        "crop_rect": {
+          "x": 775,
+          "y": 797,
+          "size": 200
+        }
+      }
+    },
+    {
+      "image": "Screenshot (151).png",
+      "slot4": {
+        "final": "empty",
+        "final_conf": 0.999517560005188,
+        "stage1": "empty",
+        "stage1_conf": 0.999517560005188
+      },
+      "slot5": {
+        "final": "Church",
+        "final_conf": 0.856123149394989,
+        "stage1": "occupied",
+        "stage1_conf": 0.9999958276748657
+      },
+      "slot7": {
+        "final": "Sorcerers_Rise",
+        "final_conf": 0.9695638418197632,
+        "stage1": "occupied",
+        "stage1_conf": 0.9659764170646667
+      },
+      "slot2": {
+        "predicted_label": "Great_Church_Sleep",
+        "confidence": 0.9877955913543701,
+        "ranking": [
+          {
+            "label": "Great_Church_Sleep",
+            "probability": 0.9877955913543701
+          },
+          {
+            "label": "Great_Church_Lightning",
+            "probability": 0.012204435653984547
+          }
+        ],
+        "source": "panel_raw",
+        "center_norm": [
+          0.82890625,
+          0.38046875
+        ],
+        "crop_size": 200,
+        "crop_rect": {
+          "x": 1135,
+          "y": 467,
+          "size": 200
+        }
+      },
+      "slot6": {
+        "predicted_label": "Ruins_Poison",
+        "confidence": 0.941371738910675,
+        "ranking": [
+          {
+            "label": "Ruins_Poison",
+            "probability": 0.941371738910675
+          },
+          {
+            "label": "Ruins_Bleed",
+            "probability": 0.05862823873758316
+          }
+        ],
+        "source": "gh_asym",
+        "center_norm": [
+          0.12090680100755667,
+          0.6215986394557823
+        ],
+        "crop_size": 200,
+        "crop_rect": {
+          "x": 44,
+          "y": 631,
+          "size": 200
+        }
+      },
+      "palace": {
+        "predicted_label": "Status_Magic",
+        "confidence": 0.9184764623641968,
+        "ranking": [
+          {
+            "label": "Status_Magic",
+            "probability": 0.9184764623641968
+          },
+          {
+            "label": "Status_Fire",
+            "probability": 0.08152357488870621
+          }
+        ],
+        "source": "gh_asym",
+        "center_norm": [
+          0.2762384550797649,
+          0.21343537414965985
+        ],
+        "crop_size": 200,
+        "crop_rect": {
+          "x": 229,
+          "y": 151,
+          "size": 200
+        }
+      },
+      "fortress": {
+        "predicted_label": "Status_Rot",
+        "confidence": 0.6874976754188538,
+        "ranking": [
+          {
+            "label": "Status_Rot",
+            "probability": 0.6874976754188538
+          },
+          {
+            "label": "Status_Holy",
+            "probability": 0.31250232458114624
+          }
+        ],
+        "source": "gh_asym",
+        "center_norm": [
+          0.7346767422334173,
+          0.7627551020408163
+        ],
+        "crop_size": 200,
+        "crop_rect": {
+          "x": 775,
+          "y": 797,
+          "size": 200
+        }
+      }
+    },
+    {
+      "image": "Screenshot (152).png",
+      "slot4": {
+        "final": "Church",
+        "final_conf": 0.9872101545333862,
+        "stage1": "occupied",
+        "stage1_conf": 0.6964473724365234
+      },
+      "slot5": {
+        "final": "empty",
+        "final_conf": 0.9138699769973755,
+        "stage1": "empty",
+        "stage1_conf": 0.9138699769973755
+      },
+      "slot7": {
+        "final": "Church",
+        "final_conf": 0.8551219701766968,
+        "stage1": "occupied",
+        "stage1_conf": 0.9207238554954529
+      },
+      "slot2": {
+        "predicted_label": "Great_Church_Sleep",
+        "confidence": 0.8242164254188538,
+        "ranking": [
+          {
+            "label": "Great_Church_Sleep",
+            "probability": 0.8242164254188538
+          },
+          {
+            "label": "Great_Church_Lightning",
+            "probability": 0.17578350007534027
+          }
+        ],
+        "source": "panel_raw",
+        "center_norm": [
+          0.82890625,
+          0.38046875
+        ],
+        "crop_size": 200,
+        "crop_rect": {
+          "x": 1135,
+          "y": 467,
+          "size": 200
+        }
+      },
+      "slot6": {
+        "predicted_label": "Ruins_Poison",
+        "confidence": 0.9413926005363464,
+        "ranking": [
+          {
+            "label": "Ruins_Poison",
+            "probability": 0.9413926005363464
+          },
+          {
+            "label": "Ruins_Bleed",
+            "probability": 0.05860745906829834
+          }
+        ],
+        "source": "gh_asym",
+        "center_norm": [
+          0.12090680100755667,
+          0.6215986394557823
+        ],
+        "crop_size": 200,
+        "crop_rect": {
+          "x": 44,
+          "y": 631,
+          "size": 200
+        }
+      },
+      "palace": {
+        "predicted_label": "Status_Fire",
+        "confidence": 0.999789297580719,
+        "ranking": [
+          {
+            "label": "Status_Fire",
+            "probability": 0.999789297580719
+          },
+          {
+            "label": "Status_Magic",
+            "probability": 0.0002106599713442847
+          }
+        ],
+        "source": "gh_asym",
+        "center_norm": [
+          0.2762384550797649,
+          0.21343537414965985
+        ],
+        "crop_size": 200,
+        "crop_rect": {
+          "x": 229,
+          "y": 151,
+          "size": 200
+        }
+      },
+      "fortress": {
+        "predicted_label": "Status_Holy",
+        "confidence": 0.941893994808197,
+        "ranking": [
+          {
+            "label": "Status_Holy",
+            "probability": 0.941893994808197
+          },
+          {
+            "label": "Status_Rot",
+            "probability": 0.0581059455871582
+          }
+        ],
+        "source": "gh_asym",
+        "center_norm": [
+          0.7346767422334173,
+          0.7627551020408163
+        ],
+        "crop_size": 200,
+        "crop_rect": {
+          "x": 775,
+          "y": 797,
+          "size": 200
+        }
+      }
+    },
+    {
+      "image": "Screenshot (153).png",
+      "slot4": {
+        "final": "Church",
+        "final_conf": 0.990670919418335,
+        "stage1": "occupied",
+        "stage1_conf": 0.5083094239234924
+      },
+      "slot5": {
+        "final": "empty",
+        "final_conf": 0.890554666519165,
+        "stage1": "empty",
+        "stage1_conf": 0.890554666519165
+      },
+      "slot7": {
+        "final": "Sorcerers_Rise",
+        "final_conf": 0.9668343663215637,
+        "stage1": "occupied",
+        "stage1_conf": 0.9587606191635132
+      },
+      "slot2": {
+        "predicted_label": "Great_Church_Sleep",
+        "confidence": 0.8446771502494812,
+        "ranking": [
+          {
+            "label": "Great_Church_Sleep",
+            "probability": 0.8446771502494812
+          },
+          {
+            "label": "Great_Church_Lightning",
+            "probability": 0.15532286465168
+          }
+        ],
+        "source": "panel_raw",
+        "center_norm": [
+          0.82890625,
+          0.38046875
+        ],
+        "crop_size": 200,
+        "crop_rect": {
+          "x": 1135,
+          "y": 467,
+          "size": 200
+        }
+      },
+      "slot6": {
+        "predicted_label": "Ruins_Poison",
+        "confidence": 0.9381399154663086,
+        "ranking": [
+          {
+            "label": "Ruins_Poison",
+            "probability": 0.9381399154663086
+          },
+          {
+            "label": "Ruins_Bleed",
+            "probability": 0.061860088258981705
+          }
+        ],
+        "source": "gh_asym",
+        "center_norm": [
+          0.12090680100755667,
+          0.6215986394557823
+        ],
+        "crop_size": 200,
+        "crop_rect": {
+          "x": 44,
+          "y": 631,
+          "size": 200
+        }
+      },
+      "palace": {
+        "predicted_label": "Status_Fire",
+        "confidence": 0.9998075366020203,
+        "ranking": [
+          {
+            "label": "Status_Fire",
+            "probability": 0.9998075366020203
+          },
+          {
+            "label": "Status_Magic",
+            "probability": 0.00019253403297625482
+          }
+        ],
+        "source": "gh_asym",
+        "center_norm": [
+          0.2762384550797649,
+          0.21343537414965985
+        ],
+        "crop_size": 200,
+        "crop_rect": {
+          "x": 229,
+          "y": 151,
+          "size": 200
+        }
+      },
+      "fortress": {
+        "predicted_label": "Status_Rot",
+        "confidence": 0.694329559803009,
+        "ranking": [
+          {
+            "label": "Status_Rot",
+            "probability": 0.694329559803009
+          },
+          {
+            "label": "Status_Holy",
+            "probability": 0.3056704103946686
+          }
+        ],
+        "source": "gh_asym",
+        "center_norm": [
+          0.7346767422334173,
+          0.7627551020408163
+        ],
+        "crop_size": 200,
+        "crop_rect": {
+          "x": 775,
+          "y": 797,
+          "size": 200
+        }
+      }
+    },
+    {
+      "image": "Screenshot (154).png",
+      "slot4": {
+        "final": "Church",
+        "final_conf": 0.9872106313705444,
+        "stage1": "occupied",
+        "stage1_conf": 0.6964753866195679
+      },
+      "slot5": {
+        "final": "empty",
+        "final_conf": 0.9138699769973755,
+        "stage1": "empty",
+        "stage1_conf": 0.9138699769973755
+      },
+      "slot7": {
+        "final": "Church",
+        "final_conf": 0.9544845819473267,
+        "stage1": "occupied",
+        "stage1_conf": 0.8322350978851318
+      },
+      "slot2": {
+        "predicted_label": "Great_Church_Sleep",
+        "confidence": 0.9877955913543701,
+        "ranking": [
+          {
+            "label": "Great_Church_Sleep",
+            "probability": 0.9877955913543701
+          },
+          {
+            "label": "Great_Church_Lightning",
+            "probability": 0.012204435653984547
+          }
+        ],
+        "source": "panel_raw",
+        "center_norm": [
+          0.82890625,
+          0.38046875
+        ],
+        "crop_size": 200,
+        "crop_rect": {
+          "x": 1135,
+          "y": 467,
+          "size": 200
+        }
+      },
+      "slot6": {
+        "predicted_label": "Ruins_Poison",
+        "confidence": 0.9413893818855286,
+        "ranking": [
+          {
+            "label": "Ruins_Poison",
+            "probability": 0.9413893818855286
+          },
+          {
+            "label": "Ruins_Bleed",
+            "probability": 0.058610569685697556
+          }
+        ],
+        "source": "gh_asym",
+        "center_norm": [
+          0.12090680100755667,
+          0.6215986394557823
+        ],
+        "crop_size": 200,
+        "crop_rect": {
+          "x": 44,
+          "y": 631,
+          "size": 200
+        }
+      },
+      "palace": {
+        "predicted_label": "Status_Magic",
+        "confidence": 0.9184764623641968,
+        "ranking": [
+          {
+            "label": "Status_Magic",
+            "probability": 0.9184764623641968
+          },
+          {
+            "label": "Status_Fire",
+            "probability": 0.08152357488870621
+          }
+        ],
+        "source": "gh_asym",
+        "center_norm": [
+          0.2762384550797649,
+          0.21343537414965985
+        ],
+        "crop_size": 200,
+        "crop_rect": {
+          "x": 229,
+          "y": 151,
+          "size": 200
+        }
+      },
+      "fortress": {
+        "predicted_label": "Status_Rot",
+        "confidence": 0.6874976754188538,
+        "ranking": [
+          {
+            "label": "Status_Rot",
+            "probability": 0.6874976754188538
+          },
+          {
+            "label": "Status_Holy",
+            "probability": 0.31250232458114624
+          }
+        ],
+        "source": "gh_asym",
+        "center_norm": [
+          0.7346767422334173,
+          0.7627551020408163
+        ],
+        "crop_size": 200,
+        "crop_rect": {
+          "x": 775,
+          "y": 797,
+          "size": 200
+        }
+      }
+    },
+    {
+      "image": "Screenshot (155).png",
+      "slot4": {
+        "final": "empty",
+        "final_conf": 0.9997718930244446,
+        "stage1": "empty",
+        "stage1_conf": 0.9997718930244446
+      },
+      "slot5": {
+        "final": "Sorcerers_Rise",
+        "final_conf": 0.9999946355819702,
+        "stage1": "occupied",
+        "stage1_conf": 0.9999939203262329
+      },
+      "slot7": {
+        "final": "Church",
+        "final_conf": 0.9657049775123596,
+        "stage1": "occupied",
+        "stage1_conf": 0.8432009220123291
+      },
+      "slot2": {
+        "predicted_label": "Great_Church_Sleep",
+        "confidence": 0.8446771502494812,
+        "ranking": [
+          {
+            "label": "Great_Church_Sleep",
+            "probability": 0.8446771502494812
+          },
+          {
+            "label": "Great_Church_Lightning",
+            "probability": 0.15532286465168
+          }
+        ],
+        "source": "panel_raw",
+        "center_norm": [
+          0.82890625,
+          0.38046875
+        ],
+        "crop_size": 200,
+        "crop_rect": {
+          "x": 1135,
+          "y": 467,
+          "size": 200
+        }
+      },
+      "slot6": {
+        "predicted_label": "Ruins_Poison",
+        "confidence": 0.938041627407074,
+        "ranking": [
+          {
+            "label": "Ruins_Poison",
+            "probability": 0.938041627407074
+          },
+          {
+            "label": "Ruins_Bleed",
+            "probability": 0.06195835769176483
+          }
+        ],
+        "source": "gh_asym",
+        "center_norm": [
+          0.12090680100755667,
+          0.6215986394557823
+        ],
+        "crop_size": 200,
+        "crop_rect": {
+          "x": 44,
+          "y": 631,
+          "size": 200
+        }
+      },
+      "palace": {
+        "predicted_label": "Status_Magic",
+        "confidence": 0.9266781210899353,
+        "ranking": [
+          {
+            "label": "Status_Magic",
+            "probability": 0.9266781210899353
+          },
+          {
+            "label": "Status_Fire",
+            "probability": 0.07332193106412888
+          }
+        ],
+        "source": "gh_asym",
+        "center_norm": [
+          0.2762384550797649,
+          0.21343537414965985
+        ],
+        "crop_size": 200,
+        "crop_rect": {
+          "x": 229,
+          "y": 151,
+          "size": 200
+        }
+      },
+      "fortress": {
+        "predicted_label": "Status_Holy",
+        "confidence": 0.9404566287994385,
+        "ranking": [
+          {
+            "label": "Status_Holy",
+            "probability": 0.9404566287994385
+          },
+          {
+            "label": "Status_Rot",
+            "probability": 0.05954333394765854
+          }
+        ],
+        "source": "gh_asym",
+        "center_norm": [
+          0.7346767422334173,
+          0.7627551020408163
+        ],
+        "crop_size": 200,
+        "crop_rect": {
+          "x": 775,
+          "y": 797,
+          "size": 200
+        }
+      }
+    },
+    {
+      "image": "Screenshot (156).png",
+      "slot4": {
+        "final": "Church",
+        "final_conf": 0.990670919418335,
+        "stage1": "occupied",
+        "stage1_conf": 0.5083203911781311
+      },
+      "slot5": {
+        "final": "empty",
+        "final_conf": 0.890554666519165,
+        "stage1": "empty",
+        "stage1_conf": 0.890554666519165
+      },
+      "slot7": {
+        "final": "Sorcerers_Rise",
+        "final_conf": 0.9663109183311462,
+        "stage1": "occupied",
+        "stage1_conf": 0.9576509594917297
+      },
+      "slot2": {
+        "predicted_label": "Great_Church_Sleep",
+        "confidence": 0.8446771502494812,
+        "ranking": [
+          {
+            "label": "Great_Church_Sleep",
+            "probability": 0.8446771502494812
+          },
+          {
+            "label": "Great_Church_Lightning",
+            "probability": 0.15532286465168
+          }
+        ],
+        "source": "panel_raw",
+        "center_norm": [
+          0.82890625,
+          0.38046875
+        ],
+        "crop_size": 200,
+        "crop_rect": {
+          "x": 1135,
+          "y": 467,
+          "size": 200
+        }
+      },
+      "slot6": {
+        "predicted_label": "Ruins_Poison",
+        "confidence": 0.938181459903717,
+        "ranking": [
+          {
+            "label": "Ruins_Poison",
+            "probability": 0.938181459903717
+          },
+          {
+            "label": "Ruins_Bleed",
+            "probability": 0.06181853637099266
+          }
+        ],
+        "source": "gh_asym",
+        "center_norm": [
+          0.12090680100755667,
+          0.6215986394557823
+        ],
+        "crop_size": 200,
+        "crop_rect": {
+          "x": 44,
+          "y": 631,
+          "size": 200
+        }
+      },
+      "palace": {
+        "predicted_label": "Status_Magic",
+        "confidence": 0.9266781210899353,
+        "ranking": [
+          {
+            "label": "Status_Magic",
+            "probability": 0.9266781210899353
+          },
+          {
+            "label": "Status_Fire",
+            "probability": 0.07332193106412888
+          }
+        ],
+        "source": "gh_asym",
+        "center_norm": [
+          0.2762384550797649,
+          0.21343537414965985
+        ],
+        "crop_size": 200,
+        "crop_rect": {
+          "x": 229,
+          "y": 151,
+          "size": 200
+        }
+      },
+      "fortress": {
+        "predicted_label": "Status_Holy",
+        "confidence": 0.9404566287994385,
+        "ranking": [
+          {
+            "label": "Status_Holy",
+            "probability": 0.9404566287994385
+          },
+          {
+            "label": "Status_Rot",
+            "probability": 0.05954333394765854
+          }
+        ],
+        "source": "gh_asym",
+        "center_norm": [
+          0.7346767422334173,
+          0.7627551020408163
+        ],
+        "crop_size": 200,
+        "crop_rect": {
+          "x": 775,
+          "y": 797,
+          "size": 200
+        }
+      }
+    },
+    {
+      "image": "Screenshot (157).png",
+      "slot4": {
+        "final": "Church",
+        "final_conf": 0.9872111082077026,
+        "stage1": "occupied",
+        "stage1_conf": 0.696452796459198
+      },
+      "slot5": {
+        "final": "Sorcerers_Rise",
+        "final_conf": 0.999994158744812,
+        "stage1": "occupied",
+        "stage1_conf": 0.9999909400939941
+      },
+      "slot7": {
+        "final": "Church",
+        "final_conf": 0.9548088908195496,
+        "stage1": "occupied",
+        "stage1_conf": 0.829912006855011
+      },
+      "slot2": {
+        "predicted_label": "Great_Church_Sleep",
+        "confidence": 0.8242164254188538,
+        "ranking": [
+          {
+            "label": "Great_Church_Sleep",
+            "probability": 0.8242164254188538
+          },
+          {
+            "label": "Great_Church_Lightning",
+            "probability": 0.17578350007534027
+          }
+        ],
+        "source": "panel_raw",
+        "center_norm": [
+          0.82890625,
+          0.38046875
+        ],
+        "crop_size": 200,
+        "crop_rect": {
+          "x": 1135,
+          "y": 467,
+          "size": 200
+        }
+      },
+      "slot6": {
+        "predicted_label": "Ruins_Poison",
+        "confidence": 0.9414064884185791,
+        "ranking": [
+          {
+            "label": "Ruins_Poison",
+            "probability": 0.9414064884185791
+          },
+          {
+            "label": "Ruins_Bleed",
+            "probability": 0.058593496680259705
+          }
+        ],
+        "source": "gh_asym",
+        "center_norm": [
+          0.12090680100755667,
+          0.6215986394557823
+        ],
+        "crop_size": 200,
+        "crop_rect": {
+          "x": 44,
+          "y": 631,
+          "size": 200
+        }
+      },
+      "palace": {
+        "predicted_label": "Status_Magic",
+        "confidence": 0.9184764623641968,
+        "ranking": [
+          {
+            "label": "Status_Magic",
+            "probability": 0.9184764623641968
+          },
+          {
+            "label": "Status_Fire",
+            "probability": 0.08152357488870621
+          }
+        ],
+        "source": "gh_asym",
+        "center_norm": [
+          0.2762384550797649,
+          0.21343537414965985
+        ],
+        "crop_size": 200,
+        "crop_rect": {
+          "x": 229,
+          "y": 151,
+          "size": 200
+        }
+      },
+      "fortress": {
+        "predicted_label": "Status_Rot",
+        "confidence": 0.6874976754188538,
+        "ranking": [
+          {
+            "label": "Status_Rot",
+            "probability": 0.6874976754188538
+          },
+          {
+            "label": "Status_Holy",
+            "probability": 0.31250232458114624
+          }
+        ],
+        "source": "gh_asym",
+        "center_norm": [
+          0.7346767422334173,
+          0.7627551020408163
+        ],
+        "crop_size": 200,
+        "crop_rect": {
+          "x": 775,
+          "y": 797,
+          "size": 200
+        }
+      }
+    },
+    {
+      "image": "Screenshot (158).png",
+      "slot4": {
+        "final": "Church",
+        "final_conf": 0.9906700849533081,
+        "stage1": "occupied",
+        "stage1_conf": 0.508293867111206
+      },
+      "slot5": {
+        "final": "Sorcerers_Rise",
+        "final_conf": 0.9999946355819702,
+        "stage1": "occupied",
+        "stage1_conf": 0.9999939203262329
+      },
+      "slot7": {
+        "final": "Church",
+        "final_conf": 0.9657444357872009,
+        "stage1": "occupied",
+        "stage1_conf": 0.8428388237953186
+      },
+      "slot2": {
+        "predicted_label": "Great_Church_Sleep",
+        "confidence": 0.8446771502494812,
+        "ranking": [
+          {
+            "label": "Great_Church_Sleep",
+            "probability": 0.8446771502494812
+          },
+          {
+            "label": "Great_Church_Lightning",
+            "probability": 0.15532286465168
+          }
+        ],
+        "source": "panel_raw",
+        "center_norm": [
+          0.82890625,
+          0.38046875
+        ],
+        "crop_size": 200,
+        "crop_rect": {
+          "x": 1135,
+          "y": 467,
+          "size": 200
+        }
+      },
+      "slot6": {
+        "predicted_label": "Ruins_Bleed",
+        "confidence": 0.9635202884674072,
+        "ranking": [
+          {
+            "label": "Ruins_Bleed",
+            "probability": 0.9635202884674072
+          },
+          {
+            "label": "Ruins_Poison",
+            "probability": 0.036479704082012177
+          }
+        ],
+        "source": "gh_asym",
+        "center_norm": [
+          0.12090680100755667,
+          0.6215986394557823
+        ],
+        "crop_size": 200,
+        "crop_rect": {
+          "x": 44,
+          "y": 631,
+          "size": 200
+        }
+      },
+      "palace": {
+        "predicted_label": "Status_Fire",
+        "confidence": 0.9998075366020203,
+        "ranking": [
+          {
+            "label": "Status_Fire",
+            "probability": 0.9998075366020203
+          },
+          {
+            "label": "Status_Magic",
+            "probability": 0.00019253403297625482
+          }
+        ],
+        "source": "gh_asym",
+        "center_norm": [
+          0.2762384550797649,
+          0.21343537414965985
+        ],
+        "crop_size": 200,
+        "crop_rect": {
+          "x": 229,
+          "y": 151,
+          "size": 200
+        }
+      },
+      "fortress": {
+        "predicted_label": "Status_Rot",
+        "confidence": 0.694329559803009,
+        "ranking": [
+          {
+            "label": "Status_Rot",
+            "probability": 0.694329559803009
+          },
+          {
+            "label": "Status_Holy",
+            "probability": 0.3056704103946686
+          }
+        ],
+        "source": "gh_asym",
+        "center_norm": [
+          0.7346767422334173,
+          0.7627551020408163
+        ],
+        "crop_size": 200,
+        "crop_rect": {
+          "x": 775,
+          "y": 797,
+          "size": 200
+        }
+      }
+    }
+  ]
+}

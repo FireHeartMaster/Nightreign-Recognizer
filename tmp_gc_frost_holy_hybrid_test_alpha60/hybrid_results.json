@@ -1,0 +1,74 @@
+[
+  {
+    "file": "C:\\Users\\eduar\\Downloads\\Captura de tela 2026-04-16 151126.png",
+    "crop_method": "gray_hough",
+    "panel_shape": [
+      1536,
+      1536
+    ],
+    "anchor_xy": [
+      622,
+      1063
+    ],
+    "crop_size": 28,
+    "prediction": "Holy",
+    "margin": 0.7713519109074003,
+    "model_probs": {
+      "Frost": 0.5367676019668579,
+      "Holy": 0.4632323682308197
+    },
+    "color_scores": {
+      "Frost": 0.04826667885575512,
+      "Holy": 0.4425374266831782
+    },
+    "color_probs": {
+      "Frost": 0.007186173358403197,
+      "Holy": 0.9928138266406039
+    },
+    "hybrid_probs": {
+      "Frost": 0.1143240445462999,
+      "Holy": 0.8856759554537001
+    },
+    "crop_file": "tmp_gc_frost_holy_hybrid_test_alpha60\\Captura de tela 2026-04-16 151126__gc_frost_holy_hybrid_crop.png",
+    "config": {
+      "alpha_model": 0.6,
+      "sharp_scale": 2.8
+    }
+  },
+  {
+    "file": "C:\\Users\\eduar\\Downloads\\Captura de tela 2026-04-16 151246.png",
+    "crop_method": "gray_hough",
+    "panel_shape": [
+      1536,
+      1536
+    ],
+    "anchor_xy": [
+      622,
+      1063
+    ],
+    "crop_size": 28,
+    "prediction": "Holy",
+    "margin": 0.7703832259143668,
+    "model_probs": {
+      "Frost": 0.5370774865150452,
+      "Holy": 0.46292245388031006
+    },
+    "color_scores": {
+      "Frost": 0.048128865422554984,
+      "Holy": 0.43728764457762553
+    },
+    "color_probs": {
+      "Frost": 0.007656725035682196,
+      "Holy": 0.9923432749633254
+    },
+    "hybrid_probs": {
+      "Frost": 0.1148083870428166,
+      "Holy": 0.8851916129571834
+    },
+    "crop_file": "tmp_gc_frost_holy_hybrid_test_alpha60\\Captura de tela 2026-04-16 151246__gc_frost_holy_hybrid_crop.png",
+    "config": {
+      "alpha_model": 0.6,
+      "sharp_scale": 2.8
+    }
+  }
+]

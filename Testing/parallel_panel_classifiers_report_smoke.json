@@ -1,0 +1,311 @@
+{
+  "mode": "parallel_panel_classifiers",
+  "input_panel": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\Screenshot_133_panel_crop_for_fortress_test.png",
+  "panel_shape": {
+    "w": 748,
+    "h": 748
+  },
+  "gh_asym_shape": {
+    "w": 1191,
+    "h": 1176
+  },
+  "device": "cuda",
+  "classifiers": {
+    "slot2": {
+      "classifier": "slot2_great_church_status",
+      "type": "single_stage",
+      "crop_source": "panel_raw",
+      "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\slot2_status_cnn_offset50_v1.pt",
+      "model_meta": {
+        "best_epoch": 2,
+        "best_val_accuracy": 1.0,
+        "train_samples": 4800,
+        "val_samples": 1200
+      },
+      "crop_rect": {
+        "x": 606,
+        "y": 222,
+        "size": 127,
+        "cx": 670,
+        "cy": 285,
+        "dx": 50,
+        "dy": 0
+      },
+      "predicted_label": "Great_Church_Sleep",
+      "confidence": 0.6413070559501648,
+      "ranking": [
+        {
+          "label": "Great_Church_Sleep",
+          "probability": 0.6413070559501648
+        },
+        {
+          "label": "Great_Church_Lightning",
+          "probability": 0.3586929440498352
+        }
+      ]
+    },
+    "slot4": {
+      "classifier": "slot4_minor",
+      "type": "two_stage_cascade",
+      "crop_source": "panel_raw",
+      "crop_rect": {
+        "x": 514,
+        "y": 328,
+        "size": 127,
+        "cx": 578,
+        "cy": 391,
+        "dx": 50,
+        "dy": -50
+      },
+      "stage1_model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\slot4_occupied_empty_from_panel_fixed_v1.pt",
+      "stage1_model_meta": {
+        "best_epoch": 3,
+        "best_val_accuracy": 1.0,
+        "train_samples": 4800,
+        "val_samples": 1200
+      },
+      "stage1": {
+        "predicted_label": "empty",
+        "confidence": 0.9853886961936951,
+        "ranking": [
+          {
+            "label": "empty",
+            "probability": 0.9853886961936951
+          },
+          {
+            "label": "occupied",
+            "probability": 0.014611288905143738
+          }
+        ]
+      },
+      "stage2_model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\slot4_church_vs_sorcerer_v1.pt",
+      "stage2_model_meta": {
+        "best_epoch": 2,
+        "best_val_accuracy": 1.0,
+        "train_samples": 4800,
+        "val_samples": 1200
+      },
+      "stage2": null,
+      "final_label": "empty",
+      "final_confidence": 0.9853886961936951,
+      "final_source": "stage1"
+    },
+    "slot5": {
+      "classifier": "slot5_minor",
+      "type": "two_stage_cascade",
+      "crop_source": "panel_raw",
+      "crop_rect": {
+        "x": 194,
+        "y": 346,
+        "size": 97,
+        "cx": 243,
+        "cy": 394,
+        "dx": 0,
+        "dy": 0
+      },
+      "stage1_model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot5_authoritative_binary_panel_v1\\slot5_occupied_empty_authoritative_v1.pt",
+      "stage1_model_meta": {
+        "best_epoch": 2,
+        "best_val_accuracy": 1.0,
+        "train_samples": 4800,
+        "val_samples": 1200,
+        "source_class_counts": {
+          "empty": 3000,
+          "occupied": 3000
+        },
+        "train_class_counts": {
+          "empty": 2400,
+          "occupied": 2400
+        },
+        "class_weight": [
+          1.0,
+          1.0
+        ],
+        "occupied_source_classes": [
+          "occupied"
+        ],
+        "empty_source_classes": [
+          "empty"
+        ]
+      },
+      "stage1": {
+        "predicted_label": "occupied",
+        "confidence": 0.9999445676803589,
+        "ranking": [
+          {
+            "label": "occupied",
+            "probability": 0.9999445676803589
+          },
+          {
+            "label": "empty",
+            "probability": 5.542667713598348e-05
+          }
+        ]
+      },
+      "stage2_model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot5_church_vs_sorcerer_panel_v2_userlabels\\slot5_church_vs_sorcerer_v2.pt",
+      "stage2_model_meta": {
+        "best_epoch": 17,
+        "best_val_accuracy": 0.9275,
+        "train_samples": 4800,
+        "val_samples": 1200
+      },
+      "stage2": {
+        "predicted_label": "Church",
+        "confidence": 0.8804818987846375,
+        "ranking": [
+          {
+            "label": "Church",
+            "probability": 0.8804818987846375
+          },
+          {
+            "label": "Sorcerers_Rise",
+            "probability": 0.11951809376478195
+          }
+        ]
+      },
+      "final_label": "Church",
+      "final_confidence": 0.8804818987846375,
+      "final_source": "stage2"
+    },
+    "slot6": {
+      "classifier": "slot6_ruins_status",
+      "type": "single_stage",
+      "crop_source": "gh_asym_legacy",
+      "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\slot6_status_cnn.pt",
+      "model_meta": {
+        "best_epoch": 12,
+        "best_val_accuracy": 1.0,
+        "train_samples": 196,
+        "val_samples": 49
+      },
+      "crop_rect": {
+        "x": 44,
+        "y": 631,
+        "size": 200,
+        "cx": 144,
+        "cy": 731
+      },
+      "predicted_label": "Ruins_Bleed",
+      "confidence": 0.9613834619522095,
+      "ranking": [
+        {
+          "label": "Ruins_Bleed",
+          "probability": 0.9613834619522095
+        },
+        {
+          "label": "Ruins_Poison",
+          "probability": 0.03861650452017784
+        }
+      ]
+    },
+    "slot7": {
+      "classifier": "slot7_minor",
+      "type": "two_stage_cascade",
+      "crop_source": "panel_raw",
+      "crop_rect": {
+        "x": 186,
+        "y": 552,
+        "size": 127,
+        "cx": 250,
+        "cy": 616,
+        "dx": 0,
+        "dy": 0
+      },
+      "stage1_model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260\\separated_occupied_empty\\slot7_occupied_empty_from_panel_fixed_v1.pt",
+      "stage1_model_meta": {
+        "best_epoch": 2,
+        "best_val_accuracy": 1.0,
+        "train_samples": 4800,
+        "val_samples": 1200
+      },
+      "stage1": {
+        "predicted_label": "empty",
+        "confidence": 0.9989550113677979,
+        "ranking": [
+          {
+            "label": "empty",
+            "probability": 0.9989550113677979
+          },
+          {
+            "label": "occupied",
+            "probability": 0.0010449941037222743
+          }
+        ]
+      },
+      "stage2_model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260\\slot7_church_vs_sorcerer_bases260\\slot7_church_vs_sorcerer_v1.pt",
+      "stage2_model_meta": {
+        "best_epoch": 1,
+        "best_val_accuracy": 1.0,
+        "train_samples": 4800,
+        "val_samples": 1200
+      },
+      "stage2": null,
+      "final_label": "empty",
+      "final_confidence": 0.9989550113677979,
+      "final_source": "stage1"
+    },
+    "palace": {
+      "classifier": "palace_status",
+      "type": "single_stage",
+      "crop_source": "gh_asym_legacy",
+      "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\palace_status_cnn_retrain_latest.pt",
+      "model_meta": {
+        "best_epoch": 3,
+        "best_val_accuracy": 1.0,
+        "train_samples": 1802,
+        "val_samples": 451
+      },
+      "crop_rect": {
+        "x": 229,
+        "y": 151,
+        "size": 200,
+        "cx": 329,
+        "cy": 251
+      },
+      "predicted_label": "Status_Magic",
+      "confidence": 0.8578068614006042,
+      "ranking": [
+        {
+          "label": "Status_Magic",
+          "probability": 0.8578068614006042
+        },
+        {
+          "label": "Status_Fire",
+          "probability": 0.14219319820404053
+        }
+      ]
+    },
+    "fortress": {
+      "classifier": "fortress_status",
+      "type": "single_stage",
+      "crop_source": "gh_asym_legacy",
+      "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress\\fortress_status_cnn_retrain_latest.pt",
+      "model_meta": {
+        "best_epoch": 1,
+        "best_val_accuracy": 1.0,
+        "train_samples": 1803,
+        "val_samples": 450
+      },
+      "crop_rect": {
+        "x": 775,
+        "y": 797,
+        "size": 200,
+        "cx": 875,
+        "cy": 897
+      },
+      "predicted_label": "Status_Rot",
+      "confidence": 0.6255423426628113,
+      "ranking": [
+        {
+          "label": "Status_Rot",
+          "probability": 0.6255423426628113
+        },
+        {
+          "label": "Status_Holy",
+          "probability": 0.3744576871395111
+        }
+      ]
+    }
+  },
+  "errors": {}
+}

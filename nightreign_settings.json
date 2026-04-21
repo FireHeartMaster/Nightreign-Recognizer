@@ -1,0 +1,9 @@
+{
+  "global_hotkey": "Ctrl + O",
+  "overlay_hotkey": "Ctrl + P",
+  "overlay_opacity": 1.0,
+  "log_panel_open": false,
+  "completion_toast_enabled": true,
+  "dual_shot_enabled": false,
+  "overlay_text_only_enabled": true
+}

@@ -1,0 +1,15 @@
+Shifting Earth: Noklateo
+Source folder: tmp_noklateo_both_crops_L256_R256_T256_B256/further_crop_1024
+Total images in this zip: 10
+
+Files:
+01. pattern_0035_further_crop_1024.png | Shifting Earth=Noklateo
+02. pattern_0036_further_crop_1024.png | Shifting Earth=Noklateo
+03. pattern_0037_further_crop_1024.png | Shifting Earth=Noklateo
+04. pattern_0038_further_crop_1024.png | Shifting Earth=Noklateo
+05. pattern_0039_further_crop_1024.png | Shifting Earth=Noklateo
+06. pattern_0075_further_crop_1024.png | Shifting Earth=Noklateo
+07. pattern_0076_further_crop_1024.png | Shifting Earth=Noklateo
+08. pattern_0077_further_crop_1024.png | Shifting Earth=Noklateo
+09. pattern_0078_further_crop_1024.png | Shifting Earth=Noklateo
+10. pattern_0079_further_crop_1024.png | Shifting Earth=Noklateo

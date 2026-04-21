@@ -1,0 +1,98 @@
+[
+  {
+    "file": "tmp_earth_train_sources\\Limveld\\layout_0000.png",
+    "true_earth": "Limveld",
+    "rc": 0,
+    "pred_layout": 0,
+    "pred_earth": "Limveld",
+    "gh_status_prior": 0.0
+  },
+  {
+    "file": "tmp_earth_train_sources\\Limveld\\layout_0001.png",
+    "true_earth": "Limveld",
+    "rc": 0,
+    "pred_layout": 1,
+    "pred_earth": "Limveld",
+    "gh_status_prior": 0.0
+  },
+  {
+    "file": "tmp_earth_train_sources\\Mountaintop\\layout_0020.png",
+    "true_earth": "Mountaintop",
+    "rc": 0,
+    "pred_layout": 20,
+    "pred_earth": "Mountaintop",
+    "gh_status_prior": 0.0
+  },
+  {
+    "file": "tmp_earth_train_sources\\Mountaintop\\layout_0021.png",
+    "true_earth": "Mountaintop",
+    "rc": 0,
+    "pred_layout": 21,
+    "pred_earth": "Mountaintop",
+    "gh_status_prior": 0.0
+  },
+  {
+    "file": "tmp_earth_train_sources\\The Crater\\layout_0025.png",
+    "true_earth": "The Crater",
+    "rc": 0,
+    "pred_layout": 25,
+    "pred_earth": "The Crater",
+    "gh_status_prior": 0.0
+  },
+  {
+    "file": "tmp_earth_train_sources\\The Crater\\layout_0026.png",
+    "true_earth": "The Crater",
+    "rc": 0,
+    "pred_layout": 26,
+    "pred_earth": "The Crater",
+    "gh_status_prior": 0.0
+  },
+  {
+    "file": "tmp_earth_train_sources\\Rotted Woods\\layout_0030.png",
+    "true_earth": "Rotted Woods",
+    "rc": 0,
+    "pred_layout": 30,
+    "pred_earth": "Rotted Woods",
+    "gh_status_prior": 0.0
+  },
+  {
+    "file": "tmp_earth_train_sources\\Rotted Woods\\layout_0031.png",
+    "true_earth": "Rotted Woods",
+    "rc": 0,
+    "pred_layout": 31,
+    "pred_earth": "Rotted Woods",
+    "gh_status_prior": 0.0
+  },
+  {
+    "file": "tmp_earth_train_sources\\Noklateo\\layout_0035.png",
+    "true_earth": "Noklateo",
+    "rc": 0,
+    "pred_layout": 35,
+    "pred_earth": "Noklateo",
+    "gh_status_prior": 0.0
+  },
+  {
+    "file": "tmp_earth_train_sources\\Noklateo\\layout_0036.png",
+    "true_earth": "Noklateo",
+    "rc": 0,
+    "pred_layout": 36,
+    "pred_earth": "Noklateo",
+    "gh_status_prior": 0.0
+  },
+  {
+    "file": "tmp_earth_train_sources\\Great Hollow\\layout_1005.png",
+    "true_earth": "Great Hollow",
+    "rc": 0,
+    "pred_layout": 1005,
+    "pred_earth": "Great Hollow",
+    "gh_status_prior": 0.0
+  },
+  {
+    "file": "tmp_earth_train_sources\\Great Hollow\\layout_1006.png",
+    "true_earth": "Great Hollow",
+    "rc": 0,
+    "pred_layout": 1006,
+    "pred_earth": "Great Hollow",
+    "gh_status_prior": 0.0
+  }
+]

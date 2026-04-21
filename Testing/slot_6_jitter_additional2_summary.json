@@ -1,0 +1,108 @@
+{
+  "source_count": 7,
+  "created_count": 14,
+  "error_count": 0,
+  "output_dir": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6",
+  "jitter_rule": "dx,dy in [-30,+30]",
+  "created": [
+    {
+      "source": "pattern_1115_asym_further_crop.png",
+      "variant": 1,
+      "dx": -2,
+      "dy": -29,
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\pattern_1115_asym_further_crop__slot_6__j1__dx-2_dy-29.png"
+    },
+    {
+      "source": "pattern_1115_asym_further_crop.png",
+      "variant": 2,
+      "dx": -11,
+      "dy": -17,
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\pattern_1115_asym_further_crop__slot_6__j2__dx-11_dy-17.png"
+    },
+    {
+      "source": "pattern_1119_asym_further_crop.png",
+      "variant": 1,
+      "dx": 20,
+      "dy": 7,
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\pattern_1119_asym_further_crop__slot_6__j1__dx+20_dy+7.png"
+    },
+    {
+      "source": "pattern_1119_asym_further_crop.png",
+      "variant": 2,
+      "dx": -13,
+      "dy": -14,
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\pattern_1119_asym_further_crop__slot_6__j2__dx-13_dy-14.png"
+    },
+    {
+      "source": "pattern_1120_asym_further_crop.png",
+      "variant": 1,
+      "dx": 5,
+      "dy": -21,
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\pattern_1120_asym_further_crop__slot_6__j1__dx+5_dy-21.png"
+    },
+    {
+      "source": "pattern_1120_asym_further_crop.png",
+      "variant": 2,
+      "dx": -29,
+      "dy": 18,
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\pattern_1120_asym_further_crop__slot_6__j2__dx-29_dy+18.png"
+    },
+    {
+      "source": "pattern_1128_asym_further_crop.png",
+      "variant": 1,
+      "dx": -8,
+      "dy": 12,
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\pattern_1128_asym_further_crop__slot_6__j1__dx-8_dy+12.png"
+    },
+    {
+      "source": "pattern_1128_asym_further_crop.png",
+      "variant": 2,
+      "dx": -10,
+      "dy": -10,
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\pattern_1128_asym_further_crop__slot_6__j2__dx-10_dy-10.png"
+    },
+    {
+      "source": "pattern_1175_asym_further_crop.png",
+      "variant": 1,
+      "dx": -4,
+      "dy": -14,
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\pattern_1175_asym_further_crop__slot_6__j1__dx-4_dy-14.png"
+    },
+    {
+      "source": "pattern_1175_asym_further_crop.png",
+      "variant": 2,
+      "dx": -15,
+      "dy": 28,
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\pattern_1175_asym_further_crop__slot_6__j2__dx-15_dy+28.png"
+    },
+    {
+      "source": "pattern_1181_asym_further_crop.png",
+      "variant": 1,
+      "dx": -26,
+      "dy": 3,
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\pattern_1181_asym_further_crop__slot_6__j1__dx-26_dy+3.png"
+    },
+    {
+      "source": "pattern_1181_asym_further_crop.png",
+      "variant": 2,
+      "dx": 16,
+      "dy": -27,
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\pattern_1181_asym_further_crop__slot_6__j2__dx+16_dy-27.png"
+    },
+    {
+      "source": "pattern_1185_asym_further_crop.png",
+      "variant": 1,
+      "dx": -8,
+      "dy": -12,
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\pattern_1185_asym_further_crop__slot_6__j1__dx-8_dy-12.png"
+    },
+    {
+      "source": "pattern_1185_asym_further_crop.png",
+      "variant": 2,
+      "dx": 20,
+      "dy": 10,
+      "out": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\pattern_1185_asym_further_crop__slot_6__j2__dx+20_dy+10.png"
+    }
+  ],
+  "errors": []
+}

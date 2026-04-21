@@ -1,0 +1,7 @@
+FIXED_POINTS_BY_RAREMAP = {
+    "Noklateo": [
+        {"x": 203.0, "z": 204.5, "icon": "Field Boss Red", "text": "Dragonkin Soldier"},
+        {"x": -233.5, "z": 515.0, "icon": "Field Boss Red", "text": "Royal Carian Knight"},
+        {"x": 252.5, "z": 474.5, "icon": "Field Boss Red", "text": "Royal Carian Knight"},
+    ],
+}

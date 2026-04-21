@@ -1,0 +1,211 @@
+{
+  "device": "cuda",
+  "model_path": "earth_ai_test_output_no_text_current\\earth_panel_model_v1.pt",
+  "label_counts_total": {
+    "Limveld": 240,
+    "Mountaintop": 50,
+    "The Crater": 50,
+    "Rotted Woods": 50,
+    "Noklateo": 50,
+    "Great Hollow": 80
+  },
+  "train_samples": 364,
+  "val_samples": 78,
+  "test_samples": 78,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.6112621708230659,
+      "train_acc": 0.5082417582417582,
+      "val_loss": 1.666278640429179,
+      "val_acc": 0.4230769230769231
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.355135250877548,
+      "train_acc": 0.6043956043956044,
+      "val_loss": 1.7148460975060096,
+      "val_acc": 0.4230769230769231
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.225948175231179,
+      "train_acc": 0.6098901098901099,
+      "val_loss": 1.6717554789323072,
+      "val_acc": 0.6153846153846154
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.1443496680521703,
+      "train_acc": 0.6071428571428571,
+      "val_loss": 1.2397971428357637,
+      "val_acc": 0.6153846153846154
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.0972770413199624,
+      "train_acc": 0.6071428571428571,
+      "val_loss": 1.4478783760315332,
+      "val_acc": 0.6153846153846154
+    },
+    {
+      "epoch": 6,
+      "train_loss": 1.0340652085922577,
+      "train_acc": 0.6126373626373627,
+      "val_loss": 1.5593542502476618,
+      "val_acc": 0.4230769230769231
+    },
+    {
+      "epoch": 7,
+      "train_loss": 1.027933236006852,
+      "train_acc": 0.6208791208791209,
+      "val_loss": 0.9007164041201273,
+      "val_acc": 0.6153846153846154
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.9461469761617891,
+      "train_acc": 0.6428571428571429,
+      "val_loss": 0.8447356315759512,
+      "val_acc": 0.717948717948718
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.8797253186886127,
+      "train_acc": 0.6840659340659341,
+      "val_loss": 0.8881366650263468,
+      "val_acc": 0.8461538461538461
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.8506793196384723,
+      "train_acc": 0.695054945054945,
+      "val_loss": 1.4175893098880084,
+      "val_acc": 0.19230769230769232
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.7382122651561276,
+      "train_acc": 0.739010989010989,
+      "val_loss": 0.7105557291935651,
+      "val_acc": 0.8461538461538461
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.6604772409894965,
+      "train_acc": 0.7774725274725275,
+      "val_loss": 1.0175968867081862,
+      "val_acc": 0.6153846153846154
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.6552528892899607,
+      "train_acc": 0.771978021978022,
+      "val_loss": 0.4740231877718216,
+      "val_acc": 0.717948717948718
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.5919880048259274,
+      "train_acc": 0.804945054945055,
+      "val_loss": 0.8875326361411657,
+      "val_acc": 0.8461538461538461
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.5154219577600668,
+      "train_acc": 0.8379120879120879,
+      "val_loss": 1.115761616291144,
+      "val_acc": 0.6923076923076923
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.5061343973809547,
+      "train_acc": 0.8104395604395604,
+      "val_loss": 0.6150421393223298,
+      "val_acc": 0.6153846153846154
+    }
+  ],
+  "final_val": {
+    "loss": 0.8881366650263468,
+    "acc": 0.8461538461538461,
+    "per_class_acc": {
+      "Great Hollow": 1.0,
+      "Limveld": 1.0,
+      "Mountaintop": 1.0,
+      "Noklateo": 0.0,
+      "Rotted Woods": 0.0,
+      "The Crater": 1.0
+    },
+    "confusion": {
+      "Great Hollow": {
+        "Great Hollow": 15
+      },
+      "Limveld": {
+        "Limveld": 33
+      },
+      "Mountaintop": {
+        "Mountaintop": 8
+      },
+      "Noklateo": {
+        "The Crater": 7
+      },
+      "Rotted Woods": {
+        "The Crater": 5
+      },
+      "The Crater": {
+        "The Crater": 10
+      }
+    },
+    "count": 78
+  },
+  "final_test": {
+    "loss": 0.9305427777461517,
+    "acc": 0.8076923076923077,
+    "per_class_acc": {
+      "Great Hollow": 1.0,
+      "Limveld": 1.0,
+      "Mountaintop": 1.0,
+      "Noklateo": 0.0,
+      "Rotted Woods": 0.0,
+      "The Crater": 1.0
+    },
+    "confusion": {
+      "Great Hollow": {
+        "Great Hollow": 11
+      },
+      "Limveld": {
+        "Limveld": 39
+      },
+      "Mountaintop": {
+        "Mountaintop": 7
+      },
+      "Noklateo": {
+        "The Crater": 9
+      },
+      "Rotted Woods": {
+        "The Crater": 6
+      },
+      "The Crater": {
+        "The Crater": 6
+      }
+    },
+    "count": 78
+  },
+  "args": {
+    "package": "nightreign_geom_proto_v4_slots.npz",
+    "images_dirs": [
+      "renders\\recognizer_no_text"
+    ],
+    "panel_size": 256,
+    "train_ratio": 0.7,
+    "val_ratio": 0.15,
+    "seed": 12345,
+    "epochs": 16,
+    "batch_size": 32,
+    "lr": 0.0005,
+    "weight_decay": 0.0001,
+    "num_workers": 0,
+    "output_dir": "earth_ai_test_output_no_text_current"
+  }
+}

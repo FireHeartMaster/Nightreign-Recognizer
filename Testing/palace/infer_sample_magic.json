@@ -1,0 +1,27 @@
+{
+  "image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\Status_Magic.png",
+  "predicted_label": "Status_Magic",
+  "confidence": 0.6798801422119141,
+  "ranking": [
+    {
+      "label": "Status_Magic",
+      "probability": 0.6798801422119141
+    },
+    {
+      "label": "Status_Fire",
+      "probability": 0.32011985778808594
+    }
+  ],
+  "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\palace_status_cnn.pt",
+  "class_names": [
+    "Status_Fire",
+    "Status_Magic"
+  ],
+  "image_size": 200,
+  "meta": {
+    "best_epoch": 6,
+    "best_val_accuracy": 1.0,
+    "train_samples": 202,
+    "val_samples": 51
+  }
+}

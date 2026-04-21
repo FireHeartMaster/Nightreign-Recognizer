@@ -1,0 +1,45 @@
+{
+  "input_full_screenshot": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\Screenshots\\Screenshot (136).png",
+  "panel_crop_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\Screenshot_136_panel_crop_for_fortress_test.png",
+  "panel_shape": [
+    746,
+    746
+  ],
+  "asym_shape": [
+    1191,
+    1176
+  ],
+  "palace_anchor_reference": {
+    "x_asym_px_tl": 329,
+    "y_asym_px_tl": 251,
+    "crop_side": 200
+  },
+  "palace_crop_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\Screenshot_136_palace_crop_200.png",
+  "palace_crop_shape": [
+    200,
+    200
+  ],
+  "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\palace_status_cnn_retrain_latest.pt",
+  "class_names": [
+    "Status_Fire",
+    "Status_Magic"
+  ],
+  "predicted_label": "Status_Magic",
+  "confidence": 0.980654776096344,
+  "ranking": [
+    {
+      "label": "Status_Magic",
+      "probability": 0.980654776096344
+    },
+    {
+      "label": "Status_Fire",
+      "probability": 0.019345277920365334
+    }
+  ],
+  "model_meta": {
+    "best_epoch": 3,
+    "best_val_accuracy": 1.0,
+    "train_samples": 1802,
+    "val_samples": 451
+  }
+}

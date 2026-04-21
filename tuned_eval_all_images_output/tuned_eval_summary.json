@@ -1,0 +1,64 @@
+{
+  "counts": {
+    "total_images": 320,
+    "evaluated_without_runner_error": 320,
+    "correct_top1": 320,
+    "incorrect_top1": 0,
+    "runner_errors": 0
+  },
+  "overall": {
+    "count": 320,
+    "earth_top1_acc": 1.0,
+    "layout_top1_acc": 1.0,
+    "layout_top3_acc": 1.0,
+    "avg_true_rank": 1.0,
+    "avg_top1_margin": 19.701231923541247,
+    "avg_earth_margin": 0.04449928090907633,
+    "avg_slot_correct_rate": 0.7964466089466062,
+    "avg_slot_unknown_rate": 0.016001533189033197,
+    "avg_slot_wrong_label_rate": 0.0,
+    "avg_slot_false_empty_rate": 0.0,
+    "avg_slot_false_positive_empty_rate": 0.18755185786435763
+  },
+  "correct_cases": {
+    "count": 320,
+    "earth_top1_acc": 1.0,
+    "layout_top1_acc": 1.0,
+    "layout_top3_acc": 1.0,
+    "avg_true_rank": 1.0,
+    "avg_top1_margin": 19.701231923541247,
+    "avg_earth_margin": 0.04449928090907633,
+    "avg_slot_correct_rate": 0.7964466089466062,
+    "avg_slot_unknown_rate": 0.016001533189033197,
+    "avg_slot_wrong_label_rate": 0.0,
+    "avg_slot_false_empty_rate": 0.0,
+    "avg_slot_false_positive_empty_rate": 0.18755185786435763
+  },
+  "incorrect_cases": {
+    "count": 0,
+    "earth_top1_acc": null,
+    "layout_top1_acc": null,
+    "layout_top3_acc": null,
+    "avg_true_rank": null,
+    "avg_top1_margin": null,
+    "avg_earth_margin": null,
+    "avg_slot_correct_rate": null,
+    "avg_slot_unknown_rate": null,
+    "avg_slot_wrong_label_rate": null,
+    "avg_slot_false_empty_rate": null,
+    "avg_slot_false_positive_empty_rate": null
+  },
+  "wrong_vs_right_differences": {
+    "slot_unknown_rate_difference": null,
+    "slot_wrong_label_rate_difference": null,
+    "top1_margin_difference": null,
+    "earth_margin_difference": null
+  },
+  "failure_reason_counts": {},
+  "most_frequent_wrong_top1_layouts": [],
+  "most_frequent_wrong_earths": [],
+  "slots_most_often_unknown_in_failures": [],
+  "slots_most_often_wrong_in_failures": [],
+  "most_common_label_confusions_in_failures": [],
+  "wrong_cases": []
+}

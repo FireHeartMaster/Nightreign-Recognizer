@@ -1,0 +1,15 @@
+Shifting Earth: Mountaintop
+Source folder: tmp_mountaintop_both_crops_L256_R256_T256_B256/further_crop_1024
+Total images in this zip: 10
+
+Files:
+01. pattern_0020_further_crop_1024.png | Shifting Earth=Mountaintop
+02. pattern_0021_further_crop_1024.png | Shifting Earth=Mountaintop
+03. pattern_0022_further_crop_1024.png | Shifting Earth=Mountaintop
+04. pattern_0023_further_crop_1024.png | Shifting Earth=Mountaintop
+05. pattern_0024_further_crop_1024.png | Shifting Earth=Mountaintop
+06. pattern_0060_further_crop_1024.png | Shifting Earth=Mountaintop
+07. pattern_0061_further_crop_1024.png | Shifting Earth=Mountaintop
+08. pattern_0062_further_crop_1024.png | Shifting Earth=Mountaintop
+09. pattern_0063_further_crop_1024.png | Shifting Earth=Mountaintop
+10. pattern_0064_further_crop_1024.png | Shifting Earth=Mountaintop

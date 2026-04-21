@@ -1,0 +1,222 @@
+[
+  {
+    "layout": 1015,
+    "pred_top_left": "Fire",
+    "pred_bottom_right": "Holy",
+    "exp_top_left": "Fire",
+    "exp_bottom_right": "Holy",
+    "ok_top_left": true,
+    "ok_bottom_right": true,
+    "top_left_conf": "strong",
+    "bottom_right_conf": "strong"
+  },
+  {
+    "layout": 1016,
+    "pred_top_left": "Magic",
+    "pred_bottom_right": "Holy",
+    "exp_top_left": "Magic",
+    "exp_bottom_right": "Holy",
+    "ok_top_left": true,
+    "ok_bottom_right": true,
+    "top_left_conf": "strong",
+    "bottom_right_conf": "strong"
+  },
+  {
+    "layout": 1017,
+    "pred_top_left": "Magic",
+    "pred_bottom_right": "Rot",
+    "exp_top_left": "Magic",
+    "exp_bottom_right": "Rot",
+    "ok_top_left": true,
+    "ok_bottom_right": true,
+    "top_left_conf": "strong",
+    "bottom_right_conf": "strong"
+  },
+  {
+    "layout": 1018,
+    "pred_top_left": "Fire",
+    "pred_bottom_right": "Rot",
+    "exp_top_left": "Fire",
+    "exp_bottom_right": "Rot",
+    "ok_top_left": true,
+    "ok_bottom_right": true,
+    "top_left_conf": "strong",
+    "bottom_right_conf": "strong"
+  },
+  {
+    "layout": 1019,
+    "pred_top_left": "Fire",
+    "pred_bottom_right": "Rot",
+    "exp_top_left": "Fire",
+    "exp_bottom_right": "Rot",
+    "ok_top_left": true,
+    "ok_bottom_right": true,
+    "top_left_conf": "strong",
+    "bottom_right_conf": "strong"
+  },
+  {
+    "layout": 1025,
+    "pred_top_left": "Magic",
+    "pred_bottom_right": "Holy",
+    "exp_top_left": "Magic",
+    "exp_bottom_right": "Holy",
+    "ok_top_left": true,
+    "ok_bottom_right": true,
+    "top_left_conf": "strong",
+    "bottom_right_conf": "strong"
+  },
+  {
+    "layout": 1026,
+    "pred_top_left": "Magic",
+    "pred_bottom_right": "Holy",
+    "exp_top_left": "Magic",
+    "exp_bottom_right": "Holy",
+    "ok_top_left": true,
+    "ok_bottom_right": true,
+    "top_left_conf": "strong",
+    "bottom_right_conf": "strong"
+  },
+  {
+    "layout": 1027,
+    "pred_top_left": "Fire",
+    "pred_bottom_right": "Rot",
+    "exp_top_left": "Fire",
+    "exp_bottom_right": "Rot",
+    "ok_top_left": true,
+    "ok_bottom_right": true,
+    "top_left_conf": "strong",
+    "bottom_right_conf": "strong"
+  },
+  {
+    "layout": 1028,
+    "pred_top_left": "Magic",
+    "pred_bottom_right": "Holy",
+    "exp_top_left": "Magic",
+    "exp_bottom_right": "Holy",
+    "ok_top_left": true,
+    "ok_bottom_right": true,
+    "top_left_conf": "strong",
+    "bottom_right_conf": "strong"
+  },
+  {
+    "layout": 1029,
+    "pred_top_left": "Fire",
+    "pred_bottom_right": "Rot",
+    "exp_top_left": "Fire",
+    "exp_bottom_right": "Rot",
+    "ok_top_left": true,
+    "ok_bottom_right": true,
+    "top_left_conf": "strong",
+    "bottom_right_conf": "strong"
+  },
+  {
+    "layout": 1035,
+    "pred_top_left": "Magic",
+    "pred_bottom_right": "Holy",
+    "exp_top_left": "Magic",
+    "exp_bottom_right": "Holy",
+    "ok_top_left": true,
+    "ok_bottom_right": true,
+    "top_left_conf": "strong",
+    "bottom_right_conf": "strong"
+  },
+  {
+    "layout": 1036,
+    "pred_top_left": "Fire",
+    "pred_bottom_right": "Rot",
+    "exp_top_left": "Fire",
+    "exp_bottom_right": "Rot",
+    "ok_top_left": true,
+    "ok_bottom_right": true,
+    "top_left_conf": "strong",
+    "bottom_right_conf": "strong"
+  },
+  {
+    "layout": 1037,
+    "pred_top_left": "Magic",
+    "pred_bottom_right": "Rot",
+    "exp_top_left": "Magic",
+    "exp_bottom_right": "Rot",
+    "ok_top_left": true,
+    "ok_bottom_right": true,
+    "top_left_conf": "strong",
+    "bottom_right_conf": "strong"
+  },
+  {
+    "layout": 1038,
+    "pred_top_left": "Fire",
+    "pred_bottom_right": "Holy",
+    "exp_top_left": "Fire",
+    "exp_bottom_right": "Holy",
+    "ok_top_left": true,
+    "ok_bottom_right": true,
+    "top_left_conf": "strong",
+    "bottom_right_conf": "strong"
+  },
+  {
+    "layout": 1039,
+    "pred_top_left": "Fire",
+    "pred_bottom_right": "Rot",
+    "exp_top_left": "Fire",
+    "exp_bottom_right": "Rot",
+    "ok_top_left": true,
+    "ok_bottom_right": true,
+    "top_left_conf": "strong",
+    "bottom_right_conf": "strong"
+  },
+  {
+    "layout": 1045,
+    "pred_top_left": "Magic",
+    "pred_bottom_right": "Holy",
+    "exp_top_left": "Magic",
+    "exp_bottom_right": "Holy",
+    "ok_top_left": true,
+    "ok_bottom_right": true,
+    "top_left_conf": "strong",
+    "bottom_right_conf": "strong"
+  },
+  {
+    "layout": 1046,
+    "pred_top_left": "Fire",
+    "pred_bottom_right": "Holy",
+    "exp_top_left": "Fire",
+    "exp_bottom_right": "Holy",
+    "ok_top_left": true,
+    "ok_bottom_right": true,
+    "top_left_conf": "strong",
+    "bottom_right_conf": "strong"
+  },
+  {
+    "layout": 1047,
+    "pred_top_left": "Fire",
+    "pred_bottom_right": "Rot",
+    "exp_top_left": "Fire",
+    "exp_bottom_right": "Rot",
+    "ok_top_left": true,
+    "ok_bottom_right": true,
+    "top_left_conf": "strong",
+    "bottom_right_conf": "strong"
+  },
+  {
+    "layout": 1048,
+    "pred_top_left": "Magic",
+    "pred_bottom_right": "Rot",
+    "exp_top_left": "Magic",
+    "exp_bottom_right": "Rot",
+    "ok_top_left": true,
+    "ok_bottom_right": true,
+    "top_left_conf": "strong",
+    "bottom_right_conf": "strong"
+  },
+  {
+    "layout": 1049,
+    "pred_top_left": "Magic",
+    "pred_bottom_right": "Holy",
+    "exp_top_left": "Magic",
+    "exp_bottom_right": "Holy",
+    "ok_top_left": true,
+    "ok_bottom_right": true,
+    "top_left_conf": "strong",
+    "bottom_right_conf": "strong"
+  }
+]

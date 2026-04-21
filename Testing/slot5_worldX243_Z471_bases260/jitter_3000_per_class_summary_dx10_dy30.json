@@ -1,0 +1,46 @@
+{
+  "note": "slot5 jitters: 3000 per class; affine + reflected borders; 200x200 output",
+  "base_dir": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot5_worldX243_Z471_bases260",
+  "target_per_class": 3000,
+  "output_size": 200,
+  "max_dx": 10,
+  "max_dy": 30,
+  "classes": {
+    "Church": {
+      "output_dir": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot5_worldX243_Z471_bases260\\Church",
+      "generated": 3000,
+      "sources": [
+        "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot5_worldX243_Z471_bases260\\Church_1.png",
+        "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot5_worldX243_Z471_bases260\\Church_2.png"
+      ],
+      "per_source_counts": {
+        "Church_1": 1500,
+        "Church_2": 1500
+      }
+    },
+    "empty": {
+      "output_dir": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot5_worldX243_Z471_bases260\\empty",
+      "generated": 3000,
+      "sources": [
+        "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot5_worldX243_Z471_bases260\\empty.png"
+      ],
+      "per_source_counts": {
+        "empty": 3000
+      }
+    },
+    "Sorcerer_s_Rise": {
+      "output_dir": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot5_worldX243_Z471_bases260\\Sorcerer_s_Rise",
+      "generated": 3000,
+      "sources": [
+        "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot5_worldX243_Z471_bases260\\Sorcerer_s_Rise_1.png",
+        "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot5_worldX243_Z471_bases260\\Sorcerer_s_Rise_2.png",
+        "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot5_worldX243_Z471_bases260\\Sorcerer_s_Rise_3.png"
+      ],
+      "per_source_counts": {
+        "Sorcerer_s_Rise_1": 1000,
+        "Sorcerer_s_Rise_2": 1000,
+        "Sorcerer_s_Rise_3": 1000
+      }
+    }
+  }
+}

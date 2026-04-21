@@ -1,0 +1,16 @@
+{
+  "count": 80,
+  "accuracy": 1.0,
+  "confusion_true_sleep_lightning_pred_sleep_lightning": [
+    [
+      32,
+      0
+    ],
+    [
+      0,
+      48
+    ]
+  ],
+  "wrong_count": 0,
+  "wrong_examples": []
+}

@@ -1,0 +1,43 @@
+{
+  "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\slot6_status_cnn.pt",
+  "data_dir": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6",
+  "class_names": [
+    "Ruins_Bleed",
+    "Ruins_Poison"
+  ],
+  "image_size": 200,
+  "meta": {
+    "best_epoch": 12,
+    "best_val_accuracy": 1.0,
+    "train_samples": 196,
+    "val_samples": 49
+  },
+  "total": 245,
+  "correct": 245,
+  "accuracy": 1.0,
+  "class_metrics": [
+    {
+      "label": "Ruins_Bleed",
+      "count": 120,
+      "correct": 120,
+      "accuracy": 1.0
+    },
+    {
+      "label": "Ruins_Poison",
+      "count": 125,
+      "correct": 125,
+      "accuracy": 1.0
+    }
+  ],
+  "confusion_matrix": [
+    [
+      120,
+      0
+    ],
+    [
+      0,
+      125
+    ]
+  ],
+  "failures": []
+}

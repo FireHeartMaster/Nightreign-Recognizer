@@ -1,0 +1,66 @@
+{
+  "image": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\Screenshots\\Balancers_1080.png",
+  "raw_top_earth": "Rotted Woods",
+  "candidate_earth": "Rotted Woods",
+  "top_layout": 72,
+  "used_v2_default": true,
+  "cascade_disabled": true,
+  "timings": {
+    "capture_screenshot_or_use_pre_captured": 0.0008091999916359782,
+    "panel_crop_preview_initial": 0.025863999966531992,
+    "preview_callback": 0.0,
+    "detect_map_circle_main": 0.017445200006477535,
+    "panel_crop_first_pass": 1.2200092896819115e-05,
+    "panel_further_crop_normalize": 0.0012041000882163644,
+    "earth_selector_ranking": 0.8603646999690682,
+    "slot_observation_classification_total": 0.18917650007642806,
+    "geometry_prior_computation": 6.5999338403344154e-06,
+    "lost_slot_prior_computation": 1.100008375942707e-06,
+    "hard_constraint_prior_computation": 1.200009137392044e-06,
+    "evergaol_prior_detection": 0.3502652000170201,
+    "status_icon_detection": 8.375865299953148,
+    "dual_shot_second_status_detection": 0.0,
+    "earth_cascade_ranking": 0.0,
+    "layout_classifier_inference": 0.14010389999020845,
+    "layout_identification_scoring": 0.0011845999397337437,
+    "layout_sort_and_select": 8.600065484642982e-06,
+    "debug_annotation_rendering": 0.19495020003523678,
+    "display_path_resolution": 0.0908773000119254,
+    "total_run": 10.616415799944662
+  },
+  "earth_top3": [
+    {
+      "name": "Rotted Woods",
+      "score": 0.1974330097436905,
+      "details": {
+        "source": "earth_selector_v2",
+        "ai_prob": 0.1974330097436905,
+        "unknown": true,
+        "confidence": 0.1974330097436905,
+        "margin_top1_top2": 0.008176028728485107
+      }
+    },
+    {
+      "name": "Limveld",
+      "score": 0.18925698101520538,
+      "details": {
+        "source": "earth_selector_v2",
+        "ai_prob": 0.18925698101520538,
+        "unknown": true,
+        "confidence": 0.1974330097436905,
+        "margin_top1_top2": 0.008176028728485107
+      }
+    },
+    {
+      "name": "Mountaintop",
+      "score": 0.18560846149921417,
+      "details": {
+        "source": "earth_selector_v2",
+        "ai_prob": 0.18560846149921417,
+        "unknown": true,
+        "confidence": 0.1974330097436905,
+        "margin_top1_top2": 0.008176028728485107
+      }
+    }
+  ]
+}

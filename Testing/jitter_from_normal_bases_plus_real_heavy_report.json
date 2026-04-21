@@ -1,0 +1,80 @@
+[
+  {
+    "normal": "Testing\\slot_4",
+    "heavy": "Testing\\slot_4_plus_real_heavy",
+    "class": "Church",
+    "source": "Church.png",
+    "created": 1000
+  },
+  {
+    "normal": "Testing\\slot_4",
+    "heavy": "Testing\\slot_4_plus_real_heavy",
+    "class": "empty",
+    "source": "empty.png",
+    "created": 1000
+  },
+  {
+    "normal": "Testing\\slot_4",
+    "heavy": "Testing\\slot_4_plus_real_heavy",
+    "class": "Sorcerer_s_Rise",
+    "source": "Sorcerer_s_Rise.png",
+    "created": 1000
+  },
+  {
+    "normal": "Testing\\slot_4",
+    "heavy": "Testing\\slot_4_plus_real_heavy",
+    "created_total_pair": 3000
+  },
+  {
+    "normal": "Testing\\slot_5",
+    "heavy": "Testing\\slot_5_plus_real_heavy",
+    "class": "Church",
+    "source": "Church.png",
+    "created": 1000
+  },
+  {
+    "normal": "Testing\\slot_5",
+    "heavy": "Testing\\slot_5_plus_real_heavy",
+    "class": "empty",
+    "source": "empty.png",
+    "created": 1000
+  },
+  {
+    "normal": "Testing\\slot_5",
+    "heavy": "Testing\\slot_5_plus_real_heavy",
+    "class": "Sorcerer_s_Rise",
+    "source": "Sorcerer_s_Rise.png",
+    "created": 1000
+  },
+  {
+    "normal": "Testing\\slot_5",
+    "heavy": "Testing\\slot_5_plus_real_heavy",
+    "created_total_pair": 3000
+  },
+  {
+    "normal": "Testing\\slot_7",
+    "heavy": "Testing\\slot_7_plus_real_heavy",
+    "class": "Church",
+    "source": "Church.png",
+    "created": 1000
+  },
+  {
+    "normal": "Testing\\slot_7",
+    "heavy": "Testing\\slot_7_plus_real_heavy",
+    "class": "empty",
+    "source": "empty.png",
+    "created": 1000
+  },
+  {
+    "normal": "Testing\\slot_7",
+    "heavy": "Testing\\slot_7_plus_real_heavy",
+    "class": "Sorcerer_s_Rise",
+    "source": "Sorcerer_s_Rise.png",
+    "created": 1000
+  },
+  {
+    "normal": "Testing\\slot_7",
+    "heavy": "Testing\\slot_7_plus_real_heavy",
+    "created_total_pair": 3000
+  }
+]

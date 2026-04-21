@@ -1,0 +1,118 @@
+{
+  "dataset": "slot_6_fixed_geometry_panel_bases260",
+  "source_dir": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop",
+  "fixed_geometry": {
+    "source": "gh_asym_legacy",
+    "center_norm_asym": [
+      0.12090680100755667,
+      0.6215986394557823
+    ],
+    "converted_panel_ref_1536": {
+      "x": 319.0,
+      "y": 911.0
+    },
+    "target_size": 260,
+    "native_side_formula": "round((260/1536) * panel_w)",
+    "center_formula": "round((panel_ref_center/1536) * panel_dim)"
+  },
+  "samples": [
+    {
+      "source_panel": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop\\1115_panel_crop.png",
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "crop_rect": {
+        "x": 183,
+        "y": 758,
+        "size": 252
+      },
+      "output_base_260": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6_fixed_geometry_panel_bases260\\1115_panel_crop__slot6_panel260_fixed.png",
+      "output_overlay": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6_fixed_geometry_panel_bases260\\1115_panel_crop__slot6_panel260_fixed_overlay.png"
+    },
+    {
+      "source_panel": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop\\1119_panel_crop.png",
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "crop_rect": {
+        "x": 183,
+        "y": 758,
+        "size": 252
+      },
+      "output_base_260": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6_fixed_geometry_panel_bases260\\1119_panel_crop__slot6_panel260_fixed.png",
+      "output_overlay": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6_fixed_geometry_panel_bases260\\1119_panel_crop__slot6_panel260_fixed_overlay.png"
+    },
+    {
+      "source_panel": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop\\1120_panel_crop.png",
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "crop_rect": {
+        "x": 183,
+        "y": 758,
+        "size": 252
+      },
+      "output_base_260": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6_fixed_geometry_panel_bases260\\1120_panel_crop__slot6_panel260_fixed.png",
+      "output_overlay": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6_fixed_geometry_panel_bases260\\1120_panel_crop__slot6_panel260_fixed_overlay.png"
+    },
+    {
+      "source_panel": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop\\1128_panel_crop.png",
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "crop_rect": {
+        "x": 183,
+        "y": 758,
+        "size": 252
+      },
+      "output_base_260": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6_fixed_geometry_panel_bases260\\1128_panel_crop__slot6_panel260_fixed.png",
+      "output_overlay": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6_fixed_geometry_panel_bases260\\1128_panel_crop__slot6_panel260_fixed_overlay.png"
+    },
+    {
+      "source_panel": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop\\1175_panel_crop.png",
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "crop_rect": {
+        "x": 183,
+        "y": 758,
+        "size": 252
+      },
+      "output_base_260": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6_fixed_geometry_panel_bases260\\1175_panel_crop__slot6_panel260_fixed.png",
+      "output_overlay": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6_fixed_geometry_panel_bases260\\1175_panel_crop__slot6_panel260_fixed_overlay.png"
+    },
+    {
+      "source_panel": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop\\1181_panel_crop.png",
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "crop_rect": {
+        "x": 183,
+        "y": 758,
+        "size": 252
+      },
+      "output_base_260": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6_fixed_geometry_panel_bases260\\1181_panel_crop__slot6_panel260_fixed.png",
+      "output_overlay": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6_fixed_geometry_panel_bases260\\1181_panel_crop__slot6_panel260_fixed_overlay.png"
+    },
+    {
+      "source_panel": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop\\1185_panel_crop.png",
+      "panel_shape": {
+        "w": 1490,
+        "h": 1490
+      },
+      "crop_rect": {
+        "x": 183,
+        "y": 758,
+        "size": 252
+      },
+      "output_base_260": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6_fixed_geometry_panel_bases260\\1185_panel_crop__slot6_panel260_fixed.png",
+      "output_overlay": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6_fixed_geometry_panel_bases260\\1185_panel_crop__slot6_panel260_fixed_overlay.png"
+    }
+  ]
+}

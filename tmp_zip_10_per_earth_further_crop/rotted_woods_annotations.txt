@@ -1,0 +1,15 @@
+Shifting Earth: Rotted Woods
+Source folder: tmp_rotted_woods_both_crops_L256_R256_T256_B256/further_crop_1024
+Total images in this zip: 10
+
+Files:
+01. pattern_0030_further_crop_1024.png | Shifting Earth=Rotted Woods
+02. pattern_0031_further_crop_1024.png | Shifting Earth=Rotted Woods
+03. pattern_0032_further_crop_1024.png | Shifting Earth=Rotted Woods
+04. pattern_0033_further_crop_1024.png | Shifting Earth=Rotted Woods
+05. pattern_0034_further_crop_1024.png | Shifting Earth=Rotted Woods
+06. pattern_0070_further_crop_1024.png | Shifting Earth=Rotted Woods
+07. pattern_0071_further_crop_1024.png | Shifting Earth=Rotted Woods
+08. pattern_0072_further_crop_1024.png | Shifting Earth=Rotted Woods
+09. pattern_0073_further_crop_1024.png | Shifting Earth=Rotted Woods
+10. pattern_0074_further_crop_1024.png | Shifting Earth=Rotted Woods

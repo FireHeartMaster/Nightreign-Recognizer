@@ -1,0 +1,200 @@
+{
+  "screenshot": "C:\\Users\\eduar\\Downloads\\Captura de tela 2026-04-16 151126.png",
+  "crop_method": "gray_hough",
+  "panel_shape": [
+    1536,
+    1536
+  ],
+  "top5": [
+    {
+      "layout_number": 1025,
+      "score": -2.092087818489168,
+      "status_slots": [
+        {
+          "slot_id": 2,
+          "expected": "PalaceMagic",
+          "observed_best": "empty",
+          "observed_best_prob": 0.4821411924031456,
+          "observed_second": "PalaceMagic",
+          "observed_second_prob": 0.2613292280227474
+        },
+        {
+          "slot_id": 3,
+          "expected": "GreatChurchTopRightLightning",
+          "observed_best": "GreatChurchTopRightLightning",
+          "observed_best_prob": 0.4839115971076683,
+          "observed_second": "GreatChurchTopRightSleep",
+          "observed_second_prob": 0.46754475917862315
+        },
+        {
+          "slot_id": 7,
+          "expected": "RuinsPoison",
+          "observed_best": "RuinsBleed",
+          "observed_best_prob": 0.45014103738263167,
+          "observed_second": "RuinsPoison",
+          "observed_second_prob": 0.4420565780062405
+        },
+        {
+          "slot_id": 8,
+          "expected": "FortressHoly",
+          "observed_best": "empty",
+          "observed_best_prob": 0.9975546688866395,
+          "observed_second": "FortressHoly",
+          "observed_second_prob": 0.001239191526983619
+        }
+      ]
+    },
+    {
+      "layout_number": 1193,
+      "score": -2.092087818489168,
+      "status_slots": [
+        {
+          "slot_id": 2,
+          "expected": "PalaceMagic",
+          "observed_best": "empty",
+          "observed_best_prob": 0.4821411924031456,
+          "observed_second": "PalaceMagic",
+          "observed_second_prob": 0.2613292280227474
+        },
+        {
+          "slot_id": 3,
+          "expected": "GreatChurchTopRightLightning",
+          "observed_best": "GreatChurchTopRightLightning",
+          "observed_best_prob": 0.4839115971076683,
+          "observed_second": "GreatChurchTopRightSleep",
+          "observed_second_prob": 0.46754475917862315
+        },
+        {
+          "slot_id": 7,
+          "expected": "RuinsPoison",
+          "observed_best": "RuinsBleed",
+          "observed_best_prob": 0.45014103738263167,
+          "observed_second": "RuinsPoison",
+          "observed_second_prob": 0.4420565780062405
+        },
+        {
+          "slot_id": 8,
+          "expected": "FortressHoly",
+          "observed_best": "empty",
+          "observed_best_prob": 0.9975546688866395,
+          "observed_second": "FortressHoly",
+          "observed_second_prob": 0.001239191526983619
+        }
+      ]
+    },
+    {
+      "layout_number": 1186,
+      "score": -2.0921292157776095,
+      "status_slots": [
+        {
+          "slot_id": 2,
+          "expected": "PalaceFire",
+          "observed_best": "empty",
+          "observed_best_prob": 0.4821411924031456,
+          "observed_second": "PalaceMagic",
+          "observed_second_prob": 0.2613292280227474
+        },
+        {
+          "slot_id": 3,
+          "expected": "GreatChurchTopRightLightning",
+          "observed_best": "GreatChurchTopRightLightning",
+          "observed_best_prob": 0.4839115971076683,
+          "observed_second": "GreatChurchTopRightSleep",
+          "observed_second_prob": 0.46754475917862315
+        },
+        {
+          "slot_id": 7,
+          "expected": "RuinsBleed",
+          "observed_best": "RuinsBleed",
+          "observed_best_prob": 0.45014103738263167,
+          "observed_second": "RuinsPoison",
+          "observed_second_prob": 0.4420565780062405
+        },
+        {
+          "slot_id": 8,
+          "expected": "FortressHoly",
+          "observed_best": "empty",
+          "observed_best_prob": 0.9975546688866395,
+          "observed_second": "FortressHoly",
+          "observed_second_prob": 0.001239191526983619
+        }
+      ]
+    },
+    {
+      "layout_number": 1048,
+      "score": -2.092978945181463,
+      "status_slots": [
+        {
+          "slot_id": 2,
+          "expected": "PalaceMagic",
+          "observed_best": "empty",
+          "observed_best_prob": 0.4821411924031456,
+          "observed_second": "PalaceMagic",
+          "observed_second_prob": 0.2613292280227474
+        },
+        {
+          "slot_id": 3,
+          "expected": "GreatChurchTopRightLightning",
+          "observed_best": "GreatChurchTopRightLightning",
+          "observed_best_prob": 0.4839115971076683,
+          "observed_second": "GreatChurchTopRightSleep",
+          "observed_second_prob": 0.46754475917862315
+        },
+        {
+          "slot_id": 7,
+          "expected": "RuinsBleed",
+          "observed_best": "RuinsBleed",
+          "observed_best_prob": 0.45014103738263167,
+          "observed_second": "RuinsPoison",
+          "observed_second_prob": 0.4420565780062405
+        },
+        {
+          "slot_id": 8,
+          "expected": "FortressRot",
+          "observed_best": "empty",
+          "observed_best_prob": 0.9975546688866395,
+          "observed_second": "FortressHoly",
+          "observed_second_prob": 0.001239191526983619
+        }
+      ]
+    },
+    {
+      "layout_number": 1192,
+      "score": -2.092978945181463,
+      "status_slots": [
+        {
+          "slot_id": 2,
+          "expected": "PalaceMagic",
+          "observed_best": "empty",
+          "observed_best_prob": 0.4821411924031456,
+          "observed_second": "PalaceMagic",
+          "observed_second_prob": 0.2613292280227474
+        },
+        {
+          "slot_id": 3,
+          "expected": "GreatChurchTopRightLightning",
+          "observed_best": "GreatChurchTopRightLightning",
+          "observed_best_prob": 0.4839115971076683,
+          "observed_second": "GreatChurchTopRightSleep",
+          "observed_second_prob": 0.46754475917862315
+        },
+        {
+          "slot_id": 7,
+          "expected": "RuinsBleed",
+          "observed_best": "RuinsBleed",
+          "observed_best_prob": 0.45014103738263167,
+          "observed_second": "RuinsPoison",
+          "observed_second_prob": 0.4420565780062405
+        },
+        {
+          "slot_id": 8,
+          "expected": "FortressRot",
+          "observed_best": "empty",
+          "observed_best_prob": 0.9975546688866395,
+          "observed_second": "FortressHoly",
+          "observed_second_prob": 0.001239191526983619
+        }
+      ]
+    }
+  ]
+}

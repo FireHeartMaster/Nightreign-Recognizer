@@ -1,0 +1,24 @@
+{
+  "input_panel": "tmp_gc_model_test_on_shared\\query_panel.png",
+  "runs": 3,
+  "current_icon_only_ms": {
+    "values": [
+      17912.502,
+      18546.528,
+      17911.568
+    ],
+    "mean": 18123.533,
+    "median": 17912.502
+  },
+  "hybrid_icon_plus_3_models_ms": {
+    "values": [
+      18048.451,
+      18041.986,
+      18307.668
+    ],
+    "mean": 18132.702,
+    "median": 18048.451
+  },
+  "delta_hybrid_minus_current_ms": 9.169,
+  "delta_percent": 0.05
+}

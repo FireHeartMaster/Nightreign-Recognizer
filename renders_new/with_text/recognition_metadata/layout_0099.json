@@ -1,0 +1,206 @@
+{
+  "layout_number": 99,
+  "shifting_earth": "Limveld",
+  "map_layout": "Limveld",
+  "width": 1536,
+  "height": 1536,
+  "slot_labels": [
+    "Ruins",
+    "Great Church",
+    "Sorcerer's Rise",
+    "Ruins",
+    "Fort",
+    "Main Encampment",
+    "Church",
+    "Great Church",
+    "empty",
+    "empty",
+    "Sorcerer's Rise",
+    "Ruins",
+    "Great Church",
+    "Main Encampment",
+    "Ruins",
+    "empty",
+    "empty",
+    "Fort",
+    "Ruins",
+    "empty",
+    "Fort",
+    "Main Encampment",
+    "empty",
+    "Church",
+    "Fort",
+    "Ruins",
+    "Church"
+  ],
+  "landmarks": [
+    {
+      "type": "Church",
+      "icon": "Church",
+      "x": 336.0,
+      "y": 542.0,
+      "x_norm": 0.21875,
+      "y_norm": 0.3528645833333333
+    },
+    {
+      "type": "Church",
+      "icon": "Church",
+      "x": 310.0,
+      "y": 1090.0,
+      "x_norm": 0.20182291666666666,
+      "y_norm": 0.7096354166666666
+    },
+    {
+      "type": "Church",
+      "icon": "Church",
+      "x": 874.0,
+      "y": 1224.0,
+      "x_norm": 0.5690104166666666,
+      "y_norm": 0.796875
+    },
+    {
+      "type": "Fort",
+      "icon": "Fort",
+      "x": 969.0,
+      "y": 448.0,
+      "x_norm": 0.630859375,
+      "y_norm": 0.2916666666666667
+    },
+    {
+      "type": "Fort",
+      "icon": "Fort",
+      "x": 971.0,
+      "y": 905.0,
+      "x_norm": 0.6321614583333334,
+      "y_norm": 0.5891927083333334
+    },
+    {
+      "type": "Fort",
+      "icon": "Fort",
+      "x": 429.0,
+      "y": 1003.0,
+      "x_norm": 0.279296875,
+      "y_norm": 0.6529947916666666
+    },
+    {
+      "type": "Fort",
+      "icon": "Fort",
+      "x": 1147.0,
+      "y": 1132.0,
+      "x_norm": 0.7467447916666666,
+      "y_norm": 0.7369791666666666
+    },
+    {
+      "type": "Great Church",
+      "icon": "Great Church",
+      "x": 1096.0,
+      "y": 330.0,
+      "x_norm": 0.7135416666666666,
+      "y_norm": 0.21484375
+    },
+    {
+      "type": "Great Church",
+      "icon": "Great Church",
+      "x": 1196.0,
+      "y": 543.0,
+      "x_norm": 0.7786458333333334,
+      "y_norm": 0.353515625
+    },
+    {
+      "type": "Great Church",
+      "icon": "Great Church",
+      "x": 437.0,
+      "y": 684.0,
+      "x_norm": 0.2845052083333333,
+      "y_norm": 0.4453125
+    },
+    {
+      "type": "Main Encampment",
+      "icon": "Camp",
+      "x": 640.0,
+      "y": 461.0,
+      "x_norm": 0.4166666666666667,
+      "y_norm": 0.3001302083333333
+    },
+    {
+      "type": "Main Encampment",
+      "icon": "Camp",
+      "x": 1022.0,
+      "y": 710.0,
+      "x_norm": 0.6653645833333334,
+      "y_norm": 0.4622395833333333
+    },
+    {
+      "type": "Main Encampment",
+      "icon": "Camp",
+      "x": 941.0,
+      "y": 1054.0,
+      "x_norm": 0.6126302083333334,
+      "y_norm": 0.6861979166666666
+    },
+    {
+      "type": "Ruins",
+      "icon": "Ruins",
+      "x": 616.0,
+      "y": 273.0,
+      "x_norm": 0.4010416666666667,
+      "y_norm": 0.177734375
+    },
+    {
+      "type": "Ruins",
+      "icon": "Ruins",
+      "x": 354.0,
+      "y": 429.0,
+      "x_norm": 0.23046875,
+      "y_norm": 0.279296875
+    },
+    {
+      "type": "Ruins",
+      "icon": "Ruins",
+      "x": 898.0,
+      "y": 653.0,
+      "x_norm": 0.5846354166666666,
+      "y_norm": 0.4251302083333333
+    },
+    {
+      "type": "Ruins",
+      "icon": "Ruins",
+      "x": 492.0,
+      "y": 846.0,
+      "x_norm": 0.3203125,
+      "y_norm": 0.55078125
+    },
+    {
+      "type": "Ruins",
+      "icon": "Ruins",
+      "x": 1156.0,
+      "y": 964.0,
+      "x_norm": 0.7526041666666666,
+      "y_norm": 0.6276041666666666
+    },
+    {
+      "type": "Ruins",
+      "icon": "Ruins",
+      "x": 611.0,
+      "y": 1201.0,
+      "x_norm": 0.3977864583333333,
+      "y_norm": 0.7819010416666666
+    },
+    {
+      "type": "Sorcerer's Rise",
+      "icon": "Sorcerer's Rise",
+      "x": 824.0,
+      "y": 340.0,
+      "x_norm": 0.5364583333333334,
+      "y_norm": 0.22135416666666666
+    },
+    {
+      "type": "Sorcerer's Rise",
+      "icon": "Sorcerer's Rise",
+      "x": 1191.0,
+      "y": 649.0,
+      "x_norm": 0.775390625,
+      "y_norm": 0.4225260416666667
+    }
+  ]
+}

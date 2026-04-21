@@ -1,0 +1,43 @@
+{
+  "run_id": "20260417_184138",
+  "monitor_index": 1,
+  "capture_shape": [
+    3840,
+    2160
+  ],
+  "crop_method": "blue_ring",
+  "crop_box": {
+    "x0": 2166,
+    "y0": 335,
+    "x1": 3669,
+    "y1": 1837
+  },
+  "panel_shape": [
+    1503,
+    1502
+  ],
+  "further_shape": [
+    1024,
+    1024
+  ],
+  "prediction": {
+    "label": "Rotted Woods",
+    "unknown": false,
+    "decided_label": "Rotted Woods",
+    "confidence": 0.2392367571592331,
+    "margin_top1_top2": 0.05465468764305115
+  },
+  "timings_sec": {
+    "capture_monitor1": 0.16291530011221766,
+    "panel_crop": 2.395729499985464,
+    "further_crop_normalize": 0.0012601999333128333,
+    "infer_v2": 0.03168549994006753,
+    "total": 3.1326983999460936
+  },
+  "artifacts": {
+    "full_screenshot": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\tmp_monitor1_v2_infer_test\\run_20260417_184138\\monitor1_full_screenshot.png",
+    "panel_crop": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\tmp_monitor1_v2_infer_test\\run_20260417_184138\\monitor1_panel_crop.png",
+    "further_crop_1024": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\tmp_monitor1_v2_infer_test\\run_20260417_184138\\monitor1_further_crop_1024.png",
+    "infer_result_json": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Train_Earth_Selector_v2\\tmp_monitor1_v2_infer_test\\run_20260417_184138\\infer_result.json"
+  }
+}

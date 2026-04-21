@@ -1,0 +1,117 @@
+Display directory: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\renders\recognizer_with_text
+Log file: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\recognition.log
+Selected display: Display 1 — 3840x2160 @ (0,0)
+Loaded tuned proto backend: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\recognize_nightreign_map_proto_v12_debugplus_radiusscale_fix.py
+Using tuned config path: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\nightreign_best_tuned_config_multi.json
+Using slot package path: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\nightreign_geom_proto_v4_slots.npz
+Using AI slot model path: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\slot_ai_test_output_dlc_no_text_nobalance\slot_patch_model_v1.pt
+Loaded AI slot model: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\slot_ai_test_output_dlc_no_text_nobalance\slot_patch_model_v1.pt
+AI device: cuda
+AI model patch_size=96 context_scale=1.8 min_half_frac=0.075
+Using AI earth model path: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\earth_ai_test_output_no_text_prepped\earth_panel_model_v1.pt
+Loaded AI earth model: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\earth_ai_test_output_no_text_prepped\earth_panel_model_v1.pt
+AI earth panel_size=256
+Using AI confidence_threshold=0.550
+Using AI margin_threshold=0.080
+Using trained AI slot classifier for slot recognition.
+Using pre-captured first screenshot from dual-shot trigger.
+[START] Run AI slot recognizer
+Using earth_selector_v2 script path: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\Train_Earth_Selector_v2\infer_earth_selector_v2.py
+Using earth_selector_v2 model path: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\Train_Earth_Selector_v2\earth_selector_v2_model_all520_plus_new.pkl
+Loaded earth_selector_v2 model: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\Train_Earth_Selector_v2\earth_selector_v2_model_all520_plus_new.pkl
+Using earth_selector_v2 model for Shifting Earth ranking.
+Shifting Earth ranking:
+  Rotted Woods   score=0.197433 low_corr=0.0000 grad_corr=0.0000 source=earth_selector_v2
+  Limveld        score=0.189257 low_corr=0.0000 grad_corr=0.0000 source=earth_selector_v2
+  Mountaintop    score=0.185608 low_corr=0.0000 grad_corr=0.0000 source=earth_selector_v2
+  Noklateo       score=0.179035 low_corr=0.0000 grad_corr=0.0000 source=earth_selector_v2
+  The Crater     score=0.172283 low_corr=0.0000 grad_corr=0.0000 source=earth_selector_v2
+Evaluating structural earth cascade across 6 families.
+AI slots for earth Rotted Woods: dx=-0.0002 dy=+0.0500 resp=0.0636 unknown=0/21
+AI slots for earth Limveld: dx=-0.0004 dy=+0.0500 resp=0.0666 unknown=2/27
+AI slots for earth Mountaintop: dx=-0.0005 dy=+0.0500 resp=0.0694 unknown=2/22
+AI slots for earth Noklateo: dx=+0.0003 dy=+0.0500 resp=0.0563 unknown=1/21
+AI slots for earth The Crater: dx=-0.0004 dy=+0.0500 resp=0.0724 unknown=2/22
+AI slots for earth Great Hollow: dx=-0.0001 dy=-0.0500 resp=0.0641 unknown=0/7
+Geometry prior for Rotted Woods: slot_count=21 align=0.0636 prior=+0.0000
+Geometry prior for Limveld: slot_count=27 align=0.0666 prior=+0.0019
+Geometry prior for Mountaintop: slot_count=22 align=0.0694 prior=+0.0040
+Geometry prior for Noklateo: slot_count=21 align=0.0563 prior=+0.0000
+Geometry prior for The Crater: slot_count=22 align=0.0724 prior=+0.0062
+Geometry prior for Great Hollow: slot_count=7 align=0.0641 prior=-0.0165
+Lost-slot prior for Rotted Woods: lost_slots=6 prior=-0.0037
+Lost-slot prior for Limveld: lost_slots=0 prior=+0.0000
+Lost-slot prior for Mountaintop: lost_slots=6 prior=-0.5677
+Lost-slot prior for Noklateo: lost_slots=6 prior=-0.0210
+Lost-slot prior for The Crater: lost_slots=6 prior=-0.5839
+Lost-slot prior for Great Hollow: lost_slots=0 prior=+0.0000
+Hard constraint prior for Great Hollow: prior=-1.6531
+Evergaol prior for Rotted Woods: prior=+0.1818
+Evergaol prior for Limveld: prior=+0.2388
+Evergaol prior for Mountaintop: prior=+0.0037
+Evergaol prior for Noklateo: prior=+0.1855
+Evergaol prior for The Crater: prior=-0.0480
+Evergaol prior for Great Hollow: prior=-0.2653
+Great Hollow status Palace: best=Status_Magic score=0.6680 margin=0.5631
+Great Hollow status Fortress: best=Status_Holy score=0.6334 margin=0.0799
+Great Hollow status Ruins: best=Status_Poison score=0.6306 margin=0.0834
+Great Hollow status Great Church: best=Status_Sleep score=0.7407 margin=0.6711
+Shifting Earth cascade ranking:
+  Limveld        score=0.560821 base=0.189257 geom=+0.0019 lost=+0.0000 hard=+0.0000 ever=+0.2388
+  Rotted Woods   score=0.487221 base=0.197433 geom=+0.0000 lost=-0.0037 hard=+0.0000 ever=+0.1818
+  Noklateo       score=0.445793 base=0.179035 geom=+0.0000 lost=-0.0210 hard=+0.0000 ever=+0.1855
+  Mountaintop    score=-0.525450 base=0.185608 geom=+0.0040 lost=-0.5677 hard=+0.0000 ever=+0.0037
+  The Crater     score=-0.631565 base=0.172283 geom=+0.0062 lost=-0.5839 hard=+0.0000 ever=-0.0480
+Restricting layout ranking to Limveld family only after cascade.
+Loaded layout infer classifier for Limveld: C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\tmp_limveld_both_crops_L256_R256_T256_B256\further_crop_1024\layout_model.pkl
+Layout infer for Limveld: unknown-gated pattern=1156 margin=0.2600 conf=0.8312 latency=34.37ms
+[DONE] Run AI slot recognizer (11.886s)
+Saved AI slot debug image to c:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\tmp_runtime\compat_tempdirs\nightreign_gui_ai_7da6e6b637\recognition_panel_used_with_slot_labels_ai.png
+Saved Evergaol debug image to c:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\tmp_runtime\compat_tempdirs\nightreign_gui_ai_7da6e6b637\recognition_panel_used_with_evergaol_debug.png
+
+Top 20 layout matches:
+  1. layout #1 earth=Limveld score=-4.772450 earth_score=0.189257 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=19.22 mismW=21.10 unkW=3.32
+  2. layout #170 earth=Limveld score=-4.805483 earth_score=0.189257 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=14.26 mismW=26.06 unkW=3.32
+  3. layout #40 earth=Limveld score=-4.960893 earth_score=0.189257 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=14.33 mismW=25.99 unkW=3.32
+  4. layout #290 earth=Limveld score=-5.141915 earth_score=0.189257 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=11.12 mismW=29.20 unkW=3.32
+  5. layout #215 earth=Limveld score=-5.208052 earth_score=0.189257 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=12.88 mismW=27.44 unkW=3.32
+  6. layout #56 earth=Limveld score=-5.297722 earth_score=0.189257 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=12.68 mismW=27.64 unkW=3.32
+  7. layout #176 earth=Limveld score=-5.301496 earth_score=0.189257 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=10.97 mismW=29.35 unkW=3.32
+  8. layout #169 earth=Limveld score=-5.344482 earth_score=0.189257 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=14.39 mismW=25.93 unkW=3.32
+  9. layout #242 earth=Limveld score=-5.369469 earth_score=0.189257 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=11.21 mismW=29.11 unkW=3.32
+  10. layout #1002 earth=Limveld score=-5.386648 earth_score=0.189257 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=14.25 mismW=26.07 unkW=3.32
+  11. layout #2 earth=Limveld score=-5.486664 earth_score=0.189257 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=12.76 mismW=27.56 unkW=3.32
+  12. layout #88 earth=Limveld score=-5.499067 earth_score=0.189257 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=11.09 mismW=29.23 unkW=3.32
+  13. layout #250 earth=Limveld score=-5.499268 earth_score=0.189257 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=12.78 mismW=27.54 unkW=3.32
+  14. layout #121 earth=Limveld score=-5.502417 earth_score=0.189257 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=12.46 mismW=27.87 unkW=3.32
+  15. layout #213 earth=Limveld score=-5.514094 earth_score=0.189257 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=12.62 mismW=27.71 unkW=3.32
+  16. layout #18 earth=Limveld score=-5.516468 earth_score=0.189257 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=14.47 mismW=25.85 unkW=3.32
+  17. layout #295 earth=Limveld score=-5.535022 earth_score=0.189257 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=13.04 mismW=27.28 unkW=3.32
+  18. layout #254 earth=Limveld score=-5.538398 earth_score=0.189257 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=9.73 mismW=30.59 unkW=3.32
+  19. layout #202 earth=Limveld score=-5.555686 earth_score=0.189257 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=11.22 mismW=29.10 unkW=3.32
+  20. layout #1144 earth=Limveld score=-5.564385 earth_score=0.189257 gh_status=+0.0000 gh_under=+0.0000 layout_infer=+0.0000 exactW=12.57 mismW=27.75 unkW=3.32
+
+Timing breakdown:
+  capture_screenshot_or_use_pre_captured: 0.001s
+  panel_crop_preview_initial: 0.023s
+  preview_callback: 0.000s
+  detect_map_circle_main: 0.020s
+  panel_crop_first_pass: 0.000s
+  panel_further_crop_normalize: 0.002s
+  earth_selector_ranking: 0.898s
+  slot_observation_classification_total: 0.495s
+  geometry_prior_computation: 0.000s
+  lost_slot_prior_computation: 0.001s
+  hard_constraint_prior_computation: 0.000s
+  evergaol_prior_detection: 0.439s
+  status_icon_detection: 9.804s
+  dual_shot_second_status_detection: 0.000s
+  earth_cascade_ranking: 0.000s
+  layout_classifier_inference: 0.103s
+  layout_identification_scoring: 0.007s
+  layout_sort_and_select: 0.000s
+  debug_annotation_rendering: 0.203s
+  display_path_resolution: 0.092s
+  total_run: 12.498s
+Resolved 5 display image(s) for preview/result view.
+GUI total execution time: 12.498s

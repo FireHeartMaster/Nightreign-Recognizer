@@ -1,0 +1,42 @@
+{
+  "train_count": 56,
+  "val_count": 24,
+  "all_count": 80,
+  "train_metrics": {
+    "count": 56,
+    "accuracy": 1.0,
+    "confusion_true_poison_bleed_pred_poison_bleed": [
+      [
+        36,
+        0
+      ],
+      [
+        0,
+        20
+      ]
+    ]
+  },
+  "val_metrics": {
+    "count": 24,
+    "accuracy": 1.0,
+    "confusion_true_poison_bleed_pred_poison_bleed": [
+      [
+        15,
+        0
+      ],
+      [
+        0,
+        9
+      ]
+    ]
+  },
+  "config": {
+    "epochs": 30,
+    "batch_size": 16,
+    "lr": 0.001,
+    "crop_size": 36,
+    "out_size": 40,
+    "seed": 42
+  },
+  "model_path": "tmp_ruins_poison_bleed_test\\ruins_poison_bleed_test_model.pt"
+}

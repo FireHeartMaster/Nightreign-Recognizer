@@ -1,0 +1,336 @@
+{
+  "Shifting Earth": "Great Hollow",
+  "Night 1 Boss": "Demi-Human Queen / Demi-Human Swordmaster family",
+  "Night 2 Boss": "Tree Sentinel / Royal Cavalrymen",
+  "Night 1 Boss ID": 4929,
+  "Night 2 Boss ID": 4860,
+  "Night 1 Circle": "11001",
+  "Night 2 Circle": "12000",
+  "Night 1 Circle ID": 11001,
+  "Night 2 Circle ID": 12000,
+  "Spawn Point": "13001",
+  "Pattern ID": 1009,
+  "Scale-Bearing Merchant": "empty",
+  "Frenzy Tower": "empty",
+  "Special Event": "empty",
+  "Major Base - 1107": {
+    "location": "1107",
+    "value": "5242",
+    "attachId": 1107,
+    "smallBaseMapId": 5242,
+    "variationId": 0,
+    "mapIndex": 0
+  },
+  "Major Base - 1110": {
+    "location": "1110",
+    "value": "5255",
+    "attachId": 1110,
+    "smallBaseMapId": 5255,
+    "variationId": 0,
+    "mapIndex": 0
+  },
+  "Major Base - 1108": {
+    "location": "1108",
+    "value": "5246",
+    "attachId": 1108,
+    "smallBaseMapId": 5246,
+    "variationId": 0,
+    "mapIndex": 0
+  },
+  "Major Base - 1109": {
+    "location": "1109",
+    "value": "5252",
+    "attachId": 1109,
+    "smallBaseMapId": 5252,
+    "variationId": 0,
+    "mapIndex": 0
+  },
+  "Major Base - 1141": {
+    "location": "1141",
+    "value": "5359",
+    "attachId": 1141,
+    "smallBaseMapId": 5359,
+    "variationId": 0,
+    "mapIndex": 0
+  },
+  "Major Base - 1142": {
+    "location": "1142",
+    "value": "5357",
+    "attachId": 1142,
+    "smallBaseMapId": 5357,
+    "variationId": 0,
+    "mapIndex": 0
+  },
+  "Major Base - 1143": {
+    "location": "1143",
+    "value": "5363",
+    "attachId": 1143,
+    "smallBaseMapId": 5363,
+    "variationId": 0,
+    "mapIndex": 0
+  },
+  "Major Base - 1144": {
+    "location": "1144",
+    "value": "5351",
+    "attachId": 1144,
+    "smallBaseMapId": 5351,
+    "variationId": 0,
+    "mapIndex": 0
+  },
+  "Major Base - 1114": {
+    "location": "1114",
+    "value": "4917",
+    "attachId": 1114,
+    "smallBaseMapId": 4917,
+    "variationId": 2,
+    "mapIndex": 0
+  },
+  "Major Base - 1115": {
+    "location": "1115",
+    "value": "4840",
+    "attachId": 1115,
+    "smallBaseMapId": 4840,
+    "variationId": 2,
+    "mapIndex": 0
+  },
+  "Major Base - 1116": {
+    "location": "1116",
+    "value": "4918",
+    "attachId": 1116,
+    "smallBaseMapId": 4918,
+    "variationId": 2,
+    "mapIndex": 0
+  },
+  "Major Base - 1145": {
+    "location": "1145",
+    "value": "5361",
+    "attachId": 1145,
+    "smallBaseMapId": 5361,
+    "variationId": 0,
+    "mapIndex": 0
+  },
+  "Major Base - 1146": {
+    "location": "1146",
+    "value": "5349",
+    "attachId": 1146,
+    "smallBaseMapId": 5349,
+    "variationId": 0,
+    "mapIndex": 0
+  },
+  "Major Base - 1147": {
+    "location": "1147",
+    "value": "5353",
+    "attachId": 1147,
+    "smallBaseMapId": 5353,
+    "variationId": 0,
+    "mapIndex": 0
+  },
+  "Major Base - 1148": {
+    "location": "1148",
+    "value": "5356",
+    "attachId": 1148,
+    "smallBaseMapId": 5356,
+    "variationId": 0,
+    "mapIndex": 0
+  },
+  "Major Base - 1111": {
+    "location": "1111",
+    "value": "4927",
+    "attachId": 1111,
+    "smallBaseMapId": 4927,
+    "variationId": 2,
+    "mapIndex": 0
+  },
+  "Major Base - 1112": {
+    "location": "1112",
+    "value": "4880",
+    "attachId": 1112,
+    "smallBaseMapId": 4880,
+    "variationId": 2,
+    "mapIndex": 0
+  },
+  "Major Base - 1113": {
+    "location": "1113",
+    "value": "4921",
+    "attachId": 1113,
+    "smallBaseMapId": 4921,
+    "variationId": 2,
+    "mapIndex": 0
+  },
+  "Major Base - 1164": {
+    "location": "1164",
+    "value": "4659",
+    "attachId": 1164,
+    "smallBaseMapId": 4659,
+    "variationId": 0,
+    "mapIndex": 0
+  },
+  "Major Base - 1160": {
+    "location": "1160",
+    "value": "4657",
+    "attachId": 1160,
+    "smallBaseMapId": 4657,
+    "variationId": 0,
+    "mapIndex": 0
+  },
+  "Major Base - 1156": {
+    "location": "1156",
+    "value": "4669",
+    "attachId": 1156,
+    "smallBaseMapId": 4669,
+    "variationId": 0,
+    "mapIndex": 0
+  },
+  "Major Base - 1158": {
+    "location": "1158",
+    "value": "4665",
+    "attachId": 1158,
+    "smallBaseMapId": 4665,
+    "variationId": 0,
+    "mapIndex": 0
+  },
+  "Major Base - 1165": {
+    "location": "1165",
+    "value": "4551",
+    "attachId": 1165,
+    "smallBaseMapId": 4551,
+    "variationId": 0,
+    "mapIndex": 0
+  },
+  "Major Base - 1155": {
+    "location": "1155",
+    "value": "4655",
+    "attachId": 1155,
+    "smallBaseMapId": 4655,
+    "variationId": 0,
+    "mapIndex": 0
+  },
+  "Major Base - 1159": {
+    "location": "1159",
+    "value": "4672",
+    "attachId": 1159,
+    "smallBaseMapId": 4672,
+    "variationId": 0,
+    "mapIndex": 0
+  },
+  "Major Base - 1157": {
+    "location": "1157",
+    "value": "4663",
+    "attachId": 1157,
+    "smallBaseMapId": 4663,
+    "variationId": 0,
+    "mapIndex": 0
+  },
+  "Major Base - 1163": {
+    "location": "1163",
+    "value": "4652",
+    "attachId": 1163,
+    "smallBaseMapId": 4652,
+    "variationId": 0,
+    "mapIndex": 0
+  },
+  "Major Base - 1161": {
+    "location": "1161",
+    "value": "4654",
+    "attachId": 1161,
+    "smallBaseMapId": 4654,
+    "variationId": 0,
+    "mapIndex": 0
+  },
+  "Major Base - 1162": {
+    "location": "1162",
+    "value": "4667",
+    "attachId": 1162,
+    "smallBaseMapId": 4667,
+    "variationId": 0,
+    "mapIndex": 0
+  },
+  "Major Base - 1153": {
+    "location": "1153",
+    "value": "5100",
+    "attachId": 1153,
+    "smallBaseMapId": 5100,
+    "variationId": 0,
+    "mapIndex": 0
+  },
+  "Major Base - 1151": {
+    "location": "1151",
+    "value": "5100",
+    "attachId": 1151,
+    "smallBaseMapId": 5100,
+    "variationId": 0,
+    "mapIndex": 1
+  },
+  "Major Base - 1103": {
+    "location": "1103",
+    "value": "4656",
+    "attachId": 1103,
+    "smallBaseMapId": 4656,
+    "variationId": 0,
+    "mapIndex": 0
+  },
+  "Major Base - 1135": {
+    "location": "1135",
+    "value": "5367",
+    "attachId": 1135,
+    "smallBaseMapId": 5367,
+    "variationId": 0,
+    "mapIndex": 0
+  },
+  "Major Base - 1136": {
+    "location": "1136",
+    "value": "5380",
+    "attachId": 1136,
+    "smallBaseMapId": 5380,
+    "variationId": 0,
+    "mapIndex": 0
+  },
+  "Major Base - 1137": {
+    "location": "1137",
+    "value": "5381",
+    "attachId": 1137,
+    "smallBaseMapId": 5381,
+    "variationId": 0,
+    "mapIndex": 0
+  },
+  "Major Base - 1138": {
+    "location": "1138",
+    "value": "5372",
+    "attachId": 1138,
+    "smallBaseMapId": 5372,
+    "variationId": 0,
+    "mapIndex": 0
+  },
+  "Major Base - 1139": {
+    "location": "1139",
+    "value": "5390",
+    "attachId": 1139,
+    "smallBaseMapId": 5390,
+    "variationId": 0,
+    "mapIndex": 0
+  },
+  "Major Base - 1140": {
+    "location": "1140",
+    "value": "5391",
+    "attachId": 1140,
+    "smallBaseMapId": 5391,
+    "variationId": 0,
+    "mapIndex": 0
+  },
+  "Major Base - 1152": {
+    "location": "1152",
+    "value": "Sorcerer's Rise",
+    "attachId": 1152,
+    "smallBaseMapId": 5110,
+    "variationId": 9,
+    "mapIndex": 0
+  },
+  "Major Base - 1150": {
+    "location": "1150",
+    "value": "5105",
+    "attachId": 1150,
+    "smallBaseMapId": 5105,
+    "variationId": 0,
+    "mapIndex": 0
+  }
+}

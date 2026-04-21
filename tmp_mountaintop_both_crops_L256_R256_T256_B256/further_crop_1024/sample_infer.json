@@ -1,0 +1,46 @@
+{
+  "input": "/mnt/data/mountaintop_rebuild/data/pattern_1104_further_crop_1024.png",
+  "best_patternId": 1104,
+  "top5": [
+    {
+      "patternId": 1104,
+      "score": 5.447601318359375,
+      "probability": 1.0,
+      "image_score": 1.0,
+      "slot_score": 1.0
+    },
+    {
+      "patternId": 1101,
+      "score": 1.7830464839935303,
+      "probability": 5.46428408163685e-14,
+      "image_score": 0.9969574809074402,
+      "slot_score": 0.9462270736694336
+    },
+    {
+      "patternId": 60,
+      "score": 1.0150974988937378,
+      "probability": 9.083069797864314e-17,
+      "image_score": 0.9963027834892273,
+      "slot_score": 0.9353818893432617
+    },
+    {
+      "patternId": 1160,
+      "score": 0.9112271666526794,
+      "probability": 3.822202756388283e-17,
+      "image_score": 0.9963023662567139,
+      "slot_score": 0.9317324161529541
+    },
+    {
+      "patternId": 301,
+      "score": 0.8658162951469421,
+      "probability": 2.61798561057195e-17,
+      "image_score": 0.9962687492370605,
+      "slot_score": 0.9309648871421814
+    }
+  ],
+  "margin": 3.6645548343658447,
+  "confidence": 1.0,
+  "unknown": false,
+  "decided_patternId": 1104,
+  "latency_ms": 1000.2142900000308
+}

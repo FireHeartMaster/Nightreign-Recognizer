@@ -1,0 +1,542 @@
+[
+  {
+    "layout_input": 1005,
+    "predicted_layout": 1007,
+    "predicted_earth": "Great Hollow",
+    "correct_layout": false,
+    "statuses": {
+      "Palace": {
+        "label": "Status_Fire",
+        "score": 0.521573543548584,
+        "runner_up": "Status_Magic",
+        "runner_up_score": 0.47842642664909363,
+        "margin": 0.043147116899490356,
+        "classifier_mode": "models"
+      },
+      "Fortress": {
+        "label": "Status_Holy",
+        "score": 0.5022112131118774,
+        "runner_up": "Status_Rot",
+        "runner_up_score": 0.49778875708580017,
+        "margin": 0.0044224560260772705,
+        "classifier_mode": "models"
+      },
+      "Ruins": {
+        "label": "Status_Poison",
+        "score": 0.8879085779190063,
+        "runner_up": "Status_Bleed",
+        "runner_up_score": 0.11209139227867126,
+        "margin": 0.7758171856403351,
+        "classifier_mode": "models"
+      },
+      "Great Church": {
+        "label": "Status_Lightning",
+        "score": 0.6027125716209412,
+        "runner_up": "Status_Sleep",
+        "runner_up_score": 0.39728736877441406,
+        "margin": 0.2054252028465271,
+        "classifier_mode": "models"
+      }
+    },
+    "slots": [
+      {
+        "slot_id": 1,
+        "slot_name": "slot_01",
+        "label": "Church",
+        "best_prob": 0.9999922838647011,
+        "second_prob": 7.71613529897954e-06,
+        "margin": 0.9999845677294021,
+        "slot_classifier_mode": "classic",
+        "slot4_gate_decision": null,
+        "slot4_p_empty": null
+      },
+      {
+        "slot_id": 2,
+        "slot_name": "slot_02",
+        "label": "Great Church",
+        "best_prob": 0.9917387491750326,
+        "second_prob": 0.008261250824967401,
+        "margin": 0.9834774983500651,
+        "slot_classifier_mode": "classic",
+        "slot4_gate_decision": null,
+        "slot4_p_empty": null
+      },
+      {
+        "slot_id": 3,
+        "slot_name": "slot_03",
+        "label": "Sorcerer's Rise",
+        "best_prob": 0.9975747119268668,
+        "second_prob": 0.002424464423549284,
+        "margin": 0.9951502475033175,
+        "slot_classifier_mode": "classic",
+        "slot4_gate_decision": null,
+        "slot4_p_empty": null
+      },
+      {
+        "slot_id": 4,
+        "slot_name": "slot_04",
+        "label": "empty",
+        "best_prob": 0.9999999999989999,
+        "second_prob": 9.02587671879085e-13,
+        "margin": 0.9999999999980973,
+        "slot_classifier_mode": "prototype",
+        "slot4_gate_decision": "empty",
+        "slot4_p_empty": 0.9999999999989999
+      },
+      {
+        "slot_id": 5,
+        "slot_name": "slot_05",
+        "label": "Ruins",
+        "best_prob": 0.9996928214847131,
+        "second_prob": 0.0003071785152869724,
+        "margin": 0.9993856429694261,
+        "slot_classifier_mode": "classic",
+        "slot4_gate_decision": null,
+        "slot4_p_empty": null
+      },
+      {
+        "slot_id": 6,
+        "slot_name": "slot_06",
+        "label": "Church",
+        "best_prob": 0.9999949872549299,
+        "second_prob": 2.70191254954411e-06,
+        "margin": 0.9999922853423803,
+        "slot_classifier_mode": "classic",
+        "slot4_gate_decision": null,
+        "slot4_p_empty": null
+      }
+    ]
+  },
+  {
+    "layout_input": 1006,
+    "predicted_layout": 1182,
+    "predicted_earth": "Great Hollow",
+    "correct_layout": false,
+    "statuses": {
+      "Palace": {
+        "label": "Status_Magic",
+        "score": 0.5052515268325806,
+        "runner_up": "Status_Fire",
+        "runner_up_score": 0.49474844336509705,
+        "margin": 0.01050308346748352,
+        "classifier_mode": "models"
+      },
+      "Fortress": {
+        "label": "Status_Holy",
+        "score": 0.5022112131118774,
+        "runner_up": "Status_Rot",
+        "runner_up_score": 0.49778875708580017,
+        "margin": 0.0044224560260772705,
+        "classifier_mode": "models"
+      },
+      "Ruins": {
+        "label": "Status_Poison",
+        "score": 0.8879085779190063,
+        "runner_up": "Status_Bleed",
+        "runner_up_score": 0.11209139227867126,
+        "margin": 0.7758171856403351,
+        "classifier_mode": "models"
+      },
+      "Great Church": {
+        "label": "Status_Lightning",
+        "score": 0.6027125716209412,
+        "runner_up": "Status_Sleep",
+        "runner_up_score": 0.39728736877441406,
+        "margin": 0.2054252028465271,
+        "classifier_mode": "models"
+      }
+    },
+    "slots": [
+      {
+        "slot_id": 1,
+        "slot_name": "slot_01",
+        "label": "Church",
+        "best_prob": 0.9999922838647011,
+        "second_prob": 7.71613529897954e-06,
+        "margin": 0.9999845677294021,
+        "slot_classifier_mode": "classic",
+        "slot4_gate_decision": null,
+        "slot4_p_empty": null
+      },
+      {
+        "slot_id": 2,
+        "slot_name": "slot_02",
+        "label": "Great Church",
+        "best_prob": 0.9917387491750326,
+        "second_prob": 0.008261250824967401,
+        "margin": 0.9834774983500651,
+        "slot_classifier_mode": "classic",
+        "slot4_gate_decision": null,
+        "slot4_p_empty": null
+      },
+      {
+        "slot_id": 3,
+        "slot_name": "slot_03",
+        "label": "Church",
+        "best_prob": 0.9999679987446175,
+        "second_prob": 2.170913909822249e-05,
+        "margin": 0.9999462896055192,
+        "slot_classifier_mode": "classic",
+        "slot4_gate_decision": null,
+        "slot4_p_empty": null
+      },
+      {
+        "slot_id": 4,
+        "slot_name": "slot_04",
+        "label": "empty",
+        "best_prob": 0.9999999999989999,
+        "second_prob": 9.02587671879085e-13,
+        "margin": 0.9999999999980973,
+        "slot_classifier_mode": "prototype",
+        "slot4_gate_decision": "empty",
+        "slot4_p_empty": 0.9999999999989999
+      },
+      {
+        "slot_id": 5,
+        "slot_name": "slot_05",
+        "label": "Ruins",
+        "best_prob": 0.9996928214847131,
+        "second_prob": 0.0003071785152869724,
+        "margin": 0.9993856429694261,
+        "slot_classifier_mode": "classic",
+        "slot4_gate_decision": null,
+        "slot4_p_empty": null
+      },
+      {
+        "slot_id": 6,
+        "slot_name": "slot_06",
+        "label": "Sorcerer's Rise",
+        "best_prob": 0.999379572001128,
+        "second_prob": 0.0006196213990720436,
+        "margin": 0.998759950602056,
+        "slot_classifier_mode": "classic",
+        "slot4_gate_decision": null,
+        "slot4_p_empty": null
+      }
+    ]
+  },
+  {
+    "layout_input": 1007,
+    "predicted_layout": 1005,
+    "predicted_earth": "Great Hollow",
+    "correct_layout": false,
+    "statuses": {
+      "Palace": {
+        "label": "Status_Magic",
+        "score": 0.5052515268325806,
+        "runner_up": "Status_Fire",
+        "runner_up_score": 0.49474844336509705,
+        "margin": 0.01050308346748352,
+        "classifier_mode": "models"
+      },
+      "Fortress": {
+        "label": "Status_Rot",
+        "score": 0.502272367477417,
+        "runner_up": "Status_Holy",
+        "runner_up_score": 0.497727632522583,
+        "margin": 0.004544734954833984,
+        "classifier_mode": "models"
+      },
+      "Ruins": {
+        "label": "Status_Poison",
+        "score": 0.8879085779190063,
+        "runner_up": "Status_Bleed",
+        "runner_up_score": 0.11209139227867126,
+        "margin": 0.7758171856403351,
+        "classifier_mode": "models"
+      },
+      "Great Church": {
+        "label": "Status_Lightning",
+        "score": 0.6027125716209412,
+        "runner_up": "Status_Sleep",
+        "runner_up_score": 0.39728736877441406,
+        "margin": 0.2054252028465271,
+        "classifier_mode": "models"
+      }
+    },
+    "slots": [
+      {
+        "slot_id": 1,
+        "slot_name": "slot_01",
+        "label": "Church",
+        "best_prob": 0.9999922838647011,
+        "second_prob": 7.71613529897954e-06,
+        "margin": 0.9999845677294021,
+        "slot_classifier_mode": "classic",
+        "slot4_gate_decision": null,
+        "slot4_p_empty": null
+      },
+      {
+        "slot_id": 2,
+        "slot_name": "slot_02",
+        "label": "Great Church",
+        "best_prob": 0.9917387491750326,
+        "second_prob": 0.008261250824967401,
+        "margin": 0.9834774983500651,
+        "slot_classifier_mode": "classic",
+        "slot4_gate_decision": null,
+        "slot4_p_empty": null
+      },
+      {
+        "slot_id": 3,
+        "slot_name": "slot_03",
+        "label": "Sorcerer's Rise",
+        "best_prob": 0.9975747119268668,
+        "second_prob": 0.002424464423549284,
+        "margin": 0.9951502475033175,
+        "slot_classifier_mode": "classic",
+        "slot4_gate_decision": null,
+        "slot4_p_empty": null
+      },
+      {
+        "slot_id": 4,
+        "slot_name": "slot_04",
+        "label": "empty",
+        "best_prob": 0.9999999999989999,
+        "second_prob": 9.02587671879085e-13,
+        "margin": 0.9999999999980973,
+        "slot_classifier_mode": "prototype",
+        "slot4_gate_decision": "empty",
+        "slot4_p_empty": 0.9999999999989999
+      },
+      {
+        "slot_id": 5,
+        "slot_name": "slot_05",
+        "label": "Ruins",
+        "best_prob": 0.9996928214847131,
+        "second_prob": 0.0003071785152869724,
+        "margin": 0.9993856429694261,
+        "slot_classifier_mode": "classic",
+        "slot4_gate_decision": null,
+        "slot4_p_empty": null
+      },
+      {
+        "slot_id": 6,
+        "slot_name": "slot_06",
+        "label": "Church",
+        "best_prob": 0.9999949872549299,
+        "second_prob": 2.70191254954411e-06,
+        "margin": 0.9999922853423803,
+        "slot_classifier_mode": "classic",
+        "slot4_gate_decision": null,
+        "slot4_p_empty": null
+      }
+    ]
+  },
+  {
+    "layout_input": 1008,
+    "predicted_layout": 1019,
+    "predicted_earth": "Great Hollow",
+    "correct_layout": false,
+    "statuses": {
+      "Palace": {
+        "label": "Status_Fire",
+        "score": 0.521573543548584,
+        "runner_up": "Status_Magic",
+        "runner_up_score": 0.47842642664909363,
+        "margin": 0.043147116899490356,
+        "classifier_mode": "models"
+      },
+      "Fortress": {
+        "label": "Status_Holy",
+        "score": 0.5022112131118774,
+        "runner_up": "Status_Rot",
+        "runner_up_score": 0.49778875708580017,
+        "margin": 0.0044224560260772705,
+        "classifier_mode": "models"
+      },
+      "Ruins": {
+        "label": "Status_Poison",
+        "score": 0.8879085779190063,
+        "runner_up": "Status_Bleed",
+        "runner_up_score": 0.11209139227867126,
+        "margin": 0.7758171856403351,
+        "classifier_mode": "models"
+      },
+      "Great Church": {
+        "label": "Status_Lightning",
+        "score": 0.610460102558136,
+        "runner_up": "Status_Sleep",
+        "runner_up_score": 0.389539897441864,
+        "margin": 0.22092020511627197,
+        "classifier_mode": "models"
+      }
+    },
+    "slots": [
+      {
+        "slot_id": 1,
+        "slot_name": "slot_01",
+        "label": "Church",
+        "best_prob": 0.9999922838647011,
+        "second_prob": 7.71613529897954e-06,
+        "margin": 0.9999845677294021,
+        "slot_classifier_mode": "classic",
+        "slot4_gate_decision": null,
+        "slot4_p_empty": null
+      },
+      {
+        "slot_id": 2,
+        "slot_name": "slot_02",
+        "label": "Great Church",
+        "best_prob": 0.9728917897964843,
+        "second_prob": 0.027108210203515705,
+        "margin": 0.9457835795929685,
+        "slot_classifier_mode": "classic",
+        "slot4_gate_decision": null,
+        "slot4_p_empty": null
+      },
+      {
+        "slot_id": 3,
+        "slot_name": "slot_03",
+        "label": "Sorcerer's Rise",
+        "best_prob": 0.9975747119268668,
+        "second_prob": 0.002424464423549284,
+        "margin": 0.9951502475033175,
+        "slot_classifier_mode": "classic",
+        "slot4_gate_decision": null,
+        "slot4_p_empty": null
+      },
+      {
+        "slot_id": 4,
+        "slot_name": "slot_04",
+        "label": "Church",
+        "best_prob": 0.9999311893767916,
+        "second_prob": 6.881062320837605e-05,
+        "margin": 0.9998623787535832,
+        "slot_classifier_mode": "prototype",
+        "slot4_gate_decision": "non_empty",
+        "slot4_p_empty": 0.0
+      },
+      {
+        "slot_id": 5,
+        "slot_name": "slot_05",
+        "label": "Ruins",
+        "best_prob": 0.9996928214847131,
+        "second_prob": 0.0003071785152869724,
+        "margin": 0.9993856429694261,
+        "slot_classifier_mode": "classic",
+        "slot4_gate_decision": null,
+        "slot4_p_empty": null
+      },
+      {
+        "slot_id": 6,
+        "slot_name": "slot_06",
+        "label": "empty",
+        "best_prob": 0.9999899770462845,
+        "second_prob": 9.869215336553654e-06,
+        "margin": 0.9999801078309479,
+        "slot_classifier_mode": "classic",
+        "slot4_gate_decision": null,
+        "slot4_p_empty": null
+      }
+    ]
+  },
+  {
+    "layout_input": 1009,
+    "predicted_layout": 1019,
+    "predicted_earth": "Great Hollow",
+    "correct_layout": false,
+    "statuses": {
+      "Palace": {
+        "label": "Status_Fire",
+        "score": 0.521573543548584,
+        "runner_up": "Status_Magic",
+        "runner_up_score": 0.47842642664909363,
+        "margin": 0.043147116899490356,
+        "classifier_mode": "models"
+      },
+      "Fortress": {
+        "label": "Status_Rot",
+        "score": 0.502272367477417,
+        "runner_up": "Status_Holy",
+        "runner_up_score": 0.497727632522583,
+        "margin": 0.004544734954833984,
+        "classifier_mode": "models"
+      },
+      "Ruins": {
+        "label": "Status_Poison",
+        "score": 0.8879085779190063,
+        "runner_up": "Status_Bleed",
+        "runner_up_score": 0.11209139227867126,
+        "margin": 0.7758171856403351,
+        "classifier_mode": "models"
+      },
+      "Great Church": {
+        "label": "Status_Lightning",
+        "score": 0.6027125716209412,
+        "runner_up": "Status_Sleep",
+        "runner_up_score": 0.39728736877441406,
+        "margin": 0.2054252028465271,
+        "classifier_mode": "models"
+      }
+    },
+    "slots": [
+      {
+        "slot_id": 1,
+        "slot_name": "slot_01",
+        "label": "Church",
+        "best_prob": 0.9999922838647011,
+        "second_prob": 7.71613529897954e-06,
+        "margin": 0.9999845677294021,
+        "slot_classifier_mode": "classic",
+        "slot4_gate_decision": null,
+        "slot4_p_empty": null
+      },
+      {
+        "slot_id": 2,
+        "slot_name": "slot_02",
+        "label": "Great Church",
+        "best_prob": 0.9917387491750326,
+        "second_prob": 0.008261250824967401,
+        "margin": 0.9834774983500651,
+        "slot_classifier_mode": "classic",
+        "slot4_gate_decision": null,
+        "slot4_p_empty": null
+      },
+      {
+        "slot_id": 3,
+        "slot_name": "slot_03",
+        "label": "Sorcerer's Rise",
+        "best_prob": 0.9975747119268668,
+        "second_prob": 0.002424464423549284,
+        "margin": 0.9951502475033175,
+        "slot_classifier_mode": "classic",
+        "slot4_gate_decision": null,
+        "slot4_p_empty": null
+      },
+      {
+        "slot_id": 4,
+        "slot_name": "slot_04",
+        "label": "Church",
+        "best_prob": 0.9999311893767916,
+        "second_prob": 6.881062320837605e-05,
+        "margin": 0.9998623787535832,
+        "slot_classifier_mode": "prototype",
+        "slot4_gate_decision": "non_empty",
+        "slot4_p_empty": 0.0
+      },
+      {
+        "slot_id": 5,
+        "slot_name": "slot_05",
+        "label": "Ruins",
+        "best_prob": 0.9996928214847131,
+        "second_prob": 0.0003071785152869724,
+        "margin": 0.9993856429694261,
+        "slot_classifier_mode": "classic",
+        "slot4_gate_decision": null,
+        "slot4_p_empty": null
+      },
+      {
+        "slot_id": 6,
+        "slot_name": "slot_06",
+        "label": "empty",
+        "best_prob": 0.9999899770462845,
+        "second_prob": 9.869215336553654e-06,
+        "margin": 0.9999801078309479,
+        "slot_classifier_mode": "classic",
+        "slot4_gate_decision": null,
+        "slot4_p_empty": null
+      }
+    ]
+  }
+]

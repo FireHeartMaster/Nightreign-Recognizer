@@ -1,0 +1,1592 @@
+{
+  "script": "nightreign_map_recognizer_gui_ai_v37_completion_toast_overlay.py",
+  "package_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\nightreign_geom_proto_v4_slots.npz",
+  "ai_model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\slot_ai_test_output_dlc_no_text_nobalance\\slot_patch_model_v1.pt",
+  "thresholds": {
+    "ai_confidence_threshold": 0.55,
+    "ai_margin_threshold": 0.08,
+    "gh_status_mode": "models",
+    "gh_slot4_mode": "prototype",
+    "gh_slot4_empty_gate_threshold": "0.55"
+  },
+  "images": [
+    {
+      "layout_input": 1005,
+      "image_path": "renders\\recognizer_no_text\\layout_1005.png",
+      "predicted_layout": 1007,
+      "predicted_earth": "Great Hollow",
+      "correct_layout": false,
+      "earth_ranking": [
+        {
+          "name": "Great Hollow",
+          "score": 4.997156798839569,
+          "details": {
+            "source": "map_class_classifier",
+            "neighbors": [
+              {
+                "label": "Great Hollow",
+                "score": 0.9999998807907104,
+                "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1005.png"
+              },
+              {
+                "label": "Great Hollow",
+                "score": 0.9999998807907104,
+                "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1045.png"
+              },
+              {
+                "label": "Great Hollow",
+                "score": 0.9998652935028076,
+                "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1038.png"
+              },
+              {
+                "label": "Great Hollow",
+                "score": 0.999343991279602,
+                "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1007.png"
+              },
+              {
+                "label": "Great Hollow",
+                "score": 0.9979477524757385,
+                "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1125.png"
+              }
+            ]
+          }
+        }
+      ],
+      "earth_cascade_ranking": [
+        {
+          "name": "Great Hollow",
+          "score": 7.345727691433836,
+          "details": {
+            "base_score": 4.997156798839569,
+            "geometry_prior": 0.0,
+            "lost_slot_prior": 0.0,
+            "hard_constraint_prior": 0.0,
+            "evergaol_prior": -0.18907191116783206,
+            "great_hollow_status_support": 0.66998710843424,
+            "raw_details": {
+              "source": "map_class_classifier",
+              "neighbors": [
+                {
+                  "label": "Great Hollow",
+                  "score": 0.9999998807907104,
+                  "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1005.png"
+                },
+                {
+                  "label": "Great Hollow",
+                  "score": 0.9999998807907104,
+                  "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1045.png"
+                },
+                {
+                  "label": "Great Hollow",
+                  "score": 0.9998652935028076,
+                  "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1038.png"
+                },
+                {
+                  "label": "Great Hollow",
+                  "score": 0.999343991279602,
+                  "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1007.png"
+                },
+                {
+                  "label": "Great Hollow",
+                  "score": 0.9979477524757385,
+                  "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1125.png"
+                }
+              ]
+            },
+            "raw_dominance": true,
+            "gate_structural": true,
+            "gate_pass": true
+          }
+        }
+      ],
+      "slot_trace_best_earth": [
+        {
+          "slot_id": 1,
+          "slot_name": "slot_01",
+          "label": "Church",
+          "best_prob": 0.9999922838647011,
+          "second_prob": 7.71613529897954e-06,
+          "margin": 0.9999845677294021,
+          "allowed_labels": [
+            "empty",
+            "Church"
+          ],
+          "slot_classifier_mode": "classic",
+          "slot_classifier_meta": {}
+        },
+        {
+          "slot_id": 2,
+          "slot_name": "slot_02",
+          "label": "Great Church",
+          "best_prob": 0.9917387491750326,
+          "second_prob": 0.008261250824967401,
+          "margin": 0.9834774983500651,
+          "allowed_labels": [
+            "empty",
+            "Great Church"
+          ],
+          "slot_classifier_mode": "classic",
+          "slot_classifier_meta": {}
+        },
+        {
+          "slot_id": 3,
+          "slot_name": "slot_03",
+          "label": "Sorcerer's Rise",
+          "best_prob": 0.9975747119268668,
+          "second_prob": 0.002424464423549284,
+          "margin": 0.9951502475033175,
+          "allowed_labels": [
+            "empty",
+            "Church",
+            "Sorcerer's Rise"
+          ],
+          "slot_classifier_mode": "classic",
+          "slot_classifier_meta": {}
+        },
+        {
+          "slot_id": 4,
+          "slot_name": "slot_04",
+          "label": "empty",
+          "best_prob": 0.9999999999989999,
+          "second_prob": 9.02587671879085e-13,
+          "margin": 0.9999999999980973,
+          "allowed_labels": [
+            "empty",
+            "Church",
+            "Sorcerer's Rise"
+          ],
+          "slot_classifier_mode": "prototype",
+          "slot_classifier_meta": {
+            "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_gh_slot4_prototype_model_test\\gh_slot4_empty_vs_churchrise_prototype_model.pkl",
+            "p_empty": 0.9999999999989999,
+            "p_church_like": 1.000088900582341e-12,
+            "d_empty": 13.582428932189941,
+            "d_church_like": 207.87686157226562,
+            "gate_threshold": 0.55,
+            "p_non_empty": 1.000088900582341e-12,
+            "gate_decision": "empty"
+          }
+        },
+        {
+          "slot_id": 5,
+          "slot_name": "slot_05",
+          "label": "Ruins",
+          "best_prob": 0.9996928214847131,
+          "second_prob": 0.0003071785152869724,
+          "margin": 0.9993856429694261,
+          "allowed_labels": [
+            "empty",
+            "Ruins"
+          ],
+          "slot_classifier_mode": "classic",
+          "slot_classifier_meta": {}
+        },
+        {
+          "slot_id": 6,
+          "slot_name": "slot_06",
+          "label": "Church",
+          "best_prob": 0.9999949872549299,
+          "second_prob": 2.70191254954411e-06,
+          "margin": 0.9999922853423803,
+          "allowed_labels": [
+            "empty",
+            "Church",
+            "Sorcerer's Rise"
+          ],
+          "slot_classifier_mode": "classic",
+          "slot_classifier_meta": {}
+        }
+      ],
+      "great_hollow_status_observations": {
+        "Palace": {
+          "best_status": "Status_Fire",
+          "best_score": 0.521573543548584,
+          "runner_up": null,
+          "runner_up_score": null,
+          "margin": 0.043147116899490356,
+          "confidence": null,
+          "classifier_mode": "models",
+          "ranked": [
+            {
+              "status_type": "Status_Fire",
+              "score": 0.521573543548584,
+              "dx": 0,
+              "dy": 0
+            },
+            {
+              "status_type": "Status_Magic",
+              "score": 0.47842642664909363,
+              "dx": 0,
+              "dy": 0
+            }
+          ]
+        },
+        "Fortress": {
+          "best_status": "Status_Holy",
+          "best_score": 0.5022112131118774,
+          "runner_up": null,
+          "runner_up_score": null,
+          "margin": 0.0044224560260772705,
+          "confidence": null,
+          "classifier_mode": "models",
+          "ranked": [
+            {
+              "status_type": "Status_Holy",
+              "score": 0.5022112131118774,
+              "dx": 0,
+              "dy": 0
+            },
+            {
+              "status_type": "Status_Rot",
+              "score": 0.49778875708580017,
+              "dx": 0,
+              "dy": 0
+            }
+          ]
+        },
+        "Ruins": {
+          "best_status": "Status_Poison",
+          "best_score": 0.8879085779190063,
+          "runner_up": null,
+          "runner_up_score": null,
+          "margin": 0.7758171856403351,
+          "confidence": null,
+          "classifier_mode": "models",
+          "ranked": [
+            {
+              "status_type": "Status_Poison",
+              "score": 0.8879085779190063,
+              "dx": 0,
+              "dy": 0
+            },
+            {
+              "status_type": "Status_Bleed",
+              "score": 0.11209139227867126,
+              "dx": 0,
+              "dy": 0
+            }
+          ]
+        },
+        "Great Church": {
+          "best_status": "Status_Lightning",
+          "best_score": 0.6027125716209412,
+          "runner_up": null,
+          "runner_up_score": null,
+          "margin": 0.2054252028465271,
+          "confidence": null,
+          "classifier_mode": "models",
+          "ranked": [
+            {
+              "status_type": "Status_Lightning",
+              "score": 0.6027125716209412,
+              "dx": 0,
+              "dy": 0
+            },
+            {
+              "status_type": "Status_Sleep",
+              "score": 0.39728736877441406,
+              "dx": 0,
+              "dy": 0
+            }
+          ]
+        }
+      },
+      "top5_layouts": [
+        {
+          "layout_number": 1007,
+          "shifting_earth": "Great Hollow",
+          "total_score": 3.79803289675312,
+          "great_hollow_status_prior": 0.2398810142970511
+        },
+        {
+          "layout_number": 1039,
+          "shifting_earth": "Great Hollow",
+          "total_score": 3.79803289675312,
+          "great_hollow_status_prior": 0.2398810142970511
+        },
+        {
+          "layout_number": 1005,
+          "shifting_earth": "Great Hollow",
+          "total_score": 3.7622990244203764,
+          "great_hollow_status_prior": 0.2041471419643079
+        },
+        {
+          "layout_number": 1038,
+          "shifting_earth": "Great Hollow",
+          "total_score": 3.637756648458792,
+          "great_hollow_status_prior": 0.07960476600272318
+        },
+        {
+          "layout_number": 1045,
+          "shifting_earth": "Great Hollow",
+          "total_score": 3.5395635840405695,
+          "great_hollow_status_prior": -0.01858829841549907
+        }
+      ]
+    },
+    {
+      "layout_input": 1006,
+      "image_path": "renders\\recognizer_no_text\\layout_1006.png",
+      "predicted_layout": 1182,
+      "predicted_earth": "Great Hollow",
+      "correct_layout": false,
+      "earth_ranking": [
+        {
+          "name": "Great Hollow",
+          "score": 4.99832409620285,
+          "details": {
+            "source": "map_class_classifier",
+            "neighbors": [
+              {
+                "label": "Great Hollow",
+                "score": 0.9999998807907104,
+                "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1006.png"
+              },
+              {
+                "label": "Great Hollow",
+                "score": 0.9995977282524109,
+                "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1068.png"
+              },
+              {
+                "label": "Great Hollow",
+                "score": 0.9995754957199097,
+                "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1016.png"
+              },
+              {
+                "label": "Great Hollow",
+                "score": 0.9995754957199097,
+                "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1049.png"
+              },
+              {
+                "label": "Great Hollow",
+                "score": 0.9995754957199097,
+                "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1125.png"
+              }
+            ]
+          }
+        }
+      ],
+      "earth_cascade_ranking": [
+        {
+          "name": "Great Hollow",
+          "score": 7.343461068105706,
+          "details": {
+            "base_score": 4.99832409620285,
+            "geometry_prior": 0.0,
+            "lost_slot_prior": 0.0,
+            "hard_constraint_prior": 0.0,
+            "evergaol_prior": -0.18907191116783206,
+            "great_hollow_status_support": 0.6315623607486487,
+            "raw_details": {
+              "source": "map_class_classifier",
+              "neighbors": [
+                {
+                  "label": "Great Hollow",
+                  "score": 0.9999998807907104,
+                  "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1006.png"
+                },
+                {
+                  "label": "Great Hollow",
+                  "score": 0.9995977282524109,
+                  "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1068.png"
+                },
+                {
+                  "label": "Great Hollow",
+                  "score": 0.9995754957199097,
+                  "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1016.png"
+                },
+                {
+                  "label": "Great Hollow",
+                  "score": 0.9995754957199097,
+                  "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1049.png"
+                },
+                {
+                  "label": "Great Hollow",
+                  "score": 0.9995754957199097,
+                  "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1125.png"
+                }
+              ]
+            },
+            "raw_dominance": true,
+            "gate_structural": true,
+            "gate_pass": true
+          }
+        }
+      ],
+      "slot_trace_best_earth": [
+        {
+          "slot_id": 1,
+          "slot_name": "slot_01",
+          "label": "Church",
+          "best_prob": 0.9999922838647011,
+          "second_prob": 7.71613529897954e-06,
+          "margin": 0.9999845677294021,
+          "allowed_labels": [
+            "empty",
+            "Church"
+          ],
+          "slot_classifier_mode": "classic",
+          "slot_classifier_meta": {}
+        },
+        {
+          "slot_id": 2,
+          "slot_name": "slot_02",
+          "label": "Great Church",
+          "best_prob": 0.9917387491750326,
+          "second_prob": 0.008261250824967401,
+          "margin": 0.9834774983500651,
+          "allowed_labels": [
+            "empty",
+            "Great Church"
+          ],
+          "slot_classifier_mode": "classic",
+          "slot_classifier_meta": {}
+        },
+        {
+          "slot_id": 3,
+          "slot_name": "slot_03",
+          "label": "Church",
+          "best_prob": 0.9999679987446175,
+          "second_prob": 2.170913909822249e-05,
+          "margin": 0.9999462896055192,
+          "allowed_labels": [
+            "empty",
+            "Church",
+            "Sorcerer's Rise"
+          ],
+          "slot_classifier_mode": "classic",
+          "slot_classifier_meta": {}
+        },
+        {
+          "slot_id": 4,
+          "slot_name": "slot_04",
+          "label": "empty",
+          "best_prob": 0.9999999999989999,
+          "second_prob": 9.02587671879085e-13,
+          "margin": 0.9999999999980973,
+          "allowed_labels": [
+            "empty",
+            "Church",
+            "Sorcerer's Rise"
+          ],
+          "slot_classifier_mode": "prototype",
+          "slot_classifier_meta": {
+            "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_gh_slot4_prototype_model_test\\gh_slot4_empty_vs_churchrise_prototype_model.pkl",
+            "p_empty": 0.9999999999989999,
+            "p_church_like": 1.000088900582341e-12,
+            "d_empty": 13.582428932189941,
+            "d_church_like": 207.87686157226562,
+            "gate_threshold": 0.55,
+            "p_non_empty": 1.000088900582341e-12,
+            "gate_decision": "empty"
+          }
+        },
+        {
+          "slot_id": 5,
+          "slot_name": "slot_05",
+          "label": "Ruins",
+          "best_prob": 0.9996928214847131,
+          "second_prob": 0.0003071785152869724,
+          "margin": 0.9993856429694261,
+          "allowed_labels": [
+            "empty",
+            "Ruins"
+          ],
+          "slot_classifier_mode": "classic",
+          "slot_classifier_meta": {}
+        },
+        {
+          "slot_id": 6,
+          "slot_name": "slot_06",
+          "label": "Sorcerer's Rise",
+          "best_prob": 0.999379572001128,
+          "second_prob": 0.0006196213990720436,
+          "margin": 0.998759950602056,
+          "allowed_labels": [
+            "empty",
+            "Church",
+            "Sorcerer's Rise"
+          ],
+          "slot_classifier_mode": "classic",
+          "slot_classifier_meta": {}
+        }
+      ],
+      "great_hollow_status_observations": {
+        "Palace": {
+          "best_status": "Status_Magic",
+          "best_score": 0.5052515268325806,
+          "runner_up": null,
+          "runner_up_score": null,
+          "margin": 0.01050308346748352,
+          "confidence": null,
+          "classifier_mode": "models",
+          "ranked": [
+            {
+              "status_type": "Status_Magic",
+              "score": 0.5052515268325806,
+              "dx": 0,
+              "dy": 0
+            },
+            {
+              "status_type": "Status_Fire",
+              "score": 0.49474844336509705,
+              "dx": 0,
+              "dy": 0
+            }
+          ]
+        },
+        "Fortress": {
+          "best_status": "Status_Holy",
+          "best_score": 0.5022112131118774,
+          "runner_up": null,
+          "runner_up_score": null,
+          "margin": 0.0044224560260772705,
+          "confidence": null,
+          "classifier_mode": "models",
+          "ranked": [
+            {
+              "status_type": "Status_Holy",
+              "score": 0.5022112131118774,
+              "dx": 0,
+              "dy": 0
+            },
+            {
+              "status_type": "Status_Rot",
+              "score": 0.49778875708580017,
+              "dx": 0,
+              "dy": 0
+            }
+          ]
+        },
+        "Ruins": {
+          "best_status": "Status_Poison",
+          "best_score": 0.8879085779190063,
+          "runner_up": null,
+          "runner_up_score": null,
+          "margin": 0.7758171856403351,
+          "confidence": null,
+          "classifier_mode": "models",
+          "ranked": [
+            {
+              "status_type": "Status_Poison",
+              "score": 0.8879085779190063,
+              "dx": 0,
+              "dy": 0
+            },
+            {
+              "status_type": "Status_Bleed",
+              "score": 0.11209139227867126,
+              "dx": 0,
+              "dy": 0
+            }
+          ]
+        },
+        "Great Church": {
+          "best_status": "Status_Lightning",
+          "best_score": 0.6027125716209412,
+          "runner_up": null,
+          "runner_up_score": null,
+          "margin": 0.2054252028465271,
+          "confidence": null,
+          "classifier_mode": "models",
+          "ranked": [
+            {
+              "status_type": "Status_Lightning",
+              "score": 0.6027125716209412,
+              "dx": 0,
+              "dy": 0
+            },
+            {
+              "status_type": "Status_Sleep",
+              "score": 0.39728736877441406,
+              "dx": 0,
+              "dy": 0
+            }
+          ]
+        }
+      },
+      "top5_layouts": [
+        {
+          "layout_number": 1182,
+          "shifting_earth": "Great Hollow",
+          "total_score": 3.885941148726287,
+          "great_hollow_status_prior": 0.32647428648386684
+        },
+        {
+          "layout_number": 1006,
+          "shifting_earth": "Great Hollow",
+          "total_score": 3.7806063894664246,
+          "great_hollow_status_prior": 0.22113952722400432
+        },
+        {
+          "layout_number": 1131,
+          "shifting_earth": "Great Hollow",
+          "total_score": 3.680882637760752,
+          "great_hollow_status_prior": 0.12141577551833223
+        },
+        {
+          "layout_number": 1183,
+          "shifting_earth": "Great Hollow",
+          "total_score": 3.680882637760752,
+          "great_hollow_status_prior": 0.12141577551833223
+        },
+        {
+          "layout_number": 1017,
+          "shifting_earth": "Great Hollow",
+          "total_score": 3.563481956640808,
+          "great_hollow_status_prior": 0.004015094398387847
+        }
+      ]
+    },
+    {
+      "layout_input": 1007,
+      "image_path": "renders\\recognizer_no_text\\layout_1007.png",
+      "predicted_layout": 1005,
+      "predicted_earth": "Great Hollow",
+      "correct_layout": false,
+      "earth_ranking": [
+        {
+          "name": "Great Hollow",
+          "score": 4.995902597904205,
+          "details": {
+            "source": "map_class_classifier",
+            "neighbors": [
+              {
+                "label": "Great Hollow",
+                "score": 0.9999999403953552,
+                "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1007.png"
+              },
+              {
+                "label": "Great Hollow",
+                "score": 0.999343991279602,
+                "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1005.png"
+              },
+              {
+                "label": "Great Hollow",
+                "score": 0.999343991279602,
+                "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1045.png"
+              },
+              {
+                "label": "Great Hollow",
+                "score": 0.9992628693580627,
+                "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1038.png"
+              },
+              {
+                "label": "Great Hollow",
+                "score": 0.9979518055915833,
+                "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1191.png"
+              }
+            ]
+          }
+        }
+      ],
+      "earth_cascade_ranking": [
+        {
+          "name": "Great Hollow",
+          "score": 7.340204271170104,
+          "details": {
+            "base_score": 4.995902597904205,
+            "geometry_prior": 0.0,
+            "lost_slot_prior": 0.0,
+            "hard_constraint_prior": 0.0,
+            "evergaol_prior": -0.18907379615017117,
+            "great_hollow_status_support": 0.6317062957212329,
+            "raw_details": {
+              "source": "map_class_classifier",
+              "neighbors": [
+                {
+                  "label": "Great Hollow",
+                  "score": 0.9999999403953552,
+                  "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1007.png"
+                },
+                {
+                  "label": "Great Hollow",
+                  "score": 0.999343991279602,
+                  "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1005.png"
+                },
+                {
+                  "label": "Great Hollow",
+                  "score": 0.999343991279602,
+                  "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1045.png"
+                },
+                {
+                  "label": "Great Hollow",
+                  "score": 0.9992628693580627,
+                  "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1038.png"
+                },
+                {
+                  "label": "Great Hollow",
+                  "score": 0.9979518055915833,
+                  "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1191.png"
+                }
+              ]
+            },
+            "raw_dominance": true,
+            "gate_structural": true,
+            "gate_pass": true
+          }
+        }
+      ],
+      "slot_trace_best_earth": [
+        {
+          "slot_id": 1,
+          "slot_name": "slot_01",
+          "label": "Church",
+          "best_prob": 0.9999922838647011,
+          "second_prob": 7.71613529897954e-06,
+          "margin": 0.9999845677294021,
+          "allowed_labels": [
+            "empty",
+            "Church"
+          ],
+          "slot_classifier_mode": "classic",
+          "slot_classifier_meta": {}
+        },
+        {
+          "slot_id": 2,
+          "slot_name": "slot_02",
+          "label": "Great Church",
+          "best_prob": 0.9917387491750326,
+          "second_prob": 0.008261250824967401,
+          "margin": 0.9834774983500651,
+          "allowed_labels": [
+            "empty",
+            "Great Church"
+          ],
+          "slot_classifier_mode": "classic",
+          "slot_classifier_meta": {}
+        },
+        {
+          "slot_id": 3,
+          "slot_name": "slot_03",
+          "label": "Sorcerer's Rise",
+          "best_prob": 0.9975747119268668,
+          "second_prob": 0.002424464423549284,
+          "margin": 0.9951502475033175,
+          "allowed_labels": [
+            "empty",
+            "Church",
+            "Sorcerer's Rise"
+          ],
+          "slot_classifier_mode": "classic",
+          "slot_classifier_meta": {}
+        },
+        {
+          "slot_id": 4,
+          "slot_name": "slot_04",
+          "label": "empty",
+          "best_prob": 0.9999999999989999,
+          "second_prob": 9.02587671879085e-13,
+          "margin": 0.9999999999980973,
+          "allowed_labels": [
+            "empty",
+            "Church",
+            "Sorcerer's Rise"
+          ],
+          "slot_classifier_mode": "prototype",
+          "slot_classifier_meta": {
+            "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_gh_slot4_prototype_model_test\\gh_slot4_empty_vs_churchrise_prototype_model.pkl",
+            "p_empty": 0.9999999999989999,
+            "p_church_like": 1.000088900582341e-12,
+            "d_empty": 13.582428932189941,
+            "d_church_like": 207.87686157226562,
+            "gate_threshold": 0.55,
+            "p_non_empty": 1.000088900582341e-12,
+            "gate_decision": "empty"
+          }
+        },
+        {
+          "slot_id": 5,
+          "slot_name": "slot_05",
+          "label": "Ruins",
+          "best_prob": 0.9996928214847131,
+          "second_prob": 0.0003071785152869724,
+          "margin": 0.9993856429694261,
+          "allowed_labels": [
+            "empty",
+            "Ruins"
+          ],
+          "slot_classifier_mode": "classic",
+          "slot_classifier_meta": {}
+        },
+        {
+          "slot_id": 6,
+          "slot_name": "slot_06",
+          "label": "Church",
+          "best_prob": 0.9999949872549299,
+          "second_prob": 2.70191254954411e-06,
+          "margin": 0.9999922853423803,
+          "allowed_labels": [
+            "empty",
+            "Church",
+            "Sorcerer's Rise"
+          ],
+          "slot_classifier_mode": "classic",
+          "slot_classifier_meta": {}
+        }
+      ],
+      "great_hollow_status_observations": {
+        "Palace": {
+          "best_status": "Status_Magic",
+          "best_score": 0.5052515268325806,
+          "runner_up": null,
+          "runner_up_score": null,
+          "margin": 0.01050308346748352,
+          "confidence": null,
+          "classifier_mode": "models",
+          "ranked": [
+            {
+              "status_type": "Status_Magic",
+              "score": 0.5052515268325806,
+              "dx": 0,
+              "dy": 0
+            },
+            {
+              "status_type": "Status_Fire",
+              "score": 0.49474844336509705,
+              "dx": 0,
+              "dy": 0
+            }
+          ]
+        },
+        "Fortress": {
+          "best_status": "Status_Rot",
+          "best_score": 0.502272367477417,
+          "runner_up": null,
+          "runner_up_score": null,
+          "margin": 0.004544734954833984,
+          "confidence": null,
+          "classifier_mode": "models",
+          "ranked": [
+            {
+              "status_type": "Status_Rot",
+              "score": 0.502272367477417,
+              "dx": 0,
+              "dy": 0
+            },
+            {
+              "status_type": "Status_Holy",
+              "score": 0.497727632522583,
+              "dx": 0,
+              "dy": 0
+            }
+          ]
+        },
+        "Ruins": {
+          "best_status": "Status_Poison",
+          "best_score": 0.8879085779190063,
+          "runner_up": null,
+          "runner_up_score": null,
+          "margin": 0.7758171856403351,
+          "confidence": null,
+          "classifier_mode": "models",
+          "ranked": [
+            {
+              "status_type": "Status_Poison",
+              "score": 0.8879085779190063,
+              "dx": 0,
+              "dy": 0
+            },
+            {
+              "status_type": "Status_Bleed",
+              "score": 0.11209139227867126,
+              "dx": 0,
+              "dy": 0
+            }
+          ]
+        },
+        "Great Church": {
+          "best_status": "Status_Lightning",
+          "best_score": 0.6027125716209412,
+          "runner_up": null,
+          "runner_up_score": null,
+          "margin": 0.2054252028465271,
+          "confidence": null,
+          "classifier_mode": "models",
+          "ranked": [
+            {
+              "status_type": "Status_Lightning",
+              "score": 0.6027125716209412,
+              "dx": 0,
+              "dy": 0
+            },
+            {
+              "status_type": "Status_Sleep",
+              "score": 0.39728736877441406,
+              "dx": 0,
+              "dy": 0
+            }
+          ]
+        }
+      },
+      "top5_layouts": [
+        {
+          "layout_number": 1005,
+          "shifting_earth": "Great Hollow",
+          "total_score": 3.783896227781164,
+          "great_hollow_status_prior": 0.22668688100895715
+        },
+        {
+          "layout_number": 1007,
+          "shifting_earth": "Great Hollow",
+          "total_score": 3.778398060999713,
+          "great_hollow_status_prior": 0.22118871422750613
+        },
+        {
+          "layout_number": 1039,
+          "shifting_earth": "Great Hollow",
+          "total_score": 3.778398060999713,
+          "great_hollow_status_prior": 0.22118871422750613
+        },
+        {
+          "layout_number": 1045,
+          "shifting_earth": "Great Hollow",
+          "total_score": 3.561160787401357,
+          "great_hollow_status_prior": 0.003951440629150177
+        },
+        {
+          "layout_number": 1026,
+          "shifting_earth": "Great Hollow",
+          "total_score": 3.523896227781164,
+          "great_hollow_status_prior": -0.033313118991042875
+        }
+      ]
+    },
+    {
+      "layout_input": 1008,
+      "image_path": "renders\\recognizer_no_text\\layout_1008.png",
+      "predicted_layout": 1019,
+      "predicted_earth": "Great Hollow",
+      "correct_layout": false,
+      "earth_ranking": [
+        {
+          "name": "Great Hollow",
+          "score": 4.998477935791016,
+          "details": {
+            "source": "map_class_classifier",
+            "neighbors": [
+              {
+                "label": "Great Hollow",
+                "score": 0.9999998211860657,
+                "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1008.png"
+              },
+              {
+                "label": "Great Hollow",
+                "score": 0.9999738335609436,
+                "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1187.png"
+              },
+              {
+                "label": "Great Hollow",
+                "score": 0.9998641014099121,
+                "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1184.png"
+              },
+              {
+                "label": "Great Hollow",
+                "score": 0.9993789792060852,
+                "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1009.png"
+              },
+              {
+                "label": "Great Hollow",
+                "score": 0.999261200428009,
+                "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1129.png"
+              }
+            ]
+          }
+        }
+      ],
+      "earth_cascade_ranking": [
+        {
+          "name": "Great Hollow",
+          "score": 7.347637352738589,
+          "details": {
+            "base_score": 4.998477935791016,
+            "geometry_prior": 0.0,
+            "lost_slot_prior": 0.0,
+            "hard_constraint_prior": 0.0,
+            "evergaol_prior": -0.18907451907680506,
+            "great_hollow_status_support": 0.6712783635904391,
+            "raw_details": {
+              "source": "map_class_classifier",
+              "neighbors": [
+                {
+                  "label": "Great Hollow",
+                  "score": 0.9999998211860657,
+                  "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1008.png"
+                },
+                {
+                  "label": "Great Hollow",
+                  "score": 0.9999738335609436,
+                  "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1187.png"
+                },
+                {
+                  "label": "Great Hollow",
+                  "score": 0.9998641014099121,
+                  "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1184.png"
+                },
+                {
+                  "label": "Great Hollow",
+                  "score": 0.9993789792060852,
+                  "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1009.png"
+                },
+                {
+                  "label": "Great Hollow",
+                  "score": 0.999261200428009,
+                  "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1129.png"
+                }
+              ]
+            },
+            "raw_dominance": true,
+            "gate_structural": true,
+            "gate_pass": true
+          }
+        }
+      ],
+      "slot_trace_best_earth": [
+        {
+          "slot_id": 1,
+          "slot_name": "slot_01",
+          "label": "Church",
+          "best_prob": 0.9999922838647011,
+          "second_prob": 7.71613529897954e-06,
+          "margin": 0.9999845677294021,
+          "allowed_labels": [
+            "empty",
+            "Church"
+          ],
+          "slot_classifier_mode": "classic",
+          "slot_classifier_meta": {}
+        },
+        {
+          "slot_id": 2,
+          "slot_name": "slot_02",
+          "label": "Great Church",
+          "best_prob": 0.9728917897964843,
+          "second_prob": 0.027108210203515705,
+          "margin": 0.9457835795929685,
+          "allowed_labels": [
+            "empty",
+            "Great Church"
+          ],
+          "slot_classifier_mode": "classic",
+          "slot_classifier_meta": {}
+        },
+        {
+          "slot_id": 3,
+          "slot_name": "slot_03",
+          "label": "Sorcerer's Rise",
+          "best_prob": 0.9975747119268668,
+          "second_prob": 0.002424464423549284,
+          "margin": 0.9951502475033175,
+          "allowed_labels": [
+            "empty",
+            "Church",
+            "Sorcerer's Rise"
+          ],
+          "slot_classifier_mode": "classic",
+          "slot_classifier_meta": {}
+        },
+        {
+          "slot_id": 4,
+          "slot_name": "slot_04",
+          "label": "Church",
+          "best_prob": 0.9999311893767916,
+          "second_prob": 6.881062320837605e-05,
+          "margin": 0.9998623787535832,
+          "allowed_labels": [
+            "empty",
+            "Church",
+            "Sorcerer's Rise"
+          ],
+          "slot_classifier_mode": "prototype",
+          "slot_classifier_meta": {
+            "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_gh_slot4_prototype_model_test\\gh_slot4_empty_vs_churchrise_prototype_model.pkl",
+            "p_empty": 0.0,
+            "p_church_like": 1.0,
+            "d_empty": 429.48809814453125,
+            "d_church_like": 117.12596130371094,
+            "gate_threshold": 0.55,
+            "p_non_empty": 1.0,
+            "gate_decision": "non_empty",
+            "non_empty_best_label": "Church",
+            "non_empty_best_prob": 0.9999311893767916,
+            "non_empty_second_prob": 6.881062320837605e-05,
+            "non_empty_margin": 0.9998623787535832
+          }
+        },
+        {
+          "slot_id": 5,
+          "slot_name": "slot_05",
+          "label": "Ruins",
+          "best_prob": 0.9996928214847131,
+          "second_prob": 0.0003071785152869724,
+          "margin": 0.9993856429694261,
+          "allowed_labels": [
+            "empty",
+            "Ruins"
+          ],
+          "slot_classifier_mode": "classic",
+          "slot_classifier_meta": {}
+        },
+        {
+          "slot_id": 6,
+          "slot_name": "slot_06",
+          "label": "empty",
+          "best_prob": 0.9999899770462845,
+          "second_prob": 9.869215336553654e-06,
+          "margin": 0.9999801078309479,
+          "allowed_labels": [
+            "empty",
+            "Church",
+            "Sorcerer's Rise"
+          ],
+          "slot_classifier_mode": "classic",
+          "slot_classifier_meta": {}
+        }
+      ],
+      "great_hollow_status_observations": {
+        "Palace": {
+          "best_status": "Status_Fire",
+          "best_score": 0.521573543548584,
+          "runner_up": null,
+          "runner_up_score": null,
+          "margin": 0.043147116899490356,
+          "confidence": null,
+          "classifier_mode": "models",
+          "ranked": [
+            {
+              "status_type": "Status_Fire",
+              "score": 0.521573543548584,
+              "dx": 0,
+              "dy": 0
+            },
+            {
+              "status_type": "Status_Magic",
+              "score": 0.47842642664909363,
+              "dx": 0,
+              "dy": 0
+            }
+          ]
+        },
+        "Fortress": {
+          "best_status": "Status_Holy",
+          "best_score": 0.5022112131118774,
+          "runner_up": null,
+          "runner_up_score": null,
+          "margin": 0.0044224560260772705,
+          "confidence": null,
+          "classifier_mode": "models",
+          "ranked": [
+            {
+              "status_type": "Status_Holy",
+              "score": 0.5022112131118774,
+              "dx": 0,
+              "dy": 0
+            },
+            {
+              "status_type": "Status_Rot",
+              "score": 0.49778875708580017,
+              "dx": 0,
+              "dy": 0
+            }
+          ]
+        },
+        "Ruins": {
+          "best_status": "Status_Poison",
+          "best_score": 0.8879085779190063,
+          "runner_up": null,
+          "runner_up_score": null,
+          "margin": 0.7758171856403351,
+          "confidence": null,
+          "classifier_mode": "models",
+          "ranked": [
+            {
+              "status_type": "Status_Poison",
+              "score": 0.8879085779190063,
+              "dx": 0,
+              "dy": 0
+            },
+            {
+              "status_type": "Status_Bleed",
+              "score": 0.11209139227867126,
+              "dx": 0,
+              "dy": 0
+            }
+          ]
+        },
+        "Great Church": {
+          "best_status": "Status_Lightning",
+          "best_score": 0.610460102558136,
+          "runner_up": null,
+          "runner_up_score": null,
+          "margin": 0.22092020511627197,
+          "confidence": null,
+          "classifier_mode": "models",
+          "ranked": [
+            {
+              "status_type": "Status_Lightning",
+              "score": 0.610460102558136,
+              "dx": 0,
+              "dy": 0
+            },
+            {
+              "status_type": "Status_Sleep",
+              "score": 0.389539897441864,
+              "dx": 0,
+              "dy": 0
+            }
+          ]
+        }
+      },
+      "top5_layouts": [
+        {
+          "layout_number": 1019,
+          "shifting_earth": "Great Hollow",
+          "total_score": 3.800295228606591,
+          "great_hollow_status_prior": 0.24117457526602917
+        },
+        {
+          "layout_number": 1187,
+          "shifting_earth": "Great Hollow",
+          "total_score": 3.6743159588859773,
+          "great_hollow_status_prior": 0.11519530554541522
+        },
+        {
+          "layout_number": 1009,
+          "shifting_earth": "Great Hollow",
+          "total_score": 3.664837604568176,
+          "great_hollow_status_prior": 0.10571695122761386
+        },
+        {
+          "layout_number": 1123,
+          "shifting_earth": "Great Hollow",
+          "total_score": 3.664837604568176,
+          "great_hollow_status_prior": 0.10571695122761386
+        },
+        {
+          "layout_number": 1069,
+          "shifting_earth": "Great Hollow",
+          "total_score": 3.5402952286065914,
+          "great_hollow_status_prior": -0.01882542473397085
+        }
+      ]
+    },
+    {
+      "layout_input": 1009,
+      "image_path": "renders\\recognizer_no_text\\layout_1009.png",
+      "predicted_layout": 1019,
+      "predicted_earth": "Great Hollow",
+      "correct_layout": false,
+      "earth_ranking": [
+        {
+          "name": "Great Hollow",
+          "score": 4.997875690460205,
+          "details": {
+            "source": "map_class_classifier",
+            "neighbors": [
+              {
+                "label": "Great Hollow",
+                "score": 0.9999998807907104,
+                "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1009.png"
+              },
+              {
+                "label": "Great Hollow",
+                "score": 0.9998656511306763,
+                "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1069.png"
+              },
+              {
+                "label": "Great Hollow",
+                "score": 0.9993789792060852,
+                "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1008.png"
+              },
+              {
+                "label": "Great Hollow",
+                "score": 0.9993528127670288,
+                "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1187.png"
+              },
+              {
+                "label": "Great Hollow",
+                "score": 0.9992783665657043,
+                "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1056.png"
+              }
+            ]
+          }
+        }
+      ],
+      "earth_cascade_ranking": [
+        {
+          "name": "Great Hollow",
+          "score": 7.346707421793943,
+          "details": {
+            "base_score": 4.997875690460205,
+            "geometry_prior": 0.0,
+            "lost_slot_prior": 0.0,
+            "hard_constraint_prior": 0.0,
+            "evergaol_prior": -0.18907640405914417,
+            "great_hollow_status_support": 0.6701310434068243,
+            "raw_details": {
+              "source": "map_class_classifier",
+              "neighbors": [
+                {
+                  "label": "Great Hollow",
+                  "score": 0.9999998807907104,
+                  "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1009.png"
+                },
+                {
+                  "label": "Great Hollow",
+                  "score": 0.9998656511306763,
+                  "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1069.png"
+                },
+                {
+                  "label": "Great Hollow",
+                  "score": 0.9993789792060852,
+                  "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1008.png"
+                },
+                {
+                  "label": "Great Hollow",
+                  "score": 0.9993528127670288,
+                  "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1187.png"
+                },
+                {
+                  "label": "Great Hollow",
+                  "score": 0.9992783665657043,
+                  "origin": "tmp_earth_train_sources\\Great Hollow\\layout_1056.png"
+                }
+              ]
+            },
+            "raw_dominance": true,
+            "gate_structural": true,
+            "gate_pass": true
+          }
+        }
+      ],
+      "slot_trace_best_earth": [
+        {
+          "slot_id": 1,
+          "slot_name": "slot_01",
+          "label": "Church",
+          "best_prob": 0.9999922838647011,
+          "second_prob": 7.71613529897954e-06,
+          "margin": 0.9999845677294021,
+          "allowed_labels": [
+            "empty",
+            "Church"
+          ],
+          "slot_classifier_mode": "classic",
+          "slot_classifier_meta": {}
+        },
+        {
+          "slot_id": 2,
+          "slot_name": "slot_02",
+          "label": "Great Church",
+          "best_prob": 0.9917387491750326,
+          "second_prob": 0.008261250824967401,
+          "margin": 0.9834774983500651,
+          "allowed_labels": [
+            "empty",
+            "Great Church"
+          ],
+          "slot_classifier_mode": "classic",
+          "slot_classifier_meta": {}
+        },
+        {
+          "slot_id": 3,
+          "slot_name": "slot_03",
+          "label": "Sorcerer's Rise",
+          "best_prob": 0.9975747119268668,
+          "second_prob": 0.002424464423549284,
+          "margin": 0.9951502475033175,
+          "allowed_labels": [
+            "empty",
+            "Church",
+            "Sorcerer's Rise"
+          ],
+          "slot_classifier_mode": "classic",
+          "slot_classifier_meta": {}
+        },
+        {
+          "slot_id": 4,
+          "slot_name": "slot_04",
+          "label": "Church",
+          "best_prob": 0.9999311893767916,
+          "second_prob": 6.881062320837605e-05,
+          "margin": 0.9998623787535832,
+          "allowed_labels": [
+            "empty",
+            "Church",
+            "Sorcerer's Rise"
+          ],
+          "slot_classifier_mode": "prototype",
+          "slot_classifier_meta": {
+            "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_gh_slot4_prototype_model_test\\gh_slot4_empty_vs_churchrise_prototype_model.pkl",
+            "p_empty": 0.0,
+            "p_church_like": 1.0,
+            "d_empty": 429.48809814453125,
+            "d_church_like": 117.12596130371094,
+            "gate_threshold": 0.55,
+            "p_non_empty": 1.0,
+            "gate_decision": "non_empty",
+            "non_empty_best_label": "Church",
+            "non_empty_best_prob": 0.9999311893767916,
+            "non_empty_second_prob": 6.881062320837605e-05,
+            "non_empty_margin": 0.9998623787535832
+          }
+        },
+        {
+          "slot_id": 5,
+          "slot_name": "slot_05",
+          "label": "Ruins",
+          "best_prob": 0.9996928214847131,
+          "second_prob": 0.0003071785152869724,
+          "margin": 0.9993856429694261,
+          "allowed_labels": [
+            "empty",
+            "Ruins"
+          ],
+          "slot_classifier_mode": "classic",
+          "slot_classifier_meta": {}
+        },
+        {
+          "slot_id": 6,
+          "slot_name": "slot_06",
+          "label": "empty",
+          "best_prob": 0.9999899770462845,
+          "second_prob": 9.869215336553654e-06,
+          "margin": 0.9999801078309479,
+          "allowed_labels": [
+            "empty",
+            "Church",
+            "Sorcerer's Rise"
+          ],
+          "slot_classifier_mode": "classic",
+          "slot_classifier_meta": {}
+        }
+      ],
+      "great_hollow_status_observations": {
+        "Palace": {
+          "best_status": "Status_Fire",
+          "best_score": 0.521573543548584,
+          "runner_up": null,
+          "runner_up_score": null,
+          "margin": 0.043147116899490356,
+          "confidence": null,
+          "classifier_mode": "models",
+          "ranked": [
+            {
+              "status_type": "Status_Fire",
+              "score": 0.521573543548584,
+              "dx": 0,
+              "dy": 0
+            },
+            {
+              "status_type": "Status_Magic",
+              "score": 0.47842642664909363,
+              "dx": 0,
+              "dy": 0
+            }
+          ]
+        },
+        "Fortress": {
+          "best_status": "Status_Rot",
+          "best_score": 0.502272367477417,
+          "runner_up": null,
+          "runner_up_score": null,
+          "margin": 0.004544734954833984,
+          "confidence": null,
+          "classifier_mode": "models",
+          "ranked": [
+            {
+              "status_type": "Status_Rot",
+              "score": 0.502272367477417,
+              "dx": 0,
+              "dy": 0
+            },
+            {
+              "status_type": "Status_Holy",
+              "score": 0.497727632522583,
+              "dx": 0,
+              "dy": 0
+            }
+          ]
+        },
+        "Ruins": {
+          "best_status": "Status_Poison",
+          "best_score": 0.8879085779190063,
+          "runner_up": null,
+          "runner_up_score": null,
+          "margin": 0.7758171856403351,
+          "confidence": null,
+          "classifier_mode": "models",
+          "ranked": [
+            {
+              "status_type": "Status_Poison",
+              "score": 0.8879085779190063,
+              "dx": 0,
+              "dy": 0
+            },
+            {
+              "status_type": "Status_Bleed",
+              "score": 0.11209139227867126,
+              "dx": 0,
+              "dy": 0
+            }
+          ]
+        },
+        "Great Church": {
+          "best_status": "Status_Lightning",
+          "best_score": 0.6027125716209412,
+          "runner_up": null,
+          "runner_up_score": null,
+          "margin": 0.2054252028465271,
+          "confidence": null,
+          "classifier_mode": "models",
+          "ranked": [
+            {
+              "status_type": "Status_Lightning",
+              "score": 0.6027125716209412,
+              "dx": 0,
+              "dy": 0
+            },
+            {
+              "status_type": "Status_Sleep",
+              "score": 0.39728736877441406,
+              "dx": 0,
+              "dy": 0
+            }
+          ]
+        }
+      },
+      "top5_layouts": [
+        {
+          "layout_number": 1019,
+          "shifting_earth": "Great Hollow",
+          "total_score": 3.8983210373663404,
+          "great_hollow_status_prior": 0.33965395300622503
+        },
+        {
+          "layout_number": 1009,
+          "shifting_earth": "Great Hollow",
+          "total_score": 3.762863413327925,
+          "great_hollow_status_prior": 0.2041963289678097
+        },
+        {
+          "layout_number": 1123,
+          "shifting_earth": "Great Hollow",
+          "total_score": 3.762863413327925,
+          "great_hollow_status_prior": 0.2041963289678097
+        },
+        {
+          "layout_number": 1069,
+          "shifting_earth": "Great Hollow",
+          "total_score": 3.63832103736634,
+          "great_hollow_status_prior": 0.07965395300622499
+        },
+        {
+          "layout_number": 1187,
+          "shifting_earth": "Great Hollow",
+          "total_score": 3.5757490045081215,
+          "great_hollow_status_prior": 0.01708192014800651
+        }
+      ]
+    }
+  ]
+}

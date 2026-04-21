@@ -1,0 +1,100 @@
+{
+  "model": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_plus_real_heavy\\slot4_status_cnn_plus_real_heavy.pt",
+  "results": [
+    {
+      "file": "Screenshot_133.png__slot4_crop_200.png",
+      "pred": "Church",
+      "conf": 0.999062716960907,
+      "ranking": [
+        {
+          "label": "Church",
+          "probability": 0.999062716960907
+        },
+        {
+          "label": "empty",
+          "probability": 0.0007083043456077576
+        },
+        {
+          "label": "Sorcerer_s_Rise",
+          "probability": 0.00022900481417309493
+        }
+      ]
+    },
+    {
+      "file": "Screenshot_134.png__slot4_crop_200.png",
+      "pred": "Church",
+      "conf": 0.999062716960907,
+      "ranking": [
+        {
+          "label": "Church",
+          "probability": 0.999062716960907
+        },
+        {
+          "label": "empty",
+          "probability": 0.0007083043456077576
+        },
+        {
+          "label": "Sorcerer_s_Rise",
+          "probability": 0.00022900481417309493
+        }
+      ]
+    },
+    {
+      "file": "Screenshot_135.png__slot4_crop_200.png",
+      "pred": "Church",
+      "conf": 0.999175488948822,
+      "ranking": [
+        {
+          "label": "Church",
+          "probability": 0.999175488948822
+        },
+        {
+          "label": "empty",
+          "probability": 0.0005901831900700927
+        },
+        {
+          "label": "Sorcerer_s_Rise",
+          "probability": 0.00023430258443113416
+        }
+      ]
+    },
+    {
+      "file": "Screenshot_136.png__slot4_crop_200.png",
+      "pred": "Church",
+      "conf": 0.999175488948822,
+      "ranking": [
+        {
+          "label": "Church",
+          "probability": 0.999175488948822
+        },
+        {
+          "label": "empty",
+          "probability": 0.0005901831900700927
+        },
+        {
+          "label": "Sorcerer_s_Rise",
+          "probability": 0.00023430258443113416
+        }
+      ]
+    },
+    {
+      "file": "Screenshot_137.png__slot4_crop_200.png",
+      "pred": "Sorcerer_s_Rise",
+      "conf": 0.9401346445083618,
+      "ranking": [
+        {
+          "label": "Sorcerer_s_Rise",
+          "probability": 0.9401346445083618
+        },
+        {
+          "label": "empty",
+          "probability": 0.05139632150530815
+        },
+        {
+          "label": "Church",
+          "probability": 0.008468990214169025
+        }
+      ]
+    }
+  ]
+}

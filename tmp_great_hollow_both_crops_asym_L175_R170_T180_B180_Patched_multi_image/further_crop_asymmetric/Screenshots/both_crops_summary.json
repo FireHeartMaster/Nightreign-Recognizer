@@ -1,0 +1,234 @@
+{
+  "input_dir": "tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots",
+  "panel_output_dir": "tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop",
+  "asym_output_dir": "tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\further_crop_asymmetric_from_panel",
+  "count": 8,
+  "ok": 8,
+  "error": 0,
+  "results": [
+    {
+      "file": "1102.png",
+      "status": "ok",
+      "crop_method": "gray_hough",
+      "panel_crop": {
+        "path": "tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop\\1102_panel_crop.png",
+        "w": 1490,
+        "h": 1490,
+        "box": {
+          "x0": 2174,
+          "y0": 343,
+          "x1": 3664,
+          "y1": 1833
+        }
+      },
+      "asym_further_crop": {
+        "path": "tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\further_crop_asymmetric_from_panel\\1102_asym_further_crop.png",
+        "w": 1191,
+        "h": 1176,
+        "rule": {
+          "resize_to": 1536,
+          "left": 175,
+          "right": 170,
+          "top": 180,
+          "bottom": 180
+        }
+      }
+    },
+    {
+      "file": "1115.png",
+      "status": "ok",
+      "crop_method": "fallback",
+      "panel_crop": {
+        "path": "tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop\\1115_panel_crop.png",
+        "w": 1490,
+        "h": 1490,
+        "box": {
+          "x0": 2175,
+          "y0": 344,
+          "x1": 3665,
+          "y1": 1834
+        }
+      },
+      "asym_further_crop": {
+        "path": "tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\further_crop_asymmetric_from_panel\\1115_asym_further_crop.png",
+        "w": 1191,
+        "h": 1176,
+        "rule": {
+          "resize_to": 1536,
+          "left": 175,
+          "right": 170,
+          "top": 180,
+          "bottom": 180
+        }
+      }
+    },
+    {
+      "file": "1119.png",
+      "status": "ok",
+      "crop_method": "fallback",
+      "panel_crop": {
+        "path": "tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop\\1119_panel_crop.png",
+        "w": 1490,
+        "h": 1490,
+        "box": {
+          "x0": 2174,
+          "y0": 344,
+          "x1": 3664,
+          "y1": 1834
+        }
+      },
+      "asym_further_crop": {
+        "path": "tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\further_crop_asymmetric_from_panel\\1119_asym_further_crop.png",
+        "w": 1191,
+        "h": 1176,
+        "rule": {
+          "resize_to": 1536,
+          "left": 175,
+          "right": 170,
+          "top": 180,
+          "bottom": 180
+        }
+      }
+    },
+    {
+      "file": "1120.png",
+      "status": "ok",
+      "crop_method": "fallback",
+      "panel_crop": {
+        "path": "tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop\\1120_panel_crop.png",
+        "w": 1490,
+        "h": 1490,
+        "box": {
+          "x0": 2175,
+          "y0": 344,
+          "x1": 3665,
+          "y1": 1834
+        }
+      },
+      "asym_further_crop": {
+        "path": "tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\further_crop_asymmetric_from_panel\\1120_asym_further_crop.png",
+        "w": 1191,
+        "h": 1176,
+        "rule": {
+          "resize_to": 1536,
+          "left": 175,
+          "right": 170,
+          "top": 180,
+          "bottom": 180
+        }
+      }
+    },
+    {
+      "file": "1128.png",
+      "status": "ok",
+      "crop_method": "fallback",
+      "panel_crop": {
+        "path": "tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop\\1128_panel_crop.png",
+        "w": 1490,
+        "h": 1490,
+        "box": {
+          "x0": 2175,
+          "y0": 344,
+          "x1": 3665,
+          "y1": 1834
+        }
+      },
+      "asym_further_crop": {
+        "path": "tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\further_crop_asymmetric_from_panel\\1128_asym_further_crop.png",
+        "w": 1191,
+        "h": 1176,
+        "rule": {
+          "resize_to": 1536,
+          "left": 175,
+          "right": 170,
+          "top": 180,
+          "bottom": 180
+        }
+      }
+    },
+    {
+      "file": "1175.png",
+      "status": "ok",
+      "crop_method": "fallback",
+      "panel_crop": {
+        "path": "tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop\\1175_panel_crop.png",
+        "w": 1490,
+        "h": 1490,
+        "box": {
+          "x0": 2175,
+          "y0": 344,
+          "x1": 3665,
+          "y1": 1834
+        }
+      },
+      "asym_further_crop": {
+        "path": "tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\further_crop_asymmetric_from_panel\\1175_asym_further_crop.png",
+        "w": 1191,
+        "h": 1176,
+        "rule": {
+          "resize_to": 1536,
+          "left": 175,
+          "right": 170,
+          "top": 180,
+          "bottom": 180
+        }
+      }
+    },
+    {
+      "file": "1181.png",
+      "status": "ok",
+      "crop_method": "fallback",
+      "panel_crop": {
+        "path": "tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop\\1181_panel_crop.png",
+        "w": 1490,
+        "h": 1490,
+        "box": {
+          "x0": 2174,
+          "y0": 344,
+          "x1": 3664,
+          "y1": 1834
+        }
+      },
+      "asym_further_crop": {
+        "path": "tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\further_crop_asymmetric_from_panel\\1181_asym_further_crop.png",
+        "w": 1191,
+        "h": 1176,
+        "rule": {
+          "resize_to": 1536,
+          "left": 175,
+          "right": 170,
+          "top": 180,
+          "bottom": 180
+        }
+      }
+    },
+    {
+      "file": "1185.png",
+      "status": "ok",
+      "crop_method": "fallback",
+      "panel_crop": {
+        "path": "tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\panel_crop\\1185_panel_crop.png",
+        "w": 1490,
+        "h": 1490,
+        "box": {
+          "x0": 2174,
+          "y0": 344,
+          "x1": 3664,
+          "y1": 1834
+        }
+      },
+      "asym_further_crop": {
+        "path": "tmp_great_hollow_both_crops_asym_L175_R170_T180_B180_Patched_multi_image\\further_crop_asymmetric\\Screenshots\\further_crop_asymmetric_from_panel\\1185_asym_further_crop.png",
+        "w": 1191,
+        "h": 1176,
+        "rule": {
+          "resize_to": 1536,
+          "left": 175,
+          "right": 170,
+          "top": 180,
+          "bottom": 180
+        }
+      }
+    }
+  ]
+}
