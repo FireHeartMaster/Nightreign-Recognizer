@@ -54,5 +54,5 @@ pyinstaller --noconfirm --clean --windowed `
   --add-data "evergaol_ai_test_output_no_text/evergaol_patch_model_v1.pt;evergaol_ai_test_output_no_text" `
   --add-data "earth_ai_test_output_no_text_prepped/earth_panel_model_v1.pt;earth_ai_test_output_no_text_prepped" `
   --add-data "earth_ai_test_output_no_text/earth_panel_model_v1.pt;earth_ai_test_output_no_text" `
-  --add-data "LotResultSmallBaseAndSpot_grouped_by_patternId_13.json;." `
+  --add-data "LotResultSmallBaseAndSpot_grouped_by_patternId_14.json;." `
   nightreign_map_recognizer_gui_ai_v38_completion_toast_overlay.py

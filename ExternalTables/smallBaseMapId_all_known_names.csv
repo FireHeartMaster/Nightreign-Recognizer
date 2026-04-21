@@ -1,0 +1,182 @@
+smallBaseMapId,name
+100,Fort
+101,Camp
+102,Ruins
+103,Basement Boss
+104,Field Boss Red
+105,Field Boss Red
+106,Field Boss Red
+110,Great Church
+111,Fort
+112,Great Church
+113,Castle
+114,Field Boss
+200,Sorcerer's Rise
+201,Church
+202,Event - Maris
+207,Event - Fell Omen
+209,Evergaol
+212,Event - Gnoster
+213,Event - Libra
+214,Event - Libra Alt
+216,Church
+1100,Great Church
+1101,Ruins
+1102,Great Church
+1103,Ruins
+1200,Field Boss
+1201,Field Boss Red
+1203,Church
+1207,Field Boss Red
+1214,Event - Libra Alt
+1215,Event - Gnoster
+1216,Event - Maris
+1218,Event - Libra
+2000,Fort
+2010,Day 1 - Meteor Strike
+2011,Fort
+2030,Walking Mausoleum
+2040,Meteor Strike
+2100,Swamp - Kindred of Rot
+2101,Swamp - Kindred of Rot
+2102,Ruins
+2103,Basement Boss
+2104,Field Boss Red
+2105,Field Boss Red
+2106,Field Boss Red
+2110,Great Church
+2112,Great Church
+2113,Castle
+2114,Field Boss
+2116,Church
+2120,Church
+2201,Church
+2202,Event - Maris
+2206,Sorcerer's Rise
+2207,Event - Fell Omen
+2212,Event - Gnoster
+2213,Event - Libra
+2214,Event - Libra Alt
+2300,Church
+2312,Township
+3000,Fort - Lordsworn Captain; Abductor Virgin
+3030,Fort - Guardian Golem; Crystalians
+3200,Camp - Banished Knights; Elder Lion
+3210,Camp - Leonine Misbegotten; Redmane Knights; Royal Army Knights
+3220,Camp - Flame Chariots; Frenzied Flame Troll
+3400,Ruins - Erdtree Burial Watchdogs; Sanguine Noble; Ancient Heroes of Zamor; Large Albinaurics
+3410,Ruins - Perfumer; Depraved Perfumer; Battlemages; Albinauric Archers; Runebear
+3420,Ruins - Wormface; Beastmen of Farum Azula
+3430,Ruins - Beastmen of Farum Azula
+3790,Township
+3800,Great Church - Oracle Envoys; Guardian Golem
+3810,Great Church - Mausoleum Knight; Fire Monk
+4000,Sorcerer's Rise - Normal
+4090,Sorcerer's Rise - Ruined
+4100,Church - Dogs
+4101,Church - Rats; Rats Alt
+4130,Church - Rotted
+4300,Small Camp - Dogs and Soldiers; Soldiers
+4301,Small Camp - Wandering Nobles; Wandering Nobles and Soldiers
+4302,Small Camp - Foot Soldiers
+4330,Small Camp - Putrid Ancestral Followers; Putrid Ancestral Followers Alt
+4340,Small Camp - Dogs; Misbegotten
+4341,Small Camp - Demi-Humans; Dogs and Demi-Humans
+4350,Small Camp - Guilty; Guilty Alt
+4401,Small Camp - Shack
+4500,Small Camp - Caravans
+4501,Small Camp - Caravans and Soldiers
+4551,Field Boss - Black Knife Assassin
+4552,Event - Maris
+4553,Event - Gnoster
+4554,Event - Gnoster
+4555,Event - Libra
+4600,Night Horde - Frenzied Horde
+4601,Night Horde - Caelid Horde
+4602,Night Horde - Ant Horde
+4603,Night Horde - Finger Horde
+4604,Night Horde - Dragon Horde
+4605,Night Horde - Golem Horde
+4606,Night Horde - Wraith Horde
+4650,Evergaol - Unused Banished Knights; Unused Nox Duo; Omen; Grave Warden Duelist; Beastmen of Farum Azula; Beastly Brigade; Unused Bloodhound Knight
+4651,Field Boss - Red Wolf
+4652,Field Boss - Draconic Tree Sentinel
+4653,Field Boss - Tree Sentinel
+4654,Field Boss - Royal Carian Knight
+4655,Field Boss - Leonine Misbegotten
+4656,Field Boss - Bell Bearing Hunter
+4657,Field Boss - Elder Lion
+4658,Field Boss - Flying Dragon of the Hills
+4659,Field Boss - Royal Revenant
+4660,Evergaol - Crucible Knight with Sword; Crucible Knight with Spear; Crystalians; Stoneskin Lords; Banished Knights; Nox Duo; Bloodhound Knight
+4662,Field Boss - Night's Cavalry
+4663,Field Boss - Ulcerated Tree Spirit
+4664,Field Boss - Ancestor Spirit
+4665,Field Boss - Grafted Scion
+4666,Field Boss - Valiant Gargoyle
+4667,Field Boss - Erdtree Avatar
+4668,Field Boss - Magma Wyrm
+4669,Field Boss - Ancient Hero of Zamor
+4670,Evergaol - Dragonkin Soldier; Godskin Apostle; Godskin Noble; Crucible Knight with Sword; Crucible Knight with Spear
+4671,Field Boss - Miranda Blossom
+4672,Field Boss - Golden Hippopotamus
+4674,Field Boss - Death Rite Bird
+4677,Field Boss - Demi-Human Queen
+4678,Event - Fell Omen
+4680,Evergaol - Death Rite Bird; Ancient Dragon; Godskin Duo
+4681,Basement Boss - Black Knife Assassin
+4682,Basement Boss - Red Wolf
+4686,Basement Boss - Leonine Misbegotten
+4687,Basement Boss - Bell Bearing Hunter
+4688,Basement Boss - Royal Revenant
+4691,Basement Boss - Grafted Scion
+4695,Basement Boss - Ancient Hero of Zamor
+4770,Tibia Mariner / Those Who Live in Death
+4780,Gaping Dragon
+4790,Centipede Demon
+4800,The Duke's Dear Freja
+4810,Smelter Demon
+4820,Nameless King
+4830,Dancer of the Boreal Valley
+4840,Fell Omen (Morgott)
+4850,Draconic Tree Sentinel and Royal Cavalrymen
+4860,Tree Sentinel / Royal Cavalrymen
+4880,Godskin Duo
+4890,Wormface
+4900,Tibia Mariner / Those Who Live in Death
+4910,Grafted Monarch
+4917,Valiant Gargoyle
+4918,Magma Wyrm
+4919,Ancient Dragon
+4920,Fallingstar Beast
+4921,Death Rite Bird
+4923,Dragonkin Soldier
+4924,Bell Bearing Hunter
+4925,Crucible Knight and Golden Hippopotamus
+4926,Outland Commander
+4927,Battlefield Commander
+4928,Night's Cavalry Duo
+4929,Demi-Human Queen and Swordmaster
+4930,Royal Revenant
+4940,Event - Libra Alt
+4941,Castle - Banished Knights
+4942,Castle - Trolls
+4943,Castle - Crucible Knights
+4990,Ulcerated Tree Spirit
+5000,Swamp - Kindred of Rot
+5001,Swamp - Spider Scorpion
+5002,Frost Crayfish
+5003,Cuckoo Knights
+5004,Swamp - Cleanrot Knight
+5005,Swamp - Nomads
+5006,Sanguine Nobles
+5010,Fortified Village - Death Knights; Divine Bird Warrior; Omen
+5011,Fortified Village - Ancestral Follower Warriors; Omenkillers; Blackflame Monks
+5100,Church - Normal
+5110,Sorcerer's Rise
+5240,Great Church - Inquisitor
+5242,Great Church - Ancient Heroes of Zamor
+5245,Great Church - Abductor Virgins
+5246,Great Church - Nox Warriors
+5250,Bloodbane Giant Crows + Chief Bloodfiend
+5252,Curseblade + Spider Scorpions

@@ -2503,28 +2503,30 @@ class NightreignRecognizerGUI:
         return Image.fromarray(rgb)
 
     def _load_pil_image(self, path: Path | Image.Image) -> Image.Image:
-        if isinstance(path, Image.Image):
+        def _convert_overlay_image_for_display(img_in: Image.Image) -> Image.Image:
             if not ENABLE_OVERLAY_TEXT_ONLY_FEATURE:
-                return path.convert("RGB") if path.mode != "RGB" else path
-            # Handle RGBA images with transparency by replacing transparent pixels with transparent color
-            if path.mode == "RGBA":
-                # Convert transparent pixels to the overlay's transparent color
-                transparent_color_rgb = (0x01, 0x02, 0x03)  # #010203 in RGB
-                data = path.getdata()
+                return img_in.convert("RGB") if img_in.mode != "RGB" else img_in
+            if not ENABLE_OVERLAY_TEXT_TRANSPARENCY:
+                return img_in.convert("RGB") if img_in.mode != "RGB" else img_in
+            # Convert fully transparent pixels to the overlay window transparent color-key (#010203).
+            if img_in.mode == "RGBA":
+                transparent_color_rgb = (0x01, 0x02, 0x03)
+                data = img_in.getdata()
                 new_data = []
                 for pixel in data:
-                    if len(pixel) == 4 and pixel[3] == 0:  # Transparent pixel
+                    if len(pixel) == 4 and pixel[3] == 0:
                         new_data.append(transparent_color_rgb)
-                    elif len(pixel) == 4:  # Has alpha, make opaque
+                    elif len(pixel) == 4:
                         new_data.append(pixel[:3])
                     else:
                         new_data.append(pixel)
-                img = Image.new("RGB", path.size)
-                img.putdata(new_data)
-                return img
-            elif path.mode != "RGB":
-                return path.convert("RGB")
-            return path
+                img_out = Image.new("RGB", img_in.size)
+                img_out.putdata(new_data)
+                return img_out
+            return img_in.convert("RGB") if img_in.mode != "RGB" else img_in
+
+        if isinstance(path, Image.Image):
+            return _convert_overlay_image_for_display(path)
 
         img = self.image_cache.get(path)
         if img is not None:
@@ -2532,7 +2534,8 @@ class NightreignRecognizerGUI:
 
         load_error: Optional[Exception] = None
         try:
-            img = Image.open(path).convert("RGB")
+            with Image.open(path) as opened:
+                img = _convert_overlay_image_for_display(opened.copy())
             self.image_cache[path] = img
             return img
         except Exception as exc:
@@ -8292,6 +8295,8 @@ DEFAULT_COMPLETION_TOAST_ENABLED = True
 DEFAULT_OVERLAY_TEXT_ONLY_ENABLED = True
 # In-code feature gate for both the text-only overlay behavior and its settings checkbox.
 ENABLE_OVERLAY_TEXT_ONLY_FEATURE = True
+# Parameter toggle: "1" keeps text-only overlay transparency via color-key mapping, "0" disables it.
+ENABLE_OVERLAY_TEXT_TRANSPARENCY = os.environ.get("NR_OVERLAY_TEXT_TRANSPARENCY", "1") != "0"
 COMPLETION_TOAST_TEXT = "Recognition Complete"
 COMPLETION_TOAST_HOLD_MS = 3000
 COMPLETION_TOAST_FADE_MS = 700
@@ -8636,7 +8641,7 @@ _ORIG_GUI_WORKER_MAIN = NightreignRecognizerGUI._worker_main
 
 def _overlay_gui_init(self, root: tk.Tk) -> None:
     _ORIG_GUI_INIT(self, root)
-    self.root.title("Nightreign Map Recognizer AI + Overlay v38 (Model-First GH)")
+    self.root.title("Nightreign Map Recognizer DEMO")
 
     saved_overlay_hotkey = normalize_hotkey_string(str(self.settings.get("overlay_hotkey", DEFAULT_OVERLAY_HOTKEY)))
     self.overlay_hotkey_string = saved_overlay_hotkey or DEFAULT_OVERLAY_HOTKEY
