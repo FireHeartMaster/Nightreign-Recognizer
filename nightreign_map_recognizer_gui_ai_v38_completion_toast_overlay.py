@@ -7,7 +7,7 @@ import math
 import json
 import os
 import pickle
-from collections import defaultdict
+from collections import OrderedDict, defaultdict
 import queue
 import re
 import sys
@@ -325,6 +325,8 @@ DEFAULT_SQUARE_RATIO = 0.69
 DEFAULT_PAD = 0
 TOP_RESULTS_TO_LOG = 20
 THUMB_COUNT = 5
+MAX_MAIN_IMAGE_CACHE_ITEMS = 24
+MAX_THUMBNAIL_CACHE_ITEMS = 80
 
 # Step 1 preprocessing contract (definition only, no behavior switch yet):
 # - resize panel to 1536x1536
@@ -1709,7 +1711,9 @@ class NightreignRecognizerGUI:
         self.current_results: List[RankedResult] = []
         self.current_image_paths: List[Path | Image.Image] = []
         self.current_selected_index = 0
-        self.image_cache: dict[Path, Image.Image] = {}
+        self.image_cache: OrderedDict[Path, Image.Image] = OrderedDict()
+        self.thumbnail_cache: OrderedDict[Tuple[str, int, int], ImageTk.PhotoImage] = OrderedDict()
+        self._thumb_render_signature: Optional[Tuple[int, int, Tuple[str, ...], Tuple[Tuple[int, float], ...]]] = None
         self.main_photo: Optional[ImageTk.PhotoImage] = None
         self.preview_photo: Optional[ImageTk.PhotoImage] = None
         self.main_canvas_photo: Optional[ImageTk.PhotoImage] = None
@@ -2491,6 +2495,7 @@ class NightreignRecognizerGUI:
         self.main_drag_last_xy: Optional[Tuple[int, int]] = None
         self.main_placeholder_text = "Run recognition to display results"
         self.thumb_photos = [None] * THUMB_COUNT
+        self._thumb_render_signature = None
         self.best_var.set("Best: —")
         self.selected_var.set("Selected: —")
         self.score_var.set("Score: —")
@@ -2501,6 +2506,35 @@ class NightreignRecognizerGUI:
     def _pil_from_bgr(self, img_bgr: np.ndarray) -> Image.Image:
         rgb = cv2.cvtColor(img_bgr, cv2.COLOR_BGR2RGB)
         return Image.fromarray(rgb)
+
+    def _lru_cache_put_image(self, key: Path, img: Image.Image) -> None:
+        self.image_cache[key] = img
+        self.image_cache.move_to_end(key)
+        while len(self.image_cache) > MAX_MAIN_IMAGE_CACHE_ITEMS:
+            self.image_cache.popitem(last=False)
+
+    def _lru_cache_get_image(self, key: Path) -> Optional[Image.Image]:
+        cached = self.image_cache.get(key)
+        if cached is not None:
+            self.image_cache.move_to_end(key)
+        return cached
+
+    def _source_signature(self, source: Path | Image.Image) -> str:
+        if isinstance(source, Path):
+            return f"path:{source}"
+        return f"pil:{id(source)}:{source.mode}:{source.size[0]}x{source.size[1]}"
+
+    def _thumb_cache_get(self, key: Tuple[str, int, int]) -> Optional[ImageTk.PhotoImage]:
+        cached = self.thumbnail_cache.get(key)
+        if cached is not None:
+            self.thumbnail_cache.move_to_end(key)
+        return cached
+
+    def _thumb_cache_put(self, key: Tuple[str, int, int], photo: ImageTk.PhotoImage) -> None:
+        self.thumbnail_cache[key] = photo
+        self.thumbnail_cache.move_to_end(key)
+        while len(self.thumbnail_cache) > MAX_THUMBNAIL_CACHE_ITEMS:
+            self.thumbnail_cache.popitem(last=False)
 
     def _load_pil_image(self, path: Path | Image.Image) -> Image.Image:
         def _convert_overlay_image_for_display(img_in: Image.Image) -> Image.Image:
@@ -2528,7 +2562,7 @@ class NightreignRecognizerGUI:
         if isinstance(path, Image.Image):
             return _convert_overlay_image_for_display(path)
 
-        img = self.image_cache.get(path)
+        img = self._lru_cache_get_image(path)
         if img is not None:
             return img
 
@@ -2536,7 +2570,7 @@ class NightreignRecognizerGUI:
         try:
             with Image.open(path) as opened:
                 img = _convert_overlay_image_for_display(opened.copy())
-            self.image_cache[path] = img
+            self._lru_cache_put_image(path, img)
             return img
         except Exception as exc:
             load_error = exc
@@ -2546,7 +2580,7 @@ class NightreignRecognizerGUI:
             raise RuntimeError(f"Could not load display image: {path} ({load_error})")
 
         img = Image.fromarray(cv2.cvtColor(cv_img, cv2.COLOR_BGR2RGB))
-        self.image_cache[path] = img
+        self._lru_cache_put_image(path, img)
         return img
 
     def _fit_image(self, pil_image: Image.Image, max_w: int, max_h: int) -> ImageTk.PhotoImage:
@@ -2749,6 +2783,8 @@ class NightreignRecognizerGUI:
         selected_index = min(self.current_selected_index, len(self.current_image_paths) - 1)
         main_path = self.current_image_paths[selected_index]
         main_img = self._load_pil_image(main_path)
+        if self.current_main_pil_image is main_img:
+            return
         self._set_main_pil_image(main_img, reset_zoom=False)
 
     def _update_thumbnail_selection_highlight(self) -> None:
@@ -2765,6 +2801,7 @@ class NightreignRecognizerGUI:
     def _refresh_result_images(self) -> None:
         if not self.current_image_paths:
             self._clear_thumbnail_strip()
+            self._thumb_render_signature = None
             return
 
         self._refresh_selected_main_image()
@@ -2774,11 +2811,24 @@ class NightreignRecognizerGUI:
         thumb_h = max(1, thumb_frame_h // THUMB_COUNT)
         caption_h = 34
         thumb_img_h = max(1, thumb_h - caption_h)
+        current_paths_sig = tuple(self._source_signature(p) for p in self.current_image_paths[:THUMB_COUNT])
+        current_meta_sig = tuple(
+            (int(r.number), float(r.score))
+            for r in self.current_results[:THUMB_COUNT]
+        )
+        render_sig = (int(thumb_frame_w), int(thumb_img_h), current_paths_sig, current_meta_sig)
+        if self._thumb_render_signature == render_sig:
+            self._update_thumbnail_selection_highlight()
+            return
         for idx, label in enumerate(self.thumb_labels):
             if idx < len(self.current_image_paths):
                 thumb_path = self.current_image_paths[idx]
-                thumb_img = self._load_pil_image(thumb_path)
-                photo = self._fit_image(thumb_img, thumb_frame_w, thumb_img_h)
+                thumb_cache_key = (self._source_signature(thumb_path), int(thumb_frame_w), int(thumb_img_h))
+                photo = self._thumb_cache_get(thumb_cache_key)
+                if photo is None:
+                    thumb_img = self._load_pil_image(thumb_path)
+                    photo = self._fit_image(thumb_img, thumb_frame_w, thumb_img_h)
+                    self._thumb_cache_put(thumb_cache_key, photo)
                 self.thumb_photos[idx] = photo
                 if idx < len(self.current_results):
                     result = self.current_results[idx]
@@ -2815,6 +2865,7 @@ class NightreignRecognizerGUI:
                     relief="flat",
                     compound="center",
                 )
+        self._thumb_render_signature = render_sig
         self._update_thumbnail_selection_highlight()
 
 
@@ -4052,6 +4103,17 @@ USE_EARTH_CASCADE_SELECTION = (
     os.environ.get("NR_ENABLE_EARTH_CASCADE", "0") == "1"
     or os.environ.get("NR_USE_EARTH_CASCADE_SELECTION", "0") == "1"
 )
+# Safety gate: when disabled, skip rank_shifting_earths_cascade even if env requests it.
+# Keep this False by default because benchmarked accuracy is better without cascade reranking.
+ENABLE_EARTH_CASCADE_RERANK = False
+# Performance gate: when False, skip earth-level priors (geometry/lost/hard/evergaol)
+# while cascade reranking is off. This is safe for default single-earth ranking because
+# these priors are earth-level constants in that mode.
+ENABLE_EARTH_LEVEL_PRIORS_WITHOUT_CASCADE = False
+# Performance gate: when False, skip evergaol prior detection entirely.
+ENABLE_EVERGAOL_PRIOR_DETECTION = False
+# Performance gate: when False, do not render/write AI and Evergaol debug PNGs every run.
+ENABLE_WRITE_RECOGNITION_DEBUG_IMAGES = False
 EARTH_SELECTOR_V2_SCRIPT_FILENAMES = [
     "Train_Earth_Selector_v2/infer_earth_selector_v2.py",
     "infer_earth_selector_v2.py",
@@ -7601,6 +7663,7 @@ def run_recognition(
     dual_shot_enabled: bool = False,
     dynamic_render: bool = True,
     dynamic_render_only: bool = True,
+    generate_overlay_text_paths: bool = False,
 ) -> dict:
     import tempfile
 
@@ -7709,10 +7772,8 @@ def run_recognition(
 
     with tempfile.TemporaryDirectory(prefix="nightreign_gui_ai_") as td:
         td_path = Path(td)
-        crop_out = td_path / "recognition_panel_used.png"
         ai_debug_out = td_path / "recognition_panel_used_with_slot_labels_ai.png"
         evergaol_debug_out = td_path / "recognition_panel_used_with_evergaol_debug.png"
-        screenshot_path = td_path / "captured_full_screenshot.png"
 
         t_stage = _time_start()
         if pre_captured_full_img is None:
@@ -7723,12 +7784,16 @@ def run_recognition(
             full_img = pre_captured_full_img.copy()
             ctx.log("Using pre-captured first screenshot from dual-shot trigger.")
         _time_end("capture_screenshot_or_use_pre_captured", t_stage)
-        cv2.imwrite(str(screenshot_path), full_img)
 
         preview_panel = None
+        preview_box = None
+        preview_circle = None
+        preview_crop_method = None
         t_stage = _time_start()
         try:
             crop_circle, crop_method = detect_map_circle_compat(full_img)
+            preview_circle = crop_circle
+            preview_crop_method = crop_method
             if crop_method == "blue_ring":
                 preview_box = backend.clip_box(
                     backend.estimate_panel_box(crop_circle, float(getattr(backend, "DEFAULT_PANEL_SCALE", 1.12))),
@@ -7761,15 +7826,21 @@ def run_recognition(
         crop_refine_info = None
 
         t_stage = _time_start()
-        circle, crop_method = detect_map_circle_compat(full_img)
+        if preview_circle is not None and preview_crop_method is not None:
+            circle, crop_method = preview_circle, preview_crop_method
+        else:
+            circle, crop_method = detect_map_circle_compat(full_img)
         _time_end("detect_map_circle_main", t_stage)
         if crop_method == "blue_ring":
             t_stage = _time_start()
-            crop_box = backend.clip_box(
-                backend.estimate_panel_box(circle, float(getattr(backend, "DEFAULT_PANEL_SCALE", 1.12))),
-                full_img.shape[1],
-                full_img.shape[0],
-            )
+            if preview_box is not None:
+                crop_box = preview_box
+            else:
+                crop_box = backend.clip_box(
+                    backend.estimate_panel_box(circle, float(getattr(backend, "DEFAULT_PANEL_SCALE", 1.12))),
+                    full_img.shape[1],
+                    full_img.shape[0],
+                )
             raw_panel_bgr = full_img[crop_box.y0:crop_box.y1, crop_box.x0:crop_box.x1]
             _time_end("panel_crop_first_pass", t_stage)
             t_stage = _time_start()
@@ -7781,7 +7852,10 @@ def run_recognition(
             crop_box_obj = CropBox(crop_box.x0, crop_box.y0, crop_box.x1, crop_box.y1)
         else:
             t_stage = _time_start()
-            initial_box = refine_panel_box_compat(full_img, circle)
+            if preview_box is not None:
+                initial_box = preview_box
+            else:
+                initial_box = refine_panel_box_compat(full_img, circle)
             _time_end("panel_crop_first_pass", t_stage)
             t_stage = _time_start()
             crop_box, raw_panel_bgr, panel_bgr, metrics, _earth_rank_unused, crop_refine_info = refine_crop_box_by_earth_score_slot_compat(
@@ -7794,8 +7868,6 @@ def run_recognition(
             earth_rank = classify_shifting_earth_ai(raw_panel_bgr, panel_bgr, package, ctx)
             _time_end("earth_selector_ranking", t_stage)
 
-        save_bgr(crop_out, panel_bgr)
-
         ctx.log("Shifting Earth ranking:")
         for name, score, details in earth_rank[:5]:
             low_corr = float(details.get("low_corr", 0.0))
@@ -7803,17 +7875,24 @@ def run_recognition(
             source = details.get("source", "legacy")
             ctx.log(f"  {name:<14} score={score:.6f} low_corr={low_corr:.4f} grad_corr={grad_corr:.4f} source={source}")
 
+        earth_cascade_enabled = bool(ENABLE_EARTH_CASCADE_RERANK and USE_EARTH_CASCADE_SELECTION)
         earths_for_observation = [name for name, _score, _details in earth_rank]
-        if USE_EARTH_CASCADE_SELECTION:
+        if earth_cascade_enabled:
             if earths_for_observation:
                 ctx.log(f"Evaluating structural earth cascade across {len(earths_for_observation)} families.")
         else:
             earths_for_observation = earths_for_observation[:1]
             if earths_for_observation:
-                ctx.log(
-                    "Earth cascade selection is disabled by default; "
-                    "using raw top Shifting Earth for family selection."
-                )
+                if USE_EARTH_CASCADE_SELECTION and not ENABLE_EARTH_CASCADE_RERANK:
+                    ctx.log(
+                        "Earth cascade was requested by env but is disabled by in-code safety flag "
+                        "(ENABLE_EARTH_CASCADE_RERANK=False); using raw top Shifting Earth."
+                    )
+                else:
+                    ctx.log(
+                        "Earth cascade selection is disabled by default; "
+                        "using raw top Shifting Earth for family selection."
+                    )
 
         all_results: List[dict] = []
         best_slots_debug = None
@@ -7840,18 +7919,38 @@ def run_recognition(
             observations_by_earth[earth_name] = {"align": align, "slots": slots_out}
         timings["slot_observation_classification_total"] = float(slot_obs_total)
 
-        t_stage = _time_start()
-        geometry_priors = compute_earth_geometry_priors(package, observations_by_earth)
-        _time_end("geometry_prior_computation", t_stage)
-        t_stage = _time_start()
-        lost_slot_priors = compute_lost_limveld_slot_priors(package, observations_by_earth)
-        _time_end("lost_slot_prior_computation", t_stage)
-        t_stage = _time_start()
-        hard_constraint_priors = compute_hard_constraint_priors(package, observations_by_earth)
-        _time_end("hard_constraint_prior_computation", t_stage)
-        t_stage = _time_start()
-        evergaol_priors = compute_evergaol_priors(panel_bgr, observations_by_earth)
-        _time_end("evergaol_prior_detection", t_stage)
+        compute_earth_level_priors = bool(earth_cascade_enabled or ENABLE_EARTH_LEVEL_PRIORS_WITHOUT_CASCADE)
+        if compute_earth_level_priors:
+            t_stage = _time_start()
+            geometry_priors = compute_earth_geometry_priors(package, observations_by_earth)
+            _time_end("geometry_prior_computation", t_stage)
+            t_stage = _time_start()
+            lost_slot_priors = compute_lost_limveld_slot_priors(package, observations_by_earth)
+            _time_end("lost_slot_prior_computation", t_stage)
+            t_stage = _time_start()
+            hard_constraint_priors = compute_hard_constraint_priors(package, observations_by_earth)
+            _time_end("hard_constraint_prior_computation", t_stage)
+            if ENABLE_EVERGAOL_PRIOR_DETECTION:
+                t_stage = _time_start()
+                evergaol_priors = compute_evergaol_priors(panel_bgr, observations_by_earth)
+                _time_end("evergaol_prior_detection", t_stage)
+            else:
+                evergaol_priors = {}
+                timings["evergaol_prior_detection"] = 0.0
+                ctx.log("Evergaol prior detection disabled by in-code flag (ENABLE_EVERGAOL_PRIOR_DETECTION=False).")
+        else:
+            geometry_priors = {}
+            lost_slot_priors = {}
+            hard_constraint_priors = {}
+            evergaol_priors = {}
+            timings["geometry_prior_computation"] = 0.0
+            timings["lost_slot_prior_computation"] = 0.0
+            timings["hard_constraint_prior_computation"] = 0.0
+            timings["evergaol_prior_detection"] = 0.0
+            ctx.log(
+                "Earth-level priors skipped because cascade rerank is inactive and "
+                "ENABLE_EARTH_LEVEL_PRIORS_WITHOUT_CASCADE=False."
+            )
         t_stage = _time_start()
         if _gh_use_parallel_panel_classifier() and _gh_layout_model_match_mode() == "models":
             great_hollow_status_observations = {}
@@ -7961,7 +8060,7 @@ def run_recognition(
             )
 
         earth_cascade_rank: List[Tuple[str, float, Dict[str, float]]] = []
-        if USE_EARTH_CASCADE_SELECTION:
+        if earth_cascade_enabled:
             t_stage = _time_start()
             earth_cascade_rank = rank_shifting_earths_cascade(
                 earth_rank,
@@ -7983,9 +8082,15 @@ def run_recognition(
                 )
         else:
             timings["earth_cascade_ranking"] = 0.0
-            ctx.log("Shifting Earth cascade selection disabled (enable with NR_ENABLE_EARTH_CASCADE=1).")
+            if USE_EARTH_CASCADE_SELECTION and not ENABLE_EARTH_CASCADE_RERANK:
+                ctx.log(
+                    "Shifting Earth cascade requested by env but disabled by in-code safety flag "
+                    "(ENABLE_EARTH_CASCADE_RERANK=False)."
+                )
+            else:
+                ctx.log("Shifting Earth cascade selection disabled (enable with NR_ENABLE_EARTH_CASCADE=1).")
 
-        if USE_EARTH_CASCADE_SELECTION and earth_cascade_rank:
+        if earth_cascade_enabled and earth_cascade_rank:
             candidate_earths = [name for name, _score, _details in earth_cascade_rank[:1]]
             if candidate_earths:
                 ctx.log(f"Restricting layout ranking to {candidate_earths[0]} family from cascade.")
@@ -8121,14 +8226,20 @@ def run_recognition(
         step_end(ctx, "Run AI slot recognizer", t_rec)
 
         t_stage = _time_start()
-        if best_slots_debug is not None:
-            ai_dbg = draw_ai_debug_image(panel_bgr, best_slots_debug)
-            save_bgr(ai_debug_out, ai_dbg)
-            ctx.log(f"Saved AI slot debug image to {ai_debug_out}")
-        if evergaol_priors:
-            evergaol_dbg = draw_evergaol_debug(panel_bgr, evergaol_priors)
-            save_bgr(evergaol_debug_out, evergaol_dbg)
-            ctx.log(f"Saved Evergaol debug image to {evergaol_debug_out}")
+        if ENABLE_WRITE_RECOGNITION_DEBUG_IMAGES:
+            if best_slots_debug is not None:
+                ai_dbg = draw_ai_debug_image(panel_bgr, best_slots_debug)
+                save_bgr(ai_debug_out, ai_dbg)
+                ctx.log(f"Saved AI slot debug image to {ai_debug_out}")
+            if evergaol_priors:
+                evergaol_dbg = draw_evergaol_debug(panel_bgr, evergaol_priors)
+                save_bgr(evergaol_debug_out, evergaol_dbg)
+                ctx.log(f"Saved Evergaol debug image to {evergaol_debug_out}")
+        else:
+            ctx.log(
+                "Recognition debug image writing disabled by in-code flag "
+                "(ENABLE_WRITE_RECOGNITION_DEBUG_IMAGES=False)."
+            )
         _time_end("debug_annotation_rendering", t_stage)
 
         if all_results:
@@ -8195,7 +8306,7 @@ def run_recognition(
             allow_render_fallback=not dynamic_render_only,
         )
         _time_end("display_path_resolution", t_stage)
-        if ENABLE_OVERLAY_TEXT_ONLY_FEATURE:
+        if ENABLE_OVERLAY_TEXT_ONLY_FEATURE and bool(generate_overlay_text_paths):
             t_stage = _time_start()
             overlay_text_top_paths = resolve_overlay_text_only_paths(
                 ranked_results,
@@ -8679,6 +8790,7 @@ def _overlay_gui_init(self, root: tk.Tk) -> None:
     self._next_run_capture_second_full_img: Optional[np.ndarray] = None
     self._next_run_dual_mode: bool = False
     self._next_run_dualshot_debug_dir: Optional[str] = None
+    self._next_run_generate_overlay_text_paths: bool = False
     self.dual_shot_waiting_for_second: bool = False
     self.dual_shot_first_full_img: Optional[np.ndarray] = None
     self.dual_shot_monitor_index: int = 1
@@ -9105,6 +9217,11 @@ def _overlay_begin_run_with_captures(
     self._next_run_capture_second_full_img = second_full_img
     self._next_run_dual_mode = bool(dual_mode and second_full_img is not None)
     self._next_run_dualshot_debug_dir = None
+    self._next_run_generate_overlay_text_paths = bool(
+        ENABLE_OVERLAY_TEXT_ONLY_FEATURE
+        and hasattr(self, "overlay_text_only_var")
+        and bool(self.overlay_text_only_var.get())
+    )
 
     if is_dual_shot_debug_enabled() and first_full_img is not None:
         stamp = time.strftime("%Y%m%d_%H%M%S")
@@ -9220,10 +9337,12 @@ def _overlay_worker_main(self, run_id: int, cancel_event: threading.Event, monit
     second_full_img = getattr(self, "_next_run_capture_second_full_img", None)
     dual_mode = bool(getattr(self, "_next_run_dual_mode", False))
     debug_dir = getattr(self, "_next_run_dualshot_debug_dir", None)
+    generate_overlay_text_paths = bool(getattr(self, "_next_run_generate_overlay_text_paths", False))
     self._next_run_capture_first_full_img = None
     self._next_run_capture_second_full_img = None
     self._next_run_dual_mode = False
     self._next_run_dualshot_debug_dir = None
+    self._next_run_generate_overlay_text_paths = False
     try:
         if debug_dir:
             ctx.log(f"[Dual-shot debug] Saved trigger captures to: {debug_dir}")
@@ -9236,6 +9355,7 @@ def _overlay_worker_main(self, run_id: int, cancel_event: threading.Event, monit
             dual_shot_enabled=dual_mode,
             dynamic_render=os.environ.get('NR_DISABLE_DYNAMIC_RENDER') is None,
             dynamic_render_only=os.environ.get('NR_DISABLE_RENDER_FALLBACK') is None,
+            generate_overlay_text_paths=generate_overlay_text_paths,
         )
         ctx.check_cancel()
         self._queue_result(run_id, payload)
@@ -9283,11 +9403,34 @@ def _refresh_overlay_image(self) -> None:
     selected_index = min(self.current_selected_index, len(self.current_image_paths) - 1)
     image_path: Path | Image.Image = self.current_image_paths[selected_index]
     if ENABLE_OVERLAY_TEXT_ONLY_FEATURE and hasattr(self, "overlay_text_only_var") and bool(self.overlay_text_only_var.get()):
-        overlay_paths = getattr(self, "current_overlay_text_image_paths", [])
+        overlay_paths = list(getattr(self, "current_overlay_text_image_paths", []))
+        overlay_image: Optional[Path | Image.Image] = None
         if selected_index < len(overlay_paths):
             overlay_image = overlay_paths[selected_index]
-            if overlay_image is not None:
-                image_path = overlay_image
+        if overlay_image is None and selected_index < len(self.current_results):
+            try:
+                result = self.current_results[selected_index]
+                cached_path = dynamic_render_cache_path(result.number, "overlay_text")
+                if cached_path.exists():
+                    overlay_image = cached_path
+                else:
+                    entry = renderer.get_entry_by_pattern_id(result.number)
+                    built = renderer.build_pattern_text_overlay_image(entry)
+                    if built is not None:
+                        try:
+                            built.save(cached_path, format="PNG")
+                            overlay_image = cached_path
+                        except Exception:
+                            overlay_image = built
+                if overlay_image is not None:
+                    while len(overlay_paths) <= selected_index:
+                        overlay_paths.append(None)
+                    overlay_paths[selected_index] = overlay_image
+                    self.current_overlay_text_image_paths = overlay_paths
+            except Exception:
+                overlay_image = None
+        if overlay_image is not None:
+            image_path = overlay_image
     pil_img = self._load_pil_image(image_path)
 
     width = max(1, int(self.last_crop_box.x1 - self.last_crop_box.x0))

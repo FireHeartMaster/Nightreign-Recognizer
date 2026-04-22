@@ -84,6 +84,15 @@ CROP_REFINE_SCALE_FACTORS = (0.97, 1.00, 1.03)
 CROP_REFINE_MARGIN_WEIGHT = 0.35
 CROP_REFINE_BLACK_WEIGHT = 0.12
 CROP_REFINE_EDGE_WEIGHT = 0.03
+# Coarse-to-fine crop refinement knobs.
+CROP_REFINE_COARSE_PANEL_SIZE = 1024
+CROP_REFINE_COARSE_TOP_K = 12
+CROP_REFINE_EARLY_EXIT_MIN_EVALS = 4
+CROP_REFINE_EARLY_EXIT_TOP_SCORE = 0.20
+CROP_REFINE_EARLY_EXIT_MARGIN = 0.035
+# Master switch for panel_further_crop_normalize optimizations (coarse prefilter + early exit).
+# True keeps the faster path enabled by default; False forces exhaustive candidate evaluation.
+ENABLE_FAST_PANEL_FURTHER_CROP_NORMALIZE = True
 
 CONTEXT_TOP_LAYOUTS = 12
 CONTEXT_WEIGHT_TEMPERATURE = 3.0
@@ -146,6 +155,23 @@ class RecognitionPackage:
             self.icon_templates_gray = data["icon_templates_gray"]
             self.icon_templates_edge = data["icon_templates_edge"]
             self.icon_actual_sizes = data["icon_actual_sizes"]
+
+        # Precompute normalized terrain references once for faster earth scoring.
+        self.terrain_low_norm = np.stack(
+            [normalize(self.terrain_low[idx]) for idx in range(len(self.earth_names))],
+            axis=0,
+        ).astype(np.float32, copy=False)
+        self.terrain_grad_norm = np.stack(
+            [normalize(self.terrain_grad[idx]) for idx in range(len(self.earth_names))],
+            axis=0,
+        ).astype(np.float32, copy=False)
+        self.terrain_low_norm_flat = self.terrain_low_norm.reshape(len(self.earth_names), -1)
+        self.terrain_grad_norm_flat = self.terrain_grad_norm.reshape(len(self.earth_names), -1)
+        self.terrain_low_norm_l2 = np.linalg.norm(self.terrain_low_norm_flat, axis=1).astype(np.float32)
+        self.terrain_grad_norm_l2 = np.linalg.norm(self.terrain_grad_norm_flat, axis=1).astype(np.float32)
+        self.terrain_low_norm_l2[self.terrain_low_norm_l2 < 1e-8] = 1.0
+        self.terrain_grad_norm_l2[self.terrain_grad_norm_l2 < 1e-8] = 1.0
+
         self.earth_to_idx = {name: idx for idx, name in enumerate(self.earth_names)}
         self.type_to_idx = {name: idx for idx, name in enumerate(self.landmark_types)}
         self.layouts = list(self.metadata["layouts"])
@@ -527,15 +553,32 @@ def corr(a: np.ndarray, b: np.ndarray) -> float:
     return float(np.dot(va, vb) / denom)
 
 
+def corr_many_against_refs(
+    shot_normed: np.ndarray,
+    ref_flat: np.ndarray,
+    ref_l2: np.ndarray,
+) -> np.ndarray:
+    shot_vec = shot_normed.astype(np.float32).ravel()
+    shot_vec = shot_vec - float(shot_vec.mean())
+    shot_l2 = float(np.linalg.norm(shot_vec))
+    if shot_l2 < 1e-8:
+        return np.zeros(ref_flat.shape[0], dtype=np.float32)
+    numer = ref_flat @ shot_vec
+    denom = ref_l2 * shot_l2
+    return (numer / denom).astype(np.float32)
+
+
 def classify_shifting_earth(panel_bgr: np.ndarray, package: RecognitionPackage) -> List[Tuple[str, float, Dict[str, float]]]:
     shot_low = preprocess_for_similarity(panel_bgr)
     shot_grad = preprocess_for_gradients(panel_bgr)
     shot_low_n = normalize(shot_low)
     shot_grad_n = normalize(shot_grad)
+    low_corrs = corr_many_against_refs(shot_low_n, package.terrain_low_norm_flat, package.terrain_low_norm_l2)
+    grad_corrs = corr_many_against_refs(shot_grad_n, package.terrain_grad_norm_flat, package.terrain_grad_norm_l2)
     ranked: List[Tuple[str, float, Dict[str, float]]] = []
     for idx, earth_name in enumerate(package.earth_names):
-        low_corr = corr(shot_low_n, normalize(package.terrain_low[idx]))
-        grad_corr = corr(shot_grad_n, normalize(package.terrain_grad[idx]))
+        low_corr = finite_score_value(float(low_corrs[idx]))
+        grad_corr = finite_score_value(float(grad_corrs[idx]))
         score = 0.65 * low_corr + 0.35 * grad_corr
         ranked.append((earth_name, score, {"low_corr": low_corr, "grad_corr": grad_corr}))
     ranked.sort(key=lambda item: item[1], reverse=True)
@@ -602,6 +645,29 @@ def evaluate_crop_candidate(raw_panel_bgr: np.ndarray, package: RecognitionPacka
     return objective, earth_rank, metrics, panel_bgr
 
 
+def evaluate_crop_candidate_coarse(
+    raw_panel_bgr: np.ndarray,
+    package: RecognitionPackage,
+) -> Tuple[float, float, float]:
+    panel_bgr = normalize_panel_for_recognition(raw_panel_bgr, target_size=CROP_REFINE_COARSE_PANEL_SIZE)
+    gray = cv2.cvtColor(panel_bgr, cv2.COLOR_BGR2GRAY)
+    black_ratio = float(np.mean(gray < 12))
+    shot_low_n = normalize(preprocess_for_similarity(panel_bgr))
+    low_corrs = corr_many_against_refs(shot_low_n, package.terrain_low_norm_flat, package.terrain_low_norm_l2)
+    if low_corrs.size == 0:
+        return -1.0, -1.0, -1.0
+    order = np.argsort(low_corrs)[::-1]
+    top_score = float(low_corrs[int(order[0])])
+    second_score = float(low_corrs[int(order[1])]) if low_corrs.size > 1 else (top_score - 1.0)
+    margin = float(top_score - second_score)
+    objective = (
+        float(top_score)
+        + CROP_REFINE_MARGIN_WEIGHT * float(margin)
+        - CROP_REFINE_BLACK_WEIGHT * float(black_ratio)
+    )
+    return objective, top_score, margin
+
+
 def refine_crop_box_by_earth_score(
     full_img: np.ndarray,
     initial_box: CropBox,
@@ -614,7 +680,7 @@ def refine_crop_box_by_earth_score(
 
     best: Optional[Tuple[float, CropBox, np.ndarray, np.ndarray, Dict[str, float], List[Tuple[str, float, Dict[str, float]]], Dict[str, float]]] = None
     seen: set[Tuple[int, int, int, int]] = set()
-    tried = 0
+    candidates: List[Tuple[CropBox, float, float, float]] = []
 
     for scale_factor in CROP_REFINE_SCALE_FACTORS:
         side = base_side * float(scale_factor)
@@ -631,21 +697,69 @@ def refine_crop_box_by_earth_score(
                 if key in seen:
                     continue
                 seen.add(key)
-                tried += 1
-                raw_panel_bgr = full_img[cand_box.y0:cand_box.y1, cand_box.x0:cand_box.x1]
-                objective, earth_rank, metrics, panel_bgr = evaluate_crop_candidate(raw_panel_bgr, package)
-                top_score = earth_rank[0][1] if earth_rank else -1.0
-                second_score = earth_rank[1][1] if len(earth_rank) > 1 else (top_score - 1.0)
-                debug_info = {
-                    "objective": float(objective),
-                    "top_score": float(top_score),
-                    "margin": float(top_score - second_score),
-                    "dx_frac": float(dx_frac),
-                    "dy_frac": float(dy_frac),
-                    "scale_factor": float(scale_factor),
-                }
-                if best is None or objective > best[0]:
-                    best = (objective, cand_box, raw_panel_bgr, panel_bgr, metrics, earth_rank, debug_info)
+                candidates.append((cand_box, float(dx_frac), float(dy_frac), float(scale_factor)))
+
+    optimization_enabled = bool(ENABLE_FAST_PANEL_FURTHER_CROP_NORMALIZE)
+    fine_evaluated = 0
+    early_exit_triggered = False
+    coarse_kept = int(len(candidates))
+    if optimization_enabled:
+        coarse_scored: List[Tuple[float, float, float, CropBox, float, float, float]] = []
+        for cand_box, dx_frac, dy_frac, scale_factor in candidates:
+            raw_panel_bgr = full_img[cand_box.y0:cand_box.y1, cand_box.x0:cand_box.x1]
+            coarse_obj, coarse_top, coarse_margin = evaluate_crop_candidate_coarse(raw_panel_bgr, package)
+            coarse_scored.append(
+                (float(coarse_obj), float(coarse_top), float(coarse_margin), cand_box, dx_frac, dy_frac, scale_factor)
+            )
+        coarse_scored.sort(key=lambda item: item[0], reverse=True)
+        coarse_kept = min(int(CROP_REFINE_COARSE_TOP_K), len(coarse_scored))
+        fine_eval_candidates = coarse_scored[:coarse_kept]
+
+        for _coarse_obj, _coarse_top, _coarse_margin, cand_box, dx_frac, dy_frac, scale_factor in fine_eval_candidates:
+            raw_panel_bgr = full_img[cand_box.y0:cand_box.y1, cand_box.x0:cand_box.x1]
+            objective, earth_rank, metrics, panel_bgr = evaluate_crop_candidate(raw_panel_bgr, package)
+            top_score = earth_rank[0][1] if earth_rank else -1.0
+            second_score = earth_rank[1][1] if len(earth_rank) > 1 else (top_score - 1.0)
+            margin = float(top_score - second_score)
+            debug_info = {
+                "objective": float(objective),
+                "top_score": float(top_score),
+                "margin": margin,
+                "dx_frac": float(dx_frac),
+                "dy_frac": float(dy_frac),
+                "scale_factor": float(scale_factor),
+            }
+            if best is None or objective > best[0]:
+                best = (objective, cand_box, raw_panel_bgr, panel_bgr, metrics, earth_rank, debug_info)
+            fine_evaluated += 1
+
+            if (
+                fine_evaluated >= int(CROP_REFINE_EARLY_EXIT_MIN_EVALS)
+                and best is not None
+                and float(best[6].get("top_score", -1.0)) >= float(CROP_REFINE_EARLY_EXIT_TOP_SCORE)
+                and float(best[6].get("margin", -1.0)) >= float(CROP_REFINE_EARLY_EXIT_MARGIN)
+            ):
+                early_exit_triggered = True
+                break
+    else:
+        # Legacy-style exhaustive path: evaluate every candidate with full objective and no early exit.
+        for cand_box, dx_frac, dy_frac, scale_factor in candidates:
+            raw_panel_bgr = full_img[cand_box.y0:cand_box.y1, cand_box.x0:cand_box.x1]
+            objective, earth_rank, metrics, panel_bgr = evaluate_crop_candidate(raw_panel_bgr, package)
+            top_score = earth_rank[0][1] if earth_rank else -1.0
+            second_score = earth_rank[1][1] if len(earth_rank) > 1 else (top_score - 1.0)
+            margin = float(top_score - second_score)
+            debug_info = {
+                "objective": float(objective),
+                "top_score": float(top_score),
+                "margin": margin,
+                "dx_frac": float(dx_frac),
+                "dy_frac": float(dy_frac),
+                "scale_factor": float(scale_factor),
+            }
+            if best is None or objective > best[0]:
+                best = (objective, cand_box, raw_panel_bgr, panel_bgr, metrics, earth_rank, debug_info)
+            fine_evaluated += 1
 
     if best is None:
         raw_panel_bgr = full_img[initial_box.y0:initial_box.y1, initial_box.x0:initial_box.x1]
@@ -662,7 +776,11 @@ def refine_crop_box_by_earth_score(
 
     _, best_box, best_raw_panel, best_panel, best_metrics, best_earth_rank, best_debug = best
     refine_info: Dict[str, object] = {
-        "tried_candidates": int(tried),
+        "tried_candidates": int(fine_evaluated),
+        "total_candidates": int(len(candidates)),
+        "coarse_kept_candidates": int(coarse_kept),
+        "early_exit_triggered": bool(early_exit_triggered),
+        "optimization_enabled": bool(optimization_enabled),
         "best_objective": float(best_debug["objective"]),
         "best_top_score": float(best_debug["top_score"]),
         "best_margin": float(best_debug["margin"]),
