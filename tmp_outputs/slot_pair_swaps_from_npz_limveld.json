@@ -1,0 +1,1004 @@
+{
+  "source": "nightreign_geom_proto_v4_slots.npz metadata.layouts (Limveld)",
+  "limveld_layout_count": 240,
+  "swap_8_11_count": 124,
+  "swap_22_27_count": 0,
+  "swap_8_11_patternIds": [
+    0,
+    3,
+    6,
+    7,
+    10,
+    11,
+    12,
+    13,
+    16,
+    41,
+    44,
+    45,
+    49,
+    51,
+    52,
+    55,
+    56,
+    57,
+    80,
+    81,
+    82,
+    84,
+    85,
+    87,
+    89,
+    90,
+    92,
+    93,
+    95,
+    96,
+    99,
+    121,
+    122,
+    124,
+    126,
+    139,
+    160,
+    161,
+    163,
+    165,
+    166,
+    169,
+    170,
+    171,
+    172,
+    173,
+    176,
+    177,
+    178,
+    179,
+    200,
+    201,
+    204,
+    205,
+    206,
+    211,
+    213,
+    216,
+    217,
+    219,
+    241,
+    242,
+    243,
+    245,
+    248,
+    250,
+    253,
+    254,
+    256,
+    257,
+    258,
+    259,
+    280,
+    281,
+    284,
+    285,
+    286,
+    288,
+    289,
+    292,
+    293,
+    296,
+    297,
+    1001,
+    1002,
+    1003,
+    1010,
+    1011,
+    1014,
+    1020,
+    1022,
+    1023,
+    1031,
+    1032,
+    1042,
+    1043,
+    1044,
+    1050,
+    1052,
+    1053,
+    1054,
+    1060,
+    1063,
+    1064,
+    1072,
+    1073,
+    1074,
+    1080,
+    1081,
+    1087,
+    1088,
+    1090,
+    1093,
+    1094,
+    1098,
+    1141,
+    1147,
+    1148,
+    1151,
+    1152,
+    1154,
+    1155,
+    1156,
+    1157
+  ],
+  "swap_22_27_patternIds": [],
+  "details_8_11": [
+    {
+      "patternId": 0,
+      "slot8": "Main Encampment",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 3,
+      "slot8": "Main Encampment",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 6,
+      "slot8": "Fort",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 7,
+      "slot8": "Great Church",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 10,
+      "slot8": "Main Encampment",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 11,
+      "slot8": "Main Encampment",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 12,
+      "slot8": "Fort",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 13,
+      "slot8": "Ruins",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 16,
+      "slot8": "Main Encampment",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 41,
+      "slot8": "Main Encampment",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 44,
+      "slot8": "Great Church",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 45,
+      "slot8": "Main Encampment",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 49,
+      "slot8": "Main Encampment",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 51,
+      "slot8": "Ruins",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 52,
+      "slot8": "Main Encampment",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 55,
+      "slot8": "Main Encampment",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 56,
+      "slot8": "Ruins",
+      "slot11": "Township",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 57,
+      "slot8": "Main Encampment",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 80,
+      "slot8": "Great Church",
+      "slot11": "Township",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 81,
+      "slot8": "Ruins",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 82,
+      "slot8": "Main Encampment",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 84,
+      "slot8": "Fort",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 85,
+      "slot8": "Main Encampment",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 87,
+      "slot8": "Fort",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 89,
+      "slot8": "Ruins",
+      "slot11": "Township",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 90,
+      "slot8": "Main Encampment",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 92,
+      "slot8": "Main Encampment",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 93,
+      "slot8": "Main Encampment",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 95,
+      "slot8": "Fort",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 96,
+      "slot8": "Ruins",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 99,
+      "slot8": "Great Church",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 121,
+      "slot8": "Main Encampment",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 122,
+      "slot8": "Ruins",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 124,
+      "slot8": "Ruins",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 126,
+      "slot8": "Main Encampment",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 139,
+      "slot8": "Great Church",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 160,
+      "slot8": "Main Encampment",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 161,
+      "slot8": "Fort",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 163,
+      "slot8": "Fort",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 165,
+      "slot8": "Main Encampment",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 166,
+      "slot8": "Main Encampment",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 169,
+      "slot8": "Ruins",
+      "slot11": "Township",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 170,
+      "slot8": "Ruins",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 171,
+      "slot8": "Great Church",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 172,
+      "slot8": "Fort",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 173,
+      "slot8": "Fort",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 176,
+      "slot8": "Main Encampment",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 177,
+      "slot8": "Main Encampment",
+      "slot11": "Township",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 178,
+      "slot8": "Main Encampment",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 179,
+      "slot8": "Great Church",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 200,
+      "slot8": "Ruins",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 201,
+      "slot8": "Main Encampment",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 204,
+      "slot8": "Fort",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 205,
+      "slot8": "Ruins",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 206,
+      "slot8": "Main Encampment",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 211,
+      "slot8": "Ruins",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 213,
+      "slot8": "Ruins",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 216,
+      "slot8": "Main Encampment",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 217,
+      "slot8": "Ruins",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 219,
+      "slot8": "Main Encampment",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 241,
+      "slot8": "Main Encampment",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 242,
+      "slot8": "Great Church",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 243,
+      "slot8": "Great Church",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 245,
+      "slot8": "Fort",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 248,
+      "slot8": "Ruins",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 250,
+      "slot8": "Main Encampment",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 253,
+      "slot8": "Main Encampment",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 254,
+      "slot8": "Main Encampment",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 256,
+      "slot8": "Fort",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 257,
+      "slot8": "Ruins",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 258,
+      "slot8": "Main Encampment",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 259,
+      "slot8": "Main Encampment",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 280,
+      "slot8": "Main Encampment",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 281,
+      "slot8": "Ruins",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 284,
+      "slot8": "Great Church",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 285,
+      "slot8": "Ruins",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 286,
+      "slot8": "Main Encampment",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 288,
+      "slot8": "Ruins",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 289,
+      "slot8": "Main Encampment",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 292,
+      "slot8": "Main Encampment",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 293,
+      "slot8": "Ruins",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 296,
+      "slot8": "Great Church",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 297,
+      "slot8": "Ruins",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1001,
+      "slot8": "Great Church",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1002,
+      "slot8": "Swamp",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1003,
+      "slot8": "Ruins",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1010,
+      "slot8": "Great Church",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1011,
+      "slot8": "Fortified Village",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1014,
+      "slot8": "Fortified Village",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1020,
+      "slot8": "Fortified Village",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1022,
+      "slot8": "Main Encampment",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1023,
+      "slot8": "Swamp",
+      "slot11": "Township",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1031,
+      "slot8": "Ruins",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1032,
+      "slot8": "Main Encampment",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1042,
+      "slot8": "Ruins",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1043,
+      "slot8": "Fortified Village",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1044,
+      "slot8": "Fortified Village",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1050,
+      "slot8": "Fortified Village",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1052,
+      "slot8": "Swamp",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1053,
+      "slot8": "Swamp",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1054,
+      "slot8": "Fort",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1060,
+      "slot8": "Swamp",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1063,
+      "slot8": "Fortified Village",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1064,
+      "slot8": "Swamp",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1072,
+      "slot8": "Fortified Village",
+      "slot11": "Township",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1073,
+      "slot8": "Main Encampment",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1074,
+      "slot8": "Ruins",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1080,
+      "slot8": "Fortified Village",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1081,
+      "slot8": "Ruins",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1087,
+      "slot8": "Fort",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1088,
+      "slot8": "Great Church",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1090,
+      "slot8": "Fortified Village",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1093,
+      "slot8": "Fort",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1094,
+      "slot8": "Swamp",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1098,
+      "slot8": "Fortified Village",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1141,
+      "slot8": "Swamp",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1147,
+      "slot8": "Swamp",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1148,
+      "slot8": "Main Encampment",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1151,
+      "slot8": "Swamp",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1152,
+      "slot8": "Swamp",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1154,
+      "slot8": "Fortified Village",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1155,
+      "slot8": "Swamp",
+      "slot11": "Township",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1156,
+      "slot8": "Fortified Village",
+      "slot11": "Sorcerer's Rise",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    },
+    {
+      "patternId": 1157,
+      "slot8": "Ruins",
+      "slot11": "Church",
+      "slot8_class": "major",
+      "slot11_class": "minor"
+    }
+  ],
+  "details_22_27": []
+}

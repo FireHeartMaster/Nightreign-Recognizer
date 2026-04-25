@@ -1,0 +1,102 @@
+{
+  "mode": "layout_infer_only_with_forced_earth",
+  "non_gh_variant": "v16",
+  "results": [
+    {
+      "earth": "Limveld",
+      "patternId_truth": 0,
+      "patternId_decided": 0,
+      "patternId_best": 0,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 3.863640308380127,
+      "top5": [
+        0,
+        171,
+        0,
+        0,
+        166
+      ]
+    },
+    {
+      "earth": "Noklateo",
+      "patternId_truth": 35,
+      "patternId_decided": null,
+      "patternId_best": 0,
+      "unknown": true,
+      "confidence": 1.0,
+      "margin": 2.0591988563537598,
+      "top5": [
+        0,
+        0,
+        195,
+        0,
+        0
+      ]
+    },
+    {
+      "earth": "The Crater",
+      "patternId_truth": 25,
+      "patternId_decided": 0,
+      "patternId_best": 0,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 2.7099812030792236,
+      "top5": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "earth": "Mountaintop",
+      "patternId_truth": 20,
+      "patternId_decided": 0,
+      "patternId_best": 0,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 2.546433687210083,
+      "top5": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "earth": "Rotted Woods",
+      "patternId_truth": 30,
+      "patternId_decided": 0,
+      "patternId_best": 0,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 2.6862616539001465,
+      "top5": [
+        0,
+        194,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "earth": "Great Hollow",
+      "patternId_truth": 1005,
+      "patternId_decided": 0,
+      "patternId_best": 0,
+      "unknown": false,
+      "confidence": 0.15145480632781982,
+      "margin": 0.013703227043151855,
+      "top5": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1882 @@
+{
+  "patternId": 1036,
+  "rareMap": "Great Hollow",
+  "mode": "with_text",
+  "outputImage": "renders_fixed\\with_text\\pattern_1036_Great_Hollow.png",
+  "backgroundImage": "maps\\Great_Hollow.png",
+  "cropBorder": 128,
+  "outputImageSize": {
+    "width": 1280,
+    "height": 1280
+  },
+  "bossId1Name": "Valiant Gargoyle",
+  "bossId2Name": "Fallingstar Beast",
+  "extraBossId1Name": "",
+  "extraBossId2Name": "",
+  "playAreas": {
+    "playArea1": {
+      "x": 695.69,
+      "z": 419.04
+    },
+    "playArea2": {
+      "x": 640.0,
+      "z": 781.0
+    }
+  },
+  "iconAnnotations": [
+    {
+      "sourceType": "fixed_point",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 386.488,
+        "z": 926.106
+      },
+      "imageCenter": {
+        "x": 514.0,
+        "y": 226.0
+      },
+      "iconName": "Church",
+      "text": "",
+      "renderLayer": 0,
+      "iconBBox": [
+        481.5,
+        183.0,
+        546.5,
+        269.0
+      ],
+      "fixedPoint": {
+        "x": 386.488,
+        "z": 926.106,
+        "icon": "Church"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 933.46,
+        "z": 548.59
+      },
+      "imageCenter": {
+        "x": 1061.0,
+        "y": 487.0
+      },
+      "iconName": "Great Church",
+      "text": "Abductor Virgins",
+      "renderLayer": 0,
+      "iconBBox": [
+        1018.0,
+        448.5,
+        1104.0,
+        525.5
+      ],
+      "rowData": {
+        "ID": 101708,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1108,
+        "smallBaseMapId": 5245,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "smallBaseMapName": "Great Church - Abductor Virgins",
+        "smallBaseLocationName": "Great Church",
+        "smallBaseVariationName": "Abductor Virgins"
+      }
+    },
+    {
+      "sourceType": "row_overlay",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 933.46,
+        "z": 548.59
+      },
+      "imageCenter": {
+        "x": 1084.0,
+        "y": 509.0
+      },
+      "iconName": "Status_Sleep",
+      "text": "",
+      "renderLayer": 1,
+      "iconBBox": [
+        1067.5,
+        492.5,
+        1100.5,
+        525.5
+      ],
+      "parentRowData": {
+        "ID": 101708,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1108,
+        "smallBaseMapId": 5245,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "smallBaseMapName": "Great Church - Abductor Virgins",
+        "smallBaseLocationName": "Great Church",
+        "smallBaseVariationName": "Abductor Virgins"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 138.25,
+        "z": 392.67
+      },
+      "imageCenter": {
+        "x": 266.0,
+        "y": 759.0
+      },
+      "iconName": "Ruins",
+      "text": "Bloodbane Giant Crows + Chief Bloodfiend",
+      "renderLayer": 0,
+      "iconBBox": [
+        223.0,
+        736.5,
+        309.0,
+        781.5
+      ],
+      "rowData": {
+        "ID": 101709,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1109,
+        "smallBaseMapId": 5250,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "smallBaseMapName": "Ruins - Bloodbane Giant Crows + Chief Bloodfiend",
+        "smallBaseLocationName": "Ruins",
+        "smallBaseVariationName": "Bloodbane Giant Crows + Chief Bloodfiend"
+      }
+    },
+    {
+      "sourceType": "row_overlay",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 138.25,
+        "z": 392.67
+      },
+      "imageCenter": {
+        "x": 289.0,
+        "y": 781.0
+      },
+      "iconName": "Status_Bleed",
+      "text": "",
+      "renderLayer": 1,
+      "iconBBox": [
+        272.5,
+        764.5,
+        305.5,
+        797.5
+      ],
+      "parentRowData": {
+        "ID": 101709,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1109,
+        "smallBaseMapId": 5250,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "smallBaseMapName": "Ruins - Bloodbane Giant Crows + Chief Bloodfiend",
+        "smallBaseLocationName": "Ruins",
+        "smallBaseVariationName": "Bloodbane Giant Crows + Chief Bloodfiend"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 437.61,
+        "z": 441.9
+      },
+      "imageCenter": {
+        "x": 566.0,
+        "y": 710.0
+      },
+      "iconName": "Field Boss",
+      "text": "Ancient Hero of Zamor",
+      "renderLayer": 20,
+      "iconBBox": [
+        523.0,
+        672.5,
+        609.0,
+        747.5
+      ],
+      "rowData": {
+        "ID": 101724,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1163,
+        "smallBaseMapId": 4669,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 37,
+        "posX": 53.61,
+        "posZ": 57.9,
+        "X": 437.61,
+        "Z": 441.9,
+        "smallBaseMapName": "Field Boss - Ancient Hero of Zamor",
+        "smallBaseLocationName": "Field Boss",
+        "smallBaseVariationName": "Ancient Hero of Zamor"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 651.61,
+        "z": 532.6
+      },
+      "imageCenter": {
+        "x": 780.0,
+        "y": 619.0
+      },
+      "iconName": "Field Boss",
+      "text": "Leonine Misbegotten",
+      "renderLayer": 20,
+      "iconBBox": [
+        737.0,
+        581.5,
+        823.0,
+        656.5
+      ],
+      "rowData": {
+        "ID": 101725,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1158,
+        "smallBaseMapId": 4655,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 44,
+        "gridZNo": 38,
+        "posX": 11.61,
+        "posZ": -107.4,
+        "X": 651.61,
+        "Z": 532.6,
+        "smallBaseMapName": "Field Boss - Leonine Misbegotten",
+        "smallBaseLocationName": "Field Boss",
+        "smallBaseVariationName": "Leonine Misbegotten"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 119.954,
+        "z": 452.973
+      },
+      "imageCenter": {
+        "x": 248.0,
+        "y": 699.0
+      },
+      "iconName": "Field Boss",
+      "text": "Golden Hippopotamus",
+      "renderLayer": 20,
+      "iconBBox": [
+        205.0,
+        661.5,
+        291.0,
+        736.5
+      ],
+      "rowData": {
+        "ID": 101726,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1165,
+        "smallBaseMapId": 4672,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": -8.046,
+        "posZ": 68.973,
+        "X": 119.954,
+        "Z": 452.973,
+        "smallBaseMapName": "Field Boss - Golden Hippopotamus",
+        "smallBaseLocationName": "Field Boss",
+        "smallBaseVariationName": "Golden Hippopotamus"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 455.02,
+        "z": 747.58
+      },
+      "imageCenter": {
+        "x": 583.0,
+        "y": 404.0
+      },
+      "iconName": "Field Boss",
+      "text": "Red Wolf",
+      "renderLayer": 20,
+      "iconBBox": [
+        540.0,
+        366.5,
+        626.0,
+        441.5
+      ],
+      "rowData": {
+        "ID": 101727,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1157,
+        "smallBaseMapId": 4651,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 38,
+        "posX": 71.02,
+        "posZ": 107.58,
+        "X": 455.02,
+        "Z": 747.58,
+        "smallBaseMapName": "Field Boss - Red Wolf",
+        "smallBaseLocationName": "Field Boss",
+        "smallBaseVariationName": "Red Wolf"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 808.72,
+        "z": 464.97
+      },
+      "imageCenter": {
+        "x": 937.0,
+        "y": 687.0
+      },
+      "iconName": "Field Boss",
+      "text": "Elder Lion",
+      "renderLayer": 20,
+      "iconBBox": [
+        894.0,
+        649.5,
+        980.0,
+        724.5
+      ],
+      "rowData": {
+        "ID": 101728,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1164,
+        "smallBaseMapId": 4657,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 37,
+        "posX": -87.28,
+        "posZ": 80.97,
+        "X": 808.72,
+        "Z": 464.97,
+        "smallBaseMapName": "Field Boss - Elder Lion",
+        "smallBaseLocationName": "Field Boss",
+        "smallBaseVariationName": "Elder Lion"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 931.68,
+        "z": 296.3
+      },
+      "imageCenter": {
+        "x": 1060.0,
+        "y": 856.0
+      },
+      "iconName": "Field Boss",
+      "text": "Royal Revenant",
+      "renderLayer": 20,
+      "iconBBox": [
+        1017.0,
+        818.5,
+        1103.0,
+        893.5
+      ],
+      "rowData": {
+        "ID": 101729,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1160,
+        "smallBaseMapId": 4659,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 37,
+        "posX": 35.68,
+        "posZ": -87.7,
+        "X": 931.68,
+        "Z": 296.3,
+        "smallBaseMapName": "Field Boss - Royal Revenant",
+        "smallBaseLocationName": "Field Boss",
+        "smallBaseVariationName": "Royal Revenant"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 462.17,
+        "z": 280.21
+      },
+      "imageCenter": {
+        "x": 590.0,
+        "y": 872.0
+      },
+      "iconName": "Field Boss",
+      "text": "Black Knife Assassin",
+      "renderLayer": 20,
+      "iconBBox": [
+        547.0,
+        834.5,
+        633.0,
+        909.5
+      ],
+      "rowData": {
+        "ID": 101730,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1161,
+        "smallBaseMapId": 4551,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 37,
+        "posX": 78.17,
+        "posZ": -103.79,
+        "X": 462.17,
+        "Z": 280.21,
+        "smallBaseMapName": "Field Boss - Black Knife Assassin",
+        "smallBaseLocationName": "Field Boss",
+        "smallBaseVariationName": "Black Knife Assassin"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 315.65,
+        "z": 352.01
+      },
+      "imageCenter": {
+        "x": 444.0,
+        "y": 800.0
+      },
+      "iconName": "Field Boss Red",
+      "text": "Royal Carian Knight",
+      "renderLayer": 20,
+      "iconBBox": [
+        401.0,
+        757.0,
+        487.0,
+        843.0
+      ],
+      "rowData": {
+        "ID": 101731,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1156,
+        "smallBaseMapId": 4654,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 37,
+        "posX": -68.35,
+        "posZ": -31.99,
+        "X": 315.65,
+        "Z": 352.01,
+        "smallBaseMapName": "Field Boss Red - Royal Carian Knight",
+        "smallBaseLocationName": "Field Boss Red",
+        "smallBaseVariationName": "Royal Carian Knight"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 818.98,
+        "z": 332.61
+      },
+      "imageCenter": {
+        "x": 947.0,
+        "y": 819.0
+      },
+      "iconName": "Field Boss Red",
+      "text": "Death Rite Bird",
+      "renderLayer": 20,
+      "iconBBox": [
+        904.0,
+        776.0,
+        990.0,
+        862.0
+      ],
+      "rowData": {
+        "ID": 101732,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1159,
+        "smallBaseMapId": 4674,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 37,
+        "posX": -77.02,
+        "posZ": -51.39,
+        "X": 818.98,
+        "Z": 332.61,
+        "smallBaseMapName": "Field Boss Red - Death Rite Bird",
+        "smallBaseLocationName": "Field Boss Red",
+        "smallBaseVariationName": "Death Rite Bird"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 191.72,
+        "z": 488.47
+      },
+      "imageCenter": {
+        "x": 320.0,
+        "y": 664.0
+      },
+      "iconName": "Field Boss Red",
+      "text": "Bell Bearing Hunter",
+      "renderLayer": 20,
+      "iconBBox": [
+        277.0,
+        621.0,
+        363.0,
+        707.0
+      ],
+      "rowData": {
+        "ID": 101733,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1155,
+        "smallBaseMapId": 4656,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 63.72,
+        "posZ": 104.47,
+        "X": 191.72,
+        "Z": 488.47,
+        "smallBaseMapName": "Field Boss Red - Bell Bearing Hunter",
+        "smallBaseLocationName": "Field Boss Red",
+        "smallBaseVariationName": "Bell Bearing Hunter"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 425.49,
+        "z": 397.05
+      },
+      "imageCenter": {
+        "x": 553.0,
+        "y": 755.0
+      },
+      "iconName": "Field Boss Red",
+      "text": "Ancestor Spirit",
+      "renderLayer": 20,
+      "iconBBox": [
+        510.0,
+        712.0,
+        596.0,
+        798.0
+      ],
+      "rowData": {
+        "ID": 101734,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1162,
+        "smallBaseMapId": 4664,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 37,
+        "posX": 41.49,
+        "posZ": 13.05,
+        "X": 425.49,
+        "Z": 397.05,
+        "smallBaseMapName": "Field Boss Red - Ancestor Spirit",
+        "smallBaseLocationName": "Field Boss Red",
+        "smallBaseVariationName": "Ancestor Spirit"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 924.0,
+        "z": 394.0
+      },
+      "imageCenter": {
+        "x": 1052.0,
+        "y": 758.0
+      },
+      "iconName": "Church",
+      "text": "Normal",
+      "renderLayer": 0,
+      "iconBBox": [
+        1019.5,
+        715.0,
+        1084.5,
+        801.0
+      ],
+      "rowData": {
+        "ID": 101735,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1153,
+        "smallBaseMapId": 5100,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 37,
+        "posX": 28.0,
+        "posZ": 10.0,
+        "X": 924.0,
+        "Z": 394.0,
+        "smallBaseMapName": "Church - Normal",
+        "smallBaseLocationName": "Church",
+        "smallBaseVariationName": "Normal"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 692.0,
+        "z": 481.36
+      },
+      "imageCenter": {
+        "x": 820.0,
+        "y": 671.0
+      },
+      "iconName": "Church",
+      "text": "Normal",
+      "renderLayer": 0,
+      "iconBBox": [
+        787.5,
+        628.0,
+        852.5,
+        714.0
+      ],
+      "rowData": {
+        "ID": 101736,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1152,
+        "smallBaseMapId": 5100,
+        "mapIndex": 1,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 44,
+        "gridZNo": 37,
+        "posX": 52.0,
+        "posZ": 97.36,
+        "X": 692.0,
+        "Z": 481.36,
+        "smallBaseMapName": "Church - Normal",
+        "smallBaseLocationName": "Church",
+        "smallBaseVariationName": "Normal"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 288.0,
+        "z": 478.0
+      },
+      "imageCenter": {
+        "x": 416.0,
+        "y": 674.0
+      },
+      "iconName": "Sorcerer's Rise",
+      "text": "Fog Door",
+      "renderLayer": 0,
+      "iconBBox": [
+        395.5,
+        631.0,
+        436.5,
+        717.0
+      ],
+      "rowData": {
+        "ID": 101737,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1151,
+        "smallBaseMapId": 5110,
+        "mapIndex": 0,
+        "variationId": 6,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 37,
+        "posX": -96.0,
+        "posZ": 94.0,
+        "X": 288.0,
+        "Z": 478.0,
+        "smallBaseMapName": "Sorcerer's Rise",
+        "smallBaseLocationName": "Sorcerer's Rise",
+        "smallBaseVariationName": "Fog Door"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 300.0,
+        "z": 98.0
+      },
+      "imageCenter": {
+        "x": 428.0,
+        "y": 1054.0
+      },
+      "iconName": "Sorcerer's Rise",
+      "text": "Fleeing Stump",
+      "renderLayer": 0,
+      "iconBBox": [
+        407.5,
+        1011.0,
+        448.5,
+        1097.0
+      ],
+      "rowData": {
+        "ID": 101738,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1150,
+        "smallBaseMapId": 5110,
+        "mapIndex": 1,
+        "variationId": 7,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": -84.0,
+        "posZ": -30.0,
+        "X": 300.0,
+        "Z": 98.0,
+        "smallBaseMapName": "Sorcerer's Rise",
+        "smallBaseLocationName": "Sorcerer's Rise",
+        "smallBaseVariationName": "Fleeing Stump"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 252.367,
+        "z": 848.966
+      },
+      "imageCenter": {
+        "x": 380.0,
+        "y": 303.0
+      },
+      "iconName": "Field Boss Red",
+      "text": "Erdtree Avatar",
+      "renderLayer": 20,
+      "iconBBox": [
+        337.0,
+        260.0,
+        423.0,
+        346.0
+      ],
+      "rowData": {
+        "ID": 101739,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1103,
+        "smallBaseMapId": 4667,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 39,
+        "posX": -131.633,
+        "posZ": -47.034,
+        "X": 252.367,
+        "Z": 848.966,
+        "smallBaseMapName": "Field Boss Red - Erdtree Avatar",
+        "smallBaseLocationName": "Field Boss Red",
+        "smallBaseVariationName": "Erdtree Avatar"
+      }
+    },
+    {
+      "sourceType": "night_boss",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 695.69,
+        "z": 419.04
+      },
+      "imageCenter": {
+        "x": 824.0,
+        "y": 733.0
+      },
+      "iconName": "Night_location",
+      "text": "Night 1\nValiant Gargoyle",
+      "renderLayer": 200,
+      "iconBBox": [
+        781.0,
+        690.0,
+        867.0,
+        776.0
+      ],
+      "nightIndex": 1
+    },
+    {
+      "sourceType": "night_boss",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 640.0,
+        "z": 781.0
+      },
+      "imageCenter": {
+        "x": 768.0,
+        "y": 371.0
+      },
+      "iconName": "Night_location",
+      "text": "Night 2\nFallingstar Beast",
+      "renderLayer": 200,
+      "iconBBox": [
+        725.0,
+        328.0,
+        811.0,
+        414.0
+      ],
+      "nightIndex": 2
+    }
+  ],
+  "labelAnnotations": [
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 470.74,
+        "z": 110.51
+      },
+      "iconName": "Great Church",
+      "text": "Ancient Heroes of Zamor",
+      "labelCenter": {
+        "x": 599.0,
+        "y": 1041.0
+      },
+      "labelBBox": [
+        517.5,
+        1019.0,
+        680.5,
+        1063.0
+      ],
+      "rowData": {
+        "ID": 101706,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1107,
+        "smallBaseMapId": 5242,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "smallBaseMapName": "Great Church - Ancient Heroes of Zamor",
+        "smallBaseLocationName": "Great Church",
+        "smallBaseVariationName": "Ancient Heroes of Zamor"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 933.46,
+        "z": 548.59
+      },
+      "iconName": "Great Church",
+      "text": "Abductor Virgins",
+      "labelCenter": {
+        "x": 1061.0,
+        "y": 487.0
+      },
+      "labelBBox": [
+        971.0,
+        476.0,
+        1151.0,
+        498.0
+      ],
+      "rowData": {
+        "ID": 101708,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1108,
+        "smallBaseMapId": 5245,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 37.46,
+        "posZ": -91.41,
+        "X": 933.46,
+        "Z": 548.59,
+        "smallBaseMapName": "Great Church - Abductor Virgins",
+        "smallBaseLocationName": "Great Church",
+        "smallBaseVariationName": "Abductor Virgins"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 138.25,
+        "z": 392.67
+      },
+      "iconName": "Ruins",
+      "text": "Bloodbane Giant Crows + Chief Bloodfiend",
+      "labelCenter": {
+        "x": 266.0,
+        "y": 759.0
+      },
+      "labelBBox": [
+        176.5,
+        724.0,
+        355.5,
+        794.0
+      ],
+      "rowData": {
+        "ID": 101709,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1109,
+        "smallBaseMapId": 5250,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 10.25,
+        "posZ": 8.67,
+        "X": 138.25,
+        "Z": 392.67,
+        "smallBaseMapName": "Ruins - Bloodbane Giant Crows + Chief Bloodfiend",
+        "smallBaseLocationName": "Ruins",
+        "smallBaseVariationName": "Bloodbane Giant Crows + Chief Bloodfiend"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 146.006,
+        "z": 618.727
+      },
+      "iconName": "Ulcerated Tree Spirit",
+      "text": "Ulcerated Tree Spirit",
+      "labelCenter": {
+        "x": 274.0,
+        "y": 533.0
+      },
+      "labelBBox": [
+        197.0,
+        509.0,
+        351.0,
+        557.0
+      ],
+      "rowData": {
+        "ID": 101714,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1114,
+        "smallBaseMapId": 4990,
+        "mapIndex": 0,
+        "variationId": 2,
+        "unknown_0x12": 0,
+        "modifier": 413,
+        "gridXNo": 42,
+        "gridZNo": 38,
+        "posX": 18.006,
+        "posZ": -21.273,
+        "X": 146.006,
+        "Z": 618.727,
+        "smallBaseMapName": "Ulcerated Tree Spirit",
+        "smallBaseLocationName": "Ulcerated Tree Spirit",
+        "smallBaseVariationName": ""
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 146.14,
+        "z": 618.64
+      },
+      "iconName": "Tree Sentinel and Royal Cavalrymen",
+      "text": "Tree Sentinel and Royal Cavalrymen",
+      "labelCenter": {
+        "x": 274.0,
+        "y": 463.0
+      },
+      "labelBBox": [
+        204.5,
+        426.0,
+        343.5,
+        500.0
+      ],
+      "rowData": {
+        "ID": 101715,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1115,
+        "smallBaseMapId": 4860,
+        "mapIndex": 0,
+        "variationId": 2,
+        "unknown_0x12": 0,
+        "modifier": 402,
+        "gridXNo": 42,
+        "gridZNo": 38,
+        "posX": 18.14,
+        "posZ": -21.36,
+        "X": 146.14,
+        "Z": 618.64,
+        "smallBaseMapName": "Tree Sentinel and Royal Cavalrymen",
+        "smallBaseLocationName": "Tree Sentinel and Royal Cavalrymen",
+        "smallBaseVariationName": ""
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 145.518,
+        "z": 618.796
+      },
+      "iconName": "Dragonkin Soldier",
+      "text": "Dragonkin Soldier",
+      "labelCenter": {
+        "x": 274.0,
+        "y": 593.0
+      },
+      "labelBBox": [
+        218.5,
+        571.0,
+        329.5,
+        615.0
+      ],
+      "rowData": {
+        "ID": 101716,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1116,
+        "smallBaseMapId": 4923,
+        "mapIndex": 0,
+        "variationId": 2,
+        "unknown_0x12": 0,
+        "modifier": 446,
+        "gridXNo": 42,
+        "gridZNo": 38,
+        "posX": 17.518,
+        "posZ": -21.204,
+        "X": 145.518,
+        "Z": 618.796,
+        "smallBaseMapName": "Dragonkin Soldier",
+        "smallBaseLocationName": "Dragonkin Soldier",
+        "smallBaseVariationName": ""
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 847.969,
+        "z": 218.524
+      },
+      "iconName": "The Duke's Dear Freja",
+      "text": "The Duke's Dear Freja",
+      "labelCenter": {
+        "x": 976.0,
+        "y": 933.0
+      },
+      "labelBBox": [
+        889.0,
+        909.0,
+        1063.0,
+        957.0
+      ],
+      "rowData": {
+        "ID": 101721,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1111,
+        "smallBaseMapId": 4800,
+        "mapIndex": 0,
+        "variationId": 2,
+        "unknown_0x12": 0,
+        "modifier": 429,
+        "gridXNo": 45,
+        "gridZNo": 36,
+        "posX": -48.031,
+        "posZ": 90.524,
+        "X": 847.969,
+        "Z": 218.524,
+        "smallBaseMapName": "The Duke's Dear Freja",
+        "smallBaseLocationName": "The Duke's Dear Freja",
+        "smallBaseVariationName": ""
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 848.11,
+        "z": 218.45
+      },
+      "iconName": "Grafted Monarch",
+      "text": "Grafted Monarch",
+      "labelCenter": {
+        "x": 976.0,
+        "y": 894.0
+      },
+      "labelBBox": [
+        887.0,
+        885.0,
+        1065.0,
+        903.0
+      ],
+      "rowData": {
+        "ID": 101722,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1112,
+        "smallBaseMapId": 4910,
+        "mapIndex": 0,
+        "variationId": 2,
+        "unknown_0x12": 0,
+        "modifier": 436,
+        "gridXNo": 45,
+        "gridZNo": 36,
+        "posX": -47.89,
+        "posZ": 90.45,
+        "X": 848.11,
+        "Z": 218.45,
+        "smallBaseMapName": "Grafted Monarch",
+        "smallBaseLocationName": "Grafted Monarch",
+        "smallBaseVariationName": ""
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 848.11,
+        "z": 218.45
+      },
+      "iconName": "Magma Wyrm",
+      "text": "Magma Wyrm",
+      "labelCenter": {
+        "x": 976.0,
+        "y": 974.0
+      },
+      "labelBBox": [
+        903.5,
+        963.0,
+        1048.5,
+        985.0
+      ],
+      "rowData": {
+        "ID": 101723,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1113,
+        "smallBaseMapId": 4918,
+        "mapIndex": 0,
+        "variationId": 2,
+        "unknown_0x12": 0,
+        "modifier": 418,
+        "gridXNo": 45,
+        "gridZNo": 36,
+        "posX": -47.89,
+        "posZ": 90.45,
+        "X": 848.11,
+        "Z": 218.45,
+        "smallBaseMapName": "Magma Wyrm",
+        "smallBaseLocationName": "Magma Wyrm",
+        "smallBaseVariationName": ""
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 437.61,
+        "z": 441.9
+      },
+      "iconName": "Field Boss",
+      "text": "Ancient Hero of Zamor",
+      "labelCenter": {
+        "x": 566.0,
+        "y": 710.0
+      },
+      "labelBBox": [
+        483.0,
+        688.0,
+        649.0,
+        732.0
+      ],
+      "rowData": {
+        "ID": 101724,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1163,
+        "smallBaseMapId": 4669,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 37,
+        "posX": 53.61,
+        "posZ": 57.9,
+        "X": 437.61,
+        "Z": 441.9,
+        "smallBaseMapName": "Field Boss - Ancient Hero of Zamor",
+        "smallBaseLocationName": "Field Boss",
+        "smallBaseVariationName": "Ancient Hero of Zamor"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 651.61,
+        "z": 532.6
+      },
+      "iconName": "Field Boss",
+      "text": "Leonine Misbegotten",
+      "labelCenter": {
+        "x": 780.0,
+        "y": 619.0
+      },
+      "labelBBox": [
+        714.0,
+        595.0,
+        846.0,
+        643.0
+      ],
+      "rowData": {
+        "ID": 101725,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1158,
+        "smallBaseMapId": 4655,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 44,
+        "gridZNo": 38,
+        "posX": 11.61,
+        "posZ": -107.4,
+        "X": 651.61,
+        "Z": 532.6,
+        "smallBaseMapName": "Field Boss - Leonine Misbegotten",
+        "smallBaseLocationName": "Field Boss",
+        "smallBaseVariationName": "Leonine Misbegotten"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 119.954,
+        "z": 452.973
+      },
+      "iconName": "Field Boss",
+      "text": "Golden Hippopotamus",
+      "labelCenter": {
+        "x": 248.0,
+        "y": 689.0
+      },
+      "labelBBox": [
+        170.0,
+        665.0,
+        326.0,
+        713.0
+      ],
+      "rowData": {
+        "ID": 101726,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1165,
+        "smallBaseMapId": 4672,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": -8.046,
+        "posZ": 68.973,
+        "X": 119.954,
+        "Z": 452.973,
+        "smallBaseMapName": "Field Boss - Golden Hippopotamus",
+        "smallBaseLocationName": "Field Boss",
+        "smallBaseVariationName": "Golden Hippopotamus"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 455.02,
+        "z": 747.58
+      },
+      "iconName": "Field Boss",
+      "text": "Red Wolf",
+      "labelCenter": {
+        "x": 583.0,
+        "y": 404.0
+      },
+      "labelBBox": [
+        534.0,
+        395.0,
+        632.0,
+        413.0
+      ],
+      "rowData": {
+        "ID": 101727,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1157,
+        "smallBaseMapId": 4651,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 38,
+        "posX": 71.02,
+        "posZ": 107.58,
+        "X": 455.02,
+        "Z": 747.58,
+        "smallBaseMapName": "Field Boss - Red Wolf",
+        "smallBaseLocationName": "Field Boss",
+        "smallBaseVariationName": "Red Wolf"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 808.72,
+        "z": 464.97
+      },
+      "iconName": "Field Boss",
+      "text": "Elder Lion",
+      "labelCenter": {
+        "x": 937.0,
+        "y": 687.0
+      },
+      "labelBBox": [
+        882.0,
+        678.0,
+        992.0,
+        696.0
+      ],
+      "rowData": {
+        "ID": 101728,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1164,
+        "smallBaseMapId": 4657,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 37,
+        "posX": -87.28,
+        "posZ": 80.97,
+        "X": 808.72,
+        "Z": 464.97,
+        "smallBaseMapName": "Field Boss - Elder Lion",
+        "smallBaseLocationName": "Field Boss",
+        "smallBaseVariationName": "Elder Lion"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 931.68,
+        "z": 296.3
+      },
+      "iconName": "Field Boss",
+      "text": "Royal Revenant",
+      "labelCenter": {
+        "x": 1060.0,
+        "y": 856.0
+      },
+      "labelBBox": [
+        976.0,
+        845.0,
+        1144.0,
+        867.0
+      ],
+      "rowData": {
+        "ID": 101729,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1160,
+        "smallBaseMapId": 4659,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 37,
+        "posX": 35.68,
+        "posZ": -87.7,
+        "X": 931.68,
+        "Z": 296.3,
+        "smallBaseMapName": "Field Boss - Royal Revenant",
+        "smallBaseLocationName": "Field Boss",
+        "smallBaseVariationName": "Royal Revenant"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 462.17,
+        "z": 280.21
+      },
+      "iconName": "Field Boss",
+      "text": "Black Knife Assassin",
+      "labelCenter": {
+        "x": 590.0,
+        "y": 872.0
+      },
+      "labelBBox": [
+        529.0,
+        850.0,
+        651.0,
+        894.0
+      ],
+      "rowData": {
+        "ID": 101730,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1161,
+        "smallBaseMapId": 4551,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 37,
+        "posX": 78.17,
+        "posZ": -103.79,
+        "X": 462.17,
+        "Z": 280.21,
+        "smallBaseMapName": "Field Boss - Black Knife Assassin",
+        "smallBaseLocationName": "Field Boss",
+        "smallBaseVariationName": "Black Knife Assassin"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 315.65,
+        "z": 352.01
+      },
+      "iconName": "Field Boss Red",
+      "text": "Royal Carian Knight",
+      "labelCenter": {
+        "x": 444.0,
+        "y": 800.0
+      },
+      "labelBBox": [
+        376.0,
+        776.0,
+        512.0,
+        824.0
+      ],
+      "rowData": {
+        "ID": 101731,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1156,
+        "smallBaseMapId": 4654,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 37,
+        "posX": -68.35,
+        "posZ": -31.99,
+        "X": 315.65,
+        "Z": 352.01,
+        "smallBaseMapName": "Field Boss Red - Royal Carian Knight",
+        "smallBaseLocationName": "Field Boss Red",
+        "smallBaseVariationName": "Royal Carian Knight"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 818.98,
+        "z": 332.61
+      },
+      "iconName": "Field Boss Red",
+      "text": "Death Rite Bird",
+      "labelCenter": {
+        "x": 947.0,
+        "y": 819.0
+      },
+      "labelBBox": [
+        866.5,
+        810.0,
+        1027.5,
+        828.0
+      ],
+      "rowData": {
+        "ID": 101732,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1159,
+        "smallBaseMapId": 4674,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 37,
+        "posX": -77.02,
+        "posZ": -51.39,
+        "X": 818.98,
+        "Z": 332.61,
+        "smallBaseMapName": "Field Boss Red - Death Rite Bird",
+        "smallBaseLocationName": "Field Boss Red",
+        "smallBaseVariationName": "Death Rite Bird"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 191.72,
+        "z": 488.47
+      },
+      "iconName": "Field Boss Red",
+      "text": "Bell Bearing Hunter",
+      "labelCenter": {
+        "x": 400.0,
+        "y": 664.0
+      },
+      "labelBBox": [
+        335.0,
+        642.0,
+        465.0,
+        686.0
+      ],
+      "rowData": {
+        "ID": 101733,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1155,
+        "smallBaseMapId": 4656,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 63.72,
+        "posZ": 104.47,
+        "X": 191.72,
+        "Z": 488.47,
+        "smallBaseMapName": "Field Boss Red - Bell Bearing Hunter",
+        "smallBaseLocationName": "Field Boss Red",
+        "smallBaseVariationName": "Bell Bearing Hunter"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 425.49,
+        "z": 397.05
+      },
+      "iconName": "Field Boss Red",
+      "text": "Ancestor Spirit",
+      "labelCenter": {
+        "x": 553.0,
+        "y": 755.0
+      },
+      "labelBBox": [
+        473.0,
+        744.0,
+        633.0,
+        766.0
+      ],
+      "rowData": {
+        "ID": 101734,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1162,
+        "smallBaseMapId": 4664,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 37,
+        "posX": 41.49,
+        "posZ": 13.05,
+        "X": 425.49,
+        "Z": 397.05,
+        "smallBaseMapName": "Field Boss Red - Ancestor Spirit",
+        "smallBaseLocationName": "Field Boss Red",
+        "smallBaseVariationName": "Ancestor Spirit"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 288.0,
+        "z": 478.0
+      },
+      "iconName": "Sorcerer's Rise",
+      "text": "Fog Door",
+      "labelCenter": {
+        "x": 416.0,
+        "y": 704.0
+      },
+      "labelBBox": [
+        366.0,
+        693.0,
+        466.0,
+        715.0
+      ],
+      "rowData": {
+        "ID": 101737,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1151,
+        "smallBaseMapId": 5110,
+        "mapIndex": 0,
+        "variationId": 6,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 37,
+        "posX": -96.0,
+        "posZ": 94.0,
+        "X": 288.0,
+        "Z": 478.0,
+        "smallBaseMapName": "Sorcerer's Rise",
+        "smallBaseLocationName": "Sorcerer's Rise",
+        "smallBaseVariationName": "Fog Door"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 300.0,
+        "z": 98.0
+      },
+      "iconName": "Sorcerer's Rise",
+      "text": "Fleeing Stump",
+      "labelCenter": {
+        "x": 428.0,
+        "y": 1054.0
+      },
+      "labelBBox": [
+        351.0,
+        1043.0,
+        505.0,
+        1065.0
+      ],
+      "rowData": {
+        "ID": 101738,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1150,
+        "smallBaseMapId": 5110,
+        "mapIndex": 1,
+        "variationId": 7,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": -84.0,
+        "posZ": -30.0,
+        "X": 300.0,
+        "Z": 98.0,
+        "smallBaseMapName": "Sorcerer's Rise",
+        "smallBaseLocationName": "Sorcerer's Rise",
+        "smallBaseVariationName": "Fleeing Stump"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 252.367,
+        "z": 848.966
+      },
+      "iconName": "Field Boss Red",
+      "text": "Erdtree Avatar",
+      "labelCenter": {
+        "x": 380.0,
+        "y": 303.0
+      },
+      "labelBBox": [
+        304.0,
+        294.0,
+        456.0,
+        312.0
+      ],
+      "rowData": {
+        "ID": 101739,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 1103,
+        "smallBaseMapId": 4667,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 39,
+        "posX": -131.633,
+        "posZ": -47.034,
+        "X": 252.367,
+        "Z": 848.966,
+        "smallBaseMapName": "Field Boss Red - Erdtree Avatar",
+        "smallBaseLocationName": "Field Boss Red",
+        "smallBaseVariationName": "Erdtree Avatar"
+      }
+    },
+    {
+      "sourceType": "night_boss",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 695.69,
+        "z": 419.04
+      },
+      "iconName": "Night_location",
+      "text": "Night 1\nValiant Gargoyle",
+      "labelCenter": {
+        "x": 824.0,
+        "y": 733.0
+      },
+      "labelBBox": [
+        736.5,
+        709.0,
+        911.5,
+        757.0
+      ],
+      "nightIndex": 1
+    },
+    {
+      "sourceType": "night_boss",
+      "rareMap": "Great Hollow",
+      "world": {
+        "x": 640.0,
+        "z": 781.0
+      },
+      "iconName": "Night_location",
+      "text": "Night 2\nFallingstar Beast",
+      "labelCenter": {
+        "x": 768.0,
+        "y": 371.0
+      },
+      "labelBBox": [
+        711.0,
+        336.0,
+        825.0,
+        406.0
+      ],
+      "nightIndex": 2
+    }
+  ]
+}

@@ -1,0 +1,3931 @@
+{
+  "patternId": 194,
+  "rareMap": "Rotted Woods",
+  "mode": "with_text",
+  "outputImage": "renders_fixed\\with_text\\pattern_0194_Rotted_Woods.png",
+  "backgroundImage": "maps\\Rotted_Woods.png",
+  "cropBorder": 0,
+  "outputImageSize": {
+    "width": 1536,
+    "height": 1536
+  },
+  "bossId1Name": "Tibia Mariner / Those Who Live in Death",
+  "bossId2Name": "Death Rite Bird",
+  "extraBossId1Name": "",
+  "extraBossId2Name": "",
+  "playAreas": {
+    "playArea1": {
+      "x": 74.0,
+      "z": 661.0
+    },
+    "playArea2": {
+      "x": 688.9,
+      "z": 219.352
+    }
+  },
+  "iconAnnotations": [
+    {
+      "sourceType": "fixed_point",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 840.5,
+        "z": 144.5
+      },
+      "imageCenter": {
+        "x": 1096.0,
+        "y": 1136.0
+      },
+      "iconName": "Fort",
+      "text": "Lordsworn Captain",
+      "renderLayer": 0,
+      "iconBBox": [
+        1053.0,
+        1105.0,
+        1139.0,
+        1167.0
+      ],
+      "fixedPoint": {
+        "x": 840.5,
+        "z": 144.5,
+        "icon": "Fort",
+        "text": "Lordsworn Captain"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 766.0,
+        "z": 570.0
+      },
+      "imageCenter": {
+        "x": 1022.0,
+        "y": 710.0
+      },
+      "iconName": "Fort",
+      "text": "Guardian Golem",
+      "renderLayer": 0,
+      "iconBBox": [
+        979.0,
+        679.0,
+        1065.0,
+        741.0
+      ],
+      "rowData": {
+        "ID": 9015,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 129,
+        "smallBaseMapId": 3030,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 44,
+        "gridZNo": 38,
+        "posX": 126.0,
+        "posZ": -70.0,
+        "X": 766.0,
+        "Z": 570.0,
+        "smallBaseMapName": "Fort - Guardian Golem; Crystalians",
+        "smallBaseLocationName": "Fort",
+        "smallBaseVariationName": "Guardian Golem"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 360.0,
+        "z": 1007.0
+      },
+      "imageCenter": {
+        "x": 616.0,
+        "y": 273.0
+      },
+      "iconName": "Fort",
+      "text": "Abductor Virgin",
+      "renderLayer": 0,
+      "iconBBox": [
+        573.0,
+        242.0,
+        659.0,
+        304.0
+      ],
+      "rowData": {
+        "ID": 9016,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 107,
+        "smallBaseMapId": 3000,
+        "mapIndex": 0,
+        "variationId": 1,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 39,
+        "posX": -24.0,
+        "posZ": 111.0,
+        "X": 360.0,
+        "Z": 1007.0,
+        "smallBaseMapName": "Fort - Lordsworn Captain; Abductor Virgin",
+        "smallBaseLocationName": "Fort",
+        "smallBaseVariationName": "Abductor Virgin"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 713.0,
+        "z": 832.0
+      },
+      "imageCenter": {
+        "x": 969.0,
+        "y": 448.0
+      },
+      "iconName": "Great Church",
+      "text": "Oracle Envoys",
+      "renderLayer": 0,
+      "iconBBox": [
+        926.0,
+        409.5,
+        1012.0,
+        486.5
+      ],
+      "rowData": {
+        "ID": 9017,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 112,
+        "smallBaseMapId": 3800,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 44,
+        "gridZNo": 39,
+        "posX": 73.0,
+        "posZ": -64.0,
+        "X": 713.0,
+        "Z": 832.0,
+        "smallBaseMapName": "Great Church - Oracle Envoys; Guardian Golem",
+        "smallBaseLocationName": "Great Church",
+        "smallBaseVariationName": "Oracle Envoys"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 173.0,
+        "z": 277.0
+      },
+      "imageCenter": {
+        "x": 429.0,
+        "y": 1003.0
+      },
+      "iconName": "Great Church",
+      "text": "Guardian Golem",
+      "renderLayer": 0,
+      "iconBBox": [
+        386.0,
+        964.5,
+        472.0,
+        1041.5
+      ],
+      "rowData": {
+        "ID": 9018,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 101,
+        "smallBaseMapId": 3800,
+        "mapIndex": 1,
+        "variationId": 1,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 45.0,
+        "posZ": -107.0,
+        "X": 173.0,
+        "Z": 277.0,
+        "smallBaseMapName": "Great Church - Oracle Envoys; Guardian Golem",
+        "smallBaseLocationName": "Great Church",
+        "smallBaseVariationName": "Guardian Golem"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 840.0,
+        "z": 950.0
+      },
+      "imageCenter": {
+        "x": 1096.0,
+        "y": 330.0
+      },
+      "iconName": "Camp",
+      "text": "Leonine Misbegotten",
+      "renderLayer": 0,
+      "iconBBox": [
+        1053.0,
+        303.5,
+        1139.0,
+        356.5
+      ],
+      "rowData": {
+        "ID": 9019,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 117,
+        "smallBaseMapId": 3210,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 39,
+        "posX": -56.0,
+        "posZ": 54.0,
+        "X": 840.0,
+        "Z": 950.0,
+        "smallBaseMapName": "Camp - Leonine Misbegotten; Redmane Knights; Royal Army Knights",
+        "smallBaseLocationName": "Camp",
+        "smallBaseVariationName": "Leonine Misbegotten"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 236.0,
+        "z": 434.0
+      },
+      "imageCenter": {
+        "x": 492.0,
+        "y": 846.0
+      },
+      "iconName": "Camp",
+      "text": "Banished Knights",
+      "renderLayer": 0,
+      "iconBBox": [
+        449.0,
+        819.5,
+        535.0,
+        872.5
+      ],
+      "rowData": {
+        "ID": 9020,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 100,
+        "smallBaseMapId": 3200,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 108.0,
+        "posZ": 50.0,
+        "X": 236.0,
+        "Z": 434.0,
+        "smallBaseMapName": "Camp - Banished Knights; Elder Lion",
+        "smallBaseLocationName": "Camp",
+        "smallBaseVariationName": "Banished Knights"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 384.0,
+        "z": 819.0
+      },
+      "imageCenter": {
+        "x": 640.0,
+        "y": 461.0
+      },
+      "iconName": "Camp",
+      "text": "Banished Knights",
+      "renderLayer": 0,
+      "iconBBox": [
+        597.0,
+        434.5,
+        683.0,
+        487.5
+      ],
+      "rowData": {
+        "ID": 9021,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 106,
+        "smallBaseMapId": 3200,
+        "mapIndex": 1,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 39,
+        "posX": 0.0,
+        "posZ": -77.0,
+        "X": 384.0,
+        "Z": 819.0,
+        "smallBaseMapName": "Camp - Banished Knights; Elder Lion",
+        "smallBaseLocationName": "Camp",
+        "smallBaseVariationName": "Banished Knights"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 98.0,
+        "z": 851.0
+      },
+      "imageCenter": {
+        "x": 354.0,
+        "y": 429.0
+      },
+      "iconName": "Ruins",
+      "text": "Battlemages",
+      "renderLayer": 0,
+      "iconBBox": [
+        311.0,
+        406.5,
+        397.0,
+        451.5
+      ],
+      "rowData": {
+        "ID": 9022,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 103,
+        "smallBaseMapId": 3410,
+        "mapIndex": 0,
+        "variationId": 2,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 39,
+        "posX": -30.0,
+        "posZ": -45.0,
+        "X": 98.0,
+        "Z": 851.0,
+        "smallBaseMapName": "Ruins - Perfumer; Depraved Perfumer; Battlemages; Albinauric Archers; Runebear",
+        "smallBaseLocationName": "Ruins",
+        "smallBaseVariationName": "Battlemages"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 935.0,
+        "z": 631.0
+      },
+      "imageCenter": {
+        "x": 1191.0,
+        "y": 649.0
+      },
+      "iconName": "Ruins",
+      "text": "Beastmen of Farum Azula",
+      "renderLayer": 0,
+      "iconBBox": [
+        1148.0,
+        626.5,
+        1234.0,
+        671.5
+      ],
+      "rowData": {
+        "ID": 9023,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 116,
+        "smallBaseMapId": 3430,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 39.0,
+        "posZ": -9.0,
+        "X": 935.0,
+        "Z": 631.0,
+        "smallBaseMapName": "Ruins - Beastmen of Farum Azula",
+        "smallBaseLocationName": "Ruins",
+        "smallBaseVariationName": "Beastmen of Farum Azula"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 642.0,
+        "z": 627.0
+      },
+      "imageCenter": {
+        "x": 898.0,
+        "y": 653.0
+      },
+      "iconName": "Ruins",
+      "text": "Beastmen of Farum Azula",
+      "renderLayer": 0,
+      "iconBBox": [
+        855.0,
+        630.5,
+        941.0,
+        675.5
+      ],
+      "rowData": {
+        "ID": 9024,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 110,
+        "smallBaseMapId": 3430,
+        "mapIndex": 1,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 44,
+        "gridZNo": 38,
+        "posX": 2.0,
+        "posZ": -13.0,
+        "X": 642.0,
+        "Z": 627.0,
+        "smallBaseMapName": "Ruins - Beastmen of Farum Azula",
+        "smallBaseLocationName": "Ruins",
+        "smallBaseVariationName": "Beastmen of Farum Azula"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 568.0,
+        "z": 940.0
+      },
+      "imageCenter": {
+        "x": 824.0,
+        "y": 340.0
+      },
+      "iconName": "Church",
+      "text": "Dogs",
+      "renderLayer": 0,
+      "iconBBox": [
+        791.5,
+        297.0,
+        856.5,
+        383.0
+      ],
+      "rowData": {
+        "ID": 9026,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 310,
+        "smallBaseMapId": 4100,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 44,
+        "gridZNo": 39,
+        "posX": -72.0,
+        "posZ": 44.0,
+        "X": 568.0,
+        "Z": 940.0,
+        "smallBaseMapName": "Church - Dogs",
+        "smallBaseLocationName": "Church",
+        "smallBaseVariationName": "Dogs"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 441.0,
+        "z": 213.0
+      },
+      "imageCenter": {
+        "x": 697.0,
+        "y": 1067.0
+      },
+      "iconName": "Church",
+      "text": "Dogs",
+      "renderLayer": 0,
+      "iconBBox": [
+        664.5,
+        1024.0,
+        729.5,
+        1110.0
+      ],
+      "rowData": {
+        "ID": 9027,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 305,
+        "smallBaseMapId": 4100,
+        "mapIndex": 1,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 57.0,
+        "posZ": 85.0,
+        "X": 441.0,
+        "Z": 213.0,
+        "smallBaseMapName": "Church - Dogs",
+        "smallBaseLocationName": "Church",
+        "smallBaseVariationName": "Dogs"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 80.0,
+        "z": 738.46
+      },
+      "imageCenter": {
+        "x": 336.0,
+        "y": 542.0
+      },
+      "iconName": "Church",
+      "text": "Dogs",
+      "renderLayer": 0,
+      "iconBBox": [
+        303.5,
+        499.0,
+        368.5,
+        585.0
+      ],
+      "rowData": {
+        "ID": 9028,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 302,
+        "smallBaseMapId": 4100,
+        "mapIndex": 2,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 38,
+        "posX": -48.0,
+        "posZ": 98.46,
+        "X": 80.0,
+        "Z": 738.46,
+        "smallBaseMapName": "Church - Dogs",
+        "smallBaseLocationName": "Church",
+        "smallBaseVariationName": "Dogs"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 298.0,
+        "z": 672.0
+      },
+      "imageCenter": {
+        "x": 554.0,
+        "y": 608.0
+      },
+      "iconName": "Sorcerer's Rise",
+      "text": "Fog Door",
+      "renderLayer": 0,
+      "iconBBox": [
+        533.5,
+        565.0,
+        574.5,
+        651.0
+      ],
+      "rowData": {
+        "ID": 9029,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 306,
+        "smallBaseMapId": 4000,
+        "mapIndex": 0,
+        "variationId": 6,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 38,
+        "posX": -86.0,
+        "posZ": 32.0,
+        "X": 298.0,
+        "Z": 672.0,
+        "smallBaseMapName": "Sorcerer's Rise - Normal",
+        "smallBaseLocationName": "Sorcerer's Rise",
+        "smallBaseVariationName": "Fog Door"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 421.57,
+        "z": 446.69
+      },
+      "imageCenter": {
+        "x": 747.0,
+        "y": 833.0
+      },
+      "iconName": "Basement Boss",
+      "text": "Royal Revenant",
+      "renderLayer": 1000,
+      "iconBBox": [
+        704.0,
+        795.5,
+        790.0,
+        870.5
+      ],
+      "rowData": {
+        "ID": 9031,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 757,
+        "smallBaseMapId": 4688,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 406,
+        "gridXNo": 43,
+        "gridZNo": 37,
+        "posX": 37.57,
+        "posZ": 62.69,
+        "X": 421.57,
+        "Z": 446.69,
+        "smallBaseMapName": "Basement Boss - Royal Revenant",
+        "smallBaseLocationName": "Basement Boss",
+        "smallBaseVariationName": "Royal Revenant"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 421.57,
+        "z": 446.69
+      },
+      "imageCenter": {
+        "x": 678.0,
+        "y": 833.0
+      },
+      "iconName": "Field Boss Red",
+      "text": "Valiant Gargoyle",
+      "renderLayer": 20,
+      "iconBBox": [
+        635.0,
+        790.0,
+        721.0,
+        876.0
+      ],
+      "rowData": {
+        "ID": 9032,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 756,
+        "smallBaseMapId": 4666,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 37,
+        "posX": 37.57,
+        "posZ": 62.69,
+        "X": 421.57,
+        "Z": 446.69,
+        "smallBaseMapName": "Field Boss Red - Valiant Gargoyle",
+        "smallBaseLocationName": "Field Boss Red",
+        "smallBaseVariationName": "Valiant Gargoyle"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 473.7,
+        "z": 446.66
+      },
+      "imageCenter": {
+        "x": 730.0,
+        "y": 833.0
+      },
+      "iconName": "Castle",
+      "text": "Crucible Knights",
+      "renderLayer": 0,
+      "iconBBox": [
+        688.0,
+        790.0,
+        772.0,
+        876.0
+      ],
+      "rowData": {
+        "ID": 9033,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 190,
+        "smallBaseMapId": 4943,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 37,
+        "posX": 89.7,
+        "posZ": 62.66,
+        "X": 473.7,
+        "Z": 446.66,
+        "smallBaseMapName": "Castle - Crucible Knights",
+        "smallBaseLocationName": "Castle",
+        "smallBaseVariationName": "Crucible Knights"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 855.23,
+        "z": 300.49
+      },
+      "imageCenter": {
+        "x": 1111.0,
+        "y": 980.0
+      },
+      "iconName": "Field Boss Red",
+      "text": "Magma Wyrm",
+      "renderLayer": 20,
+      "iconBBox": [
+        1068.0,
+        937.0,
+        1154.0,
+        1023.0
+      ],
+      "rowData": {
+        "ID": 9034,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 318,
+        "smallBaseMapId": 4668,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 37,
+        "posX": -40.77,
+        "posZ": -83.51,
+        "X": 855.23,
+        "Z": 300.49,
+        "smallBaseMapName": "Field Boss Red - Magma Wyrm",
+        "smallBaseLocationName": "Field Boss Red",
+        "smallBaseVariationName": "Magma Wyrm"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 949.98,
+        "z": 220.46
+      },
+      "imageCenter": {
+        "x": 1206.0,
+        "y": 1060.0
+      },
+      "iconName": "Field Boss Red",
+      "text": "Bell Bearing Hunter",
+      "renderLayer": 20,
+      "iconBBox": [
+        1163.0,
+        1017.0,
+        1249.0,
+        1103.0
+      ],
+      "rowData": {
+        "ID": 9035,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 322,
+        "smallBaseMapId": 4656,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 36,
+        "posX": 53.98,
+        "posZ": 92.46,
+        "X": 949.98,
+        "Z": 220.46,
+        "smallBaseMapName": "Field Boss Red - Bell Bearing Hunter",
+        "smallBaseLocationName": "Field Boss Red",
+        "smallBaseVariationName": "Bell Bearing Hunter"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 945.5,
+        "z": 430.28
+      },
+      "imageCenter": {
+        "x": 1202.0,
+        "y": 850.0
+      },
+      "iconName": "Field Boss Red",
+      "text": "Tree Sentinel",
+      "renderLayer": 20,
+      "iconBBox": [
+        1159.0,
+        807.0,
+        1245.0,
+        893.0
+      ],
+      "rowData": {
+        "ID": 9036,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 319,
+        "smallBaseMapId": 4653,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 37,
+        "posX": 49.5,
+        "posZ": 46.28,
+        "X": 945.5,
+        "Z": 430.28,
+        "smallBaseMapName": "Field Boss Red - Tree Sentinel",
+        "smallBaseLocationName": "Field Boss Red",
+        "smallBaseVariationName": "Tree Sentinel"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 921.51,
+        "z": 358.31
+      },
+      "imageCenter": {
+        "x": 1178.0,
+        "y": 922.0
+      },
+      "iconName": "Field Boss Red",
+      "text": "Royal Carian Knight",
+      "renderLayer": 20,
+      "iconBBox": [
+        1135.0,
+        879.0,
+        1221.0,
+        965.0
+      ],
+      "rowData": {
+        "ID": 9037,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 320,
+        "smallBaseMapId": 4654,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 37,
+        "posX": 25.51,
+        "posZ": -25.69,
+        "X": 921.51,
+        "Z": 358.31,
+        "smallBaseMapName": "Field Boss Red - Royal Carian Knight",
+        "smallBaseLocationName": "Field Boss Red",
+        "smallBaseVariationName": "Royal Carian Knight"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 712.97,
+        "z": 423.88
+      },
+      "imageCenter": {
+        "x": 969.0,
+        "y": 856.0
+      },
+      "iconName": "Field Boss Red",
+      "text": "Ulcerated Tree Spirit",
+      "renderLayer": 20,
+      "iconBBox": [
+        926.0,
+        813.0,
+        1012.0,
+        899.0
+      ],
+      "rowData": {
+        "ID": 9038,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 316,
+        "smallBaseMapId": 4663,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 44,
+        "gridZNo": 37,
+        "posX": 72.97,
+        "posZ": 39.88,
+        "X": 712.97,
+        "Z": 423.88,
+        "smallBaseMapName": "Field Boss Red - Ulcerated Tree Spirit",
+        "smallBaseLocationName": "Field Boss Red",
+        "smallBaseVariationName": "Ulcerated Tree Spirit"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 674.33,
+        "z": 325.03
+      },
+      "imageCenter": {
+        "x": 930.0,
+        "y": 955.0
+      },
+      "iconName": "Field Boss Red",
+      "text": "Erdtree Avatar",
+      "renderLayer": 20,
+      "iconBBox": [
+        887.0,
+        912.0,
+        973.0,
+        998.0
+      ],
+      "rowData": {
+        "ID": 9039,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 309,
+        "smallBaseMapId": 4667,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 44,
+        "gridZNo": 37,
+        "posX": 34.33,
+        "posZ": -58.97,
+        "X": 674.33,
+        "Z": 325.03,
+        "smallBaseMapName": "Field Boss Red - Erdtree Avatar",
+        "smallBaseLocationName": "Field Boss Red",
+        "smallBaseVariationName": "Erdtree Avatar"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 468.86,
+        "z": 728.75
+      },
+      "imageCenter": {
+        "x": 725.0,
+        "y": 551.0
+      },
+      "iconName": "Field Boss Red",
+      "text": "Ancestor Spirit",
+      "renderLayer": 20,
+      "iconBBox": [
+        682.0,
+        508.0,
+        768.0,
+        594.0
+      ],
+      "rowData": {
+        "ID": 9040,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 759,
+        "smallBaseMapId": 4664,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 39,
+        "posX": 84.86,
+        "posZ": -167.25,
+        "X": 468.86,
+        "Z": 728.75,
+        "smallBaseMapName": "Field Boss Red - Ancestor Spirit",
+        "smallBaseLocationName": "Field Boss Red",
+        "smallBaseVariationName": "Ancestor Spirit"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 221.28,
+        "z": 16.569999999999993
+      },
+      "imageCenter": {
+        "x": 477.0,
+        "y": 1263.0
+      },
+      "iconName": "Field Boss Red",
+      "text": "Draconic Tree Sentinel",
+      "renderLayer": 20,
+      "iconBBox": [
+        434.0,
+        1220.0,
+        520.0,
+        1306.0
+      ],
+      "rowData": {
+        "ID": 9041,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 750,
+        "smallBaseMapId": 4652,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 36,
+        "posX": 93.28,
+        "posZ": -111.43,
+        "X": 221.28,
+        "Z": 16.569999999999993,
+        "smallBaseMapName": "Field Boss Red - Draconic Tree Sentinel",
+        "smallBaseLocationName": "Field Boss Red",
+        "smallBaseVariationName": "Draconic Tree Sentinel"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 144.55,
+        "z": 955.36
+      },
+      "imageCenter": {
+        "x": 401.0,
+        "y": 325.0
+      },
+      "iconName": "Field Boss",
+      "text": "Black Knife Assassin",
+      "renderLayer": 20,
+      "iconBBox": [
+        358.0,
+        287.5,
+        444.0,
+        362.5
+      ],
+      "rowData": {
+        "ID": 9042,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 754,
+        "smallBaseMapId": 4551,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 39,
+        "posX": 16.55,
+        "posZ": 59.36,
+        "X": 144.55,
+        "Z": 955.36,
+        "smallBaseMapName": "Field Boss - Black Knife Assassin",
+        "smallBaseLocationName": "Field Boss",
+        "smallBaseVariationName": "Black Knife Assassin"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 719.16,
+        "z": 946.83
+      },
+      "imageCenter": {
+        "x": 975.0,
+        "y": 333.0
+      },
+      "iconName": "Field Boss",
+      "text": "Red Wolf",
+      "renderLayer": 20,
+      "iconBBox": [
+        932.0,
+        295.5,
+        1018.0,
+        370.5
+      ],
+      "rowData": {
+        "ID": 9043,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 761,
+        "smallBaseMapId": 4651,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 44,
+        "gridZNo": 39,
+        "posX": 79.16,
+        "posZ": 50.83,
+        "X": 719.16,
+        "Z": 946.83,
+        "smallBaseMapName": "Field Boss - Red Wolf",
+        "smallBaseLocationName": "Field Boss",
+        "smallBaseVariationName": "Red Wolf"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 441.0,
+        "z": 213.0
+      },
+      "imageCenter": {
+        "x": 654.0,
+        "y": 1105.0
+      },
+      "iconName": "Field Boss",
+      "text": "Demi-Human Queen",
+      "renderLayer": 20,
+      "iconBBox": [
+        611.0,
+        1067.5,
+        697.0,
+        1142.5
+      ],
+      "rowData": {
+        "ID": 9044,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 755,
+        "smallBaseMapId": 4677,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 57.0,
+        "posZ": 85.0,
+        "X": 441.0,
+        "Z": 213.0,
+        "smallBaseMapName": "Field Boss - Demi-Human Queen",
+        "smallBaseLocationName": "Field Boss",
+        "smallBaseVariationName": "Demi-Human Queen"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 590.46,
+        "z": 695.63
+      },
+      "imageCenter": {
+        "x": 846.0,
+        "y": 584.0
+      },
+      "iconName": "Field Boss",
+      "text": "Leonine Misbegotten",
+      "renderLayer": 20,
+      "iconBBox": [
+        803.0,
+        546.5,
+        889.0,
+        621.5
+      ],
+      "rowData": {
+        "ID": 9045,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 760,
+        "smallBaseMapId": 4655,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 44,
+        "gridZNo": 38,
+        "posX": -49.54,
+        "posZ": 55.63,
+        "X": 590.46,
+        "Z": 695.63,
+        "smallBaseMapName": "Field Boss - Leonine Misbegotten",
+        "smallBaseLocationName": "Field Boss",
+        "smallBaseVariationName": "Leonine Misbegotten"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 259.19,
+        "z": 915.15
+      },
+      "imageCenter": {
+        "x": 515.0,
+        "y": 365.0
+      },
+      "iconName": "Field Boss",
+      "text": "Grafted Scion",
+      "renderLayer": 20,
+      "iconBBox": [
+        472.0,
+        327.5,
+        558.0,
+        402.5
+      ],
+      "rowData": {
+        "ID": 9046,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 758,
+        "smallBaseMapId": 4665,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 39,
+        "posX": -124.81,
+        "posZ": 19.15,
+        "X": 259.19,
+        "Z": 915.15,
+        "smallBaseMapName": "Field Boss - Grafted Scion",
+        "smallBaseLocationName": "Field Boss",
+        "smallBaseVariationName": "Grafted Scion"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 222.25,
+        "z": 705.8
+      },
+      "imageCenter": {
+        "x": 478.0,
+        "y": 574.0
+      },
+      "iconName": "Field Boss",
+      "text": "Elder Lion",
+      "renderLayer": 20,
+      "iconBBox": [
+        435.0,
+        536.5,
+        521.0,
+        611.5
+      ],
+      "rowData": {
+        "ID": 9047,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 753,
+        "smallBaseMapId": 4657,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 38,
+        "posX": 94.25,
+        "posZ": 65.8,
+        "X": 222.25,
+        "Z": 705.8,
+        "smallBaseMapName": "Field Boss - Elder Lion",
+        "smallBaseLocationName": "Field Boss",
+        "smallBaseVariationName": "Elder Lion"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 865.47,
+        "z": 437.87
+      },
+      "imageCenter": {
+        "x": 1121.0,
+        "y": 842.0
+      },
+      "iconName": "Event",
+      "text": "Gnoster",
+      "renderLayer": 0,
+      "iconBBox": [
+        1078.0,
+        799.0,
+        1164.0,
+        885.0
+      ],
+      "rowData": {
+        "ID": 9048,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 532,
+        "smallBaseMapId": 4553,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 37,
+        "posX": -30.53,
+        "posZ": 53.87,
+        "X": 865.47,
+        "Z": 437.87,
+        "smallBaseMapName": "Event - Gnoster",
+        "smallBaseLocationName": "Event",
+        "smallBaseVariationName": "Gnoster"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 74.0,
+        "z": 661.0
+      },
+      "imageCenter": {
+        "x": 330.0,
+        "y": 619.0
+      },
+      "iconName": "Event",
+      "text": "Gnoster",
+      "renderLayer": 0,
+      "iconBBox": [
+        287.0,
+        576.0,
+        373.0,
+        662.0
+      ],
+      "rowData": {
+        "ID": 9049,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 521,
+        "smallBaseMapId": 4553,
+        "mapIndex": 1,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 38,
+        "posX": -54.0,
+        "posZ": 21.0,
+        "X": 74.0,
+        "Z": 661.0,
+        "smallBaseMapName": "Event - Gnoster",
+        "smallBaseLocationName": "Event",
+        "smallBaseVariationName": "Gnoster"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 606.0,
+        "z": 874.0
+      },
+      "imageCenter": {
+        "x": 862.0,
+        "y": 406.0
+      },
+      "iconName": "Event",
+      "text": "Gnoster",
+      "renderLayer": 0,
+      "iconBBox": [
+        819.0,
+        363.0,
+        905.0,
+        449.0
+      ],
+      "rowData": {
+        "ID": 9050,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 527,
+        "smallBaseMapId": 4553,
+        "mapIndex": 2,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 44,
+        "gridZNo": 39,
+        "posX": -34.0,
+        "posZ": -22.0,
+        "X": 606.0,
+        "Z": 874.0,
+        "smallBaseMapName": "Event - Gnoster",
+        "smallBaseLocationName": "Event",
+        "smallBaseVariationName": "Gnoster"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 978.0,
+        "z": 914.0
+      },
+      "imageCenter": {
+        "x": 1234.0,
+        "y": 366.0
+      },
+      "iconName": "Event",
+      "text": "Gnoster",
+      "renderLayer": 0,
+      "iconBBox": [
+        1191.0,
+        323.0,
+        1277.0,
+        409.0
+      ],
+      "rowData": {
+        "ID": 9051,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 528,
+        "smallBaseMapId": 4553,
+        "mapIndex": 3,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 39,
+        "posX": 82.0,
+        "posZ": 18.0,
+        "X": 978.0,
+        "Z": 914.0,
+        "smallBaseMapName": "Event - Gnoster",
+        "smallBaseLocationName": "Event",
+        "smallBaseVariationName": "Gnoster"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 472.0,
+        "z": 99.0
+      },
+      "imageCenter": {
+        "x": 728.0,
+        "y": 1181.0
+      },
+      "iconName": "Event",
+      "text": "Gnoster",
+      "renderLayer": 0,
+      "iconBBox": [
+        685.0,
+        1138.0,
+        771.0,
+        1224.0
+      ],
+      "rowData": {
+        "ID": 9052,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 522,
+        "smallBaseMapId": 4553,
+        "mapIndex": 4,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 88.0,
+        "posZ": -29.0,
+        "X": 472.0,
+        "Z": 99.0,
+        "smallBaseMapName": "Event - Gnoster",
+        "smallBaseLocationName": "Event",
+        "smallBaseVariationName": "Gnoster"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 154.0,
+        "z": 124.0
+      },
+      "imageCenter": {
+        "x": 410.0,
+        "y": 1156.0
+      },
+      "iconName": "Event",
+      "text": "Gnoster",
+      "renderLayer": 0,
+      "iconBBox": [
+        367.0,
+        1113.0,
+        453.0,
+        1199.0
+      ],
+      "rowData": {
+        "ID": 9053,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 520,
+        "smallBaseMapId": 4553,
+        "mapIndex": 5,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 36,
+        "posX": 26.0,
+        "posZ": -4.0,
+        "X": 154.0,
+        "Z": 124.0,
+        "smallBaseMapName": "Event - Gnoster",
+        "smallBaseLocationName": "Event",
+        "smallBaseVariationName": "Gnoster"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 300.0,
+        "z": 578.0
+      },
+      "imageCenter": {
+        "x": 556.0,
+        "y": 702.0
+      },
+      "iconName": "Event",
+      "text": "Gnoster",
+      "renderLayer": 0,
+      "iconBBox": [
+        513.0,
+        659.0,
+        599.0,
+        745.0
+      ],
+      "rowData": {
+        "ID": 9054,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 525,
+        "smallBaseMapId": 4553,
+        "mapIndex": 6,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 38,
+        "posX": -84.0,
+        "posZ": -62.0,
+        "X": 300.0,
+        "Z": 578.0,
+        "smallBaseMapName": "Event - Gnoster",
+        "smallBaseLocationName": "Event",
+        "smallBaseVariationName": "Gnoster"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 309.0,
+        "z": 216.0
+      },
+      "imageCenter": {
+        "x": 565.0,
+        "y": 1064.0
+      },
+      "iconName": "Event",
+      "text": "Gnoster",
+      "renderLayer": 0,
+      "iconBBox": [
+        522.0,
+        1021.0,
+        608.0,
+        1107.0
+      ],
+      "rowData": {
+        "ID": 9055,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 523,
+        "smallBaseMapId": 4553,
+        "mapIndex": 7,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": -75.0,
+        "posZ": 88.0,
+        "X": 309.0,
+        "Z": 216.0,
+        "smallBaseMapName": "Event - Gnoster",
+        "smallBaseLocationName": "Event",
+        "smallBaseVariationName": "Gnoster"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 276.65,
+        "z": 309.65
+      },
+      "imageCenter": {
+        "x": 533.0,
+        "y": 970.0
+      },
+      "iconName": "Evergaol",
+      "text": "Nox Duo",
+      "renderLayer": 10,
+      "iconBBox": [
+        492.5,
+        927.0,
+        573.5,
+        1013.0
+      ],
+      "rowData": {
+        "ID": 9056,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 602,
+        "smallBaseMapId": 4660,
+        "mapIndex": 0,
+        "variationId": 5,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 37,
+        "posX": -107.35,
+        "posZ": -74.35,
+        "X": 276.65,
+        "Z": 309.65,
+        "smallBaseMapName": "Evergaol - Crucible Knight with Sword; Crucible Knight with Spear; Crystalians; Stoneskin Lords; Banished Knights; Nox Duo; Bloodhound Knight",
+        "smallBaseLocationName": "Evergaol",
+        "smallBaseVariationName": "Nox Duo"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 957.87,
+        "z": 530.38
+      },
+      "imageCenter": {
+        "x": 1214.0,
+        "y": 750.0
+      },
+      "iconName": "Evergaol",
+      "text": "Bloodhound Knight",
+      "renderLayer": 10,
+      "iconBBox": [
+        1173.5,
+        707.0,
+        1254.5,
+        793.0
+      ],
+      "rowData": {
+        "ID": 9057,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 607,
+        "smallBaseMapId": 4660,
+        "mapIndex": 1,
+        "variationId": 6,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 61.87,
+        "posZ": -109.62,
+        "X": 957.87,
+        "Z": 530.38,
+        "smallBaseMapName": "Evergaol - Crucible Knight with Sword; Crucible Knight with Spear; Crystalians; Stoneskin Lords; Banished Knights; Nox Duo; Bloodhound Knight",
+        "smallBaseLocationName": "Evergaol",
+        "smallBaseVariationName": "Bloodhound Knight"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 713.22,
+        "z": 722.15
+      },
+      "imageCenter": {
+        "x": 969.0,
+        "y": 558.0
+      },
+      "iconName": "Evergaol",
+      "text": "Beastly Brigade",
+      "renderLayer": 10,
+      "iconBBox": [
+        928.5,
+        515.0,
+        1009.5,
+        601.0
+      ],
+      "rowData": {
+        "ID": 9058,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 606,
+        "smallBaseMapId": 4650,
+        "mapIndex": 0,
+        "variationId": 5,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 44,
+        "gridZNo": 38,
+        "posX": 73.22,
+        "posZ": 82.15,
+        "X": 713.22,
+        "Z": 722.15,
+        "smallBaseMapName": "Evergaol - Unused Banished Knights; Unused Nox Duo; Omen; Grave Warden Duelist; Beastmen of Farum Azula; Beastly Brigade; Unused Bloodhound Knight",
+        "smallBaseLocationName": "Evergaol",
+        "smallBaseVariationName": "Beastly Brigade"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 483.79,
+        "z": 978.09
+      },
+      "imageCenter": {
+        "x": 740.0,
+        "y": 302.0
+      },
+      "iconName": "Evergaol",
+      "text": "Godskin Noble",
+      "renderLayer": 10,
+      "iconBBox": [
+        699.5,
+        259.0,
+        780.5,
+        345.0
+      ],
+      "rowData": {
+        "ID": 9059,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 604,
+        "smallBaseMapId": 4670,
+        "mapIndex": 0,
+        "variationId": 2,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 39,
+        "posX": 99.79,
+        "posZ": 82.09,
+        "X": 483.79,
+        "Z": 978.09,
+        "smallBaseMapName": "Evergaol - Dragonkin Soldier; Godskin Apostle; Godskin Noble; Crucible Knight with Sword; Crucible Knight with Spear",
+        "smallBaseLocationName": "Evergaol",
+        "smallBaseVariationName": "Godskin Noble"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 2.5999999999999943,
+        "z": 793.03
+      },
+      "imageCenter": {
+        "x": 259.0,
+        "y": 487.0
+      },
+      "iconName": "Evergaol",
+      "text": "Godskin Apostle",
+      "renderLayer": 10,
+      "iconBBox": [
+        218.5,
+        444.0,
+        299.5,
+        530.0
+      ],
+      "rowData": {
+        "ID": 9060,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 601,
+        "smallBaseMapId": 4670,
+        "mapIndex": 1,
+        "variationId": 1,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 39,
+        "posX": -125.4,
+        "posZ": -102.97,
+        "X": 2.5999999999999943,
+        "Z": 793.03,
+        "smallBaseMapName": "Evergaol - Dragonkin Soldier; Godskin Apostle; Godskin Noble; Crucible Knight with Sword; Crucible Knight with Spear",
+        "smallBaseLocationName": "Evergaol",
+        "smallBaseVariationName": "Godskin Apostle"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 428.37,
+        "z": 693.18
+      },
+      "imageCenter": {
+        "x": 684.0,
+        "y": 587.0
+      },
+      "iconName": "Evergaol",
+      "text": "Omen",
+      "renderLayer": 10,
+      "iconBBox": [
+        643.5,
+        544.0,
+        724.5,
+        630.0
+      ],
+      "rowData": {
+        "ID": 9061,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 603,
+        "smallBaseMapId": 4650,
+        "mapIndex": 1,
+        "variationId": 2,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 38,
+        "posX": 44.37,
+        "posZ": 53.18,
+        "X": 428.37,
+        "Z": 693.18,
+        "smallBaseMapName": "Evergaol - Unused Banished Knights; Unused Nox Duo; Omen; Grave Warden Duelist; Beastmen of Farum Azula; Beastly Brigade; Unused Bloodhound Knight",
+        "smallBaseLocationName": "Evergaol",
+        "smallBaseVariationName": "Omen"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 355.0,
+        "z": 79.0
+      },
+      "imageCenter": {
+        "x": 611.0,
+        "y": 1201.0
+      },
+      "iconName": "Great Church",
+      "text": "Oracle Envoys",
+      "renderLayer": 0,
+      "iconBBox": [
+        568.0,
+        1162.5,
+        654.0,
+        1239.5
+      ],
+      "rowData": {
+        "ID": 9065,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 104,
+        "smallBaseMapId": 3800,
+        "mapIndex": 2,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": -29.0,
+        "posZ": -49.0,
+        "X": 355.0,
+        "Z": 79.0,
+        "smallBaseMapName": "Great Church - Oracle Envoys; Guardian Golem",
+        "smallBaseLocationName": "Great Church",
+        "smallBaseVariationName": "Oracle Envoys"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 181.0,
+        "z": 596.0
+      },
+      "imageCenter": {
+        "x": 437.0,
+        "y": 684.0
+      },
+      "iconName": "Camp",
+      "text": "Banished Knights",
+      "renderLayer": 0,
+      "iconBBox": [
+        394.0,
+        657.5,
+        480.0,
+        710.5
+      ],
+      "rowData": {
+        "ID": 9066,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 120,
+        "smallBaseMapId": 3200,
+        "mapIndex": 2,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 38,
+        "posX": 53.0,
+        "posZ": -44.0,
+        "X": 181.0,
+        "Z": 596.0,
+        "smallBaseMapName": "Camp - Banished Knights; Elder Lion",
+        "smallBaseLocationName": "Camp",
+        "smallBaseVariationName": "Banished Knights"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 62.0,
+        "z": 428.0
+      },
+      "imageCenter": {
+        "x": 318.0,
+        "y": 852.0
+      },
+      "iconName": "Sorcerer's Rise",
+      "text": "Above Door",
+      "renderLayer": 0,
+      "iconBBox": [
+        297.5,
+        809.0,
+        338.5,
+        895.0
+      ],
+      "rowData": {
+        "ID": 9067,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 301,
+        "smallBaseMapId": 4000,
+        "mapIndex": 1,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": -66.0,
+        "posZ": 44.0,
+        "X": 62.0,
+        "Z": 428.0,
+        "smallBaseMapName": "Sorcerer's Rise - Normal",
+        "smallBaseLocationName": "Sorcerer's Rise",
+        "smallBaseVariationName": "Above Door"
+      }
+    },
+    {
+      "sourceType": "night_boss",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 74.0,
+        "z": 661.0
+      },
+      "imageCenter": {
+        "x": 330.0,
+        "y": 619.0
+      },
+      "iconName": "Night_location",
+      "text": "Night 1\nTibia Mariner / Those Who Live in Death",
+      "renderLayer": 200,
+      "iconBBox": [
+        287.0,
+        576.0,
+        373.0,
+        662.0
+      ],
+      "nightIndex": 1
+    },
+    {
+      "sourceType": "night_boss",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 688.9,
+        "z": 219.352
+      },
+      "imageCenter": {
+        "x": 945.0,
+        "y": 1061.0
+      },
+      "iconName": "Night_location",
+      "text": "Night 2\nDeath Rite Bird",
+      "renderLayer": 200,
+      "iconBBox": [
+        902.0,
+        1018.0,
+        988.0,
+        1104.0
+      ],
+      "nightIndex": 2
+    }
+  ],
+  "labelAnnotations": [
+    {
+      "sourceType": "fixed_point",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 840.5,
+        "z": 144.5
+      },
+      "iconName": "Fort",
+      "text": "Lordsworn Captain",
+      "labelCenter": {
+        "x": 1096.0,
+        "y": 1136.0
+      },
+      "labelBBox": [
+        1038.0,
+        1112.0,
+        1154.0,
+        1160.0
+      ]
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 766.0,
+        "z": 570.0
+      },
+      "iconName": "Fort",
+      "text": "Guardian Golem",
+      "labelCenter": {
+        "x": 1022.0,
+        "y": 710.0
+      },
+      "labelBBox": [
+        935.5,
+        701.0,
+        1108.5,
+        719.0
+      ],
+      "rowData": {
+        "ID": 9015,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 129,
+        "smallBaseMapId": 3030,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 44,
+        "gridZNo": 38,
+        "posX": 126.0,
+        "posZ": -70.0,
+        "X": 766.0,
+        "Z": 570.0,
+        "smallBaseMapName": "Fort - Guardian Golem; Crystalians",
+        "smallBaseLocationName": "Fort",
+        "smallBaseVariationName": "Guardian Golem"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 360.0,
+        "z": 1007.0
+      },
+      "iconName": "Fort",
+      "text": "Abductor Virgin",
+      "labelCenter": {
+        "x": 616.0,
+        "y": 273.0
+      },
+      "labelBBox": [
+        532.0,
+        262.0,
+        700.0,
+        284.0
+      ],
+      "rowData": {
+        "ID": 9016,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 107,
+        "smallBaseMapId": 3000,
+        "mapIndex": 0,
+        "variationId": 1,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 39,
+        "posX": -24.0,
+        "posZ": 111.0,
+        "X": 360.0,
+        "Z": 1007.0,
+        "smallBaseMapName": "Fort - Lordsworn Captain; Abductor Virgin",
+        "smallBaseLocationName": "Fort",
+        "smallBaseVariationName": "Abductor Virgin"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 713.0,
+        "z": 832.0
+      },
+      "iconName": "Great Church",
+      "text": "Oracle Envoys",
+      "labelCenter": {
+        "x": 969.0,
+        "y": 448.0
+      },
+      "labelBBox": [
+        891.5,
+        437.0,
+        1046.5,
+        459.0
+      ],
+      "rowData": {
+        "ID": 9017,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 112,
+        "smallBaseMapId": 3800,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 44,
+        "gridZNo": 39,
+        "posX": 73.0,
+        "posZ": -64.0,
+        "X": 713.0,
+        "Z": 832.0,
+        "smallBaseMapName": "Great Church - Oracle Envoys; Guardian Golem",
+        "smallBaseLocationName": "Great Church",
+        "smallBaseVariationName": "Oracle Envoys"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 173.0,
+        "z": 277.0
+      },
+      "iconName": "Great Church",
+      "text": "Guardian Golem",
+      "labelCenter": {
+        "x": 429.0,
+        "y": 1003.0
+      },
+      "labelBBox": [
+        342.5,
+        994.0,
+        515.5,
+        1012.0
+      ],
+      "rowData": {
+        "ID": 9018,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 101,
+        "smallBaseMapId": 3800,
+        "mapIndex": 1,
+        "variationId": 1,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 45.0,
+        "posZ": -107.0,
+        "X": 173.0,
+        "Z": 277.0,
+        "smallBaseMapName": "Great Church - Oracle Envoys; Guardian Golem",
+        "smallBaseLocationName": "Great Church",
+        "smallBaseVariationName": "Guardian Golem"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 840.0,
+        "z": 950.0
+      },
+      "iconName": "Camp",
+      "text": "Leonine Misbegotten",
+      "labelCenter": {
+        "x": 1096.0,
+        "y": 330.0
+      },
+      "labelBBox": [
+        1030.0,
+        306.0,
+        1162.0,
+        354.0
+      ],
+      "rowData": {
+        "ID": 9019,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 117,
+        "smallBaseMapId": 3210,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 39,
+        "posX": -56.0,
+        "posZ": 54.0,
+        "X": 840.0,
+        "Z": 950.0,
+        "smallBaseMapName": "Camp - Leonine Misbegotten; Redmane Knights; Royal Army Knights",
+        "smallBaseLocationName": "Camp",
+        "smallBaseVariationName": "Leonine Misbegotten"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 236.0,
+        "z": 434.0
+      },
+      "iconName": "Camp",
+      "text": "Banished Knights",
+      "labelCenter": {
+        "x": 492.0,
+        "y": 846.0
+      },
+      "labelBBox": [
+        397.5,
+        835.0,
+        586.5,
+        857.0
+      ],
+      "rowData": {
+        "ID": 9020,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 100,
+        "smallBaseMapId": 3200,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 108.0,
+        "posZ": 50.0,
+        "X": 236.0,
+        "Z": 434.0,
+        "smallBaseMapName": "Camp - Banished Knights; Elder Lion",
+        "smallBaseLocationName": "Camp",
+        "smallBaseVariationName": "Banished Knights"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 384.0,
+        "z": 819.0
+      },
+      "iconName": "Camp",
+      "text": "Banished Knights",
+      "labelCenter": {
+        "x": 640.0,
+        "y": 461.0
+      },
+      "labelBBox": [
+        545.5,
+        450.0,
+        734.5,
+        472.0
+      ],
+      "rowData": {
+        "ID": 9021,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 106,
+        "smallBaseMapId": 3200,
+        "mapIndex": 1,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 39,
+        "posX": 0.0,
+        "posZ": -77.0,
+        "X": 384.0,
+        "Z": 819.0,
+        "smallBaseMapName": "Camp - Banished Knights; Elder Lion",
+        "smallBaseLocationName": "Camp",
+        "smallBaseVariationName": "Banished Knights"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 98.0,
+        "z": 851.0
+      },
+      "iconName": "Ruins",
+      "text": "Battlemages",
+      "labelCenter": {
+        "x": 354.0,
+        "y": 429.0
+      },
+      "labelBBox": [
+        287.5,
+        418.0,
+        420.5,
+        440.0
+      ],
+      "rowData": {
+        "ID": 9022,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 103,
+        "smallBaseMapId": 3410,
+        "mapIndex": 0,
+        "variationId": 2,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 39,
+        "posX": -30.0,
+        "posZ": -45.0,
+        "X": 98.0,
+        "Z": 851.0,
+        "smallBaseMapName": "Ruins - Perfumer; Depraved Perfumer; Battlemages; Albinauric Archers; Runebear",
+        "smallBaseLocationName": "Ruins",
+        "smallBaseVariationName": "Battlemages"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 935.0,
+        "z": 631.0
+      },
+      "iconName": "Ruins",
+      "text": "Beastmen of Farum Azula",
+      "labelCenter": {
+        "x": 1191.0,
+        "y": 649.0
+      },
+      "labelBBox": [
+        1123.5,
+        627.0,
+        1258.5,
+        671.0
+      ],
+      "rowData": {
+        "ID": 9023,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 116,
+        "smallBaseMapId": 3430,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 39.0,
+        "posZ": -9.0,
+        "X": 935.0,
+        "Z": 631.0,
+        "smallBaseMapName": "Ruins - Beastmen of Farum Azula",
+        "smallBaseLocationName": "Ruins",
+        "smallBaseVariationName": "Beastmen of Farum Azula"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 642.0,
+        "z": 627.0
+      },
+      "iconName": "Ruins",
+      "text": "Beastmen of Farum Azula",
+      "labelCenter": {
+        "x": 898.0,
+        "y": 653.0
+      },
+      "labelBBox": [
+        830.5,
+        631.0,
+        965.5,
+        675.0
+      ],
+      "rowData": {
+        "ID": 9024,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 110,
+        "smallBaseMapId": 3430,
+        "mapIndex": 1,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 44,
+        "gridZNo": 38,
+        "posX": 2.0,
+        "posZ": -13.0,
+        "X": 642.0,
+        "Z": 627.0,
+        "smallBaseMapName": "Ruins - Beastmen of Farum Azula",
+        "smallBaseLocationName": "Ruins",
+        "smallBaseVariationName": "Beastmen of Farum Azula"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 298.0,
+        "z": 672.0
+      },
+      "iconName": "Sorcerer's Rise",
+      "text": "Fog Door",
+      "labelCenter": {
+        "x": 554.0,
+        "y": 608.0
+      },
+      "labelBBox": [
+        504.0,
+        597.0,
+        604.0,
+        619.0
+      ],
+      "rowData": {
+        "ID": 9029,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 306,
+        "smallBaseMapId": 4000,
+        "mapIndex": 0,
+        "variationId": 6,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 38,
+        "posX": -86.0,
+        "posZ": 32.0,
+        "X": 298.0,
+        "Z": 672.0,
+        "smallBaseMapName": "Sorcerer's Rise - Normal",
+        "smallBaseLocationName": "Sorcerer's Rise",
+        "smallBaseVariationName": "Fog Door"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 421.57,
+        "z": 446.69
+      },
+      "iconName": "Basement Boss",
+      "text": "Royal Revenant",
+      "labelCenter": {
+        "x": 747.0,
+        "y": 833.0
+      },
+      "labelBBox": [
+        663.0,
+        822.0,
+        831.0,
+        844.0
+      ],
+      "rowData": {
+        "ID": 9031,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 757,
+        "smallBaseMapId": 4688,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 406,
+        "gridXNo": 43,
+        "gridZNo": 37,
+        "posX": 37.57,
+        "posZ": 62.69,
+        "X": 421.57,
+        "Z": 446.69,
+        "smallBaseMapName": "Basement Boss - Royal Revenant",
+        "smallBaseLocationName": "Basement Boss",
+        "smallBaseVariationName": "Royal Revenant"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 421.57,
+        "z": 446.69
+      },
+      "iconName": "Field Boss Red",
+      "text": "Valiant Gargoyle",
+      "labelCenter": {
+        "x": 678.0,
+        "y": 803.0
+      },
+      "labelBBox": [
+        590.5,
+        792.0,
+        765.5,
+        814.0
+      ],
+      "rowData": {
+        "ID": 9032,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 756,
+        "smallBaseMapId": 4666,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 37,
+        "posX": 37.57,
+        "posZ": 62.69,
+        "X": 421.57,
+        "Z": 446.69,
+        "smallBaseMapName": "Field Boss Red - Valiant Gargoyle",
+        "smallBaseLocationName": "Field Boss Red",
+        "smallBaseVariationName": "Valiant Gargoyle"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 473.7,
+        "z": 446.66
+      },
+      "iconName": "Castle",
+      "text": "Crucible Knights",
+      "labelCenter": {
+        "x": 730.0,
+        "y": 863.0
+      },
+      "labelBBox": [
+        641.0,
+        852.0,
+        819.0,
+        874.0
+      ],
+      "rowData": {
+        "ID": 9033,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 190,
+        "smallBaseMapId": 4943,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 37,
+        "posX": 89.7,
+        "posZ": 62.66,
+        "X": 473.7,
+        "Z": 446.66,
+        "smallBaseMapName": "Castle - Crucible Knights",
+        "smallBaseLocationName": "Castle",
+        "smallBaseVariationName": "Crucible Knights"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 855.23,
+        "z": 300.49
+      },
+      "iconName": "Field Boss Red",
+      "text": "Magma Wyrm",
+      "labelCenter": {
+        "x": 1111.0,
+        "y": 980.0
+      },
+      "labelBBox": [
+        1038.5,
+        969.0,
+        1183.5,
+        991.0
+      ],
+      "rowData": {
+        "ID": 9034,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 318,
+        "smallBaseMapId": 4668,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 37,
+        "posX": -40.77,
+        "posZ": -83.51,
+        "X": 855.23,
+        "Z": 300.49,
+        "smallBaseMapName": "Field Boss Red - Magma Wyrm",
+        "smallBaseLocationName": "Field Boss Red",
+        "smallBaseVariationName": "Magma Wyrm"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 949.98,
+        "z": 220.46
+      },
+      "iconName": "Field Boss Red",
+      "text": "Bell Bearing Hunter",
+      "labelCenter": {
+        "x": 1206.0,
+        "y": 1060.0
+      },
+      "labelBBox": [
+        1141.0,
+        1038.0,
+        1271.0,
+        1082.0
+      ],
+      "rowData": {
+        "ID": 9035,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 322,
+        "smallBaseMapId": 4656,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 36,
+        "posX": 53.98,
+        "posZ": 92.46,
+        "X": 949.98,
+        "Z": 220.46,
+        "smallBaseMapName": "Field Boss Red - Bell Bearing Hunter",
+        "smallBaseLocationName": "Field Boss Red",
+        "smallBaseVariationName": "Bell Bearing Hunter"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 945.5,
+        "z": 430.28
+      },
+      "iconName": "Field Boss Red",
+      "text": "Tree Sentinel",
+      "labelCenter": {
+        "x": 1202.0,
+        "y": 850.0
+      },
+      "labelBBox": [
+        1132.5,
+        841.0,
+        1271.5,
+        859.0
+      ],
+      "rowData": {
+        "ID": 9036,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 319,
+        "smallBaseMapId": 4653,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 37,
+        "posX": 49.5,
+        "posZ": 46.28,
+        "X": 945.5,
+        "Z": 430.28,
+        "smallBaseMapName": "Field Boss Red - Tree Sentinel",
+        "smallBaseLocationName": "Field Boss Red",
+        "smallBaseVariationName": "Tree Sentinel"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 921.51,
+        "z": 358.31
+      },
+      "iconName": "Field Boss Red",
+      "text": "Royal Carian Knight",
+      "labelCenter": {
+        "x": 1178.0,
+        "y": 922.0
+      },
+      "labelBBox": [
+        1110.0,
+        898.0,
+        1246.0,
+        946.0
+      ],
+      "rowData": {
+        "ID": 9037,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 320,
+        "smallBaseMapId": 4654,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 37,
+        "posX": 25.51,
+        "posZ": -25.69,
+        "X": 921.51,
+        "Z": 358.31,
+        "smallBaseMapName": "Field Boss Red - Royal Carian Knight",
+        "smallBaseLocationName": "Field Boss Red",
+        "smallBaseVariationName": "Royal Carian Knight"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 712.97,
+        "z": 423.88
+      },
+      "iconName": "Field Boss Red",
+      "text": "Ulcerated Tree Spirit",
+      "labelCenter": {
+        "x": 969.0,
+        "y": 856.0
+      },
+      "labelBBox": [
+        892.0,
+        832.0,
+        1046.0,
+        880.0
+      ],
+      "rowData": {
+        "ID": 9038,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 316,
+        "smallBaseMapId": 4663,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 44,
+        "gridZNo": 37,
+        "posX": 72.97,
+        "posZ": 39.88,
+        "X": 712.97,
+        "Z": 423.88,
+        "smallBaseMapName": "Field Boss Red - Ulcerated Tree Spirit",
+        "smallBaseLocationName": "Field Boss Red",
+        "smallBaseVariationName": "Ulcerated Tree Spirit"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 674.33,
+        "z": 325.03
+      },
+      "iconName": "Field Boss Red",
+      "text": "Erdtree Avatar",
+      "labelCenter": {
+        "x": 930.0,
+        "y": 955.0
+      },
+      "labelBBox": [
+        854.0,
+        946.0,
+        1006.0,
+        964.0
+      ],
+      "rowData": {
+        "ID": 9039,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 309,
+        "smallBaseMapId": 4667,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 44,
+        "gridZNo": 37,
+        "posX": 34.33,
+        "posZ": -58.97,
+        "X": 674.33,
+        "Z": 325.03,
+        "smallBaseMapName": "Field Boss Red - Erdtree Avatar",
+        "smallBaseLocationName": "Field Boss Red",
+        "smallBaseVariationName": "Erdtree Avatar"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 468.86,
+        "z": 728.75
+      },
+      "iconName": "Field Boss Red",
+      "text": "Ancestor Spirit",
+      "labelCenter": {
+        "x": 725.0,
+        "y": 551.0
+      },
+      "labelBBox": [
+        645.0,
+        540.0,
+        805.0,
+        562.0
+      ],
+      "rowData": {
+        "ID": 9040,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 759,
+        "smallBaseMapId": 4664,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 39,
+        "posX": 84.86,
+        "posZ": -167.25,
+        "X": 468.86,
+        "Z": 728.75,
+        "smallBaseMapName": "Field Boss Red - Ancestor Spirit",
+        "smallBaseLocationName": "Field Boss Red",
+        "smallBaseVariationName": "Ancestor Spirit"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 221.28,
+        "z": 16.569999999999993
+      },
+      "iconName": "Field Boss Red",
+      "text": "Draconic Tree Sentinel",
+      "labelCenter": {
+        "x": 477.0,
+        "y": 1263.0
+      },
+      "labelBBox": [
+        403.0,
+        1241.0,
+        551.0,
+        1285.0
+      ],
+      "rowData": {
+        "ID": 9041,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 750,
+        "smallBaseMapId": 4652,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 36,
+        "posX": 93.28,
+        "posZ": -111.43,
+        "X": 221.28,
+        "Z": 16.569999999999993,
+        "smallBaseMapName": "Field Boss Red - Draconic Tree Sentinel",
+        "smallBaseLocationName": "Field Boss Red",
+        "smallBaseVariationName": "Draconic Tree Sentinel"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 144.55,
+        "z": 955.36
+      },
+      "iconName": "Field Boss",
+      "text": "Black Knife Assassin",
+      "labelCenter": {
+        "x": 401.0,
+        "y": 325.0
+      },
+      "labelBBox": [
+        340.0,
+        303.0,
+        462.0,
+        347.0
+      ],
+      "rowData": {
+        "ID": 9042,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 754,
+        "smallBaseMapId": 4551,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 39,
+        "posX": 16.55,
+        "posZ": 59.36,
+        "X": 144.55,
+        "Z": 955.36,
+        "smallBaseMapName": "Field Boss - Black Knife Assassin",
+        "smallBaseLocationName": "Field Boss",
+        "smallBaseVariationName": "Black Knife Assassin"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 719.16,
+        "z": 946.83
+      },
+      "iconName": "Field Boss",
+      "text": "Red Wolf",
+      "labelCenter": {
+        "x": 975.0,
+        "y": 333.0
+      },
+      "labelBBox": [
+        926.0,
+        324.0,
+        1024.0,
+        342.0
+      ],
+      "rowData": {
+        "ID": 9043,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 761,
+        "smallBaseMapId": 4651,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 44,
+        "gridZNo": 39,
+        "posX": 79.16,
+        "posZ": 50.83,
+        "X": 719.16,
+        "Z": 946.83,
+        "smallBaseMapName": "Field Boss - Red Wolf",
+        "smallBaseLocationName": "Field Boss",
+        "smallBaseVariationName": "Red Wolf"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 441.0,
+        "z": 213.0
+      },
+      "iconName": "Field Boss",
+      "text": "Demi-Human Queen",
+      "labelCenter": {
+        "x": 654.0,
+        "y": 1105.0
+      },
+      "labelBBox": [
+        548.0,
+        1095.5,
+        760.0,
+        1114.5
+      ],
+      "rowData": {
+        "ID": 9044,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 755,
+        "smallBaseMapId": 4677,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 57.0,
+        "posZ": 85.0,
+        "X": 441.0,
+        "Z": 213.0,
+        "smallBaseMapName": "Field Boss - Demi-Human Queen",
+        "smallBaseLocationName": "Field Boss",
+        "smallBaseVariationName": "Demi-Human Queen"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 590.46,
+        "z": 695.63
+      },
+      "iconName": "Field Boss",
+      "text": "Leonine Misbegotten",
+      "labelCenter": {
+        "x": 846.0,
+        "y": 594.0
+      },
+      "labelBBox": [
+        780.0,
+        570.0,
+        912.0,
+        618.0
+      ],
+      "rowData": {
+        "ID": 9045,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 760,
+        "smallBaseMapId": 4655,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 44,
+        "gridZNo": 38,
+        "posX": -49.54,
+        "posZ": 55.63,
+        "X": 590.46,
+        "Z": 695.63,
+        "smallBaseMapName": "Field Boss - Leonine Misbegotten",
+        "smallBaseLocationName": "Field Boss",
+        "smallBaseVariationName": "Leonine Misbegotten"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 259.19,
+        "z": 915.15
+      },
+      "iconName": "Field Boss",
+      "text": "Grafted Scion",
+      "labelCenter": {
+        "x": 515.0,
+        "y": 365.0
+      },
+      "labelBBox": [
+        442.0,
+        356.0,
+        588.0,
+        374.0
+      ],
+      "rowData": {
+        "ID": 9046,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 758,
+        "smallBaseMapId": 4665,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 39,
+        "posX": -124.81,
+        "posZ": 19.15,
+        "X": 259.19,
+        "Z": 915.15,
+        "smallBaseMapName": "Field Boss - Grafted Scion",
+        "smallBaseLocationName": "Field Boss",
+        "smallBaseVariationName": "Grafted Scion"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 222.25,
+        "z": 705.8
+      },
+      "iconName": "Field Boss",
+      "text": "Elder Lion",
+      "labelCenter": {
+        "x": 478.0,
+        "y": 574.0
+      },
+      "labelBBox": [
+        423.0,
+        565.0,
+        533.0,
+        583.0
+      ],
+      "rowData": {
+        "ID": 9047,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 753,
+        "smallBaseMapId": 4657,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 38,
+        "posX": 94.25,
+        "posZ": 65.8,
+        "X": 222.25,
+        "Z": 705.8,
+        "smallBaseMapName": "Field Boss - Elder Lion",
+        "smallBaseLocationName": "Field Boss",
+        "smallBaseVariationName": "Elder Lion"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 865.47,
+        "z": 437.87
+      },
+      "iconName": "Event",
+      "text": "Gnoster",
+      "labelCenter": {
+        "x": 1121.0,
+        "y": 822.0
+      },
+      "labelBBox": [
+        1077.5,
+        813.0,
+        1164.5,
+        831.0
+      ],
+      "rowData": {
+        "ID": 9048,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 532,
+        "smallBaseMapId": 4553,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 37,
+        "posX": -30.53,
+        "posZ": 53.87,
+        "X": 865.47,
+        "Z": 437.87,
+        "smallBaseMapName": "Event - Gnoster",
+        "smallBaseLocationName": "Event",
+        "smallBaseVariationName": "Gnoster"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 74.0,
+        "z": 661.0
+      },
+      "iconName": "Event",
+      "text": "Gnoster",
+      "labelCenter": {
+        "x": 330.0,
+        "y": 619.0
+      },
+      "labelBBox": [
+        286.5,
+        610.0,
+        373.5,
+        628.0
+      ],
+      "rowData": {
+        "ID": 9049,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 521,
+        "smallBaseMapId": 4553,
+        "mapIndex": 1,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 38,
+        "posX": -54.0,
+        "posZ": 21.0,
+        "X": 74.0,
+        "Z": 661.0,
+        "smallBaseMapName": "Event - Gnoster",
+        "smallBaseLocationName": "Event",
+        "smallBaseVariationName": "Gnoster"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 606.0,
+        "z": 874.0
+      },
+      "iconName": "Event",
+      "text": "Gnoster",
+      "labelCenter": {
+        "x": 862.0,
+        "y": 406.0
+      },
+      "labelBBox": [
+        818.5,
+        397.0,
+        905.5,
+        415.0
+      ],
+      "rowData": {
+        "ID": 9050,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 527,
+        "smallBaseMapId": 4553,
+        "mapIndex": 2,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 44,
+        "gridZNo": 39,
+        "posX": -34.0,
+        "posZ": -22.0,
+        "X": 606.0,
+        "Z": 874.0,
+        "smallBaseMapName": "Event - Gnoster",
+        "smallBaseLocationName": "Event",
+        "smallBaseVariationName": "Gnoster"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 978.0,
+        "z": 914.0
+      },
+      "iconName": "Event",
+      "text": "Gnoster",
+      "labelCenter": {
+        "x": 1234.0,
+        "y": 366.0
+      },
+      "labelBBox": [
+        1190.5,
+        357.0,
+        1277.5,
+        375.0
+      ],
+      "rowData": {
+        "ID": 9051,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 528,
+        "smallBaseMapId": 4553,
+        "mapIndex": 3,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 39,
+        "posX": 82.0,
+        "posZ": 18.0,
+        "X": 978.0,
+        "Z": 914.0,
+        "smallBaseMapName": "Event - Gnoster",
+        "smallBaseLocationName": "Event",
+        "smallBaseVariationName": "Gnoster"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 472.0,
+        "z": 99.0
+      },
+      "iconName": "Event",
+      "text": "Gnoster",
+      "labelCenter": {
+        "x": 728.0,
+        "y": 1181.0
+      },
+      "labelBBox": [
+        684.5,
+        1172.0,
+        771.5,
+        1190.0
+      ],
+      "rowData": {
+        "ID": 9052,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 522,
+        "smallBaseMapId": 4553,
+        "mapIndex": 4,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 88.0,
+        "posZ": -29.0,
+        "X": 472.0,
+        "Z": 99.0,
+        "smallBaseMapName": "Event - Gnoster",
+        "smallBaseLocationName": "Event",
+        "smallBaseVariationName": "Gnoster"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 154.0,
+        "z": 124.0
+      },
+      "iconName": "Event",
+      "text": "Gnoster",
+      "labelCenter": {
+        "x": 410.0,
+        "y": 1156.0
+      },
+      "labelBBox": [
+        366.5,
+        1147.0,
+        453.5,
+        1165.0
+      ],
+      "rowData": {
+        "ID": 9053,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 520,
+        "smallBaseMapId": 4553,
+        "mapIndex": 5,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 36,
+        "posX": 26.0,
+        "posZ": -4.0,
+        "X": 154.0,
+        "Z": 124.0,
+        "smallBaseMapName": "Event - Gnoster",
+        "smallBaseLocationName": "Event",
+        "smallBaseVariationName": "Gnoster"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 300.0,
+        "z": 578.0
+      },
+      "iconName": "Event",
+      "text": "Gnoster",
+      "labelCenter": {
+        "x": 556.0,
+        "y": 702.0
+      },
+      "labelBBox": [
+        512.5,
+        693.0,
+        599.5,
+        711.0
+      ],
+      "rowData": {
+        "ID": 9054,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 525,
+        "smallBaseMapId": 4553,
+        "mapIndex": 6,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 38,
+        "posX": -84.0,
+        "posZ": -62.0,
+        "X": 300.0,
+        "Z": 578.0,
+        "smallBaseMapName": "Event - Gnoster",
+        "smallBaseLocationName": "Event",
+        "smallBaseVariationName": "Gnoster"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 309.0,
+        "z": 216.0
+      },
+      "iconName": "Event",
+      "text": "Gnoster",
+      "labelCenter": {
+        "x": 565.0,
+        "y": 1064.0
+      },
+      "labelBBox": [
+        521.5,
+        1055.0,
+        608.5,
+        1073.0
+      ],
+      "rowData": {
+        "ID": 9055,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 523,
+        "smallBaseMapId": 4553,
+        "mapIndex": 7,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": -75.0,
+        "posZ": 88.0,
+        "X": 309.0,
+        "Z": 216.0,
+        "smallBaseMapName": "Event - Gnoster",
+        "smallBaseLocationName": "Event",
+        "smallBaseVariationName": "Gnoster"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 276.65,
+        "z": 309.65
+      },
+      "iconName": "Evergaol",
+      "text": "Nox Duo",
+      "labelCenter": {
+        "x": 533.0,
+        "y": 970.0
+      },
+      "labelBBox": [
+        487.0,
+        961.0,
+        579.0,
+        979.0
+      ],
+      "rowData": {
+        "ID": 9056,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 602,
+        "smallBaseMapId": 4660,
+        "mapIndex": 0,
+        "variationId": 5,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 37,
+        "posX": -107.35,
+        "posZ": -74.35,
+        "X": 276.65,
+        "Z": 309.65,
+        "smallBaseMapName": "Evergaol - Crucible Knight with Sword; Crucible Knight with Spear; Crystalians; Stoneskin Lords; Banished Knights; Nox Duo; Bloodhound Knight",
+        "smallBaseLocationName": "Evergaol",
+        "smallBaseVariationName": "Nox Duo"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 957.87,
+        "z": 530.38
+      },
+      "iconName": "Evergaol",
+      "text": "Bloodhound Knight",
+      "labelCenter": {
+        "x": 1214.0,
+        "y": 750.0
+      },
+      "labelBBox": [
+        1148.0,
+        726.0,
+        1280.0,
+        774.0
+      ],
+      "rowData": {
+        "ID": 9057,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 607,
+        "smallBaseMapId": 4660,
+        "mapIndex": 1,
+        "variationId": 6,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 61.87,
+        "posZ": -109.62,
+        "X": 957.87,
+        "Z": 530.38,
+        "smallBaseMapName": "Evergaol - Crucible Knight with Sword; Crucible Knight with Spear; Crystalians; Stoneskin Lords; Banished Knights; Nox Duo; Bloodhound Knight",
+        "smallBaseLocationName": "Evergaol",
+        "smallBaseVariationName": "Bloodhound Knight"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 713.22,
+        "z": 722.15
+      },
+      "iconName": "Evergaol",
+      "text": "Beastly Brigade",
+      "labelCenter": {
+        "x": 969.0,
+        "y": 548.0
+      },
+      "labelBBox": [
+        885.0,
+        537.0,
+        1053.0,
+        559.0
+      ],
+      "rowData": {
+        "ID": 9058,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 606,
+        "smallBaseMapId": 4650,
+        "mapIndex": 0,
+        "variationId": 5,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 44,
+        "gridZNo": 38,
+        "posX": 73.22,
+        "posZ": 82.15,
+        "X": 713.22,
+        "Z": 722.15,
+        "smallBaseMapName": "Evergaol - Unused Banished Knights; Unused Nox Duo; Omen; Grave Warden Duelist; Beastmen of Farum Azula; Beastly Brigade; Unused Bloodhound Knight",
+        "smallBaseLocationName": "Evergaol",
+        "smallBaseVariationName": "Beastly Brigade"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 483.79,
+        "z": 978.09
+      },
+      "iconName": "Evergaol",
+      "text": "Godskin Noble",
+      "labelCenter": {
+        "x": 740.0,
+        "y": 302.0
+      },
+      "labelBBox": [
+        661.5,
+        293.0,
+        818.5,
+        311.0
+      ],
+      "rowData": {
+        "ID": 9059,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 604,
+        "smallBaseMapId": 4670,
+        "mapIndex": 0,
+        "variationId": 2,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 39,
+        "posX": 99.79,
+        "posZ": 82.09,
+        "X": 483.79,
+        "Z": 978.09,
+        "smallBaseMapName": "Evergaol - Dragonkin Soldier; Godskin Apostle; Godskin Noble; Crucible Knight with Sword; Crucible Knight with Spear",
+        "smallBaseLocationName": "Evergaol",
+        "smallBaseVariationName": "Godskin Noble"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 2.5999999999999943,
+        "z": 793.03
+      },
+      "iconName": "Evergaol",
+      "text": "Godskin Apostle",
+      "labelCenter": {
+        "x": 259.0,
+        "y": 487.0
+      },
+      "labelBBox": [
+        171.0,
+        476.0,
+        347.0,
+        498.0
+      ],
+      "rowData": {
+        "ID": 9060,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 601,
+        "smallBaseMapId": 4670,
+        "mapIndex": 1,
+        "variationId": 1,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 39,
+        "posX": -125.4,
+        "posZ": -102.97,
+        "X": 2.5999999999999943,
+        "Z": 793.03,
+        "smallBaseMapName": "Evergaol - Dragonkin Soldier; Godskin Apostle; Godskin Noble; Crucible Knight with Sword; Crucible Knight with Spear",
+        "smallBaseLocationName": "Evergaol",
+        "smallBaseVariationName": "Godskin Apostle"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 428.37,
+        "z": 693.18
+      },
+      "iconName": "Evergaol",
+      "text": "Omen",
+      "labelCenter": {
+        "x": 684.0,
+        "y": 587.0
+      },
+      "labelBBox": [
+        652.0,
+        578.0,
+        716.0,
+        596.0
+      ],
+      "rowData": {
+        "ID": 9061,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 603,
+        "smallBaseMapId": 4650,
+        "mapIndex": 1,
+        "variationId": 2,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 38,
+        "posX": 44.37,
+        "posZ": 53.18,
+        "X": 428.37,
+        "Z": 693.18,
+        "smallBaseMapName": "Evergaol - Unused Banished Knights; Unused Nox Duo; Omen; Grave Warden Duelist; Beastmen of Farum Azula; Beastly Brigade; Unused Bloodhound Knight",
+        "smallBaseLocationName": "Evergaol",
+        "smallBaseVariationName": "Omen"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 355.0,
+        "z": 79.0
+      },
+      "iconName": "Great Church",
+      "text": "Oracle Envoys",
+      "labelCenter": {
+        "x": 611.0,
+        "y": 1211.0
+      },
+      "labelBBox": [
+        533.5,
+        1200.0,
+        688.5,
+        1222.0
+      ],
+      "rowData": {
+        "ID": 9065,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 104,
+        "smallBaseMapId": 3800,
+        "mapIndex": 2,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": -29.0,
+        "posZ": -49.0,
+        "X": 355.0,
+        "Z": 79.0,
+        "smallBaseMapName": "Great Church - Oracle Envoys; Guardian Golem",
+        "smallBaseLocationName": "Great Church",
+        "smallBaseVariationName": "Oracle Envoys"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 181.0,
+        "z": 596.0
+      },
+      "iconName": "Camp",
+      "text": "Banished Knights",
+      "labelCenter": {
+        "x": 437.0,
+        "y": 674.0
+      },
+      "labelBBox": [
+        342.5,
+        663.0,
+        531.5,
+        685.0
+      ],
+      "rowData": {
+        "ID": 9066,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 120,
+        "smallBaseMapId": 3200,
+        "mapIndex": 2,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 38,
+        "posX": 53.0,
+        "posZ": -44.0,
+        "X": 181.0,
+        "Z": 596.0,
+        "smallBaseMapName": "Camp - Banished Knights; Elder Lion",
+        "smallBaseLocationName": "Camp",
+        "smallBaseVariationName": "Banished Knights"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 62.0,
+        "z": 428.0
+      },
+      "iconName": "Sorcerer's Rise",
+      "text": "Above Door",
+      "labelCenter": {
+        "x": 318.0,
+        "y": 852.0
+      },
+      "labelBBox": [
+        254.5,
+        843.0,
+        381.5,
+        861.0
+      ],
+      "rowData": {
+        "ID": 9067,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 301,
+        "smallBaseMapId": 4000,
+        "mapIndex": 1,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": -66.0,
+        "posZ": 44.0,
+        "X": 62.0,
+        "Z": 428.0,
+        "smallBaseMapName": "Sorcerer's Rise - Normal",
+        "smallBaseLocationName": "Sorcerer's Rise",
+        "smallBaseVariationName": "Above Door"
+      }
+    },
+    {
+      "sourceType": "night_boss",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 74.0,
+        "z": 661.0
+      },
+      "iconName": "Night_location",
+      "text": "Night 1\nTibia Mariner / Those Who Live in Death",
+      "labelCenter": {
+        "x": 250.0,
+        "y": 699.0
+      },
+      "labelBBox": [
+        164.5,
+        651.0,
+        335.5,
+        747.0
+      ],
+      "nightIndex": 1
+    },
+    {
+      "sourceType": "night_boss",
+      "rareMap": "Rotted Woods",
+      "world": {
+        "x": 688.9,
+        "z": 219.352
+      },
+      "iconName": "Night_location",
+      "text": "Night 2\nDeath Rite Bird",
+      "labelCenter": {
+        "x": 945.0,
+        "y": 1061.0
+      },
+      "labelBBox": [
+        864.5,
+        1039.0,
+        1025.5,
+        1083.0
+      ],
+      "nightIndex": 2
+    }
+  ]
+}

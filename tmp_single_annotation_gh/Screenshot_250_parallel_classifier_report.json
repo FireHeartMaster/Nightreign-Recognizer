@@ -1,0 +1,435 @@
+{
+  "input_image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (250).png",
+  "top1_patternId_v39": 1191,
+  "top1_earth_v39": "Great Hollow",
+  "top1_score_v39": 2.5227667481899263,
+  "crop_box": {
+    "x0": 2211,
+    "y0": 292,
+    "x1": 3746,
+    "y1": 1827
+  },
+  "parallel_classifiers": [
+    {
+      "key": "palace",
+      "slot": "S1",
+      "label": "Status_Magic",
+      "confidence": 0.9902440905570984,
+      "crop_source": "gh_asym_legacy",
+      "center_panel": {
+        "x": 503.671875,
+        "y": 430.71940104166663
+      },
+      "center_full": {
+        "x": 2715,
+        "y": 723
+      }
+    },
+    {
+      "key": "slot2",
+      "slot": "S2",
+      "label": "Sleep",
+      "confidence": 0.9291255474090576,
+      "crop_source": "panel_raw",
+      "center_panel": {
+        "x": 1272.0,
+        "y": 584.0
+      },
+      "center_full": {
+        "x": 3483,
+        "y": 876
+      }
+    },
+    {
+      "key": "fortress",
+      "slot": "S3",
+      "label": "Status_Rot",
+      "confidence": 0.9999639987945557,
+      "crop_source": "gh_asym_legacy",
+      "center_panel": {
+        "x": 1049.31640625,
+        "y": 1076.298828125
+      },
+      "center_full": {
+        "x": 3260,
+        "y": 1368
+      }
+    },
+    {
+      "key": "slot4",
+      "slot": "S4",
+      "label": "Church",
+      "confidence": 0.9527143836021423,
+      "crop_source": "panel_raw",
+      "center_panel": {
+        "x": 983.0,
+        "y": 804.0
+      },
+      "center_full": {
+        "x": 3194,
+        "y": 1096
+      }
+    },
+    {
+      "key": "slot5",
+      "slot": "S5",
+      "label": "empty",
+      "confidence": 0.9999465942382812,
+      "crop_source": "panel_raw",
+      "center_panel": {
+        "x": 499.0,
+        "y": 808.0
+      },
+      "center_full": {
+        "x": 2710,
+        "y": 1100
+      }
+    },
+    {
+      "key": "slot6",
+      "slot": "S6",
+      "label": "Ruins_Poison",
+      "confidence": 0.9878133535385132,
+      "crop_source": "gh_asym_legacy",
+      "center_panel": {
+        "x": 318.7923177083333,
+        "y": 910.4069010416667
+      },
+      "center_full": {
+        "x": 2530,
+        "y": 1202
+      }
+    },
+    {
+      "key": "slot7",
+      "slot": "S7",
+      "label": "Church",
+      "confidence": 0.9996857643127441,
+      "crop_source": "panel_raw",
+      "center_panel": {
+        "x": 514.0,
+        "y": 1264.0
+      },
+      "center_full": {
+        "x": 2725,
+        "y": 1556
+      }
+    }
+  ],
+  "raw_parallel_payload": {
+    "mode": "parallel_panel_classifiers",
+    "input_panel": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (250).png",
+    "panel_shape": {
+      "w": 1535,
+      "h": 1535
+    },
+    "gh_asym_shape": {
+      "w": 1191,
+      "h": 1176
+    },
+    "device": "cuda",
+    "model_selection_flags": {
+      "USE_SLOT2_GH_VARIATION_MODEL": true,
+      "USE_PALACE_GH_VARIATION_MODEL": true,
+      "USE_FORTRESS_GH_VARIATION_MODEL": true,
+      "USE_SLOT5_SINGLE_STAGE_USERLABELS_MODEL": true,
+      "USE_SLOT5_GH_RETRAINED_MODEL": true,
+      "SLOT2_CROP_DX_WHEN_GH_VARIATION_MODEL": 0,
+      "SLOT2_CROP_DX_WHEN_LEGACY_MODEL": 50
+    },
+    "resolved_models": {
+      "slot2": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\slot2_status_cnn_gh_variations_retrain_latest.pt",
+      "palace": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\palace_status_cnn_gh_variations_retrain_latest.pt",
+      "fortress": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress\\fortress_status_cnn_gh_variations_retrain_latest.pt",
+      "slot5_single_stage": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5_userlabels_panel6_iso\\slot5_status_cnn_userlabels_panel6_iso_ghslot5_3000x3_20260422.pt"
+    },
+    "resolved_slot2_crop_dx_px": 0,
+    "classifiers": {
+      "slot2": {
+        "classifier": "slot2_great_church_status",
+        "type": "single_stage",
+        "crop_source": "panel_raw",
+        "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\slot2_status_cnn_gh_variations_retrain_latest.pt",
+        "crop_dx_px": 0,
+        "model_meta": {
+          "best_epoch": 1,
+          "best_val_accuracy": 1.0,
+          "train_samples": 4800,
+          "val_samples": 1200
+        },
+        "crop_rect": {
+          "x": 1142,
+          "y": 454,
+          "size": 260,
+          "cx": 1272,
+          "cy": 584,
+          "dx": 0,
+          "dy": 0
+        },
+        "predicted_label": "Sleep",
+        "confidence": 0.9291255474090576,
+        "ranking": [
+          {
+            "label": "Sleep",
+            "probability": 0.9291255474090576
+          },
+          {
+            "label": "Lightning",
+            "probability": 0.07087443023920059
+          }
+        ]
+      },
+      "slot4": {
+        "classifier": "slot4_minor",
+        "type": "two_stage_cascade",
+        "crop_source": "panel_raw",
+        "crop_rect": {
+          "x": 853,
+          "y": 674,
+          "size": 260,
+          "cx": 983,
+          "cy": 804,
+          "dx": 0,
+          "dy": 0
+        },
+        "stage1_model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\separated_occupied_empty\\slot4_occupied_empty_from_panel_fixed_v1.pt",
+        "stage1_model_meta": {
+          "best_epoch": 3,
+          "best_val_accuracy": 1.0,
+          "train_samples": 4800,
+          "val_samples": 1200
+        },
+        "empty_accept_confidence": 0.995,
+        "stage1": {
+          "predicted_label": "occupied",
+          "confidence": 0.9998648166656494,
+          "ranking": [
+            {
+              "label": "occupied",
+              "probability": 0.9998648166656494
+            },
+            {
+              "label": "empty",
+              "probability": 0.00013510607823263854
+            }
+          ]
+        },
+        "stage2_model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_4_fixed_geometry_panel_bases260\\slot4_church_vs_sorcerer_bases260\\slot4_church_vs_sorcerer_v1.pt",
+        "stage2_model_meta": {
+          "best_epoch": 2,
+          "best_val_accuracy": 1.0,
+          "train_samples": 4800,
+          "val_samples": 1200
+        },
+        "stage2": {
+          "predicted_label": "Church",
+          "confidence": 0.9527143836021423,
+          "ranking": [
+            {
+              "label": "Church",
+              "probability": 0.9527143836021423
+            },
+            {
+              "label": "Sorcerers_Rise",
+              "probability": 0.047285594046115875
+            }
+          ]
+        },
+        "final_label": "Church",
+        "final_confidence": 0.9527143836021423,
+        "final_source": "stage2"
+      },
+      "slot5": {
+        "classifier": "slot5_minor",
+        "type": "single_stage",
+        "crop_source": "panel_raw",
+        "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5_userlabels_panel6_iso\\slot5_status_cnn_userlabels_panel6_iso_ghslot5_3000x3_20260422.pt",
+        "model_meta": {
+          "best_epoch": 11,
+          "best_val_accuracy": 0.9927777777777778,
+          "train_samples": 7200,
+          "val_samples": 1800
+        },
+        "crop_rect": {
+          "x": 399,
+          "y": 708,
+          "size": 200,
+          "cx": 499,
+          "cy": 808,
+          "dx": 0,
+          "dy": 0
+        },
+        "predicted_label": "empty",
+        "confidence": 0.9999465942382812,
+        "ranking": [
+          {
+            "label": "empty",
+            "probability": 0.9999465942382812
+          },
+          {
+            "label": "Sorcerer_s_Rise",
+            "probability": 5.303741272655316e-05
+          },
+          {
+            "label": "Church",
+            "probability": 3.4992726227756066e-07
+          }
+        ]
+      },
+      "slot6": {
+        "classifier": "slot6_ruins_status",
+        "type": "single_stage",
+        "crop_source": "gh_asym_legacy",
+        "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_6\\slot6_status_cnn.pt",
+        "model_meta": {
+          "best_epoch": 12,
+          "best_val_accuracy": 1.0,
+          "train_samples": 196,
+          "val_samples": 49
+        },
+        "crop_rect": {
+          "x": 44,
+          "y": 631,
+          "size": 200,
+          "cx": 144,
+          "cy": 731
+        },
+        "predicted_label": "Ruins_Poison",
+        "confidence": 0.9878133535385132,
+        "ranking": [
+          {
+            "label": "Ruins_Poison",
+            "probability": 0.9878133535385132
+          },
+          {
+            "label": "Ruins_Bleed",
+            "probability": 0.012186570093035698
+          }
+        ]
+      },
+      "slot7": {
+        "classifier": "slot7_minor",
+        "type": "two_stage_cascade",
+        "crop_source": "panel_raw",
+        "crop_rect": {
+          "x": 384,
+          "y": 1134,
+          "size": 260,
+          "cx": 514,
+          "cy": 1264,
+          "dx": 0,
+          "dy": 0
+        },
+        "stage1_model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260\\separated_occupied_empty\\slot7_occupied_empty_from_panel_fixed_v1.pt",
+        "stage1_model_meta": {
+          "best_epoch": 2,
+          "best_val_accuracy": 1.0,
+          "train_samples": 4800,
+          "val_samples": 1200
+        },
+        "empty_accept_confidence": 0.5,
+        "stage1": {
+          "predicted_label": "occupied",
+          "confidence": 0.9995063543319702,
+          "ranking": [
+            {
+              "label": "occupied",
+              "probability": 0.9995063543319702
+            },
+            {
+              "label": "empty",
+              "probability": 0.0004936790792271495
+            }
+          ]
+        },
+        "stage2_model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_7_fixed_geometry_panel_bases260\\slot7_church_vs_sorcerer_bases260\\slot7_church_vs_sorcerer_v1.pt",
+        "stage2_model_meta": {
+          "best_epoch": 1,
+          "best_val_accuracy": 1.0,
+          "train_samples": 4800,
+          "val_samples": 1200
+        },
+        "stage2": {
+          "predicted_label": "Church",
+          "confidence": 0.9996857643127441,
+          "ranking": [
+            {
+              "label": "Church",
+              "probability": 0.9996857643127441
+            },
+            {
+              "label": "Sorcerers_Rise",
+              "probability": 0.00031425905763171613
+            }
+          ]
+        },
+        "final_label": "Church",
+        "final_confidence": 0.9996857643127441,
+        "final_source": "stage2"
+      },
+      "palace": {
+        "classifier": "palace_status",
+        "type": "single_stage",
+        "crop_source": "gh_asym_legacy",
+        "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\palace_status_cnn_gh_variations_retrain_latest.pt",
+        "model_meta": {
+          "best_epoch": 1,
+          "best_val_accuracy": 1.0,
+          "train_samples": 4800,
+          "val_samples": 1200
+        },
+        "crop_rect": {
+          "x": 229,
+          "y": 151,
+          "size": 200,
+          "cx": 329,
+          "cy": 251
+        },
+        "predicted_label": "Status_Magic",
+        "confidence": 0.9902440905570984,
+        "ranking": [
+          {
+            "label": "Status_Magic",
+            "probability": 0.9902440905570984
+          },
+          {
+            "label": "Status_Fire",
+            "probability": 0.009755883365869522
+          }
+        ]
+      },
+      "fortress": {
+        "classifier": "fortress_status",
+        "type": "single_stage",
+        "crop_source": "gh_asym_legacy",
+        "model_path": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress\\fortress_status_cnn_gh_variations_retrain_latest.pt",
+        "model_meta": {
+          "best_epoch": 3,
+          "best_val_accuracy": 1.0,
+          "train_samples": 4800,
+          "val_samples": 1200
+        },
+        "crop_rect": {
+          "x": 775,
+          "y": 797,
+          "size": 200,
+          "cx": 875,
+          "cy": 897
+        },
+        "predicted_label": "Status_Rot",
+        "confidence": 0.9999639987945557,
+        "ranking": [
+          {
+            "label": "Status_Rot",
+            "probability": 0.9999639987945557
+          },
+          {
+            "label": "Status_Holy",
+            "probability": 3.596990427467972e-05
+          }
+        ]
+      }
+    },
+    "errors": {}
+  }
+}

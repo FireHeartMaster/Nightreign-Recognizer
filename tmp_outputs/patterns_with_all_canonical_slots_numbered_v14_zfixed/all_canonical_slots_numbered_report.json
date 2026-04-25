@@ -1,0 +1,574 @@
+{
+  "source_grouped_json": "LotResultSmallBaseAndSpot_grouped_by_patternId_14.json",
+  "source_package_npz": "nightreign_geom_proto_v4_slots.npz",
+  "image_roots_checked": [
+    "renders\\recognizer_no_text",
+    "renders\\recognizer_with_text",
+    "renders\\no_text",
+    "renders\\with_text"
+  ],
+  "patterns_total": 520,
+  "written_marked_images": 520,
+  "missing_pattern_images": [],
+  "canonical_slot_counts_by_earth": {
+    "Great Hollow": 7,
+    "Limveld": 27,
+    "Mountaintop": 22,
+    "Noklateo": 21,
+    "Rotted Woods": 21,
+    "The Crater": 22
+  },
+  "mapped_violating_slot_ids_by_earth": {
+    "Limveld": [
+      5,
+      11,
+      13,
+      17,
+      20,
+      21,
+      22,
+      25,
+      26
+    ],
+    "Mountaintop": [
+      3,
+      5,
+      10,
+      13,
+      14,
+      17,
+      21
+    ],
+    "The Crater": [
+      7,
+      8,
+      14,
+      15,
+      16,
+      17,
+      21
+    ],
+    "Rotted Woods": [
+      5,
+      11,
+      13,
+      17,
+      18
+    ],
+    "Noklateo": [
+      5,
+      11,
+      13,
+      17,
+      18,
+      21
+    ],
+    "Great Hollow": [
+      7
+    ]
+  },
+  "mapping_debug": {
+    "Limveld": [
+      {
+        "coord_slot": {
+          "gridXNo": 44,
+          "gridZNo": 36,
+          "pixelX": 941,
+          "pixelY": 1054
+        },
+        "mapped_slot_id": 22,
+        "mapped_pixel": {
+          "x": 941,
+          "y": 1054
+        },
+        "distance_px": 0.0
+      },
+      {
+        "coord_slot": {
+          "gridXNo": 44,
+          "gridZNo": 39,
+          "pixelX": 969,
+          "pixelY": 448
+        },
+        "mapped_slot_id": 5,
+        "mapped_pixel": {
+          "x": 969,
+          "y": 448
+        },
+        "distance_px": 0.0
+      },
+      {
+        "coord_slot": {
+          "gridXNo": 42,
+          "gridZNo": 38,
+          "pixelX": 437,
+          "pixelY": 684
+        },
+        "mapped_slot_id": 13,
+        "mapped_pixel": {
+          "x": 437,
+          "y": 684
+        },
+        "distance_px": 0.0
+      },
+      {
+        "coord_slot": {
+          "gridXNo": 45,
+          "gridZNo": 38,
+          "pixelX": 1191,
+          "pixelY": 649
+        },
+        "mapped_slot_id": 11,
+        "mapped_pixel": {
+          "x": 1191,
+          "y": 649
+        },
+        "distance_px": 0.0
+      },
+      {
+        "coord_slot": {
+          "gridXNo": 42,
+          "gridZNo": 37,
+          "pixelX": 429,
+          "pixelY": 1003
+        },
+        "mapped_slot_id": 21,
+        "mapped_pixel": {
+          "x": 429,
+          "y": 1003
+        },
+        "distance_px": 0.0
+      },
+      {
+        "coord_slot": {
+          "gridXNo": 43,
+          "gridZNo": 36,
+          "pixelX": 611,
+          "pixelY": 1201
+        },
+        "mapped_slot_id": 26,
+        "mapped_pixel": {
+          "x": 611,
+          "y": 1201
+        },
+        "distance_px": 0.0
+      },
+      {
+        "coord_slot": {
+          "gridXNo": 44,
+          "gridZNo": 37,
+          "pixelX": 844,
+          "pixelY": 972
+        },
+        "mapped_slot_id": 20,
+        "mapped_pixel": {
+          "x": 844,
+          "y": 972
+        },
+        "distance_px": 0.0
+      },
+      {
+        "coord_slot": {
+          "gridXNo": 45,
+          "gridZNo": 37,
+          "pixelX": 1238,
+          "pixelY": 892
+        },
+        "mapped_slot_id": 17,
+        "mapped_pixel": {
+          "x": 1238,
+          "y": 892
+        },
+        "distance_px": 0.0
+      },
+      {
+        "coord_slot": {
+          "gridXNo": 45,
+          "gridZNo": 36,
+          "pixelX": 1049,
+          "pixelY": 1198
+        },
+        "mapped_slot_id": 25,
+        "mapped_pixel": {
+          "x": 1147,
+          "y": 1132
+        },
+        "distance_px": 118.15244390193544
+      }
+    ],
+    "Mountaintop": [
+      {
+        "coord_slot": {
+          "gridXNo": 43,
+          "gridZNo": 36,
+          "pixelX": 611,
+          "pixelY": 1201
+        },
+        "mapped_slot_id": 21,
+        "mapped_pixel": {
+          "x": 611,
+          "y": 1201
+        },
+        "distance_px": 0.0
+      },
+      {
+        "coord_slot": {
+          "gridXNo": 44,
+          "gridZNo": 37,
+          "pixelX": 971,
+          "pixelY": 905
+        },
+        "mapped_slot_id": 13,
+        "mapped_pixel": {
+          "x": 971,
+          "y": 905
+        },
+        "distance_px": 0.0
+      },
+      {
+        "coord_slot": {
+          "gridXNo": 42,
+          "gridZNo": 37,
+          "pixelX": 492,
+          "pixelY": 846
+        },
+        "mapped_slot_id": 10,
+        "mapped_pixel": {
+          "x": 492,
+          "y": 846
+        },
+        "distance_px": 0.0
+      },
+      {
+        "coord_slot": {
+          "gridXNo": 45,
+          "gridZNo": 37,
+          "pixelX": 1156,
+          "pixelY": 964
+        },
+        "mapped_slot_id": 14,
+        "mapped_pixel": {
+          "x": 1156,
+          "y": 964
+        },
+        "distance_px": 0.0
+      },
+      {
+        "coord_slot": {
+          "gridXNo": 44,
+          "gridZNo": 36,
+          "pixelX": 941,
+          "pixelY": 1054
+        },
+        "mapped_slot_id": 17,
+        "mapped_pixel": {
+          "x": 941,
+          "y": 1054
+        },
+        "distance_px": 0.0
+      },
+      {
+        "coord_slot": {
+          "gridXNo": 44,
+          "gridZNo": 39,
+          "pixelX": 969,
+          "pixelY": 448
+        },
+        "mapped_slot_id": 3,
+        "mapped_pixel": {
+          "x": 969,
+          "y": 448
+        },
+        "distance_px": 0.0
+      },
+      {
+        "coord_slot": {
+          "gridXNo": 45,
+          "gridZNo": 38,
+          "pixelX": 1066,
+          "pixelY": 559
+        },
+        "mapped_slot_id": 5,
+        "mapped_pixel": {
+          "x": 1066,
+          "y": 559
+        },
+        "distance_px": 0.0
+      }
+    ],
+    "The Crater": [
+      {
+        "coord_slot": {
+          "gridXNo": 44,
+          "gridZNo": 36,
+          "pixelX": 941,
+          "pixelY": 1054
+        },
+        "mapped_slot_id": 17,
+        "mapped_pixel": {
+          "x": 941,
+          "y": 1054
+        },
+        "distance_px": 0.0
+      },
+      {
+        "coord_slot": {
+          "gridXNo": 42,
+          "gridZNo": 37,
+          "pixelX": 429,
+          "pixelY": 1003
+        },
+        "mapped_slot_id": 16,
+        "mapped_pixel": {
+          "x": 429,
+          "y": 1003
+        },
+        "distance_px": 0.0
+      },
+      {
+        "coord_slot": {
+          "gridXNo": 45,
+          "gridZNo": 38,
+          "pixelX": 1191,
+          "pixelY": 649
+        },
+        "mapped_slot_id": 7,
+        "mapped_pixel": {
+          "x": 1191,
+          "y": 649
+        },
+        "distance_px": 0.0
+      },
+      {
+        "coord_slot": {
+          "gridXNo": 45,
+          "gridZNo": 37,
+          "pixelX": 1156,
+          "pixelY": 964
+        },
+        "mapped_slot_id": 14,
+        "mapped_pixel": {
+          "x": 1156,
+          "y": 964
+        },
+        "distance_px": 0.0
+      },
+      {
+        "coord_slot": {
+          "gridXNo": 42,
+          "gridZNo": 38,
+          "pixelX": 437,
+          "pixelY": 684
+        },
+        "mapped_slot_id": 8,
+        "mapped_pixel": {
+          "x": 437,
+          "y": 684
+        },
+        "distance_px": 0.0
+      },
+      {
+        "coord_slot": {
+          "gridXNo": 43,
+          "gridZNo": 36,
+          "pixelX": 611,
+          "pixelY": 1201
+        },
+        "mapped_slot_id": 21,
+        "mapped_pixel": {
+          "x": 611,
+          "y": 1201
+        },
+        "distance_px": 0.0
+      },
+      {
+        "coord_slot": {
+          "gridXNo": 44,
+          "gridZNo": 37,
+          "pixelX": 844,
+          "pixelY": 972
+        },
+        "mapped_slot_id": 15,
+        "mapped_pixel": {
+          "x": 844,
+          "y": 972
+        },
+        "distance_px": 0.0
+      }
+    ],
+    "Rotted Woods": [
+      {
+        "coord_slot": {
+          "gridXNo": 44,
+          "gridZNo": 39,
+          "pixelX": 969,
+          "pixelY": 448
+        },
+        "mapped_slot_id": 5,
+        "mapped_pixel": {
+          "x": 969,
+          "y": 448
+        },
+        "distance_px": 0.0
+      },
+      {
+        "coord_slot": {
+          "gridXNo": 42,
+          "gridZNo": 37,
+          "pixelX": 429,
+          "pixelY": 1003
+        },
+        "mapped_slot_id": 17,
+        "mapped_pixel": {
+          "x": 429,
+          "y": 1003
+        },
+        "distance_px": 0.0
+      },
+      {
+        "coord_slot": {
+          "gridXNo": 45,
+          "gridZNo": 38,
+          "pixelX": 1191,
+          "pixelY": 649
+        },
+        "mapped_slot_id": 11,
+        "mapped_pixel": {
+          "x": 1191,
+          "y": 649
+        },
+        "distance_px": 0.0
+      },
+      {
+        "coord_slot": {
+          "gridXNo": 42,
+          "gridZNo": 38,
+          "pixelX": 437,
+          "pixelY": 684
+        },
+        "mapped_slot_id": 13,
+        "mapped_pixel": {
+          "x": 437,
+          "y": 684
+        },
+        "distance_px": 0.0
+      },
+      {
+        "coord_slot": {
+          "gridXNo": 43,
+          "gridZNo": 36,
+          "pixelX": 697,
+          "pixelY": 1067
+        },
+        "mapped_slot_id": 18,
+        "mapped_pixel": {
+          "x": 697,
+          "y": 1067
+        },
+        "distance_px": 0.0
+      }
+    ],
+    "Noklateo": [
+      {
+        "coord_slot": {
+          "gridXNo": 42,
+          "gridZNo": 38,
+          "pixelX": 437,
+          "pixelY": 684
+        },
+        "mapped_slot_id": 13,
+        "mapped_pixel": {
+          "x": 437,
+          "y": 684
+        },
+        "distance_px": 0.0
+      },
+      {
+        "coord_slot": {
+          "gridXNo": 44,
+          "gridZNo": 39,
+          "pixelX": 969,
+          "pixelY": 448
+        },
+        "mapped_slot_id": 5,
+        "mapped_pixel": {
+          "x": 969,
+          "y": 448
+        },
+        "distance_px": 0.0
+      },
+      {
+        "coord_slot": {
+          "gridXNo": 45,
+          "gridZNo": 37,
+          "pixelX": 1156,
+          "pixelY": 964
+        },
+        "mapped_slot_id": 17,
+        "mapped_pixel": {
+          "x": 1156,
+          "y": 964
+        },
+        "distance_px": 0.0
+      },
+      {
+        "coord_slot": {
+          "gridXNo": 45,
+          "gridZNo": 38,
+          "pixelX": 1191,
+          "pixelY": 649
+        },
+        "mapped_slot_id": 11,
+        "mapped_pixel": {
+          "x": 1191,
+          "y": 649
+        },
+        "distance_px": 0.0
+      },
+      {
+        "coord_slot": {
+          "gridXNo": 44,
+          "gridZNo": 36,
+          "pixelX": 874,
+          "pixelY": 1224
+        },
+        "mapped_slot_id": 21,
+        "mapped_pixel": {
+          "x": 874,
+          "y": 1224
+        },
+        "distance_px": 0.0
+      },
+      {
+        "coord_slot": {
+          "gridXNo": 44,
+          "gridZNo": 37,
+          "pixelX": 844,
+          "pixelY": 972
+        },
+        "mapped_slot_id": 18,
+        "mapped_pixel": {
+          "x": 844,
+          "y": 972
+        },
+        "distance_px": 0.0
+      }
+    ],
+    "Great Hollow": [
+      {
+        "coord_slot": {
+          "gridXNo": 43,
+          "gridZNo": 36,
+          "pixelX": 727,
+          "pixelY": 1169
+        },
+        "mapped_slot_id": 7,
+        "mapped_pixel": {
+          "x": 514,
+          "y": 1265
+        },
+        "distance_px": 233.63432966925043
+      }
+    ]
+  }
+}

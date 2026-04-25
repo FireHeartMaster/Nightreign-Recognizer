@@ -1,0 +1,1025 @@
+{
+  "notes": "slot-2 jitter set; affine jitter + reflected borders; 260->200 crops.",
+  "per_class_target": 3000,
+  "seed": 779,
+  "base_size": 260,
+  "out_size": 200,
+  "summary": {
+    "Lightning": {
+      "total_generated": 3000,
+      "base_images": 101,
+      "per_base": {
+        "1115_panel.png": 30,
+        "1119_panel.png": 30,
+        "1128_panel.png": 30,
+        "1183__panel.png": 30,
+        "1183_panel.png": 30,
+        "1185_panel.png": 30,
+        "1188_panel.png": 30,
+        "Captura de tela 2026-04-17 202359_panel.png": 30,
+        "Captura de tela 2026-04-17 202417_panel.png": 30,
+        "Captura de tela 2026-04-17 202425_panel.png": 30,
+        "Captura de tela 2026-04-17 202440_panel.png": 30,
+        "Captura de tela 2026-04-17 202448_panel.png": 30,
+        "Captura de tela 2026-04-17 211836_panel.png": 30,
+        "Captura de tela 2026-04-17 213732_panel.png": 30,
+        "Captura de tela 2026-04-17 214034_panel.png": 30,
+        "Captura de tela 2026-04-17 214450_panel.png": 30,
+        "Captura de tela 2026-04-17 215430_panel.png": 30,
+        "Captura de tela 2026-04-17 215646_panel.png": 30,
+        "Captura de tela 2026-04-17 221031_panel.png": 30,
+        "Captura de tela 2026-04-19 040910_panel.png": 30,
+        "Captura de tela 2026-04-19 041131_panel.png": 30,
+        "Captura de tela 2026-04-20 002312_panel.png": 30,
+        "Captura de tela 2026-04-20 005054_panel.png": 30,
+        "Captura de tela 2026-04-20 005238_panel.png": 30,
+        "Captura de tela 2026-04-20 005603_panel.png": 30,
+        "Captura de tela 2026-04-20 005834_panel.png": 30,
+        "Captura de tela 2026-04-20 010006_panel.png": 30,
+        "Captura de tela 2026-04-20 010143_panel.png": 30,
+        "Captura de tela 2026-04-20 010446_panel.png": 30,
+        "Captura de tela 2026-04-20 010812_panel.png": 30,
+        "Captura de tela 2026-04-20 011124_panel.png": 30,
+        "Captura de tela 2026-04-20 011302_panel.png": 30,
+        "Captura de tela 2026-04-20 011439_panel.png": 30,
+        "Captura de tela 2026-04-20 011814_panel.png": 30,
+        "Captura de tela 2026-04-20 011952_panel.png": 30,
+        "Captura de tela 2026-04-20 012336_panel.png": 30,
+        "Captura de tela 2026-04-20 012809_panel.png": 30,
+        "Captura de tela 2026-04-20 013125_panel.png": 30,
+        "Captura de tela 2026-04-20 013605_panel.png": 30,
+        "Captura de tela 2026-04-20 013743_panel.png": 30,
+        "Captura de tela 2026-04-20 013921_panel.png": 30,
+        "Captura de tela 2026-04-20 014059_panel.png": 30,
+        "Captura de tela 2026-04-20 014436_panel.png": 30,
+        "Captura de tela 2026-04-20 014614_panel.png": 30,
+        "Captura de tela 2026-04-20 014752_panel.png": 30,
+        "Captura de tela 2026-04-20 014930_panel.png": 30,
+        "Captura de tela 2026-04-20 015159_panel.png": 30,
+        "Captura de tela 2026-04-20 015514_panel.png": 30,
+        "Captura de tela 2026-04-20 142107_panel.png": 30,
+        "Captura de tela 2026-04-20 142558_panel.png": 30,
+        "Screenshot (150)_panel.png": 30,
+        "Screenshot (152)_panel.png": 30,
+        "Screenshot (153)_panel.png": 30,
+        "Screenshot (155)_panel.png": 30,
+        "Screenshot (156)_panel.png": 30,
+        "Screenshot (157)_panel.png": 30,
+        "Screenshot (158)_panel.png": 30,
+        "Screenshot (159)_panel.png": 30,
+        "Screenshot (163)_panel.png": 30,
+        "Screenshot (176)_panel.png": 30,
+        "Screenshot (177)_panel.png": 30,
+        "Screenshot (178)_panel.png": 30,
+        "Screenshot (180)_panel.png": 30,
+        "Screenshot (182)_panel.png": 30,
+        "Screenshot (183)_panel.png": 30,
+        "Screenshot (185)_panel.png": 30,
+        "Screenshot (191)_panel.png": 30,
+        "Screenshot (194)_panel.png": 30,
+        "Screenshot (196)_panel.png": 30,
+        "Screenshot (197)_panel.png": 30,
+        "Screenshot (198)_panel.png": 30,
+        "Screenshot (199)_panel.png": 29,
+        "Screenshot (202)_panel.png": 29,
+        "Screenshot (203)_panel.png": 29,
+        "Screenshot (204)_panel.png": 29,
+        "Screenshot (205)_panel.png": 29,
+        "Screenshot (207)_panel.png": 29,
+        "Screenshot (209)_panel.png": 29,
+        "Screenshot (211)_panel.png": 29,
+        "Screenshot (213)_panel.png": 29,
+        "Screenshot (216)_panel.png": 29,
+        "Screenshot (217)_panel.png": 29,
+        "Screenshot (220)_panel.png": 29,
+        "Screenshot (222)_panel.png": 29,
+        "Screenshot (225)_panel.png": 29,
+        "Screenshot (226)_panel.png": 29,
+        "Screenshot (227)_panel.png": 29,
+        "Screenshot (228)_panel.png": 29,
+        "Screenshot (231)_panel.png": 29,
+        "Screenshot (232)_panel.png": 29,
+        "Screenshot (234)_panel.png": 29,
+        "Screenshot (235)_panel.png": 29,
+        "Screenshot (236)_panel.png": 29,
+        "Screenshot (237)_panel.png": 29,
+        "Screenshot (238)_panel.png": 29,
+        "Screenshot (241)_panel.png": 29,
+        "Screenshot (243)_panel.png": 29,
+        "Screenshot (244)_panel.png": 29,
+        "Screenshot (246)_panel.png": 29,
+        "Screenshot (247)_panel.png": 29,
+        "Screenshot (248)_panel.png": 29
+      }
+    },
+    "Sleep": {
+      "total_generated": 3000,
+      "base_images": 66,
+      "per_base": {
+        "1120_panel.png": 46,
+        "1125_panel.png": 46,
+        "1175_panel.png": 46,
+        "1181_panel.png": 46,
+        "1194_panel.png": 46,
+        "Captura de tela 2026-04-17 163656_panel.png": 46,
+        "Captura de tela 2026-04-17 211430_panel.png": 46,
+        "Captura de tela 2026-04-17 212539_panel.png": 46,
+        "Captura de tela 2026-04-17 213046_panel.png": 46,
+        "Captura de tela 2026-04-17 213107_panel.png": 46,
+        "Captura de tela 2026-04-17 214815_panel.png": 46,
+        "Captura de tela 2026-04-17 220215_panel.png": 46,
+        "Captura de tela 2026-04-18 225935__panel.png": 46,
+        "Captura de tela 2026-04-18 225935_panel.png": 46,
+        "Captura de tela 2026-04-19 040412_panel.png": 46,
+        "Captura de tela 2026-04-20 001951_panel.png": 46,
+        "Captura de tela 2026-04-20 004246_panel.png": 46,
+        "Captura de tela 2026-04-20 004602_panel.png": 46,
+        "Captura de tela 2026-04-20 004744_panel.png": 46,
+        "Captura de tela 2026-04-20 005412_panel.png": 46,
+        "Captura de tela 2026-04-20 010622_panel.png": 46,
+        "Captura de tela 2026-04-20 010946_panel.png": 46,
+        "Captura de tela 2026-04-20 011636_panel.png": 46,
+        "Captura de tela 2026-04-20 012130_panel.png": 46,
+        "Captura de tela 2026-04-20 012947_panel.png": 46,
+        "Captura de tela 2026-04-20 013303_panel.png": 46,
+        "Captura de tela 2026-04-20 015337_panel.png": 46,
+        "Captura de tela 2026-04-20 015652_panel.png": 46,
+        "Screenshot (151)_panel.png": 46,
+        "Screenshot (154)_panel.png": 46,
+        "Screenshot (162)_panel.png": 45,
+        "Screenshot (164)_panel.png": 45,
+        "Screenshot (165)_panel.png": 45,
+        "Screenshot (171)_panel.png": 45,
+        "Screenshot (173)_panel.png": 45,
+        "Screenshot (179)_panel.png": 45,
+        "Screenshot (181)_panel.png": 45,
+        "Screenshot (184)_panel.png": 45,
+        "Screenshot (186)_panel.png": 45,
+        "Screenshot (187)_panel.png": 45,
+        "Screenshot (188)_panel.png": 45,
+        "Screenshot (189)_panel.png": 45,
+        "Screenshot (190)_panel.png": 45,
+        "Screenshot (192)_panel.png": 45,
+        "Screenshot (193)_panel.png": 45,
+        "Screenshot (195)_panel.png": 45,
+        "Screenshot (200)_panel.png": 45,
+        "Screenshot (201)_panel.png": 45,
+        "Screenshot (206)_panel.png": 45,
+        "Screenshot (208)_panel.png": 45,
+        "Screenshot (210)_panel.png": 45,
+        "Screenshot (212)_panel.png": 45,
+        "Screenshot (214)_panel.png": 45,
+        "Screenshot (215)_panel.png": 45,
+        "Screenshot (218)_panel.png": 45,
+        "Screenshot (219)_panel.png": 45,
+        "Screenshot (221)_panel.png": 45,
+        "Screenshot (223)_panel.png": 45,
+        "Screenshot (224)_panel.png": 45,
+        "Screenshot (229)_panel.png": 45,
+        "Screenshot (230)_panel.png": 45,
+        "Screenshot (233)_panel.png": 45,
+        "Screenshot (239)_panel.png": 45,
+        "Screenshot (240)_panel.png": 45,
+        "Screenshot (242)_panel.png": 45,
+        "Screenshot (245)_panel.png": 45
+      }
+    }
+  },
+  "items": [
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\1115_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\1119_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\1128_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\1183__panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\1183_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\1185_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\1188_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-17 202359_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-17 202417_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-17 202425_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-17 202440_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-17 202448_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-17 211836_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-17 213732_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-17 214034_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-17 214450_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-17 215430_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-17 215646_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-17 221031_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-19 040910_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-19 041131_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-20 002312_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-20 005054_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-20 005238_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-20 005603_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-20 005834_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-20 010006_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-20 010143_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-20 010446_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-20 010812_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-20 011124_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-20 011302_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-20 011439_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-20 011814_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-20 011952_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-20 012336_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-20 012809_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-20 013125_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-20 013605_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-20 013743_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-20 013921_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-20 014059_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-20 014436_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-20 014614_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-20 014752_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-20 014930_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-20 015159_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-20 015514_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-20 142107_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Captura de tela 2026-04-20 142558_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (150)_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (152)_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (153)_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (155)_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (156)_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (157)_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (158)_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (159)_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (163)_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (176)_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (177)_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (178)_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (180)_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (182)_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (183)_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (185)_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (191)_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (194)_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (196)_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (197)_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (198)_panel.png",
+      "generated": 30
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (199)_panel.png",
+      "generated": 29
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (202)_panel.png",
+      "generated": 29
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (203)_panel.png",
+      "generated": 29
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (204)_panel.png",
+      "generated": 29
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (205)_panel.png",
+      "generated": 29
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (207)_panel.png",
+      "generated": 29
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (209)_panel.png",
+      "generated": 29
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (211)_panel.png",
+      "generated": 29
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (213)_panel.png",
+      "generated": 29
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (216)_panel.png",
+      "generated": 29
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (217)_panel.png",
+      "generated": 29
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (220)_panel.png",
+      "generated": 29
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (222)_panel.png",
+      "generated": 29
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (225)_panel.png",
+      "generated": 29
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (226)_panel.png",
+      "generated": 29
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (227)_panel.png",
+      "generated": 29
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (228)_panel.png",
+      "generated": 29
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (231)_panel.png",
+      "generated": 29
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (232)_panel.png",
+      "generated": 29
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (234)_panel.png",
+      "generated": 29
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (235)_panel.png",
+      "generated": 29
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (236)_panel.png",
+      "generated": 29
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (237)_panel.png",
+      "generated": 29
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (238)_panel.png",
+      "generated": 29
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (241)_panel.png",
+      "generated": 29
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (243)_panel.png",
+      "generated": 29
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (244)_panel.png",
+      "generated": 29
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (246)_panel.png",
+      "generated": 29
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (247)_panel.png",
+      "generated": 29
+    },
+    {
+      "label": "Lightning",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Lightning\\Screenshot (248)_panel.png",
+      "generated": 29
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\1120_panel.png",
+      "generated": 46
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\1125_panel.png",
+      "generated": 46
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\1175_panel.png",
+      "generated": 46
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\1181_panel.png",
+      "generated": 46
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\1194_panel.png",
+      "generated": 46
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Captura de tela 2026-04-17 163656_panel.png",
+      "generated": 46
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Captura de tela 2026-04-17 211430_panel.png",
+      "generated": 46
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Captura de tela 2026-04-17 212539_panel.png",
+      "generated": 46
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Captura de tela 2026-04-17 213046_panel.png",
+      "generated": 46
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Captura de tela 2026-04-17 213107_panel.png",
+      "generated": 46
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Captura de tela 2026-04-17 214815_panel.png",
+      "generated": 46
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Captura de tela 2026-04-17 220215_panel.png",
+      "generated": 46
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Captura de tela 2026-04-18 225935__panel.png",
+      "generated": 46
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Captura de tela 2026-04-18 225935_panel.png",
+      "generated": 46
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Captura de tela 2026-04-19 040412_panel.png",
+      "generated": 46
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Captura de tela 2026-04-20 001951_panel.png",
+      "generated": 46
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Captura de tela 2026-04-20 004246_panel.png",
+      "generated": 46
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Captura de tela 2026-04-20 004602_panel.png",
+      "generated": 46
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Captura de tela 2026-04-20 004744_panel.png",
+      "generated": 46
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Captura de tela 2026-04-20 005412_panel.png",
+      "generated": 46
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Captura de tela 2026-04-20 010622_panel.png",
+      "generated": 46
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Captura de tela 2026-04-20 010946_panel.png",
+      "generated": 46
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Captura de tela 2026-04-20 011636_panel.png",
+      "generated": 46
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Captura de tela 2026-04-20 012130_panel.png",
+      "generated": 46
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Captura de tela 2026-04-20 012947_panel.png",
+      "generated": 46
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Captura de tela 2026-04-20 013303_panel.png",
+      "generated": 46
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Captura de tela 2026-04-20 015337_panel.png",
+      "generated": 46
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Captura de tela 2026-04-20 015652_panel.png",
+      "generated": 46
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Screenshot (151)_panel.png",
+      "generated": 46
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Screenshot (154)_panel.png",
+      "generated": 46
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Screenshot (162)_panel.png",
+      "generated": 45
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Screenshot (164)_panel.png",
+      "generated": 45
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Screenshot (165)_panel.png",
+      "generated": 45
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Screenshot (171)_panel.png",
+      "generated": 45
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Screenshot (173)_panel.png",
+      "generated": 45
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Screenshot (179)_panel.png",
+      "generated": 45
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Screenshot (181)_panel.png",
+      "generated": 45
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Screenshot (184)_panel.png",
+      "generated": 45
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Screenshot (186)_panel.png",
+      "generated": 45
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Screenshot (187)_panel.png",
+      "generated": 45
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Screenshot (188)_panel.png",
+      "generated": 45
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Screenshot (189)_panel.png",
+      "generated": 45
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Screenshot (190)_panel.png",
+      "generated": 45
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Screenshot (192)_panel.png",
+      "generated": 45
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Screenshot (193)_panel.png",
+      "generated": 45
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Screenshot (195)_panel.png",
+      "generated": 45
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Screenshot (200)_panel.png",
+      "generated": 45
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Screenshot (201)_panel.png",
+      "generated": 45
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Screenshot (206)_panel.png",
+      "generated": 45
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Screenshot (208)_panel.png",
+      "generated": 45
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Screenshot (210)_panel.png",
+      "generated": 45
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Screenshot (212)_panel.png",
+      "generated": 45
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Screenshot (214)_panel.png",
+      "generated": 45
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Screenshot (215)_panel.png",
+      "generated": 45
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Screenshot (218)_panel.png",
+      "generated": 45
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Screenshot (219)_panel.png",
+      "generated": 45
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Screenshot (221)_panel.png",
+      "generated": 45
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Screenshot (223)_panel.png",
+      "generated": 45
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Screenshot (224)_panel.png",
+      "generated": 45
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Screenshot (229)_panel.png",
+      "generated": 45
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Screenshot (230)_panel.png",
+      "generated": 45
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Screenshot (233)_panel.png",
+      "generated": 45
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Screenshot (239)_panel.png",
+      "generated": 45
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Screenshot (240)_panel.png",
+      "generated": 45
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Screenshot (242)_panel.png",
+      "generated": 45
+    },
+    {
+      "label": "Sleep",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\data\\bases260_gh_variations\\Sleep\\Screenshot (245)_panel.png",
+      "generated": 45
+    }
+  ]
+}

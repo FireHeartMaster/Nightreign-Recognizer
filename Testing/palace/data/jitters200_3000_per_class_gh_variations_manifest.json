@@ -1,0 +1,1079 @@
+{
+  "notes": "slot-2 jitter set; affine jitter + reflected borders; 260->200 crops.",
+  "per_class_target": 3000,
+  "seed": 777,
+  "base_size": 260,
+  "out_size": 200,
+  "summary": {
+    "Status_Fire": {
+      "total_generated": 3000,
+      "base_images": 91,
+      "per_base": {
+        "1115_panel.png": 33,
+        "1128_panel.png": 33,
+        "1181_panel.png": 33,
+        "1183__panel.png": 33,
+        "1183_panel.png": 33,
+        "1185_panel.png": 33,
+        "Captura de tela 2026-04-16 080746__panel.png": 33,
+        "Captura de tela 2026-04-16 080746_panel.png": 33,
+        "Captura de tela 2026-04-17 202359_panel.png": 33,
+        "Captura de tela 2026-04-17 202417_panel.png": 33,
+        "Captura de tela 2026-04-17 202425_panel.png": 33,
+        "Captura de tela 2026-04-17 202440_panel.png": 33,
+        "Captura de tela 2026-04-17 202448_panel.png": 33,
+        "Captura de tela 2026-04-17 211430_panel.png": 33,
+        "Captura de tela 2026-04-17 211836_panel.png": 33,
+        "Captura de tela 2026-04-17 212539_panel.png": 33,
+        "Captura de tela 2026-04-17 213732_panel.png": 33,
+        "Captura de tela 2026-04-17 215430_panel.png": 33,
+        "Captura de tela 2026-04-17 215646_panel.png": 33,
+        "Captura de tela 2026-04-19 040910_panel.png": 33,
+        "Captura de tela 2026-04-20 005054_panel.png": 33,
+        "Captura de tela 2026-04-20 005238_panel.png": 33,
+        "Captura de tela 2026-04-20 005603_panel.png": 33,
+        "Captura de tela 2026-04-20 010143_panel.png": 33,
+        "Captura de tela 2026-04-20 010622_panel.png": 33,
+        "Captura de tela 2026-04-20 011124_panel.png": 33,
+        "Captura de tela 2026-04-20 011302_panel.png": 33,
+        "Captura de tela 2026-04-20 011439_panel.png": 33,
+        "Captura de tela 2026-04-20 011636_panel.png": 33,
+        "Captura de tela 2026-04-20 011814_panel.png": 33,
+        "Captura de tela 2026-04-20 011952_panel.png": 33,
+        "Captura de tela 2026-04-20 012130_panel.png": 33,
+        "Captura de tela 2026-04-20 012809_panel.png": 33,
+        "Captura de tela 2026-04-20 012947_panel.png": 33,
+        "Captura de tela 2026-04-20 013303_panel.png": 33,
+        "Captura de tela 2026-04-20 013605_panel.png": 33,
+        "Captura de tela 2026-04-20 013921_panel.png": 33,
+        "Captura de tela 2026-04-20 014059_panel.png": 33,
+        "Captura de tela 2026-04-20 014436_panel.png": 33,
+        "Captura de tela 2026-04-20 014614_panel.png": 33,
+        "Captura de tela 2026-04-20 014930_panel.png": 33,
+        "Captura de tela 2026-04-20 015514_panel.png": 33,
+        "Captura de tela 2026-04-20 142558_panel.png": 33,
+        "Screenshot (150)_panel.png": 33,
+        "Screenshot (152)_panel.png": 33,
+        "Screenshot (153)_panel.png": 33,
+        "Screenshot (158)_panel.png": 33,
+        "Screenshot (159)_panel.png": 33,
+        "Screenshot (164)_panel.png": 33,
+        "Screenshot (176)_panel.png": 33,
+        "Screenshot (177)_panel.png": 33,
+        "Screenshot (180)_panel.png": 33,
+        "Screenshot (181)_panel.png": 33,
+        "Screenshot (182)_panel.png": 33,
+        "Screenshot (184)_panel.png": 33,
+        "Screenshot (185)_panel.png": 33,
+        "Screenshot (186)_panel.png": 33,
+        "Screenshot (189)_panel.png": 33,
+        "Screenshot (190)_panel.png": 33,
+        "Screenshot (192)_panel.png": 33,
+        "Screenshot (194)_panel.png": 33,
+        "Screenshot (196)_panel.png": 33,
+        "Screenshot (197)_panel.png": 33,
+        "Screenshot (198)_panel.png": 33,
+        "Screenshot (199)_panel.png": 33,
+        "Screenshot (202)_panel.png": 33,
+        "Screenshot (204)_panel.png": 33,
+        "Screenshot (205)_panel.png": 33,
+        "Screenshot (206)_panel.png": 33,
+        "Screenshot (208)_panel.png": 33,
+        "Screenshot (209)_panel.png": 33,
+        "Screenshot (210)_panel.png": 33,
+        "Screenshot (214)_panel.png": 33,
+        "Screenshot (215)_panel.png": 33,
+        "Screenshot (216)_panel.png": 33,
+        "Screenshot (219)_panel.png": 33,
+        "Screenshot (220)_panel.png": 33,
+        "Screenshot (222)_panel.png": 33,
+        "Screenshot (223)_panel.png": 33,
+        "Screenshot (225)_panel.png": 33,
+        "Screenshot (228)_panel.png": 33,
+        "Screenshot (229)_panel.png": 33,
+        "Screenshot (231)_panel.png": 33,
+        "Screenshot (233)_panel.png": 33,
+        "Screenshot (235)_panel.png": 33,
+        "Screenshot (236)_panel.png": 33,
+        "Screenshot (237)_panel.png": 33,
+        "Screenshot (240)_panel.png": 33,
+        "Screenshot (241)_panel.png": 32,
+        "Screenshot (246)_panel.png": 32,
+        "Screenshot (247)_panel.png": 32
+      }
+    },
+    "Status_Magic": {
+      "total_generated": 3000,
+      "base_images": 85,
+      "per_base": {
+        "1119_panel.png": 36,
+        "1120_panel.png": 36,
+        "1125_panel.png": 36,
+        "1175_panel.png": 36,
+        "1188_panel.png": 36,
+        "1194_panel.png": 36,
+        "Captura de tela 2026-04-16 081032_panel.png": 36,
+        "Captura de tela 2026-04-16 182613_panel.png": 36,
+        "Captura de tela 2026-04-17 163656_panel.png": 36,
+        "Captura de tela 2026-04-17 213046_panel.png": 36,
+        "Captura de tela 2026-04-17 213107_panel.png": 36,
+        "Captura de tela 2026-04-17 214034_panel.png": 36,
+        "Captura de tela 2026-04-17 214450_panel.png": 36,
+        "Captura de tela 2026-04-17 214815_panel.png": 36,
+        "Captura de tela 2026-04-17 220215_panel.png": 36,
+        "Captura de tela 2026-04-17 221031_panel.png": 36,
+        "Captura de tela 2026-04-18 104014_panel.png": 36,
+        "Captura de tela 2026-04-18 104241__panel.png": 36,
+        "Captura de tela 2026-04-18 104241_panel.png": 36,
+        "Captura de tela 2026-04-18 104452_panel.png": 36,
+        "Captura de tela 2026-04-18 225935__panel.png": 36,
+        "Captura de tela 2026-04-18 225935_panel.png": 36,
+        "Captura de tela 2026-04-19 040412_panel.png": 36,
+        "Captura de tela 2026-04-19 041131_panel.png": 36,
+        "Captura de tela 2026-04-20 001951_panel.png": 36,
+        "Captura de tela 2026-04-20 002312_panel.png": 35,
+        "Captura de tela 2026-04-20 004246_panel.png": 35,
+        "Captura de tela 2026-04-20 004602_panel.png": 35,
+        "Captura de tela 2026-04-20 004744_panel.png": 35,
+        "Captura de tela 2026-04-20 005412_panel.png": 35,
+        "Captura de tela 2026-04-20 005834_panel.png": 35,
+        "Captura de tela 2026-04-20 010006_panel.png": 35,
+        "Captura de tela 2026-04-20 010446_panel.png": 35,
+        "Captura de tela 2026-04-20 010812_panel.png": 35,
+        "Captura de tela 2026-04-20 010946_panel.png": 35,
+        "Captura de tela 2026-04-20 012336_panel.png": 35,
+        "Captura de tela 2026-04-20 013125_panel.png": 35,
+        "Captura de tela 2026-04-20 013743_panel.png": 35,
+        "Captura de tela 2026-04-20 014752_panel.png": 35,
+        "Captura de tela 2026-04-20 015159_panel.png": 35,
+        "Captura de tela 2026-04-20 015337_panel.png": 35,
+        "Captura de tela 2026-04-20 015652_panel.png": 35,
+        "Captura de tela 2026-04-20 142107_panel.png": 35,
+        "Screenshot (151)_panel.png": 35,
+        "Screenshot (154)_panel.png": 35,
+        "Screenshot (155)_panel.png": 35,
+        "Screenshot (156)_panel.png": 35,
+        "Screenshot (157)_panel.png": 35,
+        "Screenshot (162)_panel.png": 35,
+        "Screenshot (163)_panel.png": 35,
+        "Screenshot (165)_panel.png": 35,
+        "Screenshot (171)_panel.png": 35,
+        "Screenshot (173)_panel.png": 35,
+        "Screenshot (178)_panel.png": 35,
+        "Screenshot (179)_panel.png": 35,
+        "Screenshot (183)_panel.png": 35,
+        "Screenshot (187)_panel.png": 35,
+        "Screenshot (188)_panel.png": 35,
+        "Screenshot (191)_panel.png": 35,
+        "Screenshot (193)_panel.png": 35,
+        "Screenshot (195)_panel.png": 35,
+        "Screenshot (200)_panel.png": 35,
+        "Screenshot (201)_panel.png": 35,
+        "Screenshot (203)_panel.png": 35,
+        "Screenshot (207)_panel.png": 35,
+        "Screenshot (211)_panel.png": 35,
+        "Screenshot (212)_panel.png": 35,
+        "Screenshot (213)_panel.png": 35,
+        "Screenshot (217)_panel.png": 35,
+        "Screenshot (218)_panel.png": 35,
+        "Screenshot (221)_panel.png": 35,
+        "Screenshot (224)_panel.png": 35,
+        "Screenshot (226)_panel.png": 35,
+        "Screenshot (227)_panel.png": 35,
+        "Screenshot (230)_panel.png": 35,
+        "Screenshot (232)_panel.png": 35,
+        "Screenshot (234)_panel.png": 35,
+        "Screenshot (238)_panel.png": 35,
+        "Screenshot (239)_panel.png": 35,
+        "Screenshot (242)_panel.png": 35,
+        "Screenshot (243)_panel.png": 35,
+        "Screenshot (244)_panel.png": 35,
+        "Screenshot (245)_panel.png": 35,
+        "Screenshot (248)_panel.png": 35,
+        "Sorcerers_Rise_panel.png": 35
+      }
+    }
+  },
+  "items": [
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\1115_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\1128_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\1181_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\1183__panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\1183_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\1185_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Captura de tela 2026-04-16 080746__panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Captura de tela 2026-04-16 080746_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Captura de tela 2026-04-17 202359_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Captura de tela 2026-04-17 202417_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Captura de tela 2026-04-17 202425_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Captura de tela 2026-04-17 202440_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Captura de tela 2026-04-17 202448_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Captura de tela 2026-04-17 211430_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Captura de tela 2026-04-17 211836_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Captura de tela 2026-04-17 212539_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Captura de tela 2026-04-17 213732_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Captura de tela 2026-04-17 215430_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Captura de tela 2026-04-17 215646_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Captura de tela 2026-04-19 040910_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Captura de tela 2026-04-20 005054_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Captura de tela 2026-04-20 005238_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Captura de tela 2026-04-20 005603_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Captura de tela 2026-04-20 010143_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Captura de tela 2026-04-20 010622_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Captura de tela 2026-04-20 011124_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Captura de tela 2026-04-20 011302_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Captura de tela 2026-04-20 011439_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Captura de tela 2026-04-20 011636_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Captura de tela 2026-04-20 011814_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Captura de tela 2026-04-20 011952_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Captura de tela 2026-04-20 012130_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Captura de tela 2026-04-20 012809_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Captura de tela 2026-04-20 012947_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Captura de tela 2026-04-20 013303_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Captura de tela 2026-04-20 013605_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Captura de tela 2026-04-20 013921_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Captura de tela 2026-04-20 014059_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Captura de tela 2026-04-20 014436_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Captura de tela 2026-04-20 014614_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Captura de tela 2026-04-20 014930_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Captura de tela 2026-04-20 015514_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Captura de tela 2026-04-20 142558_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (150)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (152)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (153)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (158)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (159)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (164)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (176)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (177)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (180)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (181)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (182)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (184)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (185)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (186)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (189)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (190)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (192)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (194)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (196)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (197)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (198)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (199)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (202)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (204)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (205)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (206)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (208)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (209)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (210)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (214)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (215)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (216)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (219)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (220)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (222)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (223)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (225)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (228)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (229)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (231)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (233)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (235)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (236)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (237)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (240)_panel.png",
+      "generated": 33
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (241)_panel.png",
+      "generated": 32
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (246)_panel.png",
+      "generated": 32
+    },
+    {
+      "label": "Status_Fire",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Fire\\Screenshot (247)_panel.png",
+      "generated": 32
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\1119_panel.png",
+      "generated": 36
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\1120_panel.png",
+      "generated": 36
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\1125_panel.png",
+      "generated": 36
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\1175_panel.png",
+      "generated": 36
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\1188_panel.png",
+      "generated": 36
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\1194_panel.png",
+      "generated": 36
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Captura de tela 2026-04-16 081032_panel.png",
+      "generated": 36
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Captura de tela 2026-04-16 182613_panel.png",
+      "generated": 36
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Captura de tela 2026-04-17 163656_panel.png",
+      "generated": 36
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Captura de tela 2026-04-17 213046_panel.png",
+      "generated": 36
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Captura de tela 2026-04-17 213107_panel.png",
+      "generated": 36
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Captura de tela 2026-04-17 214034_panel.png",
+      "generated": 36
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Captura de tela 2026-04-17 214450_panel.png",
+      "generated": 36
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Captura de tela 2026-04-17 214815_panel.png",
+      "generated": 36
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Captura de tela 2026-04-17 220215_panel.png",
+      "generated": 36
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Captura de tela 2026-04-17 221031_panel.png",
+      "generated": 36
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Captura de tela 2026-04-18 104014_panel.png",
+      "generated": 36
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Captura de tela 2026-04-18 104241__panel.png",
+      "generated": 36
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Captura de tela 2026-04-18 104241_panel.png",
+      "generated": 36
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Captura de tela 2026-04-18 104452_panel.png",
+      "generated": 36
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Captura de tela 2026-04-18 225935__panel.png",
+      "generated": 36
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Captura de tela 2026-04-18 225935_panel.png",
+      "generated": 36
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Captura de tela 2026-04-19 040412_panel.png",
+      "generated": 36
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Captura de tela 2026-04-19 041131_panel.png",
+      "generated": 36
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Captura de tela 2026-04-20 001951_panel.png",
+      "generated": 36
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Captura de tela 2026-04-20 002312_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Captura de tela 2026-04-20 004246_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Captura de tela 2026-04-20 004602_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Captura de tela 2026-04-20 004744_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Captura de tela 2026-04-20 005412_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Captura de tela 2026-04-20 005834_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Captura de tela 2026-04-20 010006_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Captura de tela 2026-04-20 010446_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Captura de tela 2026-04-20 010812_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Captura de tela 2026-04-20 010946_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Captura de tela 2026-04-20 012336_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Captura de tela 2026-04-20 013125_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Captura de tela 2026-04-20 013743_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Captura de tela 2026-04-20 014752_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Captura de tela 2026-04-20 015159_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Captura de tela 2026-04-20 015337_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Captura de tela 2026-04-20 015652_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Captura de tela 2026-04-20 142107_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (151)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (154)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (155)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (156)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (157)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (162)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (163)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (165)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (171)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (173)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (178)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (179)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (183)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (187)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (188)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (191)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (193)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (195)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (200)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (201)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (203)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (207)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (211)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (212)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (213)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (217)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (218)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (221)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (224)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (226)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (227)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (230)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (232)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (234)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (238)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (239)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (242)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (243)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (244)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (245)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Screenshot (248)_panel.png",
+      "generated": 35
+    },
+    {
+      "label": "Status_Magic",
+      "base_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\data\\bases260_gh_variations\\Status_Magic\\Sorcerers_Rise_panel.png",
+      "generated": 35
+    }
+  ]
+}

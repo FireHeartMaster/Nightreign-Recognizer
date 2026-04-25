@@ -1,0 +1,929 @@
+{
+  "decisions": {
+    "1115_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\1115_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\1115_panel.png",
+      "moved_at": 1776867734.6506567
+    },
+    "1119_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\1119_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\1119_panel.png",
+      "moved_at": 1776867735.395849
+    },
+    "1128_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\1128_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\1128_panel.png",
+      "moved_at": 1776867736.249089
+    },
+    "1175_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\1175_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\1175_panel.png",
+      "moved_at": 1776867737.1937757
+    },
+    "1181_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\1181_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\1181_panel.png",
+      "moved_at": 1776867739.9709132
+    },
+    "1185_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\1185_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\1185_panel.png",
+      "moved_at": 1776867740.941429
+    },
+    "1188_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\1188_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\1188_panel.png",
+      "moved_at": 1776867741.7971737
+    },
+    "1194_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\1194_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\1194_panel.png",
+      "moved_at": 1776867742.6689782
+    },
+    "Captura de tela 2026-04-17 163656_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Captura de tela 2026-04-17 163656_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-17 163656_panel.png",
+      "moved_at": 1776867743.6808927
+    },
+    "Captura de tela 2026-04-17 202359_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Captura de tela 2026-04-17 202359_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-17 202359_panel.png",
+      "moved_at": 1776867745.0400958
+    },
+    "Captura de tela 2026-04-17 202417_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Captura de tela 2026-04-17 202417_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-17 202417_panel.png",
+      "moved_at": 1776867745.9707685
+    },
+    "Captura de tela 2026-04-17 202425_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Captura de tela 2026-04-17 202425_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-17 202425_panel.png",
+      "moved_at": 1776867746.7459192
+    },
+    "Captura de tela 2026-04-17 202440_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Captura de tela 2026-04-17 202440_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-17 202440_panel.png",
+      "moved_at": 1776867747.4958582
+    },
+    "Captura de tela 2026-04-17 202448_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Captura de tela 2026-04-17 202448_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-17 202448_panel.png",
+      "moved_at": 1776867748.2182467
+    },
+    "Captura de tela 2026-04-17 211430_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Captura de tela 2026-04-17 211430_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-17 211430_panel.png",
+      "moved_at": 1776867749.0240939
+    },
+    "Captura de tela 2026-04-17 211836_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Captura de tela 2026-04-17 211836_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-17 211836_panel.png",
+      "moved_at": 1776867749.818079
+    },
+    "Captura de tela 2026-04-17 212539_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Captura de tela 2026-04-17 212539_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-17 212539_panel.png",
+      "moved_at": 1776867750.700349
+    },
+    "Captura de tela 2026-04-17 214034_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Captura de tela 2026-04-17 214034_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-17 214034_panel.png",
+      "moved_at": 1776867751.6883502
+    },
+    "Captura de tela 2026-04-17 214450_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Captura de tela 2026-04-17 214450_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-17 214450_panel.png",
+      "moved_at": 1776867752.4324644
+    },
+    "Captura de tela 2026-04-17 214815_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Captura de tela 2026-04-17 214815_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-17 214815_panel.png",
+      "moved_at": 1776867753.2271438
+    },
+    "Captura de tela 2026-04-17 215430_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Captura de tela 2026-04-17 215430_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-17 215430_panel.png",
+      "moved_at": 1776867754.1789005
+    },
+    "Captura de tela 2026-04-17 215646_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Captura de tela 2026-04-17 215646_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-17 215646_panel.png",
+      "moved_at": 1776867755.0982978
+    },
+    "Captura de tela 2026-04-17 220215_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Captura de tela 2026-04-17 220215_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-17 220215_panel.png",
+      "moved_at": 1776867756.1578693
+    },
+    "Captura de tela 2026-04-17 221031_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Captura de tela 2026-04-17 221031_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-17 221031_panel.png",
+      "moved_at": 1776867757.0845816
+    },
+    "Captura de tela 2026-04-19 041131_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Captura de tela 2026-04-19 041131_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-19 041131_panel.png",
+      "moved_at": 1776867758.2034693
+    },
+    "Captura de tela 2026-04-20 002312_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Captura de tela 2026-04-20 002312_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-20 002312_panel.png",
+      "moved_at": 1776867759.0976317
+    },
+    "Captura de tela 2026-04-20 004246_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Captura de tela 2026-04-20 004246_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-20 004246_panel.png",
+      "moved_at": 1776867760.252586
+    },
+    "Captura de tela 2026-04-20 005603_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Captura de tela 2026-04-20 005603_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-20 005603_panel.png",
+      "moved_at": 1776867761.1579695
+    },
+    "Captura de tela 2026-04-20 005834_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Captura de tela 2026-04-20 005834_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-20 005834_panel.png",
+      "moved_at": 1776867762.2709932
+    },
+    "Captura de tela 2026-04-20 010006_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Captura de tela 2026-04-20 010006_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-20 010006_panel.png",
+      "moved_at": 1776867763.5949779
+    },
+    "Captura de tela 2026-04-20 010143_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Captura de tela 2026-04-20 010143_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-20 010143_panel.png",
+      "moved_at": 1776867764.5145779
+    },
+    "Captura de tela 2026-04-20 010446_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Captura de tela 2026-04-20 010446_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-20 010446_panel.png",
+      "moved_at": 1776867765.4089775
+    },
+    "Captura de tela 2026-04-20 010622_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Captura de tela 2026-04-20 010622_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-20 010622_panel.png",
+      "moved_at": 1776867766.4802566
+    },
+    "Captura de tela 2026-04-20 010812_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Captura de tela 2026-04-20 010812_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-20 010812_panel.png",
+      "moved_at": 1776867768.0037932
+    },
+    "Captura de tela 2026-04-20 011302_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Captura de tela 2026-04-20 011302_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-20 011302_panel.png",
+      "moved_at": 1776867768.9275932
+    },
+    "Captura de tela 2026-04-20 011636_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Captura de tela 2026-04-20 011636_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-20 011636_panel.png",
+      "moved_at": 1776867769.7375169
+    },
+    "Captura de tela 2026-04-20 011814_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Captura de tela 2026-04-20 011814_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-20 011814_panel.png",
+      "moved_at": 1776867770.470075
+    },
+    "Captura de tela 2026-04-20 011952_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Captura de tela 2026-04-20 011952_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-20 011952_panel.png",
+      "moved_at": 1776867771.212554
+    },
+    "Captura de tela 2026-04-20 012130_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Captura de tela 2026-04-20 012130_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-20 012130_panel.png",
+      "moved_at": 1776867772.0196683
+    },
+    "Captura de tela 2026-04-20 012336_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Captura de tela 2026-04-20 012336_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-20 012336_panel.png",
+      "moved_at": 1776867775.4620636
+    },
+    "Captura de tela 2026-04-20 012809_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Captura de tela 2026-04-20 012809_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-20 012809_panel.png",
+      "moved_at": 1776867776.9657762
+    },
+    "Captura de tela 2026-04-20 012947_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Captura de tela 2026-04-20 012947_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-20 012947_panel.png",
+      "moved_at": 1776867777.871651
+    },
+    "Captura de tela 2026-04-20 013125_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Captura de tela 2026-04-20 013125_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-20 013125_panel.png",
+      "moved_at": 1776867778.706366
+    },
+    "Captura de tela 2026-04-20 013303_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Captura de tela 2026-04-20 013303_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-20 013303_panel.png",
+      "moved_at": 1776867779.8013399
+    },
+    "Captura de tela 2026-04-20 013743_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Captura de tela 2026-04-20 013743_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-20 013743_panel.png",
+      "moved_at": 1776867780.7406502
+    },
+    "Captura de tela 2026-04-20 014059_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Captura de tela 2026-04-20 014059_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-20 014059_panel.png",
+      "moved_at": 1776867781.7750971
+    },
+    "Captura de tela 2026-04-20 014752_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Captura de tela 2026-04-20 014752_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-20 014752_panel.png",
+      "moved_at": 1776867782.5294242
+    },
+    "Captura de tela 2026-04-20 014930_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Captura de tela 2026-04-20 014930_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-20 014930_panel.png",
+      "moved_at": 1776867783.5437412
+    },
+    "Captura de tela 2026-04-20 015159_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Captura de tela 2026-04-20 015159_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-20 015159_panel.png",
+      "moved_at": 1776867784.6278176
+    },
+    "Captura de tela 2026-04-20 142107_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Captura de tela 2026-04-20 142107_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Captura de tela 2026-04-20 142107_panel.png",
+      "moved_at": 1776867785.4880505
+    },
+    "Screenshot (150)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (150)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (150)_panel.png",
+      "moved_at": 1776867786.5649023
+    },
+    "Screenshot (151)_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Screenshot (151)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (151)_panel.png",
+      "moved_at": 1776867787.3992155
+    },
+    "Screenshot (155)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (155)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (155)_panel.png",
+      "moved_at": 1776867788.3155415
+    },
+    "Screenshot (157)_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Screenshot (157)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (157)_panel.png",
+      "moved_at": 1776867789.0682304
+    },
+    "Screenshot (158)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (158)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (158)_panel.png",
+      "moved_at": 1776867790.179439
+    },
+    "Screenshot (163)_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Screenshot (163)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (163)_panel.png",
+      "moved_at": 1776867790.967422
+    },
+    "Screenshot (164)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (164)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (164)_panel.png",
+      "moved_at": 1776867791.94511
+    },
+    "Screenshot (165)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (165)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (165)_panel.png",
+      "moved_at": 1776867792.8305883
+    },
+    "Screenshot (173)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (173)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (173)_panel.png",
+      "moved_at": 1776867793.6374314
+    },
+    "Screenshot (177)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (177)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (177)_panel.png",
+      "moved_at": 1776867794.4156053
+    },
+    "Screenshot (178)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (178)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (178)_panel.png",
+      "moved_at": 1776867795.1965742
+    },
+    "Screenshot (181)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (181)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (181)_panel.png",
+      "moved_at": 1776867795.947892
+    },
+    "Screenshot (182)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (182)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (182)_panel.png",
+      "moved_at": 1776867796.6988385
+    },
+    "Screenshot (183)_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Screenshot (183)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (183)_panel.png",
+      "moved_at": 1776867797.491762
+    },
+    "Screenshot (184)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (184)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (184)_panel.png",
+      "moved_at": 1776867798.5584018
+    },
+    "Screenshot (185)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (185)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (185)_panel.png",
+      "moved_at": 1776867799.3867652
+    },
+    "Screenshot (186)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (186)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (186)_panel.png",
+      "moved_at": 1776867800.179171
+    },
+    "Screenshot (188)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (188)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (188)_panel.png",
+      "moved_at": 1776867800.9646688
+    },
+    "Screenshot (189)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (189)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (189)_panel.png",
+      "moved_at": 1776867801.7541819
+    },
+    "Screenshot (190)_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Screenshot (190)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (190)_panel.png",
+      "moved_at": 1776867802.5476995
+    },
+    "Screenshot (191)_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Screenshot (191)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (191)_panel.png",
+      "moved_at": 1776867803.4947958
+    },
+    "Screenshot (192)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (192)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (192)_panel.png",
+      "moved_at": 1776867804.460086
+    },
+    "Screenshot (194)_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Screenshot (194)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (194)_panel.png",
+      "moved_at": 1776867805.2557464
+    },
+    "Screenshot (195)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (195)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (195)_panel.png",
+      "moved_at": 1776867806.2348108
+    },
+    "Screenshot (198)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (198)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (198)_panel.png",
+      "moved_at": 1776867807.158492
+    },
+    "Screenshot (199)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (199)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (199)_panel.png",
+      "moved_at": 1776867807.9850926
+    },
+    "Screenshot (201)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (201)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (201)_panel.png",
+      "moved_at": 1776867808.9122322
+    },
+    "Screenshot (202)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (202)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (202)_panel.png",
+      "moved_at": 1776867809.7683253
+    },
+    "Screenshot (203)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (203)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (203)_panel.png",
+      "moved_at": 1776867810.5903683
+    },
+    "Screenshot (205)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (205)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (205)_panel.png",
+      "moved_at": 1776867822.2569358
+    },
+    "Screenshot (206)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (206)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (206)_panel.png",
+      "moved_at": 1776867823.0677836
+    },
+    "Screenshot (207)_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Screenshot (207)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (207)_panel.png",
+      "moved_at": 1776867831.468134
+    },
+    "Screenshot (208)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (208)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (208)_panel.png",
+      "moved_at": 1776867832.598994
+    },
+    "Screenshot (209)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (209)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (209)_panel.png",
+      "moved_at": 1776867833.4479034
+    },
+    "Screenshot (210)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (210)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (210)_panel.png",
+      "moved_at": 1776867834.2977974
+    },
+    "Screenshot (211)_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Screenshot (211)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (211)_panel.png",
+      "moved_at": 1776867835.1616905
+    },
+    "Screenshot (212)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (212)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (212)_panel.png",
+      "moved_at": 1776867836.2711318
+    },
+    "Screenshot (213)_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Screenshot (213)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (213)_panel.png",
+      "moved_at": 1776867837.009384
+    },
+    "Screenshot (214)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (214)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (214)_panel.png",
+      "moved_at": 1776867838.112293
+    },
+    "Screenshot (215)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (215)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (215)_panel.png",
+      "moved_at": 1776867838.9345508
+    },
+    "Screenshot (217)_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Screenshot (217)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (217)_panel.png",
+      "moved_at": 1776867840.5303464
+    },
+    "Screenshot (219)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (219)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (219)_panel.png",
+      "moved_at": 1776867844.10474
+    },
+    "Screenshot (220)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (220)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (220)_panel.png",
+      "moved_at": 1776867844.940967
+    },
+    "Screenshot (221)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (221)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (221)_panel.png",
+      "moved_at": 1776867845.7934828
+    },
+    "Screenshot (222)_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Screenshot (222)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (222)_panel.png",
+      "moved_at": 1776867846.5736341
+    },
+    "Screenshot (223)_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Screenshot (223)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (223)_panel.png",
+      "moved_at": 1776867847.559697
+    },
+    "Screenshot (225)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (225)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (225)_panel.png",
+      "moved_at": 1776867848.614292
+    },
+    "Screenshot (226)_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Screenshot (226)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (226)_panel.png",
+      "moved_at": 1776867850.0644698
+    },
+    "Screenshot (227)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (227)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (227)_panel.png",
+      "moved_at": 1776867851.102537
+    },
+    "Screenshot (228)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (228)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (228)_panel.png",
+      "moved_at": 1776867851.8646424
+    },
+    "Screenshot (229)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (229)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (229)_panel.png",
+      "moved_at": 1776867852.628534
+    },
+    "Screenshot (230)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (230)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (230)_panel.png",
+      "moved_at": 1776867853.3450527
+    },
+    "Screenshot (231)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (231)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (231)_panel.png",
+      "moved_at": 1776867860.1535203
+    },
+    "Screenshot (232)_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Screenshot (232)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (232)_panel.png",
+      "moved_at": 1776867860.8364809
+    },
+    "Screenshot (233)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (233)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (233)_panel.png",
+      "moved_at": 1776867861.8919246
+    },
+    "Screenshot (234)_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Screenshot (234)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (234)_panel.png",
+      "moved_at": 1776867863.2707765
+    },
+    "Screenshot (235)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (235)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (235)_panel.png",
+      "moved_at": 1776867864.2920856
+    },
+    "Screenshot (237)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (237)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (237)_panel.png",
+      "moved_at": 1776867865.22757
+    },
+    "Screenshot (238)_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Screenshot (238)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (238)_panel.png",
+      "moved_at": 1776867866.2063599
+    },
+    "Screenshot (239)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (239)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (239)_panel.png",
+      "moved_at": 1776867867.337485
+    },
+    "Screenshot (240)_panel.png": {
+      "side": "left",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_left\\Screenshot (240)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (240)_panel.png",
+      "moved_at": 1776867868.4040143
+    },
+    "Screenshot (241)_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Screenshot (241)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (241)_panel.png",
+      "moved_at": 1776867869.2706084
+    },
+    "Screenshot (243)_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Screenshot (243)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (243)_panel.png",
+      "moved_at": 1776867870.628984
+    },
+    "Screenshot (244)_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Screenshot (244)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (244)_panel.png",
+      "moved_at": 1776867871.694133
+    },
+    "Screenshot (248)_panel.png": {
+      "side": "right",
+      "moved_to": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right_right\\Screenshot (248)_panel.png",
+      "moved_from": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot5_right\\Screenshot (248)_panel.png",
+      "moved_at": 1776867872.8590162
+    }
+  },
+  "history": [
+    "1115_panel.png",
+    "1119_panel.png",
+    "1128_panel.png",
+    "1175_panel.png",
+    "1181_panel.png",
+    "1185_panel.png",
+    "1188_panel.png",
+    "1194_panel.png",
+    "Captura de tela 2026-04-17 163656_panel.png",
+    "Captura de tela 2026-04-17 202359_panel.png",
+    "Captura de tela 2026-04-17 202417_panel.png",
+    "Captura de tela 2026-04-17 202425_panel.png",
+    "Captura de tela 2026-04-17 202440_panel.png",
+    "Captura de tela 2026-04-17 202448_panel.png",
+    "Captura de tela 2026-04-17 211430_panel.png",
+    "Captura de tela 2026-04-17 211836_panel.png",
+    "Captura de tela 2026-04-17 212539_panel.png",
+    "Captura de tela 2026-04-17 214034_panel.png",
+    "Captura de tela 2026-04-17 214450_panel.png",
+    "Captura de tela 2026-04-17 214815_panel.png",
+    "Captura de tela 2026-04-17 215430_panel.png",
+    "Captura de tela 2026-04-17 215646_panel.png",
+    "Captura de tela 2026-04-17 220215_panel.png",
+    "Captura de tela 2026-04-17 221031_panel.png",
+    "Captura de tela 2026-04-19 041131_panel.png",
+    "Captura de tela 2026-04-20 002312_panel.png",
+    "Captura de tela 2026-04-20 004246_panel.png",
+    "Captura de tela 2026-04-20 005603_panel.png",
+    "Captura de tela 2026-04-20 005834_panel.png",
+    "Captura de tela 2026-04-20 010006_panel.png",
+    "Captura de tela 2026-04-20 010143_panel.png",
+    "Captura de tela 2026-04-20 010446_panel.png",
+    "Captura de tela 2026-04-20 010622_panel.png",
+    "Captura de tela 2026-04-20 010812_panel.png",
+    "Captura de tela 2026-04-20 011302_panel.png",
+    "Captura de tela 2026-04-20 011636_panel.png",
+    "Captura de tela 2026-04-20 011814_panel.png",
+    "Captura de tela 2026-04-20 011952_panel.png",
+    "Captura de tela 2026-04-20 012130_panel.png",
+    "Captura de tela 2026-04-20 012336_panel.png",
+    "Captura de tela 2026-04-20 012809_panel.png",
+    "Captura de tela 2026-04-20 012947_panel.png",
+    "Captura de tela 2026-04-20 013125_panel.png",
+    "Captura de tela 2026-04-20 013303_panel.png",
+    "Captura de tela 2026-04-20 013743_panel.png",
+    "Captura de tela 2026-04-20 014059_panel.png",
+    "Captura de tela 2026-04-20 014752_panel.png",
+    "Captura de tela 2026-04-20 014930_panel.png",
+    "Captura de tela 2026-04-20 015159_panel.png",
+    "Captura de tela 2026-04-20 142107_panel.png",
+    "Screenshot (150)_panel.png",
+    "Screenshot (151)_panel.png",
+    "Screenshot (155)_panel.png",
+    "Screenshot (157)_panel.png",
+    "Screenshot (158)_panel.png",
+    "Screenshot (163)_panel.png",
+    "Screenshot (164)_panel.png",
+    "Screenshot (165)_panel.png",
+    "Screenshot (173)_panel.png",
+    "Screenshot (177)_panel.png",
+    "Screenshot (178)_panel.png",
+    "Screenshot (181)_panel.png",
+    "Screenshot (182)_panel.png",
+    "Screenshot (183)_panel.png",
+    "Screenshot (184)_panel.png",
+    "Screenshot (185)_panel.png",
+    "Screenshot (186)_panel.png",
+    "Screenshot (188)_panel.png",
+    "Screenshot (189)_panel.png",
+    "Screenshot (190)_panel.png",
+    "Screenshot (191)_panel.png",
+    "Screenshot (192)_panel.png",
+    "Screenshot (194)_panel.png",
+    "Screenshot (195)_panel.png",
+    "Screenshot (198)_panel.png",
+    "Screenshot (199)_panel.png",
+    "Screenshot (201)_panel.png",
+    "Screenshot (202)_panel.png",
+    "Screenshot (203)_panel.png",
+    "Screenshot (205)_panel.png",
+    "Screenshot (206)_panel.png",
+    "Screenshot (207)_panel.png",
+    "Screenshot (208)_panel.png",
+    "Screenshot (209)_panel.png",
+    "Screenshot (210)_panel.png",
+    "Screenshot (211)_panel.png",
+    "Screenshot (212)_panel.png",
+    "Screenshot (213)_panel.png",
+    "Screenshot (214)_panel.png",
+    "Screenshot (215)_panel.png",
+    "Screenshot (217)_panel.png",
+    "Screenshot (219)_panel.png",
+    "Screenshot (220)_panel.png",
+    "Screenshot (221)_panel.png",
+    "Screenshot (222)_panel.png",
+    "Screenshot (223)_panel.png",
+    "Screenshot (225)_panel.png",
+    "Screenshot (226)_panel.png",
+    "Screenshot (227)_panel.png",
+    "Screenshot (228)_panel.png",
+    "Screenshot (229)_panel.png",
+    "Screenshot (230)_panel.png",
+    "Screenshot (231)_panel.png",
+    "Screenshot (232)_panel.png",
+    "Screenshot (233)_panel.png",
+    "Screenshot (234)_panel.png",
+    "Screenshot (235)_panel.png",
+    "Screenshot (237)_panel.png",
+    "Screenshot (238)_panel.png",
+    "Screenshot (239)_panel.png",
+    "Screenshot (240)_panel.png",
+    "Screenshot (241)_panel.png",
+    "Screenshot (243)_panel.png",
+    "Screenshot (244)_panel.png",
+    "Screenshot (248)_panel.png"
+  ],
+  "all_images": [
+    "1115_panel.png",
+    "1119_panel.png",
+    "1128_panel.png",
+    "1175_panel.png",
+    "1181_panel.png",
+    "1185_panel.png",
+    "1188_panel.png",
+    "1194_panel.png",
+    "Captura de tela 2026-04-17 163656_panel.png",
+    "Captura de tela 2026-04-17 202359_panel.png",
+    "Captura de tela 2026-04-17 202417_panel.png",
+    "Captura de tela 2026-04-17 202425_panel.png",
+    "Captura de tela 2026-04-17 202440_panel.png",
+    "Captura de tela 2026-04-17 202448_panel.png",
+    "Captura de tela 2026-04-17 211430_panel.png",
+    "Captura de tela 2026-04-17 211836_panel.png",
+    "Captura de tela 2026-04-17 212539_panel.png",
+    "Captura de tela 2026-04-17 214034_panel.png",
+    "Captura de tela 2026-04-17 214450_panel.png",
+    "Captura de tela 2026-04-17 214815_panel.png",
+    "Captura de tela 2026-04-17 215430_panel.png",
+    "Captura de tela 2026-04-17 215646_panel.png",
+    "Captura de tela 2026-04-17 220215_panel.png",
+    "Captura de tela 2026-04-17 221031_panel.png",
+    "Captura de tela 2026-04-19 041131_panel.png",
+    "Captura de tela 2026-04-20 002312_panel.png",
+    "Captura de tela 2026-04-20 004246_panel.png",
+    "Captura de tela 2026-04-20 005603_panel.png",
+    "Captura de tela 2026-04-20 005834_panel.png",
+    "Captura de tela 2026-04-20 010006_panel.png",
+    "Captura de tela 2026-04-20 010143_panel.png",
+    "Captura de tela 2026-04-20 010446_panel.png",
+    "Captura de tela 2026-04-20 010622_panel.png",
+    "Captura de tela 2026-04-20 010812_panel.png",
+    "Captura de tela 2026-04-20 011302_panel.png",
+    "Captura de tela 2026-04-20 011636_panel.png",
+    "Captura de tela 2026-04-20 011814_panel.png",
+    "Captura de tela 2026-04-20 011952_panel.png",
+    "Captura de tela 2026-04-20 012130_panel.png",
+    "Captura de tela 2026-04-20 012336_panel.png",
+    "Captura de tela 2026-04-20 012809_panel.png",
+    "Captura de tela 2026-04-20 012947_panel.png",
+    "Captura de tela 2026-04-20 013125_panel.png",
+    "Captura de tela 2026-04-20 013303_panel.png",
+    "Captura de tela 2026-04-20 013743_panel.png",
+    "Captura de tela 2026-04-20 014059_panel.png",
+    "Captura de tela 2026-04-20 014752_panel.png",
+    "Captura de tela 2026-04-20 014930_panel.png",
+    "Captura de tela 2026-04-20 015159_panel.png",
+    "Captura de tela 2026-04-20 142107_panel.png",
+    "Screenshot (150)_panel.png",
+    "Screenshot (151)_panel.png",
+    "Screenshot (155)_panel.png",
+    "Screenshot (157)_panel.png",
+    "Screenshot (158)_panel.png",
+    "Screenshot (163)_panel.png",
+    "Screenshot (164)_panel.png",
+    "Screenshot (165)_panel.png",
+    "Screenshot (173)_panel.png",
+    "Screenshot (177)_panel.png",
+    "Screenshot (178)_panel.png",
+    "Screenshot (181)_panel.png",
+    "Screenshot (182)_panel.png",
+    "Screenshot (183)_panel.png",
+    "Screenshot (184)_panel.png",
+    "Screenshot (185)_panel.png",
+    "Screenshot (186)_panel.png",
+    "Screenshot (188)_panel.png",
+    "Screenshot (189)_panel.png",
+    "Screenshot (190)_panel.png",
+    "Screenshot (191)_panel.png",
+    "Screenshot (192)_panel.png",
+    "Screenshot (194)_panel.png",
+    "Screenshot (195)_panel.png",
+    "Screenshot (198)_panel.png",
+    "Screenshot (199)_panel.png",
+    "Screenshot (201)_panel.png",
+    "Screenshot (202)_panel.png",
+    "Screenshot (203)_panel.png",
+    "Screenshot (205)_panel.png",
+    "Screenshot (206)_panel.png",
+    "Screenshot (207)_panel.png",
+    "Screenshot (208)_panel.png",
+    "Screenshot (209)_panel.png",
+    "Screenshot (210)_panel.png",
+    "Screenshot (211)_panel.png",
+    "Screenshot (212)_panel.png",
+    "Screenshot (213)_panel.png",
+    "Screenshot (214)_panel.png",
+    "Screenshot (215)_panel.png",
+    "Screenshot (217)_panel.png",
+    "Screenshot (219)_panel.png",
+    "Screenshot (220)_panel.png",
+    "Screenshot (221)_panel.png",
+    "Screenshot (222)_panel.png",
+    "Screenshot (223)_panel.png",
+    "Screenshot (225)_panel.png",
+    "Screenshot (226)_panel.png",
+    "Screenshot (227)_panel.png",
+    "Screenshot (228)_panel.png",
+    "Screenshot (229)_panel.png",
+    "Screenshot (230)_panel.png",
+    "Screenshot (231)_panel.png",
+    "Screenshot (232)_panel.png",
+    "Screenshot (233)_panel.png",
+    "Screenshot (234)_panel.png",
+    "Screenshot (235)_panel.png",
+    "Screenshot (237)_panel.png",
+    "Screenshot (238)_panel.png",
+    "Screenshot (239)_panel.png",
+    "Screenshot (240)_panel.png",
+    "Screenshot (241)_panel.png",
+    "Screenshot (243)_panel.png",
+    "Screenshot (244)_panel.png",
+    "Screenshot (248)_panel.png"
+  ],
+  "saved_at": 1776867872.8590186
+}

@@ -151,10 +151,10 @@
     {
       "type": "Camp",
       "icon": "Camp",
-      "x": 1196.0,
-      "y": 543.0,
-      "x_norm": 0.7786458333333334,
-      "y_norm": 0.353515625,
+      "x": 1191.0,
+      "y": 649.0,
+      "x_norm": 0.775390625,
+      "y_norm": 0.4225260416666667,
       "text": "Frenzied Flame Troll",
       "source": "row_item",
       "source_id": 8696
@@ -449,9 +449,9 @@
       "type": "text",
       "icon": "",
       "x": 20.0,
-      "y": 20.0,
+      "y": 40.0,
       "x_norm": 0.013020833333333334,
-      "y_norm": 0.013020833333333334,
+      "y_norm": 0.026041666666666668,
       "text": "Pattern 186 - The Crater",
       "source": "title",
       "source_id": 186
@@ -591,10 +591,10 @@
     {
       "type": "text",
       "icon": "",
-      "x": 1196.0,
-      "y": 543.0,
-      "x_norm": 0.7786458333333334,
-      "y_norm": 0.353515625,
+      "x": 1191.0,
+      "y": 649.0,
+      "x_norm": 0.775390625,
+      "y_norm": 0.4225260416666667,
       "text": "Frenzied Flame Troll",
       "source": "row_item",
       "source_id": 8696
@@ -636,9 +636,9 @@
       "type": "text",
       "icon": "",
       "x": 1066.0,
-      "y": 589.0,
+      "y": 559.0,
       "x_norm": 0.6940104166666666,
-      "y_norm": 0.3834635416666667,
+      "y_norm": 0.3639322916666667,
       "text": "Withered Trees",
       "source": "row_item",
       "source_id": 8704

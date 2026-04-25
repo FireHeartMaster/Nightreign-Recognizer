@@ -1,0 +1,87 @@
+{
+  "rows": [
+    {
+      "image": "1102.png",
+      "expected": null,
+      "pred_dx50": "Sleep",
+      "conf_dx50": 0.9999959468841553,
+      "pred_dx0": "Sleep",
+      "conf_dx0": 0.9990008473396301
+    },
+    {
+      "image": "1115.png",
+      "expected": "Lightning",
+      "pred_dx50": "Sleep",
+      "conf_dx50": 0.7093232274055481,
+      "pred_dx0": "Lightning",
+      "conf_dx0": 0.8585432767868042
+    },
+    {
+      "image": "1119.png",
+      "expected": "Lightning",
+      "pred_dx50": "Sleep",
+      "conf_dx50": 0.7105820178985596,
+      "pred_dx0": "Lightning",
+      "conf_dx0": 0.8499590754508972
+    },
+    {
+      "image": "1120.png",
+      "expected": "Sleep",
+      "pred_dx50": "Sleep",
+      "conf_dx50": 0.7069764733314514,
+      "pred_dx0": "Sleep",
+      "conf_dx0": 0.9285139441490173
+    },
+    {
+      "image": "1125.png",
+      "expected": "Sleep",
+      "pred_dx50": "Sleep",
+      "conf_dx50": 0.7073636054992676,
+      "pred_dx0": "Sleep",
+      "conf_dx0": 0.9281760454177856
+    },
+    {
+      "image": "1128.png",
+      "expected": "Lightning",
+      "pred_dx50": "Sleep",
+      "conf_dx50": 0.7090355157852173,
+      "pred_dx0": "Lightning",
+      "conf_dx0": 0.8589977622032166
+    },
+    {
+      "image": "1175.png",
+      "expected": "Sleep",
+      "pred_dx50": "Sleep",
+      "conf_dx50": 0.7079489231109619,
+      "pred_dx0": "Sleep",
+      "conf_dx0": 0.9282633066177368
+    },
+    {
+      "image": "1181.png",
+      "expected": "Sleep",
+      "pred_dx50": "Sleep",
+      "conf_dx50": 0.9917330741882324,
+      "pred_dx0": "Sleep",
+      "conf_dx0": 0.9297527074813843
+    },
+    {
+      "image": "1183.png",
+      "expected": "Lightning",
+      "pred_dx50": "Sleep",
+      "conf_dx50": 0.7089000344276428,
+      "pred_dx0": "Lightning",
+      "conf_dx0": 0.8587424159049988
+    },
+    {
+      "image": "1183_.png",
+      "expected": "Lightning",
+      "pred_dx50": "Sleep",
+      "conf_dx50": 0.7089000344276428,
+      "pred_dx0": "Lightning",
+      "conf_dx0": 0.8587424159049988
+    }
+  ],
+  "known_count": 9,
+  "acc_dx50": 4,
+  "acc_dx0": 9
+}

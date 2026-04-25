@@ -1,0 +1,213 @@
+{
+  "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\2026-04-22-1058.png",
+  "best_earth": "Limveld",
+  "top_pattern_id": 173,
+  "patch_size": 96,
+  "context_scale": 1.8,
+  "min_half_frac": 0.075,
+  "slots": [
+    {
+      "slot_id": 4,
+      "predicted": "Fort",
+      "actual": "Ruins",
+      "match": false,
+      "best_prob": 0.7228004697930762,
+      "second_prob": 0.2770128484827645,
+      "margin": 0.44578762131031174,
+      "center_px": {
+        "x": 354,
+        "y": 429
+      },
+      "half_context_px": 115,
+      "radius_norm": 0.018,
+      "top3": [
+        {
+          "label": "Fort",
+          "prob": 0.7228004697930762
+        },
+        {
+          "label": "Ruins",
+          "prob": 0.2770128484827645
+        },
+        {
+          "label": "Main Encampment",
+          "prob": 0.0001478195757689265
+        }
+      ]
+    },
+    {
+      "slot_id": 8,
+      "predicted": "Great Church",
+      "actual": "Sorcerer's Rise",
+      "match": false,
+      "best_prob": 0.9980537804953815,
+      "second_prob": 0.0013391009447060423,
+      "margin": 0.9967146795506755,
+      "center_px": {
+        "x": 1196,
+        "y": 543
+      },
+      "half_context_px": 115,
+      "radius_norm": 0.018,
+      "top3": [
+        {
+          "label": "Great Church",
+          "prob": 0.9980537804953815
+        },
+        {
+          "label": "empty",
+          "prob": 0.0013391009447060423
+        },
+        {
+          "label": "Fort",
+          "prob": 0.0006070547026490159
+        }
+      ]
+    },
+    {
+      "slot_id": 9,
+      "predicted": "Sorcerer's Rise",
+      "actual": "Empty",
+      "match": false,
+      "best_prob": 0.9999881430546395,
+      "second_prob": 8.306078211645964e-06,
+      "margin": 0.9999798369764278,
+      "center_px": {
+        "x": 1066,
+        "y": 559
+      },
+      "half_context_px": 115,
+      "radius_norm": 0.018,
+      "top3": [
+        {
+          "label": "Sorcerer's Rise",
+          "prob": 0.9999881430546395
+        },
+        {
+          "label": "empty",
+          "prob": 8.306078211645964e-06
+        },
+        {
+          "label": "Church",
+          "prob": 2.349531531849515e-06
+        }
+      ]
+    },
+    {
+      "slot_id": 10,
+      "predicted": "unknown",
+      "actual": "Township",
+      "match": false,
+      "best_prob": 0.5144465708347172,
+      "second_prob": 0.4791907619941604,
+      "margin": 0.035255808840556846,
+      "center_px": {
+        "x": 554,
+        "y": 608
+      },
+      "half_context_px": 115,
+      "radius_norm": 0.018,
+      "top3": [
+        {
+          "label": "Sorcerer's Rise",
+          "prob": 0.5144465708347172
+        },
+        {
+          "label": "Township",
+          "prob": 0.4791907619941604
+        },
+        {
+          "label": "Church",
+          "prob": 0.003960401067797446
+        }
+      ]
+    },
+    {
+      "slot_id": 11,
+      "predicted": "Sorcerer's Rise",
+      "actual": "Ruins",
+      "match": false,
+      "best_prob": 0.9567742273954554,
+      "second_prob": 0.033879626077599014,
+      "margin": 0.9228946013178564,
+      "center_px": {
+        "x": 1191,
+        "y": 649
+      },
+      "half_context_px": 115,
+      "radius_norm": 0.018,
+      "top3": [
+        {
+          "label": "Sorcerer's Rise",
+          "prob": 0.9567742273954554
+        },
+        {
+          "label": "Church",
+          "prob": 0.033879626077599014
+        },
+        {
+          "label": "Township",
+          "prob": 0.009345276017882403
+        }
+      ]
+    },
+    {
+      "slot_id": 15,
+      "predicted": "Fort",
+      "actual": "Ruins",
+      "match": false,
+      "best_prob": 0.7706610810276551,
+      "second_prob": 0.22905035266303314,
+      "margin": 0.5416107283646219,
+      "center_px": {
+        "x": 492,
+        "y": 846
+      },
+      "half_context_px": 115,
+      "radius_norm": 0.018,
+      "top3": [
+        {
+          "label": "Fort",
+          "prob": 0.7706610810276551
+        },
+        {
+          "label": "Ruins",
+          "prob": 0.22905035266303314
+        },
+        {
+          "label": "Main Encampment",
+          "prob": 0.00018248478239963847
+        }
+      ]
+    },
+    {
+      "slot_id": 26,
+      "predicted": "Fortified Village",
+      "actual": "Main Encampment",
+      "match": false,
+      "best_prob": 0.7015536595292159,
+      "second_prob": 0.17492769703957764,
+      "margin": 0.5266259624896382,
+      "center_px": {
+        "x": 611,
+        "y": 1201
+      },
+      "half_context_px": 115,
+      "radius_norm": 0.018,
+      "top3": [
+        {
+          "label": "Fortified Village",
+          "prob": 0.7015536595292159
+        },
+        {
+          "label": "Main Encampment",
+          "prob": 0.17492769703957764
+        },
+        {
+          "label": "empty",
+          "prob": 0.10017982665070237
+        }
+      ]
+    }
+  ]
+}

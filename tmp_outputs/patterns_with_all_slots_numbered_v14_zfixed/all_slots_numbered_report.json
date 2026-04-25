@@ -1,0 +1,793 @@
+{
+  "source_json": "LotResultSmallBaseAndSpot_grouped_by_patternId_14.json",
+  "numbering_report_used": "tmp_outputs\\violations_major_minor_overlays_v14_zfixed_numbered\\violations_major_minor_report_zfixed_numbered.json",
+  "image_roots_checked": [
+    "renders\\recognizer_no_text",
+    "renders\\recognizer_with_text",
+    "renders\\no_text",
+    "renders\\with_text"
+  ],
+  "patterns_total": 520,
+  "written_marked_images": 520,
+  "missing_pattern_images": [],
+  "violating_coordinate_slots_count": 35,
+  "slot_index_table": {
+    "Limveld": [
+      {
+        "slot_number": 1,
+        "gridXNo": 42,
+        "gridZNo": 36,
+        "X": 54.0,
+        "Z": 190.0,
+        "posX": -74.0,
+        "posZ": 62.0
+      },
+      {
+        "slot_number": 2,
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "X": 173.0,
+        "Z": 277.0,
+        "posX": 45.0,
+        "posZ": -107.0
+      },
+      {
+        "slot_number": 3,
+        "gridXNo": 42,
+        "gridZNo": 38,
+        "X": 181.0,
+        "Z": 596.0,
+        "posX": 53.0,
+        "posZ": -44.0
+      },
+      {
+        "slot_number": 4,
+        "gridXNo": 42,
+        "gridZNo": 39,
+        "X": 98.0,
+        "Z": 851.0,
+        "posX": -30.0,
+        "posZ": -45.0
+      },
+      {
+        "slot_number": 5,
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "X": 355.0,
+        "Z": 79.0,
+        "posX": -29.0,
+        "posZ": -49.0
+      },
+      {
+        "slot_number": 6,
+        "gridXNo": 43,
+        "gridZNo": 37,
+        "X": 421.57,
+        "Z": 446.69,
+        "posX": 37.57,
+        "posZ": 62.69
+      },
+      {
+        "slot_number": 7,
+        "gridXNo": 43,
+        "gridZNo": 38,
+        "X": 484.74,
+        "Z": 653.1,
+        "posX": 100.74,
+        "posZ": 13.1
+      },
+      {
+        "slot_number": 8,
+        "gridXNo": 43,
+        "gridZNo": 39,
+        "X": 360.0,
+        "Z": 1007.0,
+        "posX": -24.0,
+        "posZ": 111.0
+      },
+      {
+        "slot_number": 9,
+        "gridXNo": 44,
+        "gridZNo": 36,
+        "X": 685.0,
+        "Z": 226.0,
+        "posX": 45.0,
+        "posZ": 98.0
+      },
+      {
+        "slot_number": 10,
+        "gridXNo": 44,
+        "gridZNo": 37,
+        "X": 588.0,
+        "Z": 308.0,
+        "posX": -52.0,
+        "posZ": -76.0
+      },
+      {
+        "slot_number": 11,
+        "gridXNo": 44,
+        "gridZNo": 38,
+        "X": 642.0,
+        "Z": 627.0,
+        "posX": 2.0,
+        "posZ": -13.0
+      },
+      {
+        "slot_number": 12,
+        "gridXNo": 44,
+        "gridZNo": 39,
+        "X": 713.0,
+        "Z": 832.0,
+        "posX": 73.0,
+        "posZ": -64.0
+      },
+      {
+        "slot_number": 13,
+        "gridXNo": 45,
+        "gridZNo": 36,
+        "X": 793.0699999999999,
+        "Z": 81.62,
+        "posX": -102.93,
+        "posZ": -46.38
+      },
+      {
+        "slot_number": 14,
+        "gridXNo": 45,
+        "gridZNo": 37,
+        "X": 982.0,
+        "Z": 388.0,
+        "posX": 86.0,
+        "posZ": 4.0
+      },
+      {
+        "slot_number": 15,
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "X": 935.0,
+        "Z": 631.0,
+        "posX": 39.0,
+        "posZ": -9.0
+      },
+      {
+        "slot_number": 16,
+        "gridXNo": 45,
+        "gridZNo": 39,
+        "X": 806.54,
+        "Z": 874.07,
+        "posX": -89.46,
+        "posZ": -21.93
+      }
+    ],
+    "Mountaintop": [
+      {
+        "slot_number": 1,
+        "gridXNo": 42,
+        "gridZNo": 36,
+        "X": 221.28,
+        "Z": 16.569999999999993,
+        "posX": 93.28,
+        "posZ": -111.43
+      },
+      {
+        "slot_number": 2,
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "X": 236.0,
+        "Z": 434.0,
+        "posX": 108.0,
+        "posZ": 50.0
+      },
+      {
+        "slot_number": 3,
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "X": 355.0,
+        "Z": 79.0,
+        "posX": -29.0,
+        "posZ": -49.0
+      },
+      {
+        "slot_number": 4,
+        "gridXNo": 43,
+        "gridZNo": 37,
+        "X": 421.57,
+        "Z": 446.69,
+        "posX": 37.57,
+        "posZ": 62.69
+      },
+      {
+        "slot_number": 5,
+        "gridXNo": 43,
+        "gridZNo": 38,
+        "X": 357.46000000000004,
+        "Z": 675.82,
+        "posX": -26.54,
+        "posZ": 35.82
+      },
+      {
+        "slot_number": 6,
+        "gridXNo": 44,
+        "gridZNo": 36,
+        "X": 685.0,
+        "Z": 226.0,
+        "posX": 45.0,
+        "posZ": 98.0
+      },
+      {
+        "slot_number": 7,
+        "gridXNo": 44,
+        "gridZNo": 37,
+        "X": 715.0,
+        "Z": 375.0,
+        "posX": 75.0,
+        "posZ": -9.0
+      },
+      {
+        "slot_number": 8,
+        "gridXNo": 44,
+        "gridZNo": 38,
+        "X": 766.0,
+        "Z": 570.0,
+        "posX": 126.0,
+        "posZ": -70.0
+      },
+      {
+        "slot_number": 9,
+        "gridXNo": 44,
+        "gridZNo": 39,
+        "X": 713.0,
+        "Z": 832.0,
+        "posX": 73.0,
+        "posZ": -64.0
+      },
+      {
+        "slot_number": 10,
+        "gridXNo": 45,
+        "gridZNo": 36,
+        "X": 891.0,
+        "Z": 148.0,
+        "posX": -5.0,
+        "posZ": 20.0
+      },
+      {
+        "slot_number": 11,
+        "gridXNo": 45,
+        "gridZNo": 37,
+        "X": 900.0,
+        "Z": 316.0,
+        "posX": 4.0,
+        "posZ": -68.0
+      },
+      {
+        "slot_number": 12,
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "X": 810.0,
+        "Z": 721.0,
+        "posX": -86.0,
+        "posZ": 81.0
+      },
+      {
+        "slot_number": 13,
+        "gridXNo": 45,
+        "gridZNo": 39,
+        "X": 840.0,
+        "Z": 950.0,
+        "posX": -56.0,
+        "posZ": 54.0
+      }
+    ],
+    "The Crater": [
+      {
+        "slot_number": 1,
+        "gridXNo": 42,
+        "gridZNo": 36,
+        "X": 221.28,
+        "Z": 16.569999999999993,
+        "posX": 93.28,
+        "posZ": -111.43
+      },
+      {
+        "slot_number": 2,
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "X": 173.0,
+        "Z": 277.0,
+        "posX": 45.0,
+        "posZ": -107.0
+      },
+      {
+        "slot_number": 3,
+        "gridXNo": 42,
+        "gridZNo": 38,
+        "X": 181.0,
+        "Z": 596.0,
+        "posX": 53.0,
+        "posZ": -44.0
+      },
+      {
+        "slot_number": 4,
+        "gridXNo": 42,
+        "gridZNo": 39,
+        "X": 98.0,
+        "Z": 851.0,
+        "posX": -30.0,
+        "posZ": -45.0
+      },
+      {
+        "slot_number": 5,
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "X": 355.0,
+        "Z": 79.0,
+        "posX": -29.0,
+        "posZ": -49.0
+      },
+      {
+        "slot_number": 6,
+        "gridXNo": 43,
+        "gridZNo": 37,
+        "X": 421.57,
+        "Z": 446.69,
+        "posX": 37.57,
+        "posZ": 62.69
+      },
+      {
+        "slot_number": 7,
+        "gridXNo": 43,
+        "gridZNo": 39,
+        "X": 472.99,
+        "Z": 992.707,
+        "posX": 88.99,
+        "posZ": 96.707
+      },
+      {
+        "slot_number": 8,
+        "gridXNo": 44,
+        "gridZNo": 36,
+        "X": 685.0,
+        "Z": 226.0,
+        "posX": 45.0,
+        "posZ": 98.0
+      },
+      {
+        "slot_number": 9,
+        "gridXNo": 44,
+        "gridZNo": 37,
+        "X": 588.0,
+        "Z": 308.0,
+        "posX": -52.0,
+        "posZ": -76.0
+      },
+      {
+        "slot_number": 10,
+        "gridXNo": 44,
+        "gridZNo": 38,
+        "X": 766.0,
+        "Z": 570.0,
+        "posX": 126.0,
+        "posZ": -70.0
+      },
+      {
+        "slot_number": 11,
+        "gridXNo": 45,
+        "gridZNo": 36,
+        "X": 891.0,
+        "Z": 148.0,
+        "posX": -5.0,
+        "posZ": 20.0
+      },
+      {
+        "slot_number": 12,
+        "gridXNo": 45,
+        "gridZNo": 37,
+        "X": 900.0,
+        "Z": 316.0,
+        "posX": 4.0,
+        "posZ": -68.0
+      },
+      {
+        "slot_number": 13,
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "X": 935.0,
+        "Z": 631.0,
+        "posX": 39.0,
+        "posZ": -9.0
+      },
+      {
+        "slot_number": 14,
+        "gridXNo": 45,
+        "gridZNo": 39,
+        "X": 840.0,
+        "Z": 950.0,
+        "posX": -56.0,
+        "posZ": 54.0
+      }
+    ],
+    "Rotted Woods": [
+      {
+        "slot_number": 1,
+        "gridXNo": 42,
+        "gridZNo": 36,
+        "X": 54.0,
+        "Z": 190.0,
+        "posX": -74.0,
+        "posZ": 62.0
+      },
+      {
+        "slot_number": 2,
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "X": 173.0,
+        "Z": 277.0,
+        "posX": 45.0,
+        "posZ": -107.0
+      },
+      {
+        "slot_number": 3,
+        "gridXNo": 42,
+        "gridZNo": 38,
+        "X": 181.0,
+        "Z": 596.0,
+        "posX": 53.0,
+        "posZ": -44.0
+      },
+      {
+        "slot_number": 4,
+        "gridXNo": 42,
+        "gridZNo": 39,
+        "X": 98.0,
+        "Z": 851.0,
+        "posX": -30.0,
+        "posZ": -45.0
+      },
+      {
+        "slot_number": 5,
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "X": 441.0,
+        "Z": 213.0,
+        "posX": 57.0,
+        "posZ": 85.0
+      },
+      {
+        "slot_number": 6,
+        "gridXNo": 43,
+        "gridZNo": 37,
+        "X": 421.57,
+        "Z": 446.69,
+        "posX": 37.57,
+        "posZ": 62.69
+      },
+      {
+        "slot_number": 7,
+        "gridXNo": 43,
+        "gridZNo": 38,
+        "X": 298.0,
+        "Z": 672.0,
+        "posX": -86.0,
+        "posZ": 32.0
+      },
+      {
+        "slot_number": 8,
+        "gridXNo": 43,
+        "gridZNo": 39,
+        "X": 360.0,
+        "Z": 1007.0,
+        "posX": -24.0,
+        "posZ": 111.0
+      },
+      {
+        "slot_number": 9,
+        "gridXNo": 44,
+        "gridZNo": 36,
+        "X": 739.06,
+        "Z": 140.58,
+        "posX": 99.06,
+        "posZ": 12.58
+      },
+      {
+        "slot_number": 10,
+        "gridXNo": 44,
+        "gridZNo": 37,
+        "X": 626.4200000000001,
+        "Z": 412.39,
+        "posX": -13.58,
+        "posZ": 28.39
+      },
+      {
+        "slot_number": 11,
+        "gridXNo": 44,
+        "gridZNo": 38,
+        "X": 766.0,
+        "Z": 570.0,
+        "posX": 126.0,
+        "posZ": -70.0
+      },
+      {
+        "slot_number": 12,
+        "gridXNo": 44,
+        "gridZNo": 39,
+        "X": 713.0,
+        "Z": 832.0,
+        "posX": 73.0,
+        "posZ": -64.0
+      },
+      {
+        "slot_number": 13,
+        "gridXNo": 45,
+        "gridZNo": 36,
+        "X": 949.98,
+        "Z": 220.46,
+        "posX": 53.98,
+        "posZ": 92.46
+      },
+      {
+        "slot_number": 14,
+        "gridXNo": 45,
+        "gridZNo": 37,
+        "X": 921.51,
+        "Z": 358.31,
+        "posX": 25.51,
+        "posZ": -25.69
+      },
+      {
+        "slot_number": 15,
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "X": 935.0,
+        "Z": 631.0,
+        "posX": 39.0,
+        "posZ": -9.0
+      },
+      {
+        "slot_number": 16,
+        "gridXNo": 45,
+        "gridZNo": 39,
+        "X": 840.0,
+        "Z": 950.0,
+        "posX": -56.0,
+        "posZ": 54.0
+      }
+    ],
+    "Noklateo": [
+      {
+        "slot_number": 1,
+        "gridXNo": 42,
+        "gridZNo": 38,
+        "X": 181.0,
+        "Z": 596.0,
+        "posX": 53.0,
+        "posZ": -44.0
+      },
+      {
+        "slot_number": 2,
+        "gridXNo": 42,
+        "gridZNo": 39,
+        "X": 98.0,
+        "Z": 851.0,
+        "posX": -30.0,
+        "posZ": -45.0
+      },
+      {
+        "slot_number": 3,
+        "gridXNo": 43,
+        "gridZNo": 37,
+        "X": 420.38,
+        "Z": 425.32,
+        "posX": 36.38,
+        "posZ": 41.32
+      },
+      {
+        "slot_number": 4,
+        "gridXNo": 43,
+        "gridZNo": 38,
+        "X": 298.0,
+        "Z": 672.0,
+        "posX": -86.0,
+        "posZ": 32.0
+      },
+      {
+        "slot_number": 5,
+        "gridXNo": 43,
+        "gridZNo": 39,
+        "X": 384.0,
+        "Z": 819.0,
+        "posX": 0.0,
+        "posZ": -77.0
+      },
+      {
+        "slot_number": 6,
+        "gridXNo": 44,
+        "gridZNo": 36,
+        "X": 618.0,
+        "Z": 56.0,
+        "posX": -22.0,
+        "posZ": -72.0
+      },
+      {
+        "slot_number": 7,
+        "gridXNo": 44,
+        "gridZNo": 37,
+        "X": 588.0,
+        "Z": 308.0,
+        "posX": -52.0,
+        "posZ": -76.0
+      },
+      {
+        "slot_number": 8,
+        "gridXNo": 44,
+        "gridZNo": 38,
+        "X": 642.0,
+        "Z": 627.0,
+        "posX": 2.0,
+        "posZ": -13.0
+      },
+      {
+        "slot_number": 9,
+        "gridXNo": 44,
+        "gridZNo": 39,
+        "X": 713.0,
+        "Z": 832.0,
+        "posX": 73.0,
+        "posZ": -64.0
+      },
+      {
+        "slot_number": 10,
+        "gridXNo": 45,
+        "gridZNo": 36,
+        "X": 891.0,
+        "Z": 148.0,
+        "posX": -5.0,
+        "posZ": 20.0
+      },
+      {
+        "slot_number": 11,
+        "gridXNo": 45,
+        "gridZNo": 37,
+        "X": 900.0,
+        "Z": 316.0,
+        "posX": 4.0,
+        "posZ": -68.0
+      },
+      {
+        "slot_number": 12,
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "X": 935.0,
+        "Z": 631.0,
+        "posX": 39.0,
+        "posZ": -9.0
+      },
+      {
+        "slot_number": 13,
+        "gridXNo": 45,
+        "gridZNo": 39,
+        "X": 840.0,
+        "Z": 950.0,
+        "posX": -56.0,
+        "posZ": 54.0
+      }
+    ],
+    "Great Hollow": [
+      {
+        "slot_number": 1,
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "X": 138.25,
+        "Z": 392.67,
+        "posX": 10.25,
+        "posZ": 8.67
+      },
+      {
+        "slot_number": 2,
+        "gridXNo": 42,
+        "gridZNo": 38,
+        "X": 234.06,
+        "Z": 722.51,
+        "posX": 106.06,
+        "posZ": 82.51
+      },
+      {
+        "slot_number": 3,
+        "gridXNo": 42,
+        "gridZNo": 39,
+        "X": 199.68,
+        "Z": 826.63,
+        "posX": 71.68,
+        "posZ": -69.37
+      },
+      {
+        "slot_number": 4,
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "X": 470.74,
+        "Z": 110.51,
+        "posX": 86.74,
+        "posZ": -17.49
+      },
+      {
+        "slot_number": 5,
+        "gridXNo": 43,
+        "gridZNo": 37,
+        "X": 425.49,
+        "Z": 397.05,
+        "posX": 41.49,
+        "posZ": 13.05
+      },
+      {
+        "slot_number": 6,
+        "gridXNo": 43,
+        "gridZNo": 38,
+        "X": 323.49,
+        "Z": 727.67,
+        "posX": -60.51,
+        "posZ": 87.67
+      },
+      {
+        "slot_number": 7,
+        "gridXNo": 43,
+        "gridZNo": 39,
+        "X": 278.67,
+        "Z": 804.36,
+        "posX": -105.33,
+        "posZ": -91.64
+      },
+      {
+        "slot_number": 8,
+        "gridXNo": 44,
+        "gridZNo": 36,
+        "X": 640.0,
+        "Z": 128.0,
+        "posX": 0.0,
+        "posZ": 0.0
+      },
+      {
+        "slot_number": 9,
+        "gridXNo": 44,
+        "gridZNo": 37,
+        "X": 640.0,
+        "Z": 384.0,
+        "posX": 0.0,
+        "posZ": 0.0
+      },
+      {
+        "slot_number": 10,
+        "gridXNo": 44,
+        "gridZNo": 38,
+        "X": 651.61,
+        "Z": 532.6,
+        "posX": 11.61,
+        "posZ": -107.4
+      },
+      {
+        "slot_number": 11,
+        "gridXNo": 45,
+        "gridZNo": 36,
+        "X": 821.75,
+        "Z": 209.39,
+        "posX": -74.25,
+        "posZ": 81.39
+      },
+      {
+        "slot_number": 12,
+        "gridXNo": 45,
+        "gridZNo": 37,
+        "X": 808.72,
+        "Z": 464.97,
+        "posX": -87.28,
+        "posZ": 80.97
+      },
+      {
+        "slot_number": 13,
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "X": 933.46,
+        "Z": 548.59,
+        "posX": 37.46,
+        "posZ": -91.41
+      }
+    ]
+  }
+}

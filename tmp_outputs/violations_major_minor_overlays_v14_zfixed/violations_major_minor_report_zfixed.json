@@ -1,0 +1,1521 @@
+{
+  "Limveld": {
+    "map_file": "maps\\Limveld.png",
+    "output_file": "tmp_outputs\\violations_major_minor_overlays_v14_zfixed\\violations_overlay_Limveld_zfixed.png",
+    "violation_count": 9,
+    "violations": [
+      {
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 45.0,
+        "posZ": -107.0,
+        "X": 173.0,
+        "Z": 277.0,
+        "pixelX": 429,
+        "pixelY": 1003,
+        "patternCount": 240,
+        "majors": [
+          "camp",
+          "fort",
+          "great church",
+          "ruins"
+        ],
+        "minors": [
+          "church",
+          "sorcerer's rise",
+          "township"
+        ],
+        "labels": {
+          "Ruins": 124,
+          "Small Camp": 118,
+          "Night Horde": 24,
+          "Great Church": 79,
+          "Camp": 111,
+          "Fort": 89,
+          "Church": 65,
+          "Sorcerer's Rise": 50,
+          "Township": 7,
+          "Fortified Village": 41,
+          "Swamp": 36
+        },
+        "color": [
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "gridXNo": 42,
+        "gridZNo": 38,
+        "posX": 53.0,
+        "posZ": -44.0,
+        "X": 181.0,
+        "Z": 596.0,
+        "pixelX": 437,
+        "pixelY": 684,
+        "patternCount": 240,
+        "majors": [
+          "camp",
+          "fort",
+          "great church",
+          "ruins"
+        ],
+        "minors": [
+          "church",
+          "sorcerer's rise",
+          "township"
+        ],
+        "labels": {
+          "Camp": 48,
+          "Church": 65,
+          "Field Boss": 127,
+          "Night Horde": 24,
+          "Great Church": 54,
+          "Field Boss Red": 113,
+          "Sorcerer's Rise": 49,
+          "Small Camp": 118,
+          "Ruins": 53,
+          "Township": 8,
+          "Fort": 49,
+          "Event": 31,
+          "": 27,
+          "Fortified Village": 22,
+          "Swamp": 14
+        },
+        "color": [
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": -29.0,
+        "posZ": -49.0,
+        "X": 355.0,
+        "Z": 79.0,
+        "pixelX": 611,
+        "pixelY": 1201,
+        "patternCount": 240,
+        "majors": [
+          "camp",
+          "fort",
+          "great church",
+          "ruins"
+        ],
+        "minors": [
+          "church",
+          "sorcerer's rise",
+          "township"
+        ],
+        "labels": {
+          "Ruins": 68,
+          "Sorcerer's Rise": 59,
+          "Field Boss Red": 107,
+          "Night Horde": 24,
+          "Church": 79,
+          "Field Boss": 133,
+          "Camp": 80,
+          "Fort": 27,
+          "Small Camp": 90,
+          "Township": 12,
+          "Great Church": 23,
+          "Event": 52,
+          "Meteor Strike": 2,
+          "Swamp": 19,
+          "": 40,
+          "Fortified Village": 21
+        },
+        "color": [
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "gridXNo": 44,
+        "gridZNo": 36,
+        "posX": 45.0,
+        "posZ": 98.0,
+        "X": 685.0,
+        "Z": 226.0,
+        "pixelX": 941,
+        "pixelY": 1054,
+        "patternCount": 240,
+        "majors": [
+          "camp",
+          "fort",
+          "great church",
+          "ruins"
+        ],
+        "minors": [
+          "church",
+          "sorcerer's rise",
+          "township"
+        ],
+        "labels": {
+          "Great Church": 42,
+          "Night Horde": 24,
+          "Evergaol": 240,
+          "Small Camp": 123,
+          "Camp": 33,
+          "Ruins": 74,
+          "Church": 67,
+          "Fort": 52,
+          "Sorcerer's Rise": 41,
+          "Township": 9,
+          "Event": 10,
+          "Swamp": 18,
+          "Fortified Village": 21
+        },
+        "color": [
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "gridXNo": 44,
+        "gridZNo": 37,
+        "posX": -52.0,
+        "posZ": -76.0,
+        "X": 588.0,
+        "Z": 308.0,
+        "pixelX": 844,
+        "pixelY": 972,
+        "patternCount": 240,
+        "majors": [
+          "camp",
+          "fort",
+          "great church",
+          "ruins"
+        ],
+        "minors": [
+          "church",
+          "sorcerer's rise",
+          "township"
+        ],
+        "labels": {
+          "Small Camp": 104,
+          "Night Horde": 24,
+          "Ruins": 86,
+          "Sorcerer's Rise": 44,
+          "Fort": 24,
+          "Township": 9,
+          "Great Church": 27,
+          "Camp": 54,
+          "Church": 83,
+          "": 22,
+          "Event": 32,
+          "Swamp": 25,
+          "Fortified Village": 22
+        },
+        "color": [
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "gridXNo": 44,
+        "gridZNo": 39,
+        "posX": 73.0,
+        "posZ": -64.0,
+        "X": 713.0,
+        "Z": 832.0,
+        "pixelX": 969,
+        "pixelY": 448,
+        "patternCount": 240,
+        "majors": [
+          "camp",
+          "fort",
+          "great church",
+          "ruins"
+        ],
+        "minors": [
+          "church",
+          "sorcerer's rise",
+          "township"
+        ],
+        "labels": {
+          "Camp": 53,
+          "Field Boss Red": 93,
+          "Night Horde": 24,
+          "Sorcerer's Rise": 32,
+          "Church": 77,
+          "Ruins": 75,
+          "Field Boss": 147,
+          "Great Church": 44,
+          "Small Camp": 124,
+          "Fort": 34,
+          "Event": 45,
+          "Township": 7,
+          "": 27,
+          "Swamp": 19,
+          "Fortified Village": 15
+        },
+        "color": [
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "gridXNo": 45,
+        "gridZNo": 36,
+        "posX": -102.93,
+        "posZ": -46.38,
+        "X": 793.0699999999999,
+        "Z": 81.62,
+        "pixelX": 1049,
+        "pixelY": 1198,
+        "patternCount": 240,
+        "majors": [
+          "camp",
+          "fort",
+          "great church",
+          "ruins"
+        ],
+        "minors": [
+          "church"
+        ],
+        "labels": {
+          "Field Boss": 149,
+          "Night Horde": 24,
+          "Ruins": 63,
+          "Fort": 32,
+          "Camp": 68,
+          "Field Boss Red": 91,
+          "Great Church": 32,
+          "Event": 37,
+          "Church": 2,
+          "Fortified Village": 20,
+          "": 27,
+          "Swamp": 23
+        },
+        "color": [
+          0,
+          229,
+          255
+        ]
+      },
+      {
+        "gridXNo": 45,
+        "gridZNo": 37,
+        "posX": 86.0,
+        "posZ": 4.0,
+        "X": 982.0,
+        "Z": 388.0,
+        "pixelX": 1238,
+        "pixelY": 892,
+        "patternCount": 240,
+        "majors": [
+          "camp",
+          "fort",
+          "great church",
+          "ruins"
+        ],
+        "minors": [
+          "church",
+          "sorcerer's rise",
+          "township"
+        ],
+        "labels": {
+          "Small Camp": 131,
+          "Field Boss Red": 101,
+          "Night Horde": 24,
+          "Ruins": 73,
+          "Camp": 40,
+          "Great Church": 46,
+          "Field Boss": 139,
+          "Church": 49,
+          "Sorcerer's Rise": 50,
+          "Fort": 38,
+          "Event": 24,
+          "Township": 10,
+          "": 28,
+          "Fortified Village": 26,
+          "Swamp": 16
+        },
+        "color": [
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 39.0,
+        "posZ": -9.0,
+        "X": 935.0,
+        "Z": 631.0,
+        "pixelX": 1191,
+        "pixelY": 649,
+        "patternCount": 240,
+        "majors": [
+          "camp",
+          "fort",
+          "great church",
+          "ruins"
+        ],
+        "minors": [
+          "church",
+          "sorcerer's rise",
+          "township"
+        ],
+        "labels": {
+          "Camp": 72,
+          "Church": 131,
+          "Small Camp": 249,
+          "Night Horde": 24,
+          "Evergaol": 240,
+          "Ruins": 65,
+          "Township": 17,
+          "Sorcerer's Rise": 83,
+          "Fort": 31,
+          "Great Church": 23,
+          "Swamp": 20,
+          "Fortified Village": 29
+        },
+        "color": [
+          255,
+          255,
+          255
+        ]
+      }
+    ]
+  },
+  "Mountaintop": {
+    "map_file": "maps\\Mountaintop.png",
+    "output_file": "tmp_outputs\\violations_major_minor_overlays_v14_zfixed\\violations_overlay_Mountaintop_zfixed.png",
+    "violation_count": 7,
+    "violations": [
+      {
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 108.0,
+        "posZ": 50.0,
+        "X": 236.0,
+        "Z": 434.0,
+        "pixelX": 492,
+        "pixelY": 846,
+        "patternCount": 50,
+        "majors": [
+          "camp",
+          "fort",
+          "great church",
+          "ruins"
+        ],
+        "minors": [
+          "church",
+          "sorcerer's rise",
+          "township"
+        ],
+        "labels": {
+          "Great Church": 22,
+          "Ruins": 27,
+          "Church": 21,
+          "Night Horde": 8,
+          "Fort": 19,
+          "Sorcerer's Rise": 6,
+          "Small Camp": 20,
+          "Camp": 26,
+          "Township": 2,
+          "Fortified Village": 3,
+          "Swamp": 3
+        },
+        "color": [
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": -29.0,
+        "posZ": -49.0,
+        "X": 355.0,
+        "Z": 79.0,
+        "pixelX": 611,
+        "pixelY": 1201,
+        "patternCount": 50,
+        "majors": [
+          "camp",
+          "fort",
+          "great church",
+          "ruins"
+        ],
+        "minors": [
+          "church",
+          "sorcerer's rise",
+          "township"
+        ],
+        "labels": {
+          "Fort": 8,
+          "Sorcerer's Rise": 6,
+          "Field Boss Red": 25,
+          "Night Horde": 7,
+          "Camp": 11,
+          "Small Camp": 20,
+          "Ruins": 17,
+          "Great Church": 6,
+          "Township": 2,
+          "Meteor Strike": 1,
+          "Church": 22,
+          "Field Boss": 25,
+          "Event": 21,
+          "Fortified Village": 3,
+          "Swamp": 4,
+          "": 2
+        },
+        "color": [
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "gridXNo": 44,
+        "gridZNo": 36,
+        "posX": 45.0,
+        "posZ": 98.0,
+        "X": 685.0,
+        "Z": 226.0,
+        "pixelX": 941,
+        "pixelY": 1054,
+        "patternCount": 50,
+        "majors": [
+          "camp",
+          "fort",
+          "great church",
+          "ruins"
+        ],
+        "minors": [
+          "church",
+          "sorcerer's rise",
+          "township"
+        ],
+        "labels": {
+          "Camp": 13,
+          "Church": 15,
+          "Night Horde": 8,
+          "Evergaol": 50,
+          "Fort": 14,
+          "Small Camp": 26,
+          "Great Church": 10,
+          "Event": 2,
+          "Ruins": 8,
+          "Township": 3,
+          "Sorcerer's Rise": 6,
+          "Swamp": 2,
+          "Fortified Village": 3
+        },
+        "color": [
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "gridXNo": 44,
+        "gridZNo": 37,
+        "posX": 75.0,
+        "posZ": -9.0,
+        "X": 715.0,
+        "Z": 375.0,
+        "pixelX": 971,
+        "pixelY": 905,
+        "patternCount": 50,
+        "majors": [
+          "camp",
+          "fort",
+          "great church",
+          "ruins"
+        ],
+        "minors": [
+          "church",
+          "sorcerer's rise",
+          "township"
+        ],
+        "labels": {
+          "Great Church": 7,
+          "Small Camp": 19,
+          "Night Horde": 9,
+          "Ruins": 12,
+          "Sorcerer's Rise": 8,
+          "Camp": 19,
+          "Church": 21,
+          "Township": 2,
+          "Event": 10,
+          "Fort": 8,
+          "Swamp": 3,
+          "": 1,
+          "Fortified Village": 1
+        },
+        "color": [
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "gridXNo": 44,
+        "gridZNo": 39,
+        "posX": 73.0,
+        "posZ": -64.0,
+        "X": 713.0,
+        "Z": 832.0,
+        "pixelX": 969,
+        "pixelY": 448,
+        "patternCount": 50,
+        "majors": [
+          "camp",
+          "fort",
+          "great church",
+          "ruins"
+        ],
+        "minors": [
+          "church",
+          "sorcerer's rise",
+          "township"
+        ],
+        "labels": {
+          "Camp": 9,
+          "Small Camp": 17,
+          "Field Boss Red": 23,
+          "Night Horde": 9,
+          "Church": 19,
+          "Field Boss": 27,
+          "Great Church": 12,
+          "Fort": 13,
+          "Sorcerer's Rise": 11,
+          "Township": 3,
+          "Ruins": 10,
+          "Event": 15,
+          "Swamp": 2,
+          "": 1,
+          "Fortified Village": 4
+        },
+        "color": [
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "gridXNo": 45,
+        "gridZNo": 37,
+        "posX": 4.0,
+        "posZ": -68.0,
+        "X": 900.0,
+        "Z": 316.0,
+        "pixelX": 1156,
+        "pixelY": 964,
+        "patternCount": 50,
+        "majors": [
+          "camp",
+          "fort",
+          "great church",
+          "ruins"
+        ],
+        "minors": [
+          "church",
+          "sorcerer's rise",
+          "township"
+        ],
+        "labels": {
+          "Camp": 5,
+          "Church": 13,
+          "Field Boss": 32,
+          "Night Horde": 8,
+          "Field Boss Red": 18,
+          "Small Camp": 29,
+          "Sorcerer's Rise": 7,
+          "Fort": 11,
+          "Ruins": 17,
+          "Event": 8,
+          "Great Church": 12,
+          "": 1,
+          "Fortified Village": 3,
+          "Township": 1,
+          "Swamp": 2
+        },
+        "color": [
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": -86.0,
+        "posZ": 81.0,
+        "X": 810.0,
+        "Z": 721.0,
+        "pixelX": 1066,
+        "pixelY": 559,
+        "patternCount": 50,
+        "majors": [
+          "camp",
+          "fort",
+          "great church",
+          "ruins"
+        ],
+        "minors": [
+          "church",
+          "sorcerer's rise",
+          "township"
+        ],
+        "labels": {
+          "Church": 28,
+          "Night Horde": 7,
+          "Evergaol": 50,
+          "Fort": 9,
+          "Small Camp": 52,
+          "Great Church": 6,
+          "Ruins": 12,
+          "Camp": 18,
+          "Sorcerer's Rise": 18,
+          "Township": 2,
+          "Fortified Village": 3,
+          "Swamp": 2
+        },
+        "color": [
+          255,
+          255,
+          255
+        ]
+      }
+    ]
+  },
+  "Noklateo": {
+    "map_file": "maps\\Noklateo.png",
+    "output_file": "tmp_outputs\\violations_major_minor_overlays_v14_zfixed\\violations_overlay_Noklateo_zfixed.png",
+    "violation_count": 6,
+    "violations": [
+      {
+        "gridXNo": 42,
+        "gridZNo": 38,
+        "posX": 53.0,
+        "posZ": -44.0,
+        "X": 181.0,
+        "Z": 596.0,
+        "pixelX": 437,
+        "pixelY": 684,
+        "patternCount": 50,
+        "majors": [
+          "camp",
+          "fort",
+          "great church",
+          "ruins"
+        ],
+        "minors": [
+          "church",
+          "sorcerer's rise",
+          "township"
+        ],
+        "labels": {
+          "Fort": 8,
+          "Church": 23,
+          "Field Boss": 26,
+          "Night Horde": 8,
+          "Ruins": 17,
+          "Field Boss Red": 24,
+          "Great Church": 18,
+          "Small Camp": 21,
+          "Event": 10,
+          "Township": 1,
+          "Sorcerer's Rise": 5,
+          "Camp": 6,
+          "": 3,
+          "Fortified Village": 1
+        },
+        "color": [
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "gridXNo": 44,
+        "gridZNo": 36,
+        "posX": -22.0,
+        "posZ": -72.0,
+        "X": 618.0,
+        "Z": 56.0,
+        "pixelX": 874,
+        "pixelY": 1224,
+        "patternCount": 50,
+        "majors": [
+          "camp",
+          "fort",
+          "great church",
+          "ruins"
+        ],
+        "minors": [
+          "church",
+          "sorcerer's rise",
+          "township"
+        ],
+        "labels": {
+          "Church": 26,
+          "Night Horde": 9,
+          "Evergaol": 50,
+          "Ruins": 9,
+          "Great Church": 12,
+          "Small Camp": 15,
+          "Fort": 12,
+          "Camp": 13,
+          "Sorcerer's Rise": 7,
+          "Event": 3,
+          "Township": 2,
+          "Fortified Village": 4
+        },
+        "color": [
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "gridXNo": 44,
+        "gridZNo": 37,
+        "posX": -52.0,
+        "posZ": -76.0,
+        "X": 588.0,
+        "Z": 308.0,
+        "pixelX": 844,
+        "pixelY": 972,
+        "patternCount": 50,
+        "majors": [
+          "camp",
+          "fort",
+          "great church",
+          "ruins"
+        ],
+        "minors": [
+          "church",
+          "sorcerer's rise",
+          "township"
+        ],
+        "labels": {
+          "Small Camp": 20,
+          "Night Horde": 8,
+          "Fort": 8,
+          "Ruins": 13,
+          "Church": 15,
+          "Great Church": 9,
+          "Camp": 12,
+          "Sorcerer's Rise": 8,
+          "Event": 10,
+          "Township": 7,
+          "Swamp": 4,
+          "": 3,
+          "Fortified Village": 4
+        },
+        "color": [
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "gridXNo": 44,
+        "gridZNo": 39,
+        "posX": 73.0,
+        "posZ": -64.0,
+        "X": 713.0,
+        "Z": 832.0,
+        "pixelX": 969,
+        "pixelY": 448,
+        "patternCount": 50,
+        "majors": [
+          "camp",
+          "fort",
+          "great church",
+          "ruins"
+        ],
+        "minors": [
+          "church",
+          "sorcerer's rise",
+          "township"
+        ],
+        "labels": {
+          "Camp": 12,
+          "Sorcerer's Rise": 7,
+          "Field Boss": 36,
+          "Night Horde": 5,
+          "Fort": 6,
+          "Small Camp": 19,
+          "Field Boss Red": 14,
+          "Event": 13,
+          "Great Church": 14,
+          "Ruins": 12,
+          "Church": 23,
+          "Fortified Village": 4,
+          "": 3,
+          "Swamp": 2,
+          "Township": 1
+        },
+        "color": [
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "gridXNo": 45,
+        "gridZNo": 37,
+        "posX": 4.0,
+        "posZ": -68.0,
+        "X": 900.0,
+        "Z": 316.0,
+        "pixelX": 1156,
+        "pixelY": 964,
+        "patternCount": 50,
+        "majors": [
+          "camp",
+          "fort",
+          "great church",
+          "ruins"
+        ],
+        "minors": [
+          "church",
+          "sorcerer's rise",
+          "township"
+        ],
+        "labels": {
+          "Camp": 11,
+          "Field Boss Red": 21,
+          "Night Horde": 7,
+          "Small Camp": 20,
+          "Great Church": 13,
+          "Church": 14,
+          "Field Boss": 29,
+          "": 4,
+          "Sorcerer's Rise": 13,
+          "Ruins": 15,
+          "Township": 3,
+          "Event": 10,
+          "Fort": 8,
+          "Fortified Village": 2
+        },
+        "color": [
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 39.0,
+        "posZ": -9.0,
+        "X": 935.0,
+        "Z": 631.0,
+        "pixelX": 1191,
+        "pixelY": 649,
+        "patternCount": 50,
+        "majors": [
+          "camp",
+          "fort",
+          "great church",
+          "ruins"
+        ],
+        "minors": [
+          "church",
+          "sorcerer's rise",
+          "township"
+        ],
+        "labels": {
+          "Ruins": 13,
+          "Church": 35,
+          "Night Horde": 8,
+          "Evergaol": 50,
+          "Township": 12,
+          "Camp": 15,
+          "Small Camp": 30,
+          "Sorcerer's Rise": 23,
+          "Fort": 6,
+          "Great Church": 10,
+          "": 1,
+          "Swamp": 2,
+          "Fortified Village": 3
+        },
+        "color": [
+          255,
+          255,
+          255
+        ]
+      }
+    ]
+  },
+  "Rotted Woods": {
+    "map_file": "maps\\Rotted_Woods.png",
+    "output_file": "tmp_outputs\\violations_major_minor_overlays_v14_zfixed\\violations_overlay_Rotted_Woods_zfixed.png",
+    "violation_count": 5,
+    "violations": [
+      {
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 45.0,
+        "posZ": -107.0,
+        "X": 173.0,
+        "Z": 277.0,
+        "pixelX": 429,
+        "pixelY": 1003,
+        "patternCount": 50,
+        "majors": [
+          "camp",
+          "fort",
+          "great church",
+          "ruins"
+        ],
+        "minors": [
+          "church",
+          "sorcerer's rise",
+          "township"
+        ],
+        "labels": {
+          "Camp": 34,
+          "Ruins": 19,
+          "Sorcerer's Rise": 17,
+          "Small Camp": 22,
+          "Fort": 22,
+          "Great Church": 16,
+          "Night Horde": 3,
+          "Church": 10,
+          "Township": 1,
+          "Fortified Village": 5,
+          "Swamp": 4
+        },
+        "color": [
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "gridXNo": 42,
+        "gridZNo": 38,
+        "posX": 53.0,
+        "posZ": -44.0,
+        "X": 181.0,
+        "Z": 596.0,
+        "pixelX": 437,
+        "pixelY": 684,
+        "patternCount": 50,
+        "majors": [
+          "camp",
+          "fort",
+          "great church",
+          "ruins"
+        ],
+        "minors": [
+          "church",
+          "sorcerer's rise",
+          "township"
+        ],
+        "labels": {
+          "Ruins": 17,
+          "Field Boss": 39,
+          "Sorcerer's Rise": 10,
+          "Fort": 9,
+          "Church": 17,
+          "Camp": 9,
+          "Field Boss Red": 11,
+          "Small Camp": 19,
+          "Night Horde": 3,
+          "Event": 6,
+          "Great Church": 13,
+          "Township": 4,
+          "": 3,
+          "Fortified Village": 1,
+          "Swamp": 1
+        },
+        "color": [
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 57.0,
+        "posZ": 85.0,
+        "X": 441.0,
+        "Z": 213.0,
+        "pixelX": 697,
+        "pixelY": 1067,
+        "patternCount": 50,
+        "majors": [
+          "camp",
+          "fort",
+          "great church",
+          "ruins"
+        ],
+        "minors": [
+          "church",
+          "sorcerer's rise",
+          "township"
+        ],
+        "labels": {
+          "Church": 24,
+          "Field Boss": 46,
+          "Fort": 8,
+          "Ruins": 15,
+          "Field Boss Red": 4,
+          "Small Camp": 15,
+          "Camp": 16,
+          "Night Horde": 3,
+          "Great Church": 8,
+          "Event": 16,
+          "Meteor Strike": 1,
+          "Township": 5,
+          "Sorcerer's Rise": 6,
+          "": 6,
+          "Swamp": 2
+        },
+        "color": [
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "gridXNo": 44,
+        "gridZNo": 39,
+        "posX": 73.0,
+        "posZ": -64.0,
+        "X": 713.0,
+        "Z": 832.0,
+        "pixelX": 969,
+        "pixelY": 448,
+        "patternCount": 50,
+        "majors": [
+          "camp",
+          "fort",
+          "great church",
+          "ruins"
+        ],
+        "minors": [
+          "church",
+          "sorcerer's rise",
+          "township"
+        ],
+        "labels": {
+          "Camp": 13,
+          "Church": 24,
+          "Field Boss": 38,
+          "Great Church": 13,
+          "Sorcerer's Rise": 6,
+          "Night Horde": 2,
+          "Fort": 10,
+          "Ruins": 11,
+          "Field Boss Red": 12,
+          "Event": 11,
+          "Small Camp": 19,
+          "Township": 1,
+          "": 3,
+          "Fortified Village": 1,
+          "Swamp": 2
+        },
+        "color": [
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 39.0,
+        "posZ": -9.0,
+        "X": 935.0,
+        "Z": 631.0,
+        "pixelX": 1191,
+        "pixelY": 649,
+        "patternCount": 50,
+        "majors": [
+          "camp",
+          "fort",
+          "great church",
+          "ruins"
+        ],
+        "minors": [
+          "church",
+          "sorcerer's rise",
+          "township"
+        ],
+        "labels": {
+          "Ruins": 14,
+          "Small Camp": 35,
+          "Evergaol": 50,
+          "Fort": 9,
+          "Township": 10,
+          "Great Church": 10,
+          "Sorcerer's Rise": 22,
+          "Night Horde": 2,
+          "Camp": 10,
+          "Church": 33,
+          "Fortified Village": 5,
+          "Swamp": 2
+        },
+        "color": [
+          255,
+          255,
+          255
+        ]
+      }
+    ]
+  },
+  "The Crater": {
+    "map_file": "maps\\The_Crater.png",
+    "output_file": "tmp_outputs\\violations_major_minor_overlays_v14_zfixed\\violations_overlay_The_Crater_zfixed.png",
+    "violation_count": 7,
+    "violations": [
+      {
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 45.0,
+        "posZ": -107.0,
+        "X": 173.0,
+        "Z": 277.0,
+        "pixelX": 429,
+        "pixelY": 1003,
+        "patternCount": 50,
+        "majors": [
+          "camp",
+          "fort",
+          "great church",
+          "ruins"
+        ],
+        "minors": [
+          "church",
+          "sorcerer's rise",
+          "township"
+        ],
+        "labels": {
+          "Fort": 24,
+          "Camp": 13,
+          "Township": 5,
+          "Great Church": 26,
+          "Ruins": 27,
+          "Church": 15,
+          "Small Camp": 22,
+          "Sorcerer's Rise": 8,
+          "Night Horde": 6,
+          "Day 1": 1,
+          "Swamp": 4,
+          "Fortified Village": 5
+        },
+        "color": [
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "gridXNo": 42,
+        "gridZNo": 38,
+        "posX": 53.0,
+        "posZ": -44.0,
+        "X": 181.0,
+        "Z": 596.0,
+        "pixelX": 437,
+        "pixelY": 684,
+        "patternCount": 50,
+        "majors": [
+          "camp",
+          "fort",
+          "great church",
+          "ruins"
+        ],
+        "minors": [
+          "church",
+          "sorcerer's rise",
+          "township"
+        ],
+        "labels": {
+          "Ruins": 16,
+          "Small Camp": 25,
+          "Field Boss Red": 27,
+          "Camp": 9,
+          "Fort": 11,
+          "Church": 17,
+          "Great Church": 9,
+          "Field Boss": 23,
+          "Night Horde": 3,
+          "Event": 9,
+          "Sorcerer's Rise": 6,
+          "Township": 2,
+          "Fortified Village": 3,
+          "": 3,
+          "Swamp": 2
+        },
+        "color": [
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": -29.0,
+        "posZ": -49.0,
+        "X": 355.0,
+        "Z": 79.0,
+        "pixelX": 611,
+        "pixelY": 1201,
+        "patternCount": 50,
+        "majors": [
+          "camp",
+          "fort",
+          "great church",
+          "ruins"
+        ],
+        "minors": [
+          "church",
+          "sorcerer's rise",
+          "township"
+        ],
+        "labels": {
+          "Ruins": 17,
+          "Church": 22,
+          "Field Boss Red": 29,
+          "Sorcerer's Rise": 8,
+          "Field Boss": 21,
+          "Camp": 11,
+          "Night Horde": 5,
+          "Township": 3,
+          "Fort": 6,
+          "Small Camp": 17,
+          "Great Church": 7,
+          "Event": 12,
+          "Fortified Village": 4,
+          "": 6,
+          "Swamp": 5
+        },
+        "color": [
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "gridXNo": 44,
+        "gridZNo": 36,
+        "posX": 45.0,
+        "posZ": 98.0,
+        "X": 685.0,
+        "Z": 226.0,
+        "pixelX": 941,
+        "pixelY": 1054,
+        "patternCount": 50,
+        "majors": [
+          "camp",
+          "fort",
+          "great church",
+          "ruins"
+        ],
+        "minors": [
+          "church",
+          "sorcerer's rise",
+          "township"
+        ],
+        "labels": {
+          "Fort": 17,
+          "Small Camp": 26,
+          "Evergaol": 50,
+          "Ruins": 13,
+          "Church": 16,
+          "Night Horde": 6,
+          "Sorcerer's Rise": 6,
+          "Event": 4,
+          "Great Church": 13,
+          "Township": 2,
+          "Camp": 4,
+          "Swamp": 2,
+          "Fortified Village": 1
+        },
+        "color": [
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "gridXNo": 44,
+        "gridZNo": 37,
+        "posX": -52.0,
+        "posZ": -76.0,
+        "X": 588.0,
+        "Z": 308.0,
+        "pixelX": 844,
+        "pixelY": 972,
+        "patternCount": 50,
+        "majors": [
+          "camp",
+          "fort",
+          "great church",
+          "ruins"
+        ],
+        "minors": [
+          "church",
+          "sorcerer's rise",
+          "township"
+        ],
+        "labels": {
+          "Church": 21,
+          "Great Church": 9,
+          "Fort": 8,
+          "Small Camp": 22,
+          "Ruins": 16,
+          "Night Horde": 5,
+          "Camp": 11,
+          "Event": 6,
+          "Township": 4,
+          "Sorcerer's Rise": 3,
+          "Swamp": 3,
+          "": 5,
+          "Fortified Village": 1
+        },
+        "color": [
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "gridXNo": 45,
+        "gridZNo": 37,
+        "posX": 4.0,
+        "posZ": -68.0,
+        "X": 900.0,
+        "Z": 316.0,
+        "pixelX": 1156,
+        "pixelY": 964,
+        "patternCount": 50,
+        "majors": [
+          "camp",
+          "fort",
+          "great church",
+          "ruins"
+        ],
+        "minors": [
+          "church",
+          "sorcerer's rise",
+          "township"
+        ],
+        "labels": {
+          "Ruins": 12,
+          "Small Camp": 21,
+          "Field Boss": 23,
+          "Church": 16,
+          "Field Boss Red": 27,
+          "Camp": 10,
+          "Township": 2,
+          "Night Horde": 6,
+          "Event": 6,
+          "Fort": 10,
+          "Sorcerer's Rise": 10,
+          "Great Church": 13,
+          "Fortified Village": 3,
+          "": 3,
+          "Swamp": 2
+        },
+        "color": [
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 39.0,
+        "posZ": -9.0,
+        "X": 935.0,
+        "Z": 631.0,
+        "pixelX": 1191,
+        "pixelY": 649,
+        "patternCount": 50,
+        "majors": [
+          "camp",
+          "fort",
+          "great church",
+          "ruins"
+        ],
+        "minors": [
+          "church",
+          "sorcerer's rise",
+          "township"
+        ],
+        "labels": {
+          "Great Church": 11,
+          "Church": 31,
+          "Sorcerer's Rise": 20,
+          "Evergaol": 50,
+          "Ruins": 11,
+          "Small Camp": 42,
+          "Camp": 12,
+          "Night Horde": 6,
+          "Fort": 5,
+          "Township": 7,
+          "": 2,
+          "Swamp": 5,
+          "Fortified Village": 4
+        },
+        "color": [
+          255,
+          255,
+          255
+        ]
+      }
+    ]
+  },
+  "Great Hollow": {
+    "map_file": "maps\\Great_Hollow.png",
+    "output_file": "tmp_outputs\\violations_major_minor_overlays_v14_zfixed\\violations_overlay_Great_Hollow_zfixed.png",
+    "violation_count": 1,
+    "violations": [
+      {
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 86.74,
+        "posZ": -17.49,
+        "X": 470.74,
+        "Z": 110.51,
+        "pixelX": 727,
+        "pixelY": 1169,
+        "patternCount": 80,
+        "majors": [
+          "great church"
+        ],
+        "minors": [
+          "church",
+          "sorcerer's rise"
+        ],
+        "labels": {
+          "Great Church": 80,
+          "Church": 38,
+          "": 38,
+          "Sorcerer's Rise": 24,
+          "Event": 15
+        },
+        "color": [
+          255,
+          140,
+          0
+        ]
+      }
+    ]
+  },
+  "contact_sheet": "tmp_outputs\\violations_major_minor_overlays_v14_zfixed\\violations_overlay_all_maps_contact_sheet_zfixed.png"
+}

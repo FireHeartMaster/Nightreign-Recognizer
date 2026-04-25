@@ -74,10 +74,10 @@
     {
       "type": "Camp",
       "icon": "Camp",
-      "x": 1196.0,
-      "y": 543.0,
-      "x_norm": 0.7786458333333334,
-      "y_norm": 0.353515625,
+      "x": 1191.0,
+      "y": 649.0,
+      "x_norm": 0.775390625,
+      "y_norm": 0.4225260416666667,
       "text": "Royal Army Knights",
       "source": "row_item",
       "source_id": 4409
@@ -140,10 +140,10 @@
     {
       "type": "Church",
       "icon": "Church",
-      "x": 1191.0,
-      "y": 649.0,
-      "x_norm": 0.775390625,
-      "y_norm": 0.4225260416666667,
+      "x": 1196.0,
+      "y": 543.0,
+      "x_norm": 0.7786458333333334,
+      "y_norm": 0.353515625,
       "text": "Dogs",
       "source": "row_item",
       "source_id": 4416
@@ -482,9 +482,9 @@
       "type": "text",
       "icon": "",
       "x": 20.0,
-      "y": 20.0,
+      "y": 40.0,
       "x_norm": 0.013020833333333334,
-      "y_norm": 0.013020833333333334,
+      "y_norm": 0.026041666666666668,
       "text": "Pattern 92 - Limveld",
       "source": "title",
       "source_id": 92
@@ -558,10 +558,10 @@
     {
       "type": "text",
       "icon": "",
-      "x": 1196.0,
-      "y": 543.0,
-      "x_norm": 0.7786458333333334,
-      "y_norm": 0.353515625,
+      "x": 1191.0,
+      "y": 649.0,
+      "x_norm": 0.775390625,
+      "y_norm": 0.4225260416666667,
       "text": "Royal Army Knights",
       "source": "row_item",
       "source_id": 4409

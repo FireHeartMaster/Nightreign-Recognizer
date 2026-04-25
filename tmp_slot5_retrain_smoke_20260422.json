@@ -1,0 +1,135 @@
+{
+  "models": {
+    "old": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5_userlabels_panel6_iso\\slot5_status_cnn_userlabels_panel6_iso.pt",
+    "new": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_5_userlabels_panel6_iso\\slot5_status_cnn_userlabels_panel6_iso_ghslot5_3000x3_20260422.pt"
+  },
+  "labeled_panel_crop_smoke": {
+    "count": 6,
+    "old_correct": 6,
+    "new_correct": 1,
+    "old_accuracy": 1.0,
+    "new_accuracy": 0.16666666666666666,
+    "rows": [
+      {
+        "image": "1115_panel_crop.png",
+        "gt": "Sorcerer_s_Rise",
+        "old_pred": "Sorcerer_s_Rise",
+        "old_conf": 0.9997425675392151,
+        "new_pred": "Sorcerer_s_Rise",
+        "new_conf": 0.9999889135360718
+      },
+      {
+        "image": "1119_panel_crop.png",
+        "gt": "Church",
+        "old_pred": "Church",
+        "old_conf": 0.9903201460838318,
+        "new_pred": "Sorcerer_s_Rise",
+        "new_conf": 0.999988317489624
+      },
+      {
+        "image": "1120_panel_crop.png",
+        "gt": "Church",
+        "old_pred": "Church",
+        "old_conf": 0.9966369867324829,
+        "new_pred": "empty",
+        "new_conf": 0.9999997615814209
+      },
+      {
+        "image": "1128_panel_crop.png",
+        "gt": "empty",
+        "old_pred": "empty",
+        "old_conf": 0.9999988079071045,
+        "new_pred": "Church",
+        "new_conf": 0.999930739402771
+      },
+      {
+        "image": "1175_panel_crop.png",
+        "gt": "empty",
+        "old_pred": "empty",
+        "old_conf": 0.9999988079071045,
+        "new_pred": "Church",
+        "new_conf": 0.999930739402771
+      },
+      {
+        "image": "1185_panel_crop.png",
+        "gt": "Church",
+        "old_pred": "Church",
+        "old_conf": 0.9999873638153076,
+        "new_pred": "Sorcerer_s_Rise",
+        "new_conf": 0.9999891519546509
+      }
+    ]
+  },
+  "full_screenshot_smoke_10": [
+    {
+      "image": "1102.png",
+      "old_pred": "empty",
+      "old_conf": 0.6240997910499573,
+      "new_pred": "empty",
+      "new_conf": 0.9987071752548218
+    },
+    {
+      "image": "1115.png",
+      "old_pred": "Sorcerer_s_Rise",
+      "old_conf": 0.9997425675392151,
+      "new_pred": "Sorcerer_s_Rise",
+      "new_conf": 0.9999889135360718
+    },
+    {
+      "image": "1119.png",
+      "old_pred": "Church",
+      "old_conf": 0.9903201460838318,
+      "new_pred": "Sorcerer_s_Rise",
+      "new_conf": 0.999988317489624
+    },
+    {
+      "image": "1120.png",
+      "old_pred": "Church",
+      "old_conf": 0.9966369867324829,
+      "new_pred": "empty",
+      "new_conf": 0.9999997615814209
+    },
+    {
+      "image": "1125.png",
+      "old_pred": "Church",
+      "old_conf": 0.9964123368263245,
+      "new_pred": "empty",
+      "new_conf": 0.9999998807907104
+    },
+    {
+      "image": "1128.png",
+      "old_pred": "empty",
+      "old_conf": 0.9999988079071045,
+      "new_pred": "Church",
+      "new_conf": 0.999930739402771
+    },
+    {
+      "image": "1175.png",
+      "old_pred": "empty",
+      "old_conf": 0.9999988079071045,
+      "new_pred": "Church",
+      "new_conf": 0.999930739402771
+    },
+    {
+      "image": "1181.png",
+      "old_pred": "Church",
+      "old_conf": 0.9596341252326965,
+      "new_pred": "Sorcerer_s_Rise",
+      "new_conf": 0.9999973773956299
+    },
+    {
+      "image": "1183.png",
+      "old_pred": "Church",
+      "old_conf": 0.9966369867324829,
+      "new_pred": "empty",
+      "new_conf": 0.9999997615814209
+    },
+    {
+      "image": "1183_.png",
+      "old_pred": "Church",
+      "old_conf": 0.9966369867324829,
+      "new_pred": "empty",
+      "new_conf": 0.9999997615814209
+    }
+  ]
+}

@@ -63,10 +63,10 @@
     {
       "type": "Camp",
       "icon": "Camp",
-      "x": 1196.0,
-      "y": 543.0,
-      "x_norm": 0.7786458333333334,
-      "y_norm": 0.353515625,
+      "x": 1191.0,
+      "y": 649.0,
+      "x_norm": 0.775390625,
+      "y_norm": 0.4225260416666667,
       "text": "Elder Lion",
       "source": "row_item",
       "source_id": 5651
@@ -558,10 +558,10 @@
     {
       "type": "Sorcerer's Rise",
       "icon": "Sorcerer's Rise",
-      "x": 1191.0,
-      "y": 649.0,
-      "x_norm": 0.775390625,
-      "y_norm": 0.4225260416666667,
+      "x": 1196.0,
+      "y": 543.0,
+      "x_norm": 0.7786458333333334,
+      "y_norm": 0.353515625,
       "text": "Missing Statue",
       "source": "row_item",
       "source_id": 5700
@@ -592,9 +592,9 @@
       "type": "text",
       "icon": "",
       "x": 20.0,
-      "y": 20.0,
+      "y": 40.0,
       "x_norm": 0.013020833333333334,
-      "y_norm": 0.013020833333333334,
+      "y_norm": 0.026041666666666668,
       "text": "Pattern 121 - Limveld",
       "source": "title",
       "source_id": 121
@@ -657,10 +657,10 @@
     {
       "type": "text",
       "icon": "",
-      "x": 1196.0,
-      "y": 543.0,
-      "x_norm": 0.7786458333333334,
-      "y_norm": 0.353515625,
+      "x": 1191.0,
+      "y": 649.0,
+      "x_norm": 0.775390625,
+      "y_norm": 0.4225260416666667,
       "text": "Elder Lion",
       "source": "row_item",
       "source_id": 5651
@@ -1108,10 +1108,10 @@
     {
       "type": "text",
       "icon": "",
-      "x": 1191.0,
-      "y": 649.0,
-      "x_norm": 0.775390625,
-      "y_norm": 0.4225260416666667,
+      "x": 1196.0,
+      "y": 543.0,
+      "x_norm": 0.7786458333333334,
+      "y_norm": 0.353515625,
       "text": "Missing Statue",
       "source": "row_item",
       "source_id": 5700

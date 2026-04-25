@@ -4114,6 +4114,12 @@ ENABLE_EARTH_LEVEL_PRIORS_WITHOUT_CASCADE = False
 ENABLE_EVERGAOL_PRIOR_DETECTION = False
 # Performance gate: when False, do not render/write AI and Evergaol debug PNGs every run.
 ENABLE_WRITE_RECOGNITION_DEBUG_IMAGES = False
+# Performance gate: when False, do not eagerly preload earth fallback model at run start.
+# This keeps lazy fallback loading in classify_shifting_earth_ai and reduces startup cost.
+ENABLE_EARTH_MODEL_EAGER_PRELOAD = False
+# Performance gate: when True, infer slot label probabilities in one batched model forward per earth.
+# Set to False to restore legacy one-patch-per-forward behavior.
+ENABLE_BATCH_SLOT_MODEL_INFERENCE = True
 EARTH_SELECTOR_V2_SCRIPT_FILENAMES = [
     "Train_Earth_Selector_v2/infer_earth_selector_v2.py",
     "infer_earth_selector_v2.py",
@@ -4164,6 +4170,24 @@ LAYOUT_INFER_CLASSIFIER_CONFIG = {
         "input_mode": "further_crop_1024",
     },
 }
+# In-code switch for the post-earth patternId model (non-Great-Hollow only).
+# Keep "default" to preserve current behavior.
+# Example:
+NON_GH_LAYOUT_MODEL_VARIANT = "v16"
+#   and place per-earth model files in each classifier folder with the name from
+#   NON_GH_LAYOUT_MODEL_FILE_BY_VARIANT["v16"] (e.g. "layout_model_v16.pkl").
+# NON_GH_LAYOUT_MODEL_VARIANT = "default"  # default|v16
+NON_GH_LAYOUT_MODEL_FILE_BY_VARIANT = {
+    "default": "layout_model.pkl",
+    "v16": "layout_model_v16.pkl",
+}
+# Optional per-earth override for non-GH model filenames.
+# Example:
+# NON_GH_LAYOUT_MODEL_FILE_OVERRIDE_BY_EARTH = {
+#     "Limveld": "layout_model_v16_limveld.pkl",
+#     "Noklateo": "layout_model_v16_noklateo.pkl",
+# }
+NON_GH_LAYOUT_MODEL_FILE_OVERRIDE_BY_EARTH: Dict[str, str] = {}
 LAYOUT_INFER_PRIOR_STRONG_BONUS = 2.00
 LAYOUT_INFER_PRIOR_CONFIDENCE_SCALE = 1.00
 LAYOUT_INFER_PRIOR_MARGIN_SCALE = 0.50
@@ -4392,6 +4416,22 @@ def _layout_infer_module_name_for_earth(earth_name: str) -> str:
     return f"nightreign_layout_classifier_lib_{slug}"
 
 
+def _layout_infer_model_file_for_earth(earth_name: str, cfg: dict) -> str:
+    default_model_file = str(cfg.get("model_file", "layout_model.pkl"))
+    if str(earth_name) == "Great Hollow":
+        return default_model_file
+
+    per_earth_override = str(NON_GH_LAYOUT_MODEL_FILE_OVERRIDE_BY_EARTH.get(str(earth_name), "")).strip()
+    if per_earth_override:
+        return per_earth_override
+
+    variant = str(NON_GH_LAYOUT_MODEL_VARIANT).strip()
+    model_file = str(NON_GH_LAYOUT_MODEL_FILE_BY_VARIANT.get(variant, "")).strip()
+    if model_file:
+        return model_file
+    return default_model_file
+
+
 def load_layout_infer_bundle_for_earth(earth_name: str, ctx: Optional[RunContext] = None) -> Optional[dict]:
     key = str(earth_name)
     if key in _LAYOUT_INFER_BUNDLE_CACHE:
@@ -4406,7 +4446,17 @@ def load_layout_infer_bundle_for_earth(earth_name: str, ctx: Optional[RunContext
 
     classifier_dir = (Path(__file__).resolve().parent / cfg["classifier_dir"]).resolve()
     lib_path = classifier_dir / "layout_classifier_lib.py"
-    model_path = classifier_dir / str(cfg.get("model_file", "layout_model.pkl"))
+    selected_model_file = _layout_infer_model_file_for_earth(key, cfg)
+    model_path = classifier_dir / selected_model_file
+    if (not model_path.exists()) and selected_model_file != str(cfg.get("model_file", "layout_model.pkl")):
+        # Safe fallback when a non-default variant file is requested but missing.
+        model_path = classifier_dir / str(cfg.get("model_file", "layout_model.pkl"))
+        if ctx is not None:
+            ctx.log(
+                f"Layout infer non-GH variant '{NON_GH_LAYOUT_MODEL_VARIANT}' missing for {key}; "
+                f"falling back to {model_path.name}"
+            )
+
     if not lib_path.exists() or not model_path.exists():
         if ctx is not None:
             ctx.log(
@@ -5067,6 +5117,28 @@ def infer_slot_probs_ai(model: nn.Module, labels: Sequence[str], patch_bgr: np.n
     return {label: float(prob) for label, prob in zip(labels, probs)}
 
 
+@torch.no_grad()
+def infer_slot_probs_ai_batch(
+    model: nn.Module,
+    labels: Sequence[str],
+    patches_bgr: Sequence[np.ndarray],
+    device: torch.device,
+) -> List[Dict[str, float]]:
+    if not patches_bgr:
+        return []
+    batch_rgb = np.stack(
+        [cv2.cvtColor(patch, cv2.COLOR_BGR2RGB).transpose(2, 0, 1) for patch in patches_bgr],
+        axis=0,
+    ).astype(np.float32, copy=False)
+    x = torch.from_numpy(batch_rgb).to(device) / 255.0
+    logits = model(x)
+    probs = torch.softmax(logits, dim=1).cpu().numpy()
+    return [
+        {label: float(prob) for label, prob in zip(labels, row)}
+        for row in probs
+    ]
+
+
 def _gh_slot4_classifier_mode() -> str:
     raw = str(os.getenv("GH_SLOT4_CLASSIFIER_MODE", GH_SLOT4_CLASSIFIER_MODE_DEFAULT)).strip().lower()
     if raw not in {"classic", "prototype"}:
@@ -5248,6 +5320,7 @@ def ai_classify_slots_for_earth(
     context_scale = float(ai_bundle["context_scale"])
     min_half_frac = float(ai_bundle["min_half_frac"])
 
+    slot_contexts: List[Tuple[dict, int, int, np.ndarray]] = []
     for slot in package.slots_by_earth[earth_name]:
         cx = int(round((float(slot["x_norm"]) + dx_norm) * w))
         cy = int(round((float(slot["y_norm"]) + dy_norm) * h))
@@ -5258,7 +5331,28 @@ def ai_classify_slots_for_earth(
         half = max(18, half)
 
         patch = reflect_pad_extract_ai(panel_bgr, cx, cy, half, patch_size)
-        raw_probs = infer_slot_probs_ai(model, labels, patch, device)
+        slot_contexts.append((slot, cx, cy, patch))
+
+    if ENABLE_BATCH_SLOT_MODEL_INFERENCE:
+        raw_probs_list = infer_slot_probs_ai_batch(
+            model=model,
+            labels=labels,
+            patches_bgr=[item[3] for item in slot_contexts],
+            device=device,
+        )
+    else:
+        raw_probs_list = [
+            infer_slot_probs_ai(model, labels, patch, device)
+            for _slot, _cx, _cy, patch in slot_contexts
+        ]
+
+    if len(raw_probs_list) != len(slot_contexts):
+        raw_probs_list = [
+            infer_slot_probs_ai(model, labels, patch, device)
+            for _slot, _cx, _cy, patch in slot_contexts
+        ]
+
+    for (slot, cx, cy, patch), raw_probs in zip(slot_contexts, raw_probs_list):
         raw_probs, slot_classifier_mode, slot_classifier_meta = _gh_slot4_apply_prototype_override(
             raw_probs=raw_probs,
             slot=slot,
@@ -7704,7 +7798,10 @@ def run_recognition(
         )
     package = package_cls(package_path)
     ai_bundle = load_ai_model_bundle(ctx)
-    load_earth_model_bundle(ctx)
+    if ENABLE_EARTH_MODEL_EAGER_PRELOAD:
+        load_earth_model_bundle(ctx)
+    else:
+        ctx.log("Earth fallback model eager preload disabled by in-code flag (ENABLE_EARTH_MODEL_EAGER_PRELOAD=False).")
 
     ai_confidence_threshold = float(tuned_cfg.get("ai_confidence_threshold", 0.55))
     ai_margin_threshold = float(tuned_cfg.get("ai_margin_threshold", 0.08))

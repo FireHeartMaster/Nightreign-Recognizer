@@ -1,0 +1,1209 @@
+{
+  "source_dir": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow",
+  "output_dir": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_gh_annotated_parallel_slots_fixed_rerun",
+  "note": "fixed rerun: corrected gh_asym mapping + slot2 dx policy",
+  "count_requested": 10,
+  "count_processed": 10,
+  "items": [
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow\\1102.png",
+      "annotated_image": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_gh_annotated_parallel_slots_fixed_rerun\\annotated_fixed_01_1102.png",
+      "crop_method": "gray_hough",
+      "resolved_slot2_crop_dx_px": 0,
+      "recognized_slots": [
+        {
+          "slot": "slot2",
+          "label": "Sleep",
+          "confidence": 0.9990008473396301,
+          "crop_source": "panel_raw",
+          "crop_dx_px": 0,
+          "crop_rect_full": {
+            "x0": 3353,
+            "y0": 715,
+            "x1": 3613,
+            "y1": 975
+          }
+        },
+        {
+          "slot": "slot4",
+          "label": "empty",
+          "confidence": 0.9988088607788086,
+          "crop_source": "panel_raw",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 3064,
+            "y0": 935,
+            "x1": 3324,
+            "y1": 1195
+          }
+        },
+        {
+          "slot": "slot5",
+          "label": "Sorcerers_Rise",
+          "confidence": 0.9999362230300903,
+          "crop_source": "panel_raw",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2610,
+            "y0": 969,
+            "x1": 2810,
+            "y1": 1169
+          }
+        },
+        {
+          "slot": "slot6",
+          "label": "Ruins_Poison",
+          "confidence": 0.9999914169311523,
+          "crop_source": "gh_asym_legacy",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2430,
+            "y0": 1071,
+            "x1": 2630,
+            "y1": 1271
+          }
+        },
+        {
+          "slot": "slot7",
+          "label": "Sorcerers_Rise",
+          "confidence": 0.9999994039535522,
+          "crop_source": "panel_raw",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2595,
+            "y0": 1395,
+            "x1": 2855,
+            "y1": 1655
+          }
+        },
+        {
+          "slot": "palace",
+          "label": "Status_Magic",
+          "confidence": 0.8942376971244812,
+          "crop_source": "gh_asym_legacy",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2615,
+            "y0": 592,
+            "x1": 2815,
+            "y1": 792
+          }
+        },
+        {
+          "slot": "fortress",
+          "label": "Status_Holy",
+          "confidence": 0.9490904211997986,
+          "crop_source": "gh_asym_legacy",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 3160,
+            "y0": 1237,
+            "x1": 3360,
+            "y1": 1437
+          }
+        }
+      ],
+      "refine_info": {
+        "tried_candidates": 75,
+        "best_objective": 0.44597945795958144,
+        "best_top_score": 0.31776906102895736,
+        "best_margin": 0.3577116407454014,
+        "best_dx_frac": 0.04,
+        "best_dy_frac": -0.04,
+        "best_scale_factor": 1.03,
+        "initial_box": {
+          "x0": 2174,
+          "y0": 343,
+          "x1": 3664,
+          "y1": 1833
+        },
+        "best_box": {
+          "x0": 2211,
+          "y0": 261,
+          "x1": 3746,
+          "y1": 1796
+        }
+      }
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow\\1115.png",
+      "annotated_image": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_gh_annotated_parallel_slots_fixed_rerun\\annotated_fixed_02_1115.png",
+      "crop_method": "gray_hough",
+      "resolved_slot2_crop_dx_px": 0,
+      "recognized_slots": [
+        {
+          "slot": "slot2",
+          "label": "Lightning",
+          "confidence": 0.8585432767868042,
+          "crop_source": "panel_raw",
+          "crop_dx_px": 0,
+          "crop_rect_full": {
+            "x0": 3354,
+            "y0": 746,
+            "x1": 3614,
+            "y1": 1006
+          }
+        },
+        {
+          "slot": "slot4",
+          "label": "Sorcerers_Rise",
+          "confidence": 0.9999855756759644,
+          "crop_source": "panel_raw",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 3065,
+            "y0": 966,
+            "x1": 3325,
+            "y1": 1226
+          }
+        },
+        {
+          "slot": "slot5",
+          "label": "Sorcerers_Rise",
+          "confidence": 1.0,
+          "crop_source": "panel_raw",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2611,
+            "y0": 1000,
+            "x1": 2811,
+            "y1": 1200
+          }
+        },
+        {
+          "slot": "slot6",
+          "label": "Ruins_Poison",
+          "confidence": 0.9999990463256836,
+          "crop_source": "gh_asym_legacy",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2431,
+            "y0": 1102,
+            "x1": 2631,
+            "y1": 1302
+          }
+        },
+        {
+          "slot": "slot7",
+          "label": "Church",
+          "confidence": 0.9997972846031189,
+          "crop_source": "panel_raw",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2596,
+            "y0": 1426,
+            "x1": 2856,
+            "y1": 1686
+          }
+        },
+        {
+          "slot": "palace",
+          "label": "Status_Fire",
+          "confidence": 0.9992953538894653,
+          "crop_source": "gh_asym_legacy",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2616,
+            "y0": 623,
+            "x1": 2816,
+            "y1": 823
+          }
+        },
+        {
+          "slot": "fortress",
+          "label": "Status_Rot",
+          "confidence": 0.9999632835388184,
+          "crop_source": "gh_asym_legacy",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 3161,
+            "y0": 1268,
+            "x1": 3361,
+            "y1": 1468
+          }
+        }
+      ],
+      "refine_info": {
+        "tried_candidates": 75,
+        "best_objective": 1.1095747099404825,
+        "best_top_score": 0.792786180973053,
+        "best_margin": 0.898464746773243,
+        "best_dx_frac": 0.04,
+        "best_dy_frac": -0.02,
+        "best_scale_factor": 1.03,
+        "initial_box": {
+          "x0": 2175,
+          "y0": 344,
+          "x1": 3665,
+          "y1": 1834
+        },
+        "best_box": {
+          "x0": 2212,
+          "y0": 292,
+          "x1": 3747,
+          "y1": 1827
+        }
+      }
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow\\1119.png",
+      "annotated_image": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_gh_annotated_parallel_slots_fixed_rerun\\annotated_fixed_03_1119.png",
+      "crop_method": "gray_hough",
+      "resolved_slot2_crop_dx_px": 0,
+      "recognized_slots": [
+        {
+          "slot": "slot2",
+          "label": "Lightning",
+          "confidence": 0.8499590754508972,
+          "crop_source": "panel_raw",
+          "crop_dx_px": 0,
+          "crop_rect_full": {
+            "x0": 3353,
+            "y0": 746,
+            "x1": 3613,
+            "y1": 1006
+          }
+        },
+        {
+          "slot": "slot4",
+          "label": "Church",
+          "confidence": 0.9527143836021423,
+          "crop_source": "panel_raw",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 3064,
+            "y0": 966,
+            "x1": 3324,
+            "y1": 1226
+          }
+        },
+        {
+          "slot": "slot5",
+          "label": "Sorcerers_Rise",
+          "confidence": 1.0,
+          "crop_source": "panel_raw",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2610,
+            "y0": 1000,
+            "x1": 2810,
+            "y1": 1200
+          }
+        },
+        {
+          "slot": "slot6",
+          "label": "Ruins_Poison",
+          "confidence": 0.9878133535385132,
+          "crop_source": "gh_asym_legacy",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2430,
+            "y0": 1102,
+            "x1": 2630,
+            "y1": 1302
+          }
+        },
+        {
+          "slot": "slot7",
+          "label": "Church",
+          "confidence": 0.9996775388717651,
+          "crop_source": "panel_raw",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2595,
+            "y0": 1426,
+            "x1": 2855,
+            "y1": 1686
+          }
+        },
+        {
+          "slot": "palace",
+          "label": "Status_Magic",
+          "confidence": 0.9902440905570984,
+          "crop_source": "gh_asym_legacy",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2615,
+            "y0": 623,
+            "x1": 2815,
+            "y1": 823
+          }
+        },
+        {
+          "slot": "fortress",
+          "label": "Status_Rot",
+          "confidence": 0.9999639987945557,
+          "crop_source": "gh_asym_legacy",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 3160,
+            "y0": 1268,
+            "x1": 3360,
+            "y1": 1468
+          }
+        }
+      ],
+      "refine_info": {
+        "tried_candidates": 75,
+        "best_objective": 1.0686429623659164,
+        "best_top_score": 0.7519453525543214,
+        "best_margin": 0.8982998026534916,
+        "best_dx_frac": 0.04,
+        "best_dy_frac": -0.02,
+        "best_scale_factor": 1.03,
+        "initial_box": {
+          "x0": 2174,
+          "y0": 344,
+          "x1": 3664,
+          "y1": 1834
+        },
+        "best_box": {
+          "x0": 2211,
+          "y0": 292,
+          "x1": 3746,
+          "y1": 1827
+        }
+      }
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow\\1120.png",
+      "annotated_image": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_gh_annotated_parallel_slots_fixed_rerun\\annotated_fixed_04_1120.png",
+      "crop_method": "gray_hough",
+      "resolved_slot2_crop_dx_px": 0,
+      "recognized_slots": [
+        {
+          "slot": "slot2",
+          "label": "Sleep",
+          "confidence": 0.9285139441490173,
+          "crop_source": "panel_raw",
+          "crop_dx_px": 0,
+          "crop_rect_full": {
+            "x0": 3354,
+            "y0": 746,
+            "x1": 3614,
+            "y1": 1006
+          }
+        },
+        {
+          "slot": "slot4",
+          "label": "Church",
+          "confidence": 0.7885612845420837,
+          "crop_source": "panel_raw",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 3065,
+            "y0": 966,
+            "x1": 3325,
+            "y1": 1226
+          }
+        },
+        {
+          "slot": "slot5",
+          "label": "Sorcerers_Rise",
+          "confidence": 1.0,
+          "crop_source": "panel_raw",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2611,
+            "y0": 1000,
+            "x1": 2811,
+            "y1": 1200
+          }
+        },
+        {
+          "slot": "slot6",
+          "label": "Ruins_Bleed",
+          "confidence": 0.957011878490448,
+          "crop_source": "gh_asym_legacy",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2431,
+            "y0": 1102,
+            "x1": 2631,
+            "y1": 1302
+          }
+        },
+        {
+          "slot": "slot7",
+          "label": "Church",
+          "confidence": 0.9997994303703308,
+          "crop_source": "panel_raw",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2596,
+            "y0": 1426,
+            "x1": 2856,
+            "y1": 1686
+          }
+        },
+        {
+          "slot": "palace",
+          "label": "Status_Magic",
+          "confidence": 0.9901503324508667,
+          "crop_source": "gh_asym_legacy",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2616,
+            "y0": 623,
+            "x1": 2816,
+            "y1": 823
+          }
+        },
+        {
+          "slot": "fortress",
+          "label": "Status_Holy",
+          "confidence": 0.9997958540916443,
+          "crop_source": "gh_asym_legacy",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 3161,
+            "y0": 1268,
+            "x1": 3361,
+            "y1": 1468
+          }
+        }
+      ],
+      "refine_info": {
+        "tried_candidates": 75,
+        "best_objective": 1.1061488427857753,
+        "best_top_score": 0.7866031736135483,
+        "best_margin": 0.9064857915043831,
+        "best_dx_frac": 0.04,
+        "best_dy_frac": -0.02,
+        "best_scale_factor": 1.03,
+        "initial_box": {
+          "x0": 2175,
+          "y0": 344,
+          "x1": 3665,
+          "y1": 1834
+        },
+        "best_box": {
+          "x0": 2212,
+          "y0": 292,
+          "x1": 3747,
+          "y1": 1827
+        }
+      }
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow\\1125.png",
+      "annotated_image": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_gh_annotated_parallel_slots_fixed_rerun\\annotated_fixed_05_1125.png",
+      "crop_method": "gray_hough",
+      "resolved_slot2_crop_dx_px": 0,
+      "recognized_slots": [
+        {
+          "slot": "slot2",
+          "label": "Sleep",
+          "confidence": 0.9281760454177856,
+          "crop_source": "panel_raw",
+          "crop_dx_px": 0,
+          "crop_rect_full": {
+            "x0": 3354,
+            "y0": 708,
+            "x1": 3614,
+            "y1": 968
+          }
+        },
+        {
+          "slot": "slot4",
+          "label": "Church",
+          "confidence": 0.7885612845420837,
+          "crop_source": "panel_raw",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 3065,
+            "y0": 928,
+            "x1": 3325,
+            "y1": 1188
+          }
+        },
+        {
+          "slot": "slot5",
+          "label": "Sorcerers_Rise",
+          "confidence": 1.0,
+          "crop_source": "panel_raw",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2611,
+            "y0": 962,
+            "x1": 2811,
+            "y1": 1162
+          }
+        },
+        {
+          "slot": "slot6",
+          "label": "Ruins_Poison",
+          "confidence": 0.99105304479599,
+          "crop_source": "gh_asym_legacy",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2431,
+            "y0": 1064,
+            "x1": 2631,
+            "y1": 1264
+          }
+        },
+        {
+          "slot": "slot7",
+          "label": "Church",
+          "confidence": 0.9998014569282532,
+          "crop_source": "panel_raw",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2596,
+            "y0": 1388,
+            "x1": 2856,
+            "y1": 1648
+          }
+        },
+        {
+          "slot": "palace",
+          "label": "Status_Magic",
+          "confidence": 0.9901503324508667,
+          "crop_source": "gh_asym_legacy",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2616,
+            "y0": 585,
+            "x1": 2816,
+            "y1": 785
+          }
+        },
+        {
+          "slot": "fortress",
+          "label": "Status_Holy",
+          "confidence": 0.9997958540916443,
+          "crop_source": "gh_asym_legacy",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 3161,
+            "y0": 1230,
+            "x1": 3361,
+            "y1": 1430
+          }
+        }
+      ],
+      "refine_info": {
+        "tried_candidates": 75,
+        "best_objective": 1.0731974071153725,
+        "best_top_score": 0.7543739914894103,
+        "best_margin": 0.9050465397536753,
+        "best_dx_frac": 0.04,
+        "best_dy_frac": -0.02,
+        "best_scale_factor": 1.03,
+        "initial_box": {
+          "x0": 2175,
+          "y0": 306,
+          "x1": 3665,
+          "y1": 1796
+        },
+        "best_box": {
+          "x0": 2212,
+          "y0": 254,
+          "x1": 3747,
+          "y1": 1789
+        }
+      }
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow\\1128.png",
+      "annotated_image": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_gh_annotated_parallel_slots_fixed_rerun\\annotated_fixed_06_1128.png",
+      "crop_method": "gray_hough",
+      "resolved_slot2_crop_dx_px": 0,
+      "recognized_slots": [
+        {
+          "slot": "slot2",
+          "label": "Lightning",
+          "confidence": 0.8589977622032166,
+          "crop_source": "panel_raw",
+          "crop_dx_px": 0,
+          "crop_rect_full": {
+            "x0": 3354,
+            "y0": 746,
+            "x1": 3614,
+            "y1": 1006
+          }
+        },
+        {
+          "slot": "slot4",
+          "label": "empty",
+          "confidence": 0.999334990978241,
+          "crop_source": "panel_raw",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 3065,
+            "y0": 966,
+            "x1": 3325,
+            "y1": 1226
+          }
+        },
+        {
+          "slot": "slot5",
+          "label": "Sorcerers_Rise",
+          "confidence": 1.0,
+          "crop_source": "panel_raw",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2611,
+            "y0": 1000,
+            "x1": 2811,
+            "y1": 1200
+          }
+        },
+        {
+          "slot": "slot6",
+          "label": "Ruins_Poison",
+          "confidence": 0.99105304479599,
+          "crop_source": "gh_asym_legacy",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2431,
+            "y0": 1102,
+            "x1": 2631,
+            "y1": 1302
+          }
+        },
+        {
+          "slot": "slot7",
+          "label": "Sorcerers_Rise",
+          "confidence": 0.9999977350234985,
+          "crop_source": "panel_raw",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2596,
+            "y0": 1426,
+            "x1": 2856,
+            "y1": 1686
+          }
+        },
+        {
+          "slot": "palace",
+          "label": "Status_Fire",
+          "confidence": 0.9992953538894653,
+          "crop_source": "gh_asym_legacy",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2616,
+            "y0": 623,
+            "x1": 2816,
+            "y1": 823
+          }
+        },
+        {
+          "slot": "fortress",
+          "label": "Status_Holy",
+          "confidence": 0.9997958540916443,
+          "crop_source": "gh_asym_legacy",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 3161,
+            "y0": 1268,
+            "x1": 3361,
+            "y1": 1468
+          }
+        }
+      ],
+      "refine_info": {
+        "tried_candidates": 75,
+        "best_objective": 1.064472737773997,
+        "best_top_score": 0.7382510423660279,
+        "best_margin": 0.9259124593809247,
+        "best_dx_frac": 0.04,
+        "best_dy_frac": -0.02,
+        "best_scale_factor": 1.03,
+        "initial_box": {
+          "x0": 2175,
+          "y0": 344,
+          "x1": 3665,
+          "y1": 1834
+        },
+        "best_box": {
+          "x0": 2212,
+          "y0": 292,
+          "x1": 3747,
+          "y1": 1827
+        }
+      }
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow\\1175.png",
+      "annotated_image": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_gh_annotated_parallel_slots_fixed_rerun\\annotated_fixed_07_1175.png",
+      "crop_method": "gray_hough",
+      "resolved_slot2_crop_dx_px": 0,
+      "recognized_slots": [
+        {
+          "slot": "slot2",
+          "label": "Sleep",
+          "confidence": 0.9282633066177368,
+          "crop_source": "panel_raw",
+          "crop_dx_px": 0,
+          "crop_rect_full": {
+            "x0": 3354,
+            "y0": 746,
+            "x1": 3614,
+            "y1": 1006
+          }
+        },
+        {
+          "slot": "slot4",
+          "label": "empty",
+          "confidence": 0.999334990978241,
+          "crop_source": "panel_raw",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 3065,
+            "y0": 966,
+            "x1": 3325,
+            "y1": 1226
+          }
+        },
+        {
+          "slot": "slot5",
+          "label": "Sorcerers_Rise",
+          "confidence": 1.0,
+          "crop_source": "panel_raw",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2611,
+            "y0": 1000,
+            "x1": 2811,
+            "y1": 1200
+          }
+        },
+        {
+          "slot": "slot6",
+          "label": "Ruins_Poison",
+          "confidence": 0.99105304479599,
+          "crop_source": "gh_asym_legacy",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2431,
+            "y0": 1102,
+            "x1": 2631,
+            "y1": 1302
+          }
+        },
+        {
+          "slot": "slot7",
+          "label": "Sorcerers_Rise",
+          "confidence": 0.94066321849823,
+          "crop_source": "panel_raw",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2596,
+            "y0": 1426,
+            "x1": 2856,
+            "y1": 1686
+          }
+        },
+        {
+          "slot": "palace",
+          "label": "Status_Magic",
+          "confidence": 0.9901503324508667,
+          "crop_source": "gh_asym_legacy",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2616,
+            "y0": 623,
+            "x1": 2816,
+            "y1": 823
+          }
+        },
+        {
+          "slot": "fortress",
+          "label": "Status_Holy",
+          "confidence": 0.9997958540916443,
+          "crop_source": "gh_asym_legacy",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 3161,
+            "y0": 1268,
+            "x1": 3361,
+            "y1": 1468
+          }
+        }
+      ],
+      "refine_info": {
+        "tried_candidates": 75,
+        "best_objective": 1.0667737251803084,
+        "best_top_score": 0.7413636445999146,
+        "best_margin": 0.9232355110347271,
+        "best_dx_frac": 0.04,
+        "best_dy_frac": -0.02,
+        "best_scale_factor": 1.03,
+        "initial_box": {
+          "x0": 2175,
+          "y0": 344,
+          "x1": 3665,
+          "y1": 1834
+        },
+        "best_box": {
+          "x0": 2212,
+          "y0": 292,
+          "x1": 3747,
+          "y1": 1827
+        }
+      }
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow\\1181.png",
+      "annotated_image": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_gh_annotated_parallel_slots_fixed_rerun\\annotated_fixed_08_1181.png",
+      "crop_method": "gray_hough",
+      "resolved_slot2_crop_dx_px": 0,
+      "recognized_slots": [
+        {
+          "slot": "slot2",
+          "label": "Sleep",
+          "confidence": 0.9297527074813843,
+          "crop_source": "panel_raw",
+          "crop_dx_px": 0,
+          "crop_rect_full": {
+            "x0": 3353,
+            "y0": 746,
+            "x1": 3613,
+            "y1": 1006
+          }
+        },
+        {
+          "slot": "slot4",
+          "label": "empty",
+          "confidence": 0.9996821880340576,
+          "crop_source": "panel_raw",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 3064,
+            "y0": 966,
+            "x1": 3324,
+            "y1": 1226
+          }
+        },
+        {
+          "slot": "slot5",
+          "label": "Sorcerers_Rise",
+          "confidence": 1.0,
+          "crop_source": "panel_raw",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2610,
+            "y0": 1000,
+            "x1": 2810,
+            "y1": 1200
+          }
+        },
+        {
+          "slot": "slot6",
+          "label": "Ruins_Poison",
+          "confidence": 0.9868456125259399,
+          "crop_source": "gh_asym_legacy",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2430,
+            "y0": 1102,
+            "x1": 2630,
+            "y1": 1302
+          }
+        },
+        {
+          "slot": "slot7",
+          "label": "Church",
+          "confidence": 0.9995018243789673,
+          "crop_source": "panel_raw",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2595,
+            "y0": 1426,
+            "x1": 2855,
+            "y1": 1686
+          }
+        },
+        {
+          "slot": "palace",
+          "label": "Status_Fire",
+          "confidence": 0.9998459815979004,
+          "crop_source": "gh_asym_legacy",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2615,
+            "y0": 623,
+            "x1": 2815,
+            "y1": 823
+          }
+        },
+        {
+          "slot": "fortress",
+          "label": "Status_Rot",
+          "confidence": 0.9999611377716064,
+          "crop_source": "gh_asym_legacy",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 3160,
+            "y0": 1268,
+            "x1": 3360,
+            "y1": 1468
+          }
+        }
+      ],
+      "refine_info": {
+        "tried_candidates": 75,
+        "best_objective": 1.0243765221105376,
+        "best_top_score": 0.7187236070632934,
+        "best_margin": 0.8663344011642038,
+        "best_dx_frac": 0.04,
+        "best_dy_frac": -0.02,
+        "best_scale_factor": 1.03,
+        "initial_box": {
+          "x0": 2174,
+          "y0": 344,
+          "x1": 3664,
+          "y1": 1834
+        },
+        "best_box": {
+          "x0": 2211,
+          "y0": 292,
+          "x1": 3746,
+          "y1": 1827
+        }
+      }
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow\\1183.png",
+      "annotated_image": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_gh_annotated_parallel_slots_fixed_rerun\\annotated_fixed_09_1183.png",
+      "crop_method": "gray_hough",
+      "resolved_slot2_crop_dx_px": 0,
+      "recognized_slots": [
+        {
+          "slot": "slot2",
+          "label": "Lightning",
+          "confidence": 0.8587424159049988,
+          "crop_source": "panel_raw",
+          "crop_dx_px": 0,
+          "crop_rect_full": {
+            "x0": 3354,
+            "y0": 746,
+            "x1": 3614,
+            "y1": 1006
+          }
+        },
+        {
+          "slot": "slot4",
+          "label": "Church",
+          "confidence": 0.7885612845420837,
+          "crop_source": "panel_raw",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 3065,
+            "y0": 966,
+            "x1": 3325,
+            "y1": 1226
+          }
+        },
+        {
+          "slot": "slot5",
+          "label": "Sorcerers_Rise",
+          "confidence": 1.0,
+          "crop_source": "panel_raw",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2611,
+            "y0": 1000,
+            "x1": 2811,
+            "y1": 1200
+          }
+        },
+        {
+          "slot": "slot6",
+          "label": "Ruins_Poison",
+          "confidence": 0.99105304479599,
+          "crop_source": "gh_asym_legacy",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2431,
+            "y0": 1102,
+            "x1": 2631,
+            "y1": 1302
+          }
+        },
+        {
+          "slot": "slot7",
+          "label": "Sorcerers_Rise",
+          "confidence": 0.7574689388275146,
+          "crop_source": "panel_raw",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2596,
+            "y0": 1426,
+            "x1": 2856,
+            "y1": 1686
+          }
+        },
+        {
+          "slot": "palace",
+          "label": "Status_Fire",
+          "confidence": 0.9992953538894653,
+          "crop_source": "gh_asym_legacy",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2616,
+            "y0": 623,
+            "x1": 2816,
+            "y1": 823
+          }
+        },
+        {
+          "slot": "fortress",
+          "label": "Status_Rot",
+          "confidence": 0.9999632835388184,
+          "crop_source": "gh_asym_legacy",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 3161,
+            "y0": 1268,
+            "x1": 3361,
+            "y1": 1468
+          }
+        }
+      ],
+      "refine_info": {
+        "tried_candidates": 75,
+        "best_objective": 1.115210702950366,
+        "best_top_score": 0.785401925444603,
+        "best_margin": 0.9357486709952354,
+        "best_dx_frac": 0.04,
+        "best_dy_frac": -0.02,
+        "best_scale_factor": 1.03,
+        "initial_box": {
+          "x0": 2175,
+          "y0": 344,
+          "x1": 3665,
+          "y1": 1834
+        },
+        "best_box": {
+          "x0": 2212,
+          "y0": 292,
+          "x1": 3747,
+          "y1": 1827
+        }
+      }
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow\\1183_.png",
+      "annotated_image": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_gh_annotated_parallel_slots_fixed_rerun\\annotated_fixed_10_1183_.png",
+      "crop_method": "gray_hough",
+      "resolved_slot2_crop_dx_px": 0,
+      "recognized_slots": [
+        {
+          "slot": "slot2",
+          "label": "Lightning",
+          "confidence": 0.8587424159049988,
+          "crop_source": "panel_raw",
+          "crop_dx_px": 0,
+          "crop_rect_full": {
+            "x0": 3354,
+            "y0": 746,
+            "x1": 3614,
+            "y1": 1006
+          }
+        },
+        {
+          "slot": "slot4",
+          "label": "Church",
+          "confidence": 0.7885612845420837,
+          "crop_source": "panel_raw",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 3065,
+            "y0": 966,
+            "x1": 3325,
+            "y1": 1226
+          }
+        },
+        {
+          "slot": "slot5",
+          "label": "Sorcerers_Rise",
+          "confidence": 1.0,
+          "crop_source": "panel_raw",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2611,
+            "y0": 1000,
+            "x1": 2811,
+            "y1": 1200
+          }
+        },
+        {
+          "slot": "slot6",
+          "label": "Ruins_Poison",
+          "confidence": 0.99105304479599,
+          "crop_source": "gh_asym_legacy",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2431,
+            "y0": 1102,
+            "x1": 2631,
+            "y1": 1302
+          }
+        },
+        {
+          "slot": "slot7",
+          "label": "Sorcerers_Rise",
+          "confidence": 0.7574689388275146,
+          "crop_source": "panel_raw",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2596,
+            "y0": 1426,
+            "x1": 2856,
+            "y1": 1686
+          }
+        },
+        {
+          "slot": "palace",
+          "label": "Status_Fire",
+          "confidence": 0.9992953538894653,
+          "crop_source": "gh_asym_legacy",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 2616,
+            "y0": 623,
+            "x1": 2816,
+            "y1": 823
+          }
+        },
+        {
+          "slot": "fortress",
+          "label": "Status_Rot",
+          "confidence": 0.9999632835388184,
+          "crop_source": "gh_asym_legacy",
+          "crop_dx_px": null,
+          "crop_rect_full": {
+            "x0": 3161,
+            "y0": 1268,
+            "x1": 3361,
+            "y1": 1468
+          }
+        }
+      ],
+      "refine_info": {
+        "tried_candidates": 75,
+        "best_objective": 1.115210702950366,
+        "best_top_score": 0.785401925444603,
+        "best_margin": 0.9357486709952354,
+        "best_dx_frac": 0.04,
+        "best_dy_frac": -0.02,
+        "best_scale_factor": 1.03,
+        "initial_box": {
+          "x0": 2175,
+          "y0": 344,
+          "x1": 3665,
+          "y1": 1834
+        },
+        "best_box": {
+          "x0": 2212,
+          "y0": 292,
+          "x1": 3747,
+          "y1": 1827
+        }
+      }
+    }
+  ]
+}

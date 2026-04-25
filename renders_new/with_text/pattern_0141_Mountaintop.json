@@ -206,10 +206,10 @@
     {
       "type": "Ruins",
       "icon": "Ruins",
-      "x": 1196.0,
-      "y": 543.0,
-      "x_norm": 0.7786458333333334,
-      "y_norm": 0.353515625,
+      "x": 1191.0,
+      "y": 649.0,
+      "x_norm": 0.775390625,
+      "y_norm": 0.4225260416666667,
       "text": "Albinauric Archers",
       "source": "row_item",
       "source_id": 6745
@@ -471,9 +471,9 @@
       "type": "text",
       "icon": "",
       "x": 20.0,
-      "y": 20.0,
+      "y": 40.0,
       "x_norm": 0.013020833333333334,
-      "y_norm": 0.013020833333333334,
+      "y_norm": 0.026041666666666668,
       "text": "Pattern 141 - Mountaintop",
       "source": "title",
       "source_id": 141
@@ -679,10 +679,10 @@
     {
       "type": "text",
       "icon": "",
-      "x": 1196.0,
-      "y": 543.0,
-      "x_norm": 0.7786458333333334,
-      "y_norm": 0.353515625,
+      "x": 1191.0,
+      "y": 649.0,
+      "x_norm": 0.775390625,
+      "y_norm": 0.4225260416666667,
       "text": "Albinauric Archers",
       "source": "row_item",
       "source_id": 6745

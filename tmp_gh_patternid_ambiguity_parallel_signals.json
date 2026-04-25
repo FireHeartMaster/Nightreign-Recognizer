@@ -1,0 +1,202 @@
+{
+  "note": "Groups of Great Hollow patternIds that are indistinguishable using only palace/fortress/slot2/slot6 status + slot4/5/7 labels.",
+  "total_gh_layouts": 80,
+  "collision_group_count": 12,
+  "collision_pattern_count": 26,
+  "collision_groups": [
+    {
+      "signature": {
+        "palace": "Status_Magic",
+        "fortress": "Status_Holy",
+        "slot2_great_church": "Status_Sleep",
+        "slot6_ruins": "Status_Poison",
+        "slot4": "church",
+        "slot5": "empty",
+        "slot7": "church"
+      },
+      "patternIds": [
+        1016,
+        1049,
+        1125
+      ],
+      "count": 3
+    },
+    {
+      "signature": {
+        "palace": "Status_Magic",
+        "fortress": "Status_Rot",
+        "slot2_great_church": "Status_Sleep",
+        "slot6_ruins": "Status_Poison",
+        "slot4": "church",
+        "slot5": "sorcerers rise",
+        "slot7": "empty"
+      },
+      "patternIds": [
+        1055,
+        1126,
+        1176
+      ],
+      "count": 3
+    },
+    {
+      "signature": {
+        "palace": "Status_Fire",
+        "fortress": "Status_Rot",
+        "slot2_great_church": "Status_Lightning",
+        "slot6_ruins": "Status_Poison",
+        "slot4": "sorcerers rise",
+        "slot5": "empty",
+        "slot7": "church"
+      },
+      "patternIds": [
+        1007,
+        1039
+      ],
+      "count": 2
+    },
+    {
+      "signature": {
+        "palace": "Status_Magic",
+        "fortress": "Status_Rot",
+        "slot2_great_church": "Status_Lightning",
+        "slot6_ruins": "Status_Poison",
+        "slot4": "sorcerers rise",
+        "slot5": "church",
+        "slot7": "empty"
+      },
+      "patternIds": [
+        1009,
+        1123
+      ],
+      "count": 2
+    },
+    {
+      "signature": {
+        "palace": "Status_Magic",
+        "fortress": "Status_Holy",
+        "slot2_great_church": "Status_Lightning",
+        "slot6_ruins": "Status_Poison",
+        "slot4": "empty",
+        "slot5": "sorcerers rise",
+        "slot7": "church"
+      },
+      "patternIds": [
+        1025,
+        1193
+      ],
+      "count": 2
+    },
+    {
+      "signature": {
+        "palace": "Status_Magic",
+        "fortress": "Status_Rot",
+        "slot2_great_church": "Status_Lightning",
+        "slot6_ruins": "Status_Bleed",
+        "slot4": "empty",
+        "slot5": "sorcerers rise",
+        "slot7": "church"
+      },
+      "patternIds": [
+        1048,
+        1192
+      ],
+      "count": 2
+    },
+    {
+      "signature": {
+        "palace": "Status_Fire",
+        "fortress": "Status_Holy",
+        "slot2_great_church": "Status_Lightning",
+        "slot6_ruins": "Status_Poison",
+        "slot4": "empty",
+        "slot5": "church",
+        "slot7": "sorcerers rise"
+      },
+      "patternIds": [
+        1059,
+        1128
+      ],
+      "count": 2
+    },
+    {
+      "signature": {
+        "palace": "Status_Magic",
+        "fortress": "Status_Holy",
+        "slot2_great_church": "Status_Sleep",
+        "slot6_ruins": "Status_Poison",
+        "slot4": "empty",
+        "slot5": "church",
+        "slot7": "sorcerers rise"
+      },
+      "patternIds": [
+        1065,
+        1175
+      ],
+      "count": 2
+    },
+    {
+      "signature": {
+        "palace": "Status_Magic",
+        "fortress": "Status_Rot",
+        "slot2_great_church": "Status_Lightning",
+        "slot6_ruins": "Status_Poison",
+        "slot4": "church",
+        "slot5": "church",
+        "slot7": "sorcerers rise"
+      },
+      "patternIds": [
+        1067,
+        1124
+      ],
+      "count": 2
+    },
+    {
+      "signature": {
+        "palace": "Status_Fire",
+        "fortress": "Status_Holy",
+        "slot2_great_church": "Status_Lightning",
+        "slot6_ruins": "Status_Poison",
+        "slot4": "church",
+        "slot5": "empty",
+        "slot7": "church"
+      },
+      "patternIds": [
+        1068,
+        1134
+      ],
+      "count": 2
+    },
+    {
+      "signature": {
+        "palace": "Status_Fire",
+        "fortress": "Status_Rot",
+        "slot2_great_church": "Status_Lightning",
+        "slot6_ruins": "Status_Poison",
+        "slot4": "church",
+        "slot5": "empty",
+        "slot7": "sorcerers rise"
+      },
+      "patternIds": [
+        1131,
+        1183
+      ],
+      "count": 2
+    },
+    {
+      "signature": {
+        "palace": "Status_Magic",
+        "fortress": "Status_Holy",
+        "slot2_great_church": "Status_Lightning",
+        "slot6_ruins": "Status_Poison",
+        "slot4": "church",
+        "slot5": "sorcerers rise",
+        "slot7": "church"
+      },
+      "patternIds": [
+        1179,
+        1190
+      ],
+      "count": 2
+    }
+  ]
+}

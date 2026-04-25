@@ -118,10 +118,10 @@
     {
       "type": "Great Church",
       "icon": "Great Church",
-      "x": 1196.0,
-      "y": 543.0,
-      "x_norm": 0.7786458333333334,
-      "y_norm": 0.353515625,
+      "x": 1191.0,
+      "y": 649.0,
+      "x_norm": 0.775390625,
+      "y_norm": 0.4225260416666667,
       "text": "Mausoleum Knight",
       "source": "row_item",
       "source_id": 6917
@@ -438,9 +438,9 @@
       "type": "text",
       "icon": "",
       "x": 20.0,
-      "y": 20.0,
+      "y": 40.0,
       "x_norm": 0.013020833333333334,
-      "y_norm": 0.013020833333333334,
+      "y_norm": 0.026041666666666668,
       "text": "Pattern 146 - The Crater",
       "source": "title",
       "source_id": 146
@@ -547,10 +547,10 @@
     {
       "type": "text",
       "icon": "",
-      "x": 1196.0,
-      "y": 543.0,
-      "x_norm": 0.7786458333333334,
-      "y_norm": 0.353515625,
+      "x": 1191.0,
+      "y": 649.0,
+      "x_norm": 0.775390625,
+      "y_norm": 0.4225260416666667,
       "text": "Mausoleum Knight",
       "source": "row_item",
       "source_id": 6917
@@ -625,9 +625,9 @@
       "type": "text",
       "icon": "",
       "x": 1066.0,
-      "y": 569.0,
+      "y": 559.0,
       "x_norm": 0.6940104166666666,
-      "y_norm": 0.3704427083333333,
+      "y_norm": 0.3639322916666667,
       "text": "Unlit Candle",
       "source": "row_item",
       "source_id": 6928

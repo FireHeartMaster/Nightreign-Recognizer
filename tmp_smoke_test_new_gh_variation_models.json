@@ -1,0 +1,106 @@
+{
+  "device": "cuda",
+  "results": [
+    {
+      "name": "palace",
+      "model_path": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\palace_status_cnn_gh_variations_retrain_latest.pt",
+      "class_names": [
+        "Status_Fire",
+        "Status_Magic"
+      ],
+      "image_size": 200,
+      "meta": {
+        "best_epoch": 1,
+        "best_val_accuracy": 1.0,
+        "train_samples": 4800,
+        "val_samples": 1200
+      },
+      "samples": [
+        {
+          "expected": "Status_Fire",
+          "sample_image": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\palace_fire\\Screenshot (153)_panel.png",
+          "predicted": "Status_Fire",
+          "confidence": 0.9285241961479187,
+          "ok": true
+        },
+        {
+          "expected": "Status_Magic",
+          "sample_image": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\palace_magic\\Captura de tela 2026-04-20 142107_panel.png",
+          "predicted": "Status_Magic",
+          "confidence": 0.9952549934387207,
+          "ok": true
+        }
+      ],
+      "ok_count": 2,
+      "total": 2
+    },
+    {
+      "name": "fortress",
+      "model_path": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress\\fortress_status_cnn_gh_variations_retrain_latest.pt",
+      "class_names": [
+        "Status_Holy",
+        "Status_Rot"
+      ],
+      "image_size": 200,
+      "meta": {
+        "best_epoch": 3,
+        "best_val_accuracy": 1.0,
+        "train_samples": 4800,
+        "val_samples": 1200
+      },
+      "samples": [
+        {
+          "expected": "Status_Holy",
+          "sample_image": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\fortress_holy\\Screenshot (152)_panel.png",
+          "predicted": "Status_Holy",
+          "confidence": 0.9990148544311523,
+          "ok": true
+        },
+        {
+          "expected": "Status_Rot",
+          "sample_image": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\fortress_rot\\Screenshot (151)_panel.png",
+          "predicted": "Status_Rot",
+          "confidence": 0.999363124370575,
+          "ok": true
+        }
+      ],
+      "ok_count": 2,
+      "total": 2
+    },
+    {
+      "name": "slot2",
+      "model_path": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\slot2_status_cnn_gh_variations_retrain_latest.pt",
+      "class_names": [
+        "Lightning",
+        "Sleep"
+      ],
+      "image_size": 200,
+      "meta": {
+        "best_epoch": 1,
+        "best_val_accuracy": 1.0,
+        "train_samples": 4800,
+        "val_samples": 1200
+      },
+      "samples": [
+        {
+          "expected": "Lightning",
+          "sample_image": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot2_lightning\\Screenshot (150)_panel.png",
+          "predicted": "Lightning",
+          "confidence": 0.8321571946144104,
+          "ok": true
+        },
+        {
+          "expected": "Sleep",
+          "sample_image": "c:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Great_Hollow_panel_crops_slots\\slot2_sleep\\Screenshot (171)_panel.png",
+          "predicted": "Sleep",
+          "confidence": 0.8728211522102356,
+          "ok": true
+        }
+      ],
+      "ok_count": 2,
+      "total": 2
+    }
+  ],
+  "overall_ok": 6,
+  "overall_total": 6
+}

@@ -26,10 +26,20 @@ def resource_path(relative_path):
 # --------------------------------------------------
 # Paths
 # --------------------------------------------------
-json_path = Path(resource_path("LotResultSmallBaseAndSpot_grouped_by_patternId_14.json"))
+DEFAULT_JSON_PATH = "LotResultSmallBaseAndSpot_grouped_by_patternId_14.json"
+json_path_raw = str(os.environ.get("NR_RENDER_JSON_PATH", DEFAULT_JSON_PATH)).strip()
+json_path = Path(json_path_raw)
+if not json_path.exists():
+    json_path = Path(resource_path(json_path_raw))
+
 backgrounds_dir = Path(resource_path("maps"))
 icons_dir = Path(resource_path("POI_icons"))
-recognition_package_path = Path(r"C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\nightreign_geom_proto_v4_slots.npz")
+recognition_package_path = Path(
+    os.environ.get(
+        "NR_RECOGNITION_PACKAGE_PATH",
+        r"C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\nightreign_geom_proto_v4_slots.npz",
+    )
+)
 GREAT_HOLLOW_PATTERNSET_DIR = Path(resource_path("great_hollow_pattern_sets"))
 
 MISSING_ICON_FILES = set()
@@ -130,13 +140,20 @@ RENDER_ANY_TEXT = True
 
 HIDE_ALL_BOSSES_AND_ALL_TEXT = os.environ.get("NR_HIDE_ALL_BOSSES_AND_ALL_TEXT", "0") == "1"
 RENDERER_DEBUG = os.environ.get("NR_RENDERER_DEBUG", "0") == "1"
+ENABLE_APPEND_EXTRA_BOSS_NAMES = os.environ.get("NR_RENDER_APPEND_EXTRA_BOSS_NAMES", "1") == "1"
 
 RENDER_MODE_DIRNAME = "no_text" if HIDE_ALL_BOSSES_AND_ALL_TEXT else "with_text"
-output_dir = Path(r"C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\renders_new") / RENDER_MODE_DIRNAME
+render_root = Path(
+    os.environ.get(
+        "NR_RENDER_OUTPUT_ROOT",
+        r"C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\renders_new",
+    )
+)
+output_dir = render_root / RENDER_MODE_DIRNAME
 recognition_metadata_dir = output_dir / "recognition_metadata"
-recognizer_display_dir = Path(r"C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\renders") / f"recognizer_{RENDER_MODE_DIRNAME}"
-under_output_dir = Path(r"C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\renders_new_under") / RENDER_MODE_DIRNAME
-under_recognizer_display_dir = Path(r"C:\Users\eduar\Documents\CodeProjects\Nightreign-Recognizer\renders") / f"recognizer_{RENDER_MODE_DIRNAME}_under"
+recognizer_display_dir = render_root / f"recognizer_{RENDER_MODE_DIRNAME}"
+under_output_dir = render_root / f"{RENDER_MODE_DIRNAME}_under"
+under_recognizer_display_dir = render_root / f"recognizer_{RENDER_MODE_DIRNAME}_under"
 
 missing_icons_txt = output_dir / "missing_icons.txt"
 used_icons_txt = output_dir / "used_icons.txt"
@@ -1304,8 +1321,22 @@ def render_boss(icon_queue, icon_img, boss_name, x_world, z_world, label_queue, 
 
     px, py = world_to_image(x_world, z_world)
 
-    icon_queue.append((render_layer, icon_img, px, py, "Night Location", boss_name, "boss", None))
+    if icon_queue is not None:
+        icon_queue.append((render_layer, icon_img, px, py, "Night Location", boss_name, "boss", None))
     label_queue.append((px + label_dx, py + label_dy, boss_name, boss_font, "boss", None))
+
+
+def format_night_boss_text(night_index: int, boss_name: str, extra_boss_name: str) -> str:
+    lines = [f"Night {int(night_index)}"]
+    boss_name_txt = str(boss_name or "").strip()
+    if boss_name_txt:
+        lines.append(boss_name_txt)
+    if ENABLE_APPEND_EXTRA_BOSS_NAMES:
+        extra_boss_txt = str(extra_boss_name or "").strip()
+        if extra_boss_txt:
+            lines.append("extraboss: ")
+            lines.append(extra_boss_txt)
+    return "\n".join(lines).strip()
 
 # --------------------------------------------------
 # NEW: icon cache and row rendering
@@ -1694,6 +1725,7 @@ def build_pattern_image_and_annotation(
     render_background=True,
     render_icons=True,
     render_labels=True,
+    render_night_location_icons=False,
 ):
     pattern_id = entry.get("patternId", "")
     rare_map = str(entry.get("rareMap", "")).strip()
@@ -1721,6 +1753,7 @@ def build_pattern_image_and_annotation(
     draw = ImageDraw.Draw(bg)
     label_queue = []
     icon_queue = []
+    night_icon_queue = []
     landmarks = []
     title = f"Pattern {pattern_id} - {rare_map}"
     if (not under_target_only) and (not HIDE_ALL_BOSSES_AND_ALL_TEXT):
@@ -1751,10 +1784,15 @@ def build_pattern_image_and_annotation(
         )
 
     if not under_target_only:
+        boss_icon_queue = icon_queue if render_icons else (night_icon_queue if render_night_location_icons else None)
         render_boss(
-            icon_queue=icon_queue,
+            icon_queue=boss_icon_queue,
             icon_img=boss_icon,
-            boss_name=f"Night 1\n{entry.get('bossId1Name', '')}".strip(),
+            boss_name=format_night_boss_text(
+                night_index=1,
+                boss_name=entry.get("bossId1Name", ""),
+                extra_boss_name=entry.get("extraBossId1Name", ""),
+            ),
             x_world=entry.get("playArea1_X", ""),
             z_world=entry.get("playArea1_Z", ""),
             label_queue=label_queue,
@@ -1763,9 +1801,13 @@ def build_pattern_image_and_annotation(
             render_layer=200,
         )
         render_boss(
-            icon_queue=icon_queue,
+            icon_queue=boss_icon_queue,
             icon_img=boss_icon,
-            boss_name=f"Night 2\n{entry.get('bossId2Name', '')}".strip(),
+            boss_name=format_night_boss_text(
+                night_index=2,
+                boss_name=entry.get("bossId2Name", ""),
+                extra_boss_name=entry.get("extraBossId2Name", ""),
+            ),
             x_world=entry.get("playArea2_X", ""),
             z_world=entry.get("playArea2_Z", ""),
             label_queue=label_queue,
@@ -1788,6 +1830,20 @@ def build_pattern_image_and_annotation(
                 source=source,
                 source_id=source_id,
             )
+    elif render_night_location_icons:
+        for _, _, px, py, icon_name, text, source, source_id in night_icon_queue:
+            append_landmark(
+                landmarks,
+                landmark_type=icon_name,
+                icon=icon_name,
+                x=px,
+                y=py,
+                width=IMAGE_W,
+                height=IMAGE_H,
+                text=text,
+                source=source,
+                source_id=source_id,
+            )
     if render_under_variant:
         append_great_hollow_under_recognition_slot_landmarks(
             landmarks=landmarks,
@@ -1798,6 +1854,9 @@ def build_pattern_image_and_annotation(
 
     if render_icons:
         for _, icon_img, px, py, _, _, _, _ in sorted(icon_queue, key=lambda item: item[0]):
+            paste_centered(bg, icon_img, px, py)
+    elif render_night_location_icons:
+        for _, icon_img, px, py, _, _, _, _ in sorted(night_icon_queue, key=lambda item: item[0]):
             paste_centered(bg, icon_img, px, py)
 
     if render_labels and RENDER_ANY_TEXT and not HIDE_ALL_BOSSES_AND_ALL_TEXT:
@@ -1873,7 +1932,12 @@ def build_pattern_image(entry, background_name_override=None, render_under_varia
     return result[0] if result is not None else None
 
 
-def build_pattern_text_overlay_image(entry, background_name_override=None, render_under_variant=False):
+def build_pattern_text_overlay_image(
+    entry,
+    background_name_override=None,
+    render_under_variant=False,
+    include_night_location_icons=False,
+):
     result = build_pattern_image_and_annotation(
         entry,
         background_name_override=background_name_override,
@@ -1881,6 +1945,7 @@ def build_pattern_text_overlay_image(entry, background_name_override=None, rende
         render_background=False,
         render_icons=False,
         render_labels=True,
+        render_night_location_icons=bool(include_night_location_icons),
     )
     return result[0] if result is not None else None
 

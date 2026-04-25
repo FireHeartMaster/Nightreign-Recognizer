@@ -1,0 +1,1 @@
+Basement_Boss.png\nCamp.png\nCastle.png\nChurch.png\nEvergaol.png\nField_Boss.png\nField_Boss_Red.png\nFort.png\nGreat_Church.png\nNight_Location.png\nRuins.png\nSorcerer's_Rise.png\n

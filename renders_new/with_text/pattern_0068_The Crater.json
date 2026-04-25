@@ -129,10 +129,10 @@
     {
       "type": "Great Church",
       "icon": "Great Church",
-      "x": 1196.0,
-      "y": 543.0,
-      "x_norm": 0.7786458333333334,
-      "y_norm": 0.353515625,
+      "x": 1191.0,
+      "y": 649.0,
+      "x_norm": 0.775390625,
+      "y_norm": 0.4225260416666667,
       "text": "Mausoleum Knight",
       "source": "row_item",
       "source_id": 3326
@@ -217,10 +217,10 @@
     {
       "type": "Church",
       "icon": "Church",
-      "x": 1191.0,
-      "y": 649.0,
-      "x_norm": 0.775390625,
-      "y_norm": 0.4225260416666667,
+      "x": 1196.0,
+      "y": 543.0,
+      "x_norm": 0.7786458333333334,
+      "y_norm": 0.353515625,
       "text": "Dogs",
       "source": "row_item",
       "source_id": 3335
@@ -415,10 +415,10 @@
     {
       "type": "Township",
       "icon": "Township",
-      "x": 941.0,
-      "y": 1054.0,
-      "x_norm": 0.6126302083333334,
-      "y_norm": 0.6861979166666666,
+      "x": 874.0,
+      "y": 1224.0,
+      "x_norm": 0.5690104166666666,
+      "y_norm": 0.796875,
       "text": "Township",
       "source": "row_item",
       "source_id": 3355
@@ -449,9 +449,9 @@
       "type": "text",
       "icon": "",
       "x": 20.0,
-      "y": 20.0,
+      "y": 40.0,
       "x_norm": 0.013020833333333334,
-      "y_norm": 0.013020833333333334,
+      "y_norm": 0.026041666666666668,
       "text": "Pattern 68 - The Crater",
       "source": "title",
       "source_id": 68
@@ -569,10 +569,10 @@
     {
       "type": "text",
       "icon": "",
-      "x": 1196.0,
-      "y": 543.0,
-      "x_norm": 0.7786458333333334,
-      "y_norm": 0.353515625,
+      "x": 1191.0,
+      "y": 649.0,
+      "x_norm": 0.775390625,
+      "y_norm": 0.4225260416666667,
       "text": "Mausoleum Knight",
       "source": "row_item",
       "source_id": 3326
@@ -822,10 +822,10 @@
     {
       "type": "text",
       "icon": "",
-      "x": 941.0,
-      "y": 1014.0,
-      "x_norm": 0.6126302083333334,
-      "y_norm": 0.66015625,
+      "x": 874.0,
+      "y": 1224.0,
+      "x_norm": 0.5690104166666666,
+      "y_norm": 0.796875,
       "text": "Township",
       "source": "row_item",
       "source_id": 3355

@@ -129,10 +129,10 @@
     {
       "type": "Great Church",
       "icon": "Great Church",
-      "x": 1196.0,
-      "y": 543.0,
-      "x_norm": 0.7786458333333334,
-      "y_norm": 0.353515625,
+      "x": 1191.0,
+      "y": 649.0,
+      "x_norm": 0.775390625,
+      "y_norm": 0.4225260416666667,
       "text": "Fire Monk",
       "source": "row_item",
       "source_id": 8768
@@ -195,10 +195,10 @@
     {
       "type": "Sorcerer's Rise Ruined",
       "icon": "Sorcerer's Rise Ruined",
-      "x": 1191.0,
-      "y": 649.0,
-      "x_norm": 0.775390625,
-      "y_norm": 0.4225260416666667,
+      "x": 1196.0,
+      "y": 543.0,
+      "x_norm": 0.7786458333333334,
+      "y_norm": 0.353515625,
       "text": "Above Door\nTeleporting Trees\nMissing Statue",
       "source": "row_item",
       "source_id": 8774
@@ -449,9 +449,9 @@
       "type": "text",
       "icon": "",
       "x": 20.0,
-      "y": 20.0,
+      "y": 40.0,
       "x_norm": 0.013020833333333334,
-      "y_norm": 0.013020833333333334,
+      "y_norm": 0.026041666666666668,
       "text": "Pattern 188 - The Crater",
       "source": "title",
       "source_id": 188
@@ -569,10 +569,10 @@
     {
       "type": "text",
       "icon": "",
-      "x": 1196.0,
-      "y": 543.0,
-      "x_norm": 0.7786458333333334,
-      "y_norm": 0.353515625,
+      "x": 1191.0,
+      "y": 649.0,
+      "x_norm": 0.775390625,
+      "y_norm": 0.4225260416666667,
       "text": "Fire Monk",
       "source": "row_item",
       "source_id": 8768
@@ -635,10 +635,10 @@
     {
       "type": "text",
       "icon": "",
-      "x": 1191.0,
-      "y": 649.0,
-      "x_norm": 0.775390625,
-      "y_norm": 0.4225260416666667,
+      "x": 1196.0,
+      "y": 543.0,
+      "x_norm": 0.7786458333333334,
+      "y_norm": 0.353515625,
       "text": "Above Door\nTeleporting Trees\nMissing Statue",
       "source": "row_item",
       "source_id": 8774

@@ -1,0 +1,2700 @@
+{
+  "patternId": 265,
+  "rareMap": "The Crater",
+  "mode": "with_text",
+  "outputImage": "renders_fixed\\with_text\\pattern_0265_The_Crater.png",
+  "backgroundImage": "maps\\The_Crater.png",
+  "cropBorder": 0,
+  "outputImageSize": {
+    "width": 1536,
+    "height": 1536
+  },
+  "bossId1Name": "Grafted Monarch",
+  "bossId2Name": "Dancer of the Boreal Valley",
+  "extraBossId1Name": "",
+  "extraBossId2Name": "",
+  "playAreas": {
+    "playArea1": {
+      "x": 472.0,
+      "z": 99.0
+    },
+    "playArea2": {
+      "x": 472.99,
+      "z": 992.707
+    }
+  },
+  "iconAnnotations": [
+    {
+      "sourceType": "fixed_point",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 516.5,
+        "z": 900.5
+      },
+      "imageCenter": {
+        "x": 772.0,
+        "y": 380.0
+      },
+      "iconName": "Field Boss",
+      "text": "Fire Prelates",
+      "renderLayer": 20,
+      "iconBBox": [
+        729.0,
+        342.5,
+        815.0,
+        417.5
+      ],
+      "fixedPoint": {
+        "x": 516.5,
+        "z": 900.5,
+        "icon": "Field Boss",
+        "text": "Fire Prelates"
+      }
+    },
+    {
+      "sourceType": "fixed_point",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 360.5,
+        "z": 879.5
+      },
+      "imageCenter": {
+        "x": 616.0,
+        "y": 400.0
+      },
+      "iconName": "Field Boss",
+      "text": "Demi-Human Queen",
+      "renderLayer": 20,
+      "iconBBox": [
+        573.0,
+        362.5,
+        659.0,
+        437.5
+      ],
+      "fixedPoint": {
+        "x": 360.5,
+        "z": 879.5,
+        "icon": "Field Boss",
+        "text": "Demi-Human Queen"
+      }
+    },
+    {
+      "sourceType": "fixed_point",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 291.5,
+        "z": 818.0
+      },
+      "imageCenter": {
+        "x": 548.0,
+        "y": 462.0
+      },
+      "iconName": "Field Boss",
+      "text": "Red Wolf",
+      "renderLayer": 20,
+      "iconBBox": [
+        505.0,
+        424.5,
+        591.0,
+        499.5
+      ],
+      "fixedPoint": {
+        "x": 291.5,
+        "z": 818.0,
+        "icon": "Field Boss",
+        "text": "Red Wolf"
+      }
+    },
+    {
+      "sourceType": "fixed_point",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 669.5,
+        "z": 792.5
+      },
+      "imageCenter": {
+        "x": 926.0,
+        "y": 488.0
+      },
+      "iconName": "Field Boss",
+      "text": "Demi-Human Queen",
+      "renderLayer": 20,
+      "iconBBox": [
+        883.0,
+        450.5,
+        969.0,
+        525.5
+      ],
+      "fixedPoint": {
+        "x": 669.5,
+        "z": 792.5,
+        "icon": "Field Boss",
+        "text": "Demi-Human Queen"
+      }
+    },
+    {
+      "sourceType": "fixed_point",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 353.0,
+        "z": 615.5
+      },
+      "imageCenter": {
+        "x": 609.0,
+        "y": 664.0
+      },
+      "iconName": "Field Boss Red",
+      "text": "Valiant Gargoyle",
+      "renderLayer": 20,
+      "iconBBox": [
+        566.0,
+        621.0,
+        652.0,
+        707.0
+      ],
+      "fixedPoint": {
+        "x": 353.0,
+        "z": 615.5,
+        "icon": "Field Boss Red",
+        "text": "Valiant Gargoyle"
+      }
+    },
+    {
+      "sourceType": "fixed_point",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 522.5,
+        "z": 623.0
+      },
+      "imageCenter": {
+        "x": 778.0,
+        "y": 657.0
+      },
+      "iconName": "Field Boss Red",
+      "text": "Fallingstar Beast",
+      "renderLayer": 20,
+      "iconBBox": [
+        735.0,
+        614.0,
+        821.0,
+        700.0
+      ],
+      "fixedPoint": {
+        "x": 522.5,
+        "z": 623.0,
+        "icon": "Field Boss Red",
+        "text": "Fallingstar Beast"
+      }
+    },
+    {
+      "sourceType": "fixed_point",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 615.5,
+        "z": 639.5
+      },
+      "imageCenter": {
+        "x": 872.0,
+        "y": 640.0
+      },
+      "iconName": "Field Boss Red",
+      "text": "Magma Wyrm",
+      "renderLayer": 20,
+      "iconBBox": [
+        829.0,
+        597.0,
+        915.0,
+        683.0
+      ],
+      "fixedPoint": {
+        "x": 615.5,
+        "z": 639.5,
+        "icon": "Field Boss Red",
+        "text": "Magma Wyrm"
+      }
+    },
+    {
+      "sourceType": "fixed_point",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 365.0,
+        "z": 720.5
+      },
+      "imageCenter": {
+        "x": 621.0,
+        "y": 560.0
+      },
+      "iconName": "Church",
+      "text": "",
+      "renderLayer": 0,
+      "iconBBox": [
+        588.5,
+        517.0,
+        653.5,
+        603.0
+      ],
+      "fixedPoint": {
+        "x": 365.0,
+        "z": 720.5,
+        "icon": "Church"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 181.0,
+        "z": 596.0
+      },
+      "imageCenter": {
+        "x": 437.0,
+        "y": 684.0
+      },
+      "iconName": "Great Church",
+      "text": "Fire Monk",
+      "renderLayer": 0,
+      "iconBBox": [
+        394.0,
+        645.5,
+        480.0,
+        722.5
+      ],
+      "rowData": {
+        "ID": 12298,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 123,
+        "smallBaseMapId": 3810,
+        "mapIndex": 0,
+        "variationId": 1,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 38,
+        "posX": 53.0,
+        "posZ": -44.0,
+        "X": 181.0,
+        "Z": 596.0,
+        "smallBaseMapName": "Great Church - Mausoleum Knight; Fire Monk",
+        "smallBaseLocationName": "Great Church",
+        "smallBaseVariationName": "Fire Monk"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 715.0,
+        "z": 375.0
+      },
+      "imageCenter": {
+        "x": 971.0,
+        "y": 905.0
+      },
+      "iconName": "Fort",
+      "text": "Guardian Golem",
+      "renderLayer": 0,
+      "iconBBox": [
+        928.0,
+        874.0,
+        1014.0,
+        936.0
+      ],
+      "rowData": {
+        "ID": 12299,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 109,
+        "smallBaseMapId": 3030,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 44,
+        "gridZNo": 37,
+        "posX": 75.0,
+        "posZ": -9.0,
+        "X": 715.0,
+        "Z": 375.0,
+        "smallBaseMapName": "Fort - Guardian Golem; Crystalians",
+        "smallBaseLocationName": "Fort",
+        "smallBaseVariationName": "Guardian Golem"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 355.0,
+        "z": 79.0
+      },
+      "imageCenter": {
+        "x": 611.0,
+        "y": 1201.0
+      },
+      "iconName": "Fort",
+      "text": "Crystalians",
+      "renderLayer": 0,
+      "iconBBox": [
+        568.0,
+        1170.0,
+        654.0,
+        1232.0
+      ],
+      "rowData": {
+        "ID": 12300,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 104,
+        "smallBaseMapId": 3030,
+        "mapIndex": 1,
+        "variationId": 1,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": -29.0,
+        "posZ": -49.0,
+        "X": 355.0,
+        "Z": 79.0,
+        "smallBaseMapName": "Fort - Guardian Golem; Crystalians",
+        "smallBaseLocationName": "Fort",
+        "smallBaseVariationName": "Crystalians"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 98.0,
+        "z": 851.0
+      },
+      "imageCenter": {
+        "x": 354.0,
+        "y": 429.0
+      },
+      "iconName": "Great Church",
+      "text": "Guardian Golem",
+      "renderLayer": 0,
+      "iconBBox": [
+        311.0,
+        390.5,
+        397.0,
+        467.5
+      ],
+      "rowData": {
+        "ID": 12301,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 103,
+        "smallBaseMapId": 3800,
+        "mapIndex": 0,
+        "variationId": 1,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 39,
+        "posX": -30.0,
+        "posZ": -45.0,
+        "X": 98.0,
+        "Z": 851.0,
+        "smallBaseMapName": "Great Church - Oracle Envoys; Guardian Golem",
+        "smallBaseLocationName": "Great Church",
+        "smallBaseVariationName": "Guardian Golem"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 935.0,
+        "z": 631.0
+      },
+      "imageCenter": {
+        "x": 1191.0,
+        "y": 649.0
+      },
+      "iconName": "Camp",
+      "text": "Banished Knights",
+      "renderLayer": 0,
+      "iconBBox": [
+        1148.0,
+        622.5,
+        1234.0,
+        675.5
+      ],
+      "rowData": {
+        "ID": 12302,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 116,
+        "smallBaseMapId": 3200,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 39.0,
+        "posZ": -9.0,
+        "X": 935.0,
+        "Z": 631.0,
+        "smallBaseMapName": "Camp - Banished Knights; Elder Lion",
+        "smallBaseLocationName": "Camp",
+        "smallBaseVariationName": "Banished Knights"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 840.0,
+        "z": 950.0
+      },
+      "imageCenter": {
+        "x": 1096.0,
+        "y": 330.0
+      },
+      "iconName": "Camp",
+      "text": "Redmane Knights",
+      "renderLayer": 0,
+      "iconBBox": [
+        1053.0,
+        303.5,
+        1139.0,
+        356.5
+      ],
+      "rowData": {
+        "ID": 12303,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 117,
+        "smallBaseMapId": 3210,
+        "mapIndex": 0,
+        "variationId": 1,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 39,
+        "posX": -56.0,
+        "posZ": 54.0,
+        "X": 840.0,
+        "Z": 950.0,
+        "smallBaseMapName": "Camp - Leonine Misbegotten; Redmane Knights; Royal Army Knights",
+        "smallBaseLocationName": "Camp",
+        "smallBaseVariationName": "Redmane Knights"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 900.0,
+        "z": 316.0
+      },
+      "imageCenter": {
+        "x": 1156.0,
+        "y": 964.0
+      },
+      "iconName": "Ruins",
+      "text": "Depraved Perfumer",
+      "renderLayer": 0,
+      "iconBBox": [
+        1113.0,
+        941.5,
+        1199.0,
+        986.5
+      ],
+      "rowData": {
+        "ID": 12304,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 114,
+        "smallBaseMapId": 3410,
+        "mapIndex": 0,
+        "variationId": 1,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 37,
+        "posX": 4.0,
+        "posZ": -68.0,
+        "X": 900.0,
+        "Z": 316.0,
+        "smallBaseMapName": "Ruins - Perfumer; Depraved Perfumer; Battlemages; Albinauric Archers; Runebear",
+        "smallBaseLocationName": "Ruins",
+        "smallBaseVariationName": "Depraved Perfumer"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 891.0,
+        "z": 148.0
+      },
+      "imageCenter": {
+        "x": 1147.0,
+        "y": 1132.0
+      },
+      "iconName": "Ruins",
+      "text": "Runebear",
+      "renderLayer": 0,
+      "iconBBox": [
+        1104.0,
+        1109.5,
+        1190.0,
+        1154.5
+      ],
+      "rowData": {
+        "ID": 12305,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 113,
+        "smallBaseMapId": 3410,
+        "mapIndex": 1,
+        "variationId": 4,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 36,
+        "posX": -5.0,
+        "posZ": 20.0,
+        "X": 891.0,
+        "Z": 148.0,
+        "smallBaseMapName": "Ruins - Perfumer; Depraved Perfumer; Battlemages; Albinauric Archers; Runebear",
+        "smallBaseLocationName": "Ruins",
+        "smallBaseVariationName": "Runebear"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 236.0,
+        "z": 434.0
+      },
+      "imageCenter": {
+        "x": 492.0,
+        "y": 846.0
+      },
+      "iconName": "Ruins",
+      "text": "Runebear",
+      "renderLayer": 0,
+      "iconBBox": [
+        449.0,
+        823.5,
+        535.0,
+        868.5
+      ],
+      "rowData": {
+        "ID": 12306,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 100,
+        "smallBaseMapId": 3410,
+        "mapIndex": 2,
+        "variationId": 4,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 108.0,
+        "posZ": 50.0,
+        "X": 236.0,
+        "Z": 434.0,
+        "smallBaseMapName": "Ruins - Perfumer; Depraved Perfumer; Battlemages; Albinauric Archers; Runebear",
+        "smallBaseLocationName": "Ruins",
+        "smallBaseVariationName": "Runebear"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 588.0,
+        "z": 308.0
+      },
+      "imageCenter": {
+        "x": 844.0,
+        "y": 972.0
+      },
+      "iconName": "Church",
+      "text": "Dogs",
+      "renderLayer": 0,
+      "iconBBox": [
+        811.5,
+        929.0,
+        876.5,
+        1015.0
+      ],
+      "rowData": {
+        "ID": 12308,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 308,
+        "smallBaseMapId": 4100,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 44,
+        "gridZNo": 37,
+        "posX": -52.0,
+        "posZ": -76.0,
+        "X": 588.0,
+        "Z": 308.0,
+        "smallBaseMapName": "Church - Dogs",
+        "smallBaseLocationName": "Church",
+        "smallBaseVariationName": "Dogs"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 940.0,
+        "z": 737.0
+      },
+      "imageCenter": {
+        "x": 1196.0,
+        "y": 543.0
+      },
+      "iconName": "Church",
+      "text": "Dogs",
+      "renderLayer": 0,
+      "iconBBox": [
+        1163.5,
+        500.0,
+        1228.5,
+        586.0
+      ],
+      "rowData": {
+        "ID": 12309,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 313,
+        "smallBaseMapId": 4100,
+        "mapIndex": 1,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 44.0,
+        "posZ": 97.0,
+        "X": 940.0,
+        "Z": 737.0,
+        "smallBaseMapName": "Church - Dogs",
+        "smallBaseLocationName": "Church",
+        "smallBaseVariationName": "Dogs"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 62.0,
+        "z": 428.0
+      },
+      "imageCenter": {
+        "x": 318.0,
+        "y": 852.0
+      },
+      "iconName": "Church",
+      "text": "Dogs",
+      "renderLayer": 0,
+      "iconBBox": [
+        285.5,
+        809.0,
+        350.5,
+        895.0
+      ],
+      "rowData": {
+        "ID": 12310,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 301,
+        "smallBaseMapId": 4100,
+        "mapIndex": 2,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": -66.0,
+        "posZ": 44.0,
+        "X": 62.0,
+        "Z": 428.0,
+        "smallBaseMapName": "Church - Dogs",
+        "smallBaseLocationName": "Church",
+        "smallBaseVariationName": "Dogs"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 54.0,
+        "z": 190.0
+      },
+      "imageCenter": {
+        "x": 310.0,
+        "y": 1090.0
+      },
+      "iconName": "Sorcerer's Rise",
+      "text": "Fog Door",
+      "renderLayer": 0,
+      "iconBBox": [
+        289.5,
+        1047.0,
+        330.5,
+        1133.0
+      ],
+      "rowData": {
+        "ID": 12311,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 300,
+        "smallBaseMapId": 4000,
+        "mapIndex": 0,
+        "variationId": 6,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 36,
+        "posX": -74.0,
+        "posZ": 62.0,
+        "X": 54.0,
+        "Z": 190.0,
+        "smallBaseMapName": "Sorcerer's Rise - Normal",
+        "smallBaseLocationName": "Sorcerer's Rise",
+        "smallBaseVariationName": "Fog Door"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 421.57,
+        "z": 446.69
+      },
+      "imageCenter": {
+        "x": 747.0,
+        "y": 833.0
+      },
+      "iconName": "Basement Boss",
+      "text": "Bell Bearing Hunter",
+      "renderLayer": 1000,
+      "iconBBox": [
+        704.0,
+        795.5,
+        790.0,
+        870.5
+      ],
+      "rowData": {
+        "ID": 12314,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 757,
+        "smallBaseMapId": 4687,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 439,
+        "gridXNo": 43,
+        "gridZNo": 37,
+        "posX": 37.57,
+        "posZ": 62.69,
+        "X": 421.57,
+        "Z": 446.69,
+        "smallBaseMapName": "Basement Boss - Bell Bearing Hunter",
+        "smallBaseLocationName": "Basement Boss",
+        "smallBaseVariationName": "Bell Bearing Hunter"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 421.57,
+        "z": 446.69
+      },
+      "imageCenter": {
+        "x": 678.0,
+        "y": 833.0
+      },
+      "iconName": "Field Boss Red",
+      "text": "Royal Carian Knight",
+      "renderLayer": 20,
+      "iconBBox": [
+        635.0,
+        790.0,
+        721.0,
+        876.0
+      ],
+      "rowData": {
+        "ID": 12315,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 756,
+        "smallBaseMapId": 4654,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 37,
+        "posX": 37.57,
+        "posZ": 62.69,
+        "X": 421.57,
+        "Z": 446.69,
+        "smallBaseMapName": "Field Boss Red - Royal Carian Knight",
+        "smallBaseLocationName": "Field Boss Red",
+        "smallBaseVariationName": "Royal Carian Knight"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 473.7,
+        "z": 446.66
+      },
+      "imageCenter": {
+        "x": 730.0,
+        "y": 833.0
+      },
+      "iconName": "Castle",
+      "text": "Trolls",
+      "renderLayer": 0,
+      "iconBBox": [
+        688.0,
+        790.0,
+        772.0,
+        876.0
+      ],
+      "rowData": {
+        "ID": 12316,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 190,
+        "smallBaseMapId": 4942,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 37,
+        "posX": 89.7,
+        "posZ": 62.66,
+        "X": 473.7,
+        "Z": 446.66,
+        "smallBaseMapName": "Castle - Trolls",
+        "smallBaseLocationName": "Castle",
+        "smallBaseVariationName": "Trolls"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 221.28,
+        "z": 16.569999999999993
+      },
+      "imageCenter": {
+        "x": 477.0,
+        "y": 1263.0
+      },
+      "iconName": "Field Boss Red",
+      "text": "Tree Sentinel",
+      "renderLayer": 20,
+      "iconBBox": [
+        434.0,
+        1220.0,
+        520.0,
+        1306.0
+      ],
+      "rowData": {
+        "ID": 12317,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 750,
+        "smallBaseMapId": 4653,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 36,
+        "posX": 93.28,
+        "posZ": -111.43,
+        "X": 221.28,
+        "Z": 16.569999999999993,
+        "smallBaseMapName": "Field Boss Red - Tree Sentinel",
+        "smallBaseLocationName": "Field Boss Red",
+        "smallBaseVariationName": "Tree Sentinel"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 918.18,
+        "z": 501.69
+      },
+      "imageCenter": {
+        "x": 1174.0,
+        "y": 778.0
+      },
+      "iconName": "Field Boss Red",
+      "text": "Death Rite Bird",
+      "renderLayer": 20,
+      "iconBBox": [
+        1131.0,
+        735.0,
+        1217.0,
+        821.0
+      ],
+      "rowData": {
+        "ID": 12318,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 763,
+        "smallBaseMapId": 4674,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 37,
+        "posX": 22.18,
+        "posZ": 117.69,
+        "X": 918.18,
+        "Z": 501.69,
+        "smallBaseMapName": "Field Boss Red - Death Rite Bird",
+        "smallBaseLocationName": "Field Boss Red",
+        "smallBaseVariationName": "Death Rite Bird"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 222.25,
+        "z": 705.8
+      },
+      "imageCenter": {
+        "x": 478.0,
+        "y": 574.0
+      },
+      "iconName": "Field Boss Red",
+      "text": "Ulcerated Tree Spirit",
+      "renderLayer": 20,
+      "iconBBox": [
+        435.0,
+        531.0,
+        521.0,
+        617.0
+      ],
+      "rowData": {
+        "ID": 12319,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 753,
+        "smallBaseMapId": 4663,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 38,
+        "posX": 94.25,
+        "posZ": 65.8,
+        "X": 222.25,
+        "Z": 705.8,
+        "smallBaseMapName": "Field Boss Red - Ulcerated Tree Spirit",
+        "smallBaseLocationName": "Field Boss Red",
+        "smallBaseVariationName": "Ulcerated Tree Spirit"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 793.0699999999999,
+        "z": 81.62
+      },
+      "imageCenter": {
+        "x": 1049.0,
+        "y": 1198.0
+      },
+      "iconName": "Field Boss",
+      "text": "Miranda Blossom",
+      "renderLayer": 20,
+      "iconBBox": [
+        1006.0,
+        1160.5,
+        1092.0,
+        1235.5
+      ],
+      "rowData": {
+        "ID": 12320,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 762,
+        "smallBaseMapId": 4671,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 36,
+        "posX": -102.93,
+        "posZ": -46.38,
+        "X": 793.0699999999999,
+        "Z": 81.62,
+        "smallBaseMapName": "Field Boss - Miranda Blossom",
+        "smallBaseLocationName": "Field Boss",
+        "smallBaseVariationName": "Miranda Blossom"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 144.55,
+        "z": 955.36
+      },
+      "imageCenter": {
+        "x": 401.0,
+        "y": 325.0
+      },
+      "iconName": "Field Boss",
+      "text": "Black Knife Assassin",
+      "renderLayer": 20,
+      "iconBBox": [
+        358.0,
+        287.5,
+        444.0,
+        362.5
+      ],
+      "rowData": {
+        "ID": 12321,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 754,
+        "smallBaseMapId": 4551,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 39,
+        "posX": 16.55,
+        "posZ": 59.36,
+        "X": 144.55,
+        "Z": 955.36,
+        "smallBaseMapName": "Field Boss - Black Knife Assassin",
+        "smallBaseLocationName": "Field Boss",
+        "smallBaseVariationName": "Black Knife Assassin"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 441.0,
+        "z": 213.0
+      },
+      "imageCenter": {
+        "x": 654.0,
+        "y": 1105.0
+      },
+      "iconName": "Field Boss",
+      "text": "Royal Revenant",
+      "renderLayer": 20,
+      "iconBBox": [
+        611.0,
+        1067.5,
+        697.0,
+        1142.5
+      ],
+      "rowData": {
+        "ID": 12322,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 755,
+        "smallBaseMapId": 4659,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 57.0,
+        "posZ": 85.0,
+        "X": 441.0,
+        "Z": 213.0,
+        "smallBaseMapName": "Field Boss - Royal Revenant",
+        "smallBaseLocationName": "Field Boss",
+        "smallBaseVariationName": "Royal Revenant"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 957.87,
+        "z": 530.38
+      },
+      "imageCenter": {
+        "x": 1214.0,
+        "y": 750.0
+      },
+      "iconName": "Evergaol",
+      "text": "Beastmen of Farum Azula",
+      "renderLayer": 10,
+      "iconBBox": [
+        1173.5,
+        707.0,
+        1254.5,
+        793.0
+      ],
+      "rowData": {
+        "ID": 12323,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 607,
+        "smallBaseMapId": 4650,
+        "mapIndex": 0,
+        "variationId": 4,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 61.87,
+        "posZ": -109.62,
+        "X": 957.87,
+        "Z": 530.38,
+        "smallBaseMapName": "Evergaol - Unused Banished Knights; Unused Nox Duo; Omen; Grave Warden Duelist; Beastmen of Farum Azula; Beastly Brigade; Unused Bloodhound Knight",
+        "smallBaseLocationName": "Evergaol",
+        "smallBaseVariationName": "Beastmen of Farum Azula"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 276.65,
+        "z": 309.65
+      },
+      "imageCenter": {
+        "x": 533.0,
+        "y": 970.0
+      },
+      "iconName": "Evergaol",
+      "text": "Godskin Apostle",
+      "renderLayer": 10,
+      "iconBBox": [
+        492.5,
+        927.0,
+        573.5,
+        1013.0
+      ],
+      "rowData": {
+        "ID": 12324,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 602,
+        "smallBaseMapId": 4670,
+        "mapIndex": 0,
+        "variationId": 1,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 37,
+        "posX": -107.35,
+        "posZ": -74.35,
+        "X": 276.65,
+        "Z": 309.65,
+        "smallBaseMapName": "Evergaol - Dragonkin Soldier; Godskin Apostle; Godskin Noble; Crucible Knight with Sword; Crucible Knight with Spear",
+        "smallBaseLocationName": "Evergaol",
+        "smallBaseVariationName": "Godskin Apostle"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 697.3,
+        "z": 101.45
+      },
+      "imageCenter": {
+        "x": 953.0,
+        "y": 1179.0
+      },
+      "iconName": "Evergaol",
+      "text": "Stoneskin Lords",
+      "renderLayer": 10,
+      "iconBBox": [
+        912.5,
+        1136.0,
+        993.5,
+        1222.0
+      ],
+      "rowData": {
+        "ID": 12325,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 605,
+        "smallBaseMapId": 4660,
+        "mapIndex": 0,
+        "variationId": 3,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 44,
+        "gridZNo": 36,
+        "posX": 57.3,
+        "posZ": -26.55,
+        "X": 697.3,
+        "Z": 101.45,
+        "smallBaseMapName": "Evergaol - Crucible Knight with Sword; Crucible Knight with Spear; Crystalians; Stoneskin Lords; Banished Knights; Nox Duo; Bloodhound Knight",
+        "smallBaseLocationName": "Evergaol",
+        "smallBaseVariationName": "Stoneskin Lords"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 2.5999999999999943,
+        "z": 793.03
+      },
+      "imageCenter": {
+        "x": 259.0,
+        "y": 487.0
+      },
+      "iconName": "Evergaol",
+      "text": "Banished Knights",
+      "renderLayer": 10,
+      "iconBBox": [
+        218.5,
+        444.0,
+        299.5,
+        530.0
+      ],
+      "rowData": {
+        "ID": 12326,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 601,
+        "smallBaseMapId": 4660,
+        "mapIndex": 1,
+        "variationId": 4,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 39,
+        "posX": -125.4,
+        "posZ": -102.97,
+        "X": 2.5999999999999943,
+        "Z": 793.03,
+        "smallBaseMapName": "Evergaol - Crucible Knight with Sword; Crucible Knight with Spear; Crystalians; Stoneskin Lords; Banished Knights; Nox Duo; Bloodhound Knight",
+        "smallBaseLocationName": "Evergaol",
+        "smallBaseVariationName": "Banished Knights"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 173.0,
+        "z": 277.0
+      },
+      "imageCenter": {
+        "x": 429.0,
+        "y": 1003.0
+      },
+      "iconName": "Fort",
+      "text": "Guardian Golem",
+      "renderLayer": 0,
+      "iconBBox": [
+        386.0,
+        972.0,
+        472.0,
+        1034.0
+      ],
+      "rowData": {
+        "ID": 12327,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 101,
+        "smallBaseMapId": 3030,
+        "mapIndex": 2,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 45.0,
+        "posZ": -107.0,
+        "X": 173.0,
+        "Z": 277.0,
+        "smallBaseMapName": "Fort - Guardian Golem; Crystalians",
+        "smallBaseLocationName": "Fort",
+        "smallBaseVariationName": "Guardian Golem"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 685.0,
+        "z": 226.0
+      },
+      "imageCenter": {
+        "x": 941.0,
+        "y": 1054.0
+      },
+      "iconName": "Great Church",
+      "text": "Guardian Golem",
+      "renderLayer": 0,
+      "iconBBox": [
+        898.0,
+        1015.5,
+        984.0,
+        1092.5
+      ],
+      "rowData": {
+        "ID": 12328,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 108,
+        "smallBaseMapId": 3800,
+        "mapIndex": 1,
+        "variationId": 1,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 44,
+        "gridZNo": 36,
+        "posX": 45.0,
+        "posZ": 98.0,
+        "X": 685.0,
+        "Z": 226.0,
+        "smallBaseMapName": "Great Church - Oracle Envoys; Guardian Golem",
+        "smallBaseLocationName": "Great Church",
+        "smallBaseVariationName": "Guardian Golem"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 441.0,
+        "z": 213.0
+      },
+      "imageCenter": {
+        "x": 697.0,
+        "y": 1067.0
+      },
+      "iconName": "Sorcerer's Rise",
+      "text": "Unlit Candle",
+      "renderLayer": 0,
+      "iconBBox": [
+        676.5,
+        1024.0,
+        717.5,
+        1110.0
+      ],
+      "rowData": {
+        "ID": 12330,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 305,
+        "smallBaseMapId": 4000,
+        "mapIndex": 1,
+        "variationId": 8,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 57.0,
+        "posZ": 85.0,
+        "X": 441.0,
+        "Z": 213.0,
+        "smallBaseMapName": "Sorcerer's Rise - Normal",
+        "smallBaseLocationName": "Sorcerer's Rise",
+        "smallBaseVariationName": "Unlit Candle"
+      }
+    },
+    {
+      "sourceType": "night_boss",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 472.0,
+        "z": 99.0
+      },
+      "imageCenter": {
+        "x": 728.0,
+        "y": 1181.0
+      },
+      "iconName": "Night_location",
+      "text": "Night 1\nGrafted Monarch",
+      "renderLayer": 200,
+      "iconBBox": [
+        685.0,
+        1138.0,
+        771.0,
+        1224.0
+      ],
+      "nightIndex": 1
+    },
+    {
+      "sourceType": "night_boss",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 472.99,
+        "z": 992.707
+      },
+      "imageCenter": {
+        "x": 729.0,
+        "y": 287.0
+      },
+      "iconName": "Night_location",
+      "text": "Night 2\nDancer of the Boreal Valley",
+      "renderLayer": 200,
+      "iconBBox": [
+        686.0,
+        244.0,
+        772.0,
+        330.0
+      ],
+      "nightIndex": 2
+    }
+  ],
+  "labelAnnotations": [
+    {
+      "sourceType": "fixed_point",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 516.5,
+        "z": 900.5
+      },
+      "iconName": "Field Boss",
+      "text": "Fire Prelates",
+      "labelCenter": {
+        "x": 772.0,
+        "y": 380.0
+      },
+      "labelBBox": [
+        705.0,
+        371.0,
+        839.0,
+        389.0
+      ]
+    },
+    {
+      "sourceType": "fixed_point",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 360.5,
+        "z": 879.5
+      },
+      "iconName": "Field Boss",
+      "text": "Demi-Human Queen",
+      "labelCenter": {
+        "x": 616.0,
+        "y": 410.0
+      },
+      "labelBBox": [
+        510.0,
+        400.5,
+        722.0,
+        419.5
+      ]
+    },
+    {
+      "sourceType": "fixed_point",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 291.5,
+        "z": 818.0
+      },
+      "iconName": "Field Boss",
+      "text": "Red Wolf",
+      "labelCenter": {
+        "x": 548.0,
+        "y": 462.0
+      },
+      "labelBBox": [
+        499.0,
+        453.0,
+        597.0,
+        471.0
+      ]
+    },
+    {
+      "sourceType": "fixed_point",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 669.5,
+        "z": 792.5
+      },
+      "iconName": "Field Boss",
+      "text": "Demi-Human Queen",
+      "labelCenter": {
+        "x": 926.0,
+        "y": 488.0
+      },
+      "labelBBox": [
+        820.0,
+        478.5,
+        1032.0,
+        497.5
+      ]
+    },
+    {
+      "sourceType": "fixed_point",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 353.0,
+        "z": 615.5
+      },
+      "iconName": "Field Boss Red",
+      "text": "Valiant Gargoyle",
+      "labelCenter": {
+        "x": 609.0,
+        "y": 664.0
+      },
+      "labelBBox": [
+        521.5,
+        653.0,
+        696.5,
+        675.0
+      ]
+    },
+    {
+      "sourceType": "fixed_point",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 522.5,
+        "z": 623.0
+      },
+      "iconName": "Field Boss Red",
+      "text": "Fallingstar Beast",
+      "labelCenter": {
+        "x": 778.0,
+        "y": 657.0
+      },
+      "labelBBox": [
+        721.0,
+        635.0,
+        835.0,
+        679.0
+      ]
+    },
+    {
+      "sourceType": "fixed_point",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 615.5,
+        "z": 639.5
+      },
+      "iconName": "Field Boss Red",
+      "text": "Magma Wyrm",
+      "labelCenter": {
+        "x": 872.0,
+        "y": 610.0
+      },
+      "labelBBox": [
+        799.5,
+        599.0,
+        944.5,
+        621.0
+      ]
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 181.0,
+        "z": 596.0
+      },
+      "iconName": "Great Church",
+      "text": "Fire Monk",
+      "labelCenter": {
+        "x": 437.0,
+        "y": 684.0
+      },
+      "labelBBox": [
+        383.5,
+        675.0,
+        490.5,
+        693.0
+      ],
+      "rowData": {
+        "ID": 12298,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 123,
+        "smallBaseMapId": 3810,
+        "mapIndex": 0,
+        "variationId": 1,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 38,
+        "posX": 53.0,
+        "posZ": -44.0,
+        "X": 181.0,
+        "Z": 596.0,
+        "smallBaseMapName": "Great Church - Mausoleum Knight; Fire Monk",
+        "smallBaseLocationName": "Great Church",
+        "smallBaseVariationName": "Fire Monk"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 715.0,
+        "z": 375.0
+      },
+      "iconName": "Fort",
+      "text": "Guardian Golem",
+      "labelCenter": {
+        "x": 971.0,
+        "y": 905.0
+      },
+      "labelBBox": [
+        884.5,
+        896.0,
+        1057.5,
+        914.0
+      ],
+      "rowData": {
+        "ID": 12299,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 109,
+        "smallBaseMapId": 3030,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 44,
+        "gridZNo": 37,
+        "posX": 75.0,
+        "posZ": -9.0,
+        "X": 715.0,
+        "Z": 375.0,
+        "smallBaseMapName": "Fort - Guardian Golem; Crystalians",
+        "smallBaseLocationName": "Fort",
+        "smallBaseVariationName": "Guardian Golem"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 355.0,
+        "z": 79.0
+      },
+      "iconName": "Fort",
+      "text": "Crystalians",
+      "labelCenter": {
+        "x": 611.0,
+        "y": 1201.0
+      },
+      "labelBBox": [
+        550.5,
+        1190.0,
+        671.5,
+        1212.0
+      ],
+      "rowData": {
+        "ID": 12300,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 104,
+        "smallBaseMapId": 3030,
+        "mapIndex": 1,
+        "variationId": 1,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": -29.0,
+        "posZ": -49.0,
+        "X": 355.0,
+        "Z": 79.0,
+        "smallBaseMapName": "Fort - Guardian Golem; Crystalians",
+        "smallBaseLocationName": "Fort",
+        "smallBaseVariationName": "Crystalians"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 98.0,
+        "z": 851.0
+      },
+      "iconName": "Great Church",
+      "text": "Guardian Golem",
+      "labelCenter": {
+        "x": 354.0,
+        "y": 429.0
+      },
+      "labelBBox": [
+        267.5,
+        420.0,
+        440.5,
+        438.0
+      ],
+      "rowData": {
+        "ID": 12301,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 103,
+        "smallBaseMapId": 3800,
+        "mapIndex": 0,
+        "variationId": 1,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 39,
+        "posX": -30.0,
+        "posZ": -45.0,
+        "X": 98.0,
+        "Z": 851.0,
+        "smallBaseMapName": "Great Church - Oracle Envoys; Guardian Golem",
+        "smallBaseLocationName": "Great Church",
+        "smallBaseVariationName": "Guardian Golem"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 935.0,
+        "z": 631.0
+      },
+      "iconName": "Camp",
+      "text": "Banished Knights",
+      "labelCenter": {
+        "x": 1191.0,
+        "y": 649.0
+      },
+      "labelBBox": [
+        1096.5,
+        638.0,
+        1285.5,
+        660.0
+      ],
+      "rowData": {
+        "ID": 12302,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 116,
+        "smallBaseMapId": 3200,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 39.0,
+        "posZ": -9.0,
+        "X": 935.0,
+        "Z": 631.0,
+        "smallBaseMapName": "Camp - Banished Knights; Elder Lion",
+        "smallBaseLocationName": "Camp",
+        "smallBaseVariationName": "Banished Knights"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 840.0,
+        "z": 950.0
+      },
+      "iconName": "Camp",
+      "text": "Redmane Knights",
+      "labelCenter": {
+        "x": 1096.0,
+        "y": 330.0
+      },
+      "labelBBox": [
+        1001.5,
+        319.0,
+        1190.5,
+        341.0
+      ],
+      "rowData": {
+        "ID": 12303,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 117,
+        "smallBaseMapId": 3210,
+        "mapIndex": 0,
+        "variationId": 1,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 39,
+        "posX": -56.0,
+        "posZ": 54.0,
+        "X": 840.0,
+        "Z": 950.0,
+        "smallBaseMapName": "Camp - Leonine Misbegotten; Redmane Knights; Royal Army Knights",
+        "smallBaseLocationName": "Camp",
+        "smallBaseVariationName": "Redmane Knights"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 900.0,
+        "z": 316.0
+      },
+      "iconName": "Ruins",
+      "text": "Depraved Perfumer",
+      "labelCenter": {
+        "x": 1156.0,
+        "y": 964.0
+      },
+      "labelBBox": [
+        1105.0,
+        942.0,
+        1207.0,
+        986.0
+      ],
+      "rowData": {
+        "ID": 12304,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 114,
+        "smallBaseMapId": 3410,
+        "mapIndex": 0,
+        "variationId": 1,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 37,
+        "posX": 4.0,
+        "posZ": -68.0,
+        "X": 900.0,
+        "Z": 316.0,
+        "smallBaseMapName": "Ruins - Perfumer; Depraved Perfumer; Battlemages; Albinauric Archers; Runebear",
+        "smallBaseLocationName": "Ruins",
+        "smallBaseVariationName": "Depraved Perfumer"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 891.0,
+        "z": 148.0
+      },
+      "iconName": "Ruins",
+      "text": "Runebear",
+      "labelCenter": {
+        "x": 1147.0,
+        "y": 1132.0
+      },
+      "labelBBox": [
+        1095.0,
+        1123.0,
+        1199.0,
+        1141.0
+      ],
+      "rowData": {
+        "ID": 12305,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 113,
+        "smallBaseMapId": 3410,
+        "mapIndex": 1,
+        "variationId": 4,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 36,
+        "posX": -5.0,
+        "posZ": 20.0,
+        "X": 891.0,
+        "Z": 148.0,
+        "smallBaseMapName": "Ruins - Perfumer; Depraved Perfumer; Battlemages; Albinauric Archers; Runebear",
+        "smallBaseLocationName": "Ruins",
+        "smallBaseVariationName": "Runebear"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 236.0,
+        "z": 434.0
+      },
+      "iconName": "Ruins",
+      "text": "Runebear",
+      "labelCenter": {
+        "x": 492.0,
+        "y": 846.0
+      },
+      "labelBBox": [
+        440.0,
+        837.0,
+        544.0,
+        855.0
+      ],
+      "rowData": {
+        "ID": 12306,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 100,
+        "smallBaseMapId": 3410,
+        "mapIndex": 2,
+        "variationId": 4,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 108.0,
+        "posZ": 50.0,
+        "X": 236.0,
+        "Z": 434.0,
+        "smallBaseMapName": "Ruins - Perfumer; Depraved Perfumer; Battlemages; Albinauric Archers; Runebear",
+        "smallBaseLocationName": "Ruins",
+        "smallBaseVariationName": "Runebear"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 54.0,
+        "z": 190.0
+      },
+      "iconName": "Sorcerer's Rise",
+      "text": "Fog Door",
+      "labelCenter": {
+        "x": 310.0,
+        "y": 1090.0
+      },
+      "labelBBox": [
+        260.0,
+        1079.0,
+        360.0,
+        1101.0
+      ],
+      "rowData": {
+        "ID": 12311,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 300,
+        "smallBaseMapId": 4000,
+        "mapIndex": 0,
+        "variationId": 6,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 36,
+        "posX": -74.0,
+        "posZ": 62.0,
+        "X": 54.0,
+        "Z": 190.0,
+        "smallBaseMapName": "Sorcerer's Rise - Normal",
+        "smallBaseLocationName": "Sorcerer's Rise",
+        "smallBaseVariationName": "Fog Door"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 421.57,
+        "z": 446.69
+      },
+      "iconName": "Basement Boss",
+      "text": "Bell Bearing Hunter",
+      "labelCenter": {
+        "x": 747.0,
+        "y": 833.0
+      },
+      "labelBBox": [
+        682.0,
+        811.0,
+        812.0,
+        855.0
+      ],
+      "rowData": {
+        "ID": 12314,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 757,
+        "smallBaseMapId": 4687,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 439,
+        "gridXNo": 43,
+        "gridZNo": 37,
+        "posX": 37.57,
+        "posZ": 62.69,
+        "X": 421.57,
+        "Z": 446.69,
+        "smallBaseMapName": "Basement Boss - Bell Bearing Hunter",
+        "smallBaseLocationName": "Basement Boss",
+        "smallBaseVariationName": "Bell Bearing Hunter"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 421.57,
+        "z": 446.69
+      },
+      "iconName": "Field Boss Red",
+      "text": "Royal Carian Knight",
+      "labelCenter": {
+        "x": 678.0,
+        "y": 773.0
+      },
+      "labelBBox": [
+        610.0,
+        749.0,
+        746.0,
+        797.0
+      ],
+      "rowData": {
+        "ID": 12315,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 756,
+        "smallBaseMapId": 4654,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 37,
+        "posX": 37.57,
+        "posZ": 62.69,
+        "X": 421.57,
+        "Z": 446.69,
+        "smallBaseMapName": "Field Boss Red - Royal Carian Knight",
+        "smallBaseLocationName": "Field Boss Red",
+        "smallBaseVariationName": "Royal Carian Knight"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 473.7,
+        "z": 446.66
+      },
+      "iconName": "Castle",
+      "text": "Trolls",
+      "labelCenter": {
+        "x": 730.0,
+        "y": 873.0
+      },
+      "labelBBox": [
+        699.5,
+        864.0,
+        760.5,
+        882.0
+      ],
+      "rowData": {
+        "ID": 12316,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 190,
+        "smallBaseMapId": 4942,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 37,
+        "posX": 89.7,
+        "posZ": 62.66,
+        "X": 473.7,
+        "Z": 446.66,
+        "smallBaseMapName": "Castle - Trolls",
+        "smallBaseLocationName": "Castle",
+        "smallBaseVariationName": "Trolls"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 221.28,
+        "z": 16.569999999999993
+      },
+      "iconName": "Field Boss Red",
+      "text": "Tree Sentinel",
+      "labelCenter": {
+        "x": 477.0,
+        "y": 1263.0
+      },
+      "labelBBox": [
+        407.5,
+        1254.0,
+        546.5,
+        1272.0
+      ],
+      "rowData": {
+        "ID": 12317,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 750,
+        "smallBaseMapId": 4653,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 36,
+        "posX": 93.28,
+        "posZ": -111.43,
+        "X": 221.28,
+        "Z": 16.569999999999993,
+        "smallBaseMapName": "Field Boss Red - Tree Sentinel",
+        "smallBaseLocationName": "Field Boss Red",
+        "smallBaseVariationName": "Tree Sentinel"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 918.18,
+        "z": 501.69
+      },
+      "iconName": "Field Boss Red",
+      "text": "Death Rite Bird",
+      "labelCenter": {
+        "x": 1174.0,
+        "y": 778.0
+      },
+      "labelBBox": [
+        1093.5,
+        769.0,
+        1254.5,
+        787.0
+      ],
+      "rowData": {
+        "ID": 12318,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 763,
+        "smallBaseMapId": 4674,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 37,
+        "posX": 22.18,
+        "posZ": 117.69,
+        "X": 918.18,
+        "Z": 501.69,
+        "smallBaseMapName": "Field Boss Red - Death Rite Bird",
+        "smallBaseLocationName": "Field Boss Red",
+        "smallBaseVariationName": "Death Rite Bird"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 222.25,
+        "z": 705.8
+      },
+      "iconName": "Field Boss Red",
+      "text": "Ulcerated Tree Spirit",
+      "labelCenter": {
+        "x": 478.0,
+        "y": 574.0
+      },
+      "labelBBox": [
+        401.0,
+        550.0,
+        555.0,
+        598.0
+      ],
+      "rowData": {
+        "ID": 12319,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 753,
+        "smallBaseMapId": 4663,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 38,
+        "posX": 94.25,
+        "posZ": 65.8,
+        "X": 222.25,
+        "Z": 705.8,
+        "smallBaseMapName": "Field Boss Red - Ulcerated Tree Spirit",
+        "smallBaseLocationName": "Field Boss Red",
+        "smallBaseVariationName": "Ulcerated Tree Spirit"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 793.0699999999999,
+        "z": 81.62
+      },
+      "iconName": "Field Boss",
+      "text": "Miranda Blossom",
+      "labelCenter": {
+        "x": 1049.0,
+        "y": 1198.0
+      },
+      "labelBBox": [
+        956.5,
+        1189.0,
+        1141.5,
+        1207.0
+      ],
+      "rowData": {
+        "ID": 12320,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 762,
+        "smallBaseMapId": 4671,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 36,
+        "posX": -102.93,
+        "posZ": -46.38,
+        "X": 793.0699999999999,
+        "Z": 81.62,
+        "smallBaseMapName": "Field Boss - Miranda Blossom",
+        "smallBaseLocationName": "Field Boss",
+        "smallBaseVariationName": "Miranda Blossom"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 144.55,
+        "z": 955.36
+      },
+      "iconName": "Field Boss",
+      "text": "Black Knife Assassin",
+      "labelCenter": {
+        "x": 401.0,
+        "y": 325.0
+      },
+      "labelBBox": [
+        340.0,
+        303.0,
+        462.0,
+        347.0
+      ],
+      "rowData": {
+        "ID": 12321,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 754,
+        "smallBaseMapId": 4551,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 39,
+        "posX": 16.55,
+        "posZ": 59.36,
+        "X": 144.55,
+        "Z": 955.36,
+        "smallBaseMapName": "Field Boss - Black Knife Assassin",
+        "smallBaseLocationName": "Field Boss",
+        "smallBaseVariationName": "Black Knife Assassin"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 441.0,
+        "z": 213.0
+      },
+      "iconName": "Field Boss",
+      "text": "Royal Revenant",
+      "labelCenter": {
+        "x": 654.0,
+        "y": 1105.0
+      },
+      "labelBBox": [
+        570.0,
+        1094.0,
+        738.0,
+        1116.0
+      ],
+      "rowData": {
+        "ID": 12322,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 755,
+        "smallBaseMapId": 4659,
+        "mapIndex": 0,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 57.0,
+        "posZ": 85.0,
+        "X": 441.0,
+        "Z": 213.0,
+        "smallBaseMapName": "Field Boss - Royal Revenant",
+        "smallBaseLocationName": "Field Boss",
+        "smallBaseVariationName": "Royal Revenant"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 957.87,
+        "z": 530.38
+      },
+      "iconName": "Evergaol",
+      "text": "Beastmen of Farum Azula",
+      "labelCenter": {
+        "x": 1214.0,
+        "y": 740.0
+      },
+      "labelBBox": [
+        1146.5,
+        718.0,
+        1281.5,
+        762.0
+      ],
+      "rowData": {
+        "ID": 12323,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 607,
+        "smallBaseMapId": 4650,
+        "mapIndex": 0,
+        "variationId": 4,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 45,
+        "gridZNo": 38,
+        "posX": 61.87,
+        "posZ": -109.62,
+        "X": 957.87,
+        "Z": 530.38,
+        "smallBaseMapName": "Evergaol - Unused Banished Knights; Unused Nox Duo; Omen; Grave Warden Duelist; Beastmen of Farum Azula; Beastly Brigade; Unused Bloodhound Knight",
+        "smallBaseLocationName": "Evergaol",
+        "smallBaseVariationName": "Beastmen of Farum Azula"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 276.65,
+        "z": 309.65
+      },
+      "iconName": "Evergaol",
+      "text": "Godskin Apostle",
+      "labelCenter": {
+        "x": 533.0,
+        "y": 970.0
+      },
+      "labelBBox": [
+        445.0,
+        959.0,
+        621.0,
+        981.0
+      ],
+      "rowData": {
+        "ID": 12324,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 602,
+        "smallBaseMapId": 4670,
+        "mapIndex": 0,
+        "variationId": 1,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 37,
+        "posX": -107.35,
+        "posZ": -74.35,
+        "X": 276.65,
+        "Z": 309.65,
+        "smallBaseMapName": "Evergaol - Dragonkin Soldier; Godskin Apostle; Godskin Noble; Crucible Knight with Sword; Crucible Knight with Spear",
+        "smallBaseLocationName": "Evergaol",
+        "smallBaseVariationName": "Godskin Apostle"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 697.3,
+        "z": 101.45
+      },
+      "iconName": "Evergaol",
+      "text": "Stoneskin Lords",
+      "labelCenter": {
+        "x": 953.0,
+        "y": 1169.0
+      },
+      "labelBBox": [
+        866.0,
+        1160.0,
+        1040.0,
+        1178.0
+      ],
+      "rowData": {
+        "ID": 12325,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 605,
+        "smallBaseMapId": 4660,
+        "mapIndex": 0,
+        "variationId": 3,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 44,
+        "gridZNo": 36,
+        "posX": 57.3,
+        "posZ": -26.55,
+        "X": 697.3,
+        "Z": 101.45,
+        "smallBaseMapName": "Evergaol - Crucible Knight with Sword; Crucible Knight with Spear; Crystalians; Stoneskin Lords; Banished Knights; Nox Duo; Bloodhound Knight",
+        "smallBaseLocationName": "Evergaol",
+        "smallBaseVariationName": "Stoneskin Lords"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 2.5999999999999943,
+        "z": 793.03
+      },
+      "iconName": "Evergaol",
+      "text": "Banished Knights",
+      "labelCenter": {
+        "x": 259.0,
+        "y": 487.0
+      },
+      "labelBBox": [
+        164.5,
+        476.0,
+        353.5,
+        498.0
+      ],
+      "rowData": {
+        "ID": 12326,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 601,
+        "smallBaseMapId": 4660,
+        "mapIndex": 1,
+        "variationId": 4,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 39,
+        "posX": -125.4,
+        "posZ": -102.97,
+        "X": 2.5999999999999943,
+        "Z": 793.03,
+        "smallBaseMapName": "Evergaol - Crucible Knight with Sword; Crucible Knight with Spear; Crystalians; Stoneskin Lords; Banished Knights; Nox Duo; Bloodhound Knight",
+        "smallBaseLocationName": "Evergaol",
+        "smallBaseVariationName": "Banished Knights"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 173.0,
+        "z": 277.0
+      },
+      "iconName": "Fort",
+      "text": "Guardian Golem",
+      "labelCenter": {
+        "x": 429.0,
+        "y": 1003.0
+      },
+      "labelBBox": [
+        342.5,
+        994.0,
+        515.5,
+        1012.0
+      ],
+      "rowData": {
+        "ID": 12327,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 101,
+        "smallBaseMapId": 3030,
+        "mapIndex": 2,
+        "variationId": 0,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 42,
+        "gridZNo": 37,
+        "posX": 45.0,
+        "posZ": -107.0,
+        "X": 173.0,
+        "Z": 277.0,
+        "smallBaseMapName": "Fort - Guardian Golem; Crystalians",
+        "smallBaseLocationName": "Fort",
+        "smallBaseVariationName": "Guardian Golem"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 685.0,
+        "z": 226.0
+      },
+      "iconName": "Great Church",
+      "text": "Guardian Golem",
+      "labelCenter": {
+        "x": 941.0,
+        "y": 1054.0
+      },
+      "labelBBox": [
+        854.5,
+        1045.0,
+        1027.5,
+        1063.0
+      ],
+      "rowData": {
+        "ID": 12328,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 108,
+        "smallBaseMapId": 3800,
+        "mapIndex": 1,
+        "variationId": 1,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 44,
+        "gridZNo": 36,
+        "posX": 45.0,
+        "posZ": 98.0,
+        "X": 685.0,
+        "Z": 226.0,
+        "smallBaseMapName": "Great Church - Oracle Envoys; Guardian Golem",
+        "smallBaseLocationName": "Great Church",
+        "smallBaseVariationName": "Guardian Golem"
+      }
+    },
+    {
+      "sourceType": "row",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 441.0,
+        "z": 213.0
+      },
+      "iconName": "Sorcerer's Rise",
+      "text": "Unlit Candle",
+      "labelCenter": {
+        "x": 697.0,
+        "y": 1067.0
+      },
+      "labelBBox": [
+        632.0,
+        1058.0,
+        762.0,
+        1076.0
+      ],
+      "rowData": {
+        "ID": 12330,
+        "Name": "",
+        "unknown_0": 0,
+        "attachId": 305,
+        "smallBaseMapId": 4000,
+        "mapIndex": 1,
+        "variationId": 8,
+        "unknown_0x12": 0,
+        "modifier": 0,
+        "gridXNo": 43,
+        "gridZNo": 36,
+        "posX": 57.0,
+        "posZ": 85.0,
+        "X": 441.0,
+        "Z": 213.0,
+        "smallBaseMapName": "Sorcerer's Rise - Normal",
+        "smallBaseLocationName": "Sorcerer's Rise",
+        "smallBaseVariationName": "Unlit Candle"
+      }
+    },
+    {
+      "sourceType": "night_boss",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 472.0,
+        "z": 99.0
+      },
+      "iconName": "Night_location",
+      "text": "Night 1\nGrafted Monarch",
+      "labelCenter": {
+        "x": 728.0,
+        "y": 1161.0
+      },
+      "labelBBox": [
+        639.0,
+        1139.0,
+        817.0,
+        1183.0
+      ],
+      "nightIndex": 1
+    },
+    {
+      "sourceType": "night_boss",
+      "rareMap": "The Crater",
+      "world": {
+        "x": 472.99,
+        "z": 992.707
+      },
+      "iconName": "Night_location",
+      "text": "Night 2\nDancer of the Boreal Valley",
+      "labelCenter": {
+        "x": 729.0,
+        "y": 287.0
+      },
+      "labelBBox": [
+        657.5,
+        250.0,
+        800.5,
+        324.0
+      ],
+      "nightIndex": 2
+    }
+  ]
+}

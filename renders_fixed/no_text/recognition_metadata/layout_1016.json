@@ -1,0 +1,96 @@
+{
+  "layout_number": 1016,
+  "shifting_earth": "Great Hollow",
+  "map_layout": "Great Hollow",
+  "width": 1280,
+  "height": 1280,
+  "slot_labels": [
+    "Church",
+    "Great Church",
+    "Church",
+    "Church",
+    "empty",
+    "Ruins",
+    "Church"
+  ],
+  "landmarks": [
+    {
+      "type": "Church",
+      "icon": "Church",
+      "x": 514.0,
+      "y": 226.0,
+      "x_norm": 0.4015625,
+      "y_norm": 0.1765625
+    },
+    {
+      "type": "Church",
+      "icon": "Church",
+      "x": 687.0,
+      "y": 524.0,
+      "x_norm": 0.53671875,
+      "y_norm": 0.409375
+    },
+    {
+      "type": "Church",
+      "icon": "Church",
+      "x": 820.0,
+      "y": 671.0,
+      "x_norm": 0.640625,
+      "y_norm": 0.52421875
+    },
+    {
+      "type": "Church",
+      "icon": "Church",
+      "x": 428.0,
+      "y": 1054.0,
+      "x_norm": 0.334375,
+      "y_norm": 0.8234375
+    },
+    {
+      "type": "Great Church",
+      "icon": "Great Church",
+      "x": 1061.0,
+      "y": 487.0,
+      "x_norm": 0.82890625,
+      "y_norm": 0.38046875
+    },
+    {
+      "type": "Ruins",
+      "icon": "Ruins",
+      "x": 266.0,
+      "y": 759.0,
+      "x_norm": 0.2078125,
+      "y_norm": 0.59296875
+    }
+  ],
+  "great_hollow_statuses": [
+    {
+      "anchor_type": "Fortress",
+      "status_type": "Status_Holy",
+      "x_norm": 0.68359375,
+      "y_norm": 0.7015625,
+      "source_id": 101691
+    },
+    {
+      "anchor_type": "Great Church",
+      "status_type": "Status_Sleep",
+      "x_norm": 0.846875,
+      "y_norm": 0.39765625,
+      "source_id": 100776
+    },
+    {
+      "anchor_type": "Palace",
+      "status_type": "Status_Magic",
+      "x_norm": 0.328125,
+      "y_norm": 0.28046875,
+      "source_id": 101692
+    },
+    {
+      "anchor_type": "Ruins",
+      "status_type": "Status_Poison",
+      "x_norm": 0.22578125,
+      "y_norm": 0.61015625,
+      "source_id": 100777
+    }
+  ]
+}

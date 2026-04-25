@@ -1,0 +1,1033 @@
+{
+  "mode": "layout_infer_only_with_forced_earth",
+  "non_gh_variant": "v16",
+  "whitelist_filter": false,
+  "selection": "first_10_patternIds_per_earth_from_v16_json",
+  "summary": {
+    "Limveld": {
+      "tested": 10,
+      "best_top1_correct": 10,
+      "best_top1_accuracy": 1.0,
+      "decided_non_null": 6,
+      "decided_correct": 6,
+      "decided_accuracy_on_decided": 1.0,
+      "unknown_count": 4
+    },
+    "Noklateo": {
+      "tested": 10,
+      "best_top1_correct": 10,
+      "best_top1_accuracy": 1.0,
+      "decided_non_null": 8,
+      "decided_correct": 8,
+      "decided_accuracy_on_decided": 1.0,
+      "unknown_count": 2
+    },
+    "The Crater": {
+      "tested": 10,
+      "best_top1_correct": 10,
+      "best_top1_accuracy": 1.0,
+      "decided_non_null": 10,
+      "decided_correct": 10,
+      "decided_accuracy_on_decided": 1.0,
+      "unknown_count": 0
+    },
+    "Mountaintop": {
+      "tested": 10,
+      "best_top1_correct": 10,
+      "best_top1_accuracy": 1.0,
+      "decided_non_null": 9,
+      "decided_correct": 9,
+      "decided_accuracy_on_decided": 1.0,
+      "unknown_count": 1
+    },
+    "Rotted Woods": {
+      "tested": 10,
+      "best_top1_correct": 10,
+      "best_top1_accuracy": 1.0,
+      "decided_non_null": 8,
+      "decided_correct": 8,
+      "decided_accuracy_on_decided": 1.0,
+      "unknown_count": 2
+    },
+    "Great Hollow": {
+      "tested": 10,
+      "best_top1_correct": 10,
+      "best_top1_accuracy": 1.0,
+      "decided_non_null": 9,
+      "decided_correct": 9,
+      "decided_accuracy_on_decided": 1.0,
+      "unknown_count": 1
+    }
+  },
+  "overall": {
+    "tested": 60,
+    "best_top1_correct": 60,
+    "best_top1_accuracy": 1.0,
+    "decided_non_null": 50,
+    "decided_correct": 50,
+    "decided_accuracy_on_decided": 1.0,
+    "unknown_count": 10
+  },
+  "results": [
+    {
+      "earth": "Limveld",
+      "patternId_truth": 0,
+      "patternId_best": 0,
+      "patternId_decided": 0,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 3.863640308380127,
+      "top5": [
+        0,
+        171,
+        92,
+        285,
+        166
+      ]
+    },
+    {
+      "earth": "Limveld",
+      "patternId_truth": 1,
+      "patternId_best": 1,
+      "patternId_decided": null,
+      "unknown": true,
+      "confidence": 1.0,
+      "margin": 3.012023448944092,
+      "top5": [
+        1,
+        169,
+        2,
+        202,
+        40
+      ]
+    },
+    {
+      "earth": "Limveld",
+      "patternId_truth": 2,
+      "patternId_best": 2,
+      "patternId_decided": 2,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 3.1569807529449463,
+      "top5": [
+        2,
+        1,
+        284,
+        210,
+        203
+      ]
+    },
+    {
+      "earth": "Limveld",
+      "patternId_truth": 3,
+      "patternId_best": 3,
+      "patternId_decided": null,
+      "unknown": true,
+      "confidence": 1.0,
+      "margin": 2.3654184341430664,
+      "top5": [
+        3,
+        166,
+        164,
+        85,
+        292
+      ]
+    },
+    {
+      "earth": "Limveld",
+      "patternId_truth": 4,
+      "patternId_best": 4,
+      "patternId_decided": 4,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 4.371587753295898,
+      "top5": [
+        4,
+        249,
+        86,
+        129,
+        246
+      ]
+    },
+    {
+      "earth": "Limveld",
+      "patternId_truth": 5,
+      "patternId_best": 5,
+      "patternId_decided": 5,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 3.395400285720825,
+      "top5": [
+        5,
+        98,
+        240,
+        251,
+        1050
+      ]
+    },
+    {
+      "earth": "Limveld",
+      "patternId_truth": 6,
+      "patternId_best": 6,
+      "patternId_decided": null,
+      "unknown": true,
+      "confidence": 1.0,
+      "margin": 2.576052665710449,
+      "top5": [
+        6,
+        173,
+        256,
+        45,
+        52
+      ]
+    },
+    {
+      "earth": "Limveld",
+      "patternId_truth": 7,
+      "patternId_best": 7,
+      "patternId_decided": null,
+      "unknown": true,
+      "confidence": 1.0,
+      "margin": 2.841157913208008,
+      "top5": [
+        7,
+        217,
+        282,
+        94,
+        127
+      ]
+    },
+    {
+      "earth": "Limveld",
+      "patternId_truth": 8,
+      "patternId_best": 8,
+      "patternId_decided": 8,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 3.955106258392334,
+      "top5": [
+        8,
+        52,
+        129,
+        5,
+        252
+      ]
+    },
+    {
+      "earth": "Limveld",
+      "patternId_truth": 9,
+      "patternId_best": 9,
+      "patternId_decided": 9,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 3.529944658279419,
+      "top5": [
+        9,
+        41,
+        164,
+        1085,
+        206
+      ]
+    },
+    {
+      "earth": "Noklateo",
+      "patternId_truth": 35,
+      "patternId_best": 35,
+      "patternId_decided": null,
+      "unknown": true,
+      "confidence": 1.0,
+      "margin": 2.0591988563537598,
+      "top5": [
+        35,
+        239,
+        195,
+        119,
+        317
+      ]
+    },
+    {
+      "earth": "Noklateo",
+      "patternId_truth": 36,
+      "patternId_best": 36,
+      "patternId_decided": null,
+      "unknown": true,
+      "confidence": 1.0,
+      "margin": 2.3133349418640137,
+      "top5": [
+        36,
+        1137,
+        38,
+        117,
+        115
+      ]
+    },
+    {
+      "earth": "Noklateo",
+      "patternId_truth": 37,
+      "patternId_best": 37,
+      "patternId_decided": 37,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 2.9666268825531006,
+      "top5": [
+        37,
+        76,
+        195,
+        1135,
+        158
+      ]
+    },
+    {
+      "earth": "Noklateo",
+      "patternId_truth": 38,
+      "patternId_best": 38,
+      "patternId_decided": 38,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 2.727875232696533,
+      "top5": [
+        38,
+        36,
+        76,
+        237,
+        1137
+      ]
+    },
+    {
+      "earth": "Noklateo",
+      "patternId_truth": 39,
+      "patternId_best": 39,
+      "patternId_decided": 39,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 3.211239814758301,
+      "top5": [
+        39,
+        1138,
+        279,
+        238,
+        155
+      ]
+    },
+    {
+      "earth": "Noklateo",
+      "patternId_truth": 75,
+      "patternId_best": 75,
+      "patternId_decided": 75,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 3.4439501762390137,
+      "top5": [
+        75,
+        118,
+        236,
+        158,
+        155
+      ]
+    },
+    {
+      "earth": "Noklateo",
+      "patternId_truth": 76,
+      "patternId_best": 76,
+      "patternId_decided": 76,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 2.9780850410461426,
+      "top5": [
+        76,
+        37,
+        38,
+        79,
+        119
+      ]
+    },
+    {
+      "earth": "Noklateo",
+      "patternId_truth": 77,
+      "patternId_best": 77,
+      "patternId_decided": 77,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 3.4921622276306152,
+      "top5": [
+        77,
+        158,
+        118,
+        275,
+        117
+      ]
+    },
+    {
+      "earth": "Noklateo",
+      "patternId_truth": 78,
+      "patternId_best": 78,
+      "patternId_decided": 78,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 2.439910650253296,
+      "top5": [
+        78,
+        156,
+        315,
+        119,
+        115
+      ]
+    },
+    {
+      "earth": "Noklateo",
+      "patternId_truth": 79,
+      "patternId_best": 79,
+      "patternId_decided": 79,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 2.863417625427246,
+      "top5": [
+        79,
+        119,
+        315,
+        317,
+        76
+      ]
+    },
+    {
+      "earth": "The Crater",
+      "patternId_truth": 25,
+      "patternId_best": 25,
+      "patternId_decided": 25,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 2.7099812030792236,
+      "top5": [
+        25,
+        106,
+        307,
+        66,
+        65
+      ]
+    },
+    {
+      "earth": "The Crater",
+      "patternId_truth": 26,
+      "patternId_best": 26,
+      "patternId_decided": 26,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 3.2544732093811035,
+      "top5": [
+        26,
+        265,
+        228,
+        66,
+        225
+      ]
+    },
+    {
+      "earth": "The Crater",
+      "patternId_truth": 27,
+      "patternId_best": 27,
+      "patternId_decided": 27,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 2.4408764839172363,
+      "top5": [
+        27,
+        146,
+        148,
+        67,
+        1167
+      ]
+    },
+    {
+      "earth": "The Crater",
+      "patternId_truth": 28,
+      "patternId_best": 28,
+      "patternId_decided": 28,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 2.889050006866455,
+      "top5": [
+        28,
+        188,
+        268,
+        105,
+        267
+      ]
+    },
+    {
+      "earth": "The Crater",
+      "patternId_truth": 29,
+      "patternId_best": 29,
+      "patternId_decided": 29,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 2.783095359802246,
+      "top5": [
+        29,
+        69,
+        107,
+        225,
+        189
+      ]
+    },
+    {
+      "earth": "The Crater",
+      "patternId_truth": 65,
+      "patternId_best": 65,
+      "patternId_decided": 65,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 2.50518798828125,
+      "top5": [
+        65,
+        66,
+        228,
+        108,
+        307
+      ]
+    },
+    {
+      "earth": "The Crater",
+      "patternId_truth": 66,
+      "patternId_best": 66,
+      "patternId_decided": 66,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 2.580579996109009,
+      "top5": [
+        66,
+        65,
+        1165,
+        186,
+        309
+      ]
+    },
+    {
+      "earth": "The Crater",
+      "patternId_truth": 67,
+      "patternId_best": 67,
+      "patternId_decided": 67,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 2.8113560676574707,
+      "top5": [
+        67,
+        1108,
+        186,
+        146,
+        187
+      ]
+    },
+    {
+      "earth": "The Crater",
+      "patternId_truth": 68,
+      "patternId_best": 68,
+      "patternId_decided": 68,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 2.573831558227539,
+      "top5": [
+        68,
+        305,
+        228,
+        306,
+        106
+      ]
+    },
+    {
+      "earth": "The Crater",
+      "patternId_truth": 69,
+      "patternId_best": 69,
+      "patternId_decided": 69,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 2.9815447330474854,
+      "top5": [
+        69,
+        29,
+        225,
+        28,
+        1168
+      ]
+    },
+    {
+      "earth": "Mountaintop",
+      "patternId_truth": 20,
+      "patternId_best": 20,
+      "patternId_decided": 20,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 2.546433687210083,
+      "top5": [
+        20,
+        261,
+        61,
+        303,
+        222
+      ]
+    },
+    {
+      "earth": "Mountaintop",
+      "patternId_truth": 21,
+      "patternId_best": 21,
+      "patternId_decided": 21,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 3.2259745597839355,
+      "top5": [
+        21,
+        143,
+        60,
+        103,
+        1102
+      ]
+    },
+    {
+      "earth": "Mountaintop",
+      "patternId_truth": 22,
+      "patternId_best": 22,
+      "patternId_decided": 22,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 2.440183162689209,
+      "top5": [
+        22,
+        64,
+        63,
+        223,
+        184
+      ]
+    },
+    {
+      "earth": "Mountaintop",
+      "patternId_truth": 23,
+      "patternId_best": 23,
+      "patternId_decided": 23,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 3.0810470581054688,
+      "top5": [
+        23,
+        64,
+        102,
+        264,
+        103
+      ]
+    },
+    {
+      "earth": "Mountaintop",
+      "patternId_truth": 24,
+      "patternId_best": 24,
+      "patternId_decided": 24,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 2.772550582885742,
+      "top5": [
+        24,
+        184,
+        264,
+        64,
+        60
+      ]
+    },
+    {
+      "earth": "Mountaintop",
+      "patternId_truth": 60,
+      "patternId_best": 60,
+      "patternId_decided": 60,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 3.1278305053710938,
+      "top5": [
+        60,
+        301,
+        264,
+        143,
+        140
+      ]
+    },
+    {
+      "earth": "Mountaintop",
+      "patternId_truth": 61,
+      "patternId_best": 61,
+      "patternId_decided": 61,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 2.915710926055908,
+      "top5": [
+        61,
+        20,
+        303,
+        1103,
+        260
+      ]
+    },
+    {
+      "earth": "Mountaintop",
+      "patternId_truth": 62,
+      "patternId_best": 62,
+      "patternId_decided": 62,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 2.8584401607513428,
+      "top5": [
+        62,
+        180,
+        144,
+        1103,
+        140
+      ]
+    },
+    {
+      "earth": "Mountaintop",
+      "patternId_truth": 63,
+      "patternId_best": 63,
+      "patternId_decided": 63,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 2.804142713546753,
+      "top5": [
+        63,
+        22,
+        141,
+        1163,
+        1100
+      ]
+    },
+    {
+      "earth": "Mountaintop",
+      "patternId_truth": 64,
+      "patternId_best": 64,
+      "patternId_decided": null,
+      "unknown": true,
+      "confidence": 1.0,
+      "margin": 2.3350064754486084,
+      "top5": [
+        64,
+        22,
+        184,
+        23,
+        24
+      ]
+    },
+    {
+      "earth": "Rotted Woods",
+      "patternId_truth": 30,
+      "patternId_best": 30,
+      "patternId_decided": 30,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 2.6862616539001465,
+      "top5": [
+        30,
+        194,
+        73,
+        152,
+        114
+      ]
+    },
+    {
+      "earth": "Rotted Woods",
+      "patternId_truth": 31,
+      "patternId_best": 31,
+      "patternId_decided": 31,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 3.2095694541931152,
+      "top5": [
+        31,
+        1112,
+        1173,
+        151,
+        192
+      ]
+    },
+    {
+      "earth": "Rotted Woods",
+      "patternId_truth": 32,
+      "patternId_best": 32,
+      "patternId_decided": 32,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 2.9008426666259766,
+      "top5": [
+        32,
+        71,
+        1110,
+        230,
+        191
+      ]
+    },
+    {
+      "earth": "Rotted Woods",
+      "patternId_truth": 33,
+      "patternId_best": 33,
+      "patternId_decided": null,
+      "unknown": true,
+      "confidence": 0.9999998807907104,
+      "margin": 1.9175012111663818,
+      "top5": [
+        33,
+        150,
+        1111,
+        192,
+        112
+      ]
+    },
+    {
+      "earth": "Rotted Woods",
+      "patternId_truth": 34,
+      "patternId_best": 34,
+      "patternId_decided": 34,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 2.955299139022827,
+      "top5": [
+        34,
+        74,
+        154,
+        234,
+        271
+      ]
+    },
+    {
+      "earth": "Rotted Woods",
+      "patternId_truth": 70,
+      "patternId_best": 70,
+      "patternId_decided": 70,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 3.2900171279907227,
+      "top5": [
+        70,
+        191,
+        270,
+        72,
+        154
+      ]
+    },
+    {
+      "earth": "Rotted Woods",
+      "patternId_truth": 71,
+      "patternId_best": 71,
+      "patternId_decided": null,
+      "unknown": true,
+      "confidence": 0.9999998807907104,
+      "margin": 1.9839181900024414,
+      "top5": [
+        71,
+        233,
+        313,
+        74,
+        1110
+      ]
+    },
+    {
+      "earth": "Rotted Woods",
+      "patternId_truth": 72,
+      "patternId_best": 72,
+      "patternId_decided": 72,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 3.505291223526001,
+      "top5": [
+        72,
+        154,
+        70,
+        191,
+        34
+      ]
+    },
+    {
+      "earth": "Rotted Woods",
+      "patternId_truth": 73,
+      "patternId_best": 73,
+      "patternId_decided": 73,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 2.4993343353271484,
+      "top5": [
+        73,
+        194,
+        30,
+        191,
+        312
+      ]
+    },
+    {
+      "earth": "Rotted Woods",
+      "patternId_truth": 74,
+      "patternId_best": 74,
+      "patternId_decided": 74,
+      "unknown": false,
+      "confidence": 1.0,
+      "margin": 2.771271228790283,
+      "top5": [
+        74,
+        71,
+        34,
+        313,
+        152
+      ]
+    },
+    {
+      "earth": "Great Hollow",
+      "patternId_truth": 1005,
+      "patternId_best": 1005,
+      "patternId_decided": 1005,
+      "unknown": false,
+      "confidence": 0.15145480632781982,
+      "margin": 0.013703227043151855,
+      "top5": [
+        1005,
+        1007,
+        1039,
+        1038,
+        1026
+      ]
+    },
+    {
+      "earth": "Great Hollow",
+      "patternId_truth": 1006,
+      "patternId_best": 1006,
+      "patternId_decided": 1006,
+      "unknown": false,
+      "confidence": 0.14558222889900208,
+      "margin": 0.00799262523651123,
+      "top5": [
+        1006,
+        1182,
+        1183,
+        1131,
+        1068
+      ]
+    },
+    {
+      "earth": "Great Hollow",
+      "patternId_truth": 1007,
+      "patternId_best": 1007,
+      "patternId_decided": 1007,
+      "unknown": false,
+      "confidence": 0.1487191617488861,
+      "margin": 0.004537701606750488,
+      "top5": [
+        1007,
+        1039,
+        1005,
+        1038,
+        1026
+      ]
+    },
+    {
+      "earth": "Great Hollow",
+      "patternId_truth": 1008,
+      "patternId_best": 1008,
+      "patternId_decided": 1008,
+      "unknown": false,
+      "confidence": 0.22376717627048492,
+      "margin": 0.003574848175048828,
+      "top5": [
+        1008,
+        1187,
+        1184,
+        1009,
+        1123
+      ]
+    },
+    {
+      "earth": "Great Hollow",
+      "patternId_truth": 1009,
+      "patternId_best": 1009,
+      "patternId_decided": 1009,
+      "unknown": false,
+      "confidence": 0.18475572764873505,
+      "margin": 0.0043364763259887695,
+      "top5": [
+        1009,
+        1123,
+        1019,
+        1069,
+        1008
+      ]
+    },
+    {
+      "earth": "Great Hollow",
+      "patternId_truth": 1015,
+      "patternId_best": 1015,
+      "patternId_decided": 1015,
+      "unknown": false,
+      "confidence": 0.13183654844760895,
+      "margin": 0.003301084041595459,
+      "top5": [
+        1015,
+        1189,
+        1124,
+        1067,
+        1188
+      ]
+    },
+    {
+      "earth": "Great Hollow",
+      "patternId_truth": 1016,
+      "patternId_best": 1016,
+      "patternId_decided": null,
+      "unknown": true,
+      "confidence": 0.12626326084136963,
+      "margin": 0.0,
+      "top5": [
+        1016,
+        1049,
+        1125,
+        1133,
+        1178
+      ]
+    },
+    {
+      "earth": "Great Hollow",
+      "patternId_truth": 1017,
+      "patternId_best": 1017,
+      "patternId_decided": 1017,
+      "unknown": false,
+      "confidence": 0.20531810820102692,
+      "margin": 0.15276741981506348,
+      "top5": [
+        1017,
+        1131,
+        1183,
+        1133,
+        1006
+      ]
+    },
+    {
+      "earth": "Great Hollow",
+      "patternId_truth": 1018,
+      "patternId_best": 1018,
+      "patternId_decided": 1018,
+      "unknown": false,
+      "confidence": 0.1640365570783615,
+      "margin": 0.006552577018737793,
+      "top5": [
+        1018,
+        1059,
+        1056,
+        1194,
+        1065
+      ]
+    },
+    {
+      "earth": "Great Hollow",
+      "patternId_truth": 1019,
+      "patternId_best": 1019,
+      "patternId_decided": 1019,
+      "unknown": false,
+      "confidence": 0.18765459954738617,
+      "margin": 0.007916688919067383,
+      "top5": [
+        1019,
+        1009,
+        1123,
+        1069,
+        1187
+      ]
+    }
+  ]
+}

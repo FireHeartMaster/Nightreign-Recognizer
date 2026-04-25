@@ -1,0 +1,4614 @@
+{
+  "source_dir": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images",
+  "output_dir": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422",
+  "mode": "v38_full_pipeline",
+  "env": {
+    "GH_USE_PARALLEL_PANEL_CLASSIFIER": "1",
+    "GH_LAYOUT_MODEL_MATCH_MODE": "models"
+  },
+  "count_requested": 40,
+  "count_processed": 40,
+  "items": [
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (250).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_001_Screenshot (250).png",
+      "top_layout": 1133,
+      "top_earth": "Great Hollow",
+      "top_score": 0.9023639489203692,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2211,
+        "y0": 292,
+        "x1": 3746,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.7166881295152427,
+          "x_norm": 0.4016927083333333,
+          "y_norm": 0.12630208333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2828,
+            "y": 486
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "empty",
+          "best_prob": 0.8902746219285812,
+          "x_norm": 0.8287760416666666,
+          "y_norm": 0.3307291666666667,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3483,
+            "y": 800
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "empty",
+          "best_prob": 0.9957140807166358,
+          "x_norm": 0.537109375,
+          "y_norm": 0.359375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3035,
+            "y": 844
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Church",
+          "best_prob": 0.9999992260644072,
+          "x_norm": 0.640625,
+          "y_norm": 0.4739583333333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3194,
+            "y": 1020
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "Church",
+          "best_prob": 0.9840673298438525,
+          "x_norm": 0.3248697916666667,
+          "y_norm": 0.4765625,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2710,
+            "y": 1024
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "unknown",
+          "best_prob": 0.5090746485789418,
+          "x_norm": 0.20768229166666666,
+          "y_norm": 0.54296875,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2530,
+            "y": 1125
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "unknown",
+          "best_prob": 0.5006855981371762,
+          "x_norm": 0.3346354166666667,
+          "y_norm": 0.7734375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2725,
+            "y": 1479
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (252).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_002_Screenshot (252).png",
+      "top_layout": 1129,
+      "top_earth": "Great Hollow",
+      "top_score": 0.9008584890872241,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2211,
+        "y0": 292,
+        "x1": 3746,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.7156683738533334,
+          "x_norm": 0.4016927083333333,
+          "y_norm": 0.12630208333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2828,
+            "y": 486
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "empty",
+          "best_prob": 0.8895529769147112,
+          "x_norm": 0.8287760416666666,
+          "y_norm": 0.3307291666666667,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3483,
+            "y": 800
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "empty",
+          "best_prob": 0.9957140807166358,
+          "x_norm": 0.537109375,
+          "y_norm": 0.359375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3035,
+            "y": 844
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Church",
+          "best_prob": 0.9243897481914474,
+          "x_norm": 0.640625,
+          "y_norm": 0.4739583333333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3194,
+            "y": 1020
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "Church",
+          "best_prob": 0.9997252902786009,
+          "x_norm": 0.3248697916666667,
+          "y_norm": 0.4765625,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2710,
+            "y": 1024
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "unknown",
+          "best_prob": 0.5090746485789418,
+          "x_norm": 0.20768229166666666,
+          "y_norm": 0.54296875,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2530,
+            "y": 1125
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "Sorcerer's Rise",
+          "best_prob": 0.9323092271038961,
+          "x_norm": 0.3346354166666667,
+          "y_norm": 0.7734375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2725,
+            "y": 1479
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (253).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_003_Screenshot (253).png",
+      "top_layout": 1120,
+      "top_earth": "Great Hollow",
+      "top_score": 0.8833494941473007,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2211,
+        "y0": 292,
+        "x1": 3746,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.8053701147069137,
+          "x_norm": 0.4010416666666667,
+          "y_norm": 0.12630208333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2827,
+            "y": 486
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "empty",
+          "best_prob": 0.8901381064225574,
+          "x_norm": 0.8287760416666666,
+          "y_norm": 0.3307291666666667,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3483,
+            "y": 800
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "empty",
+          "best_prob": 0.9977006632995243,
+          "x_norm": 0.5364583333333334,
+          "y_norm": 0.359375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3034,
+            "y": 844
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Church",
+          "best_prob": 0.9999999528961319,
+          "x_norm": 0.6399739583333334,
+          "y_norm": 0.4739583333333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3193,
+            "y": 1020
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "Church",
+          "best_prob": 0.9840673298438525,
+          "x_norm": 0.3248697916666667,
+          "y_norm": 0.4765625,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2710,
+            "y": 1024
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "Ruins",
+          "best_prob": 0.7616209691378198,
+          "x_norm": 0.20768229166666666,
+          "y_norm": 0.54296875,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2530,
+            "y": 1125
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "Church",
+          "best_prob": 0.5570012558082186,
+          "x_norm": 0.333984375,
+          "y_norm": 0.7734375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2724,
+            "y": 1479
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (254).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_004_Screenshot (254).png",
+      "top_layout": 1130,
+      "top_earth": "Great Hollow",
+      "top_score": 0.8818409347534181,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2212,
+        "y0": 292,
+        "x1": 3747,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.999995717055634,
+          "x_norm": 0.3971354166666667,
+          "y_norm": 0.177734375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2822,
+            "y": 565
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "Great Church",
+          "best_prob": 0.6701993776926759,
+          "x_norm": 0.8248697916666666,
+          "y_norm": 0.3815104166666667,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3478,
+            "y": 878
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "Church",
+          "best_prob": 0.9999620512991061,
+          "x_norm": 0.5325520833333334,
+          "y_norm": 0.41015625,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3029,
+            "y": 922
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Sorcerer's Rise",
+          "best_prob": 0.9532387141752604,
+          "x_norm": 0.63671875,
+          "y_norm": 0.525390625,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3189,
+            "y": 1098
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "Sorcerer's Rise",
+          "best_prob": 0.9992243769231389,
+          "x_norm": 0.3209635416666667,
+          "y_norm": 0.52734375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2705,
+            "y": 1101
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "Ruins",
+          "best_prob": 0.9999997570365052,
+          "x_norm": 0.20377604166666666,
+          "y_norm": 0.59375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2525,
+            "y": 1203
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "Church",
+          "best_prob": 0.9999662460882427,
+          "x_norm": 0.330078125,
+          "y_norm": 0.82421875,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2719,
+            "y": 1557
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (255).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_005_Screenshot (255).png",
+      "top_layout": 1134,
+      "top_earth": "Great Hollow",
+      "top_score": 0.8948066622614861,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2212,
+        "y0": 292,
+        "x1": 3747,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.996659727725203,
+          "x_norm": 0.3958333333333333,
+          "y_norm": 0.18619791666666666,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2820,
+            "y": 578
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "Great Church",
+          "best_prob": 0.9583263291456783,
+          "x_norm": 0.8229166666666666,
+          "y_norm": 0.3899739583333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3475,
+            "y": 891
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "Church",
+          "best_prob": 0.9999179403312024,
+          "x_norm": 0.53125,
+          "y_norm": 0.4192708333333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3027,
+            "y": 936
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Church",
+          "best_prob": 0.9999385062203545,
+          "x_norm": 0.634765625,
+          "y_norm": 0.5338541666666666,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3186,
+            "y": 1111
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "empty",
+          "best_prob": 0.6272080264668661,
+          "x_norm": 0.3190104166666667,
+          "y_norm": 0.5364583333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2702,
+            "y": 1115
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "Ruins",
+          "best_prob": 0.9999997693629139,
+          "x_norm": 0.20182291666666666,
+          "y_norm": 0.6028645833333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2522,
+            "y": 1217
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "Church",
+          "best_prob": 0.9996502559411251,
+          "x_norm": 0.3287760416666667,
+          "y_norm": 0.8333333333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2717,
+            "y": 1571
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (256).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_006_Screenshot (256).png",
+      "top_layout": 1123,
+      "top_earth": "Great Hollow",
+      "top_score": 0.9138576798141003,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2212,
+        "y0": 292,
+        "x1": 3747,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.7784116360492648,
+          "x_norm": 0.4010416666666667,
+          "y_norm": 0.12630208333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2828,
+            "y": 486
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "empty",
+          "best_prob": 0.8895145116219297,
+          "x_norm": 0.828125,
+          "y_norm": 0.3307291666666667,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3483,
+            "y": 800
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "empty",
+          "best_prob": 0.995708912670966,
+          "x_norm": 0.5364583333333334,
+          "y_norm": 0.359375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3035,
+            "y": 844
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Sorcerer's Rise",
+          "best_prob": 0.9462857878003247,
+          "x_norm": 0.6399739583333334,
+          "y_norm": 0.4739583333333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3194,
+            "y": 1020
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "Church",
+          "best_prob": 0.9997245246726674,
+          "x_norm": 0.32421875,
+          "y_norm": 0.4765625,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2710,
+            "y": 1024
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "unknown",
+          "best_prob": 0.5003091052043526,
+          "x_norm": 0.20703125,
+          "y_norm": 0.54296875,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2530,
+            "y": 1125
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "empty",
+          "best_prob": 0.9945177167759213,
+          "x_norm": 0.333984375,
+          "y_norm": 0.7734375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2725,
+            "y": 1479
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (257).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_007_Screenshot (257).png",
+      "top_layout": 1128,
+      "top_earth": "Great Hollow",
+      "top_score": 0.8661416865289212,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2211,
+        "y0": 292,
+        "x1": 3746,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.8096988769599356,
+          "x_norm": 0.40234375,
+          "y_norm": 0.12630208333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2829,
+            "y": 486
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "empty",
+          "best_prob": 0.8665012880412998,
+          "x_norm": 0.8294270833333334,
+          "y_norm": 0.3307291666666667,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3484,
+            "y": 800
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "empty",
+          "best_prob": 0.9957140807166358,
+          "x_norm": 0.537109375,
+          "y_norm": 0.359375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3035,
+            "y": 844
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Church",
+          "best_prob": 0.9016713501168342,
+          "x_norm": 0.6412760416666666,
+          "y_norm": 0.4739583333333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3195,
+            "y": 1020
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "Church",
+          "best_prob": 0.9999998172926892,
+          "x_norm": 0.3255208333333333,
+          "y_norm": 0.4765625,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2711,
+            "y": 1024
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "Ruins",
+          "best_prob": 0.5736841336550687,
+          "x_norm": 0.20833333333333334,
+          "y_norm": 0.54296875,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2531,
+            "y": 1125
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "Sorcerer's Rise",
+          "best_prob": 0.9322974363598734,
+          "x_norm": 0.3346354166666667,
+          "y_norm": 0.7734375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2725,
+            "y": 1479
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (258).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_008_Screenshot (258).png",
+      "top_layout": 1132,
+      "top_earth": "Great Hollow",
+      "top_score": 0.8703376961588859,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2211,
+        "y0": 292,
+        "x1": 3746,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.9999934282452182,
+          "x_norm": 0.3971354166666667,
+          "y_norm": 0.18684895833333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2821,
+            "y": 579
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "Great Church",
+          "best_prob": 0.7850969090595915,
+          "x_norm": 0.82421875,
+          "y_norm": 0.390625,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3476,
+            "y": 892
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "Church",
+          "best_prob": 0.999917721879582,
+          "x_norm": 0.5319010416666666,
+          "y_norm": 0.4192708333333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3027,
+            "y": 936
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Church",
+          "best_prob": 0.9995330791706204,
+          "x_norm": 0.6360677083333334,
+          "y_norm": 0.5345052083333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3187,
+            "y": 1112
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "unknown",
+          "best_prob": 0.42403060777615115,
+          "x_norm": 0.3203125,
+          "y_norm": 0.5364583333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2703,
+            "y": 1115
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "Ruins",
+          "best_prob": 0.9999976005266271,
+          "x_norm": 0.203125,
+          "y_norm": 0.6028645833333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2523,
+            "y": 1217
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "Church",
+          "best_prob": 0.9997569076240506,
+          "x_norm": 0.3294270833333333,
+          "y_norm": 0.8333333333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2717,
+            "y": 1571
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (259).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_009_Screenshot (259).png",
+      "top_layout": 1115,
+      "top_earth": "Great Hollow",
+      "top_score": 0.460963806605339,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2212,
+        "y0": 292,
+        "x1": 3747,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.9999577008634062,
+          "x_norm": 0.3958333333333333,
+          "y_norm": 0.18684895833333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2820,
+            "y": 579
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "Great Church",
+          "best_prob": 0.5975436627615607,
+          "x_norm": 0.8229166666666666,
+          "y_norm": 0.390625,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3475,
+            "y": 892
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "Church",
+          "best_prob": 0.9999179403312024,
+          "x_norm": 0.53125,
+          "y_norm": 0.4192708333333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3027,
+            "y": 936
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Sorcerer's Rise",
+          "best_prob": 0.9879776269905325,
+          "x_norm": 0.634765625,
+          "y_norm": 0.5345052083333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3186,
+            "y": 1112
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "Sorcerer's Rise",
+          "best_prob": 0.9992624294301824,
+          "x_norm": 0.3190104166666667,
+          "y_norm": 0.5364583333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2702,
+            "y": 1115
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "empty",
+          "best_prob": 0.9999998963487106,
+          "x_norm": 0.20182291666666666,
+          "y_norm": 0.6028645833333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2522,
+            "y": 1217
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "Church",
+          "best_prob": 0.9997604202529178,
+          "x_norm": 0.3287760416666667,
+          "y_norm": 0.8333333333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2717,
+            "y": 1571
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (261).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_010_Screenshot (261).png",
+      "top_layout": 1122,
+      "top_earth": "Great Hollow",
+      "top_score": 2.603058314239979,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2212,
+        "y0": 292,
+        "x1": 3747,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.9999168286546503,
+          "x_norm": 0.3971354166666667,
+          "y_norm": 0.18619791666666666,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2822,
+            "y": 578
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "Great Church",
+          "best_prob": 0.9056308852994726,
+          "x_norm": 0.82421875,
+          "y_norm": 0.3899739583333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3477,
+            "y": 891
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "Church",
+          "best_prob": 0.9995337756397499,
+          "x_norm": 0.5319010416666666,
+          "y_norm": 0.4192708333333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3028,
+            "y": 936
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Church",
+          "best_prob": 0.9999796675534637,
+          "x_norm": 0.6360677083333334,
+          "y_norm": 0.5338541666666666,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3188,
+            "y": 1111
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "Sorcerer's Rise",
+          "best_prob": 0.9986678572986631,
+          "x_norm": 0.3203125,
+          "y_norm": 0.5364583333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2704,
+            "y": 1115
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "Ruins",
+          "best_prob": 0.9999999883139458,
+          "x_norm": 0.203125,
+          "y_norm": 0.6028645833333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2524,
+            "y": 1217
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "Church",
+          "best_prob": 0.9995389214958313,
+          "x_norm": 0.3294270833333333,
+          "y_norm": 0.8333333333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2718,
+            "y": 1571
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (262).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_011_Screenshot (262).png",
+      "top_layout": 1116,
+      "top_earth": "Great Hollow",
+      "top_score": 0.8857141008615494,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2211,
+        "y0": 292,
+        "x1": 3746,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.8074670155248868,
+          "x_norm": 0.4010416666666667,
+          "y_norm": 0.12630208333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2827,
+            "y": 486
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "empty",
+          "best_prob": 0.8901298114820344,
+          "x_norm": 0.8287760416666666,
+          "y_norm": 0.3307291666666667,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3483,
+            "y": 800
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "empty",
+          "best_prob": 0.9977006632995243,
+          "x_norm": 0.5364583333333334,
+          "y_norm": 0.359375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3034,
+            "y": 844
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Church",
+          "best_prob": 0.9863420458503573,
+          "x_norm": 0.6399739583333334,
+          "y_norm": 0.4739583333333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3193,
+            "y": 1020
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "Church",
+          "best_prob": 0.9249393338992696,
+          "x_norm": 0.3248697916666667,
+          "y_norm": 0.4765625,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2710,
+            "y": 1024
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "Ruins",
+          "best_prob": 0.7616209691378198,
+          "x_norm": 0.20768229166666666,
+          "y_norm": 0.54296875,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2530,
+            "y": 1125
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "Church",
+          "best_prob": 0.5570776119826638,
+          "x_norm": 0.333984375,
+          "y_norm": 0.7734375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2724,
+            "y": 1479
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (263).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_012_Screenshot (263).png",
+      "top_layout": 1120,
+      "top_earth": "Great Hollow",
+      "top_score": 0.8831182550072669,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2211,
+        "y0": 292,
+        "x1": 3746,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.9996494115079444,
+          "x_norm": 0.3919270833333333,
+          "y_norm": 0.18489583333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2813,
+            "y": 576
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "Great Church",
+          "best_prob": 0.857450170397443,
+          "x_norm": 0.8196614583333334,
+          "y_norm": 0.388671875,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3469,
+            "y": 889
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "Church",
+          "best_prob": 0.99999076135362,
+          "x_norm": 0.52734375,
+          "y_norm": 0.4173177083333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3020,
+            "y": 933
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Church",
+          "best_prob": 0.9999842478706275,
+          "x_norm": 0.6315104166666666,
+          "y_norm": 0.5325520833333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3180,
+            "y": 1109
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "Sorcerer's Rise",
+          "best_prob": 0.8258783837671178,
+          "x_norm": 0.3157552083333333,
+          "y_norm": 0.5345052083333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2696,
+            "y": 1112
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "Ruins",
+          "best_prob": 0.9999999997844556,
+          "x_norm": 0.19856770833333334,
+          "y_norm": 0.6009114583333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2516,
+            "y": 1214
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "Church",
+          "best_prob": 0.9991769162522773,
+          "x_norm": 0.3248697916666667,
+          "y_norm": 0.8313802083333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2710,
+            "y": 1568
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (264).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_013_Screenshot (264).png",
+      "top_layout": 1121,
+      "top_earth": "Great Hollow",
+      "top_score": 0.8729374580621719,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2211,
+        "y0": 292,
+        "x1": 3746,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.9987828348817975,
+          "x_norm": 0.3971354166666667,
+          "y_norm": 0.18619791666666666,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2821,
+            "y": 578
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "Great Church",
+          "best_prob": 0.6059255295651991,
+          "x_norm": 0.8248697916666666,
+          "y_norm": 0.390625,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3477,
+            "y": 892
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "Church",
+          "best_prob": 0.9995311258481185,
+          "x_norm": 0.5325520833333334,
+          "y_norm": 0.4192708333333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3028,
+            "y": 936
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Church",
+          "best_prob": 0.9999797570557506,
+          "x_norm": 0.63671875,
+          "y_norm": 0.5338541666666666,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3188,
+            "y": 1111
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "Church",
+          "best_prob": 0.9984673060580933,
+          "x_norm": 0.3209635416666667,
+          "y_norm": 0.5364583333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2704,
+            "y": 1115
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "Ruins",
+          "best_prob": 0.9999999880501604,
+          "x_norm": 0.20377604166666666,
+          "y_norm": 0.6028645833333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2524,
+            "y": 1217
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "empty",
+          "best_prob": 0.9997129095303825,
+          "x_norm": 0.330078125,
+          "y_norm": 0.8333333333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2718,
+            "y": 1571
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (265).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_014_Screenshot (265).png",
+      "top_layout": 1118,
+      "top_earth": "Great Hollow",
+      "top_score": 0.8563083865344524,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2212,
+        "y0": 292,
+        "x1": 3747,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.9999167061983563,
+          "x_norm": 0.3971354166666667,
+          "y_norm": 0.18619791666666666,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2822,
+            "y": 578
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "Great Church",
+          "best_prob": 0.6124864424891278,
+          "x_norm": 0.82421875,
+          "y_norm": 0.390625,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3477,
+            "y": 892
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "Church",
+          "best_prob": 0.9995337756397499,
+          "x_norm": 0.5319010416666666,
+          "y_norm": 0.4192708333333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3028,
+            "y": 936
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Church",
+          "best_prob": 0.9999796675534637,
+          "x_norm": 0.6360677083333334,
+          "y_norm": 0.5338541666666666,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3188,
+            "y": 1111
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "Church",
+          "best_prob": 0.9985218428065761,
+          "x_norm": 0.3203125,
+          "y_norm": 0.5364583333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2704,
+            "y": 1115
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "Ruins",
+          "best_prob": 0.9999999883108922,
+          "x_norm": 0.203125,
+          "y_norm": 0.6028645833333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2524,
+            "y": 1217
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "empty",
+          "best_prob": 0.9997168551811649,
+          "x_norm": 0.3294270833333333,
+          "y_norm": 0.8333333333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2718,
+            "y": 1571
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (266).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_015_Screenshot (266).png",
+      "top_layout": 1130,
+      "top_earth": "Great Hollow",
+      "top_score": 0.8821970358431339,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2212,
+        "y0": 292,
+        "x1": 3747,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.6789878073305861,
+          "x_norm": 0.44140625,
+          "y_norm": 0.17643229166666666,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2890,
+            "y": 563
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "empty",
+          "best_prob": 0.9926905228534555,
+          "x_norm": 0.869140625,
+          "y_norm": 0.380859375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3546,
+            "y": 877
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "Church",
+          "best_prob": 0.9934065938368137,
+          "x_norm": 0.5768229166666666,
+          "y_norm": 0.4095052083333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3097,
+            "y": 921
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Church",
+          "best_prob": 0.9943843476396326,
+          "x_norm": 0.6803385416666666,
+          "y_norm": 0.5240885416666666,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3256,
+            "y": 1096
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "Sorcerer's Rise",
+          "best_prob": 0.9949388679893304,
+          "x_norm": 0.365234375,
+          "y_norm": 0.5266927083333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2773,
+            "y": 1100
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "Ruins",
+          "best_prob": 0.9999861492405068,
+          "x_norm": 0.248046875,
+          "y_norm": 0.5930989583333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2593,
+            "y": 1202
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "Church",
+          "best_prob": 0.9991609715104035,
+          "x_norm": 0.3743489583333333,
+          "y_norm": 0.8235677083333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2787,
+            "y": 1556
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (267).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_016_Screenshot (267).png",
+      "top_layout": 1125,
+      "top_earth": "Great Hollow",
+      "top_score": 0.9029979017615318,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2211,
+        "y0": 292,
+        "x1": 3746,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.8014327416485478,
+          "x_norm": 0.4010416666666667,
+          "y_norm": 0.12630208333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2827,
+            "y": 486
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "empty",
+          "best_prob": 0.8897969149345849,
+          "x_norm": 0.8287760416666666,
+          "y_norm": 0.3307291666666667,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3483,
+            "y": 800
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "empty",
+          "best_prob": 0.9977006632995243,
+          "x_norm": 0.5364583333333334,
+          "y_norm": 0.359375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3034,
+            "y": 844
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Church",
+          "best_prob": 0.9999992260644072,
+          "x_norm": 0.640625,
+          "y_norm": 0.4739583333333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3194,
+            "y": 1020
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "Church",
+          "best_prob": 0.9840673298438525,
+          "x_norm": 0.3248697916666667,
+          "y_norm": 0.4765625,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2710,
+            "y": 1024
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "empty",
+          "best_prob": 0.9999998352117958,
+          "x_norm": 0.20768229166666666,
+          "y_norm": 0.54296875,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2530,
+            "y": 1125
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "Church",
+          "best_prob": 0.5571105056079431,
+          "x_norm": 0.333984375,
+          "y_norm": 0.7734375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2724,
+            "y": 1479
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (268).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_017_Screenshot (268).png",
+      "top_layout": 1129,
+      "top_earth": "Great Hollow",
+      "top_score": 0.9008977026790381,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2211,
+        "y0": 292,
+        "x1": 3746,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.8076923448902507,
+          "x_norm": 0.4010416666666667,
+          "y_norm": 0.12630208333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2827,
+            "y": 486
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "empty",
+          "best_prob": 0.789791644138589,
+          "x_norm": 0.828125,
+          "y_norm": 0.3307291666666667,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3482,
+            "y": 800
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "empty",
+          "best_prob": 0.9977006632995243,
+          "x_norm": 0.5364583333333334,
+          "y_norm": 0.359375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3034,
+            "y": 844
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Church",
+          "best_prob": 0.9863420458503573,
+          "x_norm": 0.6399739583333334,
+          "y_norm": 0.4739583333333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3193,
+            "y": 1020
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "Church",
+          "best_prob": 0.9989875405704639,
+          "x_norm": 0.32421875,
+          "y_norm": 0.4765625,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2709,
+            "y": 1024
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "Ruins",
+          "best_prob": 0.9429586297598412,
+          "x_norm": 0.20703125,
+          "y_norm": 0.54296875,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2529,
+            "y": 1125
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "Sorcerer's Rise",
+          "best_prob": 0.903645009439779,
+          "x_norm": 0.333984375,
+          "y_norm": 0.7734375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2724,
+            "y": 1479
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (269).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_018_Screenshot (269).png",
+      "top_layout": 1124,
+      "top_earth": "Great Hollow",
+      "top_score": 0.8572077182531356,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2212,
+        "y0": 292,
+        "x1": 3747,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.9999875250900194,
+          "x_norm": 0.396484375,
+          "y_norm": 0.177734375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2821,
+            "y": 565
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "unknown",
+          "best_prob": 0.5174727761584957,
+          "x_norm": 0.82421875,
+          "y_norm": 0.3815104166666667,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3477,
+            "y": 878
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "Church",
+          "best_prob": 0.9996552952281166,
+          "x_norm": 0.5319010416666666,
+          "y_norm": 0.4108072916666667,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3028,
+            "y": 923
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Church",
+          "best_prob": 0.9998695592299134,
+          "x_norm": 0.6354166666666666,
+          "y_norm": 0.525390625,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3187,
+            "y": 1098
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "Church",
+          "best_prob": 0.9908697858445276,
+          "x_norm": 0.3203125,
+          "y_norm": 0.5279947916666666,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2704,
+            "y": 1102
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "empty",
+          "best_prob": 0.9999316992969887,
+          "x_norm": 0.203125,
+          "y_norm": 0.5944010416666666,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2524,
+            "y": 1204
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "Sorcerer's Rise",
+          "best_prob": 0.9979397159917418,
+          "x_norm": 0.3294270833333333,
+          "y_norm": 0.8248697916666666,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2718,
+            "y": 1558
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (270).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_019_Screenshot (270).png",
+      "top_layout": 1116,
+      "top_earth": "Great Hollow",
+      "top_score": 0.8860309895277023,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2211,
+        "y0": 292,
+        "x1": 3746,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.8004097644407498,
+          "x_norm": 0.4010416666666667,
+          "y_norm": 0.12630208333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2827,
+            "y": 486
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "empty",
+          "best_prob": 0.8897125783372175,
+          "x_norm": 0.8287760416666666,
+          "y_norm": 0.3307291666666667,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3483,
+            "y": 800
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "empty",
+          "best_prob": 0.9977006632995243,
+          "x_norm": 0.5364583333333334,
+          "y_norm": 0.359375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3034,
+            "y": 844
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Church",
+          "best_prob": 0.9863420458503573,
+          "x_norm": 0.6399739583333334,
+          "y_norm": 0.4739583333333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3193,
+            "y": 1020
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "Church",
+          "best_prob": 0.9249393338992696,
+          "x_norm": 0.3248697916666667,
+          "y_norm": 0.4765625,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2710,
+            "y": 1024
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "Ruins",
+          "best_prob": 0.7616209691378198,
+          "x_norm": 0.20768229166666666,
+          "y_norm": 0.54296875,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2530,
+            "y": 1125
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "Church",
+          "best_prob": 0.5569499009008726,
+          "x_norm": 0.333984375,
+          "y_norm": 0.7734375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2724,
+            "y": 1479
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (271).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_020_Screenshot (271).png",
+      "top_layout": 1126,
+      "top_earth": "Great Hollow",
+      "top_score": 0.9204097279608251,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2211,
+        "y0": 292,
+        "x1": 3746,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.8032308514541684,
+          "x_norm": 0.4010416666666667,
+          "y_norm": 0.12630208333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2827,
+            "y": 486
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "empty",
+          "best_prob": 0.7908485108861999,
+          "x_norm": 0.828125,
+          "y_norm": 0.3307291666666667,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3482,
+            "y": 800
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "empty",
+          "best_prob": 0.9989202509552281,
+          "x_norm": 0.5358072916666666,
+          "y_norm": 0.359375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3033,
+            "y": 844
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Church",
+          "best_prob": 0.9999999528961319,
+          "x_norm": 0.6399739583333334,
+          "y_norm": 0.4739583333333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3193,
+            "y": 1020
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "Church",
+          "best_prob": 0.9120105079149127,
+          "x_norm": 0.32421875,
+          "y_norm": 0.4765625,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2709,
+            "y": 1024
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "Ruins",
+          "best_prob": 0.9429586297598412,
+          "x_norm": 0.20703125,
+          "y_norm": 0.54296875,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2529,
+            "y": 1125
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "empty",
+          "best_prob": 0.994202839187037,
+          "x_norm": 0.333984375,
+          "y_norm": 0.7734375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2724,
+            "y": 1479
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (272).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_021_Screenshot (272).png",
+      "top_layout": 1133,
+      "top_earth": "Great Hollow",
+      "top_score": 0.9021272018790246,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2211,
+        "y0": 292,
+        "x1": 3746,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.9999721849465224,
+          "x_norm": 0.4010416666666667,
+          "y_norm": 0.177734375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2827,
+            "y": 565
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "empty",
+          "best_prob": 0.5614221628493452,
+          "x_norm": 0.828125,
+          "y_norm": 0.3815104166666667,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3482,
+            "y": 878
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "Church",
+          "best_prob": 0.9999775707878887,
+          "x_norm": 0.5364583333333334,
+          "y_norm": 0.41015625,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3034,
+            "y": 922
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Church",
+          "best_prob": 0.9999979250259449,
+          "x_norm": 0.6399739583333334,
+          "y_norm": 0.525390625,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3193,
+            "y": 1098
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "empty",
+          "best_prob": 0.8916314088953157,
+          "x_norm": 0.32421875,
+          "y_norm": 0.52734375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2709,
+            "y": 1101
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "Ruins",
+          "best_prob": 0.9999999897924956,
+          "x_norm": 0.20703125,
+          "y_norm": 0.59375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2529,
+            "y": 1203
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "Church",
+          "best_prob": 0.9999584522261995,
+          "x_norm": 0.333984375,
+          "y_norm": 0.82421875,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2724,
+            "y": 1557
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (273).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_022_Screenshot (273).png",
+      "top_layout": 1121,
+      "top_earth": "Great Hollow",
+      "top_score": 0.8730111901581288,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2211,
+        "y0": 292,
+        "x1": 3746,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.9999187730628731,
+          "x_norm": 0.3977864583333333,
+          "y_norm": 0.18619791666666666,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2822,
+            "y": 578
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "Great Church",
+          "best_prob": 0.87051225259317,
+          "x_norm": 0.8248697916666666,
+          "y_norm": 0.3899739583333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3477,
+            "y": 891
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "Church",
+          "best_prob": 0.9995311258481185,
+          "x_norm": 0.5325520833333334,
+          "y_norm": 0.4192708333333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3028,
+            "y": 936
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Church",
+          "best_prob": 0.9999797570557506,
+          "x_norm": 0.63671875,
+          "y_norm": 0.5338541666666666,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3188,
+            "y": 1111
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "Church",
+          "best_prob": 0.9984673060580933,
+          "x_norm": 0.3209635416666667,
+          "y_norm": 0.5364583333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2704,
+            "y": 1115
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "Ruins",
+          "best_prob": 0.9999999880440051,
+          "x_norm": 0.20377604166666666,
+          "y_norm": 0.6028645833333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2524,
+            "y": 1217
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "empty",
+          "best_prob": 0.9999383634356608,
+          "x_norm": 0.3307291666666667,
+          "y_norm": 0.8333333333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2719,
+            "y": 1571
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (274).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_023_Screenshot (274).png",
+      "top_layout": 1125,
+      "top_earth": "Great Hollow",
+      "top_score": 0.8970902792006731,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2211,
+        "y0": 292,
+        "x1": 3746,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.9999934469511683,
+          "x_norm": 0.3971354166666667,
+          "y_norm": 0.18684895833333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2821,
+            "y": 579
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "Great Church",
+          "best_prob": 0.5714004218706626,
+          "x_norm": 0.8248697916666666,
+          "y_norm": 0.390625,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3477,
+            "y": 892
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "Church",
+          "best_prob": 0.9995311258481185,
+          "x_norm": 0.5325520833333334,
+          "y_norm": 0.4192708333333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3028,
+            "y": 936
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Church",
+          "best_prob": 0.9995330791706204,
+          "x_norm": 0.6360677083333334,
+          "y_norm": 0.5345052083333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3187,
+            "y": 1112
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "empty",
+          "best_prob": 0.7079809383922855,
+          "x_norm": 0.3209635416666667,
+          "y_norm": 0.5364583333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2704,
+            "y": 1115
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "Ruins",
+          "best_prob": 0.9999999645317154,
+          "x_norm": 0.20377604166666666,
+          "y_norm": 0.6028645833333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2524,
+            "y": 1217
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "Church",
+          "best_prob": 0.9995382497659904,
+          "x_norm": 0.330078125,
+          "y_norm": 0.8333333333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2718,
+            "y": 1571
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (275).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_024_Screenshot (275).png",
+      "top_layout": 1132,
+      "top_earth": "Great Hollow",
+      "top_score": 0.8713062185525894,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2211,
+        "y0": 292,
+        "x1": 3746,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.7956855422928032,
+          "x_norm": 0.400390625,
+          "y_norm": 0.12630208333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2826,
+            "y": 486
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "empty",
+          "best_prob": 0.7901590415418952,
+          "x_norm": 0.828125,
+          "y_norm": 0.3307291666666667,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3482,
+            "y": 800
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "empty",
+          "best_prob": 0.9989202509552281,
+          "x_norm": 0.5358072916666666,
+          "y_norm": 0.359375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3033,
+            "y": 844
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Church",
+          "best_prob": 0.9999985198386969,
+          "x_norm": 0.6393229166666666,
+          "y_norm": 0.4739583333333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3192,
+            "y": 1020
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "Church",
+          "best_prob": 0.9256451719134645,
+          "x_norm": 0.32421875,
+          "y_norm": 0.4765625,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2709,
+            "y": 1024
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "Ruins",
+          "best_prob": 0.9723905085969644,
+          "x_norm": 0.20703125,
+          "y_norm": 0.54296875,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2529,
+            "y": 1125
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "empty",
+          "best_prob": 0.8004028153295448,
+          "x_norm": 0.3333333333333333,
+          "y_norm": 0.7734375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2723,
+            "y": 1479
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (276).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_025_Screenshot (276).png",
+      "top_layout": 1125,
+      "top_earth": "Great Hollow",
+      "top_score": 0.8822896068051458,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2212,
+        "y0": 292,
+        "x1": 3747,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.9999963454785372,
+          "x_norm": 0.3971354166666667,
+          "y_norm": 0.18684895833333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2822,
+            "y": 579
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "Great Church",
+          "best_prob": 0.5742255020621914,
+          "x_norm": 0.82421875,
+          "y_norm": 0.390625,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3477,
+            "y": 892
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "Church",
+          "best_prob": 0.9995337756397499,
+          "x_norm": 0.5319010416666666,
+          "y_norm": 0.4192708333333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3028,
+            "y": 936
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Church",
+          "best_prob": 0.9999717318145481,
+          "x_norm": 0.6360677083333334,
+          "y_norm": 0.5345052083333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3188,
+            "y": 1112
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "empty",
+          "best_prob": 0.7054021162542556,
+          "x_norm": 0.3203125,
+          "y_norm": 0.5364583333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2704,
+            "y": 1115
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "Ruins",
+          "best_prob": 0.9999999657529957,
+          "x_norm": 0.203125,
+          "y_norm": 0.6028645833333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2524,
+            "y": 1217
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "Church",
+          "best_prob": 0.9995578893793234,
+          "x_norm": 0.330078125,
+          "y_norm": 0.8333333333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2719,
+            "y": 1571
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (277).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_026_Screenshot (277).png",
+      "top_layout": 1115,
+      "top_earth": "Great Hollow",
+      "top_score": 0.878255141478777,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2211,
+        "y0": 292,
+        "x1": 3746,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.7182505241138034,
+          "x_norm": 0.4016927083333333,
+          "y_norm": 0.12630208333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2828,
+            "y": 486
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "empty",
+          "best_prob": 0.8680421846466284,
+          "x_norm": 0.8294270833333334,
+          "y_norm": 0.3307291666666667,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3484,
+            "y": 800
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "empty",
+          "best_prob": 0.9957140807166358,
+          "x_norm": 0.537109375,
+          "y_norm": 0.359375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3035,
+            "y": 844
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Sorcerer's Rise",
+          "best_prob": 0.9438360681529543,
+          "x_norm": 0.640625,
+          "y_norm": 0.4739583333333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3194,
+            "y": 1020
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "Church",
+          "best_prob": 0.9999653659183624,
+          "x_norm": 0.3255208333333333,
+          "y_norm": 0.4765625,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2711,
+            "y": 1024
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "Ruins",
+          "best_prob": 0.5736841336550687,
+          "x_norm": 0.20833333333333334,
+          "y_norm": 0.54296875,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2531,
+            "y": 1125
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "unknown",
+          "best_prob": 0.500644370219092,
+          "x_norm": 0.3346354166666667,
+          "y_norm": 0.7734375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2725,
+            "y": 1479
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (278).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_027_Screenshot (278).png",
+      "top_layout": 1122,
+      "top_earth": "Great Hollow",
+      "top_score": 2.5775403949677944,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2211,
+        "y0": 292,
+        "x1": 3746,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.8038566747557486,
+          "x_norm": 0.4010416666666667,
+          "y_norm": 0.12630208333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2827,
+            "y": 486
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "empty",
+          "best_prob": 0.7909734902459644,
+          "x_norm": 0.828125,
+          "y_norm": 0.3307291666666667,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3482,
+            "y": 800
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "empty",
+          "best_prob": 0.9989202509552281,
+          "x_norm": 0.5358072916666666,
+          "y_norm": 0.359375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3033,
+            "y": 844
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Church",
+          "best_prob": 0.9999999528961319,
+          "x_norm": 0.6399739583333334,
+          "y_norm": 0.4739583333333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3193,
+            "y": 1020
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "Church",
+          "best_prob": 0.9120105079149127,
+          "x_norm": 0.32421875,
+          "y_norm": 0.4765625,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2709,
+            "y": 1024
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "Ruins",
+          "best_prob": 0.9429586297598412,
+          "x_norm": 0.20703125,
+          "y_norm": 0.54296875,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2529,
+            "y": 1125
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "Church",
+          "best_prob": 0.5570037717578555,
+          "x_norm": 0.333984375,
+          "y_norm": 0.7734375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2724,
+            "y": 1479
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (279).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_028_Screenshot (279).png",
+      "top_layout": 1122,
+      "top_earth": "Great Hollow",
+      "top_score": 3.0513016376793383,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2212,
+        "y0": 292,
+        "x1": 3747,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.8290159374254428,
+          "x_norm": 0.4016927083333333,
+          "y_norm": 0.12630208333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2829,
+            "y": 486
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "empty",
+          "best_prob": 0.9385326753397111,
+          "x_norm": 0.8294270833333334,
+          "y_norm": 0.3307291666666667,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3485,
+            "y": 800
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "empty",
+          "best_prob": 0.9984139713112352,
+          "x_norm": 0.537109375,
+          "y_norm": 0.359375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3036,
+            "y": 844
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Church",
+          "best_prob": 0.9999994625153955,
+          "x_norm": 0.6412760416666666,
+          "y_norm": 0.4739583333333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3196,
+            "y": 1020
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "Church",
+          "best_prob": 0.8062003714516911,
+          "x_norm": 0.3255208333333333,
+          "y_norm": 0.4765625,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2712,
+            "y": 1024
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "Ruins",
+          "best_prob": 0.7511436894170719,
+          "x_norm": 0.20833333333333334,
+          "y_norm": 0.54296875,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2532,
+            "y": 1125
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "Church",
+          "best_prob": 0.6099865301434424,
+          "x_norm": 0.3346354166666667,
+          "y_norm": 0.7734375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2726,
+            "y": 1479
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (280).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_029_Screenshot (280).png",
+      "top_layout": 1125,
+      "top_earth": "Great Hollow",
+      "top_score": 0.8969682228714227,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2211,
+        "y0": 292,
+        "x1": 3746,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.8058642892186582,
+          "x_norm": 0.4016927083333333,
+          "y_norm": 0.12630208333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2828,
+            "y": 486
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "empty",
+          "best_prob": 0.8674005206374037,
+          "x_norm": 0.8294270833333334,
+          "y_norm": 0.3307291666666667,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3484,
+            "y": 800
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "empty",
+          "best_prob": 0.9957140807166358,
+          "x_norm": 0.537109375,
+          "y_norm": 0.359375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3035,
+            "y": 844
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Church",
+          "best_prob": 0.9999996200077105,
+          "x_norm": 0.6412760416666666,
+          "y_norm": 0.4739583333333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3195,
+            "y": 1020
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "Church",
+          "best_prob": 0.9831594373852631,
+          "x_norm": 0.3255208333333333,
+          "y_norm": 0.4765625,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2711,
+            "y": 1024
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "Ruins",
+          "best_prob": 0.5736841336550687,
+          "x_norm": 0.20833333333333334,
+          "y_norm": 0.54296875,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2531,
+            "y": 1125
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "unknown",
+          "best_prob": 0.5006961351065454,
+          "x_norm": 0.3346354166666667,
+          "y_norm": 0.7734375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2725,
+            "y": 1479
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (281).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_030_Screenshot (281).png",
+      "top_layout": 1128,
+      "top_earth": "Great Hollow",
+      "top_score": 0.8560263848066331,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2212,
+        "y0": 292,
+        "x1": 3747,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.8102623040606545,
+          "x_norm": 0.4016927083333333,
+          "y_norm": 0.12630208333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2829,
+            "y": 486
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "empty",
+          "best_prob": 0.9373407296924013,
+          "x_norm": 0.8294270833333334,
+          "y_norm": 0.3307291666666667,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3485,
+            "y": 800
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "empty",
+          "best_prob": 0.9984139713112352,
+          "x_norm": 0.537109375,
+          "y_norm": 0.359375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3036,
+            "y": 844
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Church",
+          "best_prob": 0.9017279856730211,
+          "x_norm": 0.640625,
+          "y_norm": 0.4739583333333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3195,
+            "y": 1020
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "Church",
+          "best_prob": 0.9999998699858532,
+          "x_norm": 0.3255208333333333,
+          "y_norm": 0.4765625,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2712,
+            "y": 1024
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "Ruins",
+          "best_prob": 0.7511436894170719,
+          "x_norm": 0.20833333333333334,
+          "y_norm": 0.54296875,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2532,
+            "y": 1125
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "Sorcerer's Rise",
+          "best_prob": 0.9090930606728269,
+          "x_norm": 0.3346354166666667,
+          "y_norm": 0.7734375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2726,
+            "y": 1479
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (282).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_031_Screenshot (282).png",
+      "top_layout": 1122,
+      "top_earth": "Great Hollow",
+      "top_score": 2.5774099253237246,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2211,
+        "y0": 292,
+        "x1": 3746,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.7148812211193394,
+          "x_norm": 0.4016927083333333,
+          "y_norm": 0.12630208333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2828,
+            "y": 486
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "empty",
+          "best_prob": 0.8673441240391401,
+          "x_norm": 0.8294270833333334,
+          "y_norm": 0.3307291666666667,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3484,
+            "y": 800
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "empty",
+          "best_prob": 0.9957140807166358,
+          "x_norm": 0.537109375,
+          "y_norm": 0.359375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3035,
+            "y": 844
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Church",
+          "best_prob": 0.9999996200077105,
+          "x_norm": 0.6412760416666666,
+          "y_norm": 0.4739583333333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3195,
+            "y": 1020
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "Church",
+          "best_prob": 0.9123161536830993,
+          "x_norm": 0.3255208333333333,
+          "y_norm": 0.4765625,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2711,
+            "y": 1024
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "Ruins",
+          "best_prob": 0.5736841336550687,
+          "x_norm": 0.20833333333333334,
+          "y_norm": 0.54296875,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2531,
+            "y": 1125
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "unknown",
+          "best_prob": 0.5006364694187266,
+          "x_norm": 0.3346354166666667,
+          "y_norm": 0.7734375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2725,
+            "y": 1479
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (283).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_032_Screenshot (283).png",
+      "top_layout": 1132,
+      "top_earth": "Great Hollow",
+      "top_score": 0.8584947969138623,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2212,
+        "y0": 292,
+        "x1": 3747,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.9966801037456361,
+          "x_norm": 0.3958333333333333,
+          "y_norm": 0.18619791666666666,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2820,
+            "y": 578
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "Great Church",
+          "best_prob": 0.9590499707397839,
+          "x_norm": 0.8229166666666666,
+          "y_norm": 0.3899739583333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3475,
+            "y": 891
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "Church",
+          "best_prob": 0.9999179403312024,
+          "x_norm": 0.53125,
+          "y_norm": 0.4192708333333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3027,
+            "y": 936
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Church",
+          "best_prob": 0.9999385062203545,
+          "x_norm": 0.634765625,
+          "y_norm": 0.5338541666666666,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3186,
+            "y": 1111
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "empty",
+          "best_prob": 0.6272080264668661,
+          "x_norm": 0.3190104166666667,
+          "y_norm": 0.5364583333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2702,
+            "y": 1115
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "Ruins",
+          "best_prob": 0.9999999558558905,
+          "x_norm": 0.20182291666666666,
+          "y_norm": 0.6028645833333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2522,
+            "y": 1217
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "Church",
+          "best_prob": 0.9997609906854308,
+          "x_norm": 0.3287760416666667,
+          "y_norm": 0.8333333333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2717,
+            "y": 1571
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (284).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_033_Screenshot (284).png",
+      "top_layout": 1130,
+      "top_earth": "Great Hollow",
+      "top_score": 0.8818519991874696,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2212,
+        "y0": 292,
+        "x1": 3747,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.9999873939546293,
+          "x_norm": 0.396484375,
+          "y_norm": 0.177734375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2821,
+            "y": 565
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "Great Church",
+          "best_prob": 0.7569750206904565,
+          "x_norm": 0.8235677083333334,
+          "y_norm": 0.3821614583333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3476,
+            "y": 879
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "Church",
+          "best_prob": 0.9997567615830599,
+          "x_norm": 0.53125,
+          "y_norm": 0.4108072916666667,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3027,
+            "y": 923
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Sorcerer's Rise",
+          "best_prob": 0.9819761015469815,
+          "x_norm": 0.6354166666666666,
+          "y_norm": 0.525390625,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3187,
+            "y": 1098
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "Sorcerer's Rise",
+          "best_prob": 0.995992256376163,
+          "x_norm": 0.3196614583333333,
+          "y_norm": 0.5279947916666666,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2703,
+            "y": 1102
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "Ruins",
+          "best_prob": 0.9999999999940515,
+          "x_norm": 0.20247395833333334,
+          "y_norm": 0.5944010416666666,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2523,
+            "y": 1204
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "Church",
+          "best_prob": 0.9995988874761167,
+          "x_norm": 0.3294270833333333,
+          "y_norm": 0.8248697916666666,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2718,
+            "y": 1558
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (285).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_034_Screenshot (285).png",
+      "top_layout": 1120,
+      "top_earth": "Great Hollow",
+      "top_score": 0.8833206714749336,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2211,
+        "y0": 292,
+        "x1": 3746,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.716303887293663,
+          "x_norm": 0.4016927083333333,
+          "y_norm": 0.12630208333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2828,
+            "y": 486
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "empty",
+          "best_prob": 0.889491506721449,
+          "x_norm": 0.8287760416666666,
+          "y_norm": 0.3307291666666667,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3483,
+            "y": 800
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "empty",
+          "best_prob": 0.9977006632995243,
+          "x_norm": 0.5364583333333334,
+          "y_norm": 0.359375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3034,
+            "y": 844
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Church",
+          "best_prob": 0.9999992260644072,
+          "x_norm": 0.640625,
+          "y_norm": 0.4739583333333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3194,
+            "y": 1020
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "Church",
+          "best_prob": 0.9840673298438525,
+          "x_norm": 0.3248697916666667,
+          "y_norm": 0.4765625,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2710,
+            "y": 1024
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "Ruins",
+          "best_prob": 0.7616209691378198,
+          "x_norm": 0.20768229166666666,
+          "y_norm": 0.54296875,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2530,
+            "y": 1125
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "Church",
+          "best_prob": 0.5570393968361808,
+          "x_norm": 0.333984375,
+          "y_norm": 0.7734375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2724,
+            "y": 1479
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (286).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_035_Screenshot (286).png",
+      "top_layout": 1120,
+      "top_earth": "Great Hollow",
+      "top_score": 0.8829846141159534,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2211,
+        "y0": 292,
+        "x1": 3746,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.8070709880577236,
+          "x_norm": 0.4010416666666667,
+          "y_norm": 0.12630208333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2827,
+            "y": 486
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "empty",
+          "best_prob": 0.8897915346416948,
+          "x_norm": 0.8287760416666666,
+          "y_norm": 0.3307291666666667,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3483,
+            "y": 800
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "empty",
+          "best_prob": 0.9977006632995243,
+          "x_norm": 0.5364583333333334,
+          "y_norm": 0.359375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3034,
+            "y": 844
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Church",
+          "best_prob": 0.9999999528961319,
+          "x_norm": 0.6399739583333334,
+          "y_norm": 0.4739583333333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3193,
+            "y": 1020
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "Church",
+          "best_prob": 0.9840673298438525,
+          "x_norm": 0.3248697916666667,
+          "y_norm": 0.4765625,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2710,
+            "y": 1024
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "Ruins",
+          "best_prob": 0.7616209691378198,
+          "x_norm": 0.20768229166666666,
+          "y_norm": 0.54296875,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2530,
+            "y": 1125
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "Church",
+          "best_prob": 0.5569750172161971,
+          "x_norm": 0.333984375,
+          "y_norm": 0.7734375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2724,
+            "y": 1479
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (287).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_036_Screenshot (287).png",
+      "top_layout": 1121,
+      "top_earth": "Great Hollow",
+      "top_score": 0.8585452197611333,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2212,
+        "y0": 292,
+        "x1": 3747,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.7481590831432646,
+          "x_norm": 0.4016927083333333,
+          "y_norm": 0.12630208333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2829,
+            "y": 486
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "empty",
+          "best_prob": 0.9361338521850071,
+          "x_norm": 0.8294270833333334,
+          "y_norm": 0.3307291666666667,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3485,
+            "y": 800
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "empty",
+          "best_prob": 0.9984139713112352,
+          "x_norm": 0.537109375,
+          "y_norm": 0.359375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3036,
+            "y": 844
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Church",
+          "best_prob": 0.9999996179553672,
+          "x_norm": 0.640625,
+          "y_norm": 0.4739583333333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3195,
+            "y": 1020
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "Church",
+          "best_prob": 0.9990707951225971,
+          "x_norm": 0.3255208333333333,
+          "y_norm": 0.4765625,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2712,
+            "y": 1024
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "Ruins",
+          "best_prob": 0.8340876048739877,
+          "x_norm": 0.20833333333333334,
+          "y_norm": 0.54296875,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2532,
+            "y": 1125
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "empty",
+          "best_prob": 0.9963517150383034,
+          "x_norm": 0.3346354166666667,
+          "y_norm": 0.7734375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2726,
+            "y": 1479
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (288).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_037_Screenshot (288).png",
+      "top_layout": 1125,
+      "top_earth": "Great Hollow",
+      "top_score": 0.8825172000318766,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2212,
+        "y0": 292,
+        "x1": 3747,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.8113046614461374,
+          "x_norm": 0.4016927083333333,
+          "y_norm": 0.12630208333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2829,
+            "y": 486
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "empty",
+          "best_prob": 0.9383001996681485,
+          "x_norm": 0.8294270833333334,
+          "y_norm": 0.3307291666666667,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3485,
+            "y": 800
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "empty",
+          "best_prob": 0.9984139713112352,
+          "x_norm": 0.537109375,
+          "y_norm": 0.359375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3036,
+            "y": 844
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Church",
+          "best_prob": 0.9999994625153955,
+          "x_norm": 0.6412760416666666,
+          "y_norm": 0.4739583333333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3196,
+            "y": 1020
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "Church",
+          "best_prob": 0.8716297791000912,
+          "x_norm": 0.3255208333333333,
+          "y_norm": 0.4765625,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2712,
+            "y": 1024
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "Ruins",
+          "best_prob": 0.7511436894170719,
+          "x_norm": 0.20833333333333334,
+          "y_norm": 0.54296875,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2532,
+            "y": 1125
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "Church",
+          "best_prob": 0.6099464522765589,
+          "x_norm": 0.3346354166666667,
+          "y_norm": 0.7734375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2726,
+            "y": 1479
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (289).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_038_Screenshot (289).png",
+      "top_layout": 1116,
+      "top_earth": "Great Hollow",
+      "top_score": 0.8857201012670994,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2211,
+        "y0": 292,
+        "x1": 3746,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.8036479576480224,
+          "x_norm": 0.4010416666666667,
+          "y_norm": 0.12630208333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2827,
+            "y": 486
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "empty",
+          "best_prob": 0.7905704217355443,
+          "x_norm": 0.828125,
+          "y_norm": 0.3307291666666667,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3482,
+            "y": 800
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "empty",
+          "best_prob": 0.9989202509552281,
+          "x_norm": 0.5358072916666666,
+          "y_norm": 0.359375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3033,
+            "y": 844
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Church",
+          "best_prob": 0.9863420458503573,
+          "x_norm": 0.6399739583333334,
+          "y_norm": 0.4739583333333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3193,
+            "y": 1020
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "Church",
+          "best_prob": 0.9120105079149127,
+          "x_norm": 0.32421875,
+          "y_norm": 0.4765625,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2709,
+            "y": 1024
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "Ruins",
+          "best_prob": 0.9723905085969644,
+          "x_norm": 0.20703125,
+          "y_norm": 0.54296875,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2529,
+            "y": 1125
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "empty",
+          "best_prob": 0.8004254908984438,
+          "x_norm": 0.3333333333333333,
+          "y_norm": 0.7734375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2723,
+            "y": 1479
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (290).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_039_Screenshot (290).png",
+      "top_layout": 1117,
+      "top_earth": "Great Hollow",
+      "top_score": 0.8559189512968064,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2212,
+        "y0": 292,
+        "x1": 3747,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.6236101690231218,
+          "x_norm": 0.40234375,
+          "y_norm": 0.12630208333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2830,
+            "y": 486
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "empty",
+          "best_prob": 0.9379032062097254,
+          "x_norm": 0.8294270833333334,
+          "y_norm": 0.3307291666666667,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3485,
+            "y": 800
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "empty",
+          "best_prob": 0.9429960901396673,
+          "x_norm": 0.5377604166666666,
+          "y_norm": 0.359375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3037,
+            "y": 844
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Church",
+          "best_prob": 0.9999994625153955,
+          "x_norm": 0.6412760416666666,
+          "y_norm": 0.4739583333333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3196,
+            "y": 1020
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "Church",
+          "best_prob": 0.8062003714516911,
+          "x_norm": 0.3255208333333333,
+          "y_norm": 0.4765625,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2712,
+            "y": 1024
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "Ruins",
+          "best_prob": 0.8340876048739877,
+          "x_norm": 0.20833333333333334,
+          "y_norm": 0.54296875,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2532,
+            "y": 1125
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "empty",
+          "best_prob": 0.9989253308519705,
+          "x_norm": 0.3352864583333333,
+          "y_norm": 0.7734375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2727,
+            "y": 1479
+          },
+          "radius_full_px": 28
+        }
+      ]
+    },
+    {
+      "image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (291).png",
+      "annotated_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_ghnew_full_pipeline_annotated_20260422\\annotated_fullpipe_040_Screenshot (291).png",
+      "top_layout": 1123,
+      "top_earth": "Great Hollow",
+      "top_score": 0.9137932234585284,
+      "crop_method": "gray_hough_refined",
+      "panel_box": {
+        "x0": 2212,
+        "y0": 292,
+        "x1": 3747,
+        "y1": 1827
+      },
+      "slot_count": 7,
+      "slots": [
+        {
+          "slot_name": "slot_01",
+          "slot_id": 1,
+          "label": "Church",
+          "best_prob": 0.5925440982792594,
+          "x_norm": 0.40234375,
+          "y_norm": 0.12630208333333334,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2830,
+            "y": 486
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_02",
+          "slot_id": 2,
+          "label": "empty",
+          "best_prob": 0.9372814687399458,
+          "x_norm": 0.8294270833333334,
+          "y_norm": 0.3307291666666667,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3485,
+            "y": 800
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_03",
+          "slot_id": 3,
+          "label": "empty",
+          "best_prob": 0.9984139713112352,
+          "x_norm": 0.537109375,
+          "y_norm": 0.359375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3036,
+            "y": 844
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_04",
+          "slot_id": 4,
+          "label": "Sorcerer's Rise",
+          "best_prob": 0.9517011697488446,
+          "x_norm": 0.6412760416666666,
+          "y_norm": 0.4739583333333333,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 3196,
+            "y": 1020
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_05",
+          "slot_id": 5,
+          "label": "Church",
+          "best_prob": 0.9990707951225971,
+          "x_norm": 0.3255208333333333,
+          "y_norm": 0.4765625,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2712,
+            "y": 1024
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_06",
+          "slot_id": 6,
+          "label": "Ruins",
+          "best_prob": 0.7511436894170719,
+          "x_norm": 0.20833333333333334,
+          "y_norm": 0.54296875,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2532,
+            "y": 1125
+          },
+          "radius_full_px": 28
+        },
+        {
+          "slot_name": "slot_07",
+          "slot_id": 7,
+          "label": "empty",
+          "best_prob": 0.9963525492335003,
+          "x_norm": 0.3346354166666667,
+          "y_norm": 0.7734375,
+          "radius_norm": 0.018,
+          "center_full": {
+            "x": 2726,
+            "y": 1479
+          },
+          "radius_full_px": 28
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

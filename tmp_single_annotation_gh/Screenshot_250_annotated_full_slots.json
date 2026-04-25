@@ -1,0 +1,68 @@
+{
+  "input_image": "C:\\Users\\eduar\\Pictures\\Screenshots\\Great_Hollow_new\\cropped_images\\Screenshot (250).png",
+  "output_image": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_single_annotation_gh\\Screenshot_250_annotated_full.png",
+  "crop_box": {
+    "x0": 2211,
+    "y0": 292,
+    "x1": 3746,
+    "y1": 1827
+  },
+  "slots": [
+    {
+      "slot_id": 1,
+      "label": "Church",
+      "x_norm": 0.328125,
+      "y_norm": 0.2805989583333333,
+      "x_px": 2715,
+      "y_px": 723
+    },
+    {
+      "slot_id": 2,
+      "label": "Great Church",
+      "x_norm": 0.8286644951140065,
+      "y_norm": 0.38045602605863194,
+      "x_px": 3483,
+      "y_px": 876
+    },
+    {
+      "slot_id": 3,
+      "label": "Church",
+      "x_norm": 0.68359375,
+      "y_norm": 0.701171875,
+      "x_px": 3260,
+      "y_px": 1368
+    },
+    {
+      "slot_id": 4,
+      "label": "Church",
+      "x_norm": 0.6403908794788273,
+      "y_norm": 0.5237785016286645,
+      "x_px": 3194,
+      "y_px": 1096
+    },
+    {
+      "slot_id": 5,
+      "label": "empty",
+      "x_norm": 0.3250814332247557,
+      "y_norm": 0.5263843648208469,
+      "x_px": 2710,
+      "y_px": 1100
+    },
+    {
+      "slot_id": 6,
+      "label": "Ruins",
+      "x_norm": 0.20768229166666666,
+      "y_norm": 0.5930989583333334,
+      "x_px": 2530,
+      "y_px": 1202
+    },
+    {
+      "slot_id": 7,
+      "label": "Church",
+      "x_norm": 0.33485342019543973,
+      "y_norm": 0.8234527687296417,
+      "x_px": 2725,
+      "y_px": 1556
+    }
+  ]
+}

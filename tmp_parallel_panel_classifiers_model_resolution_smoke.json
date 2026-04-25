@@ -1,0 +1,12 @@
+{
+  "resolved_models": {
+    "slot2": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\slot_2_fixed_geometry_panel_bases260\\slot2_status_cnn_gh_variations_retrain_latest.pt",
+    "palace": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\palace\\palace_status_cnn_gh_variations_retrain_latest.pt",
+    "fortress": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\Testing\\fortress\\fortress_status_cnn_gh_variations_retrain_latest.pt"
+  },
+  "model_selection_flags": {
+    "USE_SLOT2_GH_VARIATION_MODEL": true,
+    "USE_PALACE_GH_VARIATION_MODEL": true,
+    "USE_FORTRESS_GH_VARIATION_MODEL": true
+  }
+}

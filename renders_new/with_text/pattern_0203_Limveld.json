@@ -96,10 +96,10 @@
     {
       "type": "Ruins",
       "icon": "Ruins",
-      "x": 1196.0,
-      "y": 543.0,
-      "x_norm": 0.7786458333333334,
-      "y_norm": 0.353515625,
+      "x": 1191.0,
+      "y": 649.0,
+      "x_norm": 0.775390625,
+      "y_norm": 0.4225260416666667,
       "text": "Beastmen of Farum Azula",
       "source": "row_item",
       "source_id": 9418
@@ -448,10 +448,10 @@
     {
       "type": "Township",
       "icon": "Township",
-      "x": 941.0,
-      "y": 1054.0,
-      "x_norm": 0.6126302083333334,
-      "y_norm": 0.6861979166666666,
+      "x": 874.0,
+      "y": 1224.0,
+      "x_norm": 0.5690104166666666,
+      "y_norm": 0.796875,
       "text": "Township",
       "source": "row_item",
       "source_id": 9454
@@ -515,9 +515,9 @@
       "type": "text",
       "icon": "",
       "x": 20.0,
-      "y": 20.0,
+      "y": 40.0,
       "x_norm": 0.013020833333333334,
-      "y_norm": 0.013020833333333334,
+      "y_norm": 0.026041666666666668,
       "text": "Pattern 203 - Limveld",
       "source": "title",
       "source_id": 203
@@ -613,10 +613,10 @@
     {
       "type": "text",
       "icon": "",
-      "x": 1196.0,
-      "y": 543.0,
-      "x_norm": 0.7786458333333334,
-      "y_norm": 0.353515625,
+      "x": 1191.0,
+      "y": 649.0,
+      "x_norm": 0.775390625,
+      "y_norm": 0.4225260416666667,
       "text": "Beastmen of Farum Azula",
       "source": "row_item",
       "source_id": 9418
@@ -932,10 +932,10 @@
     {
       "type": "text",
       "icon": "",
-      "x": 941.0,
-      "y": 1024.0,
-      "x_norm": 0.6126302083333334,
-      "y_norm": 0.6666666666666666,
+      "x": 874.0,
+      "y": 1224.0,
+      "x_norm": 0.5690104166666666,
+      "y_norm": 0.796875,
       "text": "Township",
       "source": "row_item",
       "source_id": 9454
@@ -944,9 +944,9 @@
       "type": "text",
       "icon": "",
       "x": 1066.0,
-      "y": 589.0,
+      "y": 569.0,
       "x_norm": 0.6940104166666666,
-      "y_norm": 0.3834635416666667,
+      "y_norm": 0.3704427083333333,
       "text": "Fleeing Stump",
       "source": "row_item",
       "source_id": 9455

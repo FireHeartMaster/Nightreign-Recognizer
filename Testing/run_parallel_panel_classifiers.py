@@ -16,6 +16,25 @@ PANEL_REF = 1536.0
 GH_ASYM_INPUT = 1536
 GH_ASYM_CROP = {"left": 175, "right": 170, "top": 180, "bottom": 180}
 
+# In-code model switches (enabled by default):
+# Prefer new GH-variation retrained models for Palace/Fortress/slot2.
+USE_SLOT2_GH_VARIATION_MODEL = True
+USE_PALACE_GH_VARIATION_MODEL = True
+USE_FORTRESS_GH_VARIATION_MODEL = True
+# Slot5 model policy:
+# - Default to the userlabels single-stage model because it better matches recent real-screen behavior.
+# - Keep the previous cascade path available behind a flag.
+USE_SLOT5_SINGLE_STAGE_USERLABELS_MODEL = True
+# Slot5 single-stage model selection policy:
+# - When enabled, prefer the newer GH retrained checkpoint first.
+# - Keep older single-stage checkpoints as fallback.
+USE_SLOT5_GH_RETRAINED_MODEL = True
+# Slot2 crop horizontal offset policy:
+# - New GH-variation model was trained on fixed slot-2 crops without +50px horizontal shift.
+# - Legacy slot2_status_cnn_offset50_v1 expects +50px shift.
+SLOT2_CROP_DX_WHEN_GH_VARIATION_MODEL = 0
+SLOT2_CROP_DX_WHEN_LEGACY_MODEL = 50
+
 
 @dataclass(frozen=True)
 class ModelSpec:
@@ -139,17 +158,70 @@ def _load_bundle(spec: ModelSpec, device: torch.device, module_tag: str) -> Tupl
     return lib, model, list(class_names), int(image_size), dict(meta or {})
 
 
-def _task_slot2(panel_bgr: np.ndarray, repo_root: Path, device: torch.device) -> Dict[str, Any]:
+def _task_slot2(
+    panel_bgr: np.ndarray,
+    repo_root: Path,
+    device: torch.device,
+    model_path: Path,
+    crop_dx_px: int,
+) -> Dict[str, Any]:
     spec = ModelSpec(
         name="slot2",
         lib_path=repo_root / "Testing" / "slot_2" / "layout_classifier_lib.py",
-        model_path=repo_root / "Testing" / "slot_2_fixed_geometry_panel_bases260" / "slot2_status_cnn_offset50_v1.pt",
+        model_path=model_path,
     )
     lib, model, class_names, image_size, meta = _load_bundle(spec, device, "slot2_lib_parallel")
-    crop, rect = _crop_from_panel_norm(panel_bgr, 0.82890625, 0.38046875, model_side_ref=260.0, dx_px=50, dy_px=0)
+    crop, rect = _crop_from_panel_norm(
+        panel_bgr,
+        0.82890625,
+        0.38046875,
+        model_side_ref=260.0,
+        dx_px=int(crop_dx_px),
+        dy_px=0,
+    )
     pred = _predict_from_crop(crop, lib, model, class_names, image_size, device, interpolation=cv2.INTER_AREA)
     return {
         "classifier": "slot2_great_church_status",
+        "type": "single_stage",
+        "crop_source": "panel_raw",
+        "model_path": str(spec.model_path),
+        "crop_dx_px": int(crop_dx_px),
+        "model_meta": meta,
+        "crop_rect": rect,
+        **pred,
+    }
+
+
+def _task_panel_single(
+    panel_bgr: np.ndarray,
+    device: torch.device,
+    classifier_key: str,
+    lib_path: Path,
+    model_path: Path,
+    center_ref_x: float,
+    center_ref_y: float,
+    model_side_ref: float,
+    dx_px: int = 0,
+    dy_px: int = 0,
+    interp: int = cv2.INTER_CUBIC,
+) -> Dict[str, Any]:
+    spec = ModelSpec(
+        name=classifier_key,
+        lib_path=lib_path,
+        model_path=model_path,
+    )
+    lib, model, class_names, image_size, meta = _load_bundle(spec, device, f"{classifier_key}_panel_single_lib_parallel")
+    crop, rect = _crop_from_panel_ref(
+        panel_bgr,
+        center_x_ref=center_ref_x,
+        center_y_ref=center_ref_y,
+        model_side_ref=model_side_ref,
+        dx_px=dx_px,
+        dy_px=dy_px,
+    )
+    pred = _predict_from_crop(crop, lib, model, class_names, image_size, device, interpolation=interp)
+    return {
+        "classifier": classifier_key,
         "type": "single_stage",
         "crop_source": "panel_raw",
         "model_path": str(spec.model_path),
@@ -266,21 +338,103 @@ def run_all_from_panel_bgr(
     else:
         device = torch.device(device_name)
 
+    slot2_model = _resolve_existing_path(
+        (
+            [
+                repo_root / "Testing" / "slot_2_fixed_geometry_panel_bases260" / "slot2_status_cnn_gh_variations_retrain_latest.pt",
+                repo_root / "Testing" / "slot_2_fixed_geometry_panel_bases260" / "slot2_status_cnn_offset50_v1.pt",
+                repo_root / "Testing" / "slot_2" / "slot2_status_cnn.pt",
+            ]
+            if USE_SLOT2_GH_VARIATION_MODEL
+            else [
+                repo_root / "Testing" / "slot_2_fixed_geometry_panel_bases260" / "slot2_status_cnn_offset50_v1.pt",
+                repo_root / "Testing" / "slot_2" / "slot2_status_cnn.pt",
+                repo_root / "Testing" / "slot_2_fixed_geometry_panel_bases260" / "slot2_status_cnn_gh_variations_retrain_latest.pt",
+            ]
+        )
+    )
+    slot2_model_name = slot2_model.name.lower()
+    if "gh_variations" in slot2_model_name:
+        slot2_crop_dx_px = int(SLOT2_CROP_DX_WHEN_GH_VARIATION_MODEL)
+    else:
+        slot2_crop_dx_px = int(SLOT2_CROP_DX_WHEN_LEGACY_MODEL)
+
     palace_model = _resolve_existing_path(
-        [
-            repo_root / "Testing" / "palace" / "palace_status_cnn_retrain_latest.pt",
-            repo_root / "Testing" / "palace" / "palace_status_cnn.pt",
-        ]
+        (
+            [
+                repo_root / "Testing" / "palace" / "palace_status_cnn_gh_variations_retrain_latest.pt",
+                repo_root / "Testing" / "palace" / "palace_status_cnn_retrain_latest.pt",
+                repo_root / "Testing" / "palace" / "palace_status_cnn.pt",
+            ]
+            if USE_PALACE_GH_VARIATION_MODEL
+            else [
+                repo_root / "Testing" / "palace" / "palace_status_cnn_retrain_latest.pt",
+                repo_root / "Testing" / "palace" / "palace_status_cnn.pt",
+                repo_root / "Testing" / "palace" / "palace_status_cnn_gh_variations_retrain_latest.pt",
+            ]
+        )
     )
     fortress_model = _resolve_existing_path(
+        (
+            [
+                repo_root / "Testing" / "fortress" / "fortress_status_cnn_gh_variations_retrain_latest.pt",
+                repo_root / "Testing" / "fortress" / "fortress_status_cnn_retrain_latest.pt",
+                repo_root / "Testing" / "fortress" / "fortress_status_cnn.pt",
+            ]
+            if USE_FORTRESS_GH_VARIATION_MODEL
+            else [
+                repo_root / "Testing" / "fortress" / "fortress_status_cnn_retrain_latest.pt",
+                repo_root / "Testing" / "fortress" / "fortress_status_cnn.pt",
+                repo_root / "Testing" / "fortress" / "fortress_status_cnn_gh_variations_retrain_latest.pt",
+            ]
+        )
+    )
+    slot5_single_stage_model_candidates = (
         [
-            repo_root / "Testing" / "fortress" / "fortress_status_cnn_retrain_latest.pt",
-            repo_root / "Testing" / "fortress" / "fortress_status_cnn.pt",
+            repo_root / "Testing" / "slot_5_userlabels_panel6_iso" / "slot5_status_cnn_userlabels_panel6_iso_ghslot5_3000x3_20260422.pt",
+            repo_root / "Testing" / "slot_5_userlabels_panel6_iso" / "slot5_status_cnn_userlabels_panel6_iso.pt",
+            repo_root / "Testing" / "slot_5_plus_real_heavy" / "slot5_status_cnn_plus_real_heavy.pt",
+            repo_root / "Testing" / "slot_5" / "slot5_status_cnn.pt",
+        ]
+        if USE_SLOT5_GH_RETRAINED_MODEL
+        else [
+            repo_root / "Testing" / "slot_5_userlabels_panel6_iso" / "slot5_status_cnn_userlabels_panel6_iso.pt",
+            repo_root / "Testing" / "slot_5_plus_real_heavy" / "slot5_status_cnn_plus_real_heavy.pt",
+            repo_root / "Testing" / "slot_5" / "slot5_status_cnn.pt",
+            repo_root / "Testing" / "slot_5_userlabels_panel6_iso" / "slot5_status_cnn_userlabels_panel6_iso_ghslot5_3000x3_20260422.pt",
         ]
     )
+    slot5_single_stage_model = _resolve_existing_path(slot5_single_stage_model_candidates)
+
+    if USE_SLOT5_SINGLE_STAGE_USERLABELS_MODEL:
+        slot5_task = lambda: _task_panel_single(
+            panel_bgr=panel_bgr,
+            device=device,
+            classifier_key="slot5_minor",
+            lib_path=repo_root / "Testing" / "slot_5" / "layout_classifier_lib.py",
+            model_path=slot5_single_stage_model,
+            center_ref_x=499.0,
+            center_ref_y=809.0,
+            model_side_ref=200.0,
+            interp=cv2.INTER_CUBIC,
+        )
+    else:
+        slot5_task = lambda: _task_cascade(
+            panel_bgr=panel_bgr,
+            device=device,
+            slot_name="slot5_minor",
+            lib_path=repo_root / "Testing" / "slot_5" / "layout_classifier_lib.py",
+            stage1_model=repo_root / "Testing" / "slot5_authoritative_binary_panel_v1" / "slot5_occupied_empty_authoritative_v1.pt",
+            stage2_model=repo_root / "Testing" / "slot5_church_vs_sorcerer_panel_v2_userlabels" / "slot5_church_vs_sorcerer_v2.pt",
+            center_ref_x=499.0,
+            center_ref_y=809.0,
+            model_side_ref=200.0,
+            stage1_interp=cv2.INTER_AREA,
+            stage2_interp=cv2.INTER_CUBIC,
+        )
 
     tasks = {
-        "slot2": lambda: _task_slot2(panel_bgr, repo_root, device),
+        "slot2": lambda: _task_slot2(panel_bgr, repo_root, device, slot2_model, slot2_crop_dx_px),
         "slot4": lambda: _task_cascade(
             panel_bgr=panel_bgr,
             device=device,
@@ -301,19 +455,7 @@ def run_all_from_panel_bgr(
             # Accept empty only when stage-1 confidence is very high.
             empty_accept_confidence=0.995,
         ),
-        "slot5": lambda: _task_cascade(
-            panel_bgr=panel_bgr,
-            device=device,
-            slot_name="slot5_minor",
-            lib_path=repo_root / "Testing" / "slot_5" / "layout_classifier_lib.py",
-            stage1_model=repo_root / "Testing" / "slot5_authoritative_binary_panel_v1" / "slot5_occupied_empty_authoritative_v1.pt",
-            stage2_model=repo_root / "Testing" / "slot5_church_vs_sorcerer_panel_v2_userlabels" / "slot5_church_vs_sorcerer_v2.pt",
-            center_ref_x=499.0,
-            center_ref_y=809.0,
-            model_side_ref=200.0,
-            stage1_interp=cv2.INTER_AREA,
-            stage2_interp=cv2.INTER_CUBIC,
-        ),
+        "slot5": slot5_task,
         "slot7": lambda: _task_cascade(
             panel_bgr=panel_bgr,
             device=device,
@@ -377,6 +519,22 @@ def run_all_from_panel_bgr(
         "panel_shape": {"w": int(panel_bgr.shape[1]), "h": int(panel_bgr.shape[0])},
         "gh_asym_shape": {"w": int(gh_asym.shape[1]), "h": int(gh_asym.shape[0])},
         "device": str(device),
+        "model_selection_flags": {
+            "USE_SLOT2_GH_VARIATION_MODEL": bool(USE_SLOT2_GH_VARIATION_MODEL),
+            "USE_PALACE_GH_VARIATION_MODEL": bool(USE_PALACE_GH_VARIATION_MODEL),
+            "USE_FORTRESS_GH_VARIATION_MODEL": bool(USE_FORTRESS_GH_VARIATION_MODEL),
+            "USE_SLOT5_SINGLE_STAGE_USERLABELS_MODEL": bool(USE_SLOT5_SINGLE_STAGE_USERLABELS_MODEL),
+            "USE_SLOT5_GH_RETRAINED_MODEL": bool(USE_SLOT5_GH_RETRAINED_MODEL),
+            "SLOT2_CROP_DX_WHEN_GH_VARIATION_MODEL": int(SLOT2_CROP_DX_WHEN_GH_VARIATION_MODEL),
+            "SLOT2_CROP_DX_WHEN_LEGACY_MODEL": int(SLOT2_CROP_DX_WHEN_LEGACY_MODEL),
+        },
+        "resolved_models": {
+            "slot2": str(slot2_model),
+            "palace": str(palace_model),
+            "fortress": str(fortress_model),
+            "slot5_single_stage": str(slot5_single_stage_model),
+        },
+        "resolved_slot2_crop_dx_px": int(slot2_crop_dx_px),
         "classifiers": ordered,
         "errors": errors,
     }

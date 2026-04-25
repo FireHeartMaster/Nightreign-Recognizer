@@ -1,0 +1,57 @@
+{
+  "source_images": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\renders_fixed\\recognizer_no_text",
+  "ground_truth_json": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\LotResultSmallBaseAndSpot_grouped_by_patternId_16.json",
+  "output_root": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_v16_non_gh_layout_inputs_from_renders_fixed",
+  "earths": {
+    "Limveld": {
+      "pattern_count_expected": 240,
+      "pattern_count_written": 240,
+      "slot_count": 27,
+      "missing_images": [],
+      "duplicate_slot_hits": {},
+      "panel_dir": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_v16_non_gh_layout_inputs_from_renders_fixed\\limveld\\panel_crop_1536",
+      "further_dir": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_v16_non_gh_layout_inputs_from_renders_fixed\\limveld\\further_crop_1024",
+      "strict_metadata_json": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_v16_non_gh_layout_inputs_from_renders_fixed\\limveld_layout_slots_further_crop_bl_strict_v16.json"
+    },
+    "Noklateo": {
+      "pattern_count_expected": 50,
+      "pattern_count_written": 50,
+      "slot_count": 21,
+      "missing_images": [],
+      "duplicate_slot_hits": {},
+      "panel_dir": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_v16_non_gh_layout_inputs_from_renders_fixed\\noklateo\\panel_crop_1536",
+      "further_dir": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_v16_non_gh_layout_inputs_from_renders_fixed\\noklateo\\further_crop_1024",
+      "strict_metadata_json": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_v16_non_gh_layout_inputs_from_renders_fixed\\noklateo_layout_slots_further_crop_bl_strict_v16.json"
+    },
+    "The Crater": {
+      "pattern_count_expected": 50,
+      "pattern_count_written": 50,
+      "slot_count": 21,
+      "missing_images": [],
+      "duplicate_slot_hits": {},
+      "panel_dir": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_v16_non_gh_layout_inputs_from_renders_fixed\\the_crater\\panel_crop_1536",
+      "further_dir": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_v16_non_gh_layout_inputs_from_renders_fixed\\the_crater\\further_crop_1024",
+      "strict_metadata_json": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_v16_non_gh_layout_inputs_from_renders_fixed\\the_crater_layout_slots_further_crop_bl_strict_v16.json"
+    },
+    "Mountaintop": {
+      "pattern_count_expected": 50,
+      "pattern_count_written": 50,
+      "slot_count": 21,
+      "missing_images": [],
+      "duplicate_slot_hits": {},
+      "panel_dir": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_v16_non_gh_layout_inputs_from_renders_fixed\\mountaintop\\panel_crop_1536",
+      "further_dir": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_v16_non_gh_layout_inputs_from_renders_fixed\\mountaintop\\further_crop_1024",
+      "strict_metadata_json": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_v16_non_gh_layout_inputs_from_renders_fixed\\mountaintop_layout_slots_further_crop_bl_strict_v16.json"
+    },
+    "Rotted Woods": {
+      "pattern_count_expected": 50,
+      "pattern_count_written": 50,
+      "slot_count": 21,
+      "missing_images": [],
+      "duplicate_slot_hits": {},
+      "panel_dir": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_v16_non_gh_layout_inputs_from_renders_fixed\\rotted_woods\\panel_crop_1536",
+      "further_dir": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_v16_non_gh_layout_inputs_from_renders_fixed\\rotted_woods\\further_crop_1024",
+      "strict_metadata_json": "C:\\Users\\eduar\\Documents\\CodeProjects\\Nightreign-Recognizer\\tmp_v16_non_gh_layout_inputs_from_renders_fixed\\rotted_woods_layout_slots_further_crop_bl_strict_v16.json"
+    }
+  }
+}

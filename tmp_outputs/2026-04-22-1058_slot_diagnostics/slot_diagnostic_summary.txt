@@ -1,0 +1,11 @@
+image=C:\Users\eduar\Pictures\Screenshots\2026-04-22-1058.png
+best_earth=Limveld
+top_pattern_id=173
+
+slot 04: pred=Fort actual=Ruins match=False best=0.7228 second=0.2770 margin=0.4458 center=(354,429) half=115
+slot 08: pred=Great Church actual=Sorcerer's Rise match=False best=0.9981 second=0.0013 margin=0.9967 center=(1196,543) half=115
+slot 09: pred=Sorcerer's Rise actual=Empty match=False best=1.0000 second=0.0000 margin=1.0000 center=(1066,559) half=115
+slot 10: pred=unknown actual=Township match=False best=0.5144 second=0.4792 margin=0.0353 center=(554,608) half=115
+slot 11: pred=Sorcerer's Rise actual=Ruins match=False best=0.9568 second=0.0339 margin=0.9229 center=(1191,649) half=115
+slot 15: pred=Fort actual=Ruins match=False best=0.7707 second=0.2291 margin=0.5416 center=(492,846) half=115
+slot 26: pred=Fortified Village actual=Main Encampment match=False best=0.7016 second=0.1749 margin=0.5266 center=(611,1201) half=115
