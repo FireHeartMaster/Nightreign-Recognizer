@@ -1,4 +1,6 @@
+import csv
 import json
+from functools import lru_cache
 import math
 import os
 from pathlib import Path
@@ -1718,6 +1720,31 @@ def get_entry_by_pattern_id(pattern_id):
     raise KeyError(f"No entry found for patternId {pattern_id}")
 
 
+# TargetBoss enum: https://soulsmods.github.io/emedf/nr-emedf.html#TargetBoss
+FINAL_BOSS_NAMES = {
+    0: "Gladius", 1: "Adel", 2: "Gnoster", 3: "Maris", 4: "Libra",
+    5: "Fulghor", 6: "Caligo", 7: "Heolstor",
+    8: "Harmonia (Balancers)", 9: "Straghess (Dreglord)",
+}
+
+
+@lru_cache(maxsize=1)
+def load_final_boss_names_by_pattern():
+    """Read the explicit layout-to-Nightlord mapping from the game table."""
+    names = {}
+    table_path = Path(resource_path("LotResultMapPatternFlag.csv"))
+    if not table_path.exists():
+        return names
+    with table_path.open(encoding="utf-8-sig", newline="") as table:
+        for row in csv.DictReader(table):
+            pattern_id = int(row["patternId"])
+            name = FINAL_BOSS_NAMES.get(int(row["targetBoss"]))
+            if pattern_id in names and names[pattern_id] != name:
+                raise ValueError(f"Conflicting final bosses for pattern {pattern_id}")
+            names[pattern_id] = name
+    return names
+
+
 def build_pattern_image_and_annotation(
     entry,
     background_name_override=None,
@@ -1862,6 +1889,29 @@ def build_pattern_image_and_annotation(
     if render_labels and RENDER_ANY_TEXT and not HIDE_ALL_BOSSES_AND_ALL_TEXT:
         placed_label_boxes = []
         seen_labels = set()
+        final_boss_box = None
+        final_boss_name = (
+            load_final_boss_names_by_pattern().get(int(pattern_id))
+            if not under_target_only else None
+        )
+        if final_boss_name:
+            # Position inside the retained map, including Great Hollow's crop.
+            inset = int(CROP_BORDER_BY_RAREMAP.get(rare_map, 0)) + 16
+            text = f"Day 3: {final_boss_name}"
+            draw.text(
+                (inset, inset), text, font=boss_font, anchor="lt",
+                fill="white", stroke_fill="black", stroke_width=1,
+            )
+            final_boss_box = draw.textbbox(
+                (inset, inset), text, font=boss_font, anchor="lt", stroke_width=1,
+            )
+            placed_label_boxes.append(final_boss_box)
+            append_landmark(
+                landmarks, landmark_type="text", x=inset, y=inset,
+                width=IMAGE_W, height=IMAGE_H, text=text,
+                source="final_boss", source_id=pattern_id,
+            )
+
 
         for item in label_queue:
             if len(item) == 6:
@@ -1873,6 +1923,11 @@ def build_pattern_image_and_annotation(
                 source_id = None
 
             align = "left" if label_type == "title" else "center"
+            if label_type == "title" and final_boss_box is not None:
+                # Keep the existing pattern title below the fixed boss heading.
+                _, title_box = get_label_bbox(draw, 0, 0, text, font, align="left")
+                x = inset
+                y = final_boss_box[3] + 12 + (title_box[3] - title_box[1]) / 2
 
             label_key = (round(float(x), 3), round(float(y), 3), str(text).strip(), id(font))
             if label_key in seen_labels:
