@@ -206,6 +206,40 @@ PATTERN_IDS_TO_RENDER = None
 # PATTERN_IDS_TO_RENDER = {1005, 1006, 1007, 1008, 1009}
 # PATTERN_IDS_TO_RENDER = set(range(1005, 1010))
 
+GREAT_HOLLOW_RESONATING_CRYSTAL_OFF_POINTS = [
+    {"x": 127.43, "z": 551.02, "icon": "Resonating_Crystal_Off"},
+    {"x": 161.55, "z": 358.17, "icon": "Resonating_Crystal_Off"},
+    {"x": 79.38, "z": 303.12, "icon": "Resonating_Crystal_Off"},
+    {"x": 248.05, "z": 118.06, "icon": "Resonating_Crystal_Off"},
+    {"x": 391.26, "z": 73.57, "icon": "Resonating_Crystal_Off"},
+    {"x": 415.84, "z": 379.95, "icon": "Resonating_Crystal_Off"},
+    {"x": 493.64, "z": 257.73, "icon": "Resonating_Crystal_Off"},
+    {"x": 323.45, "z": 323.90, "icon": "Resonating_Crystal_Off"},
+    {"x": 360.88, "z": 538.65, "icon": "Resonating_Crystal_Off"},
+    {"x": 305.15, "z": 602.78, "icon": "Resonating_Crystal_Off"},
+    {"x": 443.03, "z": 787.01, "icon": "Resonating_Crystal_Off"},
+    {"x": 703.39, "z": 135.55, "icon": "Resonating_Crystal_Off"},
+    {"x": 711.49, "z": 272.06, "icon": "Resonating_Crystal_Off"},
+    {"x": 766.35, "z": 358.98, "icon": "Resonating_Crystal_Off"},
+    {"x": 730.68, "z": 548.39, "icon": "Resonating_Crystal_Off"},
+    {"x": 548.18, "z": 611.36, "icon": "Resonating_Crystal_Off"},
+    {"x": 957.23, "z": 112.36, "icon": "Resonating_Crystal_Off"},
+    {"x": 936.45, "z": 341.40, "icon": "Resonating_Crystal_Off"},
+    {"x": 829.04, "z": 490.48, "icon": "Resonating_Crystal_Off"},
+    {"x": 864.70, "z": 538.59, "icon": "Resonating_Crystal_Off"},
+    {"x": 812.49, "z": 792.77, "icon": "Resonating_Crystal_Off"},
+    {
+        "x": 180.0,
+        "z": 1120.0,
+        "icon": "Resonating_Crystal_Off",
+        "text": "Possible crystal locations",
+        "render_scale": 0.85,
+        "text_dx": 118,
+        "text_dy": 0,
+        "render_on_top": True,
+    },
+]
+
 FIXED_POINTS_BY_RAREMAP = {
    #  "Limveld": [
    #      {"x": 441.0, "z": 213.0, "icon": "Field Boss Red"},
@@ -225,6 +259,7 @@ FIXED_POINTS_BY_RAREMAP = {
     {"x": 558.813, "z": 627.59, "icon": "Church"},
     {"x": 144.499, "z": 618.496, "icon": "Divine Tower", "render_scale": 0.6},
     {"x": 846.955, "z": 219.805, "icon": "Divine Tower", "render_scale": 0.6},
+    *GREAT_HOLLOW_RESONATING_CRYSTAL_OFF_POINTS,
    ],
    "Noklateo": [
         {"x": 60.5, "z": 60.5, "icon": "Field Boss Red", "text": "Astel"},
@@ -276,6 +311,7 @@ NO_TEXT_ICON_EXCLUSIONS = {
     "Day_1",
     "Walking_Mausoleum",
 }
+RESONATING_CRYSTAL_OFF_ICON_NAME = "Resonating_Crystal_Off"
 
 # --------------------------------------------------
 # Per-position render rules for row items
@@ -1308,7 +1344,17 @@ def export_recognition_assets(layout_meta):
     )
     print(f"Saved recognition package: {recognition_package_path}")
 
-def render_boss(icon_queue, icon_img, boss_name, x_world, z_world, label_queue, label_dx=0, label_dy=0, render_layer=100):
+def render_boss(
+    icon_queue,
+    icon_img,
+    boss_name,
+    x_world,
+    z_world,
+    label_queue,
+    label_dx=0,
+    label_dy=0,
+    render_layer=100,
+):
     if HIDE_ALL_BOSSES_AND_ALL_TEXT:
         return
 
@@ -1404,7 +1450,7 @@ def get_row_icon(icon_name, render_scale=1.0):
     ICON_CACHE[cache_key] = icon_img
     return icon_img
 
-def render_fixed_points(icon_queue, label_queue, rare_map):
+def render_fixed_points(icon_queue, label_queue, rare_map, include_resonating_crystal_points=True):
     fixed_points = FIXED_POINTS_BY_RAREMAP.get(str(rare_map).strip(), [])
 
     for point_index, point in enumerate(fixed_points):
@@ -1412,8 +1458,14 @@ def render_fixed_points(icon_queue, label_queue, rare_map):
         text_value = str(point.get("text", "") or "").strip()
         x_world = point.get("x", None)
         z_world = point.get("z", None)
+        render_scale = point.get("render_scale", None)
 
         if icon_name == "" or x_world is None or z_world is None:
+            continue
+        if (
+            str(icon_name).strip() == RESONATING_CRYSTAL_OFF_ICON_NAME
+            and not bool(include_resonating_crystal_points)
+        ):
             continue
 
         if HIDE_ALL_BOSSES_AND_ALL_TEXT and is_boss_icon_name(icon_name):
@@ -1429,6 +1481,24 @@ def render_fixed_points(icon_queue, label_queue, rare_map):
             x_world=x_world,
             z_world=z_world,
         )
+        if render_scale is not None:
+            config["render_scale"] = render_scale
+        for key in (
+            "render_icon",
+            "render_text",
+            "render_on_top",
+            "render_layer",
+            "icon_dx",
+            "icon_dy",
+            "text_dx",
+            "text_dy",
+            "icon_dx_factor",
+            "icon_dy_factor",
+            "text_dx_factor",
+            "text_dy_factor",
+        ):
+            if key in point:
+                config[key] = point.get(key)
 
         if not config["render_icon"] and not config["render_text"] and text_value == "":
             continue
@@ -1753,6 +1823,8 @@ def build_pattern_image_and_annotation(
     render_icons=True,
     render_labels=True,
     render_night_location_icons=False,
+    render_resonating_crystal_icons=False,
+    include_resonating_crystal_points=True,
 ):
     pattern_id = entry.get("patternId", "")
     rare_map = str(entry.get("rareMap", "")).strip()
@@ -1787,7 +1859,12 @@ def build_pattern_image_and_annotation(
         label_queue.append((20, 40, title, title_font, "title", pattern_id))
 
     if not under_target_only:
-        render_fixed_points(icon_queue=icon_queue, label_queue=label_queue, rare_map=rare_map)
+        render_fixed_points(
+            icon_queue=icon_queue,
+            label_queue=label_queue,
+            rare_map=rare_map,
+            include_resonating_crystal_points=bool(include_resonating_crystal_points),
+        )
         render_great_hollow_hidden_features(
             icon_queue=icon_queue,
             label_queue=label_queue,
@@ -1857,8 +1934,18 @@ def build_pattern_image_and_annotation(
                 source=source,
                 source_id=source_id,
             )
-    elif render_night_location_icons:
-        for _, _, px, py, icon_name, text, source, source_id in night_icon_queue:
+    elif render_night_location_icons or render_resonating_crystal_icons:
+        overlay_icon_landmarks = []
+        if render_night_location_icons:
+            overlay_icon_landmarks.extend(night_icon_queue)
+        if render_resonating_crystal_icons:
+            overlay_icon_landmarks.extend(
+                item
+                for item in icon_queue
+                if str(item[6]).strip() == "fixed_point"
+                and str(item[4]).strip() == RESONATING_CRYSTAL_OFF_ICON_NAME
+            )
+        for _, _, px, py, icon_name, text, source, source_id in overlay_icon_landmarks:
             append_landmark(
                 landmarks,
                 landmark_type=icon_name,
@@ -1882,8 +1969,18 @@ def build_pattern_image_and_annotation(
     if render_icons:
         for _, icon_img, px, py, _, _, _, _ in sorted(icon_queue, key=lambda item: item[0]):
             paste_centered(bg, icon_img, px, py)
-    elif render_night_location_icons:
-        for _, icon_img, px, py, _, _, _, _ in sorted(night_icon_queue, key=lambda item: item[0]):
+    elif render_night_location_icons or render_resonating_crystal_icons:
+        draw_queue = []
+        if render_night_location_icons:
+            draw_queue.extend(night_icon_queue)
+        if render_resonating_crystal_icons:
+            draw_queue.extend(
+                item
+                for item in icon_queue
+                if str(item[6]).strip() == "fixed_point"
+                and str(item[4]).strip() == RESONATING_CRYSTAL_OFF_ICON_NAME
+            )
+        for _, icon_img, px, py, _, _, _, _ in sorted(draw_queue, key=lambda item: item[0]):
             paste_centered(bg, icon_img, px, py)
 
     if render_labels and RENDER_ANY_TEXT and not HIDE_ALL_BOSSES_AND_ALL_TEXT:
@@ -1911,7 +2008,6 @@ def build_pattern_image_and_annotation(
                 width=IMAGE_W, height=IMAGE_H, text=text,
                 source="final_boss", source_id=pattern_id,
             )
-
 
         for item in label_queue:
             if len(item) == 6:
@@ -1992,6 +2088,7 @@ def build_pattern_text_overlay_image(
     background_name_override=None,
     render_under_variant=False,
     include_night_location_icons=False,
+    include_resonating_crystal_icons=False,
 ):
     result = build_pattern_image_and_annotation(
         entry,
@@ -2001,6 +2098,8 @@ def build_pattern_text_overlay_image(
         render_icons=False,
         render_labels=True,
         render_night_location_icons=bool(include_night_location_icons),
+        render_resonating_crystal_icons=bool(include_resonating_crystal_icons),
+        include_resonating_crystal_points=bool(include_resonating_crystal_icons),
     )
     return result[0] if result is not None else None
 
