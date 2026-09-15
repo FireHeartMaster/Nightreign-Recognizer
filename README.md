@@ -1772,3 +1772,6 @@ Use `nightreign_best_tuned_config.json`:
 **Last Updated**: 2026-04-21  
 **Author**: Nightreign Development Team
 
+## Arrow-key thumbnail navigation
+
+Use **Up/Left** for the previous thumbnail and **Down/Right** for the next, even when the game or another window has focus. Navigation stops at the first and last thumbnails. Changing selection updates both the main image and the visible overlay. Each press moves once; use the arrows without Ctrl, Alt, Shift, or Win. Arrow input also continues to reach the foreground application.

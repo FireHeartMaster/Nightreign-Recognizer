@@ -819,6 +819,43 @@ class GlobalHotkeyManager:
                 user32.UnregisterHotKey(None, self.HOTKEY_ID)
 
 
+class GlobalArrowKeyManager:
+    """Observe plain arrow presses without consuming the game's keyboard input."""
+
+    KEY_STEPS = {0x25: -1, 0x26: -1, 0x27: 1, 0x28: 1}
+    MODIFIER_KEYS = (0x10, 0x11, 0x12, 0x5B, 0x5C)  # Shift, Ctrl, Alt, Win
+
+    def __init__(self, trigger_callback: Callable[[int], None]):
+        self.trigger_callback = trigger_callback
+        self._stop_event = threading.Event()
+        self._thread: Optional[threading.Thread] = None
+
+    def start(self) -> None:
+        if sys.platform != "win32" or self._thread is not None:
+            return
+        self._stop_event.clear()
+        self._thread = threading.Thread(target=self._worker_main, daemon=True)
+        self._thread.start()
+
+    def stop(self) -> None:
+        self._stop_event.set()
+        if self._thread is not None:
+            self._thread.join(timeout=2.0)
+            self._thread = None
+
+    def _worker_main(self) -> None:
+        get_key_state = ctypes.windll.user32.GetAsyncKeyState
+        # Use only the high (currently down) bit; the low bit is shared and unreliable.
+        pressed = {key for key in self.KEY_STEPS if get_key_state(key) & 0x8000}
+        while not self._stop_event.wait(0.01):
+            down = {key for key in self.KEY_STEPS if get_key_state(key) & 0x8000}
+            modified = any(get_key_state(key) & 0x8000 for key in self.MODIFIER_KEYS)
+            new_presses = down - pressed
+            if not modified and len(down) == 1 and len(new_presses) == 1:
+                self.trigger_callback(self.KEY_STEPS[next(iter(new_presses))])
+            pressed = down
+
+
 def cache_search_paths() -> List[Path]:
     rb = resource_base_dir()
     rd = runtime_dir()
@@ -9217,6 +9254,10 @@ def _overlay_gui_init(self, root: tk.Tk) -> None:
     self.overlay_hotkey_string = saved_overlay_hotkey or DEFAULT_OVERLAY_HOTKEY
     self.overlay_hotkey_manager = GlobalHotkeyManager(lambda: self.message_queue.put(("overlay_hotkey",)))
     self.overlay_hotkey_manager.HOTKEY_ID = 0xB124
+    self.arrow_key_manager = GlobalArrowKeyManager(
+        lambda step: self.message_queue.put(("thumbnail_step", step))
+    )
+    self.arrow_key_manager.start()
 
     self.overlay_hotkey_capture_var = tk.StringVar(value=self.overlay_hotkey_string)
     saved_overlay_opacity = self.settings.get("overlay_opacity", DEFAULT_OVERLAY_OPACITY)
@@ -9903,6 +9944,17 @@ def _overlay_thumbnail_click(self, index: int) -> None:
         self._refresh_overlay_image()
 
 
+def _cycle_thumbnail(self, step: int) -> None:
+    if self.hotkey_listening:
+        return
+    count = min(THUMB_COUNT, len(self.current_results), len(self.current_image_paths))
+    if count < 2:
+        return
+    next_index = self.current_selected_index + step
+    if 0 <= next_index < count:
+        self._on_thumbnail_click(next_index)
+
+
 def _get_monitor_dict_for_overlay(self) -> Optional[dict]:
     for idx, monitor in self.monitor_entries:
         if idx == self.last_result_monitor_index:
@@ -10055,6 +10107,8 @@ def _overlay_process_queue(self) -> None:
                 self.start_or_restart_recognition()
             elif kind == "overlay_hotkey":
                 self.toggle_overlay()
+            elif kind == "thumbnail_step":
+                self._cycle_thumbnail(item[1])
             elif kind == "result":
                 _, run_id, payload = item
                 if run_id == self.current_run_id:
@@ -10077,6 +10131,7 @@ def _overlay_process_queue(self) -> None:
 
 
 def _overlay_on_close(self) -> None:
+    self.arrow_key_manager.stop()
     try:
         self._overlay_clear_dual_shot_pending(reset_button=False)
     except Exception:
@@ -10124,6 +10179,7 @@ NightreignRecognizerGUI.start_or_restart_recognition = _overlay_start_or_restart
 NightreignRecognizerGUI._worker_main = _overlay_worker_main
 NightreignRecognizerGUI._show_results = _overlay_show_results
 NightreignRecognizerGUI._on_thumbnail_click = _overlay_thumbnail_click
+NightreignRecognizerGUI._cycle_thumbnail = _cycle_thumbnail
 NightreignRecognizerGUI._process_queue = _overlay_process_queue
 NightreignRecognizerGUI._on_close = _overlay_on_close
 NightreignRecognizerGUI._get_monitor_dict_for_overlay = _get_monitor_dict_for_overlay
