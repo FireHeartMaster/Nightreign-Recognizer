@@ -1957,7 +1957,8 @@ class NightreignRecognizerGUI:
             values=monitor_values,
         )
         self.monitor_combo.pack(side="top", anchor="w")
-        self.monitor_combo.current(0)
+        self._restore_monitor_selection()
+        self.monitor_combo.bind("<<ComboboxSelected>>", self._on_monitor_selection_changed)
 
         self.info_block = tk.Frame(self.top_bar, bg="#0f141b", highlightthickness=0, bd=0)
         self.info_block.grid(row=0, column=2, sticky="w", padx=(4, 8), pady=0)
@@ -2440,6 +2441,23 @@ class NightreignRecognizerGUI:
 
     def _queue_finished(self, run_id: int) -> None:
         self.message_queue.put(("finished", run_id))
+
+    def _restore_monitor_selection(self) -> None:
+        saved_index = self.settings.get("selected_monitor_index", 0)
+        choice = next(
+            (position for position, (idx, _) in enumerate(self.monitor_entries, start=1)
+             if idx == saved_index),
+            0,
+        )
+        self.monitor_combo.current(choice)
+
+    def _on_monitor_selection_changed(self, _event=None) -> None:
+        # Zero preserves the separate "Primary / default" option.
+        self.settings["selected_monitor_index"] = (
+            0 if self.monitor_choice_var.get() == "Primary / default"
+            else self._selected_monitor_index()
+        )
+        save_settings(self.settings)
 
     def _selected_monitor_index(self) -> int:
         selected_label = self.monitor_choice_var.get()
