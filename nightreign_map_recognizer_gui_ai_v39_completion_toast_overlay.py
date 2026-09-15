@@ -1513,8 +1513,14 @@ def dynamic_render_cache_path(pattern_id: int, variant: str) -> Path:
     return cache_dir / f"layout_{int(pattern_id):04d}.png"
 
 
-def overlay_text_cache_variant(include_night_location_icons: bool) -> str:
-    return "overlay_text_with_night" if bool(include_night_location_icons) else "overlay_text"
+def overlay_text_cache_variant(
+    include_night_location_icons: bool,
+    include_resonating_crystal_icons: bool,
+) -> str:
+    return (
+        f"overlay_text_night{int(bool(include_night_location_icons))}"
+        f"_crystals{int(bool(include_resonating_crystal_icons))}"
+    )
 
 
 def overlay_image_has_visible_content(source: Path | Image.Image) -> bool:
@@ -1595,9 +1601,13 @@ def resolve_overlay_text_only_paths(
     ctx: RunContext,
     dynamic_render: bool = True,
     include_night_location_icons: bool = False,
+    include_resonating_crystal_icons: bool = False,
 ) -> List[Optional[Path | Image.Image]]:
     paths: List[Optional[Path | Image.Image]] = []
-    overlay_variant = overlay_text_cache_variant(bool(include_night_location_icons))
+    overlay_variant = overlay_text_cache_variant(
+        bool(include_night_location_icons),
+        bool(include_resonating_crystal_icons),
+    )
     for result in results:
         if len(paths) >= THUMB_COUNT:
             break
@@ -1612,6 +1622,7 @@ def resolve_overlay_text_only_paths(
                 overlay_img = renderer.build_pattern_text_overlay_image(
                     entry,
                     include_night_location_icons=bool(include_night_location_icons),
+                    include_resonating_crystal_icons=bool(include_resonating_crystal_icons),
                 )
                 if overlay_img is None:
                     ctx.log(f"Warning: Overlay text-only render returned no image for #{result.number}.")
@@ -8133,6 +8144,7 @@ def run_recognition(
     dynamic_render_only: bool = True,
     generate_overlay_text_paths: bool = False,
     generate_overlay_text_include_night_locations: bool = True,
+    generate_overlay_text_include_resonating_crystals: bool = True,
 ) -> dict:
     import tempfile
 
@@ -8825,6 +8837,7 @@ def run_recognition(
                 ctx,
                 dynamic_render=dynamic_render,
                 include_night_location_icons=bool(generate_overlay_text_include_night_locations),
+                include_resonating_crystal_icons=bool(generate_overlay_text_include_resonating_crystals),
             )
             _time_end("overlay_text_display_path_resolution", t_stage)
         else:
@@ -8918,6 +8931,7 @@ DEFAULT_OVERLAY_OPACITY = 0.85
 DEFAULT_COMPLETION_TOAST_ENABLED = True
 DEFAULT_OVERLAY_TEXT_ONLY_ENABLED = True
 DEFAULT_OVERLAY_TEXT_ONLY_INCLUDE_NIGHT_LOCATIONS = True
+DEFAULT_OVERLAY_TEXT_ONLY_INCLUDE_RESONATING_CRYSTALS = True
 # In-code feature gate for both the text-only overlay behavior and its settings checkbox.
 ENABLE_OVERLAY_TEXT_ONLY_FEATURE = True
 # Parameter toggle: "1" keeps text-only overlay transparency via color-key mapping, "0" disables it.
@@ -9301,12 +9315,22 @@ def _overlay_gui_init(self, root: tk.Tk) -> None:
                 DEFAULT_OVERLAY_TEXT_ONLY_INCLUDE_NIGHT_LOCATIONS,
             )
         )
+        saved_overlay_text_only_include_resonating_crystals = bool(
+            self.settings.get(
+                "overlay_text_only_include_resonating_crystals",
+                DEFAULT_OVERLAY_TEXT_ONLY_INCLUDE_RESONATING_CRYSTALS,
+            )
+        )
     else:
         saved_overlay_text_only_enabled = False
         saved_overlay_text_only_include_night_locations = False
+        saved_overlay_text_only_include_resonating_crystals = False
     self.overlay_text_only_var = tk.BooleanVar(value=saved_overlay_text_only_enabled)
     self.overlay_text_only_include_night_locations_var = tk.BooleanVar(
         value=saved_overlay_text_only_include_night_locations
+    )
+    self.overlay_text_only_include_resonating_crystals_var = tk.BooleanVar(
+        value=saved_overlay_text_only_include_resonating_crystals
     )
     self.completion_toast_window = OverlayToastWindow(self.root)
     self.current_overlay_text_image_paths: List[Optional[Path | Image.Image]] = []
@@ -9320,6 +9344,7 @@ def _overlay_gui_init(self, root: tk.Tk) -> None:
     self._next_run_dualshot_debug_dir: Optional[str] = None
     self._next_run_generate_overlay_text_paths: bool = False
     self._next_run_generate_overlay_text_include_night_locations: bool = False
+    self._next_run_generate_overlay_text_include_resonating_crystals: bool = False
     self.dual_shot_waiting_for_second: bool = False
     self.dual_shot_first_full_img: Optional[np.ndarray] = None
     self.dual_shot_monitor_index: int = 1
@@ -9559,6 +9584,26 @@ def _on_overlay_text_only_include_night_locations_toggle(self) -> None:
         )
 
 
+def _on_overlay_text_only_include_resonating_crystals_toggle(self) -> None:
+    if not ENABLE_OVERLAY_TEXT_ONLY_FEATURE:
+        self.overlay_text_only_include_resonating_crystals_var.set(False)
+        return
+    enabled = bool(self.overlay_text_only_include_resonating_crystals_var.get())
+    self.settings["overlay_text_only_include_resonating_crystals"] = enabled
+    save_settings(self.settings)
+    # Overlay text cache depends on this toggle; clear in-memory list so it is regenerated by selected mode.
+    self.current_overlay_text_image_paths = []
+    if self.overlay_window.is_visible() and bool(self.overlay_text_only_var.get()):
+        self._refresh_overlay_image()
+    if self.current_run_id:
+        state = "enabled" if enabled else "disabled"
+        self._append_log_line(
+            self.current_run_id,
+            timestamp_now(),
+            f"Overlay text-only resonating crystals {state}.",
+        )
+
+
 def _overlay_open_hotkey_popover(self) -> None:
     if self.hotkey_popover is not None:
         return
@@ -9683,6 +9728,24 @@ def _overlay_open_hotkey_popover(self) -> None:
         )
         overlay_text_night_icons_check.pack(fill="x", pady=(0, 10))
 
+        overlay_text_crystals_check = tk.Checkbutton(
+            body,
+            text="Text-only overlay: include resonating crystals",
+            variable=self.overlay_text_only_include_resonating_crystals_var,
+            command=self._on_overlay_text_only_include_resonating_crystals_toggle,
+            bg="#111823",
+            fg="#f6f8fc",
+            activebackground="#111823",
+            activeforeground="#f6f8fc",
+            selectcolor="#1a2431",
+            anchor="w",
+            justify="left",
+            bd=0,
+            highlightthickness=0,
+            font=("Segoe UI", 9, "bold"),
+        )
+        overlay_text_crystals_check.pack(fill="x", pady=(0, 10))
+
     tk.Label(
         body,
         text=(
@@ -9691,6 +9754,7 @@ def _overlay_open_hotkey_popover(self) -> None:
             + "Use the slider below to control overlay opacity. Clicking the overlay hides it.\n"
             + ("Enable text-only mode to keep only labels in a transparent overlay.\n" if ENABLE_OVERLAY_TEXT_ONLY_FEATURE else "")
             + ("In text-only mode you can optionally include Night 1/2 location icons.\n" if ENABLE_OVERLAY_TEXT_ONLY_FEATURE else "")
+            + ("In text-only mode you can optionally include resonating crystal icons.\n" if ENABLE_OVERLAY_TEXT_ONLY_FEATURE else "")
             + "The completion toast appears on the recognized monitor, stays for three seconds, then fades away."
         ),
         bg="#111823",
@@ -9794,6 +9858,11 @@ def _overlay_begin_run_with_captures(
         ENABLE_OVERLAY_TEXT_ONLY_FEATURE
         and hasattr(self, "overlay_text_only_include_night_locations_var")
         and bool(self.overlay_text_only_include_night_locations_var.get())
+    )
+    self._next_run_generate_overlay_text_include_resonating_crystals = bool(
+        ENABLE_OVERLAY_TEXT_ONLY_FEATURE
+        and hasattr(self, "overlay_text_only_include_resonating_crystals_var")
+        and bool(self.overlay_text_only_include_resonating_crystals_var.get())
     )
 
     if is_dual_shot_debug_enabled() and first_full_img is not None:
@@ -9914,12 +9983,16 @@ def _overlay_worker_main(self, run_id: int, cancel_event: threading.Event, monit
     generate_overlay_text_include_night_locations = bool(
         getattr(self, "_next_run_generate_overlay_text_include_night_locations", True)
     )
+    generate_overlay_text_include_resonating_crystals = bool(
+        getattr(self, "_next_run_generate_overlay_text_include_resonating_crystals", True)
+    )
     self._next_run_capture_first_full_img = None
     self._next_run_capture_second_full_img = None
     self._next_run_dual_mode = False
     self._next_run_dualshot_debug_dir = None
     self._next_run_generate_overlay_text_paths = False
     self._next_run_generate_overlay_text_include_night_locations = False
+    self._next_run_generate_overlay_text_include_resonating_crystals = False
     try:
         if debug_dir:
             ctx.log(f"[Dual-shot debug] Saved trigger captures to: {debug_dir}")
@@ -9934,6 +10007,7 @@ def _overlay_worker_main(self, run_id: int, cancel_event: threading.Event, monit
             dynamic_render_only=os.environ.get('NR_DISABLE_RENDER_FALLBACK') is None,
             generate_overlay_text_paths=generate_overlay_text_paths,
             generate_overlay_text_include_night_locations=generate_overlay_text_include_night_locations,
+            generate_overlay_text_include_resonating_crystals=generate_overlay_text_include_resonating_crystals,
         )
         ctx.check_cancel()
         self._queue_result(run_id, payload)
@@ -9993,11 +10067,16 @@ def _refresh_overlay_image(self) -> None:
     image_path: Path | Image.Image = self.current_image_paths[selected_index]
     if ENABLE_OVERLAY_TEXT_ONLY_FEATURE and hasattr(self, "overlay_text_only_var") and bool(self.overlay_text_only_var.get()):
         include_night_var = getattr(self, "overlay_text_only_include_night_locations_var", None)
+        include_crystals_var = getattr(self, "overlay_text_only_include_resonating_crystals_var", None)
         if include_night_var is None:
             include_night_icons = bool(DEFAULT_OVERLAY_TEXT_ONLY_INCLUDE_NIGHT_LOCATIONS)
         else:
             include_night_icons = bool(include_night_var.get())
-        overlay_variant = overlay_text_cache_variant(include_night_icons)
+        if include_crystals_var is None:
+            include_crystal_icons = bool(DEFAULT_OVERLAY_TEXT_ONLY_INCLUDE_RESONATING_CRYSTALS)
+        else:
+            include_crystal_icons = bool(include_crystals_var.get())
+        overlay_variant = overlay_text_cache_variant(include_night_icons, include_crystal_icons)
         overlay_paths = list(getattr(self, "current_overlay_text_image_paths", []))
         overlay_image: Optional[Path | Image.Image] = None
         if selected_index < len(overlay_paths):
@@ -10013,6 +10092,7 @@ def _refresh_overlay_image(self) -> None:
                     built = renderer.build_pattern_text_overlay_image(
                         entry,
                         include_night_location_icons=include_night_icons,
+                        include_resonating_crystal_icons=include_crystal_icons,
                     )
                     if built is not None:
                         try:
@@ -10187,6 +10267,7 @@ NightreignRecognizerGUI._on_overlay_opacity_slider = _on_overlay_opacity_slider
 NightreignRecognizerGUI._on_completion_toast_toggle = _on_completion_toast_toggle
 NightreignRecognizerGUI._on_overlay_text_only_toggle = _on_overlay_text_only_toggle
 NightreignRecognizerGUI._on_overlay_text_only_include_night_locations_toggle = _on_overlay_text_only_include_night_locations_toggle
+NightreignRecognizerGUI._on_overlay_text_only_include_resonating_crystals_toggle = _on_overlay_text_only_include_resonating_crystals_toggle
 NightreignRecognizerGUI._on_dual_shot_toggle = _overlay_on_dual_shot_toggle
 NightreignRecognizerGUI._overlay_dual_shot_timeout = _overlay_dual_shot_timeout
 NightreignRecognizerGUI._overlay_begin_run_with_captures = _overlay_begin_run_with_captures
