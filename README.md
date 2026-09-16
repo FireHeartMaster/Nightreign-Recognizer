@@ -23,6 +23,9 @@ The default hotkeys in source are:
 
 - Recognition: `Ctrl + Alt + M`
 - Show/hide overlay: `Ctrl + Alt + O`
+- Hide overlay only: `Ctrl + Alt + H` (does nothing when the overlay is hidden)
+
+All three shortcuts can be reassigned in the hotkey settings. The hide-only shortcut is saved between sessions and works while another window has focus.
 
 Saved values in `nightreign_settings.json` override these defaults.
 

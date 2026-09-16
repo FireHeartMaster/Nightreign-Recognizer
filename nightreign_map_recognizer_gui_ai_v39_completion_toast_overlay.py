@@ -8943,6 +8943,7 @@ def run_recognition(
 
 # ---------- Overlay support patch for the AI GUI ----------
 DEFAULT_OVERLAY_HOTKEY = "Ctrl + Alt + O"
+DEFAULT_HIDE_OVERLAY_HOTKEY = "Ctrl + Alt + H"
 DEFAULT_OVERLAY_OPACITY = 0.85
 DEFAULT_COMPLETION_TOAST_ENABLED = True
 DEFAULT_OVERLAY_TEXT_ONLY_ENABLED = True
@@ -9302,6 +9303,11 @@ def _overlay_gui_init(self, root: tk.Tk) -> None:
     self.overlay_hotkey_string = saved_overlay_hotkey or DEFAULT_OVERLAY_HOTKEY
     self.overlay_hotkey_manager = GlobalHotkeyManager(lambda: self.message_queue.put(("overlay_hotkey",)))
     self.overlay_hotkey_manager.HOTKEY_ID = 0xB124
+    saved_hide_hotkey = normalize_hotkey_string(str(self.settings.get("hide_overlay_hotkey", DEFAULT_HIDE_OVERLAY_HOTKEY)))
+    self.hide_overlay_hotkey_string = saved_hide_hotkey or DEFAULT_HIDE_OVERLAY_HOTKEY
+    self.hide_overlay_hotkey_manager = GlobalHotkeyManager(lambda: self.message_queue.put(("hide_overlay_hotkey",)))
+    self.hide_overlay_hotkey_manager.HOTKEY_ID = 0xB125
+    self.hide_overlay_hotkey_capture_var = tk.StringVar(value=self.hide_overlay_hotkey_string)
     self.arrow_key_manager = GlobalArrowKeyManager(
         lambda step: self.message_queue.put(("thumbnail_step", step))
     )
@@ -9401,6 +9407,7 @@ def _overlay_gui_init(self, root: tk.Tk) -> None:
 def _overlay_initialize_hotkeys(self) -> None:
     success_main, message_main = self.hotkey_manager.configure(self.global_hotkey_string)
     success_overlay, message_overlay = self.overlay_hotkey_manager.configure(self.overlay_hotkey_string)
+    success_hide, message_hide = self.hide_overlay_hotkey_manager.configure(self.hide_overlay_hotkey_string)
 
     messages = []
     if success_main:
@@ -9412,9 +9419,13 @@ def _overlay_initialize_hotkeys(self) -> None:
         self.settings["overlay_hotkey"] = self.overlay_hotkey_string
         save_settings(self.settings)
     messages.append(f"Overlay: {message_overlay}")
+    if success_hide:
+        self.settings["hide_overlay_hotkey"] = self.hide_overlay_hotkey_string
+        save_settings(self.settings)
+    messages.append(f"Hide overlay: {message_hide}")
 
     self.hotkey_status_var.set(" | ".join(messages))
-    if not success_main or not success_overlay:
+    if not success_main or not success_overlay or not success_hide:
         if self.current_run_id:
             self._append_log_line(self.current_run_id, timestamp_now(), self.hotkey_status_var.get())
 
@@ -9432,6 +9443,8 @@ def _overlay_start_hotkey_capture(self, target: str) -> None:
     self.hotkey_listening = True
     self.hotkey_capture_target = target
     self.hotkey_pressed_modifiers = set()
+    if hasattr(self, "hide_overlay_hotkey_listen_button"):
+        self.hide_overlay_hotkey_listen_button.configure(text="Set hide overlay hotkey")
     if target == "recognition":
         self.hotkey_capture_var.set("Press new shortcut...")
         self.hotkey_status_var.set("Listening for a new recognition hotkey...")
@@ -9439,6 +9452,12 @@ def _overlay_start_hotkey_capture(self, target: str) -> None:
             self.hotkey_listen_button.configure(text="Cancel")
         if hasattr(self, "overlay_hotkey_listen_button"):
             self.overlay_hotkey_listen_button.configure(text="Set overlay hotkey")
+    elif target == "hide_overlay":
+        self.hide_overlay_hotkey_capture_var.set("Press new shortcut...")
+        self.hotkey_status_var.set("Listening for a new hide overlay hotkey...")
+        self.hide_overlay_hotkey_listen_button.configure(text="Cancel")
+        self.hotkey_listen_button.configure(text="Set hotkey")
+        self.overlay_hotkey_listen_button.configure(text="Set overlay hotkey")
     else:
         self.overlay_hotkey_capture_var.set("Press new shortcut...")
         self.hotkey_status_var.set("Listening for a new overlay hotkey...")
@@ -9466,8 +9485,12 @@ def _overlay_stop_hotkey_capture(self, reset_display: bool = False) -> None:
         self.hotkey_listen_button.configure(text="Set hotkey")
     if hasattr(self, "overlay_hotkey_listen_button"):
         self.overlay_hotkey_listen_button.configure(text="Set overlay hotkey")
+    if hasattr(self, "hide_overlay_hotkey_listen_button"):
+        self.hide_overlay_hotkey_listen_button.configure(text="Set hide overlay hotkey")
     if reset_display:
-        if target == "overlay":
+        if target == "hide_overlay":
+            self.hide_overlay_hotkey_capture_var.set(self.hide_overlay_hotkey_string)
+        elif target == "overlay":
             self.overlay_hotkey_capture_var.set(self.overlay_hotkey_string)
         else:
             self.hotkey_capture_var.set(self.global_hotkey_string)
@@ -9484,25 +9507,44 @@ def _overlay_on_hotkey_capture_keypress(self, event) -> str:
         self._stop_hotkey_capture(reset_display=True)
         return "break"
     target = self.hotkey_capture_target or "recognition"
+    capture_var = (
+        self.hide_overlay_hotkey_capture_var if target == "hide_overlay"
+        else self.overlay_hotkey_capture_var if target == "overlay"
+        else self.hotkey_capture_var
+    )
     if name in HOTKEY_MODIFIER_SET:
         self.hotkey_pressed_modifiers.add(name)
         current = [m for m in HOTKEY_MODIFIER_ORDER if m in self.hotkey_pressed_modifiers]
         display = " + ".join(current) + (" + ..." if current else "Press new shortcut...")
-        if target == "overlay":
-            self.overlay_hotkey_capture_var.set(display)
-        else:
-            self.hotkey_capture_var.set(display)
+        capture_var.set(display)
         return "break"
     if not self.hotkey_pressed_modifiers:
-        if target == "overlay":
-            self.overlay_hotkey_capture_var.set(name)
-        else:
-            self.hotkey_capture_var.set(name)
+        capture_var.set(name)
         self.hotkey_status_var.set("Use at least one modifier key, such as Ctrl or Alt.")
         return "break"
 
     combo = format_hotkey_combo(self.hotkey_pressed_modifiers, name)
-    if target == "overlay":
+    other_shortcuts = {
+        "recognition": self.global_hotkey_string,
+        "overlay": self.overlay_hotkey_string,
+        "hide_overlay": self.hide_overlay_hotkey_string,
+    }
+    if any(combo == value for key, value in other_shortcuts.items() if key != target):
+        self.hotkey_status_var.set("That shortcut is already assigned to another action. Choose a different combination.")
+        return "break"
+    if target == "hide_overlay":
+        capture_var.set(combo)
+        success, message = self.hide_overlay_hotkey_manager.configure(combo)
+        self.hotkey_status_var.set("Hide overlay: " + message)
+        if success:
+            self.hide_overlay_hotkey_string = combo
+            self.settings["hide_overlay_hotkey"] = combo
+            save_settings(self.settings)
+        else:
+            self.hide_overlay_hotkey_manager.configure(self.hide_overlay_hotkey_string)
+        self._stop_hotkey_capture(reset_display=False)
+        capture_var.set(self.hide_overlay_hotkey_string)
+    elif target == "overlay":
         self.overlay_hotkey_capture_var.set(combo)
         success, message = self.overlay_hotkey_manager.configure(combo)
         self.hotkey_status_var.set("Overlay: " + message)
@@ -9533,7 +9575,9 @@ def _overlay_on_hotkey_capture_keyrelease(self, event) -> str:
         self.hotkey_pressed_modifiers.discard(name)
         current = [m for m in HOTKEY_MODIFIER_ORDER if m in self.hotkey_pressed_modifiers]
         display = " + ".join(current) + (" + ..." if current else "Press new shortcut...")
-        if self.hotkey_capture_target == "overlay":
+        if self.hotkey_capture_target == "hide_overlay":
+            self.hide_overlay_hotkey_capture_var.set(display)
+        elif self.hotkey_capture_target == "overlay":
             self.overlay_hotkey_capture_var.set(display)
         else:
             self.hotkey_capture_var.set(display)
@@ -9665,7 +9709,8 @@ def _overlay_open_hotkey_popover(self) -> None:
         setattr(self, button_attr_name, btn)
 
     add_section("Recognition hotkey", self.hotkey_capture_var, "hotkey_listen_button", "recognition", "Set hotkey")
-    add_section("Overlay hotkey", self.overlay_hotkey_capture_var, "overlay_hotkey_listen_button", "overlay", "Set overlay hotkey")
+    add_section("Overlay hotkey (toggle)", self.overlay_hotkey_capture_var, "overlay_hotkey_listen_button", "overlay", "Set overlay hotkey")
+    add_section("Hide overlay hotkey", self.hide_overlay_hotkey_capture_var, "hide_overlay_hotkey_listen_button", "hide_overlay", "Set hide overlay hotkey")
 
     tk.Label(body, text="Overlay opacity", bg="#111823", fg="#9fb0c9", anchor="w", font=("Segoe UI", 9, "bold")).pack(anchor="w", pady=(2, 2))
     opacity_row = tk.Frame(body, bg="#111823", bd=0)
@@ -9767,6 +9812,7 @@ def _overlay_open_hotkey_popover(self) -> None:
         text=(
             "Click one of the buttons above, then press the combination. Press Esc to cancel.\n"
             + "The overlay hotkey toggles the selected result map on top of the last recognized monitor.\n"
+            + "The hide overlay hotkey only closes an open overlay; it never opens one.\n"
             + "Use the slider below to control overlay opacity. Clicking the overlay hides it.\n"
             + ("Enable text-only mode to keep only labels in a transparent overlay.\n" if ENABLE_OVERLAY_TEXT_ONLY_FEATURE else "")
             + ("In text-only mode you can optionally include Night 1/2 location icons.\n" if ENABLE_OVERLAY_TEXT_ONLY_FEATURE else "")
@@ -10221,6 +10267,9 @@ def _overlay_process_queue(self) -> None:
                 self.start_or_restart_recognition()
             elif kind == "overlay_hotkey":
                 self.toggle_overlay()
+            elif kind == "hide_overlay_hotkey":
+                if not self.hotkey_listening and self.overlay_window.is_visible():
+                    self.hide_overlay()
             elif kind == "thumbnail_step":
                 self._cycle_thumbnail(item[1])
             elif kind == "result":
@@ -10264,6 +10313,10 @@ def _overlay_on_close(self) -> None:
         pass
     try:
         self.overlay_hotkey_manager.stop()
+    except Exception:
+        pass
+    try:
+        self.hide_overlay_hotkey_manager.stop()
     except Exception:
         pass
     _ORIG_GUI_CLOSE(self)
