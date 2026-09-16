@@ -1504,7 +1504,23 @@ def get_or_build_reference_cache(refs: Sequence[Tuple[int, Path]], cache_path: P
     return cache
 
 
-_DYNAMIC_RENDER_CACHE_ROOT = "tmp_dynamic_render_cache_v39"
+def _dynamic_render_cache_root_name() -> str:
+    """
+    Tie dynamic render cache namespace to renderer source content so cache
+    invalidates automatically whenever render_bosses_on_backgrounds.py changes.
+    """
+    base = "tmp_dynamic_render_cache_v39"
+    try:
+        renderer_path = Path(getattr(renderer, "__file__", "")).resolve()
+        if renderer_path.exists():
+            digest = hashlib.sha1(renderer_path.read_bytes()).hexdigest()[:10]
+            return f"{base}_{digest}"
+    except Exception:
+        pass
+    return base
+
+
+_DYNAMIC_RENDER_CACHE_ROOT = _dynamic_render_cache_root_name()
 
 
 def dynamic_render_cache_path(pattern_id: int, variant: str) -> Path:
