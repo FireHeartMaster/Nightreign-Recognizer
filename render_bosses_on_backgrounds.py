@@ -1797,6 +1797,11 @@ FINAL_BOSS_NAMES = {
     8: "Harmonia (Balancers)", 9: "Straghess (Dreglord)",
 }
 
+# SmallBaseAndSpotDefine row 1206 maps 5399 to icon 79 (gold-star merchant).
+# Cross-check: https://thefifthmatt.github.io/nightreign/pattern/1115.jpg
+# These rows have blank location names in the grouped layout JSON.
+GREAT_HOLLOW_SPECIAL_MERCHANT_MAP_ID = 5399
+
 
 @lru_cache(maxsize=1)
 def load_final_boss_names_by_pattern():
@@ -1813,6 +1818,35 @@ def load_final_boss_names_by_pattern():
                 raise ValueError(f"Conflicting final bosses for pattern {pattern_id}")
             names[pattern_id] = name
     return names
+
+
+def get_golden_merchant_rows(entry):
+    if str(entry.get("rareMap", "")).strip() != "Great Hollow":
+        return []
+    return [
+        row for row in entry.get("rows", [])
+        if str(row.get("smallBaseMapId", "")).strip() == str(GREAT_HOLLOW_SPECIAL_MERCHANT_MAP_ID)
+    ]
+
+
+def get_map_summary_lines(entry):
+    """Fixed headings shared by the composed map and text-only overlay."""
+    lines = []
+    final_boss_name = load_final_boss_names_by_pattern().get(int(entry["patternId"]))
+    if final_boss_name:
+        lines.append((f"Day 3: {final_boss_name}", "final_boss"))
+    has_township = any(
+        str(row.get("smallBaseLocationName", "")).strip() == "Township"
+        for row in entry.get("rows", [])
+    )
+    lines.append((f"Township: {'Yes' if has_township else 'No'}", "township_presence"))
+    if str(entry.get("rareMap", "")).strip() == "Great Hollow":
+        has_special_merchant = bool(get_golden_merchant_rows(entry))
+        lines.append((
+            f"Golden merchant: {'Yes' if has_special_merchant else 'No'}",
+            "special_merchant_presence",
+        ))
+    return lines
 
 
 def build_pattern_image_and_annotation(
@@ -1986,30 +2020,60 @@ def build_pattern_image_and_annotation(
     if render_labels and RENDER_ANY_TEXT and not HIDE_ALL_BOSSES_AND_ALL_TEXT:
         placed_label_boxes = []
         seen_labels = set()
-        final_boss_box = None
-        final_boss_name = (
-            load_final_boss_names_by_pattern().get(int(pattern_id))
-            if not under_target_only else None
-        )
-        if final_boss_name:
-            # Position inside the retained map, including Great Hollow's crop.
-            inset = int(CROP_BORDER_BY_RAREMAP.get(rare_map, 0)) + 16
-            text = f"Day 3: {final_boss_name}"
+        summary_box = None
+        # Position inside the retained map, including Great Hollow's crop.
+        inset = int(CROP_BORDER_BY_RAREMAP.get(rare_map, 0)) + 16
+        heading_y = inset
+        summary_lines = get_map_summary_lines(entry) if not under_target_only else []
+        for text, source in summary_lines:
             draw.text(
-                (inset, inset), text, font=boss_font, anchor="lt",
+                (inset, heading_y), text, font=boss_font, anchor="lt",
                 fill="white", stroke_fill="black", stroke_width=1,
             )
-            final_boss_box = draw.textbbox(
-                (inset, inset), text, font=boss_font, anchor="lt", stroke_width=1,
+            summary_box = draw.textbbox(
+                (inset, heading_y), text, font=boss_font, anchor="lt", stroke_width=1,
             )
-            placed_label_boxes.append(final_boss_box)
+            placed_label_boxes.append(summary_box)
             append_landmark(
-                landmarks, landmark_type="text", x=inset, y=inset,
+                landmarks, landmark_type="text", x=inset, y=heading_y,
                 width=IMAGE_W, height=IMAGE_H, text=text,
-                source="final_boss", source_id=pattern_id,
+                source=source, source_id=pattern_id,
             )
+            heading_y = summary_box[3] + 8
 
-        for item in label_queue:
+        merchant_labels = []
+        if not under_target_only:
+            marker_rows = [
+                (row, "Golden Merchant", "golden_merchant_marker")
+                for row in get_golden_merchant_rows(entry)
+            ]
+            marker_rows.extend(
+                (row, "Township", "township_marker")
+                for row in entry.get("rows", [])
+                if str(row.get("smallBaseLocationName", "")).strip() == "Township"
+            )
+            for row, marker_type, marker_source in marker_rows:
+                if row.get("X") in (None, "") or row.get("Z") in (None, ""):
+                    continue
+                px, py = world_to_image(row["X"], row["Z"])
+                # Draw in map coordinates before cropping/resizing, including
+                # text-only overlays where the normal POI icons are disabled.
+                radius = 11
+                draw.polygon(
+                    [(px, py-radius), (px+radius, py), (px, py+radius), (px-radius, py)],
+                    fill="#FFD34E", outline="black", width=3,
+                )
+                placed_label_boxes.append((px-radius, py-radius, px+radius, py+radius))
+                append_landmark(
+                    landmarks, landmark_type=marker_type, x=px, y=py,
+                    width=IMAGE_W, height=IMAGE_H,
+                    text="Golden merchant" if marker_source == "golden_merchant_marker" else "Township",
+                    source=marker_source, source_id=row.get("ID"),
+                )
+                if marker_source == "golden_merchant_marker":
+                    merchant_labels.append((px, py-32, "Golden merchant", boss_font, "golden_merchant_label", row.get("ID")))
+
+        for item in merchant_labels + label_queue:
             if len(item) == 6:
                 x, y, text, font, label_type, source_id = item
             else:
@@ -2019,11 +2083,11 @@ def build_pattern_image_and_annotation(
                 source_id = None
 
             align = "left" if label_type == "title" else "center"
-            if label_type == "title" and final_boss_box is not None:
-                # Keep the existing pattern title below the fixed boss heading.
+            if label_type == "title" and summary_box is not None:
+                # Keep the pattern title below all fixed summary headings.
                 _, title_box = get_label_bbox(draw, 0, 0, text, font, align="left")
                 x = inset
-                y = final_boss_box[3] + 12 + (title_box[3] - title_box[1]) / 2
+                y = summary_box[3] + 12 + (title_box[3] - title_box[1]) / 2
 
             label_key = (round(float(x), 3), round(float(y), 3), str(text).strip(), id(font))
             if label_key in seen_labels:
@@ -2045,7 +2109,10 @@ def build_pattern_image_and_annotation(
                 align=align,
             )
 
-            draw_label(draw, final_x, final_y, text, font, align=align)
+            draw_label(
+                draw, final_x, final_y, text, font, align=align,
+                fill="#FFD34E" if label_type == "golden_merchant_label" else "white",
+            )
             placed_label_boxes.append(final_bbox)
 
             append_landmark(
