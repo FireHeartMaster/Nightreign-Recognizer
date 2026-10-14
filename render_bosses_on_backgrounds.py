@@ -1803,6 +1803,29 @@ FINAL_BOSS_NAMES = {
 # These rows have blank location names in the grouped layout JSON.
 GREAT_HOLLOW_SPECIAL_MERCHANT_MAP_ID = 5399
 
+# LotResultMapPatternFlag modifier set 500 selects the active Rotted Woods
+# blessing. The event flags reproduce all 40 named base-game entries in
+# reference_material/pattern_layouts and also cover the ten DLC layouts.
+ROTTED_WOODS_BLESSING_MODIFIER_SET = 500
+ROTTED_WOODS_BLESSING_LOCATION_BY_EVENT_FLAG = {
+    1046300590: "Southwest",
+    1047300590: "West",
+    1057300590: "Northeast",
+}
+
+# Raw coordinates used by Nightreign Map Router for POIs 164-166. Router
+# stores points on a 1690-high canvas whose active horizontal map begins at
+# x=507. Convert them to this renderer's 1536x1536 working image before the
+# normal rare-map crop is applied.
+ROTTED_WOODS_BLESSING_ROUTER_COORDINATES = {
+    "Southwest": (1608.0, 1326.75),
+    "Northeast": (1895.0, 1028.0),
+    "West": (1463.75, 1118.0),
+}
+ROUTER_MAP_LEFT_BOUND = 507.0
+ROUTER_MAP_ACTIVE_WIDTH = 1690.0
+ROUTER_MAP_RAW_HEIGHT = 1690.0
+
 
 @lru_cache(maxsize=1)
 def load_final_boss_names_by_pattern():
@@ -1819,6 +1842,45 @@ def load_final_boss_names_by_pattern():
                 raise ValueError(f"Conflicting final bosses for pattern {pattern_id}")
             names[pattern_id] = name
     return names
+
+
+@lru_cache(maxsize=1)
+def load_rotted_woods_blessing_locations_by_pattern():
+    """Read each layout's Rotted Woods blessing location from the game table."""
+    locations = {}
+    table_path = Path(resource_path("LotResultMapPatternFlag.csv"))
+    if not table_path.exists():
+        return locations
+    with table_path.open(encoding="utf-8-sig", newline="") as table:
+        for row in csv.DictReader(table):
+            if int(row["modifierSet"]) != ROTTED_WOODS_BLESSING_MODIFIER_SET:
+                continue
+            location = ROTTED_WOODS_BLESSING_LOCATION_BY_EVENT_FLAG.get(int(row["eventFlag"]))
+            if location is None:
+                continue
+            pattern_id = int(row["patternId"])
+            if pattern_id in locations and locations[pattern_id] != location:
+                raise ValueError(f"Conflicting Rotted Woods blessings for pattern {pattern_id}")
+            locations[pattern_id] = location
+    return locations
+
+
+def get_rotted_woods_blessing_marker(entry):
+    """Return (location name, image x, image y) for a Rotted Woods layout."""
+    if str(entry.get("rareMap", "")).strip() != "Rotted Woods":
+        return None
+    try:
+        pattern_id = int(entry["patternId"])
+    except (KeyError, TypeError, ValueError):
+        return None
+    location = load_rotted_woods_blessing_locations_by_pattern().get(pattern_id)
+    raw_point = ROTTED_WOODS_BLESSING_ROUTER_COORDINATES.get(location)
+    if raw_point is None:
+        return None
+    raw_x, raw_y = raw_point
+    px = int(round(((raw_x - ROUTER_MAP_LEFT_BOUND) / ROUTER_MAP_ACTIVE_WIDTH) * IMAGE_W))
+    py = int(round((raw_y / ROUTER_MAP_RAW_HEIGHT) * IMAGE_H))
+    return location, px, py
 
 
 def get_golden_merchant_rows(entry):
@@ -2056,6 +2118,31 @@ def build_pattern_image_and_annotation(
 
         merchant_labels = []
         if not under_target_only:
+            rot_blessing_marker = get_rotted_woods_blessing_marker(entry)
+            if rot_blessing_marker is not None:
+                blessing_location, px, py = rot_blessing_marker
+                marker_img = get_row_icon("Mission_Objective")
+                if marker_img is not None:
+                    paste_centered(bg, marker_img, px, py)
+                    half_w = marker_img.width / 2
+                    half_h = marker_img.height / 2
+                    placed_label_boxes.append((
+                        px - half_w, py - half_h,
+                        px + half_w, py + half_h,
+                    ))
+                    append_landmark(
+                        landmarks,
+                        landmark_type="Rot Blessing",
+                        icon="Mission_Objective",
+                        x=px,
+                        y=py,
+                        width=IMAGE_W,
+                        height=IMAGE_H,
+                        text=f"Rot blessing ({blessing_location})",
+                        source="rot_blessing_marker",
+                        source_id=pattern_id,
+                    )
+
             marker_rows = [
                 (row, "Golden Merchant", "golden_merchant_marker")
                 for row in get_golden_merchant_rows(entry)

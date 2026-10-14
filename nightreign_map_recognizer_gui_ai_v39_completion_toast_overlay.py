@@ -2022,7 +2022,7 @@ class NightreignRecognizerGUI:
 
         self.results_hint_label = tk.Label(
             self.top_bar,
-            text="Top 5 matches (click to swap)",
+            text="Top 5 matches (click or use arrow keys to swap)",
             bg="#0f141b",
             fg="#9fb0c9",
             anchor="e",
