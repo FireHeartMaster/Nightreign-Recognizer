@@ -143,24 +143,24 @@ For an end-user-oriented walkthrough, see `README_end_user_exe.md`.
 
 ## Building the Windows application
 
-The v39 spec packages the GUI, icons, map assets, recognition metadata, scikit-learn models, PyTorch weights, specialized slot classifiers, and the Torch DLL runtime hook.
+The v40 spec packages the GUI, icons, map assets, recognition metadata, scikit-learn models, PyTorch weights, specialized slot classifiers, and the Torch DLL runtime hook.
 
 1. Set the desired flavor in `build_flavor.py`:
 
    ```python
-   BUILD_FLAVOR = "v39"  # or "DEMO"
+   BUILD_FLAVOR = "v40"  # or "DEMO"
    ```
 
 2. Build from the repository root:
 
    ```powershell
-   pyinstaller nightreign_v39.spec
+   pyinstaller nightreign_v40.spec
    ```
 
 3. Find the one-directory application under:
 
    ```text
-   dist/NightreignRecognizer_v39/
+   dist/NightreignRecognizer_v40/
    ```
 
 The demo flavor builds as `NightreignRecognizer_DEMO` and enables a pattern-ID whitelist by default. `PATTERN_ID_WHITELIST_OVERRIDE` in `build_flavor.py` can explicitly force that filter on or off.

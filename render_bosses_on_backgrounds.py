@@ -2111,7 +2111,10 @@ def build_pattern_image_and_annotation(
 
             draw_label(
                 draw, final_x, final_y, text, font, align=align,
-                fill="#FFD34E" if label_type == "golden_merchant_label" else "white",
+                fill="#FFD34E" if (
+                    label_type == "golden_merchant_label"
+                    or (label_type == "row_item" and text == "Township")
+                ) else "white",
             )
             placed_label_boxes.append(final_bbox)
 
