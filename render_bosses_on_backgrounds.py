@@ -1770,6 +1770,7 @@ boss_icon = boss_icon.resize((new_w, new_h), Image.Resampling.LANCZOS)
 
 title_font = load_font(28)
 boss_font = load_font(22)
+final_boss_font = load_font(44)
 
 # --------------------------------------------------
 # Render one image per patternId
@@ -1846,6 +1847,17 @@ def get_map_summary_lines(entry):
             f"Golden merchant: {'Yes' if has_special_merchant else 'No'}",
             "special_merchant_presence",
         ))
+
+    boss_summary_fields = (
+        ("Day 1", "bossId1Name", "day_1_boss"),
+        ("Day 1 extra", "extraBossId1Name", "day_1_extra_boss"),
+        ("Day 2", "bossId2Name", "day_2_boss"),
+        ("Day 2 extra", "extraBossId2Name", "day_2_extra_boss"),
+    )
+    for prefix, field_name, source in boss_summary_fields:
+        boss_name = str(entry.get(field_name, "") or "").strip()
+        if boss_name:
+            lines.append((f"{prefix}: {boss_name}", source))
     return lines
 
 
@@ -2026,12 +2038,13 @@ def build_pattern_image_and_annotation(
         heading_y = inset
         summary_lines = get_map_summary_lines(entry) if not under_target_only else []
         for text, source in summary_lines:
+            summary_font = final_boss_font if source == "final_boss" else boss_font
             draw.text(
-                (inset, heading_y), text, font=boss_font, anchor="lt",
+                (inset, heading_y), text, font=summary_font, anchor="lt",
                 fill="white", stroke_fill="black", stroke_width=1,
             )
             summary_box = draw.textbbox(
-                (inset, heading_y), text, font=boss_font, anchor="lt", stroke_width=1,
+                (inset, heading_y), text, font=summary_font, anchor="lt", stroke_width=1,
             )
             placed_label_boxes.append(summary_box)
             append_landmark(
