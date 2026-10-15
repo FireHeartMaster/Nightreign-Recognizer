@@ -92,7 +92,7 @@ The repository is intentionally artifact-heavy. A large part of it consists of t
 
 ## Requirements
 
-The current application is Windows-oriented. Its global hotkeys, transparent overlay behavior, taskbar identity, and PyInstaller build use Windows APIs.
+The current application is Windows-oriented. Its global hotkeys, transparent overlay behavior, taskbar identity, and PyInstaller build use Windows APIs. The v41 release was built and tested with **Python 3.13.1** and **pip 24.3.1**.
 
 Core runtime dependencies inferred from the active source are:
 
@@ -105,18 +105,25 @@ Core runtime dependencies inferred from the active source are:
 - scikit-learn
 - Tkinter (included with the standard Windows Python installer)
 
-PyInstaller is additionally required to create the executable. Some build metadata also names `torchaudio`, although the main runtime path does not import it directly.
+PyInstaller is additionally required to create the executable. Some build metadata also names `torchaudio`, although the tested v41 environment does not install it and the main runtime path does not import it.
 
-This repository currently has no `requirements.txt`, `pyproject.toml`, or lock file, so the original environment is not fully reproducible from a single command. A practical development setup is:
+[`requirements.txt`](requirements.txt) pins the complete runtime and PyInstaller dependency set from the environment used to build v41. It uses the official PyTorch CUDA 12.6 package index to reproduce the packaged GPU-enabled build.
+
+Create the environment and install the locked dependencies with:
 
 ```powershell
-py -m venv .venv
+# Confirm that the Python installation includes its required Tcl/Tk files.
+py -3.13 -c "import tkinter as tk; print(tk.Tcl().eval('info patchlevel'))"
+
+py -3.13 -m venv .venv
 .venv\Scripts\Activate.ps1
-python -m pip install --upgrade pip
-python -m pip install numpy pillow mss opencv-python scikit-learn torch torchvision pyinstaller
+python -m pip install pip==24.3.1
+python -m pip install -r requirements.txt
 ```
 
-Choose the PyTorch installation appropriate for your CPU/CUDA environment if you want GPU inference. The application automatically uses CUDA when `torch.cuda.is_available()` is true and otherwise runs on CPU.
+The Tcl/Tk check should print a version such as `8.6.15`. If it reports that `init.tcl` cannot be found, repair or reinstall Python with the **Tcl/Tk and IDLE** component before building; Tkinter and its Tcl/Tk runtime are supplied by Python rather than `pip`.
+
+The application automatically uses CUDA when `torch.cuda.is_available()` is true and otherwise runs on CPU. A different PyTorch build can be installed deliberately for another CUDA version or for CPU-only use, but that environment will differ from the locked v41 build environment.
 
 ## Running from source
 
