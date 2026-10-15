@@ -4613,7 +4613,13 @@ def load_layout_infer_bundle_for_earth(earth_name: str, ctx: Optional[RunContext
                 raise RuntimeError(f"Could not load spec from {lib_path}")
             lib_mod = importlib.util.module_from_spec(spec)
             sys.modules[module_name] = lib_mod
-            spec.loader.exec_module(lib_mod)
+            try:
+                spec.loader.exec_module(lib_mod)
+            except Exception:
+                # Do not leave a half-imported module behind. A later
+                # recognition run must be able to retry the import cleanly.
+                sys.modules.pop(module_name, None)
+                raise
         model = lib_mod.load_pickle(str(model_path))
     except Exception as exc:
         if ctx is not None:
@@ -4987,7 +4993,13 @@ def load_earth_selector_v2_bundle(ctx: Optional[RunContext] = None) -> dict:
             raise RuntimeError(f"Failed loading earth_selector_v2 module from {script_path}")
         mod = importlib.util.module_from_spec(spec)
         sys.modules[module_name] = mod
-        spec.loader.exec_module(mod)
+        try:
+            spec.loader.exec_module(mod)
+        except Exception:
+            # A failed dynamic import otherwise remains in sys.modules and a
+            # retry sees a partially initialized module with missing helpers.
+            sys.modules.pop(module_name, None)
+            raise
 
     with model_path.open("rb") as f:
         model = pickle.load(f)

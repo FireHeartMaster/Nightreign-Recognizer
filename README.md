@@ -2,7 +2,7 @@
 
 Nightreign Recognizer is a Windows desktop tool that identifies the currently displayed **Elden Ring Nightreign** map variation from a screenshot. It captures the selected monitor, isolates the in-game map panel, combines computer-vision and machine-learning classifiers to rank matching map layouts, and displays a completed reference map. It can also place the result in a configurable transparent overlay for use while playing.
 
-This repository is both the application source and its research workspace. The current application is the **v39 GUI**, while many older `v*`, `experimental_*`, `tmp_*`, training, rendering, and evaluation files preserve the iterations that led to it.
+This repository is both the application source and its research workspace. The current packaged application is **v41**; its main GUI source retains its historical v39 filename. Many older `v*`, `experimental_*`, `tmp_*`, training, rendering, and evaluation files preserve the iterations that led to it.
 
 > This is an independent fan project. It is not affiliated with or endorsed by FromSoftware, Bandai Namco, or the Nightreign Map Router project.
 
@@ -31,7 +31,7 @@ Saved values in `nightreign_settings.json` override these defaults.
 
 ## How recognition works
 
-The current v39 pipeline is hybrid rather than a single end-to-end neural network:
+The current pipeline is hybrid rather than a single end-to-end neural network:
 
 1. **Screen capture** — the GUI captures one monitor and keeps the same frame for both preview and inference.
 2. **Map-panel extraction** — Hough-circle detection searches the right side of the screenshot, estimates the surrounding panel, refines the crop, and normalizes it to the expected geometry.
@@ -42,15 +42,15 @@ The current v39 pipeline is hybrid rather than a single end-to-end neural networ
 7. **Result composition** — the highest-ranked layouts are associated with reference renders. `render_bosses_on_backgrounds.py` adds POIs, labels, night bosses, and optional text-only overlay content.
 8. **Presentation** — the GUI displays the result, alternatives, logs, a completion toast, and an optional transparent click-through overlay.
 
-The older backend in `recognize_nightreign_map_proto_v12_debugplus_radiusscale_fix.py` documents the geometric foundation clearly: it compares normalized terrain references, classifies six landmark families, refines uncertain slots through layout consensus, and computes a weighted score for every compatible layout. The v39 GUI extends that base with the newer learned earth, slot, status, and per-earth layout classifiers.
+The older backend in `recognize_nightreign_map_proto_v12_debugplus_radiusscale_fix.py` documents the geometric foundation clearly: it compares normalized terrain references, classifies six landmark families, refines uncertain slots through layout consensus, and computes a weighted score for every compatible layout. The current GUI extends that base with the newer learned earth, slot, status, and per-earth layout classifiers.
 
 ## Current entry points
 
 | File | Role |
 | --- | --- |
-| `nightreign_map_recognizer_gui_ai_v39_completion_toast_overlay.py` | Current v39 desktop application and runtime orchestrator |
-| `nightreign_v39.spec` | Current PyInstaller build definition and packaged asset manifest |
-| `build_flavor.py` | Selects the `v39` or `DEMO` build flavor and whitelist behavior |
+| `nightreign_map_recognizer_gui_ai_v39_completion_toast_overlay.py` | Current desktop application and runtime orchestrator (historical filename) |
+| `nightreign_v41.spec` | Current PyInstaller build definition and packaged asset manifest |
+| `build_flavor.py` | Selects the `v41` or `DEMO` build flavor and whitelist behavior |
 | `recognize_nightreign_map_proto_v12_debugplus_radiusscale_fix.py` | Geometric recognizer loaded by the GUI as its compatibility/backend layer |
 | `render_bosses_on_backgrounds.py` | Builds completed reference images and transparent text overlays |
 | `render_nightreign_router_map.py` | Production batch renderer for map layouts |
@@ -58,14 +58,14 @@ The older backend in `recognize_nightreign_map_proto_v12_debugplus_radiusscale_f
 | `icon_recognizer_v4.py` | OpenCV template-based icon/status recognition |
 | `Testing/run_parallel_panel_classifiers.py` | Runs the specialized slot/status classifiers used by the current pipeline |
 
-`nightreign_map_recognizer_gui.py`, `recognize_nightreign_map_proto.py`, and the many numbered files are earlier stable points or experiments. `__main__.py` still imports the v38 GUI and should be treated as a legacy wrapper; run the v39 file directly for the current application.
+`nightreign_map_recognizer_gui.py`, `recognize_nightreign_map_proto.py`, and the many numbered files are earlier stable points or experiments. `__main__.py` still imports the v38 GUI and should be treated as a legacy wrapper; run the current GUI file listed above directly.
 
 ## Repository layout
 
 ```text
 Nightreign-Recognizer/
 ├── nightreign_map_recognizer_gui_ai_v39_completion_toast_overlay.py
-├── nightreign_v39.spec
+├── nightreign_v41.spec
 ├── build_flavor.py
 ├── recognize_nightreign_map_proto_v12_debugplus_radiusscale_fix.py
 ├── render_nightreign_router_map.py
@@ -88,7 +88,7 @@ Nightreign-Recognizer/
 └── README_v38_DETAILED.md                # detailed v38 algorithms and data reference
 ```
 
-The repository is intentionally artifact-heavy. A large part of it consists of trained model weights, generated images, evaluation reports, extracted game tables, and one-off scripts used to investigate difficult layouts. For application work, begin with the files in the table above and the paths listed in `nightreign_v39.spec`.
+The repository is intentionally artifact-heavy. A large part of it consists of trained model weights, generated images, evaluation reports, extracted game tables, and one-off scripts used to investigate difficult layouts. For application work, begin with the files in the table above and the paths listed in `nightreign_v41.spec`.
 
 ## Requirements
 
@@ -143,24 +143,24 @@ For an end-user-oriented walkthrough, see `README_end_user_exe.md`.
 
 ## Building the Windows application
 
-The v40 spec packages the GUI, icons, map assets, recognition metadata, scikit-learn models, PyTorch weights, specialized slot classifiers, and the Torch DLL runtime hook.
+The v41 spec packages the GUI, icons, map assets, recognition metadata, scikit-learn models, PyTorch weights, specialized slot classifiers, and the Torch DLL runtime hook.
 
 1. Set the desired flavor in `build_flavor.py`:
 
    ```python
-   BUILD_FLAVOR = "v40"  # or "DEMO"
+   BUILD_FLAVOR = "v41"  # or "DEMO"
    ```
 
 2. Build from the repository root:
 
    ```powershell
-   pyinstaller nightreign_v40.spec
+   pyinstaller nightreign_v41.spec
    ```
 
 3. Find the one-directory application under:
 
    ```text
-   dist/NightreignRecognizer_v40/
+   dist/NightreignRecognizer_v41/
    ```
 
 The demo flavor builds as `NightreignRecognizer_DEMO` and enables a pattern-ID whitelist by default. `PATTERN_ID_WHITELIST_OVERRIDE` in `build_flavor.py` can explicitly force that filter on or off.
@@ -219,10 +219,10 @@ Git records the initial repository on **2 April 2026**, the first base applicati
 The [archived v38-era technical reference](docs/legacy/technical-reference-v38.md) preserves the previous README, including its detailed algorithms, CSV schemas, configuration examples, and troubleshooting guidance. It is historical and contains outdated information; verify it against the current source before use.
 
 - There is no conventional automated unit-test suite. Validation is primarily performed through smoke scripts, batch evaluations, saved JSON reports, debug overlays, and screenshot datasets.
-- Most `tmp_*` directories are experiment outputs rather than runtime dependencies. Do not assume one is disposable without checking `nightreign_v39.spec` and the v39 source; several trained models currently live under historically named temporary directories.
+- Most `tmp_*` directories are experiment outputs rather than runtime dependencies. Do not assume one is disposable without checking `nightreign_v41.spec` and the current GUI source; several trained models currently live under historically named temporary directories.
 - The active GUI file contains multiple generations of functions, with later definitions intentionally overriding earlier compatibility implementations. Search for the final definition when tracing behavior.
 - `nightreign_settings.json`, log files, generated renders, model outputs, and local build directories may change during normal use.
-- Existing detailed documents are mostly v38-era references. `README_v38_DETAILED.md` remains useful for formulas, tuning parameters, and CSV relationships, but the v39 source and spec are authoritative for the packaged application.
+- Existing detailed documents are mostly v38-era references. `README_v38_DETAILED.md` remains useful for formulas, tuning parameters, and CSV relationships, but the current GUI source and v41 spec are authoritative for the packaged application.
 
 ## Data and legal notice
 

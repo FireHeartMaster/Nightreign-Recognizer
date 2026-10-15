@@ -3,10 +3,10 @@ Single source of truth for build/runtime flavor.
 
 Valid values used currently:
 - "DEMO"
-- "v40"
+- "v41"
 """
 
-BUILD_FLAVOR = "v40"
+BUILD_FLAVOR = "v41"
 
 # Optional runtime override for patternId whitelist filter in GUI/runtime code.
 # - None  -> follow flavor default
